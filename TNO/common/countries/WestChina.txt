@@ -2,14 +2,14 @@
 
 #========================= H E A D E R =========================
 
-color = { 50  50  50 }
-graphical_culture = PrussianGC
+color = { 255  140  0 }
+graphical_culture = ChineseGC
 
 
 #========================= P A R T I E S =========================
 
 party = {
-name = "HGE_conservative_92"
+name = "WCH_conservative_92"
 start_date = 1700.1.1
 end_date = 2000.1.1
 ideology = conservative
@@ -20,7 +20,7 @@ citizenship_policy = limited_citizenship
 war_policy = pro_military
 }
 party = {
-name = "HGE_liberal_79"
+name = "WCH_liberal_79"
 start_date = 1750.1.1
 end_date = 2000.1.1
 ideology = liberal
@@ -31,7 +31,7 @@ citizenship_policy = limited_citizenship
 war_policy = anti_military
 }
 party = {
-name = "HGE_liberal_87"
+name = "WCH_liberal_87"
 start_date = 1800.1.1
 end_date = 2000.1.1
 ideology = liberal
@@ -42,7 +42,7 @@ citizenship_policy = limited_citizenship
 war_policy = pro_military
 }
 party = {
-name = "HGE_socialist_85"
+name = "WCH_socialist_85"
 start_date = 1750.1.1
 end_date = 2000.1.1
 ideology = socialist
@@ -53,7 +53,7 @@ citizenship_policy = full_citizenship
 war_policy = anti_military
 }
 party = {
-name = "HGE_socialist_99"
+name = "WCH_socialist_99"
 start_date = 1800.1.1
 end_date = 2000.1.1
 ideology = socialist
@@ -64,7 +64,7 @@ citizenship_policy = limited_citizenship
 war_policy = pro_military
 }
 party = {
-name = "HGE_reactionary_84"
+name = "WCH_reactionary_84"
 start_date = 1700.1.1
 end_date = 2000.1.1
 ideology = reactionary
@@ -75,7 +75,7 @@ citizenship_policy = residency
 war_policy = jingoism
 }
 party = {
-name = "HGE_anarcho_liberal_93"
+name = "WCH_anarcho_liberal_93"
 start_date = 1850.1.1
 end_date = 2000.1.1
 ideology = anarcho_liberal
@@ -86,7 +86,7 @@ citizenship_policy = full_citizenship
 war_policy = pro_military
 }
 party = {
-name = "HGE_communist_86"
+name = "WCH_communist_86"
 start_date = 1850.1.1
 end_date = 2000.1.1
 ideology = communist
@@ -97,7 +97,7 @@ citizenship_policy = full_citizenship
 war_policy = pro_military
 }
 party = {
-name = "HGE_fascist_72"
+name = "WCH_fascist_72"
 start_date = 1850.1.1
 end_date = 2000.1.1
 ideology = fascist

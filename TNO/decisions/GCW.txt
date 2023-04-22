@@ -128,5 +128,44 @@ political_decisions = {
 			}
 		}
 	}
+
+	bge_wp = {
+		potential = {
+			tag = BGE
+			OR = {
+				HGE = {has_country_flag = brg_assist}
+				SGE = {has_country_flag = pup_assist}
+			}
+			NOT = {has_country_flag = bge_peace}
+		}
+		allow = {
+			OR = {
+				BRG = {
+					has_country_flag = refused_german_peace
+				}
+				POL = {
+					has_country_flag = refused_german_peace
+				}
+				BLT = {
+					has_country_flag = refused_german_peace
+				}
+				MSC = {
+					has_country_flag = refused_german_peace
+				}
+				UKR = {
+					has_country_flag = refused_german_peace
+				}
+				BOH = {
+					has_country_flag = refused_german_peace
+				}
+			}
+		}
+		effect = {
+			set_country_flag = bge_peace
+			GGE = {
+				country_event = 500039
+			}
+		}
+	}
 }
 

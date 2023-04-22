@@ -82,6 +82,15 @@ country_event = {
 				tag = GGE
 				exists = GGE
 				exists = BGE
+				OR = {
+					NOT = {has_country_flag = bge_peace}
+					AND = {
+						NOT = {exists = SGE}
+						NOT = {exists = HGE}
+					}
+				}
+				
+				
 			}
 			war = {
 				target = BGE
@@ -518,5 +527,44 @@ country_event = {
 	}
 	option = {
 		name = "oh well"
+	}
+}
+
+country_event = {
+	id = 500039
+	title = "Bormann has proposed a truce!"
+	desc = "With the intervention of the rest of the German sphere there is now no reason for us to not set aside our differences and work together for now. Bormann has proposed that we cease our hostilities until Speer and Heydrich are dealt with."
+	is_triggered_only = yes
+
+	option = {
+		name = "It is the only way."
+		end_war = BGE
+		set_country_flag = bge_peace
+		ai_chance = {
+			factor = 0.5
+			modifier = {
+				factor = 3
+				war_with = BRG
+			}
+			modifier = {
+				factor = 3
+				OR = {
+					war_with = BLT
+					war_with = BOH
+					war_with = POL
+					war_with = UKR
+					war_with = MSC
+				}
+				
+			}
+		}
+	}
+
+
+	option = {
+		name = "Idiotic!"
+		ai_chance = {
+			factor = 0.5
+		}
 	}
 }

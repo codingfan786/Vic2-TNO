@@ -1,0 +1,176 @@
+political_decisions = {
+	tibet_accept = {
+		potential = {
+			tag = YNN
+			NOT = {
+				accepted_culture = tibetan
+			}
+		}
+		allow = {
+			OR = {
+				1587 = {
+					owner = {
+						tag = YNN
+					}
+				}
+				TIB = {vassal_of = THIS}
+			}
+			
+
+			state_n_government = 1
+		}
+		effect = {
+			TIB = {
+				all_core = {
+					add_core = YNN
+				}
+			}
+			inherit = TIB
+			add_accepted_culture = tibetan
+		}
+	}
+
+	turk_accept = {
+		potential = {
+			tag = XIN
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			add_accepted_culture = turkmen
+		}
+	}
+
+	west_china = {
+		potential = {
+			OR = {
+				tag = XBI
+				tag = XIN
+				tag = YNN
+			}
+			NOT = {exists = WCH}
+		}
+		allow = {
+			XBI = {
+				OR = {
+					all_core = {
+						owner = {tag = THIS}
+					}
+					vassal_of = THIS
+				}
+			}
+			XIN = {
+				OR = {
+					all_core = {
+						owner = {tag = THIS}
+					}
+					vassal_of = THIS
+				}
+			}
+			YNN = {
+				OR = {
+					all_core = {
+						owner = {tag = THIS}
+					}
+					vassal_of = THIS
+				}
+			}
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					tag = XBI
+				}
+				THIS = {inherit = XBI}
+			}
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					tag = XIN
+				}
+				THIS = {inherit = XIN}
+			}
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					tag = YNN
+				}
+				THIS = {inherit = YNN}
+			}
+
+			YNN = {
+				all_core = {
+					add_core = WCH
+					remove_core = YNN
+				}
+			}
+			XIN = {
+				all_core = {
+					add_core = WCH
+					remove_core = XIN
+				}
+			}
+			XBI = {
+				all_core = {
+					add_core = WCH
+					remove_core = XBI
+				}
+			}
+			add_accepted_culture = beifaren
+			add_accepted_culture = nanfaren
+
+			change_tag = WCH
+		}
+	}
+
+	ai_wch = {
+		potential = {
+			ai = yes
+			OR = {
+				tag = XBI
+				tag = XIN
+				tag = YNN
+			}
+			NOT = {exists = WCH}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			XBI = {
+				ai = yes
+			}
+			XIN = {
+				ai = yes
+			}
+			YNN = {
+				ai = yes
+			}
+		}
+		effect = {
+			YNN = {
+				all_core = {
+					add_core = WCH
+					#remove_core = YNN
+				}
+			}
+			XIN = {
+				all_core = {
+					add_core = WCH
+					#remove_core = XIN
+				}
+			}
+			XBI = {
+				all_core = {
+					add_core = WCH
+					#remove_core = XBI
+				}
+			}
+			change_tag = WCH
+		}
+	}
+
+	
+	
+}

@@ -53,6 +53,9 @@ PHR = "countries/JapPhi.txt"
 
 CBR = "countries/ColBri.txt"
 
+WCH = "countries/WestChina.txt"
+
+
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
 RUS		= "countries/Russia.txt"

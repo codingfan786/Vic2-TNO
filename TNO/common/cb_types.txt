@@ -1817,29 +1817,35 @@ tiny_conquest = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
-		NOT = { number_of_states = 5 }
-		NOT = {total_pops = 300000}
 		OR = {
 			AND = {
-				civilized = yes
-				NOT = { number_of_states = 2 }
-			}
-			AND = {
-				civilized = no
-				THIS = { civilized = no }
-				NOT = { number_of_states = 2 }
-			}
-			AND = {
-				civilized = no
-				number_of_states = 2
-				THIS = {
-					OR = {
-						NOT = { is_greater_power = yes }
-						NOT = { nationalism_n_imperialism = 1 }
+				NOT = { number_of_states = 5 }
+				NOT = {total_pops = 300000}
+				OR = {
+					AND = {
+						civilized = yes
+						NOT = { number_of_states = 2 }
+					}
+					AND = {
+						civilized = no
+						THIS = { civilized = no }
+						NOT = { number_of_states = 2 }
+					}
+					AND = {
+						civilized = no
+						number_of_states = 2
+						THIS = {
+							OR = {
+								NOT = { is_greater_power = yes }
+								NOT = { nationalism_n_imperialism = 1 }
+							}
+						}
 					}
 				}
 			}
+			NOT = {number_of_states = 2}
 		}
+		
 		is_independant = yes
 	}
 
