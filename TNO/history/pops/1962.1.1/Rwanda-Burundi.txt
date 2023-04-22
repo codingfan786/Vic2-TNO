@@ -1,0 +1,148 @@
+#Ruanda-Urundi Region (944000)  
+#uncolonized in 1836/ruled by kingdom of Rwanda
+#Kigali (496000/124000 POPS) 
+2034 = {
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 1050
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 6000
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 2450
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	bureaucrats = {
+		culture = bantu
+		religion = animist
+		size = 25
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	officers = {
+		culture = bantu
+		religion = animist
+		size = 125
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 1750
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 6200
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 1250
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 113200
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+}
+#uncolonized in 1836/ruled by kingdom of Burundi
+#Usumbura (448000/112000 POPS) 
+2035 = {
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 1050
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 6000
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 2175
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	bureaucrats = {
+		culture = bantu
+		religion = animist
+		size = 15
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	officers = {
+		culture = bantu
+		religion = animist
+		size = 110
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 1125
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 5600
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 1125
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 101850
+		militancy = 8 
+		rebel_type = liberal_rebels
+	}
+
+}

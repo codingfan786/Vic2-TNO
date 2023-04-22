@@ -1,0 +1,8 @@
+owner = COR
+controller = COR
+
+
+
+trade_goods = grain
+life_rating = 35
+2161.1.1 = { railroad = 3 }

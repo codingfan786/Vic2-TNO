@@ -1,0 +1,30 @@
+owner = ROM
+controller = ROM
+add_core = ROM
+add_core = WAL
+
+
+
+trade_goods = oil
+life_rating = 35
+
+state_building = {
+	level = 1
+	building = artillery_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = explosives_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

@@ -1,0 +1,19 @@
+owner = ITA
+controller = ITA
+add_core = ITA
+add_core = VEN
+
+
+
+trade_goods = grain
+life_rating = 35
+naval_base = 2
+#state_building = {
+#	level = 1
+#	building = liquor_distillery
+#	upgrade = yes
+#}
+2161.1.1 = { 
+	railroad = 2
+	naval_base = 3
+}

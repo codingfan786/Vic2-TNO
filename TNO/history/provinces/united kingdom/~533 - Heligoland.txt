@@ -1,0 +1,8 @@
+owner = ENG
+controller = ENG
+add_core = GER
+
+
+trade_goods = fish
+life_rating = 35
+terrain = plains

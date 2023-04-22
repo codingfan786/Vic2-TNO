@@ -1,0 +1,114 @@
+FED = {
+	value = 50
+}
+USA = {
+	value = 50
+}
+army = {
+	name = "1a Armata" #done
+	location = 1074
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 2640
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 2639
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 2618
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 2638
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1073
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 2634
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 2663
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 2616
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 2633
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1074
+	}
+}
+
+navy = {
+	name = "Submarine Group"
+	location = 1074
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+}

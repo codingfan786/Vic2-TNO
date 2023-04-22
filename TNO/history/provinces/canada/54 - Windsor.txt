@@ -1,0 +1,27 @@
+
+
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = electric_gear_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = radio_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = telephone_factory
+	upgrade = yes
+}
+trade_goods = grain
+life_rating = 35
+owner = CAN
+controller = CAN
+add_core = CAN

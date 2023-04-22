@@ -1,0 +1,68 @@
+YNN = {
+	value = -50
+	truce_until = "1967.1.1"
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 2062
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 2062
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1561
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1492
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1492
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1559
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1559
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1562
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1562
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1489
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1490
+	}
+}

@@ -1,0 +1,35 @@
+owner = JAP
+controller = JAP
+add_core = JAP
+trade_goods = tea
+life_rating = 35
+state_building = {
+	level = 1
+	building = aeroplane_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steamer_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = artillery_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fuel_refinery
+	upgrade = yes
+}

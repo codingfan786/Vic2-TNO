@@ -1,0 +1,47 @@
+owner = ITA
+controller = ITA
+add_core = LBY
+
+trade_goods = fruit
+life_rating = 35
+naval_base = 1
+state_building = {
+	level = 1
+	building = liquor_distillery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = aeroplane_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = regular_clothes_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steamer_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fuel_refinery
+	upgrade = yes
+}

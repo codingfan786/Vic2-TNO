@@ -1,0 +1,132 @@
+political_decisions = {
+	victory_in_the_gcw = {
+		potential = {
+			exists = GER
+			OR = {
+				tag = GGE
+				tag = BGE
+				tag = SGE
+				tag = HGE
+			}
+		}
+		allow = {
+			OR = {
+				AND = {
+					tag = GGE
+					NOT = {exists = BGE}
+					NOT = {exists = SGE}
+					NOT = {exists = HGE}
+				}
+				AND = {
+					tag = SGE
+					NOT = {exists = BGE}
+					NOT = {exists = GGE}
+					NOT = {exists = HGE}
+				}
+				AND = {
+					tag = HGE
+					NOT = {exists = BGE}
+					NOT = {exists = SGE}
+					NOT = {exists = GGE}
+				}
+				AND = {
+					tag = BGE
+					NOT = {exists = GGE}
+					NOT = {exists = SGE}
+					NOT = {exists = HGE}
+				}
+			}
+		}
+		effect = {
+			remove_country_modifier = sge_mobbuff
+			prestige = 30
+			any_country = {
+				limit = {
+					vassal_of = GER
+				}
+				country_event = 500001
+			}
+			GER = {all_core={add_core = THIS}}
+			inherit = GER
+			diplomatic_influence = {
+				who = WGA
+				value = 600
+			}
+			diplomatic_influence = {
+				who = EGA
+				value = 600
+			}
+		}
+	}
+
+	brg_assistance = {
+		potential = {
+			tag = HGE
+		    exists = GER
+		    NOT = {has_country_flag = brg_assist}
+		}
+		allow = {
+			OR = {
+				year = 1963
+				month = 1
+			}
+		}
+		effect = {
+			set_country_flag = brg_assist
+			BRG = {
+				country_event = 500030
+			}
+		}
+	}
+
+	pup_assistance = {
+		potential = {
+			tag = SGE
+		    exists = GER
+		    NOT = {has_country_flag = pup_assist}
+		}
+		allow = {
+			OR = {
+				year = 1963
+				month = 1
+			}
+		}
+		effect = {
+			set_country_flag = pup_assist
+			any_country = {
+				limit = {
+					OR = {
+						tag = POL
+						tag = BOH
+						tag = SLV
+						tag = UKR
+						tag = BLT
+						tag = MSC
+					}
+					is_vassal = yes
+				}
+				country_event = 500031
+			}
+		}
+	}
+
+
+
+	gcwmobbuff = {
+		potential = {
+			tag = SGE
+			NOT = {has_country_flag = mobbuffed}
+		}
+		allow = {
+
+		}
+		effect = {
+			set_country_flag = mobbuffed
+			add_country_modifier = {
+				name = sge_mobbuff
+				duration = 1825
+			}
+		}
+	}
+}
+

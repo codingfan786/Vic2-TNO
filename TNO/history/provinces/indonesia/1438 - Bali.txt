@@ -1,0 +1,6 @@
+owner = EIC
+controller = EIC
+add_core = BAL
+add_core = EIC
+trade_goods = fish
+life_rating = 30

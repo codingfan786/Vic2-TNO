@@ -1,0 +1,7 @@
+owner = BGE
+controller = BGE
+add_core = BGE
+add_core = AUS
+
+trade_goods = coal
+life_rating = 35

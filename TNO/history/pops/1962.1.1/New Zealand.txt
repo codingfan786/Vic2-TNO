@@ -1,0 +1,329 @@
+#New Zealand : 85000
+#uncolonized in 1836
+#North Island Region (61000)
+#Auckland (17000/4250 POPS)
+2509 = {
+	capitalists = {
+		culture = british
+		religion = protestant
+		size = 2000
+	}
+	craftsmen={
+		culture = british
+		religion = protestant
+		size = 10000
+	}
+	aristocrats = {
+		culture = british
+		religion = animist
+		size = 2500
+	}
+
+	clergymen = {
+		culture = british
+		religion = animist
+		size = 3750
+	}
+
+	artisans = {
+		culture = british
+		religion = animist
+		size = 10000
+	}
+
+	soldiers = {
+		culture = british
+		religion = animist
+		size = 5000
+	}
+
+	farmers = {
+		culture = british
+		religion = animist
+		size = 178750
+	}
+
+	farmers = {
+		culture = british
+		religion = protestant
+		size = 12500
+	}
+}
+#New Plymouth (8000/2000 POPS)
+2510 = {
+	craftsmen = {
+		culture = british
+		religion = protestant
+		size = 10000
+	}
+	aristocrats = {
+		culture = british
+		religion = animist
+		size = 1250
+	}
+
+	clergymen = {
+		culture = british
+		religion = animist
+		size = 2500
+	}
+
+	artisans = {
+		culture = british
+		religion = animist
+		size = 5000
+	}
+
+	soldiers = {
+		culture = british
+		religion = animist
+		size = 2500
+	}
+
+	farmers = {
+		culture = british
+		religion = animist
+		size = 88750
+	}
+}
+#Napier (12000/3000 POPS)
+2511 = {
+	craftsmen = {
+		culture = british
+		religion = protestant
+		size = 10000
+	}
+	aristocrats = {
+		culture = british
+		religion = animist
+		size = 1250
+	}
+
+	clergymen = {
+		culture = british
+		religion = animist
+		size = 3750
+	}
+
+	artisans = {
+		culture = british
+		religion = animist
+		size = 7500
+	}
+
+	soldiers = {
+		culture = british
+		religion = animist
+		size = 3750
+	}
+
+	farmers = {
+		culture = british
+		religion = animist
+		size = 133750
+	}
+}
+#Wellington (12000/3000 POPS)
+2512 = {
+	craftsmen = {
+		culture = british
+		religion = protestant
+		size = 10000
+	}
+	aristocrats = {
+		culture = british
+		religion = animist
+		size = 1250
+	}
+
+	clergymen = {
+		culture = british
+		religion = animist
+		size = 3750
+	}
+
+	artisans = {
+		culture = british
+		religion = animist
+		size = 7500
+	}
+
+	soldiers = {
+		culture = british
+		religion = animist
+		size = 3750
+	}
+
+	farmers = {
+		culture = british
+		religion = animist
+		size = 133750
+	}
+}
+#Tauranga (12000/3000 POPS)
+2571 = {
+	craftsmen = {
+		culture = british
+		religion = protestant
+		size = 10000
+	}
+	aristocrats = {
+		culture = british
+		religion = animist
+		size = 1250
+	}
+
+	clergymen = {
+		culture = british
+		religion = animist
+		size = 3750
+	}
+
+	artisans = {
+		culture = british
+		religion = animist
+		size = 7500
+	}
+
+	soldiers = {
+		culture = british
+		religion = animist
+		size = 3750
+	}
+
+	farmers = {
+		culture = british
+		religion = animist
+		size = 133750
+	}
+
+}
+#South Island Region (24000)
+#Dunedin (4000/1000 POPS)
+2513 = {
+	aristocrats = {
+		culture = british
+		religion = animist
+		size = 500
+	}
+
+	clergymen = {
+		culture = british
+		religion = animist
+		size = 1250
+	}
+
+	artisans = {
+		culture = british
+		religion = animist
+		size = 2500
+	}
+
+	soldiers = {
+		culture = british
+		religion = animist
+		size = 750
+	}
+
+	farmers = {
+		culture = british
+		religion = animist
+		size = 45000
+	}
+}
+#Hokitikia (4000/1000 POPS)
+2514 = {
+	aristocrats = {
+		culture = british
+		religion = animist
+		size = 500
+	}
+
+	clergymen = {
+		culture = british
+		religion = animist
+		size = 1250
+	}
+
+	artisans = {
+		culture = british
+		religion = animist
+		size = 2500
+	}
+
+	soldiers = {
+		culture = british
+		religion = animist
+		size = 750
+	}
+
+	farmers = {
+		culture = british
+		religion = animist
+		size = 45000
+	}
+}
+#Christchurch (4000/1000 POPS)
+2515 = {
+	aristocrats = {
+		culture = british
+		religion = animist
+		size = 1250
+	}
+
+	clergymen = {
+		culture = british
+		religion = animist
+		size = 2500
+	}
+
+	artisans = {
+		culture = british
+		religion = animist
+		size = 5000
+	}
+
+	soldiers = {
+		culture = british
+		religion = animist
+		size = 2500
+	}
+
+	farmers = {
+		culture = british
+		religion = animist
+		size = 88750
+	}
+}
+#Nelson (12000/3000 POPS)
+2516 = {
+	aristocrats = {
+		culture = british
+		religion = animist
+		size = 1250
+	}
+
+	clergymen = {
+		culture = british
+		religion = animist
+		size = 3750
+	}
+
+	artisans = {
+		culture = british
+		religion = animist
+		size = 7500
+	}
+
+	soldiers = {
+		culture = british
+		religion = animist
+		size = 3750
+	}
+
+	farmers = {
+		culture = british
+		religion = animist
+		size = 133750
+	}
+}

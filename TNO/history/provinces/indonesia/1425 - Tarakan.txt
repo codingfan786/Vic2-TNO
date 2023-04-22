@@ -1,0 +1,7 @@
+owner = EIC
+controller = EIC
+add_core = EIC
+trade_goods = oil
+life_rating = 15
+
+add_core = BRU

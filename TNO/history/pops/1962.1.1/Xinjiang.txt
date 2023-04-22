@@ -1,0 +1,715 @@
+#Xinjiang Region (1356000)
+#under the "rule" of China in 1836
+#Kashgar (268000/67000 POPS)
+1594 = {
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 7700
+	}
+
+	bureaucrats = {
+		culture = beifaren
+		religion = sunni
+		size = 1750
+	}
+
+	officers = {
+		culture = beifaren
+		religion = sunni
+		size = 2275
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 3675
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 18200
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 3675
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 327425
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = animist
+		size = 1575
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = animist
+		size = 875
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = animist
+		size = 4025
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = animist
+		size = 700
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = animist
+		size = 76825
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 3500
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 10150
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 175
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 6825
+	}
+}
+#Ili (168000/42000 POPS)
+1595 = {
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 4025
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 2100
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 10500
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 2100
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 191275
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = sunni
+		size = 700
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 2100
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = sunni
+		size = 525
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 38325
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 140
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 140
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 350
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 70
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 6300
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 700
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 350
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 1750
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 350
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 31850
+	}
+}
+#Tulta (88000/22000 POPS)
+1596 = {
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 875
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 525
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 2450
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 525
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 44625
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = sunni
+		size = 875
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 525
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 2450
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = sunni
+		size = 525
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 44625
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 140
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 140
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 350
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 70
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 6300
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 875
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 525
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 2450
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 525
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 44625
+	}
+}
+#Aksu (192000/48000 POPS)
+1597 = {
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 6650
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 3500
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 16800
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 3500
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 305550
+	}
+}
+#Khotan (88000/22000 POPS)
+1598 = {
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 2975
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 1575
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 7700
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 1575
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 140175
+	}
+}
+#Kumul (188000/47000 POPS)
+1599 = {
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 5950
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 2975
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 15050
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 2975
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 274400
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 350
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 525
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 1050
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 175
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 18900
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 175
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 350
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 175
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 6300
+	}
+}
+#Urumqi (332000/83000 POPS)
+1600 = {
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 8400
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 4200
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 23100
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 4725
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 421575
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 875
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 525
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 2800
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 525
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 51275
+	}
+
+	bureaucrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 350
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 350
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 1050
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 350
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 19250
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 175
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 350
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 700
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 175
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 12600
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = sunni
+		size = 525
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 525
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 1400
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = sunni
+		size = 350
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 25200
+	}
+}
+#Lopnur (32000/8000 POPS)
+2607 = {
+	aristocrats = {
+		culture = beifaren
+		religion = sunni
+		size = 525
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 350
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 1750
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 350
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 32025
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 350
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 525
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 1050
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 175
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 18900
+	}
+
+}

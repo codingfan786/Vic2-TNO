@@ -1,0 +1,8 @@
+owner = DAI
+controller = DAI
+add_core = DAI
+
+
+
+trade_goods = rubber
+life_rating = 30

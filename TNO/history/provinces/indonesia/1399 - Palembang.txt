@@ -1,0 +1,11 @@
+owner = EIC
+controller = EIC
+add_core = EIC
+trade_goods = oil
+life_rating = 30
+ state_building = {
+	level = 1
+	building = fuel_refinery
+	upgrade = yes
+}
+add_core = ATJ

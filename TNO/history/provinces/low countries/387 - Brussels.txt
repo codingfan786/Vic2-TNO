@@ -1,0 +1,48 @@
+owner = BRG
+controller = BRG
+add_core = BEL
+
+
+
+
+trade_goods = sulphur
+life_rating = 35
+railroad = 1
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = cement_factory
+	upgrade = yes
+}
+2161.1.1 = {
+	state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+}
+2161.1.1 = { railroad = 3 }

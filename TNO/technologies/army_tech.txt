@@ -1,0 +1,1469 @@
+#army_doctrine
+post_napoleonic_thought = {
+	area = army_doctrine
+	year = 1962
+	cost = 3600
+	unciv_military = yes
+
+	activate_building = fort
+	activate_unit = artillery	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.10
+	}
+	dig_in_cap = 1
+	
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.1
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+	}
+}
+
+strategic_mobility = {
+	area = army_doctrine
+	year = 1962
+	cost = 7200
+	unciv_military = yes
+	
+	army_base = {
+		supply_consumption = 0.10
+	}
+	max_fort = 1
+	dig_in_cap = 1
+	
+	artillery = {
+		attack = 0.25
+		support = 0.5
+		supply_consumption = 0.15
+	}
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.1
+			year = 1966
+		}
+		modifier = {
+			factor = 2
+			year = 1976
+		}
+		modifier = {
+			factor = 1.1
+			is_greater_power = yes
+		}
+	}
+}
+
+point_defense_system = {
+	area = army_doctrine
+	year = 1976
+	cost = 10800
+	unciv_military = yes
+	
+	army_base = {
+		supply_consumption = 0.20
+	} 
+	max_fort = 1
+	dig_in_cap = 1
+
+	artillery = {
+		attack = 0.25
+		support = 0.5
+		supply_consumption = 0.3
+	}
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.1
+			year = 1986
+		}
+		modifier = {
+			factor = 2
+			year = 1996
+		}
+		modifier = {
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			is_greater_power = yes
+		}
+	}
+
+}
+deep_defense_system = {
+	area = army_doctrine
+	year = 1996
+	cost = 14400
+	unciv_military = yes
+	
+	army_base = {
+		supply_consumption = 0.20
+	} 
+	max_fort = 1
+	dig_in_cap = 1
+	
+	artillery = {
+		attack = 0.5
+		support = 0.5
+		supply_consumption = 0.3
+	}
+
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.1
+			year = 2001
+		}
+		modifier = {
+			factor = 2
+			year = 2006
+		}
+		modifier = {
+			factor = 1.4
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.1
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+	}
+}
+infiltration = {
+	area = army_doctrine
+	year = 2026
+	cost = 18000
+	unciv_military = yes
+		
+	army_base = {
+		supply_consumption = 0.20
+	} 
+	
+	max_fort = 1
+	dig_in_cap = 1
+
+	artillery = {
+		attack = 0.5
+		defence = 2
+		support = 1
+		supply_consumption = 0.3
+	}
+
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.1
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+	}
+
+}
+modern_army_doctrine = {
+	area = army_doctrine
+	year = 2045
+	cost = 21600
+	unciv_military = yes
+	
+	army_base = {
+		supply_consumption = 0.20
+	} 
+	
+	max_fort = 1
+	dig_in_cap = 1
+
+	artillery = {
+		attack = 0.5
+		defence = 2
+		support = 1
+		supply_consumption = 0.3
+	}
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.1
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+	}
+}
+
+
+#light_armament
+flintlock_rifles = {
+	area = light_armament
+	year = 1962
+	cost = 3600
+	unciv_military = yes
+	
+	activate_unit = infantry
+	combat_width = -2
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+	}
+}
+muzzle_loaded_rifles = {
+	area = light_armament
+	year = 1962
+	cost = 7200
+	unciv_military = yes
+	#activate_unit = engineer
+	
+	combat_width = -3
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 6
+			rank = 16
+			year = 1976
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+	}
+}
+breech_loaded_rifles = {
+	area = light_armament
+	year = 1976
+	cost = 10800
+
+	activate_unit = guard
+	unciv_military = yes
+
+	combat_width = -3
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 6
+			rank = 16
+			year = 1986
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+	}
+}
+machine_guns = {
+	area = light_armament
+	year = 1996
+	cost = 14400
+	unciv_military = yes
+	
+	combat_width = -6
+	#colonial_life_rating = -10 
+	ai_chance = {
+		factor = 6
+		modifier = {
+			factor = 2
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.2
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+	
+}
+bolt_action_rifles = {
+	area = light_armament
+	year = 2026
+	cost = 18000
+	unciv_military = yes
+	unit = 1
+	
+	combat_width = -6
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+modern_divisional_structure = {
+	area = light_armament
+	year = 2045
+	cost = 21600
+	unciv_military = yes
+
+	unit = 2
+	combat_width = -6
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+
+
+#heavy_armament
+bronze_muzzle_loaded_artillery = {
+	area = heavy_armament
+	year = 1962
+	cost = 3600
+	unciv_military = yes
+	activate_unit = tank
+	activate_building = barrel_factory 
+	#activate_unit = cuirassier
+	#activate_unit = dragoon
+	combat_width = 1
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+iron_muzzle_loaded_artillery = {
+	area = heavy_armament
+	year = 1962
+	cost = 7200
+	unciv_military = yes
+	
+	combat_width = 1
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+iron_breech_loaded_artillery = {
+	area = heavy_armament
+	year = 1976
+	cost = 10800
+	unciv_military = yes
+	combat_width = 1
+
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 2
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+steel_breech_loaded_artillery = {
+	area = heavy_armament
+	year = 1996
+	cost = 14400
+	unciv_military = yes
+	
+	combat_width = 3
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+indirect_artillery_fire = {
+	area = heavy_armament
+	year = 2026
+	cost = 18000
+	unciv_military = yes
+	combat_width = 3
+	
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+heavy_armament_dunno = {
+	area = heavy_armament
+	year = 2045
+	cost = 21600
+	unciv_military = yes
+	combat_width = 3
+	
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+
+
+#military_science
+military_staff_system = {
+	area = military_science
+	year = 1962
+	cost = 3600
+	unciv_military = yes
+	
+	activate_unit = plane
+	activate_building = aeroplane_factory 
+
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.10
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+military_plans = {
+	area = military_science
+	year = 1962
+	cost = 7200
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.10
+	}
+	
+	military_tactics = 0.05
+
+	plane = {
+		attack = 0.75
+		support = 1
+		supply_consumption = 0.3
+	}
+	
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+military_statistics = {
+	area = military_science
+	year = 1976
+	cost = 10800
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.20
+	}
+	
+	military_tactics = 0.05
+
+	
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+military_logistics = {
+	area = military_science
+	year = 1996
+	cost = 14400
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.20
+	}
+	#mobilisation_size = 0.05
+	
+	military_tactics = 0.05
+
+	plane = {
+		attack = 1.25
+		defence = 2
+		support = 1.5
+		supply_consumption = 0.5
+	}
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+military_directionism = {
+	area = military_science
+	year = 2026
+	cost = 18000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 10
+		supply_consumption = 0.20
+	}
+
+	military_tactics = 0.10
+
+	
+
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+aeronautics = {
+	area = military_science
+	year = 2040
+	cost = 21600
+	army_base = {
+		default_organisation = 10
+		supply_consumption = 0.20
+	}
+	
+	unciv_military = yes
+	
+	military_tactics = 0.10
+
+	plane = {
+		attack = 0.75
+		defence = 2
+		support = 1
+		supply_consumption = 0.3
+	}
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+
+
+#army_leadership
+army_command_principle = {
+	area = army_leadership
+	year = 1962
+	cost = 3600
+
+	morale = 0.25
+	unciv_military = yes
+	military_tactics = 0.2
+
+	activate_unit = engineer
+	#activate_unit = hussar
+
+	army_base = {
+		supply_consumption = 0.10
+	}
+
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+			year = 1976
+		}
+		modifier = {
+			factor = 1.05
+			year = 1986
+		}
+	}
+}
+army_professionalism = {
+	area = army_leadership
+	year = 1962
+	cost = 7200
+	unciv_military = yes
+	morale = 0.1
+
+	military_tactics = 0.2
+	
+	army_base = {
+		supply_consumption = 0.10
+	}
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+			year = 1976
+		}
+		modifier = {
+			factor = 1.05
+			year = 1986
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+army_decision_making = {
+	area = army_leadership
+	year = 1976
+	cost = 10800
+	unciv_military = yes
+	morale = 0.2
+
+	military_tactics = 0.2
+
+	army_base = {
+	supply_consumption = 0.20
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+			year = 1986
+		}
+		modifier = {
+			factor = 1.05
+			year = 1996
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+army_risk_management = {
+	area = army_leadership
+	year = 1996
+	cost = 14400
+	unciv_military = yes
+	morale = 0.20
+
+	military_tactics = 0.2
+
+	army_base = {
+		supply_consumption = 0.20
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+			year = 2006
+		}
+		modifier = {
+			factor = 1.05
+			year = 2016
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+army_nco_training = {
+	area = army_leadership
+	year = 2026
+	cost = 18000
+	unciv_military = yes
+	morale = 0.25
+	
+
+	military_tactics = 0.2
+
+	army_base = {
+		supply_consumption = 0.20
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+			year = 1910
+		}
+		modifier = {
+			factor = 1.05
+			year = 1920
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+great_war_experience = {
+	area = army_leadership
+	year = 2045
+	cost = 21600
+	unciv_military = yes
+	morale = 0.5
+
+	military_tactics = 0.2
+
+	army_base = {
+		supply_consumption = 0.20
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = army_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			civilized = yes
+			any_neighbor_country = {
+				civilized = yes
+				NOT = { is_greater_power = yes }
+				military_score = THIS
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+			any_neighbor_country = {
+				is_greater_power = yes
+				military_score = THIS
+			}
+		}
+	}
+}
+
+

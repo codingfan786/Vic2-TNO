@@ -1,0 +1,6 @@
+trade_goods = tobacco
+life_rating = 15
+owner = WGA
+controller = WGA
+add_core = ZAM
+colonial = 2

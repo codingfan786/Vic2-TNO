@@ -1,0 +1,11 @@
+owner = SCO
+controller = SCO
+add_core = SCO
+
+
+
+trade_goods = coal
+life_rating = 35
+2161.1.1 = { 
+	railroad = 3 
+}

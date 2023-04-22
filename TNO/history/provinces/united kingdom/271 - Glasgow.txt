@@ -1,0 +1,24 @@
+owner = SCO
+controller = SCO
+add_core = SCO
+
+
+
+trade_goods = coal
+life_rating = 35
+state_building = {
+	level = 1
+	building = steamer_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}

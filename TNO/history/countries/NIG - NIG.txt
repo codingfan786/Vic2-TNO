@@ -1,0 +1,48 @@
+
+
+#========================= H E A D E R =========================
+
+civilized = yes
+capital = 1810
+primary_culture = afro_asiatic
+culture = nilo_saharan
+religion = animist
+government = democracy
+plurality = 10
+nationalvalue = nv_equality
+literacy = 0.2
+  
+prestige = 1
+schools = traditional_academic
+oob = "NIG.txt"
+
+
+#========================= H O U S E - O F - L O R D S =========================
+
+ruling_party = NIG_liberal_79
+upper_house = {
+fascist = 0
+reactionary = 0
+conservative = 34
+socialist = 33
+communist = 0
+liberal = 33
+anarcho_liberal = 0
+}
+slavery = no_slavery
+vote_franschise = population_equal_weight
+upper_house_composition = proportional_representation
+voting_system = first_past_the_post
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+political_parties = secret_ballots
+wage_reform = good_minimum_wage
+work_hours = eight_hours
+safety_regulations = good_safety
+unemployment_subsidies = good_subsidies
+pensions = good_pensions
+health_care = good_health_care
+school_reforms = good_schools
+
+

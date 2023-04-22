@@ -1,0 +1,54 @@
+province_event = {
+	id = 500004
+	title = "Burgundian occupation"
+	desc = "The occupying armies of Himmler have pillaged and raped our lands! Our homes burnt and non-German people executed!"
+	allow_multiple_instances = yes
+	trigger = {
+		NOT = {owned_by = BRG}
+		NOT = {has_province_modifier = BRG_occupy}
+		controlled_by = BRG
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		owner = {war_exhaustion = 2}
+		add_province_modifier = {name = BRG_occupy duration = -1}
+	}
+
+
+	option = {
+		name = "Oh no!"
+	}
+}
+
+country_event = {
+	id = 500005
+	title = "Peacetime recovery."
+	desc = "Resetting Burgundian occupation flags."
+
+	trigger = {
+		war = no
+		any_owned_province = {
+			has_province_modifier = BRG_occupy
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				has_province_modifier = BRG_occupy
+			}
+			remove_province_modifier = BRG_occupy
+		}
+	}
+	option = {
+		name = "Nice"
+	}
+}

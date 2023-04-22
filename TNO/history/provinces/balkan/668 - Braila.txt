@@ -1,0 +1,15 @@
+owner = ROM
+controller = ROM
+add_core = ROM
+add_core = WAL
+
+
+
+trade_goods = coal
+life_rating = 35
+
+state_building = {
+	level = 1
+	building = fuel_refinery
+	upgrade = yes
+}

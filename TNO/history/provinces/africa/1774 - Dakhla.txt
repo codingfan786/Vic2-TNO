@@ -1,0 +1,5 @@
+trade_goods = wool
+life_rating = 10
+owner = IBE
+controller = IBE
+add_core = MOR

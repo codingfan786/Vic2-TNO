@@ -1,0 +1,28 @@
+owner = ITA
+controller = ITA
+add_core = TUS
+add_core = ITA
+trade_goods = fish
+life_rating = 35
+
+
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = electric_gear_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = radio_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = telephone_factory
+	upgrade = yes
+}

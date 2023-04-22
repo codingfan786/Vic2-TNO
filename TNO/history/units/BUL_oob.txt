@@ -1,0 +1,127 @@
+army = {
+	name = "1a Armata" #done
+	location = 818
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 818
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 818
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 814
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 814
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 814
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 813
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 813
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 811
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 811
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 811
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 810
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 810
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 810
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 809
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 809
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 809
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 812
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 812
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 817
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 808
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 805
+	}
+}

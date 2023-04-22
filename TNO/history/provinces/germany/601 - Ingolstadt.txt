@@ -1,0 +1,37 @@
+owner = BGE
+controller = BGE
+add_core = BGE
+add_core = GER
+trade_goods = grain
+life_rating = 40
+
+state_building = {
+	level = 1
+	building = fuel_refinery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = automobile_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = barrel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = electric_gear_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

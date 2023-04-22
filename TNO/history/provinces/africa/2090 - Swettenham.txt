@@ -1,0 +1,28 @@
+
+
+add_core = SAF
+trade_goods = wool
+life_rating = 35
+owner = SAF
+controller = SAF
+
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = electric_gear_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = radio_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = telephone_factory
+	upgrade = yes
+}

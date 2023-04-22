@@ -1,0 +1,9 @@
+
+owner = IRQ
+controller = IRQ
+add_core = IRQ
+
+
+
+trade_goods = wool
+life_rating = 35

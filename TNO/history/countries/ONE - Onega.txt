@@ -1,0 +1,47 @@
+
+
+#========================= H E A D E R =========================
+
+civilized = yes
+capital = 2588
+primary_culture = finnish
+religion = protestant
+government = presidential_dictatorship
+plurality = 10
+nationalvalue = nv_order
+literacy = 0.5
+  
+prestige = 1
+schools = traditional_academic
+oob = "ONE.txt"
+
+
+#========================= H O U S E - O F - L O R D S =========================
+
+ruling_party = ONE_reactionary_84
+upper_house = {
+fascist = 0
+reactionary = 0
+conservative = 55
+socialist = 5
+communist = 0
+liberal = 15
+anarcho_liberal = 25
+}
+slavery = no_slavery
+vote_franschise = none_voting
+upper_house_composition = party_appointed
+voting_system = first_past_the_post
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+political_parties = underground_parties
+wage_reform = low_minimum_wage
+work_hours = twelve_hours
+safety_regulations = low_safety
+unemployment_subsidies = low_subsidies
+pensions = low_pensions
+health_care = low_health_care
+school_reforms = acceptable_schools
+
+

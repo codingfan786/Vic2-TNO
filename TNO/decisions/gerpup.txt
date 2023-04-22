@@ -1,0 +1,279 @@
+political_decisions = {
+
+	PBS_freedom = {
+		potential = {
+			OR = {
+				tag = POL
+				tag = BOH
+				tag = SLV
+			}
+			exists = GER
+			GER = {is_our_vassal = THIS}
+		}
+		allow = {
+			year = 1963
+		}
+		effect = {
+			release_vassal = THIS
+			set_country_flag = PBS_freedom
+			government = democracy
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					tag = POL
+					NOT = {year = 1965}
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					OR = {
+						tag = BOH
+						tag = SLV
+					}
+					NOT = {year = 1964}
+				}
+			}
+		}
+	}
+
+	POL_revanch = {
+		potential = {
+			tag = POL
+			NOT = {government = fascist_dictatorship}
+			NOT = {is_vassal = yes}
+			NOT = {has_country_flag = POL_revanched}
+		}
+		allow = {
+			year = 1962
+		}
+		effect = {
+			set_country_flag = POL_revanched
+			947 = {add_core = POL}
+			691 = {add_core = POL}
+			692 = {add_core = POL}
+			699 = {add_core = POL}
+			700 = {add_core = POL}
+			701 = {add_core = POL}
+			710 = {add_core = POL}
+			717 = {add_core = POL}
+			712 = {add_core = POL}
+			706 = {add_core = POL}
+			708 = {add_core = POL}
+			709 = {add_core = POL}
+			707 = {add_core = POL}
+			719 = {add_core = POL}
+			936 = {add_core = POL}
+			938 = {add_core = POL}
+			939 = {add_core = POL}
+			940 = {add_core = POL}
+			937 = {add_core = POL}
+			957 = {add_core = POL}
+			956 = {add_core = POL}
+			955 = {add_core = POL}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	CZH_revanch = {
+		potential = {
+			NOT = {has_global_flag = CZH_revanched}
+			OR = {
+				tag = BOH
+				tag = SLV
+			}
+			BOH = {
+				NOT = {government = fascist_dictatorship}
+				NOT = {is_vassal = yes}
+			}
+			SLV = {
+				NOT = {government = fascist_dictatorship}
+				NOT = {is_vassal = yes}
+			}
+		}
+		allow = {
+			year = 1962
+		}
+		effect = {
+			prestige = 25
+			set_global_flag = CZH_revanched
+			change_tag = CZH
+			inherit = BOH
+			inherit = SLV
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						tag = BOH
+						SLV = {NOT = {ai = yes}}
+					}
+					AND = {
+						tag = SLV
+						BOH = {NOT = {ai = yes}}
+					}
+				}
+			}
+		}
+	}
+
+
+	FEU_revanch = {
+		potential = {
+			NOT = {has_global_flag = FEU_revanched}
+			OR = {
+				tag = MSC
+				tag = BLT
+				tag = UKR
+			}
+			MSC = {
+				NOT = {government = fascist_dictatorship}
+				NOT = {is_vassal = yes}
+			}
+			BLT = {
+				NOT = {government = fascist_dictatorship}
+				NOT = {is_vassal = yes}
+			}
+			UKR = {
+				NOT = {government = fascist_dictatorship}
+				NOT = {is_vassal = yes}
+			}
+		}
+		allow = {
+			year = 1962
+			OR = {
+				state_n_government = 1
+				AND = {
+					ai = yes
+					year = 1972
+				}
+			}
+			
+
+		}
+		effect = {
+			prestige = 25
+			set_global_flag = FEU_revanched
+			change_tag = FEU
+
+			BLT = {
+				all_core = {
+					add_core = FEU
+				}
+			}
+			MSC = {
+				all_core = {
+					add_core = FEU
+				}
+			}
+			UKR = {
+				all_core = {
+					add_core = FEU
+				}
+			}
+
+			inherit = BLT
+			inherit = MSC
+			inherit = UKR
+			primary_culture = byelorussian
+			add_accepted_culture = russian
+			add_accepted_culture = ukrainian
+			add_accepted_culture = lithuanian
+			add_accepted_culture = latvian
+			add_accepted_culture = estonian
+			remove_accepted_culture = north_german
+			remove_accepted_culture = south_german
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						tag = BLT
+						OR = {
+							MSC = {NOT = {ai = yes}}
+							UKR = {NOT = {ai = yes}}
+						}
+						
+					}
+					AND = {
+						tag = MSC
+						OR = {
+							BLT = {NOT = {ai = yes}}
+							UKR = {NOT = {ai = yes}}
+						}
+					}
+					AND = {
+						tag = UKR
+						OR = {
+							MSC = {NOT = {ai = yes}}
+							BLT = {NOT = {ai = yes}}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	stand_on_our_own = {
+		potential = {
+			OR = {
+				tag = MSC
+				tag = BLT
+				tag = UKR
+			}
+			exists = GER
+			GER = {is_our_vassal = THIS}
+			government = fascist_dictatorship
+		}
+
+		allow = {
+			year = 1963
+		}
+
+		effect = {
+			prestige = 10
+			release_vassal = THIS
+			set_country_flag = SOOO_freedom
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				AND = {
+					OR = {
+						tag = UKR
+						tag = MSC
+					}
+					OR = {
+						NOT = {year = 1964}
+						NOT = {month = 8}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					tag = BLT
+					OR = {
+						NOT = {year = 1965}
+						NOT = {month = 8}
+					}
+				}
+				
+			}
+		}
+	}
+}

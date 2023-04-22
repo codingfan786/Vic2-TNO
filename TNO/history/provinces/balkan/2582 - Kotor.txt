@@ -1,0 +1,11 @@
+owner = ITA
+controller = ITA
+add_core = YUG
+add_core = CRO
+add_core = ITA
+
+
+
+
+trade_goods = fish
+life_rating = 35

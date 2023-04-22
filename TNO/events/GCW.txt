@@ -1,0 +1,522 @@
+# to do exist checks
+#date check
+#checks for which ones are at peace with eachother? not really necessary if GER is AI
+
+
+country_event = {
+	id = 500000
+	title = "GCW title"
+	desc = "GCW desc"
+
+	trigger = {
+		tag = GER
+		OR = {
+			AND = {
+				exists = GGE
+				exists = SGE
+				exists = GER
+			}
+			AND = {
+				exists = GGE
+				exists = HGE
+				exists = GER
+			}
+			AND = {
+				exists = GGE
+				exists = BGE
+				exists = GER
+			}
+			AND = {
+				exists = BGE
+				exists = HGE
+				exists = GER
+			}
+			AND = {
+				exists = BGE
+				exists = SGE
+				exists = GER
+			}
+			AND = {
+				exists = SGE
+				exists = HGE
+				exists = GER
+			}
+		}
+
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_country = {
+			limit = {
+				tag = GGE
+				exists = GGE
+				exists = HGE
+			}
+			war = {
+				target = HGE
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+
+		any_country = {
+			limit = {
+				tag = GGE
+				exists = GGE
+				exists = SGE
+			}
+			war = {
+				target = SGE
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+
+		any_country = {
+			limit = {
+				tag = GGE
+				exists = GGE
+				exists = BGE
+			}
+			war = {
+				target = BGE
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+
+		any_country = {
+			limit = {
+				tag = HGE
+				exists = HGE
+				exists = BGE
+			}
+			war = {
+				target = BGE
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+
+		any_country = {
+			limit = {
+				tag = HGE
+				exists = HGE
+				exists = SGE
+			}
+			war = {
+				target = SGE
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+
+		any_country = {
+			limit = {
+				tag = SGE
+				exists = SGE
+				exists = BGE
+			}
+			war = {
+				target = BGE
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+	}
+	
+	option = {
+		name = "ok"
+	}
+}
+
+
+
+country_event = {
+	id = 500001
+	title = "German civil war has concluded."
+	desc = "Remaining puppets will now be transfered."
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		597 = {
+			owner = {country_event = 500002}
+		}
+	}
+
+	option = {
+		name = "ok"
+	}
+}
+
+country_event = {
+	id = 500002
+	title = "German civil war has concluded."
+	desc = "Remaining puppets will now be transfered."
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		create_vassal = FROM
+		diplomatic_influence = {
+			who = FROM
+			value = 600
+		}
+	}
+
+	option = {
+		name = "ok"
+	}
+}
+
+country_event = {
+	id = 500006
+	title = "German Ultimatum!"
+	desc = "We have recieved an ultimatum regarding our intervention in the German civil war: \n §R Cease your intervention immediately, or face the full nuclear wrath of the German nation!"
+
+	
+	trigger = {
+		exists = GER
+		NOT = {has_country_flag = refused_german_peace}
+		OR = {
+			war_with = GGE
+			war_with = HGE
+			war_with = SGE
+			war_with = BGE
+		}
+		NOT = {
+			OR = {
+				tag = GGE
+				tag = HGE 
+				tag = SGE
+				tag = BGE
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+
+	option = {
+		name = "Let them kill eachother without us!"
+		end_war = GGE
+		end_war = HGE
+		end_war = SGE
+		end_war = BGE
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "In for a penny, in for a pound!"
+		set_country_flag = refused_german_peace
+
+		HGE = {
+			country_event = {id = 500029 days = 1} 
+		}
+		GGE = {
+			country_event = {id = 500029 days = 1} 
+		}
+		BGE = {
+			country_event = {id = 500029 days = 1} 
+		}
+		SGE = {
+			country_event = {id = 500029 days = 1} 
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+
+country_event = {
+	id = 500030
+	title = "Heydrich asks for aid!"
+	desc = "Our close ally in the German civil war has approached and asked us for aid!"
+
+	is_triggered_only = yes
+	option = {
+		name = "The time for invervention is nigh!"
+
+		set_country_flag = refused_german_peace
+
+		#should change these to defensive wars to prevent fuckery
+		war = {
+			target = BGE
+			attacker_goal = { casus_belli = brg_gcw }
+			call_ally = no
+		}
+
+		war = {
+			target = GGE
+			attacker_goal = { casus_belli = brg_gcw }
+			call_ally = no
+		}
+
+		war = {
+			target = SGE
+			attacker_goal = { casus_belli = brg_gcw }
+			call_ally = no
+		}
+
+		ai_chance = {
+			factor = 0.25
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+
+	option = {
+		name = "Our assistance must be limited..."
+		HGE = {
+			add_country_modifier = {
+				name = brg_assist
+				duration = 1095
+			}
+			artillery = 200
+			clipper_convoy = 200
+			aeroplanes = 200
+			fuel = 200
+			small_arms = 100
+			canned_food = 200
+			ammunition = 200
+			automobiles = 300
+			#add other goods
+		}
+
+		ai_chance = {
+			factor = 0.75
+		}
+	}
+}
+
+
+country_event = {
+	id = 500031
+	title = "Speer asks for aid!"
+	desc = "Speer has requested our assistance in the German civil war; he promises freedom in exchange!"
+
+	is_triggered_only = yes
+	option = {
+		name = "The time for invervention is nigh!"
+		neutrality = yes #might be a tad unneccesary
+		set_country_flag = refused_german_peace
+		set_country_flag = serve_for_freedom
+
+		release_vassal = THIS
+		SGE = {
+			diplomatic_influence = {
+				who = THIS
+				value = 800
+			}
+		}
+		create_alliance = SGE
+
+		BGE = {
+			war = {
+				target = THIS
+				defender_goal = { casus_belli = pup_gcw }
+				call_ally = no
+			}
+		}
+
+		GGE = {
+			war = {
+				target = THIS
+				defender_goal = { casus_belli = pup_gcw }
+				call_ally = no
+			}
+		}
+
+		HGE = {
+			war = {
+				target = THIS
+				defender_goal = { casus_belli = pup_gcw }
+				call_ally = no
+			}
+		}
+
+		ai_chance = {
+			factor = 0.25
+			modifier = {
+				factor = 0
+				any_owned_province = {
+					controlled_by = REB
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					tag = UKR
+					tag = MSC
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "It's a trap!"
+
+		ai_chance = {
+			factor = 0.75
+		}
+	}
+}
+
+country_event = {
+	id = 500032
+	title = "Freedom in the east!"
+	desc = "The German civil war is won and it is high time we full our promises of freedom to all who aided us."
+
+	trigger = {
+		tag = SGE
+		OR = {
+			POL = {has_country_flag = serve_for_freedom}
+			MSC = {has_country_flag = serve_for_freedom}
+			BOH = {has_country_flag = serve_for_freedom}
+			UKR = {has_country_flag = serve_for_freedom}		
+			BLT = {has_country_flag = serve_for_freedom}
+		}
+		NOT = {exists = GER}
+		NOT = {has_country_flag = sff_reward}
+	}
+
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	immediate = {
+		set_country_flag = sff_reward
+	}
+
+	option = {
+		name = "A necessary commitment."
+
+		any_country = {
+			limit = {
+				has_country_flag = serve_for_freedom
+				tag = POL
+			}
+			#transfer cores and secede provinces
+			717 = {
+				add_core = POL
+				secede_province = POL
+				remove_core = SGE
+			}
+			712 = {
+				add_core = POL
+				secede_province = POL
+				remove_core = SGE
+			}
+			710 = {
+				add_core = POL
+				secede_province = POL
+				remove_core = SGE
+			}
+
+			706 = {
+				add_core = POL
+				secede_province = POL
+				remove_core = SGE
+			}
+			708 = {
+				add_core = POL
+				secede_province = POL
+				remove_core = SGE
+			}
+			709 = {
+				add_core = POL
+				secede_province = POL
+				remove_core = SGE
+			}
+			707 = {
+				add_core = POL
+				secede_province = POL
+				remove_core = SGE
+			}
+		}
+		
+		any_country = {
+			limit = {
+				has_country_flag = serve_for_freedom
+				tag = BOH
+			}
+			SGE = {
+				any_owned = {
+					limit = {is_core = CZH}
+					secede_province = BOH
+					remove_core = SGE
+				}
+			}
+			inherit = SLV
+			change_tag = CZH
+		}
+		
+
+		ai_chance = {
+			factor = 0.9
+		}
+	}
+
+	option = {
+		name = "Those fools were unwise to trust us!"
+		#add cbs
+		badboy = 20
+		ai_chance = {
+			factor = 0.1
+		}
+	}
+}
+
+country_event = {
+	id = 500037
+	title = "bye lol"
+	desc = ""
+	is_triggered_only = yes
+
+	immediate = {
+		HGE = {inherit = THIS}
+	}
+	option = {
+		name = "oh well"
+	}
+}
+
+country_event = {
+	id = 500038
+	title = "bye lol"
+	desc = ""
+	is_triggered_only = yes
+
+	immediate = {
+		SGE = {inherit = THIS}
+	}
+	option = {
+		name = "oh well"
+	}
+}

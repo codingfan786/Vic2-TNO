@@ -1,0 +1,42 @@
+political_decisions = {
+
+	fix_country = {
+		potential = {
+			NOT = {has_country_flag = GERAFRFIXED}
+			OR = {
+				tag = EGA
+				tag = WGA
+			}
+		}
+		allow = {
+			all_core = {
+				OR = {
+					is_capital = yes
+					terrain = mountain
+					has_building = railroad
+				}
+			}
+		}
+		effect = {
+			set_country_flag = GERAFRFIXED
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	gerafanger = {
+		potential = {
+			OR = {tag = WGA tag = EGA}
+			NOT = {has_country_flag = geranger}
+		}
+		allow = {}
+		effect = {
+			set_country_flag = geranger
+			add_country_modifier = {
+				name = ger_afr
+				duration = -1
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+country_event = {
+	id = 500016
+	title = "EVTDESC500016_NEWS_SHORT"
+	desc = "EVTDESC500016_NEWS_MEDIUM"
+
+
+	is_triggered_only = yes
+
+	news = yes
+	news_desc_long = "EVTDESC500016_NEWS_LONG"
+	news_desc_medium = "EVTDESC500016_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC500016_NEWS_SHORT"
+	major = yes
+	option = {
+		name = "cool"
+	}
+}

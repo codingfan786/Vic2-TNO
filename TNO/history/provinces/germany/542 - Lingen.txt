@@ -1,0 +1,15 @@
+owner = GGE
+controller = GGE
+add_core = GGE
+add_core = GER
+
+
+
+trade_goods = cattle
+life_rating = 40
+2161.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}

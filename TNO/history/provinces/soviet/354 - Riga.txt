@@ -1,0 +1,24 @@
+owner = BLT
+controller = BLT
+add_core = BLT
+add_core = LAT
+
+
+
+
+
+trade_goods = fish
+life_rating = 35
+naval_base = 1
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}
+2161.1.1 = { 
+	state_building = {
+		level = 1
+		building = glass_factory
+		upgrade = yes
+	} 
+}

@@ -1,0 +1,5 @@
+owner = IBE
+controller = IBE
+add_core = MOR
+trade_goods = fruit
+life_rating = 35

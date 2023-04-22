@@ -1,0 +1,73 @@
+country_event = {
+	id = 500009
+	title = "Nigerian Oil!"
+	desc = "Oil has been found today in Benin, where surveyers representing international oil conglomerates have been drilling."
+
+	trigger = {
+		year = 2005
+		NOT = {has_global_flag = nigerianoil1}
+		owns = 1928
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	immediate = {
+		set_global_flag = nigerianoil1
+		1928 = {trade_goods = oil}
+	}
+
+	option = {
+		name = "Fantastic!"
+	}
+}
+
+country_event = {
+	id = 500010
+	title = "Nigerian Oil!"
+	desc = "Oil has been found today in Awka, where surveyers representing international oil conglomerates have been drilling."
+
+	trigger = {
+		year = 2005
+		NOT = {has_global_flag = nigerianoil2}
+		owns = 1933
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	immediate = {
+		set_global_flag = nigerianoil2
+		1933 = {trade_goods = oil}
+	}
+
+	option = {
+		name = "Fantastic!"
+	}
+}
+country_event = {
+	id = 500011
+	title = "Nigerian Oil!"
+	desc = "Oil has been found today in Calabar, where surveyers representing international oil conglomerates have been drilling."
+
+	trigger = {
+		year = 2005
+		NOT = {has_global_flag = nigerianoil3}
+		owns = 1934
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	immediate = {
+		set_global_flag = nigerianoil3
+		1934 = {trade_goods = oil}
+	}
+
+	option = {
+		name = "Fantastic!"
+	}
+}

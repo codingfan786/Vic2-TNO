@@ -1,0 +1,1357 @@
+#Angola : Angola (464000)
+#Ruled by Portugal in 1836
+#Luanda (164000/41000 POPS)
+1999 = {
+	aristocrats = {
+		culture = portuguese
+		religion = catholic
+		size = 450
+		militancy = 8 
+		rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 1500
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = catholic
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = catholic
+		size = 450
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = catholic
+		size = 9000
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = catholic
+		size = 750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = catholic
+		size = 34650
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 1500
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 15600
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 21000
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 22800
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 9000
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+}
+#uncolonized in 1836
+#2001 - Mbanza (180000/45000 POPS)
+2001 = {
+	aristocrats = {
+		culture = bantu
+		religion = catholic
+		size = 300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = catholic
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = catholic
+		size = 1200
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = catholic
+		size = 300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = catholic
+		size = 22050
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 600
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 450
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 3300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 600
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 40350
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 12000
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 600
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 450
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 2100
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 600
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 39750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 10500
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+}
+#Quibala (120000/30000 POPS)
+2002 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 900
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 3600
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 900
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 65850
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 18000
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+}
+#Congo Region (116000) #see Congo-Zaire.txt for balance of region 
+#uncolonized in 1836/tradepost for Portugal
+#Cabinda (116000/29000 POPS) 
+2000 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 375
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 225
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 1050
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 225
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 19125
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 15000
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = catholic
+		size = 1275
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = catholic
+		size = 675
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = catholic
+		size = 2700
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = catholic
+		size = 675
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = catholic
+		size = 45675
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+}
+
+#Angola - Mbundu (440000)
+#Uncolonized in 1836
+#Benguela (116000/29000 POPS)
+2003 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 900
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 900
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 4500
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 900
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 62400
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 17400
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+}
+#Mocamedes (116000/29000 POPS)
+2004 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 900
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 1800
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 2250
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 900
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 63750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 17400
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+}
+#Huambo (208000/52000 POPS)
+2005 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 1800
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 1650
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 7800
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 1800
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 109950
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 33000
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+}
+#Angola - Bihe (264000)
+#Uncolonized in 1836
+#Kuito (148000/37000 POPS)
+2006 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 1050
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 1050
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 5400
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 1200
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 80100
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 22500
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+}
+#Mavinga (80000/20000 POPS)
+2007 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 225
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 225
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 7200
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 4050
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 525
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 525
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 2400
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 600
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 34350
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 9600
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+}
+#Ondjiva (36000/9000 POPS)
+2008 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 90
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 180
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 225
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 90
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 6615
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 1800
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 225
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 900
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 225
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 12825
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 3750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+}
+#Angola - Kwango (232000)
+#Uncolonized in 1836
+#Malanje (44000/11000 POPS)
+2009 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 225
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 225
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 13050
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 3600
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 90
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 180
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 225
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 180
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 6525
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 1800
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 75
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 75
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 4200
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 1200
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+}
+#Saurimo (112000/28000 POPS)
+2010 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 3750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 42000
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 24000
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 600
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 8550
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 2400
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+}
+#Kubanda (76000/19000 POPS)
+2011 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 450
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 375
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 2250
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 450
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 24375
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 14100
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 750
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 150
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 10800
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 3300
+militancy = 8 
+rebel_type = nationalist_rebels
+
+	}
+
+}

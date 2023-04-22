@@ -1,0 +1,7 @@
+ 
+trade_goods = fish
+life_rating = 30
+owner = PHR
+controller = PHR
+add_core = PHI
+add_core = PHR

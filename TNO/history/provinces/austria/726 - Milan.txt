@@ -1,0 +1,32 @@
+owner = ITA
+controller = ITA
+add_core = ITA
+add_core = VEN
+
+
+
+trade_goods = iron
+life_rating = 35
+fort = 1
+#state_building = {
+#	level = 1
+#	building = fabric_factory
+#	upgrade = yes
+#}
+2161.1.1 = {
+	
+	
+}
+2161.1.1 = { 
+	state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+	}
+	state_building = {
+	level = 1
+	building = luxury_clothes_factory
+	upgrade = yes
+	}
+}
+2161.1.1 = { railroad = 3 }

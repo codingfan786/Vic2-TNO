@@ -1,0 +1,49 @@
+country_event = {
+	id = 500003
+	title = "Form the North Sea Pragmatic Alliance."
+	desc = "Despite our differences all North Sea countries face perilous threats to our independence. We should unite for the purpose of mutual defense!"
+	is_triggered_only = yes
+
+	option = {
+		name = "join"
+		all_core = {add_core = SCA}
+		random_owned = {
+			limit = {owner = {tag = SCO}}
+			SCA = {add_accepted_culture = scottish}
+		}
+		random_owned = {
+			limit = {owner = {tag = NOR}}
+			SCA = {add_accepted_culture = norwegian}
+		}
+		random_owned = {
+			limit = {owner = {tag = SWE}}
+			SCA = {add_accepted_culture = swedish}
+		}
+		random_owned = {
+			limit = {owner = {tag = DEN}}
+			SCA = {add_accepted_culture = danish}
+		}
+
+		SCA = {inherit = THIS}
+
+		ai_chance = {
+			factor = .01
+			modifier = {factor = 100 is_greater_power = no}
+			modifier = {factor = 25 is_greater_power = yes}
+			modifier = {factor = 2 is_greater_power = yes relation = { who = SCA value = 150 }}
+			modifier = {factor = 2 is_greater_power = yes relation = { who = SCA value = 200 }}
+		}
+
+	}
+	option = {
+		name = "dont join"
+		ai_chance = {
+			factor = .01
+			modifier = {factor = 0 is_greater_power = no}
+			modifier = {factor = 75 is_greater_power = yes}
+			modifier = {factor = .66 is_greater_power = yes relation = { who = SCA value = 150 }}
+			modifier = {factor = 0 is_greater_power = yes relation = { who = SCA value = 200 }}
+		}
+	}
+
+}

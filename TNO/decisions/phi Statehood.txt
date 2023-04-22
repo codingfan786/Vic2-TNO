@@ -1,0 +1,32 @@
+political_decisions = {
+	phi_becomestate = {
+		news = yes
+		news_desc_long = "phi_becomestate_NEWS_LONG"
+		news_desc_medium = "phi_becomestate_NEWS_MEDIUM"
+		news_desc_short = "phi_becomestate_NEWS_SHORT"
+		major = yes
+
+		potential = {
+			tag = PHI
+		}
+		allow = {
+			USA = {state_n_government = 1}
+			in_sphere = USA
+			war = no
+		}
+		effect = {
+			country_event = 500016
+			all_core = {
+				add_core = USA
+			}
+			USA = {
+				inherit = PHI
+				add_accepted_culture = filipino
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

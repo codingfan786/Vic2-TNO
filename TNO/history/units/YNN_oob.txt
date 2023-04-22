@@ -1,0 +1,131 @@
+XBI = {
+	value = -50
+	truce_until = "1967.1.1"
+}
+army = {
+	name = "1a Armata" #done
+	location = 1602
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1602
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1603
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1601
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1601
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1506
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1505
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1507
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1585
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1586
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1582
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 1577
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1580
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1580
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1577
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1577
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1583
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1583
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1581
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1581
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1579
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1579
+	}
+}

@@ -1,0 +1,106 @@
+country_event = {
+	id = 500007
+	title = "AI Cornwall shouldn't be broke!"
+	desc = "Money Time!"
+
+	trigger = {
+		NOT = {has_country_flag = cornmoney}
+		tag = COR
+		ai = yes
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	immediate = {
+		set_country_flag = cornmoney
+		treasury = 500000
+	}
+
+	option = {
+		name = "ok"
+	}
+}
+
+country_event = {
+	id = 500008
+	title = "German garrison captured!"
+	desc = "The garrison in Cornwall has been captured. Good riddance!"
+
+	trigger = {
+		NOT = {has_global_flag = cornpow}
+		NOT = {
+			OR = {
+				accepted_culture = north_german
+				primary_culture = north_german
+				accepted_culture = south_german
+				primary_culture = south_german
+			}
+		}
+		owns = 299
+		owns = 297
+		owns = 298
+		owns = 296
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	immediate = {
+		set_global_flag = cornpow
+		297 = {
+			any_pop ={
+				limit = {
+					OR = {
+						has_pop_culture = north_german
+						has_pop_culture = south_german
+					}
+				}
+				reduce_pop = 0
+			}
+		}
+
+		298 = {
+			any_pop ={
+				limit = {
+					OR = {
+						has_pop_culture = north_german
+						has_pop_culture = south_german
+					}
+				}
+				reduce_pop = 0
+			}
+		}
+
+		296 = {
+			any_pop ={
+				limit = {
+					OR = {
+						has_pop_culture = north_german
+						has_pop_culture = south_german
+					}
+				}
+				reduce_pop = 0
+			}
+		}
+
+		299 = {
+			any_pop ={
+				limit = {
+					OR = {
+						has_pop_culture = north_german
+						has_pop_culture = south_german
+					}
+				}
+				reduce_pop = 0
+			}
+		}
+
+	}
+
+	option = {
+		name = "To the camps!"
+	}
+}

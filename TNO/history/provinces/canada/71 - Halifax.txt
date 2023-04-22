@@ -1,0 +1,7 @@
+owner = CAN
+controller = CAN
+add_core = CAN
+
+naval_base = 1
+trade_goods = fish
+life_rating = 35

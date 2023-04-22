@@ -1,0 +1,241 @@
+
+
+#========================= L A N D =========================
+
+army = {
+	name = "Security Force 1"
+	location = 425
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 418
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 417
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 415
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 416
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 426
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 427
+	}
+	
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 406
+	}
+
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 408
+	}
+	
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 403
+	}
+}
+
+army = {
+	name = "Security Force 2"
+	location = 408
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 404
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 405
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 2570
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 402
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 401
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 400
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 399
+	}
+	
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 407
+	}
+
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 411
+	}
+	
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 413
+	}
+}
+
+army = {
+	name = "Security Force 3"
+	location = 404
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 414
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 432
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 608
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 393
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 394
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 392
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 398
+	}
+	
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 396
+	}
+
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 395
+	}
+	
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 388
+	}
+}
+
+army = {
+	name = "Security Force 4"
+	location = 390
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 389
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 387
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 390
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 391
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 378
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 376
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 375
+	}
+	
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 385
+	}
+
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 386
+	}
+	
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 382
+	}
+}
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

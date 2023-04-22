@@ -1,0 +1,5 @@
+trade_goods = grain
+life_rating = 15
+owner = NIG
+controller = NIG
+add_core = NIG

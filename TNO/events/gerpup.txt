@@ -1,0 +1,125 @@
+
+
+
+country_event = {
+	id = 500033
+	title = "German rule once again!"
+	desc = "The German administration has been reinstated and we can now rule again!"
+
+	trigger = {
+		government = fascist_dictatorship
+		#NOT = {is_vassal = yes}
+		OR = {
+			tag = UKR
+			tag = MSC
+			tag = BLT
+		}
+		NOT = {primary_culture = north_german}
+	}
+
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	option = {
+		name = "Towards lebensraum!"
+		primary_culture = north_german
+		add_accepted_culture = south_german
+
+		remove_accepted_culture = byelorussian
+		remove_accepted_culture = russian
+		remove_accepted_culture = ukrainian
+		remove_accepted_culture = lithuanian
+		remove_accepted_culture = latvian
+		remove_accepted_culture = estonian
+	}
+}
+
+country_event = {
+	id = 500034
+	title = "Free at last!"
+	desc = "The German administration has fallen and our people finally rule again!"
+
+	trigger = {
+		NOT = {government = fascist_dictatorship}
+		NOT = {is_vassal = yes}
+		
+		tag = MSC
+		
+		primary_culture = north_german
+	}
+
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	option = {
+		name = "Down with the Germans!"
+		
+		primary_culture = russian
+		
+		remove_accepted_culture = north_german
+		remove_accepted_culture = south_german
+	}
+}
+
+country_event = {
+	id = 500035
+	title = "Free at last!"
+	desc = "The German administration has fallen and our people finally rule again!"
+
+	trigger = {
+		NOT = {government = fascist_dictatorship}
+		NOT = {is_vassal = yes}
+		
+		tag = BLT
+		
+		primary_culture = north_german
+	}
+
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	option = {
+		name = "Down with the Germans!"
+		
+			primary_culture = byelorussian
+			add_accepted_culture = lithuanian
+			add_accepted_culture = latvian
+			add_accepted_culture = estonian
+		
+
+		remove_accepted_culture = north_german
+		remove_accepted_culture = south_german
+	}
+}
+
+
+country_event = {
+	id = 500036
+	title = "Free at last!"
+	desc = "The German administration has fallen and our people finally rule again!"
+
+	trigger = {
+		NOT = {government = fascist_dictatorship}
+		NOT = {is_vassal = yes}
+		
+		tag = UKR
+		
+		primary_culture = north_german
+	}
+
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	option = {
+		name = "Down with the Germans!"
+		
+		primary_culture = ukrainian
+
+		remove_accepted_culture = north_german
+		remove_accepted_culture = south_german
+	}
+}

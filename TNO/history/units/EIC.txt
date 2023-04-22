@@ -1,0 +1,44 @@
+navy = {
+	name = "Transport Fleet"
+	location = 1403
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+}

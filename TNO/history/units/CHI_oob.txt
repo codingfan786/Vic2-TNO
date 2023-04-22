@@ -1,0 +1,333 @@
+
+army = {
+	name = "Army of Forbidden Banners"
+	location = 1470
+	regiment = {
+		name= "1. Manchu Yellow Banner"
+		type = infantry
+		home = 1612
+	}
+
+	regiment = {
+		name= "2.Manchu Yellow Banner"
+		type = infantry
+		home = 1479
+	}
+
+	regiment = {
+		name= "3.Manchu Yellow Banner"
+		type = infantry
+		home = 1480
+	}
+}
+
+army = {
+	name = "Army of The Manchu Bordered Yellow Banner"
+	location = 1478
+	
+	regiment = {
+		name= "1.Manchu Bordered Yellow Banner"
+		type = infantry
+		home = 1612
+	}
+
+	regiment = {
+		name= "2.Manchu Bordered Yellow Banner"
+		type = infantry
+		home = 1552
+	}
+
+	regiment = {
+		name= "3.Manchu Bordered Yellow Banner"
+		type = infantry
+		home = 1553
+	}
+}
+
+army = {
+	name = "Army of The Manchu White Banner"
+	location = 1547
+
+	regiment = {
+		name= "1.Manchu White Banner"
+		type = infantry
+		home = 1554
+	}
+
+	regiment = {
+		name= "2.Manchu White Banner"
+		type = infantry
+		home = 1555
+	}
+
+	regiment = {
+		name= "3.Manchu White Banner"
+		type = infantry
+		home = 1002
+	}
+}
+
+army = {
+	name = "Army of The Manchu Red Banner"
+	location = 1510
+
+	regiment = {
+		name= "1.Manchu Red Banner"
+		type = infantry
+		home = 1612
+	}
+
+	regiment = {
+		name= "2.Manchu Red Banner"
+		type = infantry
+		home = 1479
+	}
+
+	regiment = {
+		name= "3.Manchu Red Banner"
+		type = infantry
+		home = 1552
+	}
+}
+
+army = {
+	name = "Army of The Manchu Blue Banner"
+	location = 1607
+
+	regiment = {
+		name= "1.Manchu Blue Banner"
+		type = infantry
+		home = 1612
+	}
+
+	regiment = {
+		name= "2.Manchu Blue Banner"
+		type = infantry
+		home = 1479
+	}
+
+	regiment = {
+		name= "3.Manchu Blue Banner"
+		type = infantry
+		home = 1552
+	}
+}
+
+army = {
+	name = "Army of The Steppe"
+	location = 1515
+
+	regiment = {
+		name= "1.Tatar Cavalry"
+		type = cavalry
+		home = 1488
+	}
+
+	regiment = {
+		name= "2.Tatar Cavalry"
+		type = cavalry
+		home = 1490
+	}
+
+	regiment = {
+		name= "3.Tatar Cavalry"
+		type = cavalry
+		home = 1532
+	}
+
+	regiment = {
+		name= "4.Tatar Cavalry"
+		type = cavalry
+		home = 1535
+	}
+
+	regiment = {
+		name= "5.Tatar Cavalry"
+		type = cavalry
+		home = 1534
+	}
+
+	regiment = {
+		name= "6.Tatar Cavalry"
+		type = cavalry
+		home = 1533
+	}
+
+}
+
+army = {
+	name = "1st Green Standard Army"
+	location = 1504
+	regiment = {
+		name= "1st Green Standard"
+		type = irregular
+		home = 1470
+	}
+
+	regiment = {
+		name= "2nd Green Standard"
+		type = irregular
+		home = 1510
+	}
+
+	regiment = {
+		name= "3rd Green Standard"
+		type = irregular
+		home = 1547
+	}
+	
+	regiment = {
+		name= "4th Green Standard"
+		type = irregular
+		home = 1471
+	}
+
+	regiment = {
+		name= "5th Green Standard"
+		type = irregular
+		home = 1511
+	}
+
+	regiment = {
+		name= "6th Green Standard"
+		type = irregular
+		home = 1548
+	}
+	
+		regiment = {
+		name= "7th Green Standard"
+		type = irregular
+		home = 1472
+	}
+
+	regiment = {
+		name= "8th Green Standard"
+		type = irregular
+		home = 1512
+	}
+
+	regiment = {
+		name= "9th Green Standard"
+		type = irregular
+		home = 1549
+	}
+}
+
+army = {
+	name = "2nd Green Standard Army"
+	location = 1486
+	
+	regiment = {
+		name= "10th Green Standard"
+		type = irregular
+		home = 1473
+	}
+
+	regiment = {
+		name= "11th Green Standard"
+		type = irregular
+		home = 1513
+	}
+
+	regiment = {
+		name= "12th Green Standard"
+		type = irregular
+		home = 1550
+	}
+	
+	regiment = {
+		name= "13th Green Standard"
+		type = irregular
+		home = 1474
+	}
+
+	regiment = {
+		name= "14th Green Standard"
+		type = irregular
+		home = 1514
+	}
+
+	regiment = {
+		name= "15th Green Standard"
+		type = irregular
+		home = 1551
+	}
+	
+	regiment = {
+		name= "16th Green Standard"
+		type = irregular
+		home = 1475
+	}
+
+	regiment = {
+		name= "17th Green Standard"
+		type = irregular
+		home = 1515
+	}
+
+	regiment = {
+		name= "18th Green Standard"
+		type = irregular
+		home = 1559
+	}
+}
+
+army = {
+	name = "3rd Green Standard Army"
+	location = 1524
+
+	regiment = {
+		name= "19th Green Standard"
+		type = irregular
+		home = 1476
+	}
+
+	regiment = {
+		name= "20th Green Standard"
+		type = irregular
+		home = 1516
+	}
+
+	regiment = {
+		name= "21st Green Standard"
+		type = irregular
+		home = 1561
+	}
+	
+	regiment = {
+		name= "22nd Green Standard"
+		type = irregular
+		home = 1477
+	}
+
+	regiment = {
+		name= "23rd Green Standard"
+		type = irregular
+		home = 1517
+	}
+
+	regiment = {
+		name= "24th Green Standard"
+		type = irregular
+		home = 1562
+	}
+
+	regiment = {
+		name= "25th Green Standard"
+		type = irregular
+		home = 1478
+	}
+
+	regiment = {
+		name= "26th Green Standard"
+		type = irregular
+		home = 1518
+	}
+
+	regiment = {
+		name= "27th Green Standard"
+		type = irregular
+		home = 2062
+	}
+}
+

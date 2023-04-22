@@ -1,0 +1,8 @@
+owner = NUC
+controller = NUC
+add_core = NUC
+
+
+
+trade_goods = grain
+life_rating = 15

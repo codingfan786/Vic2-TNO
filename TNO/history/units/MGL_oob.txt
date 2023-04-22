@@ -1,0 +1,25 @@
+army = {
+	name = "Army of the Prince-Bishop"
+	location = 1467
+	regiment = {
+		name= "1st Montenegrin Infantry"
+		type = cavalry
+		home = 2608
+	}
+	regiment = {
+		name= "1st Montenegrin Infantry"
+		type = cavalry
+		home = 1468
+	}
+	regiment = {
+		name= "1st Montenegrin Infantry"
+		type = cavalry
+		home = 1466
+	}
+	regiment = {
+		name= "1st Montenegrin Infantry"
+		type = cavalry
+		home = 1467
+	}
+}
+

@@ -1,0 +1,12 @@
+owner = BLT
+controller = BLT
+add_core = BLT
+add_core = LIT
+
+
+
+#
+
+trade_goods = grain
+life_rating = 35
+2161.1.1 = { railroad = 2 }

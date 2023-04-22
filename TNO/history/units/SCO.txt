@@ -1,0 +1,109 @@
+army = {
+	name = "Garrison Group 1"
+	location = 271
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 271
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 271
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 271
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 269
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 269
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 269
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 270
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 270
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 266
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 266
+	}
+}
+
+army = {
+	name = "Garrison Group 1"
+	location = 269
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 267
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 267
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 267
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 267
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 268
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 268
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 268
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 268
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 268
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 268
+	}
+}

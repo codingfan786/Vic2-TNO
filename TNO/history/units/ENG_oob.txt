@@ -1,0 +1,256 @@
+#Sphere of Influence
+
+army = {
+	name = "Garrison Group 1"
+	location = 303
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 301
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 302
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 303
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 300
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 291
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 292
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 293
+	}
+}
+
+army = {
+	name = "Garrison Group 1"
+	location = 289
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 295
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 294
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 289
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 287
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 290
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 288
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 284
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 286
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 285
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 277
+	}
+}
+army = {
+	name = "Garrison Group 1"
+	location = 282
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 278
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 282
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 283
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 281
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 280
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 284
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 293
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 287
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 303
+	}
+}
+
+
+navy = {
+	name = "Transport Fleet"
+	location = 290
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Patrol Fleet"
+	location = 290
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+}

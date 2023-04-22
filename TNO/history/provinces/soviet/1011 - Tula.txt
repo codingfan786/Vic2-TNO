@@ -1,0 +1,7 @@
+owner = MSC
+controller = MSC
+add_core = MSC
+
+
+trade_goods = grain
+life_rating = 35

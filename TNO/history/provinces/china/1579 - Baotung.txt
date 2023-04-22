@@ -1,0 +1,9 @@
+owner = YNN
+controller = YNN
+add_core = YNN
+add_core = XBI
+
+
+
+trade_goods = fruit
+life_rating = 32

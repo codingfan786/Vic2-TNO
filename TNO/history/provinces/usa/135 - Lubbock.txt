@@ -1,0 +1,16 @@
+owner = USA
+controller = USA
+
+add_core = USA
+add_core = TEX
+trade_goods = sulphur
+life_rating = 35
+2161.1.1 = {
+owner = USA
+controller = USA
+add_core = USA
+}2161.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}

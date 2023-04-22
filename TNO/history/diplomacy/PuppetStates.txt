@@ -1,0 +1,56 @@
+vassal = {
+	first = GER
+	second = BLT
+	start_date = 1836.1.1
+}
+vassal = {
+	first = GER
+	second = UKR
+	start_date = 1836.1.1
+}
+vassal = {
+	first = GER
+	second = BOH
+	start_date = 1836.1.1
+}
+vassal = {
+	first = GER
+	second = POL
+	start_date = 1836.1.1
+}
+vassal = {
+	first = GER
+	second = SLV
+	start_date = 1836.1.1
+}
+vassal = {
+	first = ITA
+	second = GRE
+	start_date = 1836.1.1
+}
+vassal = {
+	first = JAP
+	second = MCK
+	start_date = 1836.1.1
+}
+vassal = {
+	first = JAP
+	second = CHI
+	start_date = 1836.1.1
+}
+vassal = {
+	first = JAP
+	second = MGL
+	start_date = 1836.1.1
+}
+vassal = {
+	first = GER
+	second = MSC
+	start_date = 1836.1.1
+}
+
+vassal = {
+	first = FIN
+	second = ONE
+	start_date = 1836.1.1
+}

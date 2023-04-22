@@ -1,0 +1,129 @@
+
+
+#========================= L A N D =========================
+
+army = {
+	name = "Defense Forces"
+	location = 579
+
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 594
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 593
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 593
+	}
+
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 589
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 589
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 587
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 586
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 571
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 573
+	}
+}
+
+army = {
+	name = "Defense Forces"
+	location = 565
+
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 397
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 570
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 2560
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 564
+	}
+
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 565
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 567
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 576
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 2561
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 575
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 575
+	}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

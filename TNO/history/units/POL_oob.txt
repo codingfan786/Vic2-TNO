@@ -1,0 +1,69 @@
+army = {
+	name = "1a Armata" #done
+	location = 716
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = cavalry
+		home = 703
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = artillery
+		home = 714
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = artillery
+		home = 704
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = artillery
+		home = 705
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = artillery
+		home = 702
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = artillery
+		home = 702
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 713
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = cavalry
+		home = 702
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = artillery
+		home = 952
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = artillery
+		home = 952
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = artillery
+		home = 952
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = artillery
+		home = 711
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = artillery
+		home = 952
+	}
+}

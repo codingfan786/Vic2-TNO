@@ -1,0 +1,12 @@
+owner = BLT
+controller = BLT
+add_core = BLT
+add_core = EST
+
+
+
+
+trade_goods = grain
+life_rating = 35
+fort = 1
+naval_base = 2

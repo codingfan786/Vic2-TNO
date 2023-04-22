@@ -1,0 +1,160 @@
+country_event = {
+	id = 500013
+	title = "rebel tech 1!"
+	desc = "more rebel tech!"
+
+	trigger = {
+		year = 1974
+		NOT = {has_global_flag = rebeltech1}
+		AI = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_global_flag = rebeltech1
+		REB = {
+			activate_technology = strategic_mobility
+			activate_technology = muzzle_loaded_rifles
+			activate_technology = iron_muzzle_loaded_artillery
+			activate_technology = military_plans
+			activate_technology = army_professionalism
+		}
+	}
+
+	option = {
+		name = "Fantastic!"
+	}
+}
+
+
+country_event = {
+	id = 500014
+	title = "rebel tech 1!"
+	desc = "more rebel tech!"
+
+	trigger = {
+		year = 2000
+		NOT = {has_global_flag = rebeltech2}
+		AI = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_global_flag = rebeltech2
+		REB = {
+			activate_technology = point_defense_system
+			activate_technology = breech_loaded_rifles
+			activate_technology = iron_breech_loaded_artillery
+			activate_technology = military_statistics
+			activate_technology = army_decision_making
+		}
+		
+		
+	}
+
+	option = {
+		name = "Fantastic!"
+	}
+}
+
+country_event = {
+	id = 500015
+	title = "rebel leader!"
+	desc = "more rebel leaders!"
+
+	trigger = {
+		REB = {
+			OR = {
+				NOT = {
+					has_leader = rebel1
+				}
+				NOT = {
+					has_leader = rebel2
+				}
+				NOT = {
+					has_leader = rebel3
+				}
+				NOT = {
+					has_leader = rebel4
+				}
+				NOT = {
+					has_leader = rebel5
+				}
+				NOT = {
+					has_leader = rebel6
+				}
+				NOT = {
+					has_leader = rebel7
+				}
+				NOT = {
+					has_leader = rebel8
+				}
+			}
+			
+		}
+		
+		ai = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		
+		REB = {
+			define_general = {
+				name = rebel8
+				personality = aggressive
+				background = balanced_p
+			}
+			define_general = {
+				name = rebel1
+				personality = aggressive
+				background = balanced_p
+			}
+			define_general = {
+				name = rebel2
+				personality = aggressive
+				background = balanced_p
+			}
+			define_general = {
+				name = rebel3
+				personality = aggressive
+				background = balanced_p
+			}
+			define_general = {
+				name = rebel4
+				personality = aggressive
+				background = balanced_p
+			}
+			define_general = {
+				name = rebel5
+				personality = aggressive
+				background = balanced_p
+			}
+			define_general = {
+				name = rebel6
+				personality = aggressive
+				background = balanced_p
+			}
+			define_general = {
+				name = rebel7
+				personality = aggressive
+				background = balanced_p
+			}
+		}
+		
+		
+	}
+
+	option = {
+		name = "Fantastic!"
+	}
+}

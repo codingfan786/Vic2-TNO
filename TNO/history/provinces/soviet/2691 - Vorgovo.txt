@@ -1,0 +1,7 @@
+owner = WA1
+controller = WA1
+add_core = WA1
+
+
+trade_goods = grain
+life_rating = 15

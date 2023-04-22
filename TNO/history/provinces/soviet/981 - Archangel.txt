@@ -1,0 +1,12 @@
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
+
+
+trade_goods = timber
+life_rating = 35
+owner = RAR
+controller = RAR
+add_core = RAR

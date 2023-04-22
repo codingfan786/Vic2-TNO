@@ -1,0 +1,42 @@
+alliance=
+	{
+		first="BRG"
+		second="BRI"
+		start_date="1962.1.1"
+	}
+
+alliance=
+	{
+		first="POL"
+		second="UKR"
+		start_date="1962.1.1"
+	}
+
+alliance=
+	{
+		first="POL"
+		second="MSC"
+		start_date="1962.1.1"
+	}
+
+alliance=
+	{
+		first="POL"
+		second="BLT"
+		start_date="1962.1.1"
+	}
+
+alliance=
+	{
+		first="NAV"
+		second="FED"
+		start_date="1962.1.1"
+	}
+
+
+alliance=
+	{
+		first="USA"
+		second="PHI"
+		start_date="1962.1.1"
+	}

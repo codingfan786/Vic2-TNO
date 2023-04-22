@@ -1,0 +1,9 @@
+owner = HGE
+controller = HGE
+add_core = HGE
+
+
+
+trade_goods = grain
+life_rating = 33
+2161.1.1 = { railroad = 3 }

@@ -1,0 +1,6 @@
+owner = GGE
+controller = GGE
+add_core = GGE
+add_core = DEN
+trade_goods = grain
+life_rating = 35

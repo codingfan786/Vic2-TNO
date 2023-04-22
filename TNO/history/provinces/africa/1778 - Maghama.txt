@@ -1,0 +1,6 @@
+trade_goods = timber
+life_rating = 15
+owner = MAL
+controller = MAL
+add_core = MAL
+add_core = LIB

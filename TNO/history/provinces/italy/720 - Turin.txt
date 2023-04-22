@@ -1,0 +1,36 @@
+owner = ITA
+controller = ITA
+add_core = SAR
+add_core = ITA
+trade_goods = fruit
+life_rating = 35
+state_building = {
+	level = 1
+	building = aeroplane_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = automobile_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = barrel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = electric_gear_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

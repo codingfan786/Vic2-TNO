@@ -1,0 +1,482 @@
+FED = {
+	value = -50
+	truce_until = "1967.1.1"
+}
+NAV = {
+	value = -50
+	truce_until = "1967.1.1"
+}
+
+CHI = {
+	value = -10
+	level = 5
+	influence_value = 100
+}
+XBI = {
+	influence_value = 75
+}
+MCK = {
+	value = -10
+	level = 5
+}
+MGL = {
+	value = -10
+	level = 5
+}
+
+PHR = {
+	value = 200
+	level = 4
+}
+army = {
+	name = "I.J.A. North" 
+	location = 1649
+	leader = {
+		name = "Iwaichi Fujiwara"
+		date = 1962.1.1
+		type = land
+		personality = persistant
+		background = school_of_firepower
+		prestige = 0.3
+	}
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1649
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1649
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1651
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1650
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1653
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1652
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1669
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1668
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1673
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1645
+	}
+}
+
+army = {
+	name = "I.J.A. South" 
+	location = 1661
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1661
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1664
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1662
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1660
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1640
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1641
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1638
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1666
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1665
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1667
+	}
+}
+
+army = {
+	name = "C.J.A. Korea" 
+	location = 1632
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1632
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1635
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1636
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1633
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1634
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1624
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1628
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1629
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1619
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1627
+	}
+}
+
+army = {
+	name = "C.J.A. China" 
+	location = 1534
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1616
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1613
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1612
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1617
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = infantry
+		home = 1618
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = infantry
+		home = 1572
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = infantry
+		home = 1563
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = infantry
+		home = 1565
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = infantry
+		home = 1571
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = infantry
+		home = 1542
+	}
+}
+
+navy = {
+	name = "Transport Fleet"
+	location = 1649
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+}
+
+navy = {
+	name = "Submarine Group"
+	location = 1649
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+}
+
+navy = {
+	name = "Submarine Group"
+	location = 1649
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+}
+
+navy = {
+	name = "Frigate Group"
+	location = 1649
+	ship = {
+		name = "Destroyer"
+		type = ironclad
+	}
+	ship = {
+		name = "Destroyer"
+		type = ironclad
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+}
+

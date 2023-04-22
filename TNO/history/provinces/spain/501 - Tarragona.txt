@@ -1,0 +1,7 @@
+owner = IBE
+controller = IBE
+add_core = IBE
+add_core = SPA
+add_core = CAT
+trade_goods = grain
+life_rating = 35

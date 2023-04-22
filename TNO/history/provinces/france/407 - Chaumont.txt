@@ -1,0 +1,10 @@
+owner = BRG
+controller = BRG
+add_core = FRA
+
+
+trade_goods = iron
+life_rating = 30
+2161.1.1 = { railroad = 3 }
+
+fort = 1

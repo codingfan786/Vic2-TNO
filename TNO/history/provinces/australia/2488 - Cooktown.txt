@@ -1,0 +1,34 @@
+owner = AST
+controller = AST
+add_core = AST
+
+
+naval_base = 1
+
+trade_goods = tropical_wood
+life_rating = 30
+ state_building = {
+	level = 1
+	building = liquor_distillery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = regular_clothes_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = dye_factory
+	upgrade = yes
+}

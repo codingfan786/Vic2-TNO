@@ -1,0 +1,7 @@
+
+
+trade_goods = fruit
+life_rating = 30
+owner = LIB
+controller = LIB
+add_core = LIB

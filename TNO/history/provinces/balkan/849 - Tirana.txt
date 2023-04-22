@@ -1,0 +1,15 @@
+owner = ITA
+controller = ITA
+add_core = YUG
+add_core = ALB
+add_core = ITA
+
+
+
+trade_goods = oil
+life_rating = 35
+state_building = {
+	level = 1
+	building = fuel_refinery
+	upgrade = yes
+}

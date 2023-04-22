@@ -1,0 +1,11 @@
+owner = ITA
+controller = ITA
+add_core = YUG
+add_core = ALB
+add_core = ITA
+
+
+naval_base = 1
+
+trade_goods = cattle
+life_rating = 35

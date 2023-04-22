@@ -1,0 +1,135 @@
+country_event = {
+	id = 500017
+	title = "Natives have siezed our occupation headquarters!"
+	desc = "With the natives swarming around our command center garrisons across our territory are cut off from one another and without command nor communication. We are being overrun!"
+
+	trigger = {
+		OR = {
+			tag = EGA
+			tag = WGA
+		}
+		NOT = {has_country_flag = GERAFRFIXED}
+		capital_scope = {
+			country_units_in_province = REB
+		}
+		NOT = {
+			capital_scope = {
+				country_units_in_province = THIS
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 20
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				is_core = CNG
+			}
+			secede_province = CNG
+		}
+		any_owned = {
+			limit = {
+				is_core = ZAM
+			}
+			secede_province = ZAM
+		}
+		any_owned = {
+			limit = {
+				is_core = KEN
+			}
+			secede_province = KEN
+		}
+		any_owned = {
+			limit = {
+				is_core = MOZ
+			}
+			secede_province = MOZ
+		}
+		any_owned = {
+			limit = {
+				is_core = ANG
+			}
+			secede_province = ANG
+		}
+
+	}
+
+	option = {
+		name = "The horror!"
+	}
+}
+
+country_event = {
+	id = 500018
+	title = "Enemy troops have siezed our occupation headquarters!"
+	desc = "With enemy swarming around our command center garrisons across our territory are cut off from one another and without command nor communication. We are being overrun!"
+
+	trigger = {
+		OR = {
+			tag = EGA
+			tag = WGA
+		}
+		NOT = {has_country_flag = GERAFRFIXED}
+		NOT = {
+			OR = {
+				capital_scope = {
+					controlled_by = THIS
+				}
+				capital_scope = {
+					controlled_by = REB
+				}
+			}
+			
+		}
+		NOT = {
+			capital_scope = {
+				country_units_in_province = THIS
+			}
+		}
+
+		any_owned_province = {
+			controlled_by = THIS
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	immediate = {
+		capital_scope = {
+			controller = {
+				country_event = 500019
+			}
+		}
+	}
+
+	option = {
+		name = "The horror!"
+	}
+}
+
+
+
+country_event = {
+	id = 500019
+	title = "German Africa collapse!"
+	desc = "We are victorious in our fight against the Germans in Africa! By occupying their central H.Q. we have cut off the rest of the country from command and thrown them into chaos!"
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			any_owned = {
+				change_controller = THIS
+			}
+		}
+	}
+	option = {
+		name = "A victory for us and our war!"
+		
+	}
+}

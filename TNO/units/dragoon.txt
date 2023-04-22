@@ -1,0 +1,46 @@
+dragoon = {
+	icon = 14
+	
+	type = land
+	sprite = Tank
+	active = no
+	unit_type = infantry
+	
+	#Avatar
+	
+	
+	#Core Abilities
+	priority = 35
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 6.00
+	weighted_value = 6.0
+
+
+	#Building Costs
+	build_time = 150
+	build_cost = {
+		automobiles = 10
+		canned_food = 10
+		artillery = 10
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		automobiles = 0.012 #0.008
+		ammunition = 0.075 # 0
+		canned_food = 0.07 #0.08
+		artillery = 0.005
+		fuel = 0.05
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 6
+	defence = 5
+	discipline = 1.0
+	support = 0.0
+	maneuver = 2
+	
+}

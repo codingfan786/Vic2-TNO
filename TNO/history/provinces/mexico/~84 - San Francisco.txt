@@ -1,0 +1,11 @@
+owner = USA
+controller = USA
+
+add_core = USA
+add_core = CAL
+trade_goods = fruit
+life_rating = 402161.1.1 = {owner = USAcontroller = USAadd_core = USA}
+2161.1.1 = {
+	naval_base = 1
+	fort = 1
+}

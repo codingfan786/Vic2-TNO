@@ -1,0 +1,31 @@
+owner = IBE
+controller = IBE
+add_core = IBE
+add_core = SPA
+trade_goods = cattle
+life_rating = 40
+state_building = {
+	level = 1
+	building = artillery_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = explosives_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fuel_refinery
+	upgrade = yes
+}

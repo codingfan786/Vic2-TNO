@@ -1,0 +1,14 @@
+owner = ROM
+controller = ROM
+add_core = ROM
+add_core = MOL
+
+
+
+trade_goods = grain
+life_rating = 35
+
+2161.1.1 = {
+	
+	
+}

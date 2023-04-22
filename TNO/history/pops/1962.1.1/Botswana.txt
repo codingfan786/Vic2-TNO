@@ -1,0 +1,254 @@
+#Bechuanaland Region (76000) #see South Africa.txt for balance of region 
+#uncolonized in 1836/dominated by the Tswana in 1836
+#Gaborone (28000/7000 POPS) 
+2074 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 1250
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 750
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 3500
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 750
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 63750
+	}
+}
+#Nokaneng (12000/3000 POPS) 
+2076 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 250
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 500
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 9000
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 250
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 500
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 1000
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 250
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 18000
+	}
+}
+#Tshabong (12000/3000 POPS) 
+2077 = {
+	aristocrats = {
+		culture = khoisan
+		religion = animist
+		size = 250
+	}
+
+	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 500
+	}
+
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 1000
+	}
+
+	soldiers = {
+		culture = khoisan
+		religion = animist
+		size = 250
+	}
+
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 18000
+	}
+
+	aristocrats = {
+		culture = khoisan
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 250
+	}
+
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 500
+	}
+
+	soldiers = {
+		culture = khoisan
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 9000
+	}
+}
+#Mochidi (16000/4000 POPS) 
+2574 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 500
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 500
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 2000
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 500
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 36500
+	}
+}
+#uncolonized in 1836/dominated by the Ndebele in 1836
+#Serowe (8000/2000 POPS) 
+2075 = {
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 150
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 500
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 9000
+	}
+
+	aristocrats = {
+		culture = bantu
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = bantu
+		religion = animist
+		size = 250
+	}
+
+	artisans = {
+		culture = bantu
+		religion = animist
+		size = 500
+	}
+
+	soldiers = {
+		culture = bantu
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = bantu
+		religion = animist
+		size = 9000
+	}
+
+}

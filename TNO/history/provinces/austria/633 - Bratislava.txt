@@ -1,0 +1,11 @@
+owner = SLV
+controller = SLV
+add_core = SLV
+
+
+add_core = CZH
+
+
+trade_goods = cattle
+life_rating = 35
+ 

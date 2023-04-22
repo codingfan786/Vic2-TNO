@@ -1,0 +1,177 @@
+
+
+#========================= L A N D =========================
+
+army = {
+	name = "Garrison Group 1"
+	location = 299
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 299
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 299
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 299
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 299
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 299
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 299
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 299
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 299
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 298
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 298
+	}
+}
+
+army = {
+	name = "Garrison Group 2"
+	location = 298
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 298
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 298
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 298
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 298
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 298
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 298
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 297
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 297
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 297
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 297
+	}
+}
+
+army = {
+	name = "Garrison Group 3"
+	location = 297
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 297
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 297
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 297
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 296
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 296
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 296
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 296
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 296
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 296
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 296
+	}
+}
+
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

@@ -1,0 +1,194 @@
+political_decisions = {
+	notechs = {
+		potential = {
+			NOT = {has_country_flag = teched}
+			AND = {
+				NOT = {post_nelsonian_thought = 1}
+				NOT = {clipper_design = 1}
+				NOT = {naval_design_bureaus = 1}
+				NOT = {alphabetic_flag_signaling = 1}
+				NOT = {the_command_principle = 1}
+
+				NOT = {water_wheel_power = 1}
+				NOT = {publishing_industry = 1}
+				NOT = {mechanized_mining = 1}
+				NOT = {experimental_railroad = 1}
+				NOT = {basic_chemistry = 1}
+
+				NOT = {classicism_n_early_romanticism = 1}
+				NOT = {late_enlightenment_philosophy = 1}
+				NOT = {malthusian_thought = 1}
+				NOT = {enlightenment_thought = 1}
+				NOT = {introspectionism = 1}
+
+				NOT = {private_banks = 1}
+				NOT = {no_standard = 1}
+				NOT = {early_classical_theory_and_critique = 1}
+				NOT = {freedom_of_trade = 1}
+				NOT = {guild_based_production = 1}
+
+				NOT = {post_napoleonic_thought = 1}
+				NOT = {flintlock_rifles = 1}
+				NOT = {bronze_muzzle_loaded_artillery = 1}
+				NOT = {military_staff_system = 1}
+				NOT = {army_command_principle = 1}
+			}
+			
+		}
+		allow = {
+			AND = {
+				NOT = {post_nelsonian_thought = 1}
+				NOT = {clipper_design = 1}
+				NOT = {naval_design_bureaus = 1}
+				NOT = {alphabetic_flag_signaling = 1}
+				NOT = {the_command_principle = 1}
+
+				NOT = {water_wheel_power = 1}
+				NOT = {publishing_industry = 1}
+				NOT = {mechanized_mining = 1}
+				NOT = {experimental_railroad = 1}
+				NOT = {basic_chemistry = 1}
+
+				NOT = {classicism_n_early_romanticism = 1}
+				NOT = {late_enlightenment_philosophy = 1}
+				NOT = {malthusian_thought = 1}
+				NOT = {enlightenment_thought = 1}
+				NOT = {introspectionism = 1}
+
+				NOT = {private_banks = 1}
+				NOT = {no_standard = 1}
+				NOT = {early_classical_theory_and_critique = 1}
+				NOT = {freedom_of_trade = 1}
+				NOT = {guild_based_production = 1}
+
+				NOT = {post_napoleonic_thought = 1}
+				NOT = {flintlock_rifles = 1}
+				NOT = {bronze_muzzle_loaded_artillery = 1}
+				NOT = {military_staff_system = 1}
+				NOT = {army_command_principle = 1}
+			}
+		}
+		effect = {
+			set_country_flag = teched
+			activate_technology = post_nelsonian_thought
+			activate_technology = clipper_design
+			activate_technology = naval_design_bureaus
+			activate_technology = alphabetic_flag_signaling
+			activate_technology = the_command_principle
+
+			activate_technology = water_wheel_power
+			activate_technology = publishing_industry
+			activate_technology = mechanized_mining
+			activate_technology = experimental_railroad
+			activate_technology = basic_chemistry
+
+			activate_technology = classicism_n_early_romanticism
+			activate_technology = late_enlightenment_philosophy
+			activate_technology = malthusian_thought
+			activate_technology = enlightenment_thought
+			activate_technology = introspectionism
+
+			activate_technology = private_banks
+			activate_technology = no_standard
+			activate_technology = early_classical_theory_and_critique
+			activate_technology = freedom_of_trade
+			activate_technology = guild_based_production
+
+			activate_technology = post_napoleonic_thought
+			activate_technology = flintlock_rifles
+			#activate_technology = bronze_muzzle_loaded_artillery
+			#activate_technology = military_staff_system
+			activate_technology = army_command_principle
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	ai_supply = {
+		potential = {
+			ai = yes
+			NOT = {has_country_flag = supplied}
+		}
+		allow = {
+			NOT = {has_country_flag = supplied}
+		}
+		effect = {
+			set_country_flag = supplied
+			artillery = 100
+			clipper_convoy = 200
+			aeroplanes = 100
+			fuel = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	startingleadership = {
+		potential = {
+			NOT = {
+				tag = HGE
+				tag = BGE
+				tag = SGE
+				tag = GGE
+			}
+			NOT = {has_country_flag = lead}
+		}
+		allow = {
+
+		}
+		effect = {
+			set_country_flag = lead
+			leadership = 60
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	china_nerf = {
+		potential = {
+			tag = CHI
+			NOT = {has_global_flag = china_nerfed}
+		}
+
+		allow = {
+
+		}
+		effect = {
+			set_global_flag = china_nerfed
+			any_pop = {
+				limit = {
+					pop_type = soldiers
+				}
+				reduce_pop = 0.35
+			}
+			add_country_modifier = {
+				name = CHI_mobnerf
+				duration = -1
+			}
+			set_country_flag = CHI_mobnerf
+		}
+	}
+
+	canalactivate = {
+		potential = {
+			NOT = {has_global_flag = canalactivated}
+		}
+		allow = {
+
+		}
+		effect = {
+			set_global_flag = canalactivated
+			enable_canal = 1
+			enable_canal = 2
+			enable_canal = 3
+			enable_canal = 4
+			enable_canal = 5
+			enable_canal = 6
+			enable_canal = 7
+			enable_canal = 8
+		}
+
+	}
+}

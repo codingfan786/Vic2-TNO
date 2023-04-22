@@ -1,0 +1,6 @@
+trade_goods = iron
+life_rating = 15
+owner = IBE
+controller = IBE
+add_core = ANG
+colonial = 2

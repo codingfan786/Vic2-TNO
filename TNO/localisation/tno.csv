@@ -1,0 +1,72 @@
+startingleadership_title;Starting Leadership.;;;;;;;;;;;;x;;;
+startingleadership_desc;Lets you start with some generals.;;;;;;;;;;;;x;;;
+notechs_title;Starting Techs.;;;;;;;;;;;;x;;;
+notechs_desc;If you don't have starting techs defines then this will give you some.;;;;;;;;;;;;x;;;
+phi_becomestate_NEWS_LONG;The fighting in the Phillipines has finally ended! After a long and gruelling geurilla war between the remaining American and Japanese forces the American forces stand victorious. The frequent importation of American troops and material during the 15 year long struggle has lead to a dependence and fraternal relationship between the Phillipine people and the American Military Administration. With peace finally returning to the islands the Phillipine Civil Government has formally requested statehood with the American government, with a swift approval strongly expected.;;;;;;;;;;;;x;;;
+phi_becomestate_NEWS_MEDIUM;The Phillipines has been granted statehood! After a gruelling 15 year guerilla war recently won with the continued American support, the Phillipines has opted to join the Union!;;;;;;;;;;;;x;;;
+phi_becomestate_NEWS_SHORT;All welcome the new 50th state!;;;;;;;;;;;;x;;;
+EVTDESC500016_NEWS_LONG;The fighting in the Phillipines has finally ended! After a long and gruelling geurilla war between the remaining American and Japanese forces the American forces stand victorious. The frequent importation of American troops and material during the 15 year long struggle has lead to a dependence and fraternal relationship between the Phillipine people and the American Military Administration. With peace finally returning to the islands the Phillipine Civil Government has formally requested statehood with the American government, with a swift approval strongly expected.;;;;;;;;;;;;x;;;
+EVTDESC500016_NEWS_MEDIUM;The Phillipines has been granted statehood! After a gruelling 15 year guerilla war recently won with the continued American support, the Phillipines has opted to join the Union!;;;;;;;;;;;;x;;;
+EVTDESC500016_NEWS_SHORT;All welcome the new 50th state!;;;;;;;;;;;;x;;;
+demorus_title;Unite with the Russian Federal Republic.;;;;;;;;;;;;x;;;
+demorus_desc;Some like minded groups have formed alongside us during the fall of the Soviet Union. Our differences are negligible and our relationship amiciable; we should unite!;;;;;;;;;;;;x;;;
+westalaska_title;The West Alaskan Government forms!;;;;;;;;;;;;x;;;
+westalaska_desc;After a lengthy process we have finally kicked the haunting vistages of communism out of the region. We can finally unite the people under a democratic flag. The Americans have been a continued source of economic assistance during this endeavor, what's more suitable than for us to declare ourselves the Republic of West Alaska!;;;;;;;;;;;;x;;;
+ciafunding_title;American Funding.;;;;;;;;;;;;x;;;
+ciafunding_desc;Some men from overseas today arrived and informed us that a few polititians in America believe there is something worth salvaging in the remains of Russia. They claim that if we pay a little lip service to the American government then they can convince these polititians to approve economic assistance to us.;;;;;;;;;;;;x;;;
+shippurchase_title;American ship purchase.;;;;;;;;;;;;x;;;
+shippurchase_desc;Our naval facilities cannot keep up with our larger neighbours; it is necessary to rely on our foreign friends to make up for the gap.;;;;;;;;;;;;x;;;
+WA_capital_title;Pride of the Fleet.;;;;;;;;;;;;x;;;
+WA_capital_desc;What we cannot make up for in quantity, we will make up for in quality! It is time we pool our resources towards a mighty ship worthwhile of being our pride!;;;;;;;;;;;;x;;;
+Form_SCA_title;Form the North Sea Pragmatic Alliance.;;;;;;;;;;;;x;;;
+Form_SCA_desc;Despite our differences all North Sea countries face perilous threats to our independence. We should unite for the purpose of mutual defense!;;;;;;;;;;;;x;;;
+synthrubber_factory; Synthetic Rubber Factory;;;;;;;;;;;;x;;;
+rus_uni;Russian Unification;;;;;;;;;;;;x;;;
+rus_uni_short;Acquire $STATE$;;;;;;;;;;;;x;;;
+rus_uni_setup;Acquire $STATE$;;;;;;;;;;;;x;;;
+tiny_conquest;Tiny Conquest;;;;;;;;;;;;x;;;
+tiny_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;x;;;
+tiny_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;x;;;
+acquire_capital;Take Capital;;;;;;;;;;;;x;;;
+acquire_capital_short;Take $RECIPIENT$ capital;;;;;;;;;;;;x;;;
+acquire_capital_setup;Take $RECIPIENT$ capital;;;;;;;;;;;;x;;;
+negotiated_transfer;Negotiated Transfer;;;;;;;;;;;
+negotiated_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;x
+negotiated_transfer_short;$RECIPIENT$ receives $STATE$ from us;;;;;;;;;;;;;x
+negotiated_transfer_setup;Transfer $STATE$ from our country to $RECIPIENT$;;;;;;;;;;;;x
+fix_country_title;Upgrade the National Security Infrastructure.;;;;;;;;;;;;x
+fix_country_desc;Our situation is finally stable enough to allow our German security forces to act independently when cutoff from command and for our upper echelons to continue giving orders and directing troops from fallback positions outside our central headquarters. §RThis means we will no longer collapse when our capital is occupied or has any rebels standing in it.;;;;;;;;;;;;x
+BRG_occupy;Burgundian Decimation;;;;;;;;;;;;x
+BRG_occupy_desc;Our land is being ravaged by the Himmlerites!;;;;;;;;;;;;x
+ger_afr;Open Revolt;;;;;;;;;;;;x
+ger_afr_desc;Our people hate us!;;;;;;;;;;;;x
+PBS_freedom_title;Cast off our chains!;;;;;;;;;;;;x
+POL_revanch_title;Revive the Second Republic!;;;;;;;;;;;;x
+CZH_revanch_title;Unite the Czechoslovaks!;;;;;;;;;;;;x
+FEU_revanch_title;The Grand Slave Revolt!;;;;;;;;;;;;x
+stand_on_our_own_title;An Independent Reichskommissariat.;;;;;;;;;;;;x
+PBS_freedom_desc;It is time now to rise up against the tyranny of the Third Reich! While Germany is strife with civil war we will take the chance to declare our freedom! We have nought to lose but our chains! §R This may have significant consequences once Germany has united again. It is best we find international support quickly.;;;;;;;;;;;;x
+POL_revanch_desc;The Second Polish Republic is no longer a dream! We will retake what is ours, with force if necessary!;;;;;;;;;;;;x
+CZH_revanch_desc;Our breathren in the mountains have declared their independence with us; we should unite again as in the days 20 years past! Despite our ethnic tensions it is necessary for our survival when we are surrounded on all sides by enemies. Never another Munich!;;;;;;;;;;;;x
+FEU_revanch_desc;Our other Slavic breathren have revolted as we have! It is time to consolidate our rebellions and fight towards a Free Europe!;;;;;;;;;;;;x
+stand_on_our_own_desc;There is no hope for aid from the Fatherland anymore. Now is time for us to stand on our own! §R This may have significant consequences once Germany has united again. It is best to come to a diplomatic agreement quickly.;;;;;;;;;;;;x
+victory_in_the_gcw_title;Victory in the German Civil War!;;;;;;;;;;;;x
+victory_in_the_gcw_desc;We have won the German Civil War, it is time to reconsolidate the German holdings.;;;;;;;;;;;;x
+nuc_dev;Nuclear Development;;;;;;;;;;;;x
+nuc_dev_desc;We are in the process of developing a nuclear arsenal of our own. This is attracting significant negative attention abroad.;;;;;;;;;;;;x
+nuclear_development_title;Develop Nuclear Weapons.;;;;;;;;;;;;x
+nuclear_development_desc;It is high time we are able to stand on our own two feet against the nuclear superpowers!;;;;;;;;;;;;x
+nuc_timeout;Nuclear Timeout;;;;;;;;;;;;x
+nuc_timeout_desc;We must wait before causing another nuclear incident;;;;;;;;;;;;x
+pup_assistance_title;Promise freedom for assistance.;;;;;;;;;;;;x
+pup_assistance_desc;We are in desparate need of assistance and severely outnumbered! We must convince the German holdings in the east to assist us; no matter the cost! §R This will promise freedom to any puppet that joins our war, and also returns some ethnic territory of Czechoslovakia and Poland. You may refuse to follow through with the deal after the war, but this will cost you infamy.;;;;;;;;;;;;x
+brg_assistance_title;Request Intervention from Himmler!;;;;;;;;;;;;x
+brg_assistance_desc;We are in desparate need of assistance and severely outnumbered! We must beg Himmler in the west to rescue us!;;;;;;;;;;;;x
+brg_assist;Burgundian Assistance;;;;;;;;;;;;x
+pup_gcw;Intervention in the German Civil War;;;;;;;;;;;;x
+brg_gcw;Intervention in the German Civil War;;;;;;;;;;;;x
+pup_gcw_short;Speer will annex this country;;;;;;;;;;;;x
+pup_gcw_setup;Speer will annex this country;;;;;;;;;;;;x
+brg_gcw_short;Heydrich will annex this country;;;;;;;;;;;;x
+brg_gcw_setup;Heydrich will annex this country;;;;;;;;;;;;x
+sge_mobbuff;Emergency Draft;;;;;;;;;;;;x

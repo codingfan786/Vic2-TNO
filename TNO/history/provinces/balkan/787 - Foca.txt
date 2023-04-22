@@ -1,0 +1,11 @@
+owner = YUG
+controller = YUG
+add_core = YUG
+add_core = BOS
+
+
+
+
+
+trade_goods = coal
+life_rating = 35

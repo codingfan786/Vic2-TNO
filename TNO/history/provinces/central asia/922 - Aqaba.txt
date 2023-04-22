@@ -1,0 +1,10 @@
+owner = ISR
+controller = ISR
+colonial = 2
+
+
+
+trade_goods = wool
+life_rating = 35
+
+add_core = ARA

@@ -1,0 +1,44 @@
+plane = {
+	icon = 19
+	
+	type = land
+	sprite = Plane
+	active = no
+	unit_type = support
+	floating_flag = no
+	
+	#Core Abilities
+	priority = 20
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 7.00
+	weighted_value = 6.0
+
+
+	#Building Costs
+	build_time = 120
+	build_cost = {
+		aeroplanes = 10
+		artillery = 10
+		canned_food = 10
+		fuel = 5
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		aeroplanes = 0.05
+		artillery= 0.05
+		canned_food = 0.04
+		fuel = 0.2
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0.1
+	attack = 2
+	defence = 5
+	discipline = 0.1
+	support = 2
+	maneuver = 2
+
+}

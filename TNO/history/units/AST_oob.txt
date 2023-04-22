@@ -1,0 +1,130 @@
+army = {
+	name = "1a Armata" #done
+	location = 2468
+	
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 2468
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 2468
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 2468
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 2468
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 2468
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 2468
+	}
+}
+
+navy = {
+	name = "Transport Fleet"
+	location = 2468
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Patrol Fleet"
+	location = 2468
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+}

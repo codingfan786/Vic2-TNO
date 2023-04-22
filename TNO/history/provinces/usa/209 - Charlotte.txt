@@ -1,0 +1,7 @@
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = tobacco
+life_rating = 35
+railroad = 12161.1.1 = {	controller = CSA	owner = CSA	add_core = CSA}
+2161.1.1 = { railroad = 3 }

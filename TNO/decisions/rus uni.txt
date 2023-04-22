@@ -1,0 +1,214 @@
+political_decisions = {
+
+	demorus = {
+		potential = {
+			tag = NAV
+			exists = FED
+		}
+		allow = {
+			OR = {
+				relation = { who = FED value = 200 }
+				AND = {
+					ai = yes
+					year = 1972
+				}
+			}
+			
+		}
+		effect = {
+			FED = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			inherit = FED
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	westalaska = {
+		potential = {
+			OR = {
+				tag = NAV
+				tag = FED
+			}
+			
+		}
+		allow = {
+			state_n_government = 1
+			OR = {
+				is_our_vassal = FED
+				FED = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+			OR = {
+				is_our_vassal = NAV
+				NAV = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+			OR = {
+				is_our_vassal = NKV
+				NKV = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+
+
+		}
+		effect = {
+			prestige = 20
+			any_country = {
+				limit = {
+					tag = FED
+					NOT = {tag = THIS}
+				}
+				all_core = {
+					add_core = THIS
+				}
+				THIS = {inherit = FED}
+			}
+
+			any_country = {
+				limit = {
+					tag = NKV
+					NOT = {tag = THIS}
+				}
+				all_core = {
+					add_core = THIS
+				}
+				THIS = {inherit = NKV}
+			}
+			any_country = {
+				limit = {
+					tag = NAV
+					NOT = {tag = THIS}
+				}
+				all_core = {
+					add_core = THIS
+				}
+				THIS = {inherit = NAV}
+			}
+
+			all_core = {
+				add_core = ALK
+			}
+
+			NAV = {
+				all_core = {
+					remove_core = NAV
+				}
+			}
+
+			FED = {
+				all_core = {
+					remove_core = FED
+				}
+			}
+
+			NKV = {
+				all_core = {
+					remove_core = NKV
+				}
+			}
+
+			change_tag = ALK
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ciafunding = {
+		potential = {
+			OR = {
+				tag = NAV
+				tag = ALK
+			}
+		}
+		allow = {
+			relation = { who = USA value = 20 }
+		}
+		effect = {
+			relation = {
+				who = USA
+				value = -20
+			}
+			treasury = 50000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	shippurchase = {
+		potential = {
+			OR = {
+				tag = ALK
+				tag = NAV
+			}
+			USA = {
+				iron_steamers = 1
+			}
+		}
+		allow = {
+			relation = { who = USA value = 20 }
+			money = 100000
+		}
+		effect = {
+			relation = {
+				who = USA
+				value = -20
+			}
+			treasury = -100000
+			capital_scope = {
+				sub_unit = {
+					type = ironclad
+					value = current
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	WA_capital = {
+		potential = {
+			tag = ALK
+			
+			NOT = {has_country_flag = WA_capital_built}
+			
+		}
+		allow = {
+			money = 300000
+			iron_steamers = 1
+			raider_group_doctrine = 1
+		}
+		effect = {
+			set_country_flag = WA_capital_built
+			treasury = -300000
+			capital_scope = {
+				sub_unit = {
+					type = cruiser
+					value = current
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+}

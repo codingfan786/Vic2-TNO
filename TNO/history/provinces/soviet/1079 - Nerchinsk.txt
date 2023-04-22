@@ -1,0 +1,32 @@
+owner = FED
+controller = FED
+add_core = FED
+
+
+trade_goods = grain
+life_rating = 35
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = artillery_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}

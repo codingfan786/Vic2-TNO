@@ -1,0 +1,34 @@
+owner = ROM
+controller = ROM
+add_core = ROM
+add_core = MOL
+
+
+
+trade_goods = grain
+life_rating = 35
+
+2161.1.1 = {
+	
+	
+}
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = electric_gear_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = radio_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = telephone_factory
+	upgrade = yes
+}

@@ -1,0 +1,23 @@
+owner = SGE
+controller = SGE
+add_core = SGE
+
+
+
+
+
+trade_goods = cattle
+life_rating = 35
+#state_building = {
+#	level = 1
+#	building = fabric_factory
+#	upgrade = yes
+#}
+2161.1.1 = { 
+	state_building = {
+		level = 1
+		building = regular_clothes_factory
+		upgrade = yes
+	} 
+}
+2161.1.1 = { railroad = 3 }

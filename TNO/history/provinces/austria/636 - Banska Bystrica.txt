@@ -1,0 +1,8 @@
+owner = SLV
+controller = SLV
+add_core = SLV
+add_core = CZH
+
+
+trade_goods = grain
+life_rating = 35

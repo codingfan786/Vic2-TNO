@@ -1,0 +1,14 @@
+name = "I.J.A. Insurgency of the Phillipines"
+
+1961.1.1 = {
+	add_attacker = PHR
+	add_defender = PHI
+	
+	war_goal = {
+		casus_belli = conquest
+		actor = PHR
+		receiver = PHI
+	}
+
+}
+

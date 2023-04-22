@@ -1,0 +1,14 @@
+owner = GGE
+controller = GGE
+add_core = GGE
+add_core = GER
+trade_goods = fish
+life_rating = 40
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}
+2161.1.1 = {
+	naval_base = 1 #Wilhelmshaven
+}

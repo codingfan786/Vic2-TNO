@@ -1,0 +1,36 @@
+owner = HUN
+controller = HUN
+add_core = ROM
+
+
+
+
+
+
+trade_goods = wool
+life_rating = 35
+state_building = {
+	level = 1
+	building = liquor_distillery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = regular_clothes_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = dye_factory
+	upgrade = yes
+}

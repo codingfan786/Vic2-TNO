@@ -1,0 +1,445 @@
+#Starting Relations
+GRE = {
+	value = -20
+	level = 5
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 723
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 725
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 723
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 724
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 724
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 722
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 727
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 728
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 738
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 749
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 744
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 745
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 748
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 747
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 751
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 750
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 749
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 749
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 753
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 754
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 1751
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1752
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1746
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1748
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1747
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1749
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1750
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1745
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1745
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1745
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 1849
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1765
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1764
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1762
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1829
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1828
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1827
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1831
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1830
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1863
+	}
+}
+
+navy = {
+	name = "Transport Fleet"
+	location = 749
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+}
+
+navy = {
+	name = "Transport Fleet"
+	location = 749
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+}
+
+navy = {
+	name = "Patrol Fleet"
+	location = 749
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "Frigate Group"
+	location = 749
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Frigate"
+		type = manowar
+	}
+	ship = {
+		name = "Destroyer"
+		type = ironclad
+	}
+}
