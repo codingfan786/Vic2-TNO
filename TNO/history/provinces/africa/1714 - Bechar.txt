@@ -1,5 +1,5 @@
-trade_goods = wool
-life_rating = 10
+trade_goods = oil
+life_rating = 20
 owner = IBE
 controller = IBE
 add_core = ALD

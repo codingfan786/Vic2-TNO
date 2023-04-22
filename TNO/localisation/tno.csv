@@ -22,7 +22,7 @@ Form_SCA_title;Form the North Sea Pragmatic Alliance.;;;;;;;;;;;;x;;;
 Form_SCA_desc;Despite our differences all North Sea countries face perilous threats to our independence. We should unite for the purpose of mutual defense!;;;;;;;;;;;;x;;;
 synthrubber_factory; Synthetic Rubber Factory;;;;;;;;;;;;x;;;
 rus_uni;Russian Unification;;;;;;;;;;;;x;;;
-rus_uni_short;Acquire $STATE$;;;;;;;;;;;;x;;;
+rus_uni_short;Russian Unification of $STATE$;;;;;;;;;;;;x;;;
 rus_uni_setup;Acquire $STATE$;;;;;;;;;;;;x;;;
 tiny_conquest;Tiny Conquest;;;;;;;;;;;;x;;;
 tiny_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;x;;;

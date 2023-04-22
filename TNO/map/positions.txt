@@ -78743,7 +78743,7 @@ fort=
 	text_position=
 	{
 		x=2882.000000
-		y=1294.099976
+		y=1322.000000
 	}
 	text_scale=3.599999
 	building_construction=
@@ -78818,13 +78818,13 @@ fort=
 {
 	unit=
 	{
-		x=2851.000000
+		x=2840.000000
 		y=1332.000000
 	}
 
 	text_position=
 	{
-		x=2850.399902
+		x=2840.000000
 		y=1334.699951
 	}
 	text_scale=3.699999

@@ -1873,7 +1873,7 @@ tiny_conquest = {
 }
 
 rus_uni = {
-	sprite_index = 5
+	sprite_index = 9
 	is_triggered_only = yes
 	months = 12
 	
@@ -1930,7 +1930,7 @@ rus_uni = {
 }
 
 negotiated_transfer = {
-	sprite_index = 17
+	sprite_index = 1
 	is_triggered_only = yes
 	months = 0
 	crisis = no

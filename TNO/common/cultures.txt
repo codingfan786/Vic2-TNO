@@ -231,7 +231,7 @@ scandinavian = {
 			Hætta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell
 		}
 	}
-	union = SCA
+	#union = SCA
 }
 
 british = {
@@ -562,7 +562,7 @@ south_slavic = {
 		Sarajlic Selimovic Silajdzic Sokolovic Spaho Terzic Tihic Turaljic Tükcan Ugljanin 
 		}
 	}
-	union = YUG
+	#union = YUG
 }
 pan_romanian = {
 	leader = european
@@ -583,7 +583,7 @@ pan_romanian = {
 		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
 		}
 	}
-	union = ROM 
+	#union = ROM 
 }
 
 hungarian_culture_group = {
@@ -642,7 +642,7 @@ polish_culture_group = {
 		}
 	}
 	
-	union = PLC
+	#union = PLC
 }
 
 czecho_slovak_culture_group = {
@@ -762,7 +762,7 @@ baltic = {
 		}
 	}
 	
-	union = UBD
+	#union = UBD
 
 }
 

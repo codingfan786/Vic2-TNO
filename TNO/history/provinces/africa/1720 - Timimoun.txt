@@ -1,6 +1,6 @@
-trade_goods = oil
+trade_goods = wool
 life_rating = 10
-owner = IBE
-controller = IBE
+owner = ITA
+controller = ITA
 add_core = ALD
 colonial = 2
