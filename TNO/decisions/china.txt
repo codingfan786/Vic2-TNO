@@ -33,6 +33,9 @@ political_decisions = {
 	turk_accept = {
 		potential = {
 			tag = XIN
+			NOT = {
+				accepted_culture = turkmen
+			}
 		}
 		allow = {
 			nationalism_n_imperialism = 1
@@ -79,6 +82,7 @@ political_decisions = {
 			nationalism_n_imperialism = 1
 		}
 		effect = {
+			prestige = 20
 			any_country = {
 				limit = {
 					vassal_of = THIS
@@ -171,6 +175,26 @@ political_decisions = {
 		}
 	}
 
-	
-	
+	mongol_russia = {
+		potential = {
+			tag = MGL
+			NOT = {accepted_culture = russian}
+		}
+		allow = {
+			NOT = {vassal_of = JAP}
+			OR = {
+				nationalism_n_imperialism = 1
+				AND = {
+					1469 = {
+						owner = {tag = MGL}
+					}
+					state_n_government = 1
+				}
+			}
+		}
+		effect = {
+			add_accepted_culture = russian
+		}
+	}
+
 }

@@ -1,0 +1,76 @@
+political_decisions = {
+	por_investment={
+		potential = {
+			tag = IBE
+			NOT = {has_country_flag = por_invest}
+		}
+		allow = {
+			POR = {
+				all_core = {
+					has_building = railroad
+				}
+			}
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = por_invest
+			POR = {
+				all_core = {
+					life_rating = 5
+				}
+			}
+		}
+	}
+
+
+	cat_investment={
+		potential = {
+			tag = IBE
+			NOT = {has_country_flag = cat_invest}
+		}
+		allow = {
+			498 = {has_building = railroad}
+			501 = {has_building = railroad}
+
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = cat_invest
+			CAT = {
+				all_core = {
+					life_rating = 5
+				}
+			}
+		}
+	}
+
+
+	por_acceptance = {
+		potential = {
+			tag = IBE
+			has_country_flag = por_invest
+			NOT = {accepted_culture = portuguese}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			add_accepted_culture = portuguese
+		}
+	}
+
+	cat_acceptance = {
+		potential = {
+			tag = IBE
+			has_country_flag = cat_invest
+			NOT = {accepted_culture = catalan}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			add_accepted_culture = catalan
+		}
+	}
+
+}

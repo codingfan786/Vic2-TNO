@@ -2,10 +2,5 @@ owner = ITA
 controller = ITA
 add_core = SAR
 add_core = ITA
-trade_goods = grain
+trade_goods = precious_metal
 life_rating = 35
-2161.1.1 = {
-	controller = ITA
-	owner = ITA
-	add_core = ITA
-}

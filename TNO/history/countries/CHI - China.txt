@@ -1,4 +1,3 @@
-civilized = yes
 capital = 1612
 primary_culture = nanfaren
 culture = beifaren
@@ -8,7 +7,7 @@ plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.15
 non_state_culture_literacy = 0.08
- 
+civilized = no #blame this dogshit game and see the china setup decision
 
 prestige = 0
 
@@ -46,11 +45,15 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-2059.1.1 = {
-	oob = "/1861/CHI_oob.txt"
-	literacy = 0.07
-	non_state_culture_literacy = 0.04
 
-	#Military Reforms
-	foreign_training = yes_foreign_training
-}
+
+
+
+publishing_industry = 1
+
+introspectionism = 1
+
+private_banks = 1
+
+guild_based_production = 1
+

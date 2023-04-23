@@ -78,3 +78,57 @@ turk_accept_title;Equal Rights to the Turkmen;;;;;;;;;;;;x
 turk_accept_desc;Who is to say how far west China stops? Central Asia is still Asia, an thus our brethren.;;;;;;;;;;;;x
 west_china_title;Unify the Chinese Remnants!;;;;;;;;;;;;x
 west_china_desc;After a hard fought victory the free portions of China have finally reunited! It is time to look East.;;;;;;;;;;;;x
+mongol_russia_title;Ideological Racism;;;;;;;;;;;;x
+mongol_russia_desc;No longer will our people be separated by race! As said by Mao and Marx we are all unified by our class. No longer will our former Soviet cousins and us be treated as Russian and Mongolian, but rather one people; the Proletariat!;;;;;;;;;;;;x
+form_alp_title;Unify the Alps!;;;;;;;;;;;;x
+form_alp_desc;The Swiss and the North Italian live on two sides of the same mountain. Our differences are not too great that we cannot live together as one. This might upset some Italian politians' African posturing, but a shift of political focus north could greatly benefit us. §R This will prevent us from assimilating our African statesmen and vice versa.;;;;;;;;;;;;x
+get_austria_title;North of the Alps;;;;;;;;;;;;x
+get_austria_desc;A little farther north of the Alps, along the river Danube, are many people with linguistic and cultural ties to the mountain life. These "High Germans" have been brought under our control and they must be our people!;;;;;;;;;;;;x
+ita_assim_buffer;Italian Assimilation event buffer;;;;;;;;;;;;x
+ita_assim_timer;Italian Assimilation In Progress;;;;;;;;;;;;x
+accept_bedouin_one_title;Italianize the Bedouins!;;;;;;;;;;;;x
+accept_maghrebi_one_title;Italianize the Maghrebi!;;;;;;;;;;;;x
+accept_misri_one_title;Italianize the Misri!;;;;;;;;;;;;x
+accept_mashriqi_one_title;Italianize the Mashriqi!;;;;;;;;;;;;x
+accept_afro_asiatic_one_title;Italianize the Afro-Asiatic!;;;;;;;;;;;;x
+accept_bedouin_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_maghrebi_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_misri_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_mashriqi_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_afro_asiatic_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_bedouin_two_title;Italianize the Bedouins!;;;;;;;;;;;;x
+accept_maghrebi_two_title;Italianize the Maghrebi!;;;;;;;;;;;;x
+accept_misri_two_title;Italianize the Misri!;;;;;;;;;;;;x
+accept_mashriqi_two_title;Italianize the Mashriqi!;;;;;;;;;;;;x
+accept_afro_asiatic_two_title;Italianize the Afro-Asiatic!;;;;;;;;;;;;x
+accept_bedouin_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_maghrebi_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_misri_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_mashriqi_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_afro_asiatic_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_bedouin_three_title;Italianize the Bedouins!;;;;;;;;;;;;x
+accept_maghrebi_three_title;Italianize the Maghrebi!;;;;;;;;;;;;x
+accept_misri_three_title;Italianize the Misri!;;;;;;;;;;;;x
+accept_mashriqi_three_title;Italianize the Mashriqi!;;;;;;;;;;;;x
+accept_afro_asiatic_three_title;Italianize the Afro-Asiatic!;;;;;;;;;;;;x
+accept_bedouin_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_maghrebi_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_misri_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_mashriqi_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+accept_afro_asiatic_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
+athenscouncilclaim;State Claimed in the Council of Athens;;;;;;;;;;;;x
+coa_plan;Athens Partition Plan;;;;;;;;;;;;x
+coa_plan_short;Athens Partition Plan;;;;;;;;;;;;x
+coa_plan_setup;Partition Yugoslavia between Hungary, Bulgaria, and Italy.;;;;;;;;;;;;x
+coa_call_title;Call the Council of Athens.;;;;;;;;;;;;x
+coa_call_desc;Yugoslavia was never truly pacified in World War 2, but now we have the perfect opportunity to seize them! We shall call our balkan neighbors Hungary and Bulgaria to Athens to have a grand conference on the partition of Yugoslavia. §R This will cost you each 8 infamy if the plan succeeds and will give you a CB to split Yugoslavia.;;;;;;;;;;;;x
+por_investment_title;National Investment in Portugal;;;;;;;;;;;;x
+cat_investment_title;National Investment in Catalonia;;;;;;;;;;;;x
+por_acceptance_title;National Integration in Portugal;;;;;;;;;;;;x
+cat_acceptance_title;National Integration in Catalonia;;;;;;;;;;;;x
+por_investment_desc;Portugal has long been an uncontent partner of the Iberian Union. We should invest in the region to dispel this discontentment.;;;;;;;;;;;;x
+cat_investment_desc;Catalonia has a history of rebellion and discontent ever since the Spanish civil war. If we invest in the region we can show our good will to them and dispel this discontentment.;;;;;;;;;;;;x
+por_acceptance_desc;Portugal has been successfully won over by our investments. It is time to fully integrate them into the Iberian people;;;;;;;;;;;;x
+cat_acceptance_desc;Catalonia has been successfully won over by our investments. It is time to fully integrate them into the Iberian people;;;;;;;;;;;;x
+cbr_revanch_title;Consolidate the Commonwealth;;;;;;;;;;;;x
+cbr_revanch_desc;Since the end of World War 2 the remaining free British nations have been acting largely independently. It is time to unify them again under the Union Jack!;;;;;;;;;;;;x

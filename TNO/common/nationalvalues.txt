@@ -1,20 +1,24 @@
 nv_order = {
 	org_regain = 0.1
+	mobilisation_size = 0.01
 }
 
 nv_liberty = {
 	political_reform_desire = 0.125
 	social_reform_desire = 0.125
 	commerce_tech_research_bonus = 0.05
+	mobilisation_size = 0.01
 }
 
 nv_equality = {
 	culture_tech_research_bonus = 0.05
+	mobilisation_size = 0.01
 }
 
 nv_autocracy = {
 	ruling_party_support = 0.3
 	leadership_modifier = 1
+	mobilisation_size = 0.01
 }
 
 nv_tradition = {
@@ -24,7 +28,7 @@ nv_tradition = {
 	social_reform_desire = -0.2
 	issue_change_speed = -0.2
 	ruling_party_support = 0.25
-	mobilisation_size = 0.001
+	mobilisation_size = 0.02
 }
 
 nv_productivity = {
@@ -32,15 +36,18 @@ nv_productivity = {
 	factory_input = -0.05
 	factory_output = 0.05
 	industry_tech_research_bonus = 0.05
+	mobilisation_size = 0.01
 }
 
 nv_education = {
 	education_efficiency_modifier = 0.2
 	research_points_modifier = 0.15
+	mobilisation_size = 0.01
 }
 
 nv_diplomacy = {
 	diplomatic_points_modifier = 1
 	influence_modifier = 0.2
 	cb_generation_speed_modifier = 0.15
+	mobilisation_size = 0.01
 }

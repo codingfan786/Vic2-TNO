@@ -547,7 +547,7 @@ country_event = {
 				war_with = BRG
 			}
 			modifier = {
-				factor = 3
+				factor = 1.5
 				OR = {
 					war_with = BLT
 					war_with = BOH

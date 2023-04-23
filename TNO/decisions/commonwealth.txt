@@ -1,0 +1,68 @@
+political_decisions = {
+	cbr_revanch = {
+		potential = {
+			OR = {
+				tag = CAN
+				tag = AST
+				tag = NZL
+			}
+			OR = {
+				tag = CAN
+				CAN = {ai = yes}
+			}
+			OR = {
+				tag = AST
+				AST = {ai = yes}
+			}
+			OR = {
+				tag = NZL
+				NZL = {ai = yes}
+			}
+		}
+
+		allow = {
+			state_n_government = 1
+			OR = {
+				tag = CAN
+				CAN = {ai = yes}
+				is_our_vassal = CAN
+			}
+			OR = {
+				tag = AST
+				AST = {ai = yes}
+				is_our_vassal = AST
+			}
+			OR = {
+				tag = NZL
+				NZL = {ai = yes}
+				is_our_vassal = NZL
+			}
+		}
+
+		effect = {
+			inherit = CBR
+			CAN = {all_core = {add_core = CBR}}
+			AST = {all_core = {add_core = CBR}}
+			NZL = {all_core = {add_core = CBR}}
+			change_tag = CBR
+			add_accepted_culture = british
+			add_accepted_culture = anglo_canadian
+			add_accepted_culture = australian
+			inherit = CAN
+			inherit = AST
+			inherit = NZL
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				CAN = {ai = yes}
+				NOT = {tag = CAN}
+			}
+		}
+	}
+
+
+
+
+}

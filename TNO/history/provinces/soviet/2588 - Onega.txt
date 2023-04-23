@@ -1,6 +1,8 @@
 owner = ONE
 controller = ONE
 add_core = ONE
+fort = 3
+
 
 
 trade_goods = timber

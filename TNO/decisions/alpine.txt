@@ -1,0 +1,98 @@
+political_decisions = {
+	form_alp = {
+		potential = {
+			NOT = {has_country_flag = ita_1st}
+			OR = {
+				tag = ITA
+				tag = SWI
+			}
+			NOT = {exists = ALP}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			investment_banks = 1
+			OR ={
+				SWI = {
+					all_core = {
+						owner = {tag = THIS}
+					}
+				}
+				SWI = {
+					vassal_of = THIS
+				}
+			}
+
+			OR ={
+				ITA = {
+					all_core = {
+						owner = {tag = THIS}
+					}
+				}
+				ITA = {
+					vassal_of = THIS
+				}
+			}
+		}
+		effect = {
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					tag = ITA
+				}
+				THIS = {inherit = ITA}
+			}
+
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					tag = SWI
+				}
+				THIS = {inherit = SWI}
+			}
+
+
+			SWI = {
+				all_core = {
+					add_core = ALP
+				}
+			}
+
+			ITA = {
+				all_core = {
+					add_core = ALP
+					remove_core = ITA
+				}
+			}			
+
+			change_tag = ALP
+			add_accepted_culture = swiss
+			add_accepted_culture = north_italian
+			#add_accepted_culture = south_italian
+		}
+	}
+
+	get_austria = {
+		potential = {
+			tag = ALP
+			NOT = {accepted_culture = south_german}
+		}
+		allow = {
+			AUS = {
+				all_core = {
+					OR = {
+						owner = {
+							tag = THIS
+						}
+						province_id = 623
+					}
+					
+				}
+			}
+			#tech requirements
+			phenomenology_n_hermeneutic = 1
+		}
+		effect = {
+			add_accepted_culture = south_german
+		}
+	}
+}

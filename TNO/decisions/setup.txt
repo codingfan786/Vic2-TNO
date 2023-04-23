@@ -168,6 +168,7 @@ political_decisions = {
 				duration = -1
 			}
 			set_country_flag = CHI_mobnerf
+			civilized = yes #necessary because if china is civilized in history files it is automatically a gp at select screen but not in game. breaks puppet status
 		}
 	}
 

@@ -1,6 +1,18 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+athenscouncilclaim = {
+	icon = 1
+}
+
+
+ita_assim_timer = {
+	icon = 2
+}
+
+ita_assim_buffer = {
+	icon = 2
+}
 
 national_confusion = {
 	research_points_modifier = -0.01
@@ -11,7 +23,7 @@ national_confusion = {
 }
 
 sge_mobbuff = {
-	icon = 1
+	icon = 17
 	mobilisation_size = 0.2
 }
 
@@ -21,17 +33,18 @@ brg_assist = {
 
 nuc_timeout = {
 	badboy = 0.02
-	icon = 10
+	icon = 18
 }
 
 nuc_dev = {
 	badboy = 0.05
 	prestige = 0.25
-	icon = 17
+	icon = 18
 }
 
 ger_afr = {
 	pop_militancy_modifier = 0.20
+	icon = 20
 }
 
 SCA_invite_timeout = {
@@ -39,11 +52,11 @@ SCA_invite_timeout = {
 }
 
 BRG_occupy = {
-	icon = 1
+	icon = 18
 }
 
 CHI_mobnerf = {
-	icon = 1
+	icon = 18
 	mobilisation_size = -0.05
 }
 

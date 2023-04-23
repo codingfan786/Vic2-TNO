@@ -9,6 +9,10 @@ Currently finished content includes:
 
   Eastern Siberia unification
 
+  italian culture expansion paths
+
+  yugo partition
+
 
 Along with some minor scattered mechanics such as:
 
@@ -19,3 +23,7 @@ Along with some minor scattered mechanics such as:
   German africa collapse mechanics
 
   Nuclear war (currently just a couple debug decisions. They might be hidden on kazakstan I cannot remember)
+
+  iberia culture acceptance decisions
+
+  commonwealth unification

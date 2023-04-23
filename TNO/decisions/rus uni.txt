@@ -13,7 +13,7 @@ political_decisions = {
 					year = 1972
 				}
 			}
-			
+			NOT = {FED = {war = yes}}
 		}
 		effect = {
 			FED = {

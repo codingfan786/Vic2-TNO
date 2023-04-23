@@ -1,0 +1,32 @@
+political_decisions = {
+	coa_call = {
+		potential = {
+			tag = ITA
+			NOT = {has_country_flag = coa_called}
+			783 = {owner = {tag = YUG}}
+			776 = {owner = {tag = YUG}}
+			2538 = {owner = {tag = YUG}}
+			794 = {owner = {tag = YUG}}
+			799 = {owner = {tag = YUG}}
+			806 = {owner = {tag = YUG}}
+		}
+		allow = {
+			OR = {
+				year = 1963
+				month = 5
+			}
+		}
+		effect = {
+			set_country_flag = coa_called
+			country_event = 500045
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {year = 1963}
+			}
+		}
+	}
+
+}
