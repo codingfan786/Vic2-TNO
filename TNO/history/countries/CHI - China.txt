@@ -11,10 +11,10 @@ civilized = no #blame this dogshit game and see the china setup decision
 
 prestige = 0
 
-ruling_party = CHI_conservative
+ruling_party = CHI_conservative_4
 upper_house = {
 	fascist = 0
-	liberal = 10
+	liberal = 0
 	conservative = 75
 	reactionary = 15
 	anarcho_liberal = 0

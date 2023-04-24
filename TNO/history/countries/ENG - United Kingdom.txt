@@ -1,7 +1,7 @@
 civilized = yes
 capital = 300
 primary_culture = british
-culture = anglo_canadian
+#culture = anglo_canadian
 religion = protestant
 government = fascist_dictatorship
 plurality = 30

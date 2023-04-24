@@ -3,5 +3,5 @@ controller = WA2
 add_core = WA2
 
 
-trade_goods = precious_metal
+trade_goods = coal
 life_rating = 35

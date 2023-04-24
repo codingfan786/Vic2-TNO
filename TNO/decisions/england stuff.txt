@@ -1,0 +1,154 @@
+political_decisions = {
+	request_cornwall = {
+		potential = {
+			government = fascist_dictatorship
+			tag = ENG
+			NOT = {has_country_flag = eng_corn}
+			#exists = COR
+		}
+		allow = {
+			state_n_government = 1
+			NOT = {exists = GER}
+		}
+		effect = {
+			set_country_flag = eng_corn
+			296 = {add_core = ENG}
+			297 = {add_core = ENG}
+			298 = {add_core = ENG}
+			299 = {add_core = ENG}
+			any_country = {
+				limit = {
+					exists = yes
+					OR = {
+						tag = SGE
+						tag = BGE
+						tag = HGE
+						tag = GGE
+					}
+				}
+				
+				country_event = 500058
+			}
+			
+		}
+	}
+
+	fasc_welsh = {
+		potential = {
+			has_country_flag = eng_corn
+			government = fascist_dictatorship
+			tag = ENG
+			NOT = {accepted_culture = welsh}
+		}
+		allow = {
+			296 = {owner = {tag = ENG}}
+			WLE = {all_core = {owner = {tag = ENG}}}
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = welsh
+			WLE = {all_core = {add_core = ENG}}
+		}
+	}
+
+	fasc_scotland = {
+		potential = {
+			has_country_flag = eng_corn
+			government = fascist_dictatorship
+			tag = ENG
+			NOT = {accepted_culture = scottish}
+		}
+		allow = {
+			296 = {owner = {tag = ENG}}
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			add_accepted_culture = scottish
+			SCO = {all_core = {add_core = ENG}}
+		}
+	}
+
+	fasc_ireland = {
+		potential = {
+			has_country_flag = eng_corn
+			government = fascist_dictatorship
+			tag = ENG
+			NOT = {accepted_culture = irish}
+		}
+		allow = {
+			296 = {owner = {tag = ENG}}
+			nationalism_n_imperialism = 1
+			IRE = {all_core = {owner = {tag = ENG}}}
+		}
+		effect = {
+			add_accepted_culture = irish
+			IRE = {all_core = {add_core = ENG}}
+		}
+	}
+
+
+	demo_welsh = {
+		potential = {
+			NOT = {government = fascist_dictatorship}
+			tag = ENG
+			NOT = {accepted_culture = welsh}
+		}
+		allow = {
+			#WLE = {all_core = {owner = {tag = ENG}}}
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = welsh
+			WLE = {all_core = {add_core = ENG}}
+		}
+	}
+
+	contact_cbr = {
+		potential = {
+			NOT = {government = fascist_dictatorship}
+			tag = ENG
+			exists = CBR
+		}
+		allow = {
+			state_n_government = 1
+			CBR = {ai = yes}
+		}
+		effect = {
+			add_accepted_culture = anglo_canadian
+			add_accepted_culture = australian
+			COR = {any_owned = {add_core = ENG}}
+			any_country = {
+				limit = {
+					tag = CBR
+					ai = yes
+				}
+				ENG = {inherit = CBR}
+				CBR = {all_core = {add_core = ENG}}
+			}
+			any_country = {
+				limit = {
+					tag = CAN
+					ai = yes
+				}
+				ENG = {inherit = CAN}
+				CAN = {all_core = {add_core = ENG}}
+			}
+			any_country = {
+				limit = {
+					tag = AST
+					ai = yes
+				}
+				ENG = {inherit = AST}
+				AST = {all_core = {add_core = ENG}}
+			}
+			any_country = {
+				limit = {
+					tag = NZL
+					ai = yes
+				}
+				ENG = {inherit = NZL}
+				NZL = {all_core = {add_core = ENG}}
+			}
+		}
+	}
+}

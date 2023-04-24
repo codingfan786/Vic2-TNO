@@ -3,15 +3,25 @@ Victoria 2 port/adaptation of The New Order: Last days of europe mod for hoi4
 
 Currently finished content includes:
 
-  German Civil war
+  German Civil war (Speer and Heydrich can call other countries into the war, Bormann can propose a ceasefire with Goring.)
 
-  Early German puppet breakaways (a couple paths for each; use the events, decisions, and rebels rather than declaring war on the main GER tag)
+  Early German puppet breakaways (Two paths for each; use the events, decisions, and rebels rather than declaring war on the main GER tag)
 
-  Eastern Siberia unification
+  Italian culture expansion paths (Transalpine Union late game or accept north african cultures early game.)
 
-  italian culture expansion paths
+  Yugoslavia partition events and dynamically scripted CB.
 
-  yugo partition
+  Democratic and Facist path for England (A little basic.)
+
+  British Colonies can unite under a single tag and reform a democratic England.
+
+  Russian unification in east and west (Red Army Remnants, NKVD in Exile, Kamatcha Soviet Fleet.)
+
+  Some France Decisions
+
+  Decision chain for Iberia to accept portuguese and catalan. (A little basic.)
+
+  Western China unification and a little expansion.
 
 
 Along with some minor scattered mechanics such as:
@@ -20,10 +30,8 @@ Along with some minor scattered mechanics such as:
 
   A scotland lead scandinavia alternative formable
 
-  German africa collapse mechanics
+  German africa collapse mechanics.
 
   Nuclear war (currently just a couple debug decisions. They might be hidden on kazakstan I cannot remember)
 
-  iberia culture acceptance decisions
-
-  commonwealth unification
+  and some other shit I've probably forgotten

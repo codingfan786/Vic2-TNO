@@ -591,16 +591,20 @@ assimilation_chance =
 		has_culture_core = yes
 	}
 	modifier = {
-		factor = 10
-		AND = {
-			is_accepted_culture = no
-			OR = { 
-				continent = north_america
-				continent = south_america
-				continent = oceania
-			}
-		}
+    	factor = -20
+		culture = afro_american
 	}
+	#modifier = {
+	#	factor = 0.1 #nerfed from 10. if I can fix the excessive immigration I can revert this
+	#	AND = {
+	#		is_accepted_culture = no
+	#		OR = { 
+	#			continent = north_america
+	#			continent = south_america
+	#			continent = oceania
+	#		}
+	#	}
+	#}
 
 	group = {
 		modifier = {

@@ -1,0 +1,20 @@
+country_event = {
+	id = 500058
+	title = "England Requests Cornwall."
+	desc = "Now that the German Civil War is over we have more pressing concerns. England is requesting the Cornwall garrison. It is likely they may try to take it by force. Should we appease them?"
+	is_triggered_only = yes
+	option = {
+		name = "Of course!"
+		ENG = {set_country_flag = dont_pow}
+		ENG = {inherit = COR}
+		ai_chance = {
+			factor = 0.65
+		}
+	}
+	option = {
+		name = "A stupid decision! Appeasement didn't work on us, why would it work on them?"
+		ai_chance = {
+			factor = 0.35
+		}
+	}
+}

@@ -63,6 +63,19 @@ political_decisions = {
 	}
 
 
-
+	cbr_britain = {
+		potential = {
+			tag = CBR
+		}
+		allow = {
+			NOT = {exists = ENG}
+			300 = {owner = {tag = CBR}}
+		}
+		effect = {
+			all_core = {add_core = ENG}
+			change_tag = ENG
+			capital = 300
+		}
+	}
 
 }

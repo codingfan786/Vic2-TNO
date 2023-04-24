@@ -49,7 +49,7 @@ vassal = {
 	start_date = 1836.1.1
 }
 
-vassal = {
+substate = {
 	first = FIN
 	second = ONE
 	start_date = 1836.1.1

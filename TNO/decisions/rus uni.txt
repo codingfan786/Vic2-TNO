@@ -210,5 +210,109 @@ political_decisions = {
 		}
 	}
 
+	sov_form_rar = {
+		potential = {
+			NOT = {exists = SOV}
+			tag = RAR
+		}
+		allow = {
+			RAR = {all_core = {owner = {tag =RAR}}}
+			RUS = {all_core = {owner = {tag =RAR}}}
+			NUC = {all_core = {owner = {tag =RAR}}}
+			state_n_government = 1
+		}
+		effect = {
+			RAR = {all_core = {add_core = SOV}}
+			RUS = {all_core = {add_core = SOV}}
+			NUC = {all_core = {add_core = SOV}}
+			change_tag = SOV
+		}
+	}
+
+	sov_form_nkv = {
+		potential = {
+			NOT = {exists = SOV}
+			tag = NKV
+		}
+		allow = {
+			NKV = {all_core = {owner = {tag =NKV}}}
+			FED  = {all_core = {owner = {tag =NKV}}}
+			NAV = {all_core = {owner = {tag =NKV}}}
+			state_n_government = 1
+		}
+		effect = {
+			NKV = {all_core = {add_core = SOV}}
+			FED = {all_core = {add_core = SOV}}
+			NAV = {all_core = {add_core = SOV}}
+			change_tag = SOV
+		}
+	}
+
+	sov_integration = {
+		potential = {
+			tag = SOV
+			any_neighbor_country = {OR = {tag = RAR tag = NKV}}
+		}
+		allow = {
+			NOT = {
+				truce_with = RAR
+			}
+			NOT = {
+				truce_with = NKV
+			}
+			NOT = {
+				war_with = RAR
+			}
+			NOT = {
+				war_with = NKV
+			}
+		}
+		effect = {
+			NKV = {all_core = {add_core = THIS}}
+			RAR = {all_core = {add_core = THIS}}
+			inherit = NKV
+			inherit = RAR
+		}
+	}
+
+	finland_war = {
+		potential = {
+			tag = SOV
+			NOT = {2588 = {is_core = SOV}}
+		}
+		allow = {
+			all_core = {
+				owner = {tag = SOV}
+			}
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			ONE = {all_core = {add_core = SOV}}
+			984 = {add_core = SOV}
+			983 = {add_core = SOV}
+			2587 = {add_core = SOV}
+			FIN = {
+				add_casus_belli = {
+					target = SOV
+					type = acquire_substate_region
+					months = 480
+				}
+			}
+		}
+	}
+
+	sov_kazakh_ssr = {
+		potential = {
+			tag = SOV
+			NOT = {accepted_culture = turkmen}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			add_accepted_culture = turkmen
+		}
+	}
+
 
 }

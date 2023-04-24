@@ -37,6 +37,63 @@ political_decisions = {
 				name = ger_afr
 				duration = -1
 			}
+			any_owned = {
+				add_province_modifier = {
+					name = ger_afr
+					duration = -1
+				}
+			}
 		}
 	}
+
+	ega_coup = {
+		potential = {
+			tag = EGA
+			NOT = {WGA = {has_country_flag = GERAFRFIXED}}
+			exists = WGA
+		}
+		allow = {
+			WGA = {
+				capital_scope = {
+					country_units_in_province = EGA
+				}
+			}
+			NOT = {
+				WGA = {
+					capital_scope = {
+						country_units_in_province = WGA
+					}
+				}
+			}
+		}
+		effect = {
+			inherit = WGA
+		}
+	}
+
+	wga_coup = {
+		potential = {
+			tag = WGA
+			NOT = {EGA = {has_country_flag = GERAFRFIXED}}
+			exists = EGA
+		}
+		allow = {
+			EGA = {
+				capital_scope = {
+					country_units_in_province = WGA
+				}
+			}
+			NOT = {
+				EGA = {
+					capital_scope = {
+						country_units_in_province = EGA
+					}
+				}
+			}
+		}
+		effect = {
+			inherit = EGA
+		}
+	}
+
 }

@@ -105,11 +105,41 @@ country_event = {
 		any_owned = {
 			limit = {
 				total_pops = 100000
-				has_province_modifier = cholera_epidemic_big
+				has_province_modifier = nuked_4
 			}
 			add_province_modifier = {
-				name = cholera_epidemic_small
-				duration = 1825
+				name = nuked_5
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_3
+			}
+			add_province_modifier = {
+				name = nuked_4
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_2
+			}
+			add_province_modifier = {
+				name = nuked_3
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_1
+			}
+			add_province_modifier = {
+				name = nuked_2
+				duration = 3650
 			}
 		}
 		any_owned = {
@@ -117,8 +147,8 @@ country_event = {
 				total_pops = 100000
 			}
 			add_province_modifier = {
-				name = cholera_epidemic_big
-				duration = 1825
+				name = nuked_1
+				duration = 3650
 			}
 		}
 
@@ -142,11 +172,41 @@ country_event = {
 		any_owned = {
 			limit = {
 				total_pops = 100000
-				has_province_modifier = cholera_epidemic_big
+				has_province_modifier = nuked_4
 			}
 			add_province_modifier = {
-				name = cholera_epidemic_small
-				duration = 1825
+				name = nuked_5
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_3
+			}
+			add_province_modifier = {
+				name = nuked_4
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_2
+			}
+			add_province_modifier = {
+				name = nuked_3
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_1
+			}
+			add_province_modifier = {
+				name = nuked_2
+				duration = 3650
 			}
 		}
 		any_owned = {
@@ -154,10 +214,11 @@ country_event = {
 				total_pops = 100000
 			}
 			add_province_modifier = {
-				name = cholera_epidemic_big
-				duration = 1825
+				name = nuked_1
+				duration = 3650
 			}
 		}
+		
 	}
 	option = {
 		name = "Full counter attack!"
@@ -238,11 +299,41 @@ country_event = {
 		any_owned = {
 			limit = {
 				total_pops = 100000
-				has_province_modifier = cholera_epidemic_big
+				has_province_modifier = nuked_4
 			}
 			add_province_modifier = {
-				name = cholera_epidemic_small
-				duration = 1825
+				name = nuked_5
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_3
+			}
+			add_province_modifier = {
+				name = nuked_4
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_2
+			}
+			add_province_modifier = {
+				name = nuked_3
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_1
+			}
+			add_province_modifier = {
+				name = nuked_2
+				duration = 3650
 			}
 		}
 		any_owned = {
@@ -250,8 +341,8 @@ country_event = {
 				total_pops = 100000
 			}
 			add_province_modifier = {
-				name = cholera_epidemic_big
-				duration = 1825
+				name = nuked_1
+				duration = 3650
 			}
 		}
 	}
@@ -278,11 +369,41 @@ country_event = {
 		any_owned = {
 			limit = {
 				total_pops = 100000
-				has_province_modifier = cholera_epidemic_big
+				has_province_modifier = nuked_4
 			}
 			add_province_modifier = {
-				name = cholera_epidemic_small
-				duration = 1825
+				name = nuked_5
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_3
+			}
+			add_province_modifier = {
+				name = nuked_4
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_2
+			}
+			add_province_modifier = {
+				name = nuked_3
+				duration = 3650
+			}
+		}
+		any_owned = {
+			limit = {
+				total_pops = 100000
+				has_province_modifier = nuked_1
+			}
+			add_province_modifier = {
+				name = nuked_2
+				duration = 3650
 			}
 		}
 		any_owned = {
@@ -290,8 +411,8 @@ country_event = {
 				total_pops = 100000
 			}
 			add_province_modifier = {
-				name = cholera_epidemic_big
-				duration = 1825
+				name = nuked_1
+				duration = 3650
 			}
 		}
 	}

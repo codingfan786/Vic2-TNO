@@ -30,6 +30,7 @@ country_event = {
 
 	trigger = {
 		NOT = {has_global_flag = cornpow}
+		NOT = {has_country_flag = dont_pow}
 		NOT = {
 			OR = {
 				accepted_culture = north_german
