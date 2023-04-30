@@ -1,0 +1,150 @@
+province_event = {
+	id = 500063
+	title = "saf spread"
+	desc = "saf spread"
+	allow_multiple_instances = yes
+	trigger = {
+		owner = {
+			tag = SAF
+		}
+		is_core = ORA
+		controlled_by = REB
+		NOT = {has_province_modifier = ger_afr}
+		NOT = {has_global_flag = saf_war_started}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		add_province_modifier = {
+			name = ger_afr
+			duration = -1
+		}
+	}
+
+	option = {
+		name = "oh no..."
+	}
+}
+
+country_event = {
+	id = 500064
+	title = "saf war"
+	desc = "saf war"
+
+	trigger = {
+		tag = SAF
+		NOT = {has_global_flag = saf_war_started}
+		any_owned_province = {
+			has_province_modifier = ger_afr
+		}
+		year = 1977
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_global_flag = saf_war_started
+		any_owned = {
+			limit = {
+				has_province_modifier = ger_afr
+			}
+			secede_province = ORA
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = hussar value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+		}
+
+		ORA = {
+			any_owned = {
+				limit = {
+					#state_scope = {state_id = ENG_2068}
+
+					OR = {
+						province_id = 2068
+						province_id = 2069
+						province_id = 2070
+						province_id = 2071
+						province_id = 2072
+						province_id = 2073
+						province_id = 2635
+					}
+				}
+				2068 = {secede_province = ORA}
+				2069 = {secede_province = ORA}
+				2070 = {secede_province = ORA} 
+				2071 = {secede_province = ORA} 
+				2072 = {secede_province = ORA} 
+				2073 = {secede_province = ORA} 
+				2635 = {secede_province = ORA}
+			}
+		}
+
+		ORA = {
+			any_owned = {
+				limit = {
+					#state_id = TRN_2108
+
+					OR = {
+						province_id =2108
+						province_id =2110
+						province_id =2109
+						province_id =2114
+						province_id =2105
+						province_id =2107
+						province_id =2106
+					}
+				}
+				2108 = {secede_province = ORA}
+				2110 = {secede_province = ORA}
+				2109 = {secede_province = ORA}
+				2114 = {secede_province = ORA}
+				2105 = {secede_province = ORA}
+				2107 = {secede_province = ORA}
+				2106 = {secede_province = ORA}
+			}
+		}
+
+		ORA = {
+			any_owned = {
+				limit = {
+					#state_id = ORA_2103
+
+					OR = {
+						province_id = 2103
+						province_id = 2101
+						province_id = 2102
+					}
+				}
+				2103 = {secede_province = ORA}
+				2101 = {secede_province = ORA}
+				2102 = {secede_province = ORA}
+			}
+		}
+
+		ORA = {
+			any_pop = {
+				limit = {
+					type = soldiers
+				}
+				reduce_pop = 2.5
+			}
+			add_country_modifier = {
+				name = sge_mobbuff
+				duration = 365
+			}
+		}
+
+	}
+
+	option = {
+		name = "Oh no!"
+	}
+}

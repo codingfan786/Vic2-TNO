@@ -192,4 +192,37 @@ political_decisions = {
 		}
 
 	}
+
+	usa_setup = {
+		potential = {
+			tag = USA
+			NOT = {has_global_flag = setup_usa}
+		}
+		allow = {
+
+		}
+		effect = {
+			set_global_flag = setup_usa
+			220 = {
+				add_province_modifier = {
+					name = racial_integration
+					duration = -1
+				}
+			}
+			192 = {
+				add_province_modifier = {
+					name = racial_discontent
+					duration = -1
+				}
+			}
+			ORA = {
+				all_core = {
+					add_province_modifier = {
+						name = civil_unrest
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
 }

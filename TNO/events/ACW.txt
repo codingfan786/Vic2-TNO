@@ -1,0 +1,180 @@
+province_event = {
+	id = 500059
+	title = "Southern Tensions in $PROVINCENAME$"
+	desc = "Tensions over the integration of the Afro American population in the south have risen in $PROVINCENAME$."
+	allow_multiple_instances = yes
+
+	trigger = {
+		owner = {
+			tag = USA
+		}
+		any_neighbor_province = {has_province_modifier = racial_discontent}
+		NOT = {has_province_modifier = racial_discontent}
+		NOT = {has_province_modifier = racial_integration}
+		OR = {
+			culture = dixie
+			culture = afro_american
+		}
+		NOT = {
+			has_global_flag = acw_start
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 42 #600
+		modifier = {
+			factor = 2
+			owner = {ruling_party_ideology = liberal}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = {
+				bureaucrats = 0.005
+			}
+		}
+	}
+	
+	immediate = {
+		add_province_modifier = {
+			name = racial_discontent
+			duration = -1
+		}
+	}
+	option = {
+		name = "Tensions rise..."
+	}
+}
+
+
+province_event = {
+	id = 500060
+	title = "Desegregation in $PROVINCENAME$"
+	desc = "Federal programs have finally desegregated $PROVINCENAME$."
+	allow_multiple_instances = yes
+
+	trigger = {
+		owner = {
+			tag = USA
+		}
+		any_neighbor_province = {has_province_modifier = racial_integration}
+		NOT = {has_province_modifier = racial_discontent}
+		NOT = {has_province_modifier = racial_integration}
+		OR = {
+			culture = dixie
+			culture = afro_american
+		}
+		NOT = {
+			has_global_flag = acw_start
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 128 #600
+		modifier = {
+			factor = 0.2
+			state_scope = {
+				bureaucrats = 0.005
+			}
+		}
+	}
+	
+	immediate = {
+		add_province_modifier = {
+			name = racial_integration
+			duration = -1
+		}
+	}
+	option = {
+		name = "On equal footing..."
+	}
+}
+
+country_event = {
+	id = 500061
+	title = "acw test"
+	desc = "just a test $DATE$ $DATE_SHORT_0$ $DATE_LONG_1$ $DATE_LONG_0$"
+
+	trigger = {
+		tag = USA
+		all_core = {
+
+			OR = {
+				NOT = {
+					OR = {
+						culture = dixie
+						culture = afro_american
+					}
+				}
+				OR = {
+					has_province_modifier = racial_discontent
+					has_province_modifier = racial_integration
+				}
+				OR = {
+					province_id = 4
+					province_id = 1
+					province_id = 2
+					province_id = 2630
+					province_id = 2599
+					province_id = 3
+					province_id = 5
+					province_id = 2631	
+					province_id = 149
+					province_id = 147
+					province_id = 148
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				has_province_modifier = racial_discontent
+			}
+			secede_province = CSA
+			add_province_modifier = {
+				name = uncontrolled_lynchings
+				duration = -1
+			}
+		}
+		any_owned = {
+			limit = {
+				has_province_modifier = racial_integration
+			}
+			remove_province_modifier = racial_integration
+		}
+		set_global_flag = acw_start
+	}
+	option = {
+		name = "oh no..."
+	}
+}
+
+province_event = {
+	id = 500062
+	title = "$PROVINCENAME$ Pacified"
+	desc = "Mass lynchings in $PROVINCENAME$ have come to a halt recently due to the approach of Federal troops."
+
+	trigger = {
+		has_province_modifier = uncontrolled_lynchings
+		NOT = {controlled_by = CSA}
+		NOT = {controlled_by = REB}
+		has_global_flag = acw_start
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		remove_province_modifier = uncontrolled_lynchings
+	}
+	option = {
+		name = "Stability must be brought by force!"
+	}
+
+}

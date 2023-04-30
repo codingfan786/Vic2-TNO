@@ -19,6 +19,9 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = GERAFRFIXED
+			any_owned = {
+				remove_province_modifier = ger_afr
+			}
 		}
 		ai_will_do = {
 			factor = 1

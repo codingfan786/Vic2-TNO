@@ -6,65 +6,87 @@
 		culture = boer
 		religion = protestant
 		size = 20000
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 	aristocrats = {
 		culture = bantu
 		religion = animist
 		size = 275
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
 		culture = bantu
 		religion = animist
 		size = 150
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	artisans = {
 		culture = bantu
 		religion = animist
 		size = 750
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	soldiers = {
 		culture = bantu
 		religion = animist
 		size = 150
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
 		culture = bantu
 		religion = animist
 		size = 13675
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	aristocrats = {
 		culture = bantu
 		religion = animist
 		size = 25
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
 		culture = bantu
 		religion = animist
 		size = 50
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	artisans = {
 		culture = bantu
 		religion = animist
 		size = 100
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	soldiers = {
 		culture = bantu
 		religion = animist
 		size = 25
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
 		culture = bantu
 		religion = animist
 		size = 1800
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 }
 #Gweru (96000/24000 POPS) 
@@ -73,35 +95,47 @@
 		culture = boer
 		religion = protestant
 		size = 20000
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 	aristocrats = {
 		culture = bantu
 		religion = animist
 		size = 450
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	clergymen = {
 		culture = bantu
 		religion = animist
 		size = 250
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	artisans = {
 		culture = bantu
 		religion = animist
 		size = 1200
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	soldiers = {
 		culture = bantu
 		religion = animist
 		size = 250
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	farmers = {
 		culture = bantu
 		religion = animist
 		size = 21850
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 }
 #Mutare (96000/24000 POPS) 
@@ -110,6 +144,8 @@
 		culture = boer
 		religion = protestant
 		size = 20000
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 	aristocrats = {
 		culture = bantu
@@ -127,6 +163,8 @@
 		culture = bantu
 		religion = animist
 		size = 1100
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	soldiers = {
@@ -139,6 +177,8 @@
 		culture = bantu
 		religion = animist
 		size = 20025
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	aristocrats = {
@@ -177,6 +217,8 @@
 		culture = boer
 		religion = protestant
 		size = 20000
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 	aristocrats = {
 		culture = bantu
@@ -206,6 +248,8 @@
 		culture = bantu
 		religion = animist
 		size = 5525
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	aristocrats = {
@@ -276,6 +320,8 @@
 		culture = boer
 		religion = protestant
 		size = 20000
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 	aristocrats = {
 		culture = bantu
@@ -317,6 +363,8 @@
 		culture = bantu
 		religion = animist
 		size = 10825
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	aristocrats = {
@@ -373,6 +421,8 @@
 		culture = boer
 		religion = protestant
 		size = 20000
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 	aristocrats = {
 		culture = bantu
@@ -402,6 +452,8 @@
 		culture = bantu
 		religion = animist
 		size = 5475
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	aristocrats = {
@@ -432,6 +484,8 @@
 		culture = bantu
 		religion = animist
 		size = 4575
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 
 	aristocrats = {
@@ -470,6 +524,8 @@
 		culture = boer
 		religion = protestant
 		size = 20000
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 	aristocrats = {
 		culture = bantu
@@ -529,6 +585,8 @@
 		culture = bantu
 		religion = animist
 		size = 14575
+		militancy = 8 
+		rebel_type = nationalist_rebels
 	}
 	farmers = {
 		culture = boer

@@ -12,6 +12,7 @@ non_state_culture_literacy = 0.2
  
 decision = canalactivate
 decision = nuke_startup
+decision = usa_setup
 
 #GreaterPowers = prestige
 prestige = 30

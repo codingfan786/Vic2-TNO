@@ -32,7 +32,7 @@ country_event = {
 
 country_event = {
 	id = 500014
-	title = "rebel tech 1!"
+	title = "rebel tech 2!"
 	desc = "more rebel tech!"
 
 	trigger = {

@@ -24,8 +24,8 @@ rebel_type = nationalist_rebels
 		culture = portuguese
 		religion = catholic
 		size = 150
-militancy = 8 
-rebel_type = nationalist_rebels
+		militancy = 8 
+		rebel_type = nationalist_rebels
 
 	}
 
