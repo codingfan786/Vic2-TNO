@@ -2,16 +2,19 @@
 Victoria 2 port/adaptation of The New Order: Last days of europe mod for hoi4
 
 Currently finished content includes:
+  South African War
+
+  American southern anarchy
 
   German Civil war (Speer and Heydrich can call other countries into the war, Bormann can propose a ceasefire with Goring.)
 
   Early German puppet breakaways (Two paths for each; use the events, decisions, and rebels rather than declaring war on the main GER tag)
 
-  Italian culture expansion paths (Transalpine Union late game or accept north african cultures early game.)
+  Italian culture expansion paths (Transalpine Union tag late game or accept north african cultures early-mid game.)
 
   Yugoslavia partition events and dynamically scripted CB.
 
-  Democratic and Facist path for England (A little basic.)
+  Democratic and Facist path for England (Reunify the colonies or reunify the isles.)
 
   British Colonies can unite under a single tag and reform a democratic England.
 

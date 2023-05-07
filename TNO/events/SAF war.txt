@@ -1,7 +1,7 @@
 province_event = {
 	id = 500063
-	title = "saf spread"
-	desc = "saf spread"
+	title = "Boer Unrest in $PROVINCENAME$"
+	desc = "The insurgency in $PROVINCENAME$ has become uncontrolable!"
 	allow_multiple_instances = yes
 	trigger = {
 		owner = {
@@ -22,17 +22,18 @@ province_event = {
 			name = ger_afr
 			duration = -1
 		}
+		remove_province_modifier = civil_unrest
 	}
 
 	option = {
-		name = "oh no..."
+		name = "We must secure the situation!"
 	}
 }
 
 country_event = {
 	id = 500064
-	title = "saf war"
-	desc = "saf war"
+	title = "The South African War!"
+	desc = "Tensions between the British and the Boer have reached a boiling point! Now they have declared independence in regions where the unrest has gotten too high. To make matters worse, they even have German support!"
 
 	trigger = {
 		tag = SAF
@@ -40,7 +41,17 @@ country_event = {
 		any_owned_province = {
 			has_province_modifier = ger_afr
 		}
-		year = 1977
+		OR = {
+			year = 1972
+
+			NOT = {
+				any_owned_province = {
+					is_core = ORA
+					NOT = {controlled_by = REB}
+				}
+			}
+			
+		}
 	}
 
 	mean_time_to_happen = {
@@ -142,9 +153,64 @@ country_event = {
 			}
 		}
 
+
+		any_country = {
+			limit = {
+				tag = WGA
+				has_country_flag = support_ora
+			}
+			ORA = {
+				create_vassal = WGA
+				create_alliance = WGA
+			}
+		}
+		any_country = {
+			limit = {
+				tag = EGA
+				has_country_flag = support_ora
+			}
+			ORA = {
+				create_vassal = EGA
+				create_alliance = EGA
+			}
+		}
+		
+		war = {
+			target = ORA
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+			#defender_goal = { casus_belli = civil_war }
+			call_ally = yes
+		}
+		
+		
+
+		ORA = {
+			release_vassal = EGA
+			release_vassal = WGA
+		}
 	}
 
 	option = {
-		name = "Oh no!"
+		name = "We must preserve democracy in Africa!"
+	}
+}
+
+country_event = {
+	id = 500065
+	title = "The German threat!"
+	desc = "EVENT500065"
+
+	trigger = {
+		tag = SAF
+		NOT = {has_global_flag = saf_war_explained}
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		set_global_flag = saf_war_explained
+		name = "I see."
 	}
 }

@@ -88,7 +88,7 @@ nuc_dev = {
 
 ger_afr = {
 	pop_militancy_modifier = 0.20
-	icon = 20
+	icon = 18
 }
 
 SCA_invite_timeout = {

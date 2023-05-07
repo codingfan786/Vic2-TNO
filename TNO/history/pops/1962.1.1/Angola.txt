@@ -421,7 +421,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = animist
 		size = 375
-militancy = 8 
+militancy = 1
 rebel_type = nationalist_rebels
 
 	}
@@ -430,7 +430,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = animist
 		size = 225
-militancy = 8 
+militancy = 1 
 rebel_type = nationalist_rebels
 
 	}
@@ -439,7 +439,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = animist
 		size = 1050
-militancy = 8 
+militancy = 1 
 rebel_type = nationalist_rebels
 
 	}
@@ -448,7 +448,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = animist
 		size = 225
-militancy = 8 
+militancy = 1 
 rebel_type = nationalist_rebels
 
 	}
@@ -457,7 +457,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = animist
 		size = 19125
-militancy = 8 
+militancy = 1 
 rebel_type = nationalist_rebels
 
 	}
@@ -466,7 +466,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = animist
 		size = 15000
-militancy = 8 
+militancy = 1 
 rebel_type = nationalist_rebels
 
 	}
@@ -475,7 +475,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = catholic
 		size = 1275
-militancy = 8 
+militancy = 1 
 rebel_type = nationalist_rebels
 
 	}
@@ -484,7 +484,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = catholic
 		size = 675
-militancy = 8 
+militancy = 1 
 rebel_type = nationalist_rebels
 
 	}
@@ -493,7 +493,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = catholic
 		size = 2700
-militancy = 8 
+militancy = 1 
 rebel_type = nationalist_rebels
 
 	}
@@ -502,7 +502,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = catholic
 		size = 675
-militancy = 8 
+militancy = 1 
 rebel_type = nationalist_rebels
 
 	}
@@ -511,7 +511,7 @@ rebel_type = nationalist_rebels
 		culture = bantu
 		religion = catholic
 		size = 45675
-militancy = 8 
+militancy = 1 
 rebel_type = nationalist_rebels
 
 	}

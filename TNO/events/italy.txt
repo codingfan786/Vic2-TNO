@@ -3,7 +3,7 @@
 country_event = {
 	id = 500040
 	title = "African Culture Italianized!"
-	desc = "We have finally managed to coerce a people from our holdings to adopt our customs!"
+	desc = "We have finally managed to coerce a people from our African holdings to adopt our customs!"
 
 	trigger = {
 		tag = ITA
@@ -25,7 +25,7 @@ country_event = {
 country_event = {
 	id = 500041
 	title = "African Culture Italianized!"
-	desc = "We have finally managed to coerce a people from our holdings to adopt our customs!"
+	desc = "We have finally managed to coerce a people from our African holdings to adopt our customs!"
 
 	trigger = {
 		tag = ITA
@@ -47,7 +47,7 @@ country_event = {
 country_event = {
 	id = 500042
 	title = "African Culture Italianized!"
-	desc = "We have finally managed to coerce a people from our holdings to adopt our customs!"
+	desc = "We have finally managed to coerce a people from our African holdings to adopt our customs!"
 
 	trigger = {
 		tag = ITA
@@ -69,7 +69,7 @@ country_event = {
 country_event = {
 	id = 500043
 	title = "African Culture Italianized!"
-	desc = "We have finally managed to coerce a people from our holdings to adopt our customs!"
+	desc = "We have finally managed to coerce a people from our African holdings to adopt our customs!"
 
 	trigger = {
 		tag = ITA
@@ -91,7 +91,7 @@ country_event = {
 country_event = {
 	id = 500044
 	title = "African Culture Italianized!"
-	desc = "We have finally managed to coerce a people from our holdings to adopt our customs!"
+	desc = "We have finally managed to coerce a people from our African holdings to adopt our customs!"
 
 	trigger = {
 		tag = ITA

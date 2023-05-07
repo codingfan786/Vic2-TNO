@@ -6,7 +6,7 @@
 		culture = bantu
 		religion = animist
 		size = 6175
-		militancy = 8 
+		militancy = 1
 		rebel_type = liberal_rebels
 	}
 	
@@ -14,7 +14,7 @@
 		culture = bantu
 		religion = animist
 		size = 700
-		militancy = 8 
+		militancy = 1
 		rebel_type = liberal_rebels
 	}
 
@@ -22,7 +22,7 @@
 		culture = bantu
 		religion = animist
 		size = 3575
-		militancy = 8 
+		militancy = 1
 		rebel_type = liberal_rebels
 	}
 
@@ -30,7 +30,7 @@
 		culture = bantu
 		religion = animist
 		size = 10000
-		militancy = 8 
+		militancy = 1 
 		rebel_type = liberal_rebels
 	}
 	
@@ -38,7 +38,7 @@
 		culture = bantu
 		religion = animist
 		size = 4025
-		militancy = 8 
+		militancy = 1 
 		rebel_type = liberal_rebels
 	}
 
@@ -46,7 +46,7 @@
 		culture = bantu
 		religion = animist
 		size = 3000
-		militancy = 8 
+		militancy = 1 
 		rebel_type = liberal_rebels
 
 	}
@@ -55,7 +55,7 @@
 		culture = bantu
 		religion = animist
 		size = 575
-		militancy = 8 
+		militancy = 1 
 		rebel_type = liberal_rebels
 
 	}
@@ -64,7 +64,7 @@
 		culture = bantu
 		religion = animist
 		size = 246950
-		militancy = 8 
+		militancy = 1 
 		rebel_type = liberal_rebels
 	}
 
@@ -72,7 +72,7 @@
 		culture = bantu
 		religion = animist
 		size = 77000
-		militancy = 8 
+		militancy = 1 
 		rebel_type = liberal_rebels
 	}
 }

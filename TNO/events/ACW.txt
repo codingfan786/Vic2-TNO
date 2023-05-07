@@ -91,8 +91,8 @@ province_event = {
 
 country_event = {
 	id = 500061
-	title = "acw test"
-	desc = "just a test $DATE$ $DATE_SHORT_0$ $DATE_LONG_1$ $DATE_LONG_0$"
+	title = "Anarchy in the south!"
+	desc = "Tensions have risen to the breaking point and anarchy has descended on the southern states! Mass lynchings are occuring and immediate military invervention is needed desparately!"
 
 	trigger = {
 		tag = USA
@@ -148,9 +148,15 @@ country_event = {
 			remove_province_modifier = racial_integration
 		}
 		set_global_flag = acw_start
+		war = {
+				target = CSA
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
 	}
 	option = {
-		name = "oh no..."
+		name = "How terrible!"
 	}
 }
 
@@ -177,4 +183,24 @@ province_event = {
 		name = "Stability must be brought by force!"
 	}
 
+}
+
+country_event = {
+	id = 500066
+	title = "Stirrings in the south."
+	desc = "EVENT500066"
+
+	trigger = {
+		tag = USA
+		NOT = {has_global_flag = acw_war_explained}
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		set_global_flag = acw_war_explained
+		name = "I see."
+	}
 }

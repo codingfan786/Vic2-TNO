@@ -1,0 +1,23 @@
+political_decisions = {
+
+	test = {
+		potential = {
+			ai = no
+			always = no
+		}
+		allow = {
+			
+			NOT = {
+				any_owned_province = {
+					is_core = ORA
+					NOT = {controlled_by = REB}
+				}
+			}
+			
+		}
+		effect = {
+			
+		}
+	}
+
+}

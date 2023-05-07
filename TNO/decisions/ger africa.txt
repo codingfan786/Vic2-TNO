@@ -36,11 +36,14 @@ political_decisions = {
 		allow = {}
 		effect = {
 			set_country_flag = geranger
-			add_country_modifier = {
-				name = ger_afr
-				duration = -1
-			}
+			#add_country_modifier = {
+			#	name = ger_afr
+			#	duration = -1
+			#}
 			any_owned = {
+				limit= {
+					NOT = {is_core = THIS}
+				}
 				add_province_modifier = {
 					name = ger_afr
 					duration = -1
@@ -99,4 +102,42 @@ political_decisions = {
 		}
 	}
 
+	support_boers = {
+		potential = {
+			OR = {
+				tag = EGA
+				tag = WGA
+			}
+			NOT = {has_country_flag = support_ora}
+			NOT = {has_global_flag = saf_war_started}
+		}
+		allow = {
+			OR = {
+				state_n_government = 1
+				AND = {
+					ai = yes
+					year = 1972
+				}
+			}
+		}
+		effect = {
+			set_country_flag = support_ora
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						tag = EGA
+						exists = KEN
+					}
+					AND = {
+						tag = WGA
+						exists = CNG
+					}
+				}
+			}
+		}
+	}
 }
