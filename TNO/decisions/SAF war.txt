@@ -1,0 +1,27 @@
+political_decisions = {
+	saf_victory = {
+		potential = {
+			has_global_flag = saf_war_started
+			tag = SAF
+		}
+		allow = {
+			ORA = {
+				all_core = {
+					owner = {
+						tag = SAF
+					}
+				}
+			}
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			ORA = {
+				all_core = {
+					add_core = SAF
+				}
+			}
+			add_accepted_culture = boer
+		}
+	}
+	
+}

@@ -276,4 +276,190 @@ political_decisions = {
 			}
 		}
 	}
+
+	cultural_replacement = {
+		potential = {
+			OR = {
+				tag = UKR
+				tag = MSC
+				tag = BLT
+				tag = COR
+				tag = WGA
+				tag = EGA
+			}
+			
+			government = fascist_dictatorship
+		}
+		allow = {
+			NOT = {
+				any_owned_province = {
+					has_province_modifier = cultural_genocide
+				}
+			}
+			NOT = {
+				OR = {
+					accepted_culture = byelorussian
+					accepted_culture = russian
+					accepted_culture = ukrainian
+					accepted_culture = lithuanian
+					accepted_culture = latvian
+					accepted_culture = estonian
+					accepted_culture = french
+					accepted_culture = dutch
+					accepted_culture = flemish
+					accepted_culture = wallonian
+				}
+			}
+		}
+		effect = {
+			any_owned = {
+				limit = {
+					NOT = {
+						OR = {
+							is_accepted_culture = yes
+							is_primary_culture = yes
+						}
+					}
+				}
+				add_province_modifier = {
+					name = cultural_genocide
+					duration = 3650
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				tag = COR
+			}
+			modifier = {
+				factor = 0
+				NOT = {medicine = 1}
+			}
+			modifier = {
+				factor = 0
+				nationalism_n_imperialism = 1
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					OR = {
+						tag = WGA
+						tag = EGA
+					}
+					NOT = {has_country_flag = GERAFRFIXED}
+				}
+			}
+		}
+	}
+
+	ss_balten = {
+		potential = {
+			tag = BLT
+			NOT= {has_country_flag = ss_formed}
+			primary_culture = north_german
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			NOT = {
+				any_owned_province = {
+					has_province_modifier = cultural_genocide
+				}
+			}
+		}
+		effect = {
+			set_country_flag = ss_formed
+			add_accepted_culture = byelorussian
+			add_accepted_culture = lithuanian
+			add_accepted_culture = latvian
+			add_accepted_culture = estonian
+			any_owned = {
+				limit = {
+					OR = {
+						culture = byelorussian
+						culture = lithuanian
+						culture = latvian
+						culture = estonian
+					}
+				}
+				add_province_modifier = {
+					name = ss_division
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = ss_recruitment
+				duration = -1
+			}
+		}
+	}
+
+	ss_moscowen = {
+		potential = {
+			tag = MSC
+			NOT= {has_country_flag = ss_formed}
+			primary_culture = north_german
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			NOT = {
+				any_owned_province = {
+					has_province_modifier = cultural_genocide
+				}
+			}
+		}
+		effect = {
+			set_country_flag = ss_formed
+			add_accepted_culture = russian
+			any_owned = {
+				limit = {
+					culture = russian
+				}
+				add_province_modifier = {
+					name = ss_division
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = ss_recruitment
+				duration = -1
+			}
+		}
+	}
+
+
+	ss_ukraine = {
+		potential = {
+			tag = UKR
+			NOT= {has_country_flag = ss_formed}
+			primary_culture = north_german
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			NOT = {
+				any_owned_province = {
+					has_province_modifier = cultural_genocide
+				}
+			}
+		}
+		effect = {
+			set_country_flag = ss_formed
+			add_accepted_culture = ukrainian
+			any_owned = {
+				limit = {
+					culture = ukrainian
+				}
+				add_province_modifier = {
+					name = ss_division
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = ss_recruitment
+				duration = -1
+			}
+		}
+	}
+
 }

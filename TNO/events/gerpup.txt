@@ -57,9 +57,14 @@ country_event = {
 		name = "Down with the Germans!"
 		
 		primary_culture = russian
-		
 		remove_accepted_culture = north_german
 		remove_accepted_culture = south_german
+		any_owned = {
+			remove_province_modifier = cultural_genocide
+			remove_province_modifier = ss_division
+		}
+		clr_country_flag = ss_formed
+		remove_country_modifier = ss_recruitment
 	}
 }
 
@@ -92,6 +97,9 @@ country_event = {
 
 		remove_accepted_culture = north_german
 		remove_accepted_culture = south_german
+		any_owned = {
+			remove_province_modifier = cultural_genocide
+		}
 	}
 }
 
@@ -121,5 +129,41 @@ country_event = {
 
 		remove_accepted_culture = north_german
 		remove_accepted_culture = south_german
+		any_owned = {
+			remove_province_modifier = cultural_genocide
+		}
+	}
+}
+
+province_event = {
+	id = 500067
+	title = "SS recruitment downturn."
+	desc =  "Recent demographic changes in $PROVINCENAME$ has lead to a downturn in SS recruitment."
+
+	trigger = {
+		has_province_modifier = ss_division
+		NOT = {
+			OR = {
+				culture = byelorussian
+				culture = lithuanian
+				culture = latvian
+				culture = estonian
+				culture = russian
+				culture = ukrainian
+				culture = french
+				culture = dutch
+				culture = flemish
+				culture = wallonian
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "We will monitor the situation closely."
+		remove_province_modifier = ss_division
 	}
 }

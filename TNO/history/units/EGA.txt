@@ -1,6 +1,6 @@
 army = {
 	name = "1a Armata" #done
-	location = 2043
+	location = 2035
 	regiment = {
 		name= "1.1a Bersaglieri"
 		type = infantry
@@ -53,6 +53,70 @@ army = {
 		name= "3.1a Granatieri"
 		type = artillery
 		home = 2044
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 2047
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 2034
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 2019
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 2034
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 2034
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 2034
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 2034
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 2035
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 2035
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 2035
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 2035
 	}
 
 	regiment = {

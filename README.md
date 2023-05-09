@@ -11,6 +11,8 @@ Currently finished content includes:
 
   Early German puppet breakaways (Two paths for each; use the events, decisions, and rebels rather than declaring war on the main GER tag)
 
+  German lebensraum colonization
+
   Italian culture expansion paths (Transalpine Union tag late game or accept north african cultures early-mid game.)
 
   Yugoslavia partition events and dynamically scripted CB.

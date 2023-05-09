@@ -116,7 +116,7 @@ political_decisions = {
 				state_n_government = 1
 				AND = {
 					ai = yes
-					year = 1972
+					year = 1971
 				}
 			}
 		}
@@ -136,6 +136,72 @@ political_decisions = {
 						tag = WGA
 						exists = CNG
 					}
+				}
+			}
+		}
+	}
+
+	ega_expand = {
+		potential = {
+			tag = EGA
+			exists = MOZ
+			NOT = {has_country_flag = moz_taken}
+		}
+		allow = {
+			OR = {
+				state_n_government = 1
+				AND = {
+					ai = yes
+					year = 1966
+				}
+			}
+		}
+		effect = {
+			badboy = 5
+			set_country_flag = moz_taken
+			MOZ = {
+				add_casus_belli = {
+					target = EGA
+					type = acquire_state
+					months = 180
+				}
+				add_casus_belli = {
+					target = EGA
+					type = acquire_capital
+					months = 180
+				}
+			}
+		}
+	}
+
+	wga_expand = {
+		potential = {
+			tag = WGA
+			exists = ANG
+			NOT = {has_country_flag = ang_taken}
+		}
+		allow = {
+			OR = {
+				state_n_government = 1
+				AND = {
+					ai = yes
+					year = 1966
+				}
+			}
+		}
+		effect = {
+			badboy = 5
+			set_country_flag = ang_taken
+			ANG = {
+				add_casus_belli = {
+					target = WGA
+					type = acquire_state
+					months = 180
+				}
+				add_casus_belli = {
+					target = WGA
+					type = acquire_capital
+					months = 180
 				}
 			}
 		}

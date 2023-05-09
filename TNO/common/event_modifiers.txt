@@ -1,6 +1,22 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+ss_recruitment = {
+	min_military_spending = 0.3
+	suppression_points_modifier = 1
+}
+
+ss_division = {
+	pop_militancy_modifier = 0.05
+	pop_consciousness_modifier = 0.05
+}
+
+cultural_genocide ={
+	assimilation_rate = 3
+	population_growth = -0.001
+	icon = 2
+}
+
 civil_unrest = {
 	pop_militancy_modifier = 0.10
 	icon = 20

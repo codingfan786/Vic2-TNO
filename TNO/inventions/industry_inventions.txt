@@ -1,3 +1,15 @@
+flexible_firepower = {
+	limit = { water_wheel_power = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		farm_rgo_eff = 0.3
+		mine_rgo_eff = 0.15
+		factory_throughput = 0.15
+	}
+}
+
 #combustion_engine
 daimlers_automobile = {
 	limit = { water_wheel_power = 1 }

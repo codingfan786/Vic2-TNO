@@ -7,16 +7,16 @@ political_decisions = {
 		}
 		allow = {
 			
-			NOT = {
-				any_owned_province = {
-					is_core = ORA
-					NOT = {controlled_by = REB}
-				}
-			}
+			
 			
 		}
 		effect = {
-			
+			any_pop = {
+				limit = {
+					has_pop_culture = north_german
+				}
+				reduce_pop = 1
+			}
 		}
 	}
 

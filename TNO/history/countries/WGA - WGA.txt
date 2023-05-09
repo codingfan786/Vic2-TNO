@@ -57,6 +57,7 @@ publishing_industry = 1
 mechanized_mining = 1
 
 basic_chemistry = 1
+medicine = 1
 
 classicism_n_early_romanticism = 1
 late_enlightenment_philosophy = 1
@@ -79,3 +80,5 @@ army_command_principle = 1
 muzzle_loaded_rifles = 1
 iron_muzzle_loaded_artillery = 1
 military_plans = 1
+
+ideological_thought = 1

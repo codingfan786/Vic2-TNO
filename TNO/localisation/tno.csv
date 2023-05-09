@@ -174,10 +174,27 @@ demo_welsh_desc;The independence movement of the Welsh was nothing but a fantasy
 contact_cbr_title;Contact the British Colonial Administration;;;;;;;;;;;;x
 contact_cbr_desc;Since World War 2 the British colonial administration has been cut off and in collapse. They will be glad to hear of the Nation's recovery.;;;;;;;;;;;;x
 support_boers_title;Support Boer separatism.;;;;;;;;;;;;x
-support_boers_desc;The former British colony to our south is a dangerous threat to our supremacy in Africa. We should support the Boer separatists when they declare their independence! §R This will make us automatically join the Boers when they declare independence (Usually 1972).;;;;;;;;;;;;x
-EVENT500065;To our north are our two German neighbors, waiting for the opportune moment to strike at us. Any time a Boer core we own is sieged down by rebels the province will be marked with a modifier named Open Revolt. In 1972 (or earlier if all Boer cores are sieged) the Boer republic will declare independence in every state that has a province with Open Revolt. They will also get some troops for every province with Open Revolt. The German dictatorships to our north will join the Boers if they have not collapsed before then.;;;;;;;;;;;;x
+support_boers_desc;The former British colony to our south is a dangerous threat to our supremacy in Africa. We should support the Boer separatists when they declare their independence! §R This will make us automatically join the Boers when they declare independence (Usually 1971).;;;;;;;;;;;;x
+EVENT500065;To our north are our two German neighbors, waiting for the opportune moment to strike at us. Any time a Boer core we own is sieged down by rebels the province will be marked with a modifier named Open Revolt. In 1971 (or earlier if all Boer cores are sieged) the Boer republic will declare independence in every state that has a province with Open Revolt. They will also get some troops for every province with Open Revolt. The German dictatorships to our north will join the Boers if they have not collapsed before then.;;;;;;;;;;;;x
 EVENT500066;The failure in World War 2 and the economic hardships our loss brought has lead to an increasing poverty gap between the southern and northern regions of our country. The tensions this has caused between the Afro-American and Dixie citizenry will inevitably lead to outright violence in these states. We do however have a chance to soften the impact of this. \n\n Jackson and Washington each start with their own modifiers representing racial tensions and federal desegregation efforts respectively. These will slowly spread throughout the south until every province is covered with one of them, at which point the provinces with racial tensions will fall into anarchy as racial violence erupts until military intervention arrives. \n Having a liberal party slows the spread of racial tension, while having at least 0.5% bureaucrats in a state will slow tension spread and speed up desegregation spread. \n Good luck!;;;;;;;;;;;;x
 civil_unrest;Civil Unrest;;;;;;;;;;;;x
 uncontrolled_lynchings;Klan Lynchings;;;;;;;;;;;;x
 racial_integration;Federal Desegregation;;;;;;;;;;;;x
 racial_discontent;Klu Klux Klan Demonstrations;;;;;;;;;;;;x
+cultural_genocide;Cultural Genocide;;;;;;;;;;;;x
+ss_division;SS Enlistment;;;;;;;;;;;;x
+ss_recruitment;Native SS division;;;;;;;;;;;;x
+cultural_replacement_title;Germanisation Program;;;;;;;;;;;;x
+cultural_replacement_desc;We must continue the Germanisation of the Lebensraum and its settlement by the German People!;;;;;;;;;;;;x
+ss_balten_title;Establish SS Balten;;;;;;;;;;;;x
+ss_balten_desc;The Germanisation programs are simply not sustainable. In order to secure the Reichskommissariat we should start recruiting our security forces from the local population.;;;;;;;;;;;;x
+ss_moscowen_title;Establish SS Moscowien;;;;;;;;;;;;x
+ss_moscowen_desc;The Germanisation programs are simply not sustainable. In order to secure the Reichskommissariat we should start recruiting our security forces from the local population.;;;;;;;;;;;;x
+ss_ukraine_title;Establish SS Ukraine;;;;;;;;;;;;x
+ss_ukraine_desc;The Germanisation programs are simply not sustainable. In order to secure the Reichskommissariat we should start recruiting our security forces from the local population.;;;;;;;;;;;;x
+wga_expand_title;Secure Angola!;;;;;;;;;;;;x
+wga_expand_desc;The natives in Angola have recently rid themselves of Iberian rule, we should take advantage of this!;;;;;;;;;;;;x
+ega_expand_title;Secure Mozambique!;;;;;;;;;;;;x
+ega_expand_desc;The natives in Mozambique have recently rid themselves of Iberian rule, we should take advantage of this!;;;;;;;;;;;;x
+saf_victory_title;The Boers pacified!;;;;;;;;;;;;x
+saf_victory_desc;With our victory in the South African War, the Boers have been pacified and reintegrated into our country.;;;;;;;;;;;;x
