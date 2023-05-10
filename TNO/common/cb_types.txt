@@ -2134,7 +2134,7 @@ coa_plan = {
 }
 
 make_facist = {
-	sprite_index = 2
+	sprite_index = 1
 	is_triggered_only = yes
 	months = 1
 	constructing_cb = no
@@ -2190,7 +2190,7 @@ ger_annex = {
 		is_independant = yes
 	}
 
-	badboy_factor = 1
+	badboy_factor = 0
 	prestige_factor = 5
 	peace_cost_factor = 1
 	penalty_factor = 1

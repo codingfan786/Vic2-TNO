@@ -9,6 +9,9 @@ country_event = {
 		FROM = {
 			inherit = THIS
 		}
+		ai_chance = {
+			factor = 0.7
+		}
 	}
 	option = {
 		name = "...But to fight for survival!"
@@ -19,6 +22,9 @@ country_event = {
 				attacker_goal = { casus_belli = ger_annex }
 				call_ally = no
 			}
+		}
+		ai_chance = {
+			factor = 0.3
 		}
 	}
 }
@@ -38,12 +44,10 @@ country_event = {
 	}
 	option = {
 		name = "...But to fight for survival!"
-		FROM = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = make_puppet }
-				call_ally = no
-			}
+		add_casus_belli = {
+			target = FROM
+			type = make_puppet
+			months = 70
 		}
 	}
 }
