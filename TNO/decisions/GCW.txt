@@ -137,6 +137,7 @@ political_decisions = {
 				SGE = {has_country_flag = pup_assist}
 			}
 			NOT = {has_country_flag = bge_peace}
+			exists = GGE
 		}
 		allow = {
 			OR = {
