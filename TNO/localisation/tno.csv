@@ -198,3 +198,35 @@ ega_expand_title;Secure Mozambique!;;;;;;;;;;;;x
 ega_expand_desc;The natives in Mozambique have recently rid themselves of Iberian rule, we should take advantage of this!;;;;;;;;;;;;x
 saf_victory_title;The Boers pacified!;;;;;;;;;;;;x
 saf_victory_desc;With our victory in the South African War, the Boers have been pacified and reintegrated into our country.;;;;;;;;;;;;x
+make_facist;Install Facist Dictatorship;;;;;;;;;;;
+make_facist_desc;Install a Facist Dictatorship in a target country.;;;;;;;;;;;;x
+make_facist_short;Install a Facist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;;x
+make_facist_setup;Install a Facist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;x
+ger_annex;Restoration of German order;;;;;;;;;;;
+ger_annex_desc;Annexes former German colony;;;;;;;;;;;;x
+ger_annex_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+ger_annex_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
+gge_1_title;Restore order west of Prussia.;;;;;;;;;;;;x
+gge_1_desc;It is time we put down the rebellious reichskommissariats in our backyard. These democracies will not stand!;;;;;;;;;;;;x
+gge_2_title;Direct rule west of Prussia.;;;;;;;;;;;;x
+gge_2_desc;The recent unrest at home and in the east has proven significant threats exist in the German Reich. We can no longer afford independent rule in the east. §R Our puppets may refuse. In that case we will have to go to war!;;;;;;;;;;;;x
+gge_3_title;Assert our authority east of Prussia!;;;;;;;;;;;;x
+gge_3_desc;The declaration of independence by the reichskommissariats in the east beyond Poland has come as a shock to the already unstable German political landscape. Their loyalty to Germany must be enforced. §R They may refuse to come back to us. In that case we will have to go to war!;;;;;;;;;;;;x
+gge_4_title;Tame the partisan states.;;;;;;;;;;;;x
+gge_4_desc;Partisans have siezed the lebensraum! We must scramble immediately to secure direct control before they organize and become too establised to root out.;;;;;;;;;;;;x
+BHge_1_title;Restore order west of Prussia.;;;;;;;;;;;;x
+BHge_1_desc;It is time we put down the rebellious reichskommissariats in our backyard. These democracies will not stand!;;;;;;;;;;;;x
+BHge_2_title;Assert our authority west of Prussia!;;;;;;;;;;;;x
+BHge_2_desc;The declaration of independence by the reichskommissariats in central Europe has come as a shock to the already unstable German political landscape. Their loyalty to Germany must be enforced. §R They may refuse to come back to us. In that case we will have to go to war!;;;;;;;;;;;;x
+BHge_3_title;Tame the partisan states.;;;;;;;;;;;;x
+BHge_3_desc;Partisans have siezed the lebensraum! We must scramble immediately to secure the reichskommissariat governments before they organize and become too establised to root out.;;;;;;;;;;;;x
+BHge_4_title;Assert our authority east of Prussia!;;;;;;;;;;;;x
+BHge_4_desc;The declaration of independence by the reichskommissariats in the east beyond Poland has come as a shock to the already unstable German political landscape. Their loyalty to Germany must be enforced. §R They may refuse to come back to us. In that case we will have to go to war!;;;;;;;;;;;;x
+sge_1_title;Restore order west of Prussia.;;;;;;;;;;;;x
+sge_1_desc;It is time we put down the rebellious reichskommissariats in our backyard. These democracies will not stand!;;;;;;;;;;;;x
+sge_2_title;Tame the partisan states.;;;;;;;;;;;;x
+sge_2_desc;Partisans have siezed the lebensraum! We must scramble immediately to secure National Socialist control before they organize and become too establised to root out.;;;;;;;;;;;;x
+nuke_whitepeace_title;Use nuclear threat for white peace!;;;;;;;;;;;;x
+nuke_whitepeace_desc;This war has become untenable! We demand a cease to hostilities!;;;;;;;;;;;;x
+nuke_surrender_title;Use nuclear threat to demand surrender!;;;;;;;;;;;;x
+nuke_surrender_desc;The end to our current conflict is looking to be a distant hope. We must use our nuclear arsenal to end this conflict in our favor quickly!;;;;;;;;;;;;x

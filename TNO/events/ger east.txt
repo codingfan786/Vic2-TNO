@@ -1,0 +1,64 @@
+country_event = {
+	id = 500068
+	title = "$FROM$ demands our subjugation!"
+	desc = "Our national independence is under serious threat! Being a puppet to a foreign power has lead to dire consequences as our masters are now demanding direct control over our territory. What should we do? \n §R  DO NOT HOLD THIS EVENT."
+	is_triggered_only = yes
+
+	option = {
+		name = "We have no choice..."
+		FROM = {
+			inherit = THIS
+		}
+	}
+	option = {
+		name = "...But to fight for survival!"
+		release_vassal = THIS
+		FROM = {
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = ger_annex }
+				call_ally = no
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = 500069
+	title = "$FROM$ demands our subjugation!"
+	desc = "Our national independence is under serious threat! $FROM$ has demanded that our government defer to them on all foreign policy matters. What should we do? \n §R  DO NOT HOLD THIS EVENT."
+	is_triggered_only = yes
+
+	option = {
+		name = "We have no choice..."
+		FROM = {
+			create_vassal = THIS
+		}
+	}
+	option = {
+		name = "...But to fight for survival!"
+		FROM = {
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = make_puppet }
+				call_ally = no
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500070
+	title = "Facist dictatorship installed!"
+	desc = "Our government type has changed!"
+	is_triggered_only = yes
+
+	immediate = {
+		government = fascist_dictatorship
+	}
+	option = {
+		name = "Interesting."
+	}
+}
+

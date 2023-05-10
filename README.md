@@ -11,7 +11,9 @@ Currently finished content includes:
 
   Early German puppet breakaways (Two paths for each; use the events, decisions, and rebels rather than declaring war on the main GER tag)
 
-  German lebensraum colonization
+  German puppet lebensraum colonization
+
+  German response to puppet breakaways ("Usually war")
 
   Italian culture expansion paths (Transalpine Union tag late game or accept north african cultures early-mid game.)
 
@@ -29,6 +31,8 @@ Currently finished content includes:
 
   Western China unification and a little expansion.
 
+  Nuclear war :) 
+
 
 Along with some minor scattered mechanics such as:
 
@@ -37,7 +41,5 @@ Along with some minor scattered mechanics such as:
   A scotland lead scandinavia alternative formable
 
   German africa collapse mechanics.
-
-  Nuclear war (currently just a couple debug decisions. They might be hidden on kazakstan I cannot remember)
 
   and some other shit I've probably forgotten
