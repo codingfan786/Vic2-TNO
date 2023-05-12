@@ -147,6 +147,7 @@ political_decisions = {
 			set_country_flag = gge_3_taken
 			any_country = {
 				limit = {
+					NOT = {vassal_of = THIS}
 					has_country_flag = SOOO_freedom
 					OR = {
 						tag = BLT
@@ -205,6 +206,7 @@ political_decisions = {
 			set_country_flag = gge_4_taken
 			any_country = {
 				limit = {
+					NOT = {vassal_of = THIS}
 					NOT = {has_country_flag = SOOO_freedom}
 					OR = {
 						tag = BLT

@@ -38,24 +38,40 @@ country_event = {
 	trigger = {
 		tag = SAF
 		NOT = {has_global_flag = saf_war_started}
-		any_owned_province = {
-			has_province_modifier = ger_afr
+		OR = {
+			any_owned_province = {
+				has_province_modifier = ger_afr
+			}
+			exists = ORA
 		}
+		
 		OR = {
 			year = 1970
-
+			exists = ORA
 			NOT = {
 				any_owned_province = {
 					is_core = ORA
 					NOT = {controlled_by = REB}
 				}
 			}
-			
 		}
+		#need to adjust to fire immediately if ora rebel forms 
 	}
 
 	mean_time_to_happen = {
 		months = 8
+		modifier = {
+			factor = 0
+			OR = {
+				exists = ORA
+				NOT = {
+					any_owned_province = {
+						is_core = ORA
+						NOT = {controlled_by = REB}
+					}
+				}
+			}
+		}
 	}
 
 	immediate = {

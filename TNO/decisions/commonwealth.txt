@@ -6,18 +6,7 @@ political_decisions = {
 				tag = AST
 				tag = NZL
 			}
-			OR = {
-				tag = CAN
-				CAN = {ai = yes}
-			}
-			OR = {
-				tag = AST
-				AST = {ai = yes}
-			}
-			OR = {
-				tag = NZL
-				NZL = {ai = yes}
-			}
+			NOT = {has_global_flag = cbr_enhanced}
 		}
 
 		allow = {
@@ -37,9 +26,11 @@ political_decisions = {
 				NZL = {ai = yes}
 				is_our_vassal = NZL
 			}
+
 		}
 
 		effect = {
+			set_global_flag = cbr_enhanced
 			inherit = CBR
 			CAN = {all_core = {add_core = CBR}}
 			AST = {all_core = {add_core = CBR}}
@@ -48,9 +39,20 @@ political_decisions = {
 			add_accepted_culture = british
 			add_accepted_culture = anglo_canadian
 			add_accepted_culture = australian
-			inherit = CAN
-			inherit = AST
-			inherit = NZL
+			any_country = {
+				limit = {
+					OR = {
+						tag = AST
+						tag = CAN
+						tag = NZL
+					}
+					OR = {
+						NOT = {is_vassal = yes}
+						vassal_of = CBR
+					}
+				}
+				any_owned = {secede_province = CBR}
+			}
 		}
 		ai_will_do = {
 			factor = 1

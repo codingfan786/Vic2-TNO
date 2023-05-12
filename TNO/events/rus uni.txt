@@ -1,0 +1,73 @@
+country_event = {
+	id = 500071
+	title = "Russia Stabilized!"
+	desc = "EVENT500071desc"
+	major = yes
+
+	trigger = {
+		NOT = {has_global_flag = rus_unified}
+		primary_culture = russian
+		NOT = {tag = MSC}
+
+		NOT = {exists = WA1}
+		NOT = {exists = WA2}
+		OR = {
+			
+			exists = SOV
+			
+			AND = {
+				NOT = {exists = RAR}
+				NOT = {exists = NUC}
+			}
+			AND = {
+				NOT = {exists = RUS}
+				NOT = {exists = NUC}
+			}
+			AND = {
+				NOT = {exists = RAR}
+				NOT = {exists = RUS}
+			}
+		}
+
+		OR = {
+			
+			exists = ALK
+			
+			AND = {
+				NOT = {exists = NAV}
+				NOT = {exists = FED}
+			}
+			AND = {
+				NOT = {exists = NKV}
+				NOT = {exists = FED}
+			}
+			AND = {
+				NOT = {exists = NKV}
+				NOT = {exists = NAV}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		set_global_flag = rus_unified
+	}
+
+	option = {
+		name = "Towards national reconstruction!"
+		any_country = {
+			limit = {
+				primary_culture = russian
+				NOT = {tag = MSC}
+				war = no
+			}
+			prestige = 20
+			war_exhaustion = -50
+		}
+	}
+
+
+}

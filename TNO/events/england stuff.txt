@@ -18,3 +18,37 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 500072
+	title = "God save the queen!"
+	desc = "Britain has rid itself of the fascist menace! Should we reunite with our homeland?"
+	is_triggered_only = yes
+
+	option = {
+		name = "Of course!"
+		all_core = {add_core = ENG}
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 0.70
+			modifier = {
+				factor = 0
+				has_global_flag = cbr_enhanced
+			}
+		}
+	}
+	option = {
+		name = "We have our own destiny!"
+		add_casus_belli = {
+			target = FROM
+			type = make_puppet_unlimited
+			months = 72
+		}
+		ai_chance = {
+			factor = 0.3
+		}
+	}
+
+}

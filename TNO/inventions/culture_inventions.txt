@@ -1320,7 +1320,7 @@ mission_to_civilize = {
 		base = 0
 		modifier = {
 			factor = 25
-			nationalism_n_imperialism = 1
+			state_n_government = 1
 		}
 		modifier = {
 			factor = 25

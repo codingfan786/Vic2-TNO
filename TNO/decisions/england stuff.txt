@@ -108,46 +108,64 @@ political_decisions = {
 			NOT = {government = fascist_dictatorship}
 			tag = ENG
 			exists = CBR
+			NOT = {has_country_flag = cbr_contacted}
 		}
 		allow = {
 			state_n_government = 1
-			CBR = {ai = yes}
 		}
 		effect = {
+			set_country_flag = cbr_contacted
 			add_accepted_culture = anglo_canadian
 			add_accepted_culture = australian
 			COR = {any_owned = {add_core = ENG}}
 			any_country = {
 				limit = {
-					tag = CBR
-					ai = yes
+					OR = {
+						tag = CBR
+						tag = NZL
+						tag = AST
+						tag = CAN
+					}
+					exists = yes
+
+					#tag = CBR
+					#ai = yes
 				}
-				ENG = {inherit = CBR}
-				CBR = {all_core = {add_core = ENG}}
+				#ENG = {inherit = CBR}
+				#CBR = {all_core = {add_core = ENG}}
+				country_event = 500072
 			}
+		}
+	}
+
+	integrate_colonies = {
+		potential = {
+			tag = ENG
+			NOT = {government = fascist_dictatorship}
+			has_country_flag = cbr_contacted
+			OR = {
+				exists = CAN
+				exists = AST
+				exists = NZL
+				exists = CBR
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
 			any_country = {
 				limit = {
-					tag = CAN
-					ai = yes
+					OR = {
+						tag = CAN
+						tag = AST
+						tag = NZL
+						tag = CBR
+					}
+					vassal_of = ENG
 				}
-				ENG = {inherit = CAN}
-				CAN = {all_core = {add_core = ENG}}
-			}
-			any_country = {
-				limit = {
-					tag = AST
-					ai = yes
-				}
-				ENG = {inherit = AST}
-				AST = {all_core = {add_core = ENG}}
-			}
-			any_country = {
-				limit = {
-					tag = NZL
-					ai = yes
-				}
-				ENG = {inherit = NZL}
-				NZL = {all_core = {add_core = ENG}}
+				all_core = {add_core = ENG}
+				any_owned = {secede_province = ENG}
 			}
 		}
 	}

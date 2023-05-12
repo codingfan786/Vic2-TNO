@@ -2,7 +2,7 @@ country_event = {
 	id = 500009
 	title = "Nigerian Oil!"
 	desc = "Oil has been found today in Benin, where surveyers representing international oil conglomerates have been drilling."
-
+	major = yes
 	trigger = {
 		year = 2005
 		NOT = {has_global_flag = nigerianoil1}
@@ -11,6 +11,7 @@ country_event = {
 
 	mean_time_to_happen = {
 		months = 36
+		#months = 1
 	}
 
 	immediate = {
@@ -27,7 +28,7 @@ country_event = {
 	id = 500010
 	title = "Nigerian Oil!"
 	desc = "Oil has been found today in Awka, where surveyers representing international oil conglomerates have been drilling."
-
+	major = yes
 	trigger = {
 		year = 2005
 		NOT = {has_global_flag = nigerianoil2}
@@ -51,7 +52,7 @@ country_event = {
 	id = 500011
 	title = "Nigerian Oil!"
 	desc = "Oil has been found today in Calabar, where surveyers representing international oil conglomerates have been drilling."
-
+	major = yes
 	trigger = {
 		year = 2005
 		NOT = {has_global_flag = nigerianoil3}

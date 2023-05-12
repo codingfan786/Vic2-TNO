@@ -160,7 +160,7 @@ ega_coup_desc;The other German administration in Africa is clearly incompetent! 
 wga_coup_title;German Administration Coup!;;;;;;;;;;;;x
 wga_coup_desc;The other German administration in Africa is clearly incompetent! Our troops are in place to seize their headquarters and consolidate our rule in Africa!;;;;;;;;;;;;x
 cbr_britain_title;Home Coming!;;;;;;;;;;;;x
-cbr_britain_desc;The Facist British Government has been toppled! Now we must pick up the pieces and save the British people.;;;;;;;;;;;;x
+cbr_britain_desc;The Fascist British Government has been toppled! Now we must pick up the pieces and save the British people.;;;;;;;;;;;;x
 request_cornwall_title;Request the return of Cornwall;;;;;;;;;;;;x
 request_cornwall_desc;With the German Civil War ended, now may be opportune time to demand the return of Cornwall. After that we can focus on the unification of the rest of the isles.;;;;;;;;;;;;x
 fasc_welsh_title;Wales is English!;;;;;;;;;;;;x
@@ -198,10 +198,10 @@ ega_expand_title;Secure Mozambique!;;;;;;;;;;;;x
 ega_expand_desc;The natives in Mozambique have recently rid themselves of Iberian rule, we should take advantage of this!;;;;;;;;;;;;x
 saf_victory_title;The Boers pacified!;;;;;;;;;;;;x
 saf_victory_desc;With our victory in the South African War, the Boers have been pacified and reintegrated into our country.;;;;;;;;;;;;x
-make_facist;Install Facist Dictatorship;;;;;;;;;;;
-make_facist_desc;Install a Facist Dictatorship in a target country.;;;;;;;;;;;;x
-make_facist_short;Install a Facist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;;x
-make_facist_setup;Install a Facist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;x
+make_facist;Install Fascist Dictatorship;;;;;;;;;;;
+make_facist_desc;Install a Fascist Dictatorship in a target country.;;;;;;;;;;;;x
+make_facist_short;Install a Fascist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;;x
+make_facist_setup;Install a Fascist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;x
 ger_annex;Restoration of German order;;;;;;;;;;;
 ger_annex_desc;Annexes former German colony;;;;;;;;;;;;x
 ger_annex_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
@@ -230,3 +230,11 @@ nuke_whitepeace_title;Use nuclear threat for white peace!;;;;;;;;;;;;x
 nuke_whitepeace_desc;This war has become untenable! We demand a cease to hostilities!;;;;;;;;;;;;x
 nuke_surrender_title;Use nuclear threat to demand surrender!;;;;;;;;;;;;x
 nuke_surrender_desc;The end to our current conflict is looking to be a distant hope. We must use our nuclear arsenal to end this conflict in our favor quickly!;;;;;;;;;;;;x
+EVENT500071desc;The emergence of a dominant unifier of Russia has finally occured. With the rise of major powers in Russia and the dissolution of local warlords comes a moment of peace and stability in the region. Anarchy no longer rules Russia, and the constant warfare has finally petered out.;;;;;;;;;;;;x
+FIN_1;Leningrad Corridor;;;;;;;;;;;;x
+make_puppet_unlimited;Make puppet;Créer un pays satellite;Erschafft eine Marionette;;;;;;;;;;;x
+make_puppet_unlimited_short;$RECIPIENT$ becomes a puppet of $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
+make_puppet_unlimited_setup;$RECIPIENT$ becomes a puppet of $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
+make_puppet_unlimited_desc;Become a puppet;Devenir un satellite;Werdet eine Marionette;;;;;;;;;;;x
+integrate_colonies_title;Imperial Federation;;;;;;;;;;;x
+integrate_colonies_desc;The Imperial Federation was a series of proposals in the late 19th and early 20th centuries to create a federal union to replace the existing British Empire, presenting it as an alternative to colonial imperialism. The aftermath of World War 2 has led to this proposal being a necessity for the survival of British interests.;;;;;;;;;;;x

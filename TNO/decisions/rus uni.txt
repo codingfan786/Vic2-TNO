@@ -303,6 +303,8 @@ political_decisions = {
 			984 = {add_core = SOV}
 			983 = {add_core = SOV}
 			2587 = {add_core = SOV}
+			339 = {add_core = SOV}
+			994 = {add_core = SOV}
 			FIN = {
 				add_casus_belli = {
 					target = SOV

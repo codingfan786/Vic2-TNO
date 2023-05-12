@@ -65,6 +65,7 @@ liberate_country
 release_puppet
 become_independent
 make_puppet
+make_puppet_unlimited
 dismantle_forts
 humiliate
 demand_concession_casus_belli
@@ -1904,6 +1905,7 @@ rus_uni = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {has_global_flag = rus_unified}
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			THIS = {primary_culture = russian}
@@ -2217,4 +2219,54 @@ ger_annex = {
 	po_annex = yes
 	
 	war_name = WAR_CONQUEST_NAME
+}
+
+
+make_puppet_unlimited = {
+	sprite_index = 10
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	constructing_cb = no
+
+	badboy_factor = 0.0
+	prestige_factor = 1
+	peace_cost_factor = 0.6
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		#NOT = { number_of_states = 10}
+		is_greater_power = no
+		is_vassal = no
+	}
+	
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	#allowed_countries = {
+	#	NOT = { is_our_vassal = FROM }
+		#FROM = { is_substate = no }
+	#}
+	
+	po_make_puppet = yes
+
+	war_name = WAR_PUPPET_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
 }
