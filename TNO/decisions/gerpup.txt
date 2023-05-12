@@ -160,6 +160,23 @@ political_decisions = {
 				}
 			}
 			
+			OR = {
+				tag = MSC
+				MSC = {ai = yes}
+				is_our_vassal = MSC
+			}
+
+			OR = {
+				tag = BLT
+				BLT = {ai = yes}
+				is_our_vassal = BLT
+			}
+
+			OR = {
+				tag = UKR
+				UKR = {ai = yes}
+				is_our_vassal = UKR
+			}
 
 		}
 		effect = {

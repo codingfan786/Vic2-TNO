@@ -266,6 +266,18 @@ political_decisions = {
 			NOT = {
 				war_with = NKV
 			}
+			NOT = {NKV = {war = yes}}
+			NOT = {RAR = {war = yes}}
+			OR = {
+				NKV = {ai = yes}
+				is_our_vassal = NKV
+				NOT = {exists = NKV}
+			}
+			OR = {
+				RAR = {ai = yes}
+				is_our_vassal = RAR
+				NOT = {exists = RAR}
+			}
 		}
 		effect = {
 			NKV = {all_core = {add_core = THIS}}
