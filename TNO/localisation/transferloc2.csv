@@ -1,0 +1,5 @@
+CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+i_deselector;State deselector;;;;;;;;;;;;;x
+i_deselector_desc;build in state to deselect all provinces in State.;;;;;;;;;;;;;x
+i_selector;State/province selector;;;;;;;;;;;;;x
+i_selector_desc;Build to select province/state.;;;;;;;;;;;;;x

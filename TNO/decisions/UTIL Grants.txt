@@ -4,6 +4,7 @@ political_decisions = {
 		picture = grant
 		alert = no
 		potential = {
+			has_country_flag = show_util
 			any_greater_power  = {
 				NOT = {tag = THIS}
 				ai = no
@@ -47,6 +48,7 @@ political_decisions = {
 		picture = grant
 		alert = no
 		potential = {
+			has_country_flag = show_util
 			any_greater_power  = {
 				NOT = {tag = THIS}
 				ai = no
@@ -68,6 +70,7 @@ political_decisions = {
 		picture = grant
 		alert = no
 		potential = {
+			has_country_flag = show_util
 			any_greater_power  = {
 				NOT = {tag = THIS}
 				ai = no

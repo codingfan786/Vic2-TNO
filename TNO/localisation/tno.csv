@@ -262,3 +262,7 @@ AOT_will_give_title;Enable Giving AOT Control;;;;;;;;;;;;x
 AOT_will_give_desc;This will allow us to give control of allied occupied territory to other players. It must be activated before a player chooses to request control of allied occupied territory. It can be reversed at any time.;;;;;;;;;;;;x
 AOT_will_not_give_title;Disable Giving AOT control;;;;;;;;;;;;x
 AOT_will_not_give_desc;This will prevent us from getting events when other players request control of allied occupied territory. It can be reversed at any time.;;;;;;;;;;;;x
+show_util_title;Show Grants and Transfers;;;;;;;;;;;;x
+show_util_desc;Show Grants and Transfers;;;;;;;;;;;;x
+hide_util_title;Hide Grants and Transfers;;;;;;;;;;;;x
+hide_util_desc;Hide Grants and Transfers;;;;;;;;;;;;x
