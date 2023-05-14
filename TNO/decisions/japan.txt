@@ -1,0 +1,138 @@
+political_decisions = {
+	fund_ija = {
+		picture = switch_to_army_tech
+		potential = {
+			NOT = {has_country_flag = ija_funded}
+			NOT = {has_country_flag = ijn_funded}
+			tag = JAP
+		}
+
+		allow = {
+			army_professionalism = 1
+		}
+
+		effect = {
+			set_country_flag = ija_funded
+			add_country_modifier = {
+				name = ija_funding
+				duration = 7300
+			}
+		}
+	}
+
+	boost_ija_1 = {
+		picture = westernize_nation
+		potential = {
+			tag = JAP
+			has_country_flag = ija_funded
+			NOT = {has_country_flag = ija_boosted_1}
+		}
+		allow = {
+			NOT = {has_country_modifier = ija_funding}
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = ija_boosted_1
+
+			add_country_modifier = {
+				name = ija_boost_1
+				duration = 7300
+			}
+		}
+	}
+
+	boost_ija_2 = {
+		picture = support_french_foreign_legion
+		potential = {
+			tag = JAP
+			has_country_flag = ija_funded
+			NOT = {has_country_flag = ija_boosted_2}
+		}
+		allow = {
+			NOT = {has_country_modifier = ija_funding}
+			breech_loaded_rifles = 1
+		}
+		effect = {
+			set_country_flag = ija_boosted_2
+
+			add_country_modifier = {
+				name = ija_boost_2
+				duration = 7300
+			}
+		}
+	}
+
+	fund_ijn = {
+		picture = the_vega_expedition
+		potential = {
+			NOT = {has_country_flag = ija_funded}
+			NOT = {has_country_flag = ijn_funded}
+			tag = JAP
+		}
+
+		allow = {
+			naval_plans = 1
+		}
+
+		effect = {
+			set_country_flag = ijn_funded
+			add_country_modifier = {
+				name = ijn_funding
+				duration = 7300
+			}
+		}
+	}
+
+	boost_ijn_1 = {
+		picture = suezcanal
+		potential = {
+			tag = JAP
+			has_country_flag = ijn_funded
+			NOT = {has_country_flag = ijn_boosted_1}
+		}
+		allow = {
+			owns = 1638
+			owns = 1661
+			NOT = {has_country_modifier = ijn_funding}
+			raider_group_doctrine = 1
+		}
+		effect = {
+			set_country_flag = ijn_boosted_1
+
+			1638 = {
+				add_province_modifier = {
+					name = ijn_boost_1
+					duration = 7300
+				}
+			}
+
+			1661 = {
+				add_province_modifier = {
+					name = ijn_boost_1
+					duration = 7300
+				}
+			}
+		}
+	}
+
+	boost_ijn_2 = {
+		picture = fatherland_volunteers #svenska_pansarbats_foreningen
+		potential = {
+			tag = JAP
+			has_country_flag = ijn_funded
+			NOT = {has_country_flag = ijn_boosted_2}
+		}
+		allow = {
+			NOT = {has_country_modifier = ijn_funding}
+			naval_decision_making = 1
+		}
+		effect = {
+			set_country_flag = ijn_boosted_2
+
+			add_country_modifier = {
+				name = ijn_boost_2
+				duration = 7300
+			}
+		}
+	}
+}

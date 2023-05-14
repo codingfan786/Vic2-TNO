@@ -1,6 +1,7 @@
 political_decisions = {
 
 	nuclear_development = {
+		picture = build_the_tower_of_babylon
 		potential = {
 			NOT = {has_country_flag = nuke}
 		}
@@ -44,6 +45,7 @@ political_decisions = {
 
 
 	nuke_whitepeace = {
+		picture = build_the_tower_of_babylon
 		potential = {
 			NOT = {has_country_modifier = nuc_dev}
 			has_country_flag = nuke
@@ -63,10 +65,10 @@ political_decisions = {
 			NOT = {has_country_modifier = nuc_timeout}
 		}
 		effect = {
-			badboy = 5
+			#badboy = 5
 			add_country_modifier = {
 				name = nuc_timeout
-				duration = 3650
+				duration = 1825 #was 3650
 			}
 			any_country = {
 				limit = {
@@ -84,6 +86,7 @@ political_decisions = {
 
 
 	nuke_surrender = {
+		picture = build_the_tower_of_babylon
 		potential = {
 			NOT = {has_country_modifier = nuc_dev}
 			has_country_flag = nuke
@@ -103,7 +106,7 @@ political_decisions = {
 			NOT = {has_country_modifier = nuc_timeout}
 		}
 		effect = {
-			badboy = 10
+			#badboy = 10
 			add_country_modifier = {
 				name = nuc_timeout
 				duration = 3650

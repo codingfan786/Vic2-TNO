@@ -1,5 +1,6 @@
 political_decisions = {
 	por_investment={
+		picture = construct_germania_werft
 		potential = {
 			tag = IBE
 			NOT = {has_country_flag = por_invest}
@@ -24,6 +25,7 @@ political_decisions = {
 
 
 	cat_investment={
+		picture = construct_germania_werft
 		potential = {
 			tag = IBE
 			NOT = {has_country_flag = cat_invest}
@@ -46,6 +48,7 @@ political_decisions = {
 
 
 	por_acceptance = {
+		picture = establish_la_guardia_civil
 		potential = {
 			tag = IBE
 			has_country_flag = por_invest
@@ -60,6 +63,7 @@ political_decisions = {
 	}
 
 	cat_acceptance = {
+		picture = establish_la_guardia_civil
 		potential = {
 			tag = IBE
 			has_country_flag = cat_invest

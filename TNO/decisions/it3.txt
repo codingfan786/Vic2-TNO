@@ -1,5 +1,6 @@
 political_decisions = {
 	accept_bedouin_three = {
+		picture = italia_irredenta
 		potential = {
 			tag = ITA
 			NOT = {has_country_flag = ita_3rd}
@@ -23,6 +24,7 @@ political_decisions = {
 	}
 
 	accept_maghrebi_three = {
+		picture = italia_irredenta
 		potential = {
 			tag = ITA
 			NOT = {has_country_flag = ita_3rd}
@@ -46,6 +48,7 @@ political_decisions = {
 	}
 
 	accept_misri_three = {
+		picture = italia_irredenta
 		potential = {
 			tag = ITA
 			NOT = {has_country_flag = ita_3rd}
@@ -69,6 +72,7 @@ political_decisions = {
 	}
 
 	accept_mashriqi_three = {
+		picture = italia_irredenta
 		potential = {
 			tag = ITA
 			NOT = {has_country_flag = ita_3rd}

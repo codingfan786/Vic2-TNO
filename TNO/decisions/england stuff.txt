@@ -1,5 +1,6 @@
 political_decisions = {
 	request_cornwall = {
+		picture = form_arabia
 		potential = {
 			government = fascist_dictatorship
 			tag = ENG
@@ -34,6 +35,7 @@ political_decisions = {
 	}
 
 	fasc_welsh = {
+		picture = ionian_islands_question
 		potential = {
 			has_country_flag = eng_corn
 			government = fascist_dictatorship
@@ -52,6 +54,7 @@ political_decisions = {
 	}
 
 	fasc_scotland = {
+		picture = ionian_islands_question
 		potential = {
 			has_country_flag = eng_corn
 			government = fascist_dictatorship
@@ -69,6 +72,7 @@ political_decisions = {
 	}
 
 	fasc_ireland = {
+		picture = ionian_islands_question
 		potential = {
 			has_country_flag = eng_corn
 			government = fascist_dictatorship
@@ -88,6 +92,7 @@ political_decisions = {
 
 
 	demo_welsh = {
+		picture = ionian_islands_question
 		potential = {
 			NOT = {government = fascist_dictatorship}
 			tag = ENG
@@ -104,6 +109,7 @@ political_decisions = {
 	}
 
 	contact_cbr = {
+		picture = custers_expedition
 		potential = {
 			NOT = {government = fascist_dictatorship}
 			tag = ENG
@@ -139,6 +145,7 @@ political_decisions = {
 	}
 
 	integrate_colonies = {
+		picture = ionian_islands_question
 		potential = {
 			tag = ENG
 			NOT = {government = fascist_dictatorship}

@@ -1,5 +1,6 @@
 political_decisions = {
 	Form_SCA = {
+		picture = form_scandinavia
 		potential = {
 			NOT = {exists = SCA}
 			OR = {
@@ -268,6 +269,7 @@ political_decisions = {
 	}
 
 	Invite_SCA = {
+		picture = form_scandinavia
 		potential = {
 			tag = SCA
 			OR = {

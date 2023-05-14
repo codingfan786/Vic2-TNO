@@ -1,5 +1,6 @@
 political_decisions = {
 	form_alp = {
+		picture = italia_irredenta
 		potential = {
 			NOT = {has_country_flag = ita_1st}
 			OR = {
@@ -72,6 +73,7 @@ political_decisions = {
 	}
 
 	get_austria = {
+		picture = form_south_german_confederation
 		potential = {
 			tag = ALP
 			NOT = {accepted_culture = south_german}

@@ -1,6 +1,7 @@
 political_decisions = {
 
 	fix_country = {
+		picture = westernize_nation
 		potential = {
 			NOT = {has_country_flag = GERAFRFIXED}
 			OR = {
@@ -53,6 +54,7 @@ political_decisions = {
 	}
 
 	ega_coup = {
+		picture = support_biesterfelds
 		potential = {
 			tag = EGA
 			NOT = {WGA = {has_country_flag = GERAFRFIXED}}
@@ -78,6 +80,7 @@ political_decisions = {
 	}
 
 	wga_coup = {
+		picture = support_biesterfelds
 		potential = {
 			tag = WGA
 			NOT = {EGA = {has_country_flag = GERAFRFIXED}}
@@ -103,6 +106,7 @@ political_decisions = {
 	}
 
 	support_boers = {
+		picture = support_french_foreign_legion
 		potential = {
 			OR = {
 				tag = EGA
@@ -142,6 +146,7 @@ political_decisions = {
 	}
 
 	ega_expand = {
+		picture = rhodesia_charter
 		potential = {
 			tag = EGA
 			exists = MOZ
@@ -175,6 +180,7 @@ political_decisions = {
 	}
 
 	wga_expand = {
+		picture = rhodesia_charter
 		potential = {
 			tag = WGA
 			exists = ANG

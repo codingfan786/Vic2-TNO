@@ -1,6 +1,7 @@
 political_decisions = {
 
 	demorus = {
+		picture = russian_vladivostok
 		potential = {
 			tag = NAV
 			exists = FED
@@ -29,6 +30,7 @@ political_decisions = {
 	}
 
 	westalaska = {
+		picture = institute_central_bank
 		potential = {
 			OR = {
 				tag = NAV
@@ -130,6 +132,7 @@ political_decisions = {
 	}
 
 	ciafunding = {
+		picture = kansas_nebraska_act
 		potential = {
 			OR = {
 				tag = NAV
@@ -152,6 +155,7 @@ political_decisions = {
 	}
 
 	shippurchase = {
+		picture = the_vega_expedition
 		potential = {
 			OR = {
 				tag = ALK
@@ -184,6 +188,7 @@ political_decisions = {
 	}
 
 	WA_capital = {
+		picture = switch_to_navy_tech
 		potential = {
 			tag = ALK
 			
@@ -211,6 +216,7 @@ political_decisions = {
 	}
 
 	sov_form_rar = {
+		picture = raise_the_bonnie_blue_flag
 		potential = {
 			NOT = {exists = SOV}
 			tag = RAR
@@ -230,6 +236,7 @@ political_decisions = {
 	}
 
 	sov_form_nkv = {
+		picture = raise_the_bonnie_blue_flag
 		potential = {
 			NOT = {exists = SOV}
 			tag = NKV
@@ -249,6 +256,7 @@ political_decisions = {
 	}
 
 	sov_integration = {
+		picture = raise_the_bonnie_blue_flag
 		potential = {
 			tag = SOV
 			any_neighbor_country = {OR = {tag = RAR tag = NKV}}
@@ -288,6 +296,7 @@ political_decisions = {
 	}
 
 	finland_war = {
+		picture = concede_finland
 		potential = {
 			tag = SOV
 			NOT = {2588 = {is_core = SOV}}
@@ -316,6 +325,7 @@ political_decisions = {
 	}
 
 	sov_kazakh_ssr = {
+		picture = peking_convention
 		potential = {
 			tag = SOV
 			NOT = {accepted_culture = turkmen}

@@ -238,3 +238,27 @@ make_puppet_unlimited_setup;$RECIPIENT$ becomes a puppet of $ACTOR$;$RECIPIENT$ 
 make_puppet_unlimited_desc;Become a puppet;Devenir un satellite;Werdet eine Marionette;;;;;;;;;;;x
 integrate_colonies_title;Imperial Federation;;;;;;;;;;;x
 integrate_colonies_desc;The Imperial Federation was a series of proposals in the late 19th and early 20th centuries to create a federal union to replace the existing British Empire, presenting it as an alternative to colonial imperialism. The aftermath of World War 2 has led to this proposal being a necessity for the survival of British interests.;;;;;;;;;;;x
+ija_boost_1;Draft Reforms;;;;;;;;;;;x
+ija_boost_2;Troop Training Stringency;;;;;;;;;;;x
+ija_funding;I.J.A. Funding Priority;;;;;;;;;;;x
+ijn_boost_1;Dockyard Streamlining;;;;;;;;;;;x
+ijn_boost_2;Naval Officer Training;;;;;;;;;;;x
+ijn_funding;I.J.N. Funding Priority;;;;;;;;;;;x
+fund_ija_title;Side with the I.J.A.;;;;;;;;;;;x
+fund_ija_desc;The I.J.A and I.J.N. has been at odds ever since World War 2 over industrial resources and funding. This interservice rivalry has been a constant political problem and it is time to decide once and for all which shall reign supreme over the Japanese armed forces.;;;;;;;;;;;x
+boost_ija_1_title;Reform I.J.A. draft standards.;;;;;;;;;;;x
+boost_ija_1_desc;Draftees that don't pass the standards for service in the I.J.A are routinely passed along to the I.J.N. By ending this practice the I.J.A. can shore up its numbers with normally wasted recruits.;;;;;;;;;;;x
+boost_ija_2_title;Reform I.J.A. training standards.;;;;;;;;;;;x
+boost_ija_2_desc;Japanese tactical doctrine insists vigorously on the inherent superiority of the offense, and Field Service Regulations state that the offensive should be resolutely taken. The object of all maneuver is to close quickly with the enemy so that the assumed Japanese superiority in close combat can be realized to the utmost. Even when the enemy strength is markedly superior, or when the Japanese commander has been placed temporarily on the defensive, he is supposed to use every effort to regain the offensive and take the initiative.;;;;;;;;;;;x
+fund_ijn_title;Side with the I.J.N.;;;;;;;;;;;x
+fund_ijn_desc;The I.J.A and I.J.N. has been at odds ever since World War 2 over industrial resources and funding. This interservice rivalry has been a constant political problem and it is time to decide once and for all which shall reign supreme over the Japanese armed forces.;;;;;;;;;;;x
+boost_ijn_1_title;Streamlined I.J.N. shipbuilding.;;;;;;;;;;;x
+boost_ijn_1_desc;With the competition for resources with the I.J.A. now over, we can focus on overhauling our military shipyards.;;;;;;;;;;;x
+boost_ijn_2_title;Reorganized I.J.N. officer corps.;;;;;;;;;;;x
+boost_ijn_2_desc;The I.J.N. officer corps has been bloated from complacency after the victory in the Pacific. New ideas and new officers are needed to maintain our mastery over the sea.;;;;;;;;;;;x
+AOT_will_receive_title;Request control of AOT;;;;;;;;;;;;x
+AOT_will_receive_desc;This will request control of allied occupied territory from other players. Please note they must have choosen the decision to enable giving AOT control for the request to go through. It can be reversed at any time.;;;;;;;;;;;;x
+AOT_will_give_title;Enable Giving AOT Control;;;;;;;;;;;;x
+AOT_will_give_desc;This will allow us to give control of allied occupied territory to other players. It must be activated before a player chooses to request control of allied occupied territory. It can be reversed at any time.;;;;;;;;;;;;x
+AOT_will_not_give_title;Disable Giving AOT control;;;;;;;;;;;;x
+AOT_will_not_give_desc;This will prevent us from getting events when other players request control of allied occupied territory. It can be reversed at any time.;;;;;;;;;;;;x

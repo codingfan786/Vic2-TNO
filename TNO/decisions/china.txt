@@ -1,5 +1,6 @@
 political_decisions = {
 	tibet_accept = {
+		picture = peking_convention
 		potential = {
 			tag = YNN
 			NOT = {
@@ -31,6 +32,7 @@ political_decisions = {
 	}
 
 	turk_accept = {
+		picture = peking_convention
 		potential = {
 			tag = XIN
 			NOT = {
@@ -46,6 +48,7 @@ political_decisions = {
 	}
 
 	west_china = {
+		picture = raise_the_bonnie_blue_flag
 		potential = {
 			OR = {
 				tag = XBI
@@ -176,6 +179,7 @@ political_decisions = {
 	}
 
 	mongol_russia = {
+		picture = raise_the_bonnie_blue_flag
 		potential = {
 			tag = MGL
 			NOT = {accepted_culture = russian}

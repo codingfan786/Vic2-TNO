@@ -1,5 +1,6 @@
 political_decisions = {
 	saf_victory = {
+		picture = die_groot_trek
 		potential = {
 			has_global_flag = saf_war_started
 			tag = SAF

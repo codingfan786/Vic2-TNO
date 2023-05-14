@@ -1,6 +1,7 @@
 political_decisions = {
 
 	PBS_freedom = {
+		picture = abolish_prohibition
 		potential = {
 			OR = {
 				tag = POL
@@ -45,6 +46,7 @@ political_decisions = {
 	}
 
 	POL_revanch = {
+		picture = form_poland_lithuania
 		potential = {
 			tag = POL
 			NOT = {government = fascist_dictatorship}
@@ -85,6 +87,7 @@ political_decisions = {
 	}
 
 	CZH_revanch = {
+		picture = form_poland_lithuania
 		potential = {
 			NOT = {has_global_flag = CZH_revanched}
 			OR = {
@@ -130,6 +133,7 @@ political_decisions = {
 
 
 	FEU_revanch = {
+		picture = abolish_prohibition
 		potential = {
 			NOT = {has_global_flag = FEU_revanched}
 			OR = {
@@ -245,6 +249,7 @@ political_decisions = {
 	}
 
 	stand_on_our_own = {
+		picture = leave_soi
 		potential = {
 			OR = {
 				tag = MSC
@@ -295,6 +300,7 @@ political_decisions = {
 	}
 
 	cultural_replacement = {
+		picture = form_south_german_confederation
 		potential = {
 			OR = {
 				tag = UKR
@@ -372,6 +378,7 @@ political_decisions = {
 	}
 
 	ss_balten = {
+		picture = form_arabia
 		potential = {
 			tag = BLT
 			NOT= {has_country_flag = ss_formed}
@@ -413,6 +420,7 @@ political_decisions = {
 	}
 
 	ss_moscowen = {
+		picture = form_arabia
 		potential = {
 			tag = MSC
 			NOT= {has_country_flag = ss_formed}
@@ -447,6 +455,7 @@ political_decisions = {
 
 
 	ss_ukraine = {
+		picture = form_arabia
 		potential = {
 			tag = UKR
 			NOT= {has_country_flag = ss_formed}

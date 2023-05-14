@@ -1,0 +1,106 @@
+political_decisions = {
+
+	AOT_will_receive = {
+		picture = AOT
+		alert = no
+		potential = {
+			any_greater_power  = {
+				NOT = {tag = THIS}
+				ai = no
+			}
+			civilized = yes
+			ai = no
+			
+		}
+		
+		allow = { 
+			ai = no
+		}
+		effect = {
+#			prestige = -5
+			#war_countries = {
+			#	war_countries = {
+			#		limit = {
+			#			has_country_flag = AOT_will_give_grants
+			#			ai = no
+			#			NOT = {tag = THIS}
+			#		}
+			#		country_event = {id = 500074 days = 0}
+			#	}
+			#}
+			any_country = {
+				limit = {
+					has_country_flag = AOT_will_give_grants
+					ai = no
+					NOT = {tag = THIS}
+				}
+				country_event = {id = 500074 days = 0}
+			}
+
+		}
+
+	}
+
+#	will_not_receive = {
+#		alert = no
+#		potential = {
+#			ai = no
+#			has_country_flag = AOT_will_receive_grants
+#			}
+#		
+#		allow = { 
+#			has_country_flag = AOT_will_receive_grants
+#			}
+#		effect = {
+#			clr_country_flag = AOT_will_receive_grants 
+#
+#		}
+#
+#	}
+
+	AOT_will_give = {
+		picture = AOT
+		alert = no
+		potential = {
+			any_greater_power  = {
+				NOT = {tag = THIS}
+				ai = no
+			}
+			NOT = { tag = LCT }
+			civilized = yes
+			ai = no
+			NOT = { has_country_flag = AOT_will_give_grants }
+		}
+
+		allow = { 
+			NOT = { has_country_flag = AOT_will_give_grants } 
+		}
+		effect = {
+			set_country_flag = AOT_will_give_grants
+		}
+	}
+
+
+	AOT_will_not_give = {
+		picture = AOT
+		alert = no
+		potential = {
+			any_greater_power  = {
+				NOT = {tag = THIS}
+				ai = no
+			}	
+			NOT = { tag = LCT }
+			civilized = yes
+			ai = no
+			has_country_flag = AOT_will_give_grants
+		}
+		
+		allow = { 
+			ai = no
+			has_country_flag = AOT_will_give_grants 
+		}
+		effect = {
+			clr_country_flag = AOT_will_give_grants 
+		}
+	}
+}

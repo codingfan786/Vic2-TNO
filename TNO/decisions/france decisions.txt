@@ -1,5 +1,6 @@
 political_decisions = {
 	bri_integration = {
+		picture = court_yard_speech
 		potential = {
 			tag = FRA
 			NOT = {accepted_culture = breton}
@@ -29,6 +30,7 @@ political_decisions = {
 	}
 
 	alsace = {
+		picture = restore_alsace
 		potential = {
 			tag = FRA
 			NOT = {409 = {is_core = FRA}}
@@ -45,6 +47,7 @@ political_decisions = {
 	}
 
 	reestablish_ffl = {
+		picture = support_french_foreign_legion
 		potential = {
 			tag = FRA
 			NOT = {
@@ -72,6 +75,7 @@ political_decisions = {
 	}
 
 	reproach_cfr = {
+		picture = custers_expedition
 		potential = {
 			tag = FRA
 			exists = CFR

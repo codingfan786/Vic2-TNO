@@ -1,5 +1,6 @@
 political_decisions = {
 	victory_in_the_gcw = {
+		picture = form_north_german_confederation
 		potential = {
 			exists = GER
 			OR = {
@@ -60,6 +61,7 @@ political_decisions = {
 	}
 
 	brg_assistance = {
+		picture = das_zivilgesetzbuch
 		potential = {
 			tag = HGE
 		    exists = GER
@@ -80,6 +82,7 @@ political_decisions = {
 	}
 
 	pup_assistance = {
+		picture = das_zivilgesetzbuch
 		potential = {
 			tag = SGE
 		    exists = GER
@@ -130,6 +133,7 @@ political_decisions = {
 	}
 
 	bge_wp = {
+		picture = das_zivilgesetzbuch
 		potential = {
 			tag = BGE
 			OR = {

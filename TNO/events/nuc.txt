@@ -59,6 +59,7 @@ country_event = {
 	}
 	option = {
 		name = "It was not just a threat!"
+		badboy = 6
 		any_country = {
 			limit = {
 				NOT = {has_country_modifier = nuc_dev}
@@ -100,7 +101,12 @@ country_event = {
 	allow_multiple_instances = yes
 	immediate = {
 		#nuke effect
-
+		any_owned = {
+			limit = {
+				total_pops = 100000
+			}
+			set_province_flag = disease
+		}
 
 		any_owned = {
 			limit = {
@@ -168,6 +174,12 @@ country_event = {
 	allow_multiple_instances = yes
 	immediate = {
 		#nuke effect
+		any_owned = {
+			limit = {
+				total_pops = 100000
+			}
+			set_province_flag = disease
+		}
 
 		any_owned = {
 			limit = {
@@ -295,6 +307,12 @@ country_event = {
 	allow_multiple_instances = yes
 	immediate = {
 		#nuke effect
+		any_owned = {
+			limit = {
+				total_pops = 100000
+			}
+			set_province_flag = disease
+		}
 
 		any_owned = {
 			limit = {
@@ -365,7 +383,13 @@ country_event = {
 	allow_multiple_instances = yes
 	immediate = {
 		#nuke effect
-
+		any_owned = {
+			limit = {
+				total_pops = 100000
+			}
+			set_province_flag = disease
+		}
+		
 		any_owned = {
 			limit = {
 				total_pops = 100000

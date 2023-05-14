@@ -1,0 +1,24 @@
+country_event = {
+	id = 500074
+	title = "$FROMCOUNTRY$ requests control over the occupation of our mutual enemies."
+	desc = "Should we transfer control of occupied territories of mutual enemies to $FROMCOUNTRY$?"
+	is_triggered_only = yes
+	option = {
+		name = "No."
+	}
+	option = {
+		name = "Of course!"
+		any_country = {
+			limit = {
+				war_with = THIS
+				war_with = FROM
+			}
+			any_owned = {
+				limit = {
+					controlled_by = THIS
+				}
+				change_controller = FROM
+			}
+		}
+	}
+}

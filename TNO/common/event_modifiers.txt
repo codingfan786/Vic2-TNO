@@ -1,6 +1,44 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+ijn_boost_1 = {
+	icon = 13
+	local_ship_build = -0.2
+}
+
+ijn_boost_2 = {
+	icon = 15
+	naval_organisation = 0.15
+	naval_unit_start_experience = 15
+}
+
+
+ijn_funding = {
+	icon = 9
+	min_tariff = 0.2
+}
+
+
+ija_boost_1 = {
+	icon = 17
+	mobilisation_size = 0.01
+	mobilization_impact = -0.25
+	mobilization_economy_impact = -0.25
+}
+
+ija_boost_2 = {
+	org_regain = 0.1
+	land_organisation = 0.05
+	land_unit_start_experience = 0.5
+	supply_consumption = -0.05
+	icon = 15
+}
+
+ija_funding = {
+	icon = 9
+	min_military_spending = 0.2
+}
+
 academic_confusion = {
 	research_points_modifier = -0.01
 	prestige = -0.01
@@ -98,7 +136,7 @@ brg_assist = {
 }
 
 nuc_timeout = {
-	badboy = 0.02
+	badboy = 0.08 #was 0.02
 	icon = 18
 }
 
