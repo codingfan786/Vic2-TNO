@@ -471,7 +471,7 @@ acquire_substate_region = {
 	
 	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 1
+	peace_cost_factor = 0.2
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -489,7 +489,7 @@ acquire_substate_region = {
 		any_substate = {
 			number_of_states = 1
 			any_owned_province = {
-				not = { is_core = THIS }
+				#not = { is_core = THIS }
 				is_colonial = no
 			}
 		}
@@ -499,7 +499,7 @@ acquire_substate_region = {
 		is_colonial = no
 		owner = { NOT = { in_sphere = THIS } }
 		any_owned_province = {
-			not = {	is_core = THIS }
+			#not = {	is_core = THIS }
 			is_colonial = no
 		}
 	}

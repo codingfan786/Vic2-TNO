@@ -49,3 +49,16 @@ will_give_title;Enable Giving Grants;;;;;;;;;;;;x
 will_give_desc;This will allow us to give grants to other players. It must be activated before a player chooses to request grants. It can be reversed at any time.;;;;;;;;;;;;x
 will_not_give_title;Disable Giving Grants;;;;;;;;;;;;x
 will_not_give_desc;This will prevent us from getting events when other players request grants. It can be reversed at any time.;;;;;;;;;;;;x
+EVTNAME2600;$STATENAME$ Integration;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC2600;$COUNTRY$ has maintained control over $STATENAME$ for us to consider the possibility of integrating it into $COUNTRY$ as a whole. There are $COUNTRY_ADJ$ flags waving in $PROVINCENAME$, flown by $COUNTRY_ADJ$ citizens, so it does not seem so far-fetched an idea that $STATENAME$ be eventually considered $COUNTRY_ADJ$ territory by the world at large.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME2605;$PROVINCENAME$ Integrated into $COUNTRY$;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC2605;$COUNTRY$ has controlled $PROVINCENAME$ for a long time-- long enough for those within $PROVINCENAME$ to truly consider themselves $COUNTRY_ADJ$ citizens, and for the rest of the world to consider the $COUNTRY_ADJ$ claim to the province to be legitimate as well. Though there are still some unhappy with the development, $PROVINCENAME$ is now considered an integral part of $COUNTRY$.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT2600OPTA;Integrate Them.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT2600OPTB;Reject Them.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT2605OPTA;Hurrah!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+core_integration;Core Integration;;;;;;;;;;;;;x,,,,
+core_integration_desc;The province is being integrated into the rest of the country, a slow process that may cause problems here.;;;;;;;;;;;;;x,,,
+nationalist_agitation;Nationalist Agitation;;;;;;;;;;;;x,,,,
+nationalist_agitation_desc;Nationalists are active in the province, stirring up trouble with random acts of violence. If left unchecked, they may rise in rebellion against us.;;;;;;;;;;;;x,,
+integration_refusal;No Integration;;;;;;;;;;;;;x,,,,
+integration_refusal_desc;The province is not being integrated into the rest of the country, and being allowed to maintain its separate identity.;;;;;;;;;;;;;x,,,

@@ -1,0 +1,331 @@
+political_decisions = {
+	campaign_show ={
+		picture = apply_for_USA_statehood
+		alert = no
+		potential = {
+			ai = no
+			NOT = {has_country_flag = show_camp}
+			tag = USA
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_country_flag = show_camp
+		}
+	}
+
+	campaign_hide ={
+		picture = apply_for_USA_statehood
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = show_camp
+			tag = USA
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_country_flag = show_camp
+		}
+	}
+
+
+	campaign_rural_liberal = {
+		picture = apply_for_USA_statehood
+		potential = {
+			OR = {
+				has_country_flag = show_camp
+				ai = yes
+			}
+			tag = USA
+		}
+		allow = {
+			NOT = { has_country_modifier = campaign_timer }
+		}
+		effect = {
+			add_country_modifier = { name = campaign_timer duration = 150 }
+			any_pop = { 
+				limit = { 
+					type = farmers 
+				} 
+				ideology = { factor = 0.04 value = liberal } 
+			}
+			any_pop = { 
+				limit = { 
+					type = labourers 
+				} 
+				ideology = { factor = 0.04 value = liberal } 
+			}
+			any_pop = { 
+				limit = { 
+					type = aristocrats 
+				} 
+				ideology = { factor = 0.04 value = liberal } 
+			}
+
+
+
+			any_pop = { 
+				limit = { 
+					type = capitalists 
+				} 
+				ideology = { factor = 0.02 value = conservative } 
+				militancy = 1
+				consciousness = 1
+			}
+			any_pop = { 
+				limit = { 
+					type = craftsmen 
+				} 
+				ideology = { factor = 0.02 value = conservative } 
+				militancy = 1
+				consciousness = 1
+			}
+			any_pop = { 
+				limit = { 
+					type = bureaucrats 
+				} 
+				ideology = { factor = 0.02 value = conservative } 
+				militancy = 1
+				consciousness = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				year = 1972
+			}
+		}
+	}
+
+	campaign_rural_conservative = {
+		picture = apply_for_USA_statehood
+		potential = {
+			OR = {
+				has_country_flag = show_camp
+				ai = yes
+			}
+			tag = USA
+		}
+		allow = {
+			NOT = { has_country_modifier = campaign_timer }
+		}
+		effect = {
+			add_country_modifier = { name = campaign_timer duration = 150 }
+			any_pop = { 
+				limit = { 
+					type = farmers 
+				} 
+				ideology = { factor = 0.04 value = conservative } 
+			}
+			any_pop = { 
+				limit = { 
+					type = labourers 
+				} 
+				ideology = { factor = 0.04 value = conservative } 
+			}
+			any_pop = { 
+				limit = { 
+					type = aristocrats 
+				} 
+				ideology = { factor = 0.04 value = conservative } 
+			}
+
+
+
+			any_pop = { 
+				limit = { 
+					type = capitalists 
+				} 
+				ideology = { factor = 0.02 value = liberal } 
+				militancy = 1
+				consciousness = 1
+			}
+			any_pop = { 
+				limit = { 
+					type = craftsmen 
+				} 
+				ideology = { factor = 0.02 value = liberal } 
+				militancy = 1
+				consciousness = 1
+			}
+			any_pop = { 
+				limit = { 
+					type = bureaucrats 
+				} 
+				ideology = { factor = 0.02 value = liberal } 
+				militancy = 1
+				consciousness = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				year = 1972
+			}
+		}
+	}
+
+	campaign_urban_liberal = {
+		picture = apply_for_USA_statehood
+		potential = {
+			OR = {
+				has_country_flag = show_camp
+				ai = yes
+			}
+			tag = USA
+		}
+		allow = {
+			NOT = { has_country_modifier = campaign_timer }
+		}
+		effect = {
+			add_country_modifier = { name = campaign_timer duration = 150 }
+			any_pop = { 
+				limit = { 
+					type = capitalists 
+				} 
+				ideology = { factor = 0.04 value = liberal } 
+			}
+			any_pop = { 
+				limit = { 
+					type = craftsmen 
+				} 
+				ideology = { factor = 0.04 value = liberal } 
+			}
+			any_pop = { 
+				limit = { 
+					type = bureaucrats 
+				} 
+				ideology = { factor = 0.04 value = liberal } 
+			}
+
+
+
+			any_pop = { 
+				limit = { 
+					type = farmers 
+				} 
+				ideology = { factor = 0.02 value = conservative } 
+				militancy = 1
+				consciousness = 1
+			}
+			any_pop = { 
+				limit = { 
+					type = labourers 
+				} 
+				ideology = { factor = 0.02 value = conservative } 
+				militancy = 1
+				consciousness = 1
+			}
+			any_pop = { 
+				limit = { 
+					type = aristocrats 
+				} 
+				ideology = { factor = 0.02 value = conservative } 
+				militancy = 1
+				consciousness = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				year = 1972
+			}
+		}
+	}
+
+	campaign_urban_conservative = {
+		picture = apply_for_USA_statehood
+		potential = {
+			OR = {
+				has_country_flag = show_camp
+				ai = yes
+			}
+			tag = USA
+		}
+		allow = {
+			NOT = { has_country_modifier = campaign_timer }
+		}
+		effect = {
+			add_country_modifier = { name = campaign_timer duration = 150 }
+			any_pop = { 
+				limit = { 
+					type = capitalists 
+				} 
+				ideology = { factor = 0.04 value = conservative } 
+			}
+			any_pop = { 
+				limit = { 
+					type = craftsmen 
+				} 
+				ideology = { factor = 0.04 value = conservative } 
+			}
+			any_pop = { 
+				limit = { 
+					type = bureaucrats 
+				} 
+				ideology = { factor = 0.04 value = conservative } 
+			}
+
+
+			any_pop = { 
+				limit = { 
+					type = farmers 
+				} 
+				ideology = { factor = 0.02 value = liberal } 
+				militancy = 1
+				consciousness = 1
+			}
+			any_pop = { 
+				limit = { 
+					type = labourers 
+				} 
+				ideology = { factor = 0.02 value = liberal } 
+				militancy = 1
+				consciousness = 1
+			}
+			any_pop = { 
+				limit = { 
+					type = aristocrats 
+				} 
+				ideology = { factor = 0.02 value = liberal } 
+				militancy = 1
+				consciousness = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				year = 1972
+			}
+		}
+	}
+
+	AA_reform = {
+		picture = apply_for_USA_statehood
+		potential = {
+			has_global_flag = acw_start
+			tag = USA
+			NOT= {accepted_culture = afro_american}
+		}
+		allow = {
+			all_core = {
+				OR = {
+					owner = {tag = USA}
+					province_id = 658
+					is_core = PHI
+				}
+			}
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = afro_american
+		}
+	}
+}

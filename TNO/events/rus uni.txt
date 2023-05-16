@@ -54,6 +54,16 @@ country_event = {
 
 	immediate = {
 		set_global_flag = rus_unified
+		WA1 = {
+			all_core = {
+				remove_core = WA1
+			}
+		}
+		WA2 = {
+			all_core = {
+				remove_core = WA2
+			}
+		}
 	}
 
 	option = {

@@ -44,7 +44,14 @@ political_decisions = {
 				is_our_vassal = FED
 				FED = {
 					all_core = {
-						owned_by = THIS
+						OR = {
+							owned_by = THIS
+							province_id = 1085
+							province_id = 1084
+							province_id = 2617
+						}
+						
+
 					}
 				}
 			}
