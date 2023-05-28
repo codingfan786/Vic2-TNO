@@ -6,6 +6,6 @@ add_core = BEL
 
 
 trade_goods = cattle
-life_rating = 35
+life_rating = 32
 railroad = 1
 2161.1.1 = { railroad = 3 }

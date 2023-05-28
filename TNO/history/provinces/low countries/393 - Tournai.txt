@@ -6,7 +6,7 @@ add_core = BEL
 
 
 trade_goods = coal
-life_rating = 35
+life_rating = 32
 state_building = {
 	level = 1
 	building = aeroplane_factory

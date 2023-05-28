@@ -1,0 +1,24 @@
+owner = BRI
+controller = BRI
+add_core = BRI
+add_core = FRA
+
+
+trade_goods = grain
+life_rating = 32
+naval_base = 2
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}
+2161.1.1 = {
+	state_building = {
+		level = 1
+		building = steamer_shipyard
+		upgrade = yes
+	}
+}
+2161.1.1 = { 
+	naval_base = 3
+}

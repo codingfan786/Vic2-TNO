@@ -1,0 +1,8 @@
+owner = BRI
+controller = BRI
+add_core = BRI
+add_core = FRA
+
+
+trade_goods = fish
+life_rating = 32

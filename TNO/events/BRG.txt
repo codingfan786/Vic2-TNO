@@ -14,7 +14,7 @@ province_event = {
 	}
 
 	immediate = {
-		owner = {war_exhaustion = 2}
+		owner = {war_exhaustion = 1}
 		add_province_modifier = {name = BRG_occupy duration = -1}
 	}
 
@@ -51,4 +51,59 @@ country_event = {
 	option = {
 		name = "Nice"
 	}
+}
+
+country_event = {
+	id = 500075
+	title = "Develop Occupation Into Settlement."
+	desc = "EVENTDESC500075"
+	trigger = {
+		has_country_flag = brg_coring
+		tag = BRG
+		any_owned_province = {
+			NOT = {is_core = THIS}
+			OR = {
+				is_core = FRA
+				is_core = BEL
+				is_core = NET
+			}
+			NOT = {is_core = ITA}
+			OR = {
+				culture = north_german
+				culture = south_german
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_owned = {
+				limit = {
+					NOT = {is_core = THIS}
+					OR = {
+						is_core = FRA
+						is_core = BEL
+						is_core = NET
+					}
+					NOT = {is_core = ITA}
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				state_scope = {
+					any_owned = {
+						add_core = THIS
+					}
+				}
+			}
+	}
+
+	option = {
+		name = "Another victory for the fatherland!"
+	}
+
 }

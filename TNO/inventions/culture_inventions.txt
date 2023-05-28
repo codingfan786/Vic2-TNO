@@ -1725,3 +1725,14 @@ the_talkies = {
 	}
 	core_pop_consciousness_modifier = 0.01
 }
+
+
+Natalism = {
+	limit = { experimental_psychology = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		pop_growth = 0.0002
+	}
+}

@@ -309,6 +309,7 @@ political_decisions = {
 				tag = COR
 				tag = WGA
 				tag = EGA
+				tag = BRG
 			}
 			
 			government = fascist_dictatorship

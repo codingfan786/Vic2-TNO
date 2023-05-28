@@ -3678,22 +3678,22 @@
 		size = 4000
 	}
 	clergymen = {
-		culture = cherokee
+		culture = afro_american
 		religion = protestant
 		size = 70
 	}
 	artisans = {
-		culture = cherokee
+		culture = afro_american
 		religion = protestant
 		size = 200
 	}
 	soldiers = {
-		culture = cherokee
+		culture = afro_american
 		religion = protestant
 		size = 50
 	}
 	farmers = {
-		culture = cherokee
+		culture = afro_american
 		religion = protestant
 		size = 4000
 	}
@@ -3875,25 +3875,25 @@
 #Malden (40000/10000 POPS)
 148 = {
 	clergymen = {
-		culture = yankee
+		culture = afro_american
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = yankee
+		culture = afro_american
 		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = afro_american
 		religion = protestant
 		size = 50
 	}
 
 	farmers = {
-		culture = yankee
+		culture = afro_american
 		religion = protestant
 		size = 3700
 	}
@@ -5693,37 +5693,37 @@
 #Lexington (332000/83000 POPS)
 185 = {
 	bureaucrats = {
-		culture = yankee
+		culture = afro_american
 		religion = protestant
 		size = 125
 	}
 
 	officers = {
-		culture = yankee
+		culture = afro_american
 		religion = protestant
 		size = 75
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = afro_american
 		religion = protestant
 		size = 350
 	}
 
 	artisans = {
-		culture = yankee
+		culture = afro_american
 		religion = protestant
 		size = 2350
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = afro_american
 		religion = protestant
 		size = 475
 	}
 
 	farmers = {
-		culture = yankee
+		culture = afro_american
 		religion = protestant
 		size = 43725
 	}

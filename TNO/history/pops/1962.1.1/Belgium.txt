@@ -150,6 +150,12 @@
 		religion = catholic
 		size = 5650
 	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
+	}
 }
 #Bruges (456000/114000 POPS)
 388 = {
@@ -186,6 +192,12 @@
 		culture = flemish
 		religion = catholic
 		size = 100525
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
 	}
 }
 #Ghent (704000/176000 POPS)
@@ -242,6 +254,12 @@
 		culture = wallonian
 		religion = catholic
 		size = 50
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
 	}
 }
 #Antwerp (354000/88500 POPS)
@@ -310,6 +328,12 @@
 		culture = wallonian
 		religion = catholic
 		size = 25
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
 	}
 }
 #Hasselt (272000/68000 POPS)
@@ -448,6 +472,12 @@
 		religion = protestant
 		size = 3925
 	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
+	}
 }
 #Tournai (292000/73000 POPS)
 393 = {
@@ -582,6 +612,12 @@
 		religion = catholic
 		size = 80725
 	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
+	}
 }
 #Namur (212000/53000 POPS)
 395 = {
@@ -630,6 +666,12 @@
 		culture = wallonian
 		religion = catholic
 		size = 45800
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
 	}
 }
 #Spa (144000/36000 POPS)

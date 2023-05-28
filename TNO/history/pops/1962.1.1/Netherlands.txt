@@ -78,6 +78,12 @@
 		religion = catholic
 		size = 3000
 	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
+	}
 }
 #Rotterdam (567000/141750 POPS)
 376 = {
@@ -127,6 +133,12 @@
 		culture = flemish
 		religion = catholic
 		size = 1100
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
 	}
 }
 #Utrecht (152000/38000 POPS)
@@ -350,6 +362,12 @@
 		religion = catholic
 		size = 1100
 	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
+	}
 }
 #Arnhem (412000/103000 POPS)
 382 = {
@@ -405,6 +423,12 @@
 		culture = north_german
 		religion = protestant
 		size = 3200
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
 	}
 
 }
@@ -464,6 +488,12 @@
 		religion = protestant
 		size = 1100
 	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
+	}
 }
 #Zwolle (238000/59500 POPS)
 384 = {
@@ -508,6 +538,12 @@
 		religion = protestant
 		size = 900
 	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
+	}
 }
 #Leeuwarden (209200/52300 POPS)
 385 = {
@@ -539,6 +575,12 @@
 		culture = dutch
 		religion = protestant
 		size = 44725
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 25000
 	}
 }
 #Assen (80000/20000 POPS)

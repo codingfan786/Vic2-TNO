@@ -137,6 +137,7 @@ country_event = {
 				has_province_modifier = racial_discontent
 			}
 			secede_province = CSA
+			add_core = CSA
 			add_province_modifier = {
 				name = uncontrolled_lynchings
 				duration = -1
@@ -149,15 +150,27 @@ country_event = {
 			remove_province_modifier = racial_integration
 		}
 		set_global_flag = acw_start
+		CSA = {
+			add_country_modifier = {
+				name = sge_mobbuff
+				duration = 365
+			}
+		}
 		war = {
 				target = CSA
 				attacker_goal = { casus_belli = civil_war }
-				defender_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = status_quo }
 				call_ally = no
 			}
+
+
 	}
 	option = {
 		name = "How terrible!"
+	}
+	option = {
+		name = "We must secure the future of our race!"
+		change_tag_no_core_switch = CSA
 	}
 }
 

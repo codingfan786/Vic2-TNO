@@ -573,6 +573,19 @@ assimilation_chance =
 
 	group = {
 		modifier = {
+			factor = 10
+			NOT = {
+				OR = { 
+					continent = north_america
+					#continent = south_america
+					continent = oceania
+				}
+			}
+		}
+	}
+
+	group = {
+		modifier = {
 			factor = 0.1
 			literacy = 0.6
 		}
@@ -586,12 +599,12 @@ assimilation_chance =
 		}
 	}
 
+	#modifier = { #removed
+    #	factor = -20
+	#	has_culture_core = yes
+	#}
 	modifier = {
-    	factor = -20
-		has_culture_core = yes
-	}
-	modifier = {
-    	factor = -20
+    	factor = -2000
 		culture = afro_american
 	}
 	#modifier = {

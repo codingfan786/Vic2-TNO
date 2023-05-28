@@ -51,6 +51,12 @@
 }
 #Dunkirk (396000/99000 POPS)
 400 = {
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 50000
+	}
 	craftsmen = {
 		culture = french
 		religion = protestant
@@ -220,6 +226,12 @@
 #Ardennes Region (1116000)
 #Laon (528000/132000 POPS)
 403 = {
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 50000
+	}
 	aristocrats = {
 		culture = french
 		religion = catholic
@@ -690,6 +702,12 @@
 #Lorraine Region (1584000)
 #Nancy (432000/108000 POPS)
 411 = {
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 50000
+	}
 	craftsmen = {
 		culture = french
 		religion = protestant
@@ -940,6 +958,12 @@
 }
 #Epinal (412000/103000 POPS)
 414 = {
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 50000
+	}
 	craftsmen = {
 		culture = french
 		religion = protestant
@@ -1003,6 +1027,12 @@
 #Normandy Region (2670000)
 #Rouen (716000/179000 POPS)
 415 = {
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 50000
+	}
 	craftsmen = {
 		culture = french
 		religion = protestant
@@ -1369,6 +1399,12 @@
 #Ile De France Region (2132000)
 #Paris (1520000/380000 POPS)
 425 = {
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 50000
+	}
 	capitalists = {
 		culture = french
 		religion = protestant
@@ -1810,6 +1846,12 @@
 #Franche Comte Region (914000)
 #Besancon (600000/150000 POPS)
 432 = {
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 50000
+	}
 	aristocrats = {
 		culture = french
 		religion = catholic

@@ -331,7 +331,7 @@ mechanized_slaughtering_block = {
 precision_work = {
 	limit = { mechanical_production = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			invention = mechanical_precision_saw
@@ -1407,5 +1407,16 @@ telephone_switchboard = {
 		factory_goods_output = {
 			telephones = 0.03
 		} 
+	}
+}
+
+
+Perinatalism = {
+	limit = { inorganic_chemistry = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		pop_growth = 0.0002
 	}
 }

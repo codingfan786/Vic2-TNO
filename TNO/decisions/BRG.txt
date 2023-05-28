@@ -1,0 +1,112 @@
+political_decisions = {
+
+	brg_boers = {
+		picture = support_french_foreign_legion
+		potential = {
+			tag = BRG
+			NOT = {has_country_flag = support_ora}
+			NOT = {has_global_flag = saf_war_started}
+		}
+		allow = {
+			OR = {
+				ideological_thought = 1
+				AND = {
+					ai = yes
+					year = 1966
+				}
+			}
+		}
+		effect = {
+			set_country_flag = support_ora
+			badboy = 3
+			2068 = {
+				add_province_modifier = {
+					name = ger_afr
+					duration = -1
+				}
+				remove_province_modifier = civil_unrest
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+
+	brg_core = {
+		picture = annex_the_congo
+		potential = {
+			NOT = {has_country_flag = brg_coring}
+			tag = BRG
+			NOT = {
+				FRA = {
+					all_core = {
+						OR = {
+							is_core = THIS
+							is_core = ITA
+						}
+					}
+				}
+			}
+			NOT = {
+				NET = {
+					all_core = {
+						is_core = THIS
+					}
+				}
+			}
+			NOT = {
+				BEL = {
+					all_core = {
+						is_core = THIS
+					}
+				}
+			}
+		}
+
+		allow = {
+			state_n_government = 1
+			any_owned_province = {
+				NOT = {is_core = THIS}
+				OR = {
+					is_core = FRA
+					is_core = BEL
+					is_core = NET
+				}
+				NOT = {is_core = ITA}
+				OR = {
+					culture = north_german
+					culture = south_german
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = brg_coring
+			any_owned = {
+				limit = {
+					NOT = {is_core = THIS}
+					OR = {
+						is_core = FRA
+						is_core = BEL
+						is_core = NET
+					}
+					NOT = {is_core = ITA}
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				state_scope = {
+					any_owned = {
+						add_core = THIS
+					}
+				}
+			}
+		}
+	}
+
+}

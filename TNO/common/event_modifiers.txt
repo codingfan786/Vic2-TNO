@@ -80,7 +80,7 @@ ss_division = {
 }
 
 cultural_genocide ={
-	assimilation_rate = 3
+	assimilation_rate = 6 #3
 	population_growth = -0.001
 	icon = 2
 }
@@ -152,7 +152,7 @@ national_confusion = {
 
 sge_mobbuff = {
 	icon = 17
-	mobilisation_size = 0.2
+	mobilisation_size = 0.15
 }
 
 brg_assist = {

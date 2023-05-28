@@ -170,7 +170,7 @@ machine_parts_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		#machine_parts = 200
 		iron = 200
 		cement = 200
 	}

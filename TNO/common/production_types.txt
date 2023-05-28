@@ -130,10 +130,10 @@ cement_template = {
 aeroplane_factory = {       
 	template = machine_part_user_template
 	input_goods = {
-		machine_parts = 1.11	#38.69
-		electric_gear = 2	#32
-		rubber = 1  		#7
-		lumber = 3.3 		#3.3	total input+maint = 90
+		machine_parts = 0.5 #1.11	
+		electric_gear = 1 #2	
+		rubber = 0.5 #1  		
+		lumber = 2 #3.3 			#total input+maint = 90
 	}
 	output_goods = aeroplanes
 	value = 0.91			#100
@@ -150,10 +150,10 @@ aeroplane_factory = {
 barrel_factory = {       
 	template = machine_part_user_template
 	input_goods = {   
-		automobiles = 0.3	#21
-		machine_parts = 0.85	#29.2
-		electric_gear = 1	#16
-		rubber = 1		#7
+		automobiles = 0.15 #0.3	
+		machine_parts = 0.2 #0.85	
+		electric_gear = 0.5 #1	
+		rubber = 0.5 #1		
 	}
 	output_goods = barrels 
 	value = 1.0			#98	total input+maint = 83
