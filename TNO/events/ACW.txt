@@ -224,3 +224,34 @@ country_event = {
 			}
 	}
 }
+
+country_event = {
+	id = 500076
+	title = "Southern Lynchings Continue."
+	desc = ""
+
+	trigger = {
+		tag = CSA
+		NOT = {has_country_flag = csa_won}
+	}
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				has_province_modifier = uncontrolled_lynchings
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = afro_american
+				}
+				reduce_pop = 0.85
+			}
+		}
+	}
+	option = {
+		name = "Finally cleaning up the country."
+	}
+}

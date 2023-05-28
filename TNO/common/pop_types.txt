@@ -573,7 +573,7 @@ assimilation_chance =
 
 	group = {
 		modifier = {
-			factor = 10
+			factor = 1
 			NOT = {
 				OR = { 
 					continent = north_america
