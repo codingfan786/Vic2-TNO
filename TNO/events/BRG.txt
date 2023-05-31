@@ -69,8 +69,10 @@ country_event = {
 			}
 			NOT = {is_core = ITA}
 			OR = {
-				culture = north_german
-				culture = south_german
+				#culture = north_german
+				#culture = south_german
+				is_primary_culture = yes
+				is_accepted_culture = yes
 			}
 		}
 	}

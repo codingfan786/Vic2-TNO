@@ -15,7 +15,7 @@ country_event = {
 
 	immediate = {
 		set_country_flag = cornmoney
-		treasury = 500000
+		treasury = 1000000
 	}
 
 	option = {

@@ -5,16 +5,27 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "Of course!"
+		COR = {
+			any_pop ={
+				limit = {
+					OR = {
+						has_pop_culture = north_german
+						has_pop_culture = south_german
+					}
+				}
+				reduce_pop = 0.2
+			}
+		}
 		ENG = {set_country_flag = dont_pow}
 		ENG = {inherit = COR}
 		ai_chance = {
-			factor = 0.65
+			factor = 0.70
 		}
 	}
 	option = {
 		name = "A stupid decision! Appeasement didn't work on us, why would it work on them?"
 		ai_chance = {
-			factor = 0.35
+			factor = 0.3
 		}
 	}
 }
@@ -32,9 +43,9 @@ country_event = {
 			inherit = THIS
 		}
 		ai_chance = {
-			factor = 0.70
+			factor = 0.80
 			modifier = {
-				factor = 0
+				factor = 0.05
 				has_global_flag = cbr_enhanced
 			}
 		}
@@ -47,7 +58,7 @@ country_event = {
 			months = 72
 		}
 		ai_chance = {
-			factor = 0.3
+			factor = 0.2
 		}
 	}
 

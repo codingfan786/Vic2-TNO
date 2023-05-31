@@ -126,6 +126,14 @@ political_decisions = {
 			COR = {any_owned = {add_core = ENG}}
 			any_country = {
 				limit = {
+					NOT = {has_global_flag = cbr_enhanced}
+					tag = CBR
+				}
+				inherit = CBR
+				CBR = {all_core = {add_core = ENG}}
+			}
+			any_country = {
+				limit = {
 					OR = {
 						tag = CBR
 						tag = NZL

@@ -41,36 +41,42 @@ political_decisions = {
 		allow = {
 			state_n_government = 1
 			OR = {
-				is_our_vassal = FED
-				FED = {
-					all_core = {
-						OR = {
-							owned_by = THIS
-							province_id = 1085
-							province_id = 1084
-							province_id = 2617
-						}
-						
+				AND = {
+					OR = {
+						is_our_vassal = FED
+						FED = {
+							all_core = {
+								OR = {
+									owned_by = THIS
+									province_id = 1085
+									province_id = 1084
+									province_id = 2617
+								}
+								
 
+							}
+						}
+					}
+					OR = {
+						is_our_vassal = NAV
+						NAV = {
+							all_core = {
+								owned_by = THIS
+							}
+						}
+					}
+					OR = {
+						is_our_vassal = NKV
+						NKV = {
+							all_core = {
+								owned_by = THIS
+							}
+						}
 					}
 				}
+				has_global_flag = rus_unified
 			}
-			OR = {
-				is_our_vassal = NAV
-				NAV = {
-					all_core = {
-						owned_by = THIS
-					}
-				}
-			}
-			OR = {
-				is_our_vassal = NKV
-				NKV = {
-					all_core = {
-						owned_by = THIS
-					}
-				}
-			}
+			
 
 
 		}
@@ -229,9 +235,14 @@ political_decisions = {
 			tag = RAR
 		}
 		allow = {
-			RAR = {all_core = {owner = {tag =RAR}}}
-			RUS = {all_core = {owner = {tag =RAR}}}
-			NUC = {all_core = {owner = {tag =RAR}}}
+			OR = {
+				AND = {
+					RAR = {all_core = {owner = {tag =RAR}}}
+					RUS = {all_core = {owner = {tag =RAR}}}
+					NUC = {all_core = {owner = {tag =RAR}}}
+				}
+				has_global_flag = rus_unified
+			}
 			state_n_government = 1
 		}
 		effect = {
@@ -249,9 +260,15 @@ political_decisions = {
 			tag = NKV
 		}
 		allow = {
-			NKV = {all_core = {owner = {tag =NKV}}}
-			FED  = {all_core = {owner = {tag =NKV}}}
-			NAV = {all_core = {owner = {tag =NKV}}}
+			OR = {
+				AND = {
+					NKV = {all_core = {owner = {tag =NKV}}}
+					FED  = {all_core = {owner = {tag =NKV}}}
+					NAV = {all_core = {owner = {tag =NKV}}}
+				}
+				has_global_flag = rus_unified
+			}
+			
 			state_n_government = 1
 		}
 		effect = {
@@ -309,9 +326,9 @@ political_decisions = {
 			NOT = {2588 = {is_core = SOV}}
 		}
 		allow = {
-			all_core = {
-				owner = {tag = SOV}
-			}
+			#all_core = {
+				#owner = {tag = SOV}
+			#}
 			nationalism_n_imperialism = 1
 		}
 		effect = {
@@ -339,6 +356,10 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
+			
+			all_core = {
+				owner = {tag = SOV}
+			}
 		}
 		effect = {
 			add_accepted_culture = turkmen

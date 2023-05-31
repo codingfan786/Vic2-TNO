@@ -1344,7 +1344,7 @@ south_asian = {
                
 		}
 	}
-	union = HND
+	#union = HND
 }
 
 southeast_asian = {
@@ -1482,8 +1482,7 @@ southeast_asian = {
 		}
 	}
 }
-
-east_asian = {
+japan = {
 	leader = asian
 	unit = ChineseGC
 	japanese = {
@@ -1518,6 +1517,11 @@ east_asian = {
 		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
 		}
 	}
+}
+east_asian = {
+	leader = asian
+	unit = ChineseGC
+	
 	manchu = {
 		color = {245 255 160}
 		first_names = { Ma Deng zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
@@ -1595,6 +1599,7 @@ east_asian = {
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
+	union = WCH
 }
 
 oceanic = {

@@ -206,6 +206,10 @@ political_decisions = {
 		}
 		effect = {
 			set_global_flag = setup_usa
+			add_country_modifier = {
+				name = the_statue_of_liberty
+				duration = -1
+			}
 			220 = {
 				add_province_modifier = {
 					name = racial_integration
@@ -224,6 +228,24 @@ political_decisions = {
 						name = civil_unrest
 						duration = 7300
 					}
+				}
+			}
+
+			YNN = {
+				all_core = {
+					add_core = WCH
+				}
+			}
+
+			XBI = {
+				all_core = {
+					add_core = WCH
+				}
+			}
+
+			XIN = {
+				all_core = {
+					add_core = WCH
 				}
 			}
 		}

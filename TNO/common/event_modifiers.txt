@@ -678,8 +678,8 @@ international_negotiations = {
 
 the_statue_of_liberty = {
 	prestige = 0.4
-	global_immigrant_attract = 2	#200%
-	global_assimilation_rate = 5.0
+	global_immigrant_attract = 1	#200%
+	#global_assimilation_rate = 5.0
 	icon = 15
 }
 

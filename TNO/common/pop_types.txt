@@ -450,7 +450,8 @@ colonialmigration_chance =
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.5
+	#factor = 0.5
+	factor = 0.2
 
 	group = {
 
@@ -522,15 +523,18 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.2
+			#factor = 0.2
+			factor = 0.1
 			unemployment = 0.1
 		}
 		modifier = {
-			factor = 0.2
+			#factor = 0.2
+			factor = 0.1
 			unemployment = 0.2
 		}
 		modifier = {
-			factor = 0.3
+			#factor = 0.3
+			factor = 0.1
 			unemployment = 0.3
 		}
 		
@@ -554,6 +558,7 @@ emigration_chance =
 
 	modifier = {
 		factor = -2.0
+		#factor = -1.0
 		OR = { 
 			continent = north_america
 			continent = south_america
