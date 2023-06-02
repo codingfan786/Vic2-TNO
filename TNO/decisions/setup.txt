@@ -206,6 +206,13 @@ political_decisions = {
 		}
 		effect = {
 			set_global_flag = setup_usa
+			any_country = {
+				limit = {
+					tag = ENG
+					ai = yes
+				}
+				300 = {fort = 2}
+			}
 			add_country_modifier = {
 				name = the_statue_of_liberty
 				duration = -1

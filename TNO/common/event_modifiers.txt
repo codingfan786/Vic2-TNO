@@ -1,6 +1,15 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+
+ghost_nerf = {
+	research_points_modifier = -2.0
+	diplomatic_points_modifier = -1.0
+	global_pop_militancy_modifier = -1.0
+	prestige = -5.0
+	icon = 10
+}
+
 core_integration = {
 	assimilation_rate = 0.1
 	pop_consciousness_modifier = 0.05

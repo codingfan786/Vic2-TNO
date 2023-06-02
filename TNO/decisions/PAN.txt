@@ -1,0 +1,31 @@
+political_decisions = {
+
+	modernize_cashfarm = {
+		potential = {
+			tag = JAN
+			NOT = {has_country_flag = modernized_cash}
+		}
+		allow = {
+			year = 1980
+		}
+		effect = {
+			activate_technology = practical_steam_engine
+			activate_technology = high_n_low_pressure_steam_engines
+			activate_technology = steam_turbine
+			activate_technology = combustion_engine
+			activate_technology = electrical_power_generation
+			set_country_flag = modernized_cash
+
+			activate_technology = cheap_iron
+			activate_technology = inorganic_chemistry
+			activate_technology = freedom_of_trade
+			activate_technology = market_structure
+			activate_technology = business_regulations
+			#any_pop = {
+			#	reduce_pop = 1.2
+			#}
+		}
+
+	}
+
+}

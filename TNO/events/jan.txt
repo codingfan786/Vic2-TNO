@@ -1,0 +1,84 @@
+
+
+province_event = {
+	id = 500077
+	title = "jan restored!"
+	desc = "there are bankers there retard..."
+
+	trigger = {
+		province_id = 3246
+		NOT = {
+			owner = {tag = JAN}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		secede_province = JAN
+	}
+	option = {
+		name = "!"
+	}
+}
+
+country_event = {
+	id = 500078
+	title = "World Bank Nerf"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAN
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		add_country_modifier = {
+			name = ghost_nerf
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 500079
+	title = "WB pop saving fix"
+	desc = ""
+
+	trigger = {
+		tag = JAN
+		3246 = {
+			any_pop = {
+				NOT = {money = 0}
+			}
+		}
+		
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		3246 = {
+			any_pop = {
+				limit = {
+					NOT = {money = 0}
+				}
+				money = 9000000
+			}
+		}
+	}
+	option = {
+		name = "ok"
+	}
+}

@@ -136,10 +136,45 @@
 }
 #Jan Mayen (60/15 POPS)
 3246 = {
-	farmers = {
-		culture = norwegian
+	bankers = {
+		culture = sami
+		religion = animist
+		size = 20000
+	}
+	bankers = {
+		culture = sami
+		religion = catholic
+		size = 20000
+	}
+	bankers = {
+		culture = sami
 		religion = protestant
-		size = 75
+		size = 20000
+	}
+	bankers = {
+		culture = sami
+		religion = sunni
+		size = 20000
+	}
+	bankers = {
+		culture = sami
+		religion = shiite
+		size = 20000
+	}
+	bankers = {
+		culture = sami
+		religion = mahayana
+		size = 20000
+	}
+	bankers = {
+		culture = sami
+		religion = shinto
+		size = 20000
+	}
+	bankers = {
+		culture = sami
+		religion = hindu
+		size = 20000
 	}
 }
 

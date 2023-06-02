@@ -758,6 +758,24 @@ RGO_template_labourers = {
 	workforce = 40000
 }
 
+RGO_template_bankers = {
+	owner =
+	{
+		poptype = bankers
+		effect = output
+	}
+		
+	employees = {
+		{ 
+			poptype = bankers
+			effect = throughput
+			amount = 10
+		}
+	}
+	
+	type = rgo
+	workforce = 160000
+}
 
 cattle_ranch = {
 	template = RGO_template_farmers
@@ -840,6 +858,13 @@ precious_metal_mine = {
 	template = RGO_template_labourers
 	output_goods = precious_metal 
 	value = 2
+	mine = yes
+}
+
+cash_mine = {
+	template = RGO_template_bankers
+	output_goods = precious_metal 
+	value = 700
 	mine = yes
 }
 
