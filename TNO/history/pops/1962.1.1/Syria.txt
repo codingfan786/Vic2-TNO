@@ -2,6 +2,17 @@
 #under the rule of Egypt in 1836
 #Aleppo (316000/79000 POPS) #now part of Syria 
 897 = {
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = turkish
 		religion = sunni
@@ -160,6 +171,17 @@
 }
 #Dayr al-Zour (256000/64000 POPS) #now part of Syria  mashriqi-catholic = assyrian
 901 = {
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
@@ -272,6 +294,17 @@
 #under the rule of Egypt in 1836
 #Damascus (328000/82000 POPS)
 902 = {
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -364,6 +397,17 @@
 }
 #Homs (80000/20000 POPS)
 903 = {
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -432,6 +476,17 @@
 }
 #Hama (108000/27000 POPS)
 904 = {
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -500,6 +555,17 @@
 }
 #Latakia (112000/28000 POPS)
 905 = {
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -550,6 +616,17 @@
 }
 #Suwayda (92000/23000 POPS)
 906 = {
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -602,6 +679,17 @@
 #under the "rule" of Egypt in 1836
 #Palmyra (44000/11000 POPS)
 907 = {
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni

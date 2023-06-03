@@ -2,6 +2,17 @@
 #under the rule of Egypt in 1836  
 #Amman (20000/5000 POPS) #now part of Jordan
 908 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -64,6 +75,17 @@
 }
 #Jerash (16000/4000 POPS) #now part of Jordan
 909 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -128,6 +150,17 @@
 #under the "rule" of Egypt in 1836  
 #Ruwayshid (12000/3000 POPS) #now part of Jordan 
 910 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = bedouin
 		religion = sunni
@@ -160,6 +193,17 @@
 }
 #Maan (28000/7000 POPS) #now part of Jordan
 911 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -224,6 +268,17 @@
 #under the rule of Egypt in 1836  
 #Aqaba (20000/5000 POPS) #now part of Jordan 
 922 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	clergymen = {
 		culture = mashriqi
 		religion = sunni

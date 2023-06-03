@@ -3,7 +3,10 @@ GRE = {
 	value = -20
 	level = 5
 }
-
+ISR = {
+	value = -20
+	level = 5
+}
 army = {
 	name = "1a Armata" #done
 	location = 723

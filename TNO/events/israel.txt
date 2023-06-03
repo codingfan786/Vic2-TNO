@@ -1,0 +1,37 @@
+country_event = {
+	id = 500080 
+	title = "Law of Return"
+	desc = "law_of_return_desc"
+
+	trigger = {
+		has_country_flag = lawreturned
+		tag = ISR
+		917 = {owner = {tag = ISR}}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = "We welcome them with open arms!"
+		random_country = {
+			limit = {
+				NOT = {tag = THIS}
+				
+				has_pop_culture = ashkenazi
+				
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ashkenazi
+				}
+				move_pop = 917
+			}
+		}
+	}
+}

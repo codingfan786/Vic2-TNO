@@ -2,6 +2,17 @@
 #under the rule of Egypt in 1836
 #Acre (52000/13000 POPS) #now part of Israel-Palestine  mashriqi-animist = druze 
 916 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -90,6 +101,17 @@
 #under the rule of Egypt in 1836
 #Jerusalem (68000/17000 POPS)
 917 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -170,6 +192,17 @@
 }
 #Nablus (44000/11000 POPS)
 918 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -238,6 +271,17 @@
 }
 #Jaffa (48000/12000 POPS)
 919 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -306,6 +350,17 @@
 }
 #Gaza (44000/11000 POPS)
 920 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
@@ -356,6 +411,17 @@
 }
 #Beersheba (36000/9000 POPS)
 921 = {
+	 soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4000
+	}
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
+	}
+
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
