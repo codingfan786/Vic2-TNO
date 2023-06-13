@@ -1,0 +1,35 @@
+political_decisions = {
+	form_spy_agency = {
+		potential = {
+			always = no
+			NOT = {has_country_flag = spy_agency_formed}
+			is_greater_power = yes
+		}
+		allow = {
+
+		}
+		effect = {
+			set_country_flag = spy_agency_formed
+		}
+	}
+
+	commit_espionage = {
+		potential = {
+			always = no
+			has_country_flag = spy_agency_formed
+		}
+		allow = {
+			NOT = {has_country_modifier = spying}
+			NOT = {war = yes}
+		}
+		effect = {
+			add_country_modifier = {
+				name = spying
+				#duration = 365
+				duration = 20
+			}
+			country_event = 500081
+		}
+	}
+
+}

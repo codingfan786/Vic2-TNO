@@ -15,7 +15,7 @@ Currently finished content includes:
 
   German response to puppet breakaways ("Usually war")
 
-  Italian culture expansion paths (Transalpine Union tag late game or accept north african cultures early-mid game.)
+  Italian culture expansion paths (Transalpine Union tag late game or Italianize north african cultures early-mid game.)
 
   Yugoslavia partition events and dynamically scripted CB.
 
@@ -35,10 +35,11 @@ Currently finished content includes:
 
 
 Along with some minor scattered mechanics such as:
+  Israel 
 
   USA intervention in the Phillipines and Phillipines statehood
 
-  A scotland lead scandinavia alternative formable
+  A scotland lead scandinavia alternative formable (North Sea Treaty Organization)
 
   German africa collapse mechanics.
 
