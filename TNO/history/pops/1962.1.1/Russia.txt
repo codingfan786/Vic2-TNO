@@ -1333,7 +1333,7 @@
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 10000
+		size = 275000
 	}
 
 	artisans = {
@@ -1375,7 +1375,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 16700
+		size = 167000
 	}
 
 	aristocrats = {
@@ -8553,7 +8553,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 1862500
+		size = 662500
 	}
 
 	clergymen = {
@@ -9996,7 +9996,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 907500
+		size = 400500
 	}
 }
 

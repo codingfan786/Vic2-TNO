@@ -612,6 +612,14 @@ assimilation_chance =
     	factor = -2000
 		culture = afro_american
 	}
+	modifier = {
+    	factor = -0.6
+		culture = beifaren
+	}
+	modifier = {
+    	factor = -0.6
+		culture = nanfaren
+	}
 	#modifier = {
 	#	factor = 0.1 #nerfed from 10. if I can fix the excessive immigration I can revert this
 	#	AND = {

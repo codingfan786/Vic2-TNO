@@ -30,3 +30,4 @@ state_building = {
 	building = ammunition_factory
 	upgrade = yes
 }
+fort = 1

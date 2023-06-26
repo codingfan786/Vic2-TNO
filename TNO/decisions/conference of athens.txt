@@ -16,6 +16,9 @@ political_decisions = {
 				year = 1963
 				month = 5
 			}
+			ITA = {war = no}
+			HUN = {war = no}
+			BUL = {war = no}
 		}
 		effect = {
 			set_country_flag = coa_called

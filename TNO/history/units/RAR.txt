@@ -1,3 +1,8 @@
+FIN = {
+	value = -150
+	level = 0
+}
+
 army = {
 	name = "1a Armata" #done
 	location = 1023

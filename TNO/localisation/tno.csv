@@ -294,3 +294,22 @@ greater_israel_title;Claim Greater Israel.;;;;;;;;;;;;x
 greater_israel_desc;Greater Israel is a biblical and political expression used by irredentists to refer to the Arabic land promised to the Jews in the Old Testament.;;;;;;;;;;;;x
 irgun_coup_title;Etzel Coup.;;;;;;;;;;;;x
 irgun_coup_desc;The Irgun (lit. "The National Military Organization in the Land of Israel"), or Etzel, is a Zionist paramilitary organization operating in the Italian Governorate of the Levant. The Irgun has been viewed as a terrorist organization by many in the Italian press and their policy is based on the doctrine of Revisionist Zionism by Ze'ev Jabotinsky. In $YEAR$ due to a combination of general unrest and the shifting political focus of Italy the organization was able to sieze control of many state apparatuses and coup the Italian colonial government.;;;;;;;;;;;;x
+rus_colonize;Law and order restoration;;;;;;;;;;;;x
+rus_colonizing_title;Reclaim the bombing regions.;;;;;;;;;;;;x
+rus_colonizing_desc;In the decades since World War 2 Germany has used eastern Europe as a training ground for their air force, blasting any Russian settlements that they see on their borders. This practice has lead to the the population in these regions being scattered and solitary, stopping any possibility of governmental organization. With the onset of the German civil war this bombing practice has ended and it is now possible for us to gain control of these lands again. §R Winning a war with the Russian unification CB will reset the timer for this decision early.;;;;;;;;;;;;x
+greece_inherit_title;Integrate the Greek Occupational Government.;;;;;;;;;;;;x
+greece_inherit_desc;The Greek occupational government has served its purpose. It is time that we take direct control of the territory.;;;;;;;;;;;;x
+spying;Spy program in progress.;;;;;;;;;;;;x
+spy_unrest;Foreign Propaganda;;;;;;;;;;;;x
+form_spy_agency_title;Form a national intelligence agency.;;;;;;;;;;;;x
+form_spy_agency_desc;Construct an intelligence agency in order to conduct spy programs abroad. §R Spy programs can only be done by GPs against other GPs.;;;;;;;;;;;;x
+spy_port_strike_title;Sabotage dockyards.;;;;;;;;;;;;x
+spy_port_strike_desc;This spy program will destroy a port in another nation. (There is no way to remove just one level so the whole port is destroyed. Sorry! Technical limitations. The program has a high failure rate to balance this.);;;;;;;;;;;;x
+spy_research_title;Steal research.;;;;;;;;;;;;x
+spy_research_desc;This spy program will steal research points from another nation.;;;;;;;;;;;;x
+spy_WE_title;Spread propaganda abroad.;;;;;;;;;;;;x
+spy_WE_desc;This spy program will increase the militancy and war exhaustion of another nation.;;;;;;;;;;;;x
+spy_show_title;Show spy programs.;;;;;;;;;;;;x
+spy_hide_title;Hide spy programs.;;;;;;;;;;;;x
+spy_show_desc;Show spy programs.;;;;;;;;;;;;x
+spy_hide_desc;Hide spy programs.;;;;;;;;;;;;x

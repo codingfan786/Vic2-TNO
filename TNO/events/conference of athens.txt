@@ -413,7 +413,7 @@ country_event = {
 		set_global_flag = croatia_ita
 		HUN = {country_event = 500049}
 		ai_chance = {
-			factor = 1
+			factor = 0
 		}
 	}
 	option = {
@@ -449,7 +449,7 @@ country_event = {
 		set_global_flag = n_serbia_ita
 		HUN = {country_event = 500049}
 		ai_chance = {
-			factor = 0
+			factor = 1
 		}
 	}
 	option = {
@@ -836,6 +836,22 @@ country_event = {
 			}
 		}
 		
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					ai = yes
+				}
+			}
+			owner = {
+				war = {
+					target = YUG
+					attacker_goal = { casus_belli = coa_plan }
+					call_ally = yes
+				}
+			}
+			
+		}
 	}
 }
 

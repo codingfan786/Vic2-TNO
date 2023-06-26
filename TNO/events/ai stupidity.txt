@@ -1,0 +1,56 @@
+country_event = {
+	id = 500086
+	title= "why sphere your cores?"
+	desc= "stops ai from sphering their cores"
+	trigger = {
+		ai = yes
+		is_greater_power = yes
+		OR = {
+			any_sphere_member = {
+				any_owned_province = {
+					is_core = THIS
+				}
+			}
+			AND = {
+				primary_culture = russian
+				any_sphere_member = {
+					primary_culture = russian
+				}
+			}
+		}
+		
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "ok"
+		any_country = {
+			limit = {
+				in_sphere = THIS
+				any_owned_province = {
+					is_core = THIS
+				}
+				NOT = {tag = THIS}
+			}
+			country_event = { id=500087 days=0 }
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					primary_culture = russian
+				}
+			}
+			any_country = {
+				limit = {
+					in_sphere = THIS
+					primary_culture = russian
+					NOT = {tag = THIS}
+				}
+				country_event = { id=500087 days=0 }
+			}
+		}
+	}
+}
+

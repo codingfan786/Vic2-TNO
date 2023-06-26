@@ -1,0 +1,23 @@
+country_event = {
+	id = 500087
+	title = "Ai should annex their cores and not sphere them!"
+	desc = "bye bye!"
+	is_triggered_only = yes
+	immediate = {
+		FROM = {
+			relation = {
+				who = THIS
+				value = -200
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = -400
+			}
+			leave_alliance = THIS
+		}
+	}
+	option = {
+		name = "Sorry."
+	}
+	#I cant put this event and its parent in the same file for some reason
+}

@@ -72,6 +72,11 @@ political_decisions = {
 								owned_by = THIS
 							}
 						}
+						AND = {
+							RUS_2668 = {owner = {tag = THIS}}
+							RUS_1071 = {owner = {tag = THIS}}
+							RUS_1069 = {owner = {tag = THIS}}
+						}
 					}
 				}
 				has_global_flag = rus_unified
@@ -239,7 +244,11 @@ political_decisions = {
 				AND = {
 					RAR = {all_core = {owner = {tag =RAR}}}
 					RUS = {all_core = {owner = {tag =RAR}}}
-					NUC = {all_core = {owner = {tag =RAR}}}
+					
+					OR = {
+						NUC = {all_core = {owner = {tag =RAR}}}
+						NOT = {exists = NUC}
+					}
 				}
 				has_global_flag = rus_unified
 			}
@@ -263,8 +272,15 @@ political_decisions = {
 			OR = {
 				AND = {
 					NKV = {all_core = {owner = {tag =NKV}}}
-					FED  = {all_core = {owner = {tag =NKV}}}
-					NAV = {all_core = {owner = {tag =NKV}}}
+					OR = {
+						FED = {all_core = {owner = {tag =NKV}}}
+						NOT = {exists = FED}
+					}
+					OR = {
+						NAV = {all_core = {owner = {tag =NKV}}}
+						NOT = {exists = NAV}
+					}
+					
 				}
 				has_global_flag = rus_unified
 			}
@@ -366,5 +382,125 @@ political_decisions = {
 		}
 	}
 
+	rus_colonizing = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				2652 = {empty = yes}
+				2670 = {empty = yes}
+				2673 = {empty = yes}
+				2653 = {empty = yes}
+				2675 = {empty = yes}
+				2674 = {empty = yes}
+				2655 = {empty = yes}
+				2654 = {empty = yes}
+				2693 = {empty = yes}
+				2657 = {empty = yes}
+				2658 = {empty = yes}
+				2680 = {empty = yes}
+				2615 = {empty = yes}
+				2659 = {empty = yes}
+				2613 = {empty = yes}
+				2684 = {empty = yes}
+				2614 = {empty = yes}
+				993 = {empty = yes}
+				992 = {empty = yes}
+				989 = {empty = yes}
+				998 = {empty = yes}
+				1001 = {empty = yes}
+				1022 = {empty = yes}
+				1013 = {empty = yes}
+				1012 = {empty = yes}
+				1025 = {empty = yes}
+				1021 = {empty = yes}
+				1037 = {empty = yes}
+				1039 = {empty = yes}
+				1038 = {empty = yes}
+				1040 = {empty = yes}
+			}
+			any_owned_province = {
+				has_empty_adjacent_province = yes
 
+				#port = no
+				#is_coastal = no
+
+
+				#OR = {
+				#	AND = {
+				#		NOT = {port = yes}
+				#		NOT = {is_coastal = yes}
+				#	}
+					
+					#AND = {
+					#	province_id = 2684
+					#	2614 = {empty = yes}
+					#}
+					#AND = {
+					#	province_id = 2613
+					#	OR = {
+					#		2659 = {empty = yes}
+					#		2615 = {empty = yes}
+					#	}
+					#}
+				#}
+				
+				NOT = {
+					OR = {
+						province_id = 1039
+						province_id = 1040
+					}
+				}
+			}
+			OR = {
+				tag = MSC
+				tag = RAR
+				tag = NUC
+				tag = RUS
+				tag = NKV
+				tag = FED
+				tag = NAV
+				tag = SOV
+				tag = ALK
+			}
+			NOT = {is_vassal = yes}
+		}
+		allow = {
+			NOT = {war = yes}
+			NOT = {
+				has_country_modifier = rus_colonize
+			}
+			any_owned_province = {
+				has_empty_adjacent_province = yes
+			}
+		}
+		effect = {
+			set_country_flag = colonized_once
+			add_country_modifier = {
+				name = rus_colonize
+				duration = 1095
+			}
+			#any_owned = {
+			#	limit = {
+			#		has_empty_adjacent_province = yes
+			#		port = no
+			#		is_coastal = no
+			#	}
+			#	secede_province = RUS
+			#}
+			any_owned = {
+				random_empty_neighbor_province = {
+					limit = {
+						NOT = {
+							OR = {
+								province_id = 1041
+								province_id = 1036
+							}
+						}
+					}
+					secede_province = THIS
+				}
+			}
+			
+		}
+	}
 }

@@ -1,6 +1,16 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+spy_unrest = {
+	global_pop_militancy_modifier = 0.3
+	war_exhaustion = 0.5
+	icon = 18
+}
+
+rus_colonize = {
+	icon = 17
+}
+
 spying = {
 	icon = 7
 }

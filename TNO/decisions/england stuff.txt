@@ -167,6 +167,12 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
+			OR = {
+				is_our_vassal = CAN
+				is_our_vassal = AST
+				is_our_vassal = NZL
+				is_our_vassal = CBR
+			}
 		}
 		effect = {
 			any_country = {

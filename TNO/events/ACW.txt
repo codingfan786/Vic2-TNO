@@ -216,12 +216,12 @@ country_event = {
 	option = {
 		set_global_flag = acw_war_explained
 		name = "I see."
-		any_country = {
+			any_country = {
 				limit = {
 					NOT = {is_greater_power = yes}
 				}
 				treasury = 50000
-			}
+			} 
 	}
 }
 

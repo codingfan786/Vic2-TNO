@@ -255,6 +255,12 @@ political_decisions = {
 					add_core = WCH
 				}
 			}
+			MSC = {
+				add_country_modifier = {
+					name = rus_colonize
+					duration = 1095
+				}
+			}
 		}
 	}
 }

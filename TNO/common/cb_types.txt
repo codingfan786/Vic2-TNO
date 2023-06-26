@@ -1918,6 +1918,42 @@ rus_uni = {
 		any_owned_province = {
 			culture = russian
 		}
+		OR = {
+			NOT = {
+				AND = {
+					THIS = {tag = RAR}
+					THIS = {ai = yes}
+					OR = {
+						tag = MSC
+						tag = UKR
+					}
+				}
+			}
+			war_with = THIS
+			
+		}
+
+		OR = {
+			NOT = {
+				AND = {
+					THIS = {tag = FED}
+					THIS = {ai = yes}
+					tag = NAV
+				}
+			}
+			war_with = THIS
+		}
+
+		OR = {
+			NOT = {
+				AND = {
+					THIS = {tag = NAV}
+					THIS = {ai = yes}
+					tag = FED
+				}
+			}
+			war_with = THIS
+		}
 	}
 	
 	allowed_states = {
@@ -1928,7 +1964,9 @@ rus_uni = {
 	}
 
 	po_demand_state = yes
-	
+	on_po_accepted = {
+		THIS = {remove_country_modifier = rus_colonize}
+	}
 	war_name = WAR_TAKE_CORE_NAME
 	
 	on_add = {
