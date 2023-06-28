@@ -2521,31 +2521,31 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 300 
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 100 
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 400
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 2200
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bulgarian
 		religion = sunni
 		size = 1200 
 	}

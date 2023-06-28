@@ -1,0 +1,35 @@
+country_event = {
+	id = 500098
+	title = "regent1"
+	desc = "regent2"
+
+	trigger = {
+		NOT = {has_global_flag = new_regent}
+		tag = HUN
+	}
+
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	option = {
+		name = "regent3"
+		set_country_flag = horthy_son
+		set_global_flag = new_regent
+		remove_country_modifier = national_confusion
+		nationalvalue = nv_tradition
+		ai_chance = {
+			factor = 6
+		}
+	}
+
+	option = {
+		name = "regent4"
+		ruling_party_ideology = fascist
+		government = fascist_dictatorship
+		set_global_flag = new_regent
+		ai_chance = {
+			factor = 3
+		}
+	}
+}

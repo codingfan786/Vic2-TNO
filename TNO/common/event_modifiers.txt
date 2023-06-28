@@ -1,6 +1,13 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+demo_hung = {
+	global_assimilation_rate = 0.5
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = -0.01
+	icon = 5
+}
+
 spy_unrest = {
 	global_pop_militancy_modifier = 0.3
 	war_exhaustion = 0.5

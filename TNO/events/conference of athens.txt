@@ -39,7 +39,19 @@ country_event = {
 			}
 		}
 		set_global_flag = bosnia_ita
-		HUN = {country_event = 500046}
+
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500046
+		}
+		#HUN = {country_event = 500046}
+
 		ai_chance = {
 			factor = 1
 		}
@@ -57,7 +69,19 @@ country_event = {
 			}
 		}
 		set_global_flag = croatia_ita
-		HUN = {country_event = 500046}
+
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500046
+		}
+		#HUN = {country_event = 500046}
+
 		ai_chance = {
 			factor = 0
 		}
@@ -75,7 +99,19 @@ country_event = {
 			}
 		}
 		set_global_flag = slavonia_ita
-		HUN = {country_event = 500046}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500046
+		}
+		#HUN = {country_event = 500046}
+
 		ai_chance = {
 			factor = 0
 		}
@@ -93,7 +129,19 @@ country_event = {
 			}
 		}
 		set_global_flag = n_serbia_ita
-		HUN = {country_event = 500046}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500046
+		}
+		#HUN = {country_event = 500046}
+
 		ai_chance = {
 			factor = 0
 		}
@@ -111,7 +159,19 @@ country_event = {
 			}
 		}
 		set_global_flag = s_serbia_ita
-		HUN = {country_event = 500046}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500046
+		}
+		#HUN = {country_event = 500046}
+
 		ai_chance = {
 			factor = 0
 		}
@@ -129,7 +189,19 @@ country_event = {
 			}
 		}
 		set_global_flag = macedonia_ita
-		HUN = {country_event = 500046}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500046
+		}
+		#HUN = {country_event = 500046}
+
 		ai_chance = {
 			factor = 0
 		}
@@ -393,7 +465,19 @@ country_event = {
 			}
 		}
 		set_global_flag = bosnia_ita
-		HUN = {country_event = 500049}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500049
+		}
+		#HUN = {country_event = 500049}
+
 		ai_chance = {
 			factor = 0
 		}
@@ -411,7 +495,19 @@ country_event = {
 			}
 		}
 		set_global_flag = croatia_ita
-		HUN = {country_event = 500049}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500049
+		}
+		#HUN = {country_event = 500049}
+
 		ai_chance = {
 			factor = 0
 		}
@@ -429,7 +525,19 @@ country_event = {
 			}
 		}
 		set_global_flag = slavonia_ita
-		HUN = {country_event = 500049}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500049
+		}
+		#HUN = {country_event = 500049}
+
 		ai_chance = {
 			factor = 0
 		}
@@ -447,7 +555,19 @@ country_event = {
 			}
 		}
 		set_global_flag = n_serbia_ita
-		HUN = {country_event = 500049}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500049
+		}
+		#HUN = {country_event = 500049}
+
 		ai_chance = {
 			factor = 1
 		}
@@ -465,7 +585,19 @@ country_event = {
 			}
 		}
 		set_global_flag = s_serbia_ita
-		HUN = {country_event = 500049}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500049
+		}
+		#HUN = {country_event = 500049}
+
 		ai_chance = {
 			factor = 0
 		}
@@ -483,7 +615,19 @@ country_event = {
 			}
 		}
 		set_global_flag = macedonia_ita
-		HUN = {country_event = 500049}
+		
+		any_country = {
+			limit = {
+				OR = {
+					tag = KUK
+					tag = HUN
+				}
+				exists = yes
+			}
+			country_event = 500049
+		}
+		#HUN = {country_event = 500049}
+
 		ai_chance = {
 			factor = 0
 		}
@@ -801,10 +945,15 @@ country_event = {
 		name = "Hurray!"
 		ITA = {
 			create_alliance = HUN
+			create_alliance = KUK
 			create_alliance = BUL
 			badboy = 8
 			diplomatic_influence = {
 				who = HUN
+				value = 200
+			}
+			diplomatic_influence = {
+				who = KUK
 				value = 200
 			}
 			diplomatic_influence = {
@@ -813,6 +962,9 @@ country_event = {
 			}
 		}
 		HUN = {
+			badboy = 8
+		}
+		KUK = {
 			badboy = 8
 		}
 		BUL = {
@@ -831,6 +983,11 @@ country_event = {
 			}
 			add_casus_belli = {
 				target = BUL
+				type = coa_plan
+				months = 60
+			}
+			add_casus_belli = {
+				target = KUK
 				type = coa_plan
 				months = 60
 			}
@@ -1114,9 +1271,18 @@ country_event = {
 				}
 			}
 		}
+
+		any_country = {
+			limit = {
+				exists = yes
+				tag = KUK
+			}
+			inherit = HUN
+		}
 	}
 
 	option = {
 		name = "Drat!"
+		
 	}
 }

@@ -43,6 +43,7 @@ political_decisions = {
 			OR = {
 				AND = {
 					OR = {
+						tag = FED
 						is_our_vassal = FED
 						FED = {
 							all_core = {
@@ -58,10 +59,16 @@ political_decisions = {
 						}
 					}
 					OR = {
+						tag = NAV
 						is_our_vassal = NAV
 						NAV = {
 							all_core = {
-								owned_by = THIS
+								OR = {
+									owned_by = THIS
+									province_id = 1085
+									province_id = 1084
+									province_id = 2617
+								}
 							}
 						}
 					}
@@ -242,13 +249,22 @@ political_decisions = {
 		allow = {
 			OR = {
 				AND = {
-					RAR = {all_core = {owner = {tag =RAR}}}
-					RUS = {all_core = {owner = {tag =RAR}}}
-					
-					OR = {
-						NUC = {all_core = {owner = {tag =RAR}}}
-						NOT = {exists = NUC}
-					}
+					#RAR = {all_core = {owner = {tag =RAR}}}
+					#RUS = {all_core = {owner = {tag =RAR}}}
+
+					#OR = {
+						#RUS = {all_core = {owner = {tag =RAR}}}
+						#NOT = {exists = RUS}
+					#}
+					1026 = {owner = {tag = RAR}}
+					1030 = {owner = {tag = RAR}}
+					1034 = {owner = {tag = RAR}}
+
+					#OR = {
+					#	NUC = {all_core = {owner = {tag =RAR}}}
+					#	NOT = {exists = NUC}
+					#}
+					RUS_2685 = {owner = {tag = RAR}}
 				}
 				has_global_flag = rus_unified
 			}

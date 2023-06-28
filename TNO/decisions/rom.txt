@@ -1,0 +1,49 @@
+political_decisions = {
+
+	regent_michael = {
+		picture = award_order_of_st_francis
+		potential = {
+			tag = ROM
+			NOT = {HUN = {has_country_flag = monarch_chosen}}
+			#has_country_flag = king_michael_coup
+			NOT = {has_country_flag = carol_hungary}
+		}
+		allow = {
+			is_our_vassal = HUN
+			has_country_flag = king_michael_coup
+			HUN = {has_country_flag = horthy_son}
+		}
+		effect = {
+			set_country_flag = carol_hungary
+			inherit = HUN
+			HUN = {
+				all_core = {add_core = ROM}
+				add_accepted_culture = romanian
+				set_country_flag = monarch_chosen
+			}
+			ROM = {all_core = {add_core = HUN}}
+		}
+
+	}
+
+	michael_coup = {
+		picture = award_order_of_st_francis
+		potential = {
+			tag = ROM
+			NOT = {has_country_flag = king_michael_coup}
+		}
+		allow = {
+			average_militancy = 5
+		}
+		effect = {
+			set_country_flag = king_michael_coup
+			government = absolute_monarchy
+			remove_country_modifier = national_confusion
+			nationalvalue = nv_tradition
+			any_pop = {
+				militancy = -3
+			}
+		}
+	}
+
+}

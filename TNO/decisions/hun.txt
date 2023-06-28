@@ -1,0 +1,73 @@
+political_decisions = {
+	regent_habsburg = {
+		picture = enact_dual_monarchy
+		potential = {
+			has_country_flag = horthy_son
+			NOT = {has_country_flag = monarch_chosen}
+			tag = HUN
+		}
+		allow = {
+
+		}
+		effect = {
+			government = prussian_constitutionalism
+			AUS = {all_core = {add_core = THIS}}
+			set_country_flag = monarch_chosen
+			set_country_flag = habsburg_chosen
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	hungary_austria = {
+		picture = enact_dual_monarchy
+		potential = {
+			has_country_flag = habsburg_chosen
+			tag = HUN
+		}
+		allow = {
+			all_core = {
+				OR = {
+					owner = {tag = THIS}
+					NOT = {is_core = AUS}
+				}
+			}
+		}
+		effect = {
+			CZH = {all_core = {add_core = THIS}}
+			change_tag = KUK
+			all_core = {remove_core = HUN}
+		}
+	}
+
+	regent_democracy = {
+		picture = manifesto_on_unshakable_autocracy
+		potential = {
+			has_country_flag = horthy_son
+			NOT = {has_country_flag = monarch_chosen}
+			tag = HUN
+		}
+		allow = {
+
+		}
+		effect = {
+			set_country_flag = monarch_chosen
+			government = democracy
+			add_country_modifier = {
+				name = demo_hung
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {average_militancy = 4}
+			}
+		}
+	}
+
+
+
+}

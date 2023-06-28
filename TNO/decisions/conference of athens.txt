@@ -17,7 +17,14 @@ political_decisions = {
 				month = 5
 			}
 			ITA = {war = no}
-			HUN = {war = no}
+			OR = {
+				HUN = {war = no}
+				NOT = {exists = HUN}
+			}
+			OR = {
+				KUK = {war = no}
+				NOT = {exists = KUK}
+			}
 			BUL = {war = no}
 		}
 		effect = {

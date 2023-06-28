@@ -313,3 +313,18 @@ spy_show_title;Show spy programs.;;;;;;;;;;;;x
 spy_hide_title;Hide spy programs.;;;;;;;;;;;;x
 spy_show_desc;Show spy programs.;;;;;;;;;;;;x
 spy_hide_desc;Hide spy programs.;;;;;;;;;;;;x
+regent1;Death of a regent.;;;;;;;;;;;;x
+regent2;The ailing health of the high regent Miklos Horthy has finally caught up to him. Despite living a long and fulfilling life in his homeland he never officially declared a successor to the position of regent, leaving some question as to the future of the country.;;;;;;;;;;;;x
+regent3;The late admiral's son, Istvan Horthy, will succeed him. §R (Further decisions will unlock.);;;;;;;;;;;;x
+regent4;Bela Imredy, the prime minister, will take control of the country!;;;;;;;;;;;;x
+demo_hung;Monarchy Abolished;;;;;;;;;;;;x
+regent_habsburg_title;Invite Otto von Habsburg.;;;;;;;;;;;;x
+regent_habsburg_desc;Despite the late Miklos Horthy's opposition to the Habsburgs and their failed attempts to return in the 1920's, they remain the only royal family with a legitimate claim to the Hungarian throne. Otto von Habsburg's vocal support for democracy aligns with Istvan Horthy's own antimonarchy leanings and makes him the logical choice. This will undoubtedly anger the Germans, who hold the Habsburg's main claim of Austria.;;;;;;;;;;;;x
+hungary_austria_title;Reunite Austria and Hungary.;;;;;;;;;;;;x
+hungary_austria_desc;After the ascendancy of Otto von Habsburg to the Hungarian throne few could predict the liberation of his Austrian homeland. Despite being the King in name, the Hungarian politicalscape dominates the new union.;;;;;;;;;;;;x
+regent_democracy_title;End the regency.;;;;;;;;;;;;x
+regent_democracy_desc;The Hungarian regency has always been a farce. The only legitimate claim to the throne has been denied in Charles IV's coups of 1921, and no further claimants have been produced or sought after since then.;;;;;;;;;;;;x
+regent_michael_title;Claim the Hungarian throne.;;;;;;;;;;;;x
+regent_michael_desc;Hungary has been without a king since 1920. Despite the absence of a royal head of state the regency has lived on, awaiting a proper claimant to the throne. With the ascendancy and popular support of King Michael I of Romania and the present dominance of Romania over Hungary, an obvious solution is at hand.;;;;;;;;;;;;x
+michael_coup_title;King Michael's Coup!;;;;;;;;;;;;x
+michael_coup_desc;The $YEAR$ Romanian coup d'etat was a coup d'etat led by King Michael I of Romania. With the support of several political parties, the king removed the government of Ion Antonescu, which had aligned Romania with Nazi Germany, in an opportune moment following the German civil war. Antonescu's policies lead to Romanian expansion east at the unpopular cost of Romanian homeland to the Hungarians and Bulgarians.;;;;;;;;;;;;x

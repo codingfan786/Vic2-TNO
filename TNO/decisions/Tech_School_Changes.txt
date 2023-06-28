@@ -1,6 +1,6 @@
 political_decisions = {
 	change_tech_school_on = {
-		alert = yes
+		alert = no
 		picture = national_value
 		potential = {
 			NOT = { tag = LCT }
