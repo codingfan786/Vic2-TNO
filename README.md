@@ -4,23 +4,45 @@ Victoria 2 port/adaptation of The New Order: Last days of europe mod for hoi4
 Many countries have content such as:
 
 Germany
+
 Italy
+
 England
+
 USA
+
 Japan
+
 Hungary
+
 Romania
+
 Poland
+
 The german puppets
+
 Red army remnants
+
 Kamatchka Soviet Fleet
+
 German africa
+
 South africa
+
 Commonwealth nations
+
 West china nations
+
+Japanese puppet China
+
 Scotland
+
 Burgundy
+
 France
+
 Iberia
+
 Bohemia/Slovakia
+
 Levant/Israel

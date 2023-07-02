@@ -49,12 +49,11 @@ political_decisions = {
 		picture = form_poland_lithuania
 		potential = {
 			tag = POL
-			NOT = {government = fascist_dictatorship}
-			NOT = {is_vassal = yes}
 			NOT = {has_country_flag = POL_revanched}
 		}
 		allow = {
-			year = 1962
+			NOT = {government = fascist_dictatorship}
+			NOT = {is_vassal = yes}
 		}
 		effect = {
 			set_country_flag = POL_revanched

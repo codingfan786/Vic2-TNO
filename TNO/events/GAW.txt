@@ -1,0 +1,156 @@
+country_event = {
+	major = yes
+	id = 500099
+	title = "One last gasp of freedom."
+	desc = "Japan designs to carve up what remains of China, but the remaining Chinese Nationalists are refusing to go without a fight."
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = gaw_ongoing
+		set_global_flag = gaw_started
+		release_vassal = CHI
+		remove_country_modifier = CHI_mobnerf
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {has_country_flag = jap_rebel}
+			}
+			JAP = {
+				any_owned = {
+					limit = {
+						is_core = CHI
+						OR = {
+							NOT = {port = yes}
+							province_id = 1616
+						}
+					}
+					secede_province = CHI
+				}
+			}
+		}
+		any_owned = {
+			limit = {
+				is_colonial = yes
+			}
+			add_core = SIK
+		}
+		SIK = {
+			any_owned = {
+				limit = {
+					is_core = CHI
+				}
+				#secede_province = CHI
+			}
+		}
+		release = SIK #sikkims techs get overwritten by this
+		SIK = {
+			any_owned = {
+				limit = {
+					is_core = CHI
+				}
+				secede_province = CHI
+				remove_core = SIK
+			}
+		}
+	}
+
+	option = {
+		name = "Perhaps, a free China is truly at hand?"
+		any_country = {
+			limit = {
+				tag = WCH
+				exists = yes
+				has_country_flag = help_chi_gaw
+			}
+			CHI = {
+				create_vassal = WCH
+				create_alliance = WCH
+			}
+		}
+		JAP = {
+			war = {
+				target = CHI
+				attacker_goal = { casus_belli = gaw_annex }
+				call_ally = no
+			}
+		}
+		any_country = {
+			limit = {
+				tag = WCH
+				exists = yes
+				has_country_flag = help_chi_gaw
+			}
+			CHI = {release_vassal = WCH}
+		}
+	}
+}
+
+country_event = {
+	id = 500100
+	title = "Victory over China!"
+	desc = "China has been truly and forever pacified! §R This event turns conquered China into a colony."
+	trigger = {
+		tag = JAP
+		has_global_flag = gaw_ongoing
+		NOT = {exists = CHI}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		clr_global_flag = gaw_ongoing
+		SIK = {civilized = no}
+		any_owned = {
+			limit = {
+				NOT = {is_colonial = yes}
+				is_core = CHI
+			}
+			secede_province = SIK
+		}
+		inherit = SIK
+		release = SIK
+		SIK = {civilized = yes}
+
+		CHI = {
+			all_core = {
+				add_core = WCH
+			}
+		}
+	}
+	option = {
+		name = "Only time will tell..."
+	}
+}
+
+country_event = {
+	id = 500101
+	title = "Japan demands complete Chinese submission!"
+	desc = "The Japanese have descended upon us like vultures, picking at the corpse of China. They demand complete submission and control over China! Is now the time for our war of liberation or should we try our chances with submission?"
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = gaw_ongoing
+		set_global_flag = gaw_started
+	}
+
+	option = {
+		name = "Asia will bleed..."
+		CHI = {country_event = 500099}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "The rising sun shall shine!"
+		JAP = {
+			inherit = CHI
+			country_event = 500100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

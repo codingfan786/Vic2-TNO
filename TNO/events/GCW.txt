@@ -6,7 +6,7 @@
 country_event = {
 	id = 500000
 	title = "GCW title"
-	desc = "GCW desc"
+	desc = "This germany is not one of the playable germanies! it will get annexed at the conclusion of the GCW and also event spammed so please switch immediately!"
 
 	trigger = {
 		tag = GER
@@ -346,29 +346,29 @@ country_event = {
 		}
 		create_alliance = SGE
 
-		BGE = {
+		#BGE = {
 			war = {
-				target = THIS
-				defender_goal = { casus_belli = pup_gcw }
+				target = BGE
+				attacker_goal = { casus_belli = pup_gcw }
 				call_ally = no
 			}
-		}
+		#}
 
-		GGE = {
+		#GGE = {
 			war = {
-				target = THIS
-				defender_goal = { casus_belli = pup_gcw }
+				target = GGE
+				attacker_goal = { casus_belli = pup_gcw }
 				call_ally = no
 			}
-		}
+		#}
 
-		HGE = {
+		#HGE = {
 			war = {
-				target = THIS
-				defender_goal = { casus_belli = pup_gcw }
+				target = HGE
+				attacker_goal = { casus_belli = pup_gcw }
 				call_ally = no
 			}
-		}
+		#}
 
 		ai_chance = {
 			factor = 0.25

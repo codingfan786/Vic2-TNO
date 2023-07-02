@@ -213,6 +213,7 @@ political_decisions = {
 				}
 				300 = {fort = 2}
 			}
+
 			add_country_modifier = {
 				name = the_statue_of_liberty
 				duration = -1
@@ -255,12 +256,16 @@ political_decisions = {
 					add_core = WCH
 				}
 			}
+
 			MSC = {
 				add_country_modifier = {
 					name = rus_colonize
 					duration = 1095
 				}
 			}
+			CHI = {set_country_flag = jap_rebel}
+			YNN = {set_country_flag = ynn_formed}
+			XIN = {set_country_flag = xin_formed}
 		}
 	}
 }

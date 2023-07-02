@@ -1111,6 +1111,7 @@ become_independent = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
+		NOT = {THIS = {tag = CHI}}
 		OR = {
 			FROM = { is_our_vassal = THIS }
 			war_with = THIS
@@ -2078,7 +2079,7 @@ brg_gcw = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	war_name = "German Civil War Intervention"
+	war_name = GCW_NAME
 	
 	po_remove_prestige = yes
 
@@ -2118,7 +2119,7 @@ pup_gcw = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	war_name = "German Civil War Intervention"
+	war_name = GCW_NAME
 	
 	po_remove_prestige = yes
 
@@ -2307,4 +2308,45 @@ make_puppet_unlimited = {
 			value = 0.25
 		}
 	}
+}
+
+gaw_annex = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	constructing_cb = no
+
+	can_use = {
+		
+		is_independant = yes
+	}
+
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = GAW_NAME
 }

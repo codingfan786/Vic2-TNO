@@ -328,3 +328,21 @@ regent_michael_title;Claim the Hungarian throne.;;;;;;;;;;;;x
 regent_michael_desc;Hungary has been without a king since 1920. Despite the absence of a royal head of state the regency has lived on, awaiting a proper claimant to the throne. With the ascendancy and popular support of King Michael I of Romania and the present dominance of Romania over Hungary, an obvious solution is at hand.;;;;;;;;;;;;x
 michael_coup_title;King Michael's Coup!;;;;;;;;;;;;x
 michael_coup_desc;The $YEAR$ Romanian coup d'etat was a coup d'etat led by King Michael I of Romania. With the support of several political parties, the king removed the government of Ion Antonescu, which had aligned Romania with Nazi Germany, in an opportune moment following the German civil war. Antonescu's policies lead to Romanian expansion east at the unpopular cost of Romanian homeland to the Hungarians and Bulgarians.;;;;;;;;;;;;x
+gaw_annex;Great Asian War Annexation;;;;;;;;;;;
+gaw_annex_desc;Annexes China;;;;;;;;;;;;x
+gaw_annex_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+gaw_annex_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
+NORMAL_GAW_NAME;The Great Asian War;;;;;;;;;;;;x
+AGRESSION_GAW_NAME;The Great Asian War;;;;;;;;;;;;x
+NORMAL_GCW_NAME;$FIRST$ Intervention in the German Civil War;;;;;;;;;;;;x
+AGRESSION_GCW_NAME;$FIRST$ Intervention in the German Civil War;;;;;;;;;;;;x
+WCH_pledge_support_title;Support Chinese independence.;;;;;;;;;;;;x
+WCH_pledge_support_desc;There are rumors in the east of an independence plot in Japanese controlled China. If we want this to succeed we should support them. §R This decision will ensure we automatically join any Chinese rebellion.;;;;;;;;;;;;x
+chi_declare_gaw_title;Declare Chinese independence.;;;;;;;;;;;;x
+chi_declare_gaw_desc;All available preparations have been made. Armies have been raised and uprisings readied to strike. Now is the time to free ourselves from the Japanese menace. §R The price of failure means death!;;;;;;;;;;;;x
+jap_declare_gaw_title;Military occupation of China.;;;;;;;;;;;;x
+jap_declare_gaw_desc;The Japanese industry desparately needs the resources available by direct occupation of China. An escalation of the current client state system into a full occupation will also please the militant political factions who see China as a potential threat of rebellion. §R It is very unlikely for the remaining Chinese nationalists to accept this without a fight.;;;;;;;;;;;;x
+jap_gut_cja_title;Purge the Colonial Japanese Army of Chinese elements.;;;;;;;;;;;;x
+jap_gut_cja_desc;After the occupation of China in World War 2 many of the former Chinese warlords and their armies were integrated into the C.J.A. with monetary promises. In the outbreak of a full scale rebellion it is unlikely that monetary reward will keep them loyal. A purge of Chinese soldiers is a necessary security measure. §R This will prevent any noncoastal Chinese cores from seceding in the case of a Chinese rebellion.;;;;;;;;;;;;x
+jap_annex_mck_title;Integrate the Manchurian military regime.;;;;;;;;;;;;x
+jap_annex_mck_desc;The Manchurian regime has served its purpose for far too long. We should fully integrate them.;;;;;;;;;;;;x

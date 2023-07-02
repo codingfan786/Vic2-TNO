@@ -613,11 +613,11 @@ assimilation_chance =
 		culture = afro_american
 	}
 	modifier = {
-    	factor = -0.6
+    	factor = -0.9 #somewhere betweein -.8 and -1
 		culture = beifaren
 	}
 	modifier = {
-    	factor = -0.6
+    	factor = -0.9
 		culture = nanfaren
 	}
 	#modifier = {
