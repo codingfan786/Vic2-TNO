@@ -2,6 +2,7 @@ political_decisions = {
 	nuke_fra = {
 		potential = {
 			ai = no
+			always = no
 			tag = KAZ
 		}
 
@@ -20,6 +21,7 @@ political_decisions = {
 
 	nuke_usa = {
 		potential = {
+			always = no
 			ai = no
 			tag = KAZ
 		}

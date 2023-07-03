@@ -90,6 +90,7 @@ province_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500061
 	title = "Anarchy in the south!"
 	desc = "Tensions have risen to the breaking point and anarchy has descended on the southern states! Mass lynchings are occuring and immediate military invervention is needed desparately!"

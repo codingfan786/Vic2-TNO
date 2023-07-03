@@ -1,0 +1,128 @@
+political_decisions = {
+
+	polish_israel = {
+		picture = form_poland_lithuania
+		potential = {
+			#ai = no
+			tag = KAZ
+			NOT = {has_country_flag = polish_israel_established}
+			NOT = {has_country_flag = polish_israel_denied}
+		}
+		allow = {
+			has_global_flag = polish_refugee_crisis
+		}
+		effect = {
+			set_country_flag = polish_israel_established
+			prestige = 10
+			947 = {add_core = POL}
+			691 = {add_core = POL}
+			692 = {add_core = POL}
+			699 = {add_core = POL}
+			700 = {add_core = POL}
+			701 = {add_core = POL}
+			710 = {add_core = POL}
+			717 = {add_core = POL}
+			712 = {add_core = POL}
+			706 = {add_core = POL}
+			708 = {add_core = POL}
+			709 = {add_core = POL}
+			707 = {add_core = POL}
+			719 = {add_core = POL}
+			936 = {add_core = POL}
+			938 = {add_core = POL}
+			939 = {add_core = POL}
+			940 = {add_core = POL}
+			937 = {add_core = POL}
+			957 = {add_core = POL}
+			956 = {add_core = POL}
+			955 = {add_core = POL}
+
+			any_country = {
+				limit = {
+					any_owned_province = {
+						any_pop = {
+							has_pop_culture = polish
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						NOT = {
+							OR = {
+								province_id = 707
+								province_id = 709
+								province_id = 708
+								province_id = 706
+								province_id = 710
+								province_id = 717
+								province_id = 712
+								province_id = 711
+								province_id = 715
+								province_id = 713
+								province_id = 716
+								province_id = 2584
+								province_id = 703
+								province_id = 714
+								province_id = 704
+								province_id = 705
+
+							}
+						}
+						any_pop = {
+							has_pop_culture = polish
+						}
+					}
+					any_pop = {
+						limit = {
+							has_pop_culture = polish
+						}
+						random_list = {
+							1 = {move_pop = 1182}
+							1 = {move_pop = 2610}
+							1 = {move_pop = 1194}
+							1 = {move_pop = 1183}
+							1 = {move_pop = 2702}
+							1 = {move_pop = 2611}
+							1 = {move_pop = 1193}
+							1 = {move_pop = 2612}
+							1 = {move_pop = 1181}
+							1 = {move_pop = 1184}
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {has_country_flag = NPO_AI_1}
+			}
+		}
+	}
+
+	reject_poles = {
+		picture = form_poland_lithuania
+		potential = {
+			#ai = no
+			tag = KAZ
+			NOT = {has_country_flag = polish_israel_established}
+			NOT = {has_country_flag = polish_israel_denied}
+		}
+		allow = {
+			has_global_flag = polish_refugee_crisis
+		}
+		effect = {
+			set_country_flag = polish_israel_denied
+			prestige = 20
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {has_country_flag = NPO_AI_2}
+			}
+		}
+	}
+
+}

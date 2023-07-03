@@ -4,12 +4,12 @@
 
 civilized = yes
 capital = 1181
-primary_culture = kazak
+primary_culture = turkmen
 religion = protestant
-government = democracy
+government = proletarian_dictatorship
 plurality = 10
 nationalvalue = nv_liberty
-literacy = 0.5
+literacy = 0.3
   
 prestige = 1
 schools = traditional_academic
@@ -22,10 +22,10 @@ ruling_party = KAZ_conservative_92
 upper_house = {
 fascist = 0
 reactionary = 0
-conservative = 34
-socialist = 33
-communist = 0
-liberal = 33
+conservative = 0
+socialist = 0
+communist = 100
+liberal = 0
 anarcho_liberal = 0
 }
 slavery = no_slavery

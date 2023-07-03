@@ -3,5 +3,5 @@ controller = BUK
 add_core = BUK
 
 
-trade_goods = wool
+trade_goods = grain
 life_rating = 35

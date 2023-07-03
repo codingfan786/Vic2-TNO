@@ -346,3 +346,17 @@ jap_gut_cja_title;Purge the Colonial Japanese Army of Chinese elements.;;;;;;;;;
 jap_gut_cja_desc;After the occupation of China in World War 2 many of the former Chinese warlords and their armies were integrated into the C.J.A. with monetary promises. In the outbreak of a full scale rebellion it is unlikely that monetary reward will keep them loyal. A purge of Chinese soldiers is a necessary security measure. §R This will prevent any noncoastal Chinese cores from seceding in the case of a Chinese rebellion.;;;;;;;;;;;;x
 jap_annex_mck_title;Integrate the Manchurian military regime.;;;;;;;;;;;;x
 jap_annex_mck_desc;The Manchurian regime has served its purpose for far too long. We should fully integrate them.;;;;;;;;;;;;x
+polish_israel_title;Welcome the Polish Refugees.;;;;;;;;;;;;x
+polish_israel_desc;The only reasonable solution to the present Polish refugee crisis is to accept them and any consequences they may bring. §R The other Turkic Soviet states may not be so receptive. This decision also gives you a sizable number of Polish immigrants;;;;;;;;;;;;x
+polish_news;News from the Kazakh steppes rarely reaches the international community, and that which does usually leaves more questions than answers. The state of 'Nowa Polska', a current refuge for Polish exiles from the Reich, has established full military control over Kazakhstan in an attempt to provide a new homeland for the Polish people.;;;;;;;;;;;;x
+polish_coup;Early this morning numerous military installations and governmental institutions were siezed by Polish groups consisting of former Polish underground and military members. Their coup has been seen by other Turkic states as a foreign invasion of central Asia and they are mobilizing to intervene.;;;;;;;;;;;;x
+NPO_revoke;Intervention in Kazakhstan;;;;;;;;;;;;x
+NPO_revoke_short;Reinstate Kazakhstan Government;;;;;;;;;;;;x
+NPO_revoke_setup;Reinstate Kazakhstan Government;;;;;;;;;;;;x
+NORMAL_NPO_NAME;Turkic Intervention in Kazakhstan;;;;;;;;;;;;x
+AGRESSION_NPO_NAME;Turkic Intervention in Kazakhstan;;;;;;;;;;;;x
+NPO_survive;Nowa Polska Dominance;;;;;;;;;;;;x
+NPO_survive_short;Conquer Turkic Soviet states and assimilate some pops;;;;;;;;;;;;x
+NPO_survive_setup;Conquer Turkic Soviet states and assimilate some pops;;;;;;;;;;;;x
+reject_poles_title;Ban Polish immigration;;;;;;;;;;;;x
+reject_poles_desc;We have no need for these troublemakers!;;;;;;;;;;;;x

@@ -31,6 +31,7 @@ province_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500064
 	title = "The South African War!"
 	desc = "Tensions between the British and the Boer have reached a boiling point! Now they have declared independence in regions where the unrest has gotten too high. To make matters worse, they even have German support!"

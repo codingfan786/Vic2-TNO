@@ -46,3 +46,5 @@ Iberia
 Bohemia/Slovakia
 
 Levant/Israel
+
+Kazakhstan

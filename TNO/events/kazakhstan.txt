@@ -1,0 +1,270 @@
+country_event = {
+	major = yes
+	id = 500102
+	title = "The Poles Pacify Kazakhstan!"
+	desc = "polish_news"
+	is_triggered_only = yes
+
+	immediate = {
+		prestige = 10
+		inherit = KHI
+		inherit = KOK
+		inherit = BUK
+		any_owned = {
+			limit = {
+				OR = {
+					province_id = 1194
+					province_id = 1182
+					#2610
+					province_id = 1183
+					province_id = 2702
+					province_id = 2611
+					province_id = 1193
+					province_id = 2612
+					province_id = 1181
+					#1184
+
+				}
+			}
+			assimilate = yes
+		}
+	}
+
+	option = {
+		name = "A Polish Kazakhstan? Truly we live in exceptional times."
+	}
+}
+
+country_event = {
+	id = 500103
+	title = "$COUNTRY$ refuses the Polish acceptance!"
+	desc = "$COUNTRY$ has reacted to Kazakhstan's solution to the Polish refugee crisis by unilaterally declaring independence!"
+	trigger = {
+		KAZ = {has_country_flag = polish_israel_established}
+		OR = {
+			tag = KHI
+			tag = BUK
+			tag = KOK
+		}
+		NOT = {has_country_flag = reacted_to_NPO}
+		KAZ = {NOT = {has_country_flag = polish_israel_revoked}}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		set_country_flag = reacted_to_NPO
+		release_vassal = THIS
+		KAZ = {country_event = 500104}
+	}
+	option = {
+		name = "This can't be good..."
+	}
+}
+
+country_event = {
+	id = 500104
+	title = "$FROMCOUNTRY$ refuses the Polish acceptance!"
+	desc = "$FROMCOUNTRY$ has reacted to Kazakhstan's solution to the Polish refugee crisis by unilaterally declaring independence!"
+	is_triggered_only = yes
+
+	option = {
+		name = "This can't be good..."
+	}
+}
+
+country_event = {
+	major = yes
+	id = 500105
+	title = "Polish Refugee Crisis"
+	desc = "Polish refugees, inspired by and lead by Polish military commander and politician Marian Spychalski, have been flooding into Kazakhstan following the demise of the Polish state."
+	trigger = {
+		NOT = {has_global_flag = polish_refugee_crisis}
+		NOT = {exists = POL}
+		tag = KAZ
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		set_global_flag = polish_refugee_crisis
+	}
+	option = {
+		name = "We should respond to this immediately."
+	}
+}
+
+country_event = {
+	id = 500106
+	title = "The Poles sieze Kazakhstan!"
+	desc = "polish_coup"
+
+	trigger = {
+		tag = KAZ
+		NOT = {is_our_vassal = KHI}
+		NOT = {is_our_vassal = KOK}
+		NOT = {is_our_vassal = BUK}
+		has_country_flag = polish_israel_established
+		NOT = {has_country_flag = NP_coup}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		change_tag = NPO
+		POL = {all_core = {add_core = NPO}}
+		primary_culture = polish
+		set_country_flag = NP_coup
+		country_event = {
+			id = 500107
+			days = 32
+		}
+		government = fascist_dictatorship
+		prestige = 10
+	}
+	option = {
+		name = "We never should have welcomed those damn Poles!"
+	}
+}
+
+country_event = {
+	id = 500107
+	title = "Turkic Soviet states intervene in Kazakhstan!"
+	desc = "The recent coup of Kazakhstan by Polish militants has led the lesser members of the Turkic union to invade with the goal of reestablishing the Kazakhstanian government."
+	is_triggered_only = yes
+	immediate = {
+		KOK = {leave_alliance = NPO}
+		KHI = {leave_alliance = NPO}
+
+		BUK = {
+			leave_alliance = NPO
+			create_vassal = KOK
+			create_alliance = KOK
+			create_vassal = KHI
+			create_alliance = KHI
+			war = {
+				target = NPO
+				attacker_goal = {casus_belli = NPO_revoke}
+				defender_goal = {casus_belli = NPO_survive}
+				call_ally = yes
+			}
+			release_vassal = KHI
+			release_vassal = KOK
+		}
+	}
+	option = {
+		name = "Long live Poland!"
+	}
+}
+
+country_event = {
+	id = 500108
+	title = "Turkic Soviet states eject the Poles!"
+	desc = "The lesser members of the Turkic union has succeeded in reinstating the Kazakhstanian government."
+	is_triggered_only = yes
+	immediate = {
+		any_owned = {
+			any_pop = {
+				limit = {
+					has_pop_culture = polish
+				}
+				reduce_pop = 0.3
+			}
+		}
+		change_tag = KAZ
+		government = proletarian_dictatorship
+		primary_culture = turkmen
+		set_country_flag = polish_israel_revoked
+		create_vassal = KOK
+		create_vassal = BUK
+		create_vassal = KHI
+		all_core = {
+			limit = {
+				is_core = POL
+			}
+			remove_core = THIS
+		}
+	}
+	option = {
+		name = "Damn the Poles!"
+	}
+}
+
+country_event = {
+	id = 500109
+	title = "Polish Immigrants Arrive"
+	desc = "Poles from abroad flock to our new homeland."
+
+	trigger = {
+		has_country_flag = polish_israel_established
+		NOT = {has_country_flag = polish_israel_revoked}
+		1181 = {owner = {tag = THIS}}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				NOT = {tag = THIS}
+				
+				has_pop_culture = polish
+				
+			}
+			random_owned = {
+				limit = {
+					has_pop_culture = polish
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = polish
+					}
+					move_pop = 1181
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "Wonderful!"
+	}
+}
+
+country_event = {
+	id = 500110
+	name = "ai decision randomizer"
+	desc = "a"
+	trigger = {
+		tag = KAZ
+		NOT = {
+			OR = {
+				has_country_flag = NPO_AI_2
+				has_country_flag = NPO_AI_1
+			}
+		}
+		ai = yes
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "1"
+		set_country_flag = NPO_AI_1
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "2"
+		set_country_flag = NPO_AI_2
+		ai_chance = {
+			factor = 2
+		}
+	}
+}

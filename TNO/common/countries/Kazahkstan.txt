@@ -2,7 +2,9 @@
 
 #========================= H E A D E R =========================
 
-color = { 135  206  235 }
+democracy = { 135  206  235 }
+color = { 248 73 49 }
+
 graphical_culture = AsianGC
 
 

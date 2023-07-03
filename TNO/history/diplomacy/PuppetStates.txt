@@ -54,3 +54,21 @@ substate = {
 	second = ONE
 	start_date = 1836.1.1
 }
+
+substate = {
+	first = KAZ
+	second = KHI
+	start_date = 1836.1.1
+}
+
+substate = {
+	first = KAZ
+	second = KOK
+	start_date = 1836.1.1
+}
+
+substate = {
+	first = KAZ
+	second = BUK
+	start_date = 1836.1.1
+}

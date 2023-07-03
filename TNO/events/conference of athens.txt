@@ -1013,9 +1013,10 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500053
-	title = "The partition of Yugoslavia!"
-	desc = "You've been partitioned, fool!"
+	title = "The partition of Yugoslavia."
+	desc = "After a lengthy period of recent independence Yugoslavia has been destroyed once again. The partition plan agreed upon during the conference of Athens has been put into place by Italy, Bulgaria, and Hungary."
 
 	is_triggered_only = yes
 
