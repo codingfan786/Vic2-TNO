@@ -36,7 +36,7 @@ country_event = {
 
 }
 
-country_event = {
+country_event = { #consider using CleanUp.txt instead of this event
 	id = 500113
 	title = "The power of democracy."
 	desc = "Due to increasing liberalization of our government some political reforms have been pushed through."
@@ -180,7 +180,7 @@ country_event = {
 
 	immediate = {
 		government = democracy
-		political_reform = wealth_weighted_voting
+		political_reform = wealth_weighted_voting #consider changing to the democracy rebels political reforms
 		political_reform = state_equal_weight
 	}
 
