@@ -368,3 +368,11 @@ FEU_getcores_title;Free Europe!;;;;;;;;;;;;x
 FEU_getcores_desc;The Poles and Czechoslovak have been under the heel of Germany for too long. Their liberation is imminent!;;;;;;;;;;;;x
 FEU_getaccepted_title;From Black sea to the Baltics.;;;;;;;;;;;;x
 FEU_getaccepted_desc;Eastern europe is free! It is time to celebrate our victories and embrace our new paneuropean ambition.;;;;;;;;;;;;x
+make_democratic;Install Democratic Government;;;;;;;;;;;
+make_democratic_desc;Install a Democratic Government in a target country.;;;;;;;;;;;;x
+make_democratic_short;Install a Democratic Government in $RECIPIENT$.;;;;;;;;;;;;;x
+make_democratic_setup;Install a Democratic Government in $RECIPIENT$.;;;;;;;;;;;;x
+warreps;War reparations;;;;;;;;;;;
+warreps_desc;Demand war reparations from target country.;;;;;;;;;;;;x
+warreps_short;Demand war reparations from $RECIPIENT$.;;;;;;;;;;;;;x
+warreps_setup;Demand war reparations from $RECIPIENT$.;;;;;;;;;;;;x

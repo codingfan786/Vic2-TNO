@@ -2,50 +2,22 @@ color = { 113  112  96 }
 graphical_culture = MiddleEasternGC
 
 party = {
-	name = "ABU_conservative"
-	start_date = 1820.1.1
+	name = "generic_conservative"
+	start_date = 1830.1.1
 	end_date = 2062.1.1
 
 	ideology = conservative
 
 	economic_policy = interventionism
 	trade_policy = protectionism
-	religious_policy = moralism
-	citizenship_policy = residency
-	war_policy = anti_military
-}
-
-party = {
-	name = "ABU_conservative_2"
-	start_date = 1892.1.1
-	end_date = 2062.1.1
-
-	ideology = conservative
-
-	economic_policy = laissez_faire
-	trade_policy = protectionism
-	religious_policy = moralism
-	citizenship_policy = residency
-	war_policy = pacifism
-}
-
-party = {
-	name = "ABU_liberal"
-	start_date = 1820.1.1
-	end_date = 2062.1.1
-
-	ideology = liberal
-
-	economic_policy = laissez_faire
-	trade_policy = protectionism
 	religious_policy = pluralism
-	citizenship_policy = full_citizenship
-	war_policy = pacifism
+	citizenship_policy = residency
+	war_policy = pro_military
 }
 
 party = {
-	name = "ABU_reactionary"
-	start_date = 1820.1.1
+	name = "generic_reactionary"
+	start_date = 1830.1.1
 	end_date = 2062.1.1
 
 	ideology = reactionary
@@ -58,21 +30,21 @@ party = {
 }
 
 party = {
-	name = "ABU_anarcho_liberal"
+	name = "generic_liberal"
 	start_date = 1830.1.1
 	end_date = 2062.1.1
 
-	ideology = anarcho_liberal
+	ideology = liberal
 
 	economic_policy = laissez_faire
 	trade_policy = free_trade
-	religious_policy = pro_atheism
+	religious_policy = pluralism
 	citizenship_policy = full_citizenship
-	war_policy = pro_military
+	war_policy = anti_military
 }
 
 party = {
-	name = "ABU_socialist"
+	name = "generic_socialist"
 	start_date = 1848.1.1
 	end_date = 2062.1.1
 
@@ -86,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "ABU_communist"
+	name = "generic_communist"
 	start_date = 1848.1.1
 	end_date = 2062.1.1
 
@@ -100,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "ABU_fascist"
+	name = "generic_fascist"
 	start_date = 1905.1.1
 	end_date = 2062.1.1
 

@@ -72,7 +72,7 @@ precision_work = yes
 consciousness = 3
 nonstate_consciousness = 1
 
-ruling_party = ENG_fascist
+ruling_party = generic_fascist
 last_election = 1960.1.1
 upper_house = {
 	fascist = 0

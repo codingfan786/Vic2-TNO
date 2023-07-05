@@ -19,7 +19,7 @@ decision = nuke_startup
 
 #========================= H O U S E - O F - L O R D S =========================
 
-ruling_party = BGE_fascist_72
+ruling_party = generic_fascist
 upper_house = {
 fascist = 90
 reactionary = 0

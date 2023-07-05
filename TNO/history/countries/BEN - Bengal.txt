@@ -19,7 +19,7 @@ oob = "BEN.txt"
 
 #========================= H O U S E - O F - L O R D S =========================
 
-ruling_party = BEN_reactionary_84
+ruling_party = generic_reactionary
 upper_house = {
 fascist = 0
 reactionary = 0

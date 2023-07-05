@@ -19,7 +19,7 @@ oob = "IBE.txt"
 
 #========================= H O U S E - O F - L O R D S =========================
 
-ruling_party = IBE_conservative_92
+ruling_party = generic_reactionary
 upper_house = {
 fascist = 0
 reactionary = 0

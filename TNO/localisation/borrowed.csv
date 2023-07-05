@@ -62,3 +62,10 @@ nationalist_agitation;Nationalist Agitation;;;;;;;;;;;;x,,,,
 nationalist_agitation_desc;Nationalists are active in the province, stirring up trouble with random acts of violence. If left unchecked, they may rise in rebellion against us.;;;;;;;;;;;;x,,
 integration_refusal;No Integration;;;;;;;;;;;;;x,,,,
 integration_refusal_desc;The province is not being integrated into the rest of the country, and being allowed to maintain its separate identity.;;;;;;;;;;;;;x,,,
+generic_conservative;Generic Conservative;;;;;;;;;;;;;x
+generic_reactionary;Generic Reactionary;;;;;;;;;;;;;x
+generic_liberal;Generic Liberal;;;;;;;;;;;;;x
+generic_socialist;Generic Socialist;;;;;;;;;;;;;x
+generic_communist;Generic Communist;;;;;;;;;;;;;x
+generic_fascist;Generic Fascist;;;;;;;;;;;;;x
+generic_anarcho;Generic Anarcho-liberal;;;;;;;;;;;;;x

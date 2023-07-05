@@ -39,9 +39,11 @@
 
 # Order that CBs are executed in a peace treaty
 peace_order = { 
+warreps
 NPO_survive
 NPO_revoke
 make_facist
+make_democratic
 coa_plan
 pup_gcw
 brg_gcw
@@ -2423,5 +2425,95 @@ NPO_survive = {
 
 	on_po_accepted = {
 		NPO = {country_event = 500102}
+	}
+}
+
+make_democratic = {
+	sprite_index = 1
+	is_triggered_only = yes
+	months = 12
+	crisis = yes
+	
+	construction_speed = 0.5
+	
+	can_use = {
+		OR = {
+					government = proletarian_dictatorship
+					government = presidential_dictatorship
+					government = bourgeois_dictatorship
+					government = fascist_dictatorship
+					government = absolute_monarchy
+				}
+
+		THIS = {
+			government = democracy
+		}
+	}
+
+	badboy_factor = 2
+	prestige_factor = 1
+	peace_cost_factor = 25
+	penalty_factor = 1
+	is_civil_war = no #this is a civil war
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	war_name = WAR_INSTALL_NEW_GOV_NAME
+
+	po_remove_prestige = yes
+	on_po_accepted = {
+		country_event = 500114
+	}
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+warreps = {
+	sprite_index = 1
+	is_triggered_only = yes
+	months = 12
+	crisis = yes
+	construction_speed = 0.5
+	can_use = {
+
+	}
+
+	badboy_factor = 0.2
+	prestige_factor = 0.5
+	peace_cost_factor = 10
+	penalty_factor = 0.5
+	is_civil_war = no #this is a civil war
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	po_reparations = yes
+	war_name = WAR_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
 	}
 }

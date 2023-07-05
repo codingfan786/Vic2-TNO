@@ -76,11 +76,16 @@ country_event = {
 					upper_house_composition = population_equal_weight
 				}
 			}
+
+			AND = {
+				government = democracy
+				upper_house_composition = party_appointed
+			}
 		}
 	}
 
 	mean_time_to_happen = {
-		months = 1
+		days = 1
 	}
 
 	immediate = {
@@ -130,6 +135,17 @@ country_event = {
 			limit = {
 				is_capital = yes
 				owner = {
+					government = democracy
+					upper_house_composition = party_appointed
+				}
+			}
+			THIS = {political_reform = state_equal_weight}
+		}
+
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
 					OR = {
 						government = prussian_constitutionalism
 						government = hms_government
@@ -153,4 +169,22 @@ country_event = {
 	}
 
 
+}
+
+country_event = {
+	id = 500114
+	title = "The power of democracy."
+	desc = "Foreign intervention has toppled our regime!"
+
+	is_triggered_only = yes
+
+	immediate = {
+		government = democracy
+		political_reform = wealth_weighted_voting
+		political_reform = state_equal_weight
+	}
+
+	option = {
+		name = "How terrible!"
+	}
 }

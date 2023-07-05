@@ -36,7 +36,7 @@ pensions = trinket_pensions
 health_care = trinket_health_care
 school_reforms = low_schools
 
-ruling_party = USA_conservative
+ruling_party = generic_conservative
 last_election = 1960.1.1
 upper_house = {
 	fascist = 0
