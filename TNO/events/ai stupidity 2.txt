@@ -7,7 +7,7 @@ country_event = {
 		FROM = {
 			relation = {
 				who = THIS
-				value = -200
+				value = -400
 			}
 			diplomatic_influence = {
 				who = THIS

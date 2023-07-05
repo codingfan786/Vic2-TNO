@@ -70,6 +70,7 @@ political_decisions = {
 						owner = {tag = THIS}
 					}
 					vassal_of = THIS
+					exists = no
 				}
 			}
 			XIN = {
@@ -78,6 +79,7 @@ political_decisions = {
 						owner = {tag = THIS}
 					}
 					vassal_of = THIS
+					exists = no
 				}
 			}
 			YNN = {
@@ -86,6 +88,7 @@ political_decisions = {
 						owner = {tag = THIS}
 					}
 					vassal_of = THIS
+					exists = no
 				}
 			}
 			state_n_government = 1
@@ -212,4 +215,54 @@ political_decisions = {
 		}
 	}
 
+	CHI_unify = {
+		picture = raise_the_bonnie_blue_flag
+		potential = {
+			tag = CHI
+			NOT = {has_country_flag = china_unify}
+		}
+		allow = {
+			WCH = {
+				all_core = {
+					OR = {
+						owner = {tag = THIS}
+						owner = {in_sphere = THIS}
+					}
+				}
+			}
+			is_vassal = no
+			is_greater_power = yes
+		}
+		effect = {
+			set_country_flag = china_unify
+			WCH = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+		}
+	}
+
+	WCH_unify = {
+		picture = raise_the_bonnie_blue_flag
+		potential = {
+			tag = WCH
+			NOT = {has_country_flag = china_unify}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			OR = {
+				is_greater_power = yes
+				CHI = {is_greater_power = yes}
+			}
+		}
+		effect = {
+			set_country_flag = china_unify
+			CHI = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+		}
+	}
 }

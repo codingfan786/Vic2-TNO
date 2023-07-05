@@ -19,16 +19,16 @@ country_event = {
 			}
 
 			#japan keeps sphering west china which prevents them from ever unifying
-			AND = {
-				any_sphere_member = {
-					OR = {
-						tag = XBI
-						tag = XIN
-						tag = YNN
-					}
-				}
-				tag = JAP
-			}
+			#AND = {
+			#	any_sphere_member = {
+			#		OR = {
+			#			tag = XBI
+			#			tag = XIN
+			#			tag = YNN
+			#		}
+			#	}
+			#	tag = JAP
+			#}
 			
 		}
 		
@@ -64,25 +64,25 @@ country_event = {
 				country_event = { id=500087 days=0 }
 			}
 		}
-		any_owned = {
-			limit = {
-				is_capital = yes
-				owner = {
-					tag = JAP
-				}
-			}
-			any_country = {
-				limit = {
-					in_sphere = THIS
-					OR = {
-						tag = XBI
-						tag = XIN
-						tag = YNN
-					}
-				}
-				country_event = { id=500087 days=0 }
-			}
-		}
+		#any_owned = {
+		#	limit = {
+		#		is_capital = yes
+		#		owner = {
+		#			tag = JAP
+		#		}
+		#	}
+		#	any_country = {
+		#		limit = {
+		#			in_sphere = THIS
+		#			OR = {
+		#				tag = XBI
+		#				tag = XIN
+		#				tag = YNN
+		#			}
+		#		}
+		#		country_event = { id=500087 days=0 }
+		#	}
+		#}
 	}
 }
 

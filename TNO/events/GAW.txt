@@ -9,7 +9,14 @@ country_event = {
 		set_global_flag = gaw_ongoing
 		set_global_flag = gaw_started
 		release_vassal = CHI
+		government = fascist_dictatorship
 		remove_country_modifier = CHI_mobnerf
+		JAP = {
+			diplomatic_influence = {
+				who = CHI
+				value = -600
+			}
+		}
 		any_owned = {
 			limit = {
 				is_capital = yes
@@ -118,6 +125,7 @@ country_event = {
 				add_core = WCH
 			}
 		}
+		WCH = {set_country_flag = china_unify}
 	}
 	option = {
 		name = "Only time will tell..."

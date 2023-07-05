@@ -45,40 +45,25 @@ political_decisions = {
 					OR = {
 						tag = FED
 						is_our_vassal = FED
-						FED = {
-							all_core = {
-								OR = {
-									owned_by = THIS
-									province_id = 1085
-									province_id = 1084
-									province_id = 2617
-								}
-								
-
-							}
+						AND = {
+							RUS_1074 = {owner = {tag = THIS}}
+							RUS_2590 = {owner = {tag = THIS}}
+							RUS_2621 = {owner = {tag = THIS}}
+							RUS_2618 = {owner = {tag = THIS}}
 						}
+						
 					}
 					OR = {
 						tag = NAV
 						is_our_vassal = NAV
-						NAV = {
-							all_core = {
-								OR = {
-									owned_by = THIS
-									province_id = 1085
-									province_id = 1084
-									province_id = 2617
-								}
-							}
+						AND = {
+							RUS_1072 = {owner = {tag = THIS}}
+							RUS_1079 = {owner = {tag = THIS}}
 						}
+						
 					}
 					OR = {
 						is_our_vassal = NKV
-						NKV = {
-							all_core = {
-								owned_by = THIS
-							}
-						}
 						AND = {
 							RUS_2668 = {owner = {tag = THIS}}
 							RUS_1071 = {owner = {tag = THIS}}
@@ -94,61 +79,74 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 20
-			any_country = {
-				limit = {
-					tag = FED
-					NOT = {tag = THIS}
-				}
-				all_core = {
-					add_core = THIS
-				}
-				THIS = {inherit = FED}
-			}
 
 			any_country = {
 				limit = {
-					tag = NKV
+					tag = FED
+					is_our_vassal = FED
 					NOT = {tag = THIS}
 				}
-				all_core = {
-					add_core = THIS
+				THIS = {inherit = FED}
+			}
+			any_country = {
+				limit = {
+					is_our_vassal = NKV
+					tag = NKV
+					NOT = {tag = THIS}
 				}
 				THIS = {inherit = NKV}
 			}
 			any_country = {
 				limit = {
 					tag = NAV
+					is_our_vassal = NAV
 					NOT = {tag = THIS}
-				}
-				all_core = {
-					add_core = THIS
 				}
 				THIS = {inherit = NAV}
 			}
 
+			FED = {
+				all_core = {add_core = THIS}
+			}
+			NAV = {
+				all_core = {add_core = THIS}
+			}
+			NKV = {
+				all_core = {add_core = THIS}
+			}
 			all_core = {
 				add_core = ALK
 			}
 
-			NAV = {
-				all_core = {
-					remove_core = NAV
-				}
-			}
-
-			FED = {
-				all_core = {
-					remove_core = FED
-				}
-			}
-
-			NKV = {
-				all_core = {
-					remove_core = NKV
-				}
-			}
-
 			change_tag = ALK
+			set_country_flag = made_in_russia
+
+			any_owned = {
+				remove_core = NAV
+				remove_core = NKV
+				remove_core = FED
+			}
+			any_country = {
+				limit = {
+					tag = FED
+					NOT = {exists = yes}
+				}
+				all_core = {remove_core = FED}
+			}
+			any_country = {
+				limit = {
+					tag = NKV
+					NOT = {exists = yes}
+				}
+				all_core = {remove_core = NKV}
+			}
+			any_country = {
+				limit = {
+					tag = NAV
+					NOT = {exists = yes}
+				}
+				all_core = {remove_core = NAV}
+			}
 			
 		}
 		ai_will_do = {
@@ -249,21 +247,9 @@ political_decisions = {
 		allow = {
 			OR = {
 				AND = {
-					#RAR = {all_core = {owner = {tag =RAR}}}
-					#RUS = {all_core = {owner = {tag =RAR}}}
-
-					#OR = {
-						#RUS = {all_core = {owner = {tag =RAR}}}
-						#NOT = {exists = RUS}
-					#}
 					1026 = {owner = {tag = RAR}}
 					1030 = {owner = {tag = RAR}}
 					1034 = {owner = {tag = RAR}}
-
-					#OR = {
-					#	NUC = {all_core = {owner = {tag =RAR}}}
-					#	NOT = {exists = NUC}
-					#}
 					RUS_2685 = {owner = {tag = RAR}}
 				}
 				has_global_flag = rus_unified
@@ -275,6 +261,40 @@ political_decisions = {
 			RUS = {all_core = {add_core = SOV}}
 			NUC = {all_core = {add_core = SOV}}
 			change_tag = SOV
+			set_country_flag = made_in_russia
+			any_owned = {
+				remove_core = RAR
+				remove_core = RUS
+				remove_core = NUC
+			}
+
+			any_country = {
+				limit = {
+					NOT = {exists = yes}
+					tag = RAR
+				}
+				all_core = {
+					remove_core = RAR
+				}
+			}
+			any_country = {
+				limit = {
+					NOT = {exists = yes}
+					tag = NUC
+				}
+				all_core = {
+					remove_core = NUC
+				}
+			}
+			any_country = {
+				limit = {
+					NOT = {exists = yes}
+					tag = RUS
+				}
+				all_core = {
+					remove_core = RUS
+				}
+			}
 		}
 	}
 
@@ -287,13 +307,13 @@ political_decisions = {
 		allow = {
 			OR = {
 				AND = {
-					NKV = {all_core = {owner = {tag =NKV}}}
+					NKV = {all_core = {owner = {tag = NKV}}}
 					OR = {
-						FED = {all_core = {owner = {tag =NKV}}}
+						FED = {all_core = {owner = {tag = NKV}}}
 						NOT = {exists = FED}
 					}
 					OR = {
-						NAV = {all_core = {owner = {tag =NKV}}}
+						NAV = {all_core = {owner = {tag = NKV}}}
 						NOT = {exists = NAV}
 					}
 					
@@ -308,6 +328,40 @@ political_decisions = {
 			FED = {all_core = {add_core = SOV}}
 			NAV = {all_core = {add_core = SOV}}
 			change_tag = SOV
+			set_country_flag = made_in_russia
+			any_owned = {
+				remove_core = NAV
+				remove_core = NKV
+				remove_core = FED
+			}
+
+			any_country = {
+				limit = {
+					NOT = {exists = yes}
+					tag = NKV
+				}
+				all_core = {
+					remove_core = NKV
+				}
+			}
+			any_country = {
+				limit = {
+					NOT = {exists = yes}
+					tag = FED
+				}
+				all_core = {
+					remove_core = FED
+				}
+			}
+			any_country = {
+				limit = {
+					NOT = {exists = yes}
+					tag = NAV
+				}
+				all_core = {
+					remove_core = NAV
+				}
+			}
 		}
 	}
 

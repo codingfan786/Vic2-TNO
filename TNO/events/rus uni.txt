@@ -64,20 +64,192 @@ country_event = {
 				remove_core = WA2
 			}
 		}
-	}
-
-	option = {
-		name = "Towards national reconstruction!"
 		any_country = {
 			limit = {
 				primary_culture = russian
 				NOT = {tag = MSC}
-				war = no
+				#war = no
 			}
 			prestige = 20
 			war_exhaustion = -50
+			add_country_modifier = {
+				name = Peace_and_stability
+				duration = 7300
+			}
+			
 		}
 	}
 
+	option = {
+		name = "Towards national reconstruction!"
+		
+	}
 
+
+}
+
+country_event = {
+	id = 500111
+	title = "Removing dead russian cores."
+	desc = "This will prevent rebel spam in russia to a degree."
+	trigger = {
+		NOT = {has_global_flag = rus_unified}
+		tag = JAN
+		OR = {
+			AND = {
+				NKV= {	NOT = {exists = yes}}
+				NKV= {	NOT = {has_country_flag = rus_cores_cleared}}
+			}
+			AND = {
+				FED= {	NOT = {exists = yes}}
+				FED= {	NOT = {has_country_flag = rus_cores_cleared}}
+			}
+			AND = {
+				NAV= {	NOT = {exists = yes}}
+				NAV= {	NOT = {has_country_flag = rus_cores_cleared}}
+			}
+			AND = {
+				WA1= {	NOT = {exists = yes}}
+				WA1= {	NOT = {has_country_flag = rus_cores_cleared}}
+			}
+			AND = {
+				WA2= {	NOT = {exists = yes}}
+				WA2= {	NOT = {has_country_flag = rus_cores_cleared}}
+			}
+			AND = {
+				NUC= {	NOT = {exists = yes}}
+				NUC= {	NOT = {has_country_flag = rus_cores_cleared}}
+			}
+			AND = {
+				RAR= {	NOT = {exists = yes}}
+				RAR= {	NOT = {has_country_flag = rus_cores_cleared}}
+			}
+			AND = {
+				RUS= {	NOT = {exists = yes}}
+				RUS= {	NOT = {has_country_flag = rus_cores_cleared}}
+			}
+			AND = {
+				SOV= {	NOT = {exists = yes}}
+				SOV= {	NOT = {has_country_flag = rus_cores_cleared}}
+				SOV = {has_country_flag = made_in_russia}
+			}
+			AND = {
+				ALK= {	NOT = {exists = yes}}
+				ALK= {	NOT = {has_country_flag = rus_cores_cleared}}
+				ALK = {has_country_flag = made_in_russia}
+			}
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				tag = SOV
+			}
+			set_country_flag = rus_cores_cleared
+			all_core = {
+
+				remove_core = SOV
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				tag = RAR
+			}
+			set_country_flag = rus_cores_cleared
+			all_core = {
+				remove_core = RAR
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				tag = RUS
+			}
+			set_country_flag = rus_cores_cleared
+			all_core = {
+				remove_core = RUS
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				tag = NUC
+			}
+			set_country_flag = rus_cores_cleared
+			all_core = {
+				remove_core = NUC
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				tag = WA1
+			}
+			set_country_flag = rus_cores_cleared
+			all_core = {
+				remove_core = WA1
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				tag = WA2
+			}
+			set_country_flag = rus_cores_cleared
+			all_core = {
+				remove_core = WA2
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				tag = FED
+			}
+			set_country_flag = rus_cores_cleared
+			all_core = {
+				remove_core = FED
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				tag = NAV
+			}
+			set_country_flag = rus_cores_cleared
+			all_core = {
+				remove_core = NAV
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				tag = ALK
+			}
+			set_country_flag = rus_cores_cleared
+			all_core = {
+				remove_core = ALK
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				tag = NKV
+			}
+			set_country_flag = rus_cores_cleared
+			all_core = {
+				remove_core = NKV
+			}
+		}
+	}
+	option = {
+		name = "Sorry."
+	}
 }

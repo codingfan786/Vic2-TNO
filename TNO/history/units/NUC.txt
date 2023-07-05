@@ -1,10 +1,10 @@
 WA1 = {
 	value = 0
-	truce_until = "1965.1.1"
+	truce_until = "1964.1.1"
 }
 WA2 = {
 	value = 0
-	truce_until = "1965.1.1"
+	truce_until = "1964.1.1"
 }
 army = {
 	name = "1a Armata" #done

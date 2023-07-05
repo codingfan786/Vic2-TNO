@@ -140,21 +140,8 @@ political_decisions = {
 				tag = BLT
 				tag = UKR
 			}
-			MSC = {
-				NOT = {government = fascist_dictatorship}
-				NOT = {is_vassal = yes}
-			}
-			BLT = {
-				NOT = {government = fascist_dictatorship}
-				NOT = {is_vassal = yes}
-			}
-			UKR = {
-				NOT = {government = fascist_dictatorship}
-				NOT = {is_vassal = yes}
-			}
 		}
 		allow = {
-			year = 1962
 			OR = {
 				state_n_government = 1
 				AND = {
@@ -162,7 +149,15 @@ political_decisions = {
 					year = 1972
 				}
 			}
-			
+			MSC = {
+				NOT = {government = fascist_dictatorship}
+			}
+			BLT = {
+				NOT = {government = fascist_dictatorship}
+			}
+			UKR = {
+				NOT = {government = fascist_dictatorship}
+			}
 			OR = {
 				tag = MSC
 				MSC = {ai = yes}
@@ -207,7 +202,7 @@ political_decisions = {
 			inherit = MSC
 			inherit = UKR
 			primary_culture = byelorussian
-			add_accepted_culture = russian
+			remove_accepted_culture = russian #too OP
 			add_accepted_culture = ukrainian
 			add_accepted_culture = lithuanian
 			add_accepted_culture = latvian
@@ -244,6 +239,73 @@ political_decisions = {
 					}
 				}
 			}
+		}
+	}
+
+	FEU_getcores = {
+		picture = abolish_prohibition
+		potential = {
+			tag = FEU
+			NOT = {has_country_flag = has_polish_and_czech_cores}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			all_core = {
+				owner = {tag = THIS}
+			}
+		}
+		effect = {
+			set_country_flag = has_polish_and_czech_cores
+			CZH = {
+				all_core = {add_core = FEU}
+			}
+			POL = {
+				all_core = {add_core = FEU}
+			}
+			947 = {add_core = FEU}
+			691 = {add_core = FEU}
+			692 = {add_core = FEU}
+			699 = {add_core = FEU}
+			700 = {add_core = FEU}
+			701 = {add_core = FEU}
+			710 = {add_core = FEU}
+			717 = {add_core = FEU}
+			712 = {add_core = FEU}
+			706 = {add_core = FEU}
+			708 = {add_core = FEU}
+			709 = {add_core = FEU}
+			707 = {add_core = FEU}
+			719 = {add_core = FEU}
+			936 = {add_core = FEU}
+			938 = {add_core = FEU}
+			939 = {add_core = FEU}
+			940 = {add_core = FEU}
+			937 = {add_core = FEU}
+			957 = {add_core = FEU}
+			956 = {add_core = FEU}
+			955 = {add_core = FEU}
+
+		}
+	}
+
+	FEU_getaccepted = {
+		picture = abolish_prohibition	
+		potential = {
+			tag = FEU
+			NOT = {has_country_flag = FEU_revanched3}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			has_country_flag = has_polish_and_czech_cores
+			all_core = {
+				owner = {tag = THIS}
+			}
+		}
+		effect = {
+			set_country_flag = FEU_revanched3
+			add_accepted_culture = polish
+			add_accepted_culture = czech
+			add_accepted_culture = slovak
 		}
 	}
 

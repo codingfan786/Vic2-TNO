@@ -1997,7 +1997,7 @@ indian_sepoys = {
 		modifier = {
 			factor = 0
 			NOT = {
-				continent = asia
+				continent = central_asia
 			}
 		}
 		

@@ -19,7 +19,7 @@ Romania
 
 Poland
 
-The german puppets
+The german puppets (Ukraine, Baltics, Moscow)
 
 Red army remnants
 
