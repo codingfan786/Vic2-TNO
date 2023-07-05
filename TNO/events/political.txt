@@ -1,0 +1,156 @@
+country_event = {
+	id = 500112
+	title = "flag setter for fascist governments"
+	desc = "hate this game"
+
+	trigger = {
+		tag = JAN
+		NOT = {has_country_modifier = campaign_timer}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_country = {
+			limit = {
+				government = fascist_dictatorship 
+				NOT = {has_country_flag = fascist_gov_type}
+			}
+			set_country_flag = fascist_gov_type
+		}
+		any_country = {
+			limit = {
+				NOT = {government = fascist_dictatorship} 
+				has_country_flag = fascist_gov_type 
+			}
+			clr_country_flag = fascist_gov_type
+		}
+		add_country_modifier = { name = campaign_timer duration = 30 }
+	}
+
+	option = {
+		name = "there's seriously no better way to do this..."
+	}
+
+}
+
+country_event = {
+	id = 500113
+	title = "The power of democracy."
+	desc = "Due to increasing liberalization of our government some political reforms have been pushed through."
+	trigger = {
+		OR = {
+			AND = {
+				OR = {
+					government = proletarian_dictatorship
+					government = presidential_dictatorship
+					government = bourgeois_dictatorship
+					government = fascist_dictatorship
+					government = absolute_monarchy
+				}
+				NOT = {vote_franschise = none_voting}
+			}
+			
+			AND = {
+				OR = {
+					government = prussian_constitutionalism
+					government = hms_government
+					government = democracy
+				}
+				vote_franschise = none_voting
+			}
+
+			AND = {
+				OR = {
+					government = prussian_constitutionalism
+					government = hms_government
+				}
+				OR = {
+					vote_franschise = universal_weighted_voting
+					vote_franschise = universal_voting
+				}
+				OR = {
+					upper_house_composition = state_equal_weight
+					upper_house_composition = population_equal_weight
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					OR = {
+						government = proletarian_dictatorship
+						government = presidential_dictatorship
+						government = bourgeois_dictatorship
+						government = fascist_dictatorship
+					}
+					NOT = {vote_franschise = none_voting}
+				}
+			}
+			THIS = {government = democracy}
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					OR = {
+						government = absolute_monarchy
+					}
+					NOT = {vote_franschise = none_voting}
+				}
+			}
+			THIS = {government = prussian_constitutionalism}
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					OR = {
+						government = prussian_constitutionalism
+						government = hms_government
+						government = democracy
+					}
+					vote_franschise = none_voting
+				}
+			}
+			THIS = {political_reform = wealth_weighted_voting}
+		}
+
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					OR = {
+						government = prussian_constitutionalism
+						government = hms_government
+					}
+					OR = {
+						vote_franschise = universal_weighted_voting
+						vote_franschise = universal_voting
+					}
+					OR = {
+						upper_house_composition = state_equal_weight
+						upper_house_composition = population_equal_weight
+					}
+				}
+			}
+			THIS = {government = democracy}
+		}
+	}
+
+	option = {
+		name = "Shouldn't have legalized voting if you didn't want to be a democracy..."
+	}
+
+
+}

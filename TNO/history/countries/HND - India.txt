@@ -29,13 +29,13 @@ nonstate_consciousness = 0
 
 
 slavery = no_slavery
+vote_franschise = wealth_weighted_voting
 upper_house_composition = appointed
-vote_franschise = none_voting
-public_meetings = no_meeting
+voting_system = jefferson_method
+public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = jefferson_method
-political_parties = underground_parties
+political_parties = gerrymandering
 
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit

@@ -6,22 +6,14 @@ fascist_group = {
 		uncivilized = no
 		color = { 60 60 60 }
 	
-		
+
 		add_political_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = fascist }
-			}
+			base = 0
 		}
 	
 	
 		remove_political_reform = {
 			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = fascist }
-			}
 		}
 	
 	
@@ -29,7 +21,10 @@ fascist_group = {
 			base = 1
 			modifier = {
 				factor = -1
-				NOT = { ruling_party_ideology = fascist }
+				OR = {
+					NOT = { ruling_party_ideology = fascist }
+					num_of_revolts = 1
+				}
 			}
 		}
 	
@@ -38,7 +33,10 @@ fascist_group = {
 			base = 1
 			modifier = {
 				factor = -1
-				NOT = { ruling_party_ideology = fascist }
+				OR = {
+					NOT = { ruling_party_ideology = fascist }
+					num_of_revolts = 1
+				}
 			}
 		}
 		

@@ -28,13 +28,13 @@ voting_system = first_past_the_post
 political_parties = gerrymandering
 
 # Social Reforms
-wage_reform = trinket_wage
-work_hours = no_work_hour_limit
-safety_regulations = no_safety
-health_care = no_health_care
-unemployment_subsidies = no_subsidies
-pensions = no_pensions 
-school_reforms = no_schools
+wage_reform = low_minimum_wage
+work_hours = fourteen_hours
+safety_regulations = low_safety
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+health_care = trinket_health_care
+school_reforms = low_schools
 
 ruling_party = USA_conservative
 last_election = 1960.1.1

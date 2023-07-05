@@ -4,7 +4,7 @@ color = { 255  255  255 }
 party = {
 	name = "CSA_anarcho_liberal"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = anarcho_liberal
 
@@ -18,7 +18,7 @@ party = {
 party = {
 	name = "CSA_conservative"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = conservative
 
@@ -32,7 +32,7 @@ party = {
 party = {
 	name = "CSA_liberal"
 	start_date = 2000.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = liberal
 
@@ -46,7 +46,7 @@ party = {
 party = {
 	name = "CSA_liberal_2"
 	start_date = 2000.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = liberal
 
@@ -60,7 +60,7 @@ party = {
 party = {
 	name = "CSA_liberal_3"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = liberal
 
@@ -74,7 +74,7 @@ party = {
 party = {
 	name = "CSA_socialist"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = socialist
 
@@ -88,7 +88,7 @@ party = {
 party = {
 	name = "CSA_reactionary"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = reactionary
 
@@ -102,7 +102,7 @@ party = {
 party = {
 	name = "CSA_communist"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = communist
 
@@ -116,7 +116,7 @@ party = {
 party = {
 	name = "CSA_fascist"
 	start_date = 1905.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = fascist
 

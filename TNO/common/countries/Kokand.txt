@@ -5,7 +5,7 @@ graphical_culture = MiddleEasternGC
 party = {
 	name = "KOK_conservative"
 	start_date = 1800.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = conservative
 
@@ -19,7 +19,7 @@ party = {
 party = {
 	name = "KOK_liberal"
 	start_date = 1820.1.1
-	end_date = 1936.1.1
+	end_date = 2062.1.1
 
 	ideology = liberal
 
@@ -33,7 +33,7 @@ party = {
 party = {
 	name = "KOK_reactionary"
 	start_date = 1820.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = reactionary
 
@@ -47,7 +47,7 @@ party = {
 party = {
 	name = "KOK_anarcho_liberal"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = anarcho_liberal
 
@@ -61,7 +61,7 @@ party = {
 party = {
 	name = "KOK_socialist"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = socialist
 
@@ -75,7 +75,7 @@ party = {
 party = {
 	name = "KOK_communist"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = communist
 
@@ -89,7 +89,7 @@ party = {
 party = {
 	name = "KOK_fascist"
 	start_date = 1905.1.1
-	end_date = 2000.1.1
+	end_date = 2062.1.1
 
 	ideology = fascist
 

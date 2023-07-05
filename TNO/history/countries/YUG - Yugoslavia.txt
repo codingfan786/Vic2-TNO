@@ -13,24 +13,21 @@ literacy = 0.28
  
 prestige = 10
 
-# Political reforms
 slavery = no_slavery
-upper_house_composition = state_equal_weight
 vote_franschise = wealth_voting
-public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = no_trade_unions
+upper_house_composition = appointed
 voting_system = jefferson_method
-political_parties = non_secret_ballots
-
-# Social Reforms
-wage_reform = no_minimum_wage
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+political_parties = gerrymandering
+wage_reform = low_minimum_wage
 work_hours = fourteen_hours
-safety_regulations = trinket_safety
+safety_regulations = low_safety
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
 health_care = trinket_health_care
-unemployment_subsidies = no_subsidies
-pensions = no_pensions 
-school_reforms = no_schools
+school_reforms = low_schools
 
 ruling_party = YUG_conservative
 last_election = 1960.1.1

@@ -11,22 +11,20 @@ literacy = 0.87
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = universal_weighted_voting
-public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
+vote_franschise = none_voting
+upper_house_composition = party_appointed
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
-
-# Social Reforms
-wage_reform = low_minimum_wage
-work_hours = twelve_hours
-safety_regulations = good_safety
-health_care = good_health_care
-unemployment_subsidies = low_subsidies
-pensions = good_pensions 
-school_reforms = no_schools
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+political_parties = underground_parties
+wage_reform = trinket_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+health_care = trinket_health_care
+school_reforms = low_schools
 
 
 ruling_party = ISR_liberal

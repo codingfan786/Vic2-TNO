@@ -10,26 +10,23 @@ literacy = 0.55
  
 
 #GreaterPowers = prestige
-prestige = 0
+prestige = 5
 
 
-# Political reforms
 slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = wealth_voting
-public_meetings = yes_meeting
-press_rights = censored_press
-trade_unions = non_socialist
+vote_franschise = none_voting
+upper_house_composition = party_appointed
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
-
-# Social Reforms
-wage_reform = no_minimum_wage
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+political_parties = underground_parties
+wage_reform = trinket_wage
 work_hours = no_work_hour_limit
 safety_regulations = trinket_safety
-health_care = trinket_health_care
 unemployment_subsidies = trinket_subsidies
-pensions = no_pensions 
+pensions = trinket_pensions
+health_care = trinket_health_care
 school_reforms = low_schools
 
 # Technologies

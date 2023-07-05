@@ -266,6 +266,9 @@ political_decisions = {
 			CHI = {set_country_flag = jap_rebel}
 			YNN = {set_country_flag = ynn_formed}
 			XIN = {set_country_flag = xin_formed}
+			JAN = {
+				country_event = 500112
+			}
 		}
 	}
 }

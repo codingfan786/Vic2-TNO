@@ -29,19 +29,18 @@ liberal = 33
 anarcho_liberal = 0
 }
 slavery = no_slavery
-vote_franschise = population_equal_weight
-upper_house_composition = proportional_representation
-voting_system = first_past_the_post
+vote_franschise = wealth_voting
+upper_house_composition = appointed
+voting_system = jefferson_method
 public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
-political_parties = secret_ballots
-wage_reform = good_minimum_wage
-work_hours = eight_hours
-safety_regulations = good_safety
-unemployment_subsidies = good_subsidies
-pensions = good_pensions
-health_care = good_health_care
-school_reforms = good_schools
-
+press_rights = state_press
+trade_unions = no_trade_unions
+political_parties = gerrymandering
+wage_reform = low_minimum_wage
+work_hours = fourteen_hours
+safety_regulations = low_safety
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+health_care = trinket_health_care
+school_reforms = low_schools
 

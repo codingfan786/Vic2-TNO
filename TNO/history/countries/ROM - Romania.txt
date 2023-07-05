@@ -10,24 +10,21 @@ non_state_culture_literacy = 0.3
  
 prestige = 15
 
-# Political reforms
 slavery = no_slavery
-upper_house_composition = appointed
 vote_franschise = none_voting
+upper_house_composition = party_appointed
+voting_system = first_past_the_post
 public_meetings = no_meeting
-press_rights = censored_press
-trade_unions = non_socialist
-voting_system = jefferson_method
-political_parties = non_secret_ballots
-
-# Social Reforms
-wage_reform = no_minimum_wage
-work_hours = twelve_hours
-safety_regulations = no_safety
+press_rights = state_press
+trade_unions = no_trade_unions
+political_parties = underground_parties
+wage_reform = trinket_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
 health_care = trinket_health_care
-unemployment_subsidies = no_subsidies
-pensions = trinket_pensions 
-school_reforms = no_schools
+school_reforms = low_schools
 
 ruling_party = ROM_liberal
 upper_house = {

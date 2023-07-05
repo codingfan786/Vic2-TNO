@@ -5,7 +5,10 @@ political_decisions = {
 		potential = {
 			#always = no
 			NOT = {has_country_flag = spy_agency_formed}
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				tag = BRG
+			}
 		}
 		allow = {
 			money = 500000
@@ -28,7 +31,10 @@ political_decisions = {
 			has_country_flag = spy_agency_formed
 		}
 		allow = {
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				tag = BRG
+			}
 			NOT = {has_country_modifier = spying}
 			NOT = {war = yes}
 		}
@@ -62,7 +68,10 @@ political_decisions = {
 			has_country_flag = spy_agency_formed
 		}
 		allow = {
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				tag = BRG
+			}
 			NOT = {has_country_modifier = spying}
 			NOT = {war = yes}
 		}
@@ -97,7 +106,10 @@ political_decisions = {
 			has_country_flag = spy_agency_formed
 		}
 		allow = {
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				tag = BRG
+			}
 			NOT = {has_country_modifier = spying}
 			NOT = {war = yes}
 		}
