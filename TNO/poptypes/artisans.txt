@@ -25,15 +25,15 @@ luxury_needs = {
 	coffee = 2
 }
 
-everyday_needs = {
-	coal = 1
-	liquor = 5
-	regular_clothes = 5
-	furniture = 4
-	paper = 5
-	glass = 1
-	tobacco = 3
-	tea = 5
+everyday_needs = {#halved
+	coal = 0.5
+	liquor = 2.5
+	regular_clothes = 2.5
+	furniture = 2
+	paper = 2.5
+	glass = 0.5
+	tobacco = 1.5
+	tea = 2.5
 }
 
 life_needs = {

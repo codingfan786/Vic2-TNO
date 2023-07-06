@@ -6,13 +6,13 @@ equivalent = farmers
 
 
 
-everyday_needs = {
-	tea = 4
-	coal = 1
-	liquor = 3
-	regular_clothes = 1.2
-	furniture = 1.1
-	explosives = 0.25
+everyday_needs = {#halved
+	tea = 2
+	coal = .5
+	liquor = 1.5
+	regular_clothes = .6
+	furniture = .55
+	explosives = 0.125
 }
 
 life_needs = {

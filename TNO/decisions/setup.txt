@@ -274,6 +274,64 @@ political_decisions = {
 			NKV = {set_country_flag = NKV_formed}
 			FED = {set_country_flag = FED_formed}
 			NAV = {set_country_flag = NAV_formed}
+
+
+			
+		}
+	}
+
+	german_fascism_support = {
+		potential = {
+			tag = GER
+			NOT = {has_country_flag = taken_support}
+		}
+		allow = {
+			
+			
+			
+		}
+		effect = {
+			set_country_flag = taken_support
+			GGE = {
+				any_owned = {
+					any_pop = {
+						ideology = {
+							factor = 3
+							value = fascist
+						}
+					}
+				}
+			}
+			HGE = {
+				any_owned = {
+					any_pop = {
+						ideology = {
+							factor = 3
+							value = fascist
+						}
+					}
+				}
+			}
+			BGE = {
+				any_owned = {
+					any_pop = {
+						ideology = {
+							factor = 3
+							value = fascist
+						}
+					}
+				}
+			}
+			SGE = {
+				any_owned = {
+					any_pop = {
+						ideology = {
+							factor = 3
+							value = fascist
+						}
+					}
+				}
+			}
 		}
 	}
 }

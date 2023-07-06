@@ -74,8 +74,7 @@ policestate_modifier = {
 			government = fascist_dictatorship
 		}
 	}
-	global_pop_consciousness_modifier = -0.01
-	global_pop_militancy_modifier = -0.01
+	global_pop_militancy_modifier = -0.02
 	#administrative_multiplier = 2
 	icon = 17 
 }
@@ -92,7 +91,7 @@ one_party_state_modifier = {
 	literacy_con_impact = -0.25
 	political_reform_desire = -0.2
 	social_reform_desire = -0.2
-	
+	global_pop_militancy_modifier = -0.02
 	icon = 17 
 }
 #

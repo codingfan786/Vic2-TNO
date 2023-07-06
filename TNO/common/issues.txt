@@ -512,23 +512,23 @@ social_reforms = {
 		next_step_only = yes
 		no_subsidies = {
 		}
-		trinket_subsidies = {
-			unemployment_benefit = 0.25
+		trinket_subsidies = {#benefits timed by three
+			unemployment_benefit = 0.75
 			global_immigrant_attract = 0.02 #2% was 0.01
 		}
 		low_subsidies = {
-			unemployment_benefit = 0.50
+			unemployment_benefit = 1.5
 			global_immigrant_attract = 0.04 #4% was 0.02
 		}
 		acceptable_subsidies = {
-			unemployment_benefit = 0.75
+			unemployment_benefit = 2.25
 			global_immigrant_attract = 0.06 #6% was 0.03
 			allow = { 
 				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 		good_subsidies = {
-			unemployment_benefit = 1.0
+			unemployment_benefit = 3
 			global_immigrant_attract = 0.10 #10% was 0.04
 			allow = { 
 				NOT = {has_country_flag = fascist_gov_type}
