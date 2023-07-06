@@ -1364,11 +1364,11 @@ separatism = {
 		}
 	}
 	effect = {
-		seperatism = 0.5
-		rebel_org_gain = {
-			faction = nationalist_rebels 
-			value = 0.33
-		}
+		#seperatism = 0.5
+		#rebel_org_gain = {
+		#	faction = nationalist_rebels 
+		#	value = 0.33
+		#}
 	}
 }
 
@@ -1406,10 +1406,10 @@ dogma_of_mass_action = {
 		}
 	}
 	effect = {
-		rebel_org_gain = {
-			faction = communist_rebels
-			value = 0.25
-		}
+		#rebel_org_gain = {
+		#	faction = communist_rebels
+		#	value = 0.25
+		#}
 	}
 }
 terrorism = {
@@ -1448,9 +1448,9 @@ terrorism = {
 #}
 secret_police = {
 	news = no
-	limit = { revolution_n_counterrevolution = 1 }
+	limit = { ideological_thought = 1 }
 	chance = {
-		base = 2
+		base = 20
 		modifier = {
 			factor = 3
 			OR = {
@@ -1535,10 +1535,10 @@ nostalgic_romanticism = {
 	}
 	effect = {
 		war_exhaustion = -0.05
-		rebel_org_gain = {
-			faction = reactionary_rebels
-			value = 0.50
-		}
+		#rebel_org_gain = {
+		#	faction = reactionary_rebels
+		#	value = 0.50
+		#}
 	}
 }
 anti_egalitarianism = {
@@ -1575,10 +1575,10 @@ vangaurd_party = {
 		}
 	}
 	effect = {
-		rebel_org_gain = {
-			faction = communist_rebels
-			value = 0.75
-		}
+		#rebel_org_gain = {
+		#	faction = communist_rebels
+		#	value = 0.75
+		#}
 	}
 }
 #mass_politics
@@ -1601,10 +1601,10 @@ the_doctrine_of_fascism = {
 		}
 	}
 	effect = {
-		rebel_org_gain = {
-			faction = fascist_rebels
-			value = 0.75
-		}
+		#rebel_org_gain = {
+		#	faction = fascist_rebels
+		#	value = 0.75
+		#}
 	}
 }
 paramilitary_groups = {
@@ -1622,17 +1622,17 @@ paramilitary_groups = {
 		}
 	}
 	effect = {
-		rebel_org_gain = {
-			faction = fascist_rebels
-			value = 0.25
-		} 
+		#rebel_org_gain = {
+		#	faction = fascist_rebels
+		#	value = 0.25
+		#} 
 	}
 }
 the_police_state = {
-	limit = { mass_politics = 1 }
+	limit = { state_n_government = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 20
 		modifier = {
 			factor = 3
 			OR = {

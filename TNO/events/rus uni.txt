@@ -9,41 +9,48 @@ country_event = {
 		primary_culture = russian
 		NOT = {tag = MSC}
 
+		#two in the middle dead
 		NOT = {exists = WA1}
 		NOT = {exists = WA2}
+		
+		#one person left from the west
 		OR = {
-			
-			exists = SOV
-			
 			AND = {
 				NOT = {exists = RAR}
 				NOT = {exists = NUC}
+				NOT = {SOV = {has_country_flag = RAR_formed}}
 			}
 			AND = {
 				NOT = {exists = RUS}
 				NOT = {exists = NUC}
 			}
+
 			AND = {
 				NOT = {exists = RAR}
 				NOT = {exists = RUS}
+				NOT = {SOV = {has_country_flag = RAR_formed}}
 			}
 		}
 
+		#one person left from the east
 		OR = {
 			
-			exists = ALK
-			
 			AND = {
 				NOT = {exists = NAV}
 				NOT = {exists = FED}
+				NOT = {exists = ALK}
 			}
 			AND = {
 				NOT = {exists = NKV}
+				NOT = {SOV = {has_country_flag = NKV_formed}}
 				NOT = {exists = FED}
+				NOT = {ALK = {has_country_flag = FED_formed}}
 			}
 			AND = {
 				NOT = {exists = NKV}
+				NOT = {SOV = {has_country_flag = NKV_formed}}
 				NOT = {exists = NAV}
+				NOT = {ALK = {has_country_flag = NAV_formed}}
 			}
 		}
 	}

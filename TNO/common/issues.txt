@@ -311,6 +311,8 @@ political_reforms = {
 	public_meetings = {
 		no_meeting = {
 			#no immediate effect
+			political_reform_desire = -0.2
+			social_reform_desire = -0.2
 		}
 		yes_meeting = {
 			issue_change_speed = 1
@@ -324,6 +326,8 @@ political_reforms = {
 		state_press = {
 			literacy_con_impact = -0.25
 			suppression_points_modifier = 0.25
+			political_reform_desire = -0.2
+			social_reform_desire = -0.2
 		}
 		censored_press = {
 			issue_change_speed = 0.25

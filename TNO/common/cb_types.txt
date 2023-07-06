@@ -2488,7 +2488,7 @@ warreps = {
 	crisis = yes
 	construction_speed = 0.5
 	can_use = {
-
+		NOT = {THIS = {ai = yes}}
 	}
 
 	badboy_factor = 0.2

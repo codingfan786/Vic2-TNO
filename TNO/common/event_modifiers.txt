@@ -13,8 +13,8 @@ Peace_and_stability = {
 
 demo_hung = {
 	global_assimilation_rate = 0.5
-	global_pop_militancy_modifier = -0.01
-	global_pop_consciousness_modifier = -0.01
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = -0.05
 	icon = 5
 }
 
@@ -139,7 +139,7 @@ racial_integration = {
 }
 
 racial_discontent = {
-	pop_militancy_modifier = 0.10
+	pop_militancy_modifier = 0.05
 	icon = 20
 }
 

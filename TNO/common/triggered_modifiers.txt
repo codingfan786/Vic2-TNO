@@ -65,36 +65,36 @@ political_reformed_nation = {
 
 
 ### Fascism/Communism Country Modifiers, triggered by invention and government type ### MOVED TO COUNTRY MODIFIERS
-#policestate_modifier = {
-#	trigger = {
-#		#year = 1837
-#		invention = the_police_state
-#		OR = {
-#			government = proletarian_dictatorship
-#			government = fascist_dictatorship
-#		}
-#	}
-#	global_pop_consciousness_modifier = -0.01
-#	global_pop_militancy_modifier = -0.01
-#	#administrative_multiplier = 2
-#	icon = 17 
-#}
-#
-#one_party_state_modifier = {
-#	trigger = {
-#		#year = 1837
-#		invention = the_one_party_state
-#		OR = {
-#			government = proletarian_dictatorship
-#			government = fascist_dictatorship
-#		}
-#	}
-#	literacy_con_impact = -0.25
-#	political_reform_desire = -0.2
-#	social_reform_desire = -0.2
-#	
-#	icon = 17 
-#}
+policestate_modifier = {
+	trigger = {
+		#year = 1837
+		invention = secret_police
+		OR = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	global_pop_consciousness_modifier = -0.01
+	global_pop_militancy_modifier = -0.01
+	#administrative_multiplier = 2
+	icon = 17 
+}
+
+one_party_state_modifier = {
+	trigger = {
+		#year = 1837
+		invention = the_police_state
+		OR = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	literacy_con_impact = -0.25
+	political_reform_desire = -0.2
+	social_reform_desire = -0.2
+	
+	icon = 17 
+}
 #
 #totalitarianism_modifier = {
 #	trigger = {

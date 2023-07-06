@@ -589,6 +589,20 @@ province_event = {
 			any_neighbor_province = { is_core = THIS }
 			state_scope = { total_pops = 100000 }
 		}	
+		OR = {
+			NOT = {
+				owner = {
+					OR = {
+						tag = GGE
+						tag = HGE
+						tag = SGE
+						tag = BGE
+					}
+				}
+			}
+			NOT = {GER = {exists = yes}}
+		}
+					
 	}
 	
 	mean_time_to_happen = {

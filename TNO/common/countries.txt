@@ -3,7 +3,7 @@
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
-GER		= "countries/Germania.txt"
+GER		= "countries/Germany.txt"
 HGE 	= "countries/Heydrich.txt"
 BGE 	= "countries/Bormann.txt"
 GGE 	= "countries/Goring.txt"

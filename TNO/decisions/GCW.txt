@@ -57,6 +57,43 @@ political_decisions = {
 				who = EGA
 				value = 600
 			}
+
+			any_country = {
+				limit = {
+					tag = GGE
+					NOT = {tag = THIS}
+				}
+				all_core = {remove_core = GGE}
+			}
+
+			any_country = {
+				limit = {
+					tag = SGE
+					NOT = {tag = THIS}
+				}
+				all_core = {remove_core = SGE}
+			}
+			any_country = {
+				limit = {
+					tag = HGE
+					NOT = {tag = THIS}
+				}
+				all_core = {remove_core = HGE}
+			}
+			any_country = {
+				limit = {
+					tag = BGE
+					NOT = {tag = THIS}
+				}
+				all_core = {remove_core = BGE}
+			}
+			any_country = {
+				limit = {
+					tag = GER
+					NOT = {tag = THIS}
+				}
+				all_core = {remove_core = GER}
+			}
 		}
 	}
 

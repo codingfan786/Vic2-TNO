@@ -19,7 +19,7 @@ oob = "GER.txt"
 
 #========================= H O U S E - O F - L O R D S =========================
 
-ruling_party = GER_fascist_72
+ruling_party = GER_fascist
 upper_house = {
 fascist = 90
 reactionary = 0

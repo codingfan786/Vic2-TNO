@@ -346,7 +346,7 @@ liberal_group = {
 			base = 0
 		}
 		add_social_reform = {
-			base = 0
+			base = 0.6
 			
 			group = {
 				modifier = {

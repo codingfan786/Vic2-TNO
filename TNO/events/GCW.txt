@@ -15,31 +15,46 @@ country_event = {
 				exists = GGE
 				exists = SGE
 				exists = GER
+				GGE = {NOT = {war_with = SGE}}
 			}
 			AND = {
 				exists = GGE
 				exists = HGE
 				exists = GER
+				GGE = {NOT = {war_with = HGE}}
 			}
 			AND = {
 				exists = GGE
 				exists = BGE
 				exists = GER
+				GGE = {NOT = {war_with = BGE}}
+				GGE = {
+					OR = {
+						NOT = {has_country_flag = bge_peace}
+						AND = {
+							NOT = {exists = SGE}
+							NOT = {exists = HGE}
+						}
+					}
+				}
 			}
 			AND = {
 				exists = BGE
 				exists = HGE
 				exists = GER
+				BGE = {NOT = {war_with = HGE}}
 			}
 			AND = {
 				exists = BGE
 				exists = SGE
 				exists = GER
+				BGE = {NOT = {war_with = SGE}}
 			}
 			AND = {
 				exists = SGE
 				exists = HGE
 				exists = GER
+				SGE = {NOT = {war_with = HGE}}
 			}
 		}
 

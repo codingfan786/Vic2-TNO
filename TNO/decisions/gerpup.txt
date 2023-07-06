@@ -185,11 +185,13 @@ political_decisions = {
 			BLT = {
 				all_core = {
 					add_core = FEU
+					remove_core = BLT
 				}
 			}
 			MSC = {
 				all_core = {
 					add_core = FEU
+					remove_core = MSC
 				}
 			}
 			UKR = {

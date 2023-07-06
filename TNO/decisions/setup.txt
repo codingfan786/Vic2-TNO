@@ -269,6 +269,11 @@ political_decisions = {
 			JAN = {
 				country_event = 500112
 			}
+			
+			RAR = {set_country_flag = RAR_formed}
+			NKV = {set_country_flag = NKV_formed}
+			FED = {set_country_flag = FED_formed}
+			NAV = {set_country_flag = NAV_formed}
 		}
 	}
 }
