@@ -213,13 +213,16 @@ country_event = {
 		random_country = {
 			limit = {
 				NOT = {tag = THIS}
-				
+				any_owned_province = {
+					culture = polish
+				}
 				has_pop_culture = polish
 				
 			}
 			random_owned = {
 				limit = {
 					has_pop_culture = polish
+					culture = polish
 				}
 				any_pop = {
 					limit = {
@@ -227,6 +230,11 @@ country_event = {
 					}
 					move_pop = 1181
 				}
+				add_province_modifier = {
+					name = poles_left
+					duration = 3650
+				}
+				
 			}
 		}
 	}

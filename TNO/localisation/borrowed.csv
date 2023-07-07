@@ -69,3 +69,7 @@ generic_socialist;Generic Socialist;;;;;;;;;;;;;x
 generic_communist;Generic Communist;;;;;;;;;;;;;x
 generic_fascist;Generic Fascist;;;;;;;;;;;;;x
 generic_anarcho;Generic Anarcho-liberal;;;;;;;;;;;;;x
+bureaucrats_fix_cooldown;Non-Accepted Bureaucrats Fix Cooldown;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+bureaucrats_fix_cooldown_desc;Non-Accepted Bureaucrats Fix Cooldown is 10 years.;;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;
+bureaucrats_fix_title;Non-Accepted Bureaucrats Decision (10 year cooldown);;;;;;;;;;;;;;x
+bureaucrats_fix_desc;This decision is intended to convert non-accepted Bureaucrats into Artisans, in both states and colonies, so they stop getting fat off of state admin funding.;;;;;;;;;;;;;;x

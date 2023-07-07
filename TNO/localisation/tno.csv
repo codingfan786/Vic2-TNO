@@ -376,3 +376,4 @@ warreps;War reparations;;;;;;;;;;;
 warreps_desc;Demand war reparations from target country.;;;;;;;;;;;;x
 warreps_short;Demand war reparations from $RECIPIENT$.;;;;;;;;;;;;;x
 warreps_setup;Demand war reparations from $RECIPIENT$.;;;;;;;;;;;;x
+poles_left;Polish land vacancies.;;;;;;;;;;;;x

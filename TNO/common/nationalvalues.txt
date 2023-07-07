@@ -11,6 +11,7 @@ nv_liberty = {
 }
 
 nv_equality = {
+	global_assimilation_rate = 0.35
 	culture_tech_research_bonus = 0.05
 	mobilisation_size = 0.01
 }

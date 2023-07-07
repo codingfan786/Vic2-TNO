@@ -47,6 +47,75 @@ political_decisions = {
 					months = 70
 				}
 			}
+
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						ai = yes
+					}
+				}
+				any_country = {
+					limit = {
+						tag = BOH
+						NOT = {vassal_of = GGE}
+						exists = yes
+					}
+					GGE = {
+						war = {
+							target = BOH
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+
+				any_country = {
+					limit = {
+						tag = SLV
+						NOT = {vassal_of = GGE}
+						exists = yes
+					}
+					GGE = {
+						war = {
+							target = SLV
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+
+				any_country = {
+					limit = {
+						tag = CZH
+						NOT = {vassal_of = GGE}
+						exists = yes
+					}
+					GGE = {
+						war = {
+							target = CZH
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+
+				any_country = {
+					limit = {
+						tag = POL
+						NOT = {vassal_of = GGE}
+						exists = yes
+					}
+					GGE = {
+						war = {
+							target = POL
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+				
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -54,7 +123,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					war = yes
-					badboy = 0.2
+					badboy = 0.4
 				}
 			}
 		}
@@ -111,7 +180,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					war = yes
-					badboy = 0.2
+					badboy = 0.4
 				}
 			}
 		}
@@ -171,7 +240,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					war = yes
-					badboy = 0.2
+					badboy = 0.4
 				}
 			}
 		}
@@ -236,7 +305,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					war = yes
-					badboy = 0.2
+					badboy = 0.4
 				}
 			}
 		}
@@ -303,6 +372,186 @@ political_decisions = {
 					months = 70
 				}
 			}
+
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						ai = yes
+						tag = BGE
+					}
+				}
+				any_country = {
+					limit = {
+						tag = BOH
+						NOT = {
+							OR = {
+								vassal_of = HGE
+								vassal_of = BGE
+							}
+						}
+						exists = yes
+					}
+					BGE = {
+						war = {
+							target = BOH
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+
+				any_country = {
+					limit = {
+						tag = SLV
+						NOT = {
+							OR = {
+								vassal_of = HGE
+								vassal_of = BGE
+							}
+						}
+						exists = yes
+					}
+					BGE = {
+						war = {
+							target = SLV
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+
+				any_country = {
+					limit = {
+						tag = CZH
+						NOT = {
+							OR = {
+								vassal_of = HGE
+								vassal_of = BGE
+							}
+						}
+						exists = yes
+					}
+					BGE = {
+						war = {
+							target = CZH
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+
+				any_country = {
+					limit = {
+						tag = POL
+						NOT = {
+							OR = {
+								vassal_of = HGE
+								vassal_of = BGE
+							}
+						}
+						exists = yes
+					}
+					BGE = {
+						war = {
+							target = POL
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+				
+			}
+
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						ai = yes
+						tag = HGE
+					}
+				}
+				any_country = {
+					limit = {
+						tag = BOH
+						NOT = {
+							OR = {
+								vassal_of = HGE
+								vassal_of = BGE
+							}
+						}
+						exists = yes
+					}
+					HGE = {
+						war = {
+							target = BOH
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+
+				any_country = {
+					limit = {
+						tag = SLV
+						NOT = {
+							OR = {
+								vassal_of = HGE
+								vassal_of = BGE
+							}
+						}
+						exists = yes
+					}
+					HGE = {
+						war = {
+							target = SLV
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+
+				any_country = {
+					limit = {
+						tag = CZH
+						NOT = {
+							OR = {
+								vassal_of = HGE
+								vassal_of = BGE
+							}
+						}
+						exists = yes
+					}
+					HGE = {
+						war = {
+							target = CZH
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+
+				any_country = {
+					limit = {
+						tag = POL
+						NOT = {
+							OR = {
+								vassal_of = HGE
+								vassal_of = BGE
+							}
+						}
+						exists = yes
+					}
+					HGE = {
+						war = {
+							target = POL
+							attacker_goal = {casus_belli = ger_annex}
+							call_ally = yes
+						}
+					}
+				}
+				
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -310,7 +559,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					war = yes
-					badboy = 0.2
+					badboy = 0.4
 				}
 			}
 		}
@@ -380,7 +629,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					war = yes
-					badboy = 0.2
+					badboy = 0.6
 				}
 			}
 		}
@@ -454,7 +703,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					war = yes
-					badboy = 0.2
+					badboy = 0.4
 				}
 			}
 		}
@@ -519,7 +768,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					war = yes
-					badboy = 0.2
+					badboy = 0.4
 				}
 			}
 		}
@@ -592,7 +841,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					war = yes
-					badboy = 0.2
+					badboy = 0.6
 				}
 			}
 		}
