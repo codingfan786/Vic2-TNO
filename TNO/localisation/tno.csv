@@ -377,3 +377,20 @@ warreps_desc;Demand war reparations from target country.;;;;;;;;;;;;x
 warreps_short;Demand war reparations from $RECIPIENT$.;;;;;;;;;;;;;x
 warreps_setup;Demand war reparations from $RECIPIENT$.;;;;;;;;;;;;x
 poles_left;Polish land vacancies.;;;;;;;;;;;;x
+ofn_comeupance;O.F.N. Interest.;;;;;;;;;;;;x
+ofn_disinterest;O.F.N. Disinterest.;;;;;;;;;;;;x
+ofn_trust_being_considered;This modifier prevents a certain O.F.N. event spam in MP.;;;;;;;;;;;;x
+ofn_trust_being_considered2;This modifier prevents a certain O.F.N. event spam in MP.;;;;;;;;;;;;x
+ofn_mandate;Enforce O.F.N. Trust Mandate;;;;;;;;;;;;x
+ofn_mandate_short;Enforce the O.F.N. Trust Mandate.;;;;;;;;;;;;x
+ofn_mandate_setup;Enforce the O.F.N. Trust Mandate.;;;;;;;;;;;;x
+ofn_contension;O.F.N. Contension.;;;;;;;;;;;;x
+ofn_contimer;O.F.N. Contension Timer.;;;;;;;;;;;;x
+event500124desc;$FROMCOUNTRY$ has requested the return of their land in possession of the O.F.N. Trust Territories. They claim that they have fullfilled all obligations and requirements of the Trust Mandate to return the region to democratic rules. The judgement of this claim is entirely up to us.;;;;;;;;;;;;x
+recently_requested_ofn_trust;Recently requested O.F.N. Trust return.;;;;;;;;;;;;x
+request_OFN_trust_title;Request Our O.F.N. Trust Territory.;;;;;;;;;;;;x
+request_OFN_trust_desc;It is time for the O.F.N. to return our territory. We have clearly demonstrated democratic principles and popular rule! There is no way they will refuse us! §R This will have a higher liklihood of succeeding if you have good relations with the O.F.N. leader and allow people to vote.;;;;;;;;;;;;x
+ofn_leader;O.F.N. Head.;;;;;;;;;;;;x
+has_nukes;Possesses Nuclear Weapons.;;;;;;;;;;;;x
+take_OFN_trust_title;Take Our Territory From The O.F.N. Trust;;;;;;;;;;;;x
+take_OFN_trust_desc;As the leader of the O.F.N. we have the advantage of being able to reclaim our lands that have been put under a trust mandate without consulting the rest of the organization.;;;;;;;;;;;;x

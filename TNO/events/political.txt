@@ -1,6 +1,6 @@
 country_event = {
 	id = 500112
-	title = "flag setter for fascist governments"
+	title = "flag setter for fascist governments and some other things"
 	desc = "hate this game"
 
 	trigger = {
@@ -13,6 +13,83 @@ country_event = {
 	}
 
 	immediate = {
+		any_country = {
+			limit = {
+				has_country_flag = ofn_leader
+				OR = {
+					NOT = {capital_scope = {has_province_modifier = ofn_leader}}
+					any_owned_province = {
+						has_province_modifier = ofn_leader
+						NOT= {is_capital = yes}
+					}
+				}
+			}
+			capital_scope = {
+				add_province_modifier = {
+					name = ofn_leader
+					duration = -1
+				}
+			}
+			
+			any_owned = {
+				limit = {
+					NOT= {is_capital = yes}
+				}
+				remove_province_modifier = ofn_leader
+			}
+
+		}
+
+		any_country = {
+			limit = {
+				NOT = {has_country_flag = ofn_leader}
+				any_owned_province = {has_province_modifier = ofn_leader}
+			}
+			
+			any_owned = {
+				remove_province_modifier = ofn_leader
+			}
+		}
+
+		any_country = {
+			limit = {
+				has_country_flag = nuke
+				OR = {
+					NOT = {capital_scope = {has_province_modifier = has_nukes}}
+					any_owned_province = {
+						has_province_modifier = has_nukes
+						NOT= {is_capital = yes}
+					}
+				}
+			}
+			capital_scope = {
+				add_province_modifier = {
+					name = has_nukes
+					duration = -1
+				}
+			}
+			
+			any_owned = {
+				limit = {
+					NOT= {is_capital = yes}
+				}
+				remove_province_modifier = has_nukes
+			}
+
+		}
+
+		any_country = {
+			limit = {
+				NOT = {has_country_flag = nuke}
+				any_owned_province = {has_province_modifier = has_nukes}
+			}
+			
+			any_owned = {
+				remove_province_modifier = has_nukes
+			}
+		}
+
+
 		any_country = {
 			limit = {
 				government = fascist_dictatorship 

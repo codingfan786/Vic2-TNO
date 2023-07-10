@@ -603,7 +603,10 @@ assimilation_chance =
 			literacy = 0.8
 		}
 	}
-
+	modifier = {
+		factor = -2000
+		location = {owner = {has_country_flag = is_ofn_trust}}
+	}
 	#modifier = { #removed
     #	factor = -20
 	#	has_culture_core = yes

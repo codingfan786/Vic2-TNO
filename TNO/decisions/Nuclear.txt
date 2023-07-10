@@ -50,15 +50,15 @@ political_decisions = {
 			NOT = {has_country_modifier = nuc_dev}
 			has_country_flag = nuke
 			war = yes
-			OR = {
-				AND = {
-					NOT = {tag = HGE}
-					NOT = {tag = GGE}
-					NOT = {tag = BGE}
-					NOT = {tag = SGE}
-				}
-				NOT = {exists = GER}
-			}
+			#OR = {
+			#	AND = {
+			#		NOT = {tag = HGE}
+			#		NOT = {tag = GGE}
+			#		NOT = {tag = BGE}
+			#		NOT = {tag = SGE}
+			#	}
+			#	NOT = {exists = GER}
+			#}
 			NOT = {exists = GER}
 		}
 		allow = {
@@ -91,15 +91,15 @@ political_decisions = {
 			NOT = {has_country_modifier = nuc_dev}
 			has_country_flag = nuke
 			war = yes
-			OR = {
-				AND = {
-					NOT = {tag = HGE}
-					NOT = {tag = GGE}
-					NOT = {tag = BGE}
-					NOT = {tag = SGE}
-				}
-				NOT = {exists = GER}
-			}
+			#OR = {
+			#	AND = {
+			#		NOT = {tag = HGE}
+			#		NOT = {tag = GGE}
+			#		NOT = {tag = BGE}
+			#		NOT = {tag = SGE}
+			#	}
+			#	NOT = {exists = GER}
+			#}
 			NOT = {exists = GER}
 		}
 		allow = {

@@ -1,0 +1,52 @@
+political_decisions = {
+	request_OFN_trust = {
+		picture = OFN
+		potential = {
+			exists = yes
+			OFN = {any_owned_province= {is_core = THIS}}
+			NOT = {has_country_flag = ofn_leader}
+		}
+
+		allow = {
+			NOT = {has_country_modifier = recently_requested_ofn_trust}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = recently_requested_ofn_trust
+				duration = 1825
+			}
+			any_country = {
+				limit = {
+					has_country_flag = ofn_leader
+				}
+				country_event = 500124
+			}
+		}
+
+	}
+
+	take_OFN_trust = {
+		picture = OFN
+		potential = {
+			exists = yes
+			OFN = {any_owned_province= {is_core = THIS}}
+			has_country_flag = ofn_leader
+		}
+		allow = {
+
+		}
+		effect = {
+			OFN  = {
+				any_owned = {
+					limit = {
+						is_core = THIS
+					}
+					secede_province = THIS
+					remove_core = OFN
+				}
+			}
+		}
+	}
+
+}

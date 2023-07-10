@@ -275,8 +275,15 @@ political_decisions = {
 			FED = {set_country_flag = FED_formed}
 			NAV = {set_country_flag = NAV_formed}
 
-
 			
+			USA = {set_country_flag = ofn_leader}
+			OFN = {
+				add_country_modifier = {
+					name = ofn_NO_ASSIM
+					duration = -1
+				}
+				set_country_flag = is_ofn_trust
+			}
 		}
 	}
 

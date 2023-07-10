@@ -36,7 +36,12 @@ political_decisions = {
 			NOT = {409 = {is_core = FRA}}
 		}
 		allow = {
-			all_core = {owner = {tag = FRA}}
+			all_core = {
+				OR = {
+					owner = {tag = FRA}
+					is_core = ITA
+				}
+			}
 			nationalism_n_imperialism = 1
 		}
 		effect = {
@@ -58,6 +63,7 @@ political_decisions = {
 			all_core = {
 				OR = {
 					owner = {tag = FRA}
+					is_core = ITA
 					province_id = 409
 					province_id = 410
 					province_id = 412
@@ -84,6 +90,7 @@ political_decisions = {
 			all_core = {
 				OR = {
 					owner = {tag = FRA}
+					is_core = ITA
 					province_id = 409
 					province_id = 410
 					province_id = 412

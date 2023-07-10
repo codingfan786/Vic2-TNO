@@ -1,0 +1,565 @@
+country_event = {
+	id = 500115
+	title = "O.F.N. Interests!"
+	desc = "Our ownership of foreign territory has provoked the attention of the O.F.N. If they choose to do so they may set up a trust territory should it be liberated."
+
+	trigger = {
+		NOT = {has_country_modifier = ofn_trust_being_considered}
+		NOT = {has_country_modifier = ofn_disinterest}
+		any_owned_province = {
+			OR = {
+				#state_scope = {has_flashpoint = yes}
+				state_scope = {flashpoint_tension = 1}
+			}
+
+			NOT = {is_core = THIS}
+			NOT = {is_core = OFN}
+			NOT = {is_colonial = yes}
+		}
+		NOT = {tag = OFN}
+		OR = {
+			NOT = {primary_culture = russian}
+			has_global_flag = rus_unified
+		}
+		war = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = ofn_trust_being_considered
+			duration = 60
+		}
+		any_country = {
+			limit = {has_country_flag = ofn_leader}
+			country_event = 500116
+		}
+		
+	}
+
+	option = {
+		name = "We will not tolerate foreign meddling!"
+	}
+}
+
+
+country_event = {
+	id = 500116
+	title = "O.F.N. Interests!"
+	desc = "Underground liberation movements in $FROMCOUNTRY$ have become more active recently. There is some talk in the O.F.N. that we should set up a trust territory there should it ever be liberated. Should we?"
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	option = {
+		name = "For a free world!"
+		FROM = {remove_country_modifier = ofn_trust_being_considered}
+		FROM = {
+			any_owned = {
+				limit = {
+					OR = {
+						#state_scope = {has_flashpoint = yes}
+						state_scope = {flashpoint_tension = 1}
+					}
+					NOT = {is_core = FROM}
+					NOT = {is_core = OFN}
+					NOT = {is_colonial = yes}
+				}
+				add_core = OFN
+				add_province_modifier = {
+					name = ofn_comeupance
+					duration = -1
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 0.9
+			modifier = {
+				factor = 0
+				OR = {
+					FROM = {government = democracy}
+					FROM = {government = prussian_constitutionalism}
+					FROM = {government = hms_government}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "We are not interested."
+		FROM = {remove_country_modifier = ofn_trust_being_considered}
+		FROM = {
+			add_country_modifier = {
+				name = ofn_disinterest
+				duration = 3650
+			}
+		}
+		
+		ai_chance = {
+			factor = 0.1
+		}
+	}
+
+	option = {
+		name = "We will NEVER be interested."
+		FROM = {remove_country_modifier = ofn_trust_being_considered}
+		FROM = {
+			add_country_modifier = {
+				name = ofn_disinterest
+				duration = -1
+			}
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 500117
+	title = "O.F.N. Interest Wanes."
+	desc = "With our coring of contentious territory the O.F.N. has lost interest in setting up a trust territory."
+
+	trigger = {
+		any_owned_province = {
+			is_core = THIS
+			is_core = OFN
+			has_province_modifier = ofn_comeupance
+		}
+		NOT = {tag = OFN}
+		war = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				is_core = THIS
+				is_core = OFN
+				has_province_modifier = ofn_comeupance
+			}
+			remove_core = OFN
+			remove_province_modifier = ofn_comeupance
+		}
+	}
+
+	option = {
+		name = "And stay out!"
+	}
+}
+
+country_event = {
+	id = 500118
+	title = "O.F.N. Cleanup."
+	desc = "You are seeing this event because you somehow took territory that had O.F.N. trust interest, or the O.F.N. province modifier was cleared improperly, or maybe everyones cores are fucked."
+
+	trigger = {
+		NOT = {tag = OFN}
+		any_owned_province = {
+			OR = {
+				AND = {
+					is_core = OFN
+					NOT = {is_core = THIS}
+					NOT = {has_province_modifier = ofn_comeupance}
+				}
+				AND = {
+					NOT = {is_core = OFN}
+					has_province_modifier = ofn_comeupance
+				}
+			}
+
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+					AND = {
+						is_core = OFN
+						NOT = {is_core = THIS}
+						NOT = {has_province_modifier = ofn_comeupance}
+					}
+					AND = {
+						NOT = {is_core = OFN}
+						has_province_modifier = ofn_comeupance
+					}
+				}
+			}
+			remove_core = OFN
+			remove_province_modifier = ofn_comeupance
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "I see."
+	}	
+}
+
+country_event = {
+	id = 500119
+	title = "O.F.N. Trust Territory Establishment."
+	desc = "Part of our country has been freed by the O.F.N. and they are considering establishing a trust territory."
+
+	trigger = {
+		any_owned_province = {
+			is_core = OFN
+			is_core = THIS
+			NOT = {has_province_modifier = ofn_comeupance}
+			NOT = {has_province_modifier = ofn_contension}
+		}
+		war = no
+		NOT = {has_country_modifier = ofn_trust_being_considered2}
+		NOT = {tag = OFN}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "We will submit to their discretion."
+		any_country = {
+			limit = {has_country_flag = ofn_leader}
+			country_event = 500120
+		}
+		add_country_modifier = {
+			name = ofn_trust_being_considered2
+			duration = 60
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+				any_owned_province = {
+					is_core = THIS
+					NOT = {is_core = OFN}
+				}
+			}
+			modifier = {
+				factor = 0
+				is_greater_power = yes
+			}
+		}
+	}
+
+	option = {
+		name = "We did not regain our liberty just to become slaves again!"
+		any_country = {
+			limit = {has_country_flag = ofn_leader}
+			country_event = 500121
+		}
+		add_country_modifier = {
+			name = ofn_trust_being_considered2
+			duration = 60
+		}
+		ai_chance = {
+			factor = 0.1
+		}
+	}
+}
+
+country_event = {
+	id = 500120
+	title = "O.F.N. Trust Territory Establishment."
+	desc = "The O.F.N. has liberated a free nation and we are considering establishing a trust territory there. Should we?"
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	option = {
+		name = "Of course! We will safeguard the proper transition to democracy."
+		FROM = {remove_country_modifier = ofn_trust_being_considered2}
+		FROM = {
+			country_event = 500122
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					FROM = {
+						any_owned_province = {
+							OR = {
+								any_neighbor_province = {
+									OR = {
+										owner = {tag = THIS}
+										owner = {in_sphere = THIS}
+										owner = {tag = OFN}
+									}
+								}
+								port = yes
+							}
+							
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "Why bother?"
+		FROM = {remove_country_modifier = ofn_trust_being_considered2}
+		FROM = {
+			any_owned = {
+				limit = {
+					is_core = FROM
+					is_core = OFN
+					NOT = {has_province_modifier = ofn_comeupance}
+				}
+				remove_core = OFN
+			}
+		}
+		ai_chance = {
+			factor = 0.1
+		}
+	}
+
+}
+
+country_event = {
+	id = 500121
+	title = "O.F.N. Trust Territory Establishment."
+	desc = "The O.F.N. has liberated a free nation, yet they are refusing the O.F.N. mandate! Should we intervene?"
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	option = {
+		name = "Of course! We will safeguard the proper transition to democracy."
+		FROM = {
+			remove_country_modifier = ofn_trust_being_considered2
+			add_casus_belli = {
+				target = THIS
+				type = ofn_mandate
+				months = 12
+			}
+			any_owned = {
+				limit = {
+					is_core = OFN
+					is_core = FROM
+					NOT = {has_province_modifier = ofn_comeupance}
+				}
+				add_province_modifier = {
+					name = ofn_contension
+					duration = -1
+				}
+				add_province_modifier = {
+					name = ofn_contimer
+					duration = 366
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					FROM = {
+						any_owned_province = {
+							OR = {
+								any_neighbor_province = {
+									OR = {
+										owner = {tag = THIS}
+										owner = {in_sphere = THIS}
+										owner = {tag = OFN}
+									}
+								}
+								port = yes
+							}
+							
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "Why bother?"
+		FROM = {remove_country_modifier = ofn_trust_being_considered2}
+		FROM = {
+			any_owned = {
+				limit = {
+					is_core = FROM
+					is_core = OFN
+					NOT = {has_province_modifier = ofn_comeupance}
+				}
+				remove_core = OFN
+			}
+		}
+		ai_chance = {
+			factor = 0.1
+		}
+	}
+
+}
+
+country_event = {
+	id = 500122
+	title = "O.F.N. Trust Territory should be puppeted."
+	desc = "This event will ensure the O.F.N. Trust Territory is ran by the O.F.N. leader."
+
+	trigger = {
+		OFN = {exists = yes}
+		has_country_flag = ofn_leader
+		NOT = {is_our_vassal = OFN}
+	}
+
+	immediate = {
+		OFN = {prestige = -1000}
+		create_vassal = OFN
+		OFN = {government = democracy}
+		OFN = {primary_culture = THIS}
+	}
+
+	option = {
+		name = "As it should be."
+	}
+}
+
+country_event = {
+	id = 500122
+	title = "O.F.N. Trust Territory enforced."
+	desc = "Our resistance has been thwarted by the O.F.N. The trust mandate has been enforced."
+	is_triggered_only = yes
+
+	immediate = {
+		any_owned = {
+			limit = {
+				is_core = THIS
+				is_core = OFN
+				NOT = {has_province_modifier = ofn_comeupance}
+			}
+			secede_province = OFN
+		}
+	}
+
+	option = {
+		name = "We will get it back one way or another."
+	}
+}
+
+country_event = {
+	id = 500123
+	title = "O.F.N. Trust Mandate Enforcement Failed!"
+	desc = "We have successfully defended our lands from the claws of the O.F.N.!"
+
+	trigger = {
+		war = no
+		any_owned_province = {
+			has_province_modifier = ofn_contension
+			NOT = {has_province_modifier = ofn_contimer}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				has_province_modifier = ofn_contension
+				NOT = {has_province_modifier = ofn_contimer}
+			}
+			remove_province_modifier = ofn_contension
+			remove_province_modifier = ofn_contimer
+			remove_core = OFN
+		}
+	}
+	option = {
+		name = "Hurray!"
+		prestige = 5
+	}
+}
+
+country_event = {
+	id = 500124
+	title = "O.F.N. Trust Mandate Negotiations."
+	desc = "event500124desc"
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	immediate = {
+	
+	}
+
+	option = {
+		name = "Let freedom ring!"
+		FROM = {country_event = 500125}
+		ai_chance = {
+			factor = 0.6
+			modifier = {
+				factor = 0
+				OR = {
+					FROM = {government = proletarian_dictatorship}
+					FROM = {government = presidential_dictatorship}
+					FROM = {government = bourgeois_dictatorship}
+					FROM = {government = fascist_dictatorship}
+					FROM = {government = absolute_monarchy}
+					ideology = fascist
+				}
+			}
+			modifier = {
+				factor = 2
+				relation = { who = FROM value = 150 }
+			}
+			modifier = {
+				factor = 2
+				alliance_with = FROM
+			}
+		}
+	}
+
+
+	option = {
+		name = "This is clearly a ploy being made by an undemocratic regime!"
+		ai_chance = {
+			factor = 0.4
+		}
+	}
+}
+
+country_event = {
+	id = 500125
+	title = "O.F.N. Trust Mandate Ended!"
+	desc = "The leader of the O.F.N. has deigned to end the trust mandate of our territory!"
+
+	is_triggered_only = yes
+
+	immediate = {
+		OFN = {
+			any_owned = {
+				limit = {
+					is_core = THIS
+				}
+				secede_province = THIS
+				remove_core = OFN
+			}
+		}
+	}
+	option = {
+		name = "Hurray!"
+		prestige = 5
+	}
+}

@@ -59,6 +59,10 @@ ALP = "countries/TransAlpine.txt"
 SOV = "countries/SovietUnion.txt"
 
 NPO = "countries/NowaPolska.txt"
+
+OFN = "countries/OrganizationFreeNations.txt"
+
+
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
 RUS		= "countries/Russia.txt"
