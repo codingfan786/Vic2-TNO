@@ -563,3 +563,41 @@ country_event = {
 		prestige = 5
 	}
 }
+
+country_event = {
+	id = 500126
+	title = "O.F.N. Interest Wanes."
+	desc = "With the lack of tension in contentious territory the O.F.N. has lost interest in setting up a trust territory."
+
+	trigger = {
+		any_owned_province = {
+			NOT = {is_core = THIS}
+			is_core = OFN
+			has_province_modifier = ofn_comeupance
+			NOT = {state_scope = {flashpoint_tension = 1}}
+		}
+		NOT = {tag = OFN}
+		war = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				NOT = {is_core = THIS}
+				is_core = OFN
+				has_province_modifier = ofn_comeupance
+				NOT = {state_scope = {flashpoint_tension = 1}}
+			}
+			remove_core = OFN
+			remove_province_modifier = ofn_comeupance
+		}
+	}
+
+	option = {
+		name = "And stay out!"
+	}
+}
