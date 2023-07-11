@@ -6,11 +6,10 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-			
+			prestige = ROM
 		}
 		effect = {
 			
 		}
 	}
-
 }

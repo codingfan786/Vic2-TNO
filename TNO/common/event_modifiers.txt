@@ -1,11 +1,26 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+tried_joining_ofn = {
+	
+}
+
+ofn_election_ongoing = {
+	
+}
+ofn_election_recent = {
+	
+}
+
 has_nukes = {
 	icon = 1
 }
 
 ofn_leader = {
+	icon = 9
+}
+
+ofn_member = {
 	icon = 9
 }
 

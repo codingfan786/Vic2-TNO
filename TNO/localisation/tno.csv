@@ -394,3 +394,11 @@ ofn_leader;O.F.N. Head.;;;;;;;;;;;;x
 has_nukes;Possesses Nuclear Weapons.;;;;;;;;;;;;x
 take_OFN_trust_title;Take Our Territory From The O.F.N. Trust;;;;;;;;;;;;x
 take_OFN_trust_desc;As the leader of the O.F.N. we have the advantage of being able to reclaim our lands that have been put under a trust mandate without consulting the rest of the organization.;;;;;;;;;;;;x
+event500129desc;$FROMCOUNTRY$ is currently trying to rally support to oust us from our position as O.F.N. head. Should we step down or follow through with the election?;;;;;;;;;;;;x
+ofn_election_recent;Recent O.F.N. election;;;;;;;;;;;;x
+event500132desc;$FROMCOUNTRY$ is requesting to join the O.F.N.! Although the general O.F.N. council is always supportive of new members, the ultimate decision is up to us as the leader of the O.F.N.;;;;;;;;;;;;x
+ofn_member;O.F.N. Member;;;;;;;;;;;;x
+ofn_try_election_title;Call for an O.F.N. election!;;;;;;;;;;;;x
+ofn_try_election_desc;We are obviously more capable of leading the O.F.N. than the current leader. We will call for an election among member states to instate us as the O.F.N. leader. §R Non-AI votes count much more. AI votes are influenced by your country score. (Maxes at 700 for each category.);;;;;;;;;;;;x
+ofn_join_title;Apply for O.F.N. Membership!;;;;;;;;;;;;x
+ofn_join_desc;The Organization of Free Nations (O.F.N.) was formed in 1947 by the United States of America and the British Commonwealth in Exile. It is an international security council with the aim of protecting democratic nations abroad. In practice it functions as a continuation of the Allied bloc in World War 2. If we have a good relation and possibly an alliance with the O.F.N. leader we have a good shot at being able to join the organization.;;;;;;;;;;;;x

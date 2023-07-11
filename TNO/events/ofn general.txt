@@ -1,0 +1,103 @@
+country_event = {
+	id = 500132
+	title = "O.F.N. New Membership!"
+	desc = "event500132desc"
+	allow_multiple_instances = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "The more the merrier!"
+		FROM = {
+			set_country_flag = in_ofn
+		}
+
+		ai_chance = {
+			factor = 1.5
+			modifier = {
+				factor = 0.5
+				truce_with = FROM
+			}
+			modifier = {
+				factor = 2
+				is_sphere_leader_of = FROM
+			}
+			modifier = {
+				factor = 2
+				alliance_with = FROM
+			}
+		}
+	}
+
+	option = {
+		name = "They seem like a security risk."
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = 500134
+	title = "Democracy in abeyance!"
+	desc = "Due to our countries lack of democratic rights we have been booted from the O.F.N.!"
+
+	trigger = {
+		OR = {
+			has_country_flag = in_ofn
+			has_country_flag = ofn_leader
+		}
+		NOT = {
+			OR = {
+				government = democracy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+	}
+
+	immediate = {
+		clr_country_flag = in_ofn
+		clr_country_flag = ofn_leader
+	}
+
+	option = {
+		name = "We didn't need them anyways!"
+	}
+
+}
+
+country_event = {
+	major = yes
+	id = 500135
+	title = "O.F.N. Emergency Election!"
+	desc = "Due to a sudden leadership gap from the former O.F.N. leaders fall from influence, $COUNTRY$ has been chosen to lead the O.F.N. in an emergency election."
+
+	trigger = {
+		NOT = {any_greater_power = {has_country_flag = ofn_leader}}
+		is_greater_power = yes
+		has_country_flag = in_ofn
+	}
+
+	immediate = {
+		set_country_flag = ofn_leader
+	}
+
+	option = {
+		name = "Hopefully we won't suffer the same fate."
+	}
+}
+
+country_event = {
+	major = yes
+	id = 500136
+	name = "a"
+	desc = "a"
+
+	trigger = {
+		always = no
+	}
+
+	option = {
+		name = "a"
+	}
+}

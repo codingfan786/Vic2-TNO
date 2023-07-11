@@ -277,6 +277,7 @@ political_decisions = {
 
 			
 			USA = {set_country_flag = ofn_leader}
+
 			OFN = {
 				add_country_modifier = {
 					name = ofn_NO_ASSIM
@@ -338,6 +339,36 @@ political_decisions = {
 						}
 					}
 				}
+			}
+		}
+	}
+
+	jan_should_be_ai = {
+		potential = {
+			tag = JAN
+			NOT = {has_country_flag = jan_setup}
+		}
+		allow = {}
+		effect = {
+			set_country_flag = jan_setup
+			#refine this to exclude places like switzerland, yugoslavia, scandinavia, east europe
+			any_country = {
+				limit = {
+					NOT = {tag = JAN}
+					OR = {
+						tag = SAF
+						capital_scope = {continent = north_america}
+						capital_scope = {continent = south_america}
+						capital_scope = {continent = oceania}
+						capital_scope = {continent = europe}
+					}
+					OR = {
+						government = democracy
+						government = prussian_constitutionalism
+						government = hms_government
+					}
+				}
+				set_country_flag = in_ofn
 			}
 		}
 	}

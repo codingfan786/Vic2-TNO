@@ -5,10 +5,12 @@ political_decisions = {
 			exists = yes
 			OFN = {any_owned_province= {is_core = THIS}}
 			NOT = {has_country_flag = ofn_leader}
+			NOT = {tag = OFN}
 		}
 
 		allow = {
 			NOT = {has_country_modifier = recently_requested_ofn_trust}
+			NOT = {war = yes}
 		}
 
 		effect = {
@@ -34,7 +36,7 @@ political_decisions = {
 			has_country_flag = ofn_leader
 		}
 		allow = {
-
+			NOT = {war = yes}
 		}
 		effect = {
 			OFN  = {

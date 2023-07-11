@@ -1,0 +1,475 @@
+country_event = {
+	id = 500127
+	title = "O.F.N. Election."
+	desc = "There is currently an election between $FROMCOUNTRY$ and the current O.F.N. head for the position. Who should we vote for?"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "The incumbent."
+
+		any_country = {
+			limit = {has_country_flag = ofn_leader}
+			change_variable = {
+				which = ofn_vote
+				value = 1
+			}
+		}
+		
+
+		ai_chance = {
+			factor = 0.8
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					prestige = 100
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					prestige = 200
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					prestige = 300
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					prestige = 400
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					prestige = 500
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					prestige = 600
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					prestige = 700
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					military_score = 100
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					military_score = 200
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					military_score = 300
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					military_score = 400
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					military_score = 500
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					military_score = 600
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					military_score = 700
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					industrial_score = 100
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					industrial_score = 200
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					industrial_score = 300
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					industrial_score = 400
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					industrial_score = 500
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					industrial_score = 600
+				}
+			}
+			modifier = {
+				factor = 1.2
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					industrial_score = 700
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "$FROMCOUNTRY$"
+
+		any_country = {
+			limit = {has_country_flag = ofn_leader}
+			change_variable = {
+				which = ofn_vote
+				value = -1
+			}
+		}
+
+		ai_chance = {
+			factor = 0.12
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					prestige = 100
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					prestige = 200
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					prestige = 300
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					prestige = 400
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					prestige = 500
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					prestige = 600
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					prestige = 700
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					military_score = 100
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					military_score = 200
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					military_score = 300
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					military_score = 400
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					military_score = 500
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					military_score = 600
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					military_score = 700
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					industrial_score = 100
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					industrial_score = 200
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					industrial_score = 300
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					industrial_score = 400
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					industrial_score = 500
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					industrial_score = 600
+				}
+			}
+			modifier = {
+				factor = 1.3
+				any_greater_power = {
+					has_country_flag = ofn_challenger
+					industrial_score = 700
+				}
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = 500128
+	title = "O.F.N. Election Results."
+	desc = "desc"
+
+	trigger = {
+		NOT = {JAN = {has_country_modifier = ofn_election_ongoing}}
+		has_global_flag = ofn_election
+		tag = JAN
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		random_owned = {
+			limit = {
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					check_variable = {
+						which = ofn_vote
+						value = 100
+					}
+				}
+			}
+			#do incumbent victory
+			any_country = {
+				limit = {has_country_flag = ofn_leader}
+				country_event = 500130
+			}
+			any_country = {
+				limit = {has_country_flag = ofn_challenger}
+				country_event = 500131
+			}
+		}
+
+		random_owned = {
+			limit = {
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					NOT = {
+						check_variable = {
+							which = ofn_vote
+							value = 100
+						}
+					}
+				}
+			}
+			#do challenger victory
+			any_country = {
+				limit = {has_country_flag = ofn_leader}
+				country_event = 500131
+			}
+			any_country = {
+				limit = {has_country_flag = ofn_challenger}
+				country_event = 500130
+			}
+		}
+	}
+
+	option = {
+		name = "I see."
+	}
+}
+
+country_event = {
+	id = 500129
+	title = "O.F.N. Election."
+	desc = "event500129desc"
+
+	is_triggered_only = yes
+
+	immediate = 
+
+	option = {
+		name = "Hahaha!"
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "There is no need for an election, we will concede."
+		any_country = {
+			limit = {has_country_flag = ofn_leader}
+			change_variable = {
+				which = ofn_vote
+				value = -100
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	major = yes
+	id = 500130
+	title = "O.F.N. Election Victory."
+	desc = "$COUNTRY$ has won the O.F.N. Election!"
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = ofn_leader
+		clr_global_flag = ofn_election
+		add_country_modifier = {
+			name = ofn_election_recent
+			duration = 3650
+		}
+		any_country = {
+			limit = {has_country_flag = ofn_challenger}
+			clr_country_flag = ofn_challenger
+		}
+	}
+
+	option = {
+		name = "This means you!"
+		prestige = 10
+	}
+}
+
+country_event = {
+	id = 500131
+	title = "O.F.N. Election Loss."
+	desc = "You have lost the O.F.N. Election!"
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = ofn_leader
+	}
+
+	option = {
+		name = "Terrible!"
+	}
+}
+

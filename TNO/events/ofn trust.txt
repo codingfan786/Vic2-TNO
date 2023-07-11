@@ -288,7 +288,7 @@ country_event = {
 		name = "Of course! We will safeguard the proper transition to democracy."
 		FROM = {remove_country_modifier = ofn_trust_being_considered2}
 		FROM = {
-			country_event = 500122
+			country_event = 500133
 		}
 		ai_chance = {
 			factor = 1
@@ -422,6 +422,7 @@ country_event = {
 		OFN = {exists = yes}
 		has_country_flag = ofn_leader
 		NOT = {is_our_vassal = OFN}
+		NOT = {OFN = {overlord = {war = yes}}}
 	}
 
 	immediate = {
@@ -437,7 +438,7 @@ country_event = {
 }
 
 country_event = {
-	id = 500122
+	id = 500133
 	title = "O.F.N. Trust Territory enforced."
 	desc = "Our resistance has been thwarted by the O.F.N. The trust mandate has been enforced."
 	is_triggered_only = yes

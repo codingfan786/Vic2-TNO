@@ -1,0 +1,114 @@
+political_decisions = {
+	ofn_try_election = {
+		picture = OFN
+		potential = {
+			NOT = {has_global_flag = ofn_election}
+			NOT = {has_country_flag = ofn_leader}
+			has_country_flag = in_ofn
+			any_greater_power = {
+				has_country_flag = ofn_leader
+			}
+			is_greater_power = yes
+			ai = no
+		}
+		allow = {
+			NOT = {war = yes}
+			NOT = {
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					has_country_modifier = ofn_election_recent
+				}
+			}
+		}
+		effect = {
+			set_country_flag = ofn_challenger
+			set_global_flag = ofn_election
+			#set variable to 100 on ofn leader
+			any_country = {
+				limit = {has_country_flag = ofn_leader}
+				set_variable = {
+					which = ofn_vote
+					value = 101
+				}
+				country_event = 500129
+			}
+			#send election events to everyone
+			any_country = {
+				limit = {
+					has_country_flag = in_ofn
+					NOT = {has_country_flag = ofn_leader}
+					NOT = {has_country_flag = ofn_challenger}
+				}
+				country_event = 500127
+			}
+			#send concede event to ofn leader
+
+			#NOT = {JAN = {has_country_modifier = ofn_election_ongoing}} needs to be taken care of
+			JAN = {
+				add_country_modifier = {
+					name = ofn_election_ongoing
+					duration = 30
+				}
+			}
+			#none of this shit will work since any_country isnt a trigger scope. fuck you paradox
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {tag = USA}
+			}
+		}
+	}
+
+
+	ofn_join = {
+		picture = OFN
+		potential = {
+			NOT = {tag = JAN}
+			NOT = {
+				has_country_flag = in_ofn
+			}
+			NOT = {
+				has_country_flag = ofn_leader
+			}
+		}
+		allow = {
+			NOT = {war = yes}
+			OR = {
+				government = democracy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			NOT = {has_country_modifier = tried_joining_ofn}
+		}
+		effect = {
+			add_country_modifier = {
+				name = tried_joining_ofn
+				duration = 3650
+			}
+			any_country = {
+				limit = {has_country_flag = ofn_leader}
+				country_event = 500132
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				AND = {#refine this to exclude places like switzerland, yugoslavia, scandinavia, east europe
+					NOT = {tag = SAF}
+					NOT = {
+						OR = {
+							capital_scope = {continent = north_america}
+							capital_scope = {continent = south_america}
+							capital_scope = {continent = oceania}
+							capital_scope = {continent = europe}
+						}
+					}
+				}
+				
+			}
+		}
+	}
+}
