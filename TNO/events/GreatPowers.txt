@@ -1,0 +1,24 @@
+country_event = {
+	id = 19355
+	title = "EVTNAME19355"
+	desc = "EVTDESC19355"
+	major = yes
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	trigger = {
+		great_wars_enabled = no
+		NOT = { has_global_flag = great_wars_enabled }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA19355"
+		great_wars_enabled = yes
+		set_global_flag = great_wars_enabled
+	}
+}
