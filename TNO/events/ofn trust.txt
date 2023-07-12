@@ -4,6 +4,7 @@ country_event = {
 	desc = "Our ownership of foreign territory has provoked the attention of the O.F.N. If they choose to do so they may set up a trust territory should it be liberated."
 
 	trigger = {
+		NOT = {has_global_flag = ofn_dissolved}
 		NOT = {has_country_modifier = ofn_trust_being_considered}
 		NOT = {has_country_modifier = ofn_disinterest}
 		any_owned_province = {
@@ -126,6 +127,7 @@ country_event = {
 	desc = "With our coring of contentious territory the O.F.N. has lost interest in setting up a trust territory."
 
 	trigger = {
+		NOT = {has_global_flag = ofn_dissolved}
 		any_owned_province = {
 			is_core = THIS
 			is_core = OFN
@@ -163,20 +165,32 @@ country_event = {
 
 	trigger = {
 		NOT = {tag = OFN}
-		any_owned_province = {
-			OR = {
-				AND = {
+		OR = {
+			AND = {
+				has_global_flag = ofn_dissolved
+				any_owned_province = {
 					is_core = OFN
-					NOT = {is_core = THIS}
-					NOT = {has_province_modifier = ofn_comeupance}
-				}
-				AND = {
-					NOT = {is_core = OFN}
-					has_province_modifier = ofn_comeupance
 				}
 			}
+			AND = {
+				any_owned_province = {
+					OR = {
+						AND = {
+							is_core = OFN
+							NOT = {is_core = THIS}
+							NOT = {has_province_modifier = ofn_comeupance}
+						}
+						AND = {
+							NOT = {is_core = OFN}
+							has_province_modifier = ofn_comeupance
+						}
+					}
 
+				}
+			}
 		}
+		
+		
 	}
 
 	mean_time_to_happen = {
@@ -201,6 +215,25 @@ country_event = {
 			remove_core = OFN
 			remove_province_modifier = ofn_comeupance
 		}
+		random_owned = {
+			limit = {
+				owner = {has_global_flag = ofn_dissolved}
+			}
+			owner = {
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = OFN
+							has_province_modifier = ofn_comeupance
+							has_province_modifier = ofn_contension
+						}
+					}
+					remove_core = OFN
+					remove_province_modifier = ofn_comeupance
+					remove_province_modifier = ofn_contension
+				}
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -218,6 +251,7 @@ country_event = {
 	desc = "Part of our country has been freed by the O.F.N. and they are considering establishing a trust territory."
 
 	trigger = {
+		NOT = {has_global_flag = ofn_dissolved}
 		any_owned_province = {
 			is_core = OFN
 			is_core = THIS
@@ -256,6 +290,13 @@ country_event = {
 			modifier = {
 				factor = 0
 				is_greater_power = yes
+			}
+			modifier = {
+				factor = 0 
+				any_greater_power = {
+					NOT = {has_country_flag = ofn_leader}
+					is_sphere_leader_of = THIS
+				}
 			}
 		}
 	}
@@ -419,10 +460,11 @@ country_event = {
 	desc = "This event will ensure the O.F.N. Trust Territory is ran by the O.F.N. leader."
 
 	trigger = {
+		NOT = {has_global_flag = ofn_dissolved}
 		OFN = {exists = yes}
 		has_country_flag = ofn_leader
 		NOT = {is_our_vassal = OFN}
-		NOT = {OFN = {overlord = {war = yes}}}
+		OFN = {overlord = {NOT = {war = yes}}}
 	}
 
 	immediate = {
@@ -465,6 +507,7 @@ country_event = {
 	desc = "We have successfully defended our lands from the claws of the O.F.N.!"
 
 	trigger = {
+		NOT = {has_global_flag = ofn_dissolved}
 		war = no
 		any_owned_province = {
 			has_province_modifier = ofn_contension
@@ -571,6 +614,7 @@ country_event = {
 	desc = "With the lack of tension in contentious territory the O.F.N. has lost interest in setting up a trust territory."
 
 	trigger = {
+		NOT = {has_global_flag = ofn_dissolved}
 		any_owned_province = {
 			NOT = {is_core = THIS}
 			is_core = OFN
@@ -596,6 +640,81 @@ country_event = {
 			remove_core = OFN
 			remove_province_modifier = ofn_comeupance
 		}
+	}
+
+	option = {
+		name = "And stay out!"
+	}
+}
+
+country_event = {
+	id = 500137
+	title = "O.F.N. Dissolvement."
+	desc = "With the dissolvement of the O.F.N. there is nothing to stop us from reclaiming our lands being held in the O.F.N. trust."
+
+	trigger = {
+		has_global_flag = ofn_dissolved
+		NOT = {tag = OFN}
+		war = no
+		any_core = {
+			owner = {
+				tag = OFN
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		all_core = {
+			limit = {
+				owner = {
+					tag = OFN
+				}
+			}
+			secede_province = THIS
+			remove_core = OFN
+		}
+	}
+
+	option = {
+		name = "And stay out!"
+	}
+}
+
+country_event = {
+	id = 500138
+	title = "O.F.N. Dissolvement."
+	desc = "With the dissolvement of the O.F.N. there is nothing to stop us from reclaiming our lands being held in the O.F.N. trust."
+
+	trigger = {
+		has_global_flag = ofn_dissolved
+		tag = OFN
+		war = no
+		#always = no
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	immediate = {
+		any_country = {
+			limit = {
+				NOT = {tag = OFN}
+				exists = no
+				have_core_in = OFN
+			}
+			all_core = {
+				limit = {
+					owner = {tag = OFN}
+				}
+				#give them back the core somehow
+			}
+		}
+		overlord = {inherit = THIS}
 	}
 
 	option = {

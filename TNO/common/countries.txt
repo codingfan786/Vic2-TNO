@@ -60,8 +60,7 @@ SOV = "countries/SovietUnion.txt"
 
 NPO = "countries/NowaPolska.txt"
 
-OFN = "countries/OrganizationFreeNations.txt"
-
+LOW = "countries/Lowlands.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
@@ -319,6 +318,8 @@ GCO		="countries/Gran Colombia.txt"
 
 ##HoD
 JAN 	= "countries/JanMayen.txt"
+
+OFN = "countries/OrganizationFreeNations.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

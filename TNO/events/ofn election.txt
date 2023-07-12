@@ -16,6 +16,16 @@ country_event = {
 			}
 		}
 		
+		random_owned = {
+			limit = {owner = {NOT = {ai = yes}}}
+			any_country = {
+				limit = {has_country_flag = ofn_leader}
+				change_variable = {
+					which = ofn_vote
+					value = 5
+				}
+			}
+		}
 
 		ai_chance = {
 			factor = 0.8
@@ -177,6 +187,17 @@ country_event = {
 			change_variable = {
 				which = ofn_vote
 				value = -1
+			}
+		}
+
+		random_owned = {
+			limit = {owner = {NOT = {ai = yes}}}
+			any_country = {
+				limit = {has_country_flag = ofn_leader}
+				change_variable = {
+					which = ofn_vote
+					value = -5
+				}
 			}
 		}
 

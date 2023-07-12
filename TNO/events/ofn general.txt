@@ -25,6 +25,15 @@ country_event = {
 				factor = 2
 				alliance_with = FROM
 			}
+			modifier = {
+				factor = 0
+				FROM = {ideology = fascist}
+			}
+			modifier = {
+				factor = 0
+				FROM = {ideology = communist}
+			}
+			
 		}
 	}
 
@@ -70,7 +79,7 @@ country_event = {
 	major = yes
 	id = 500135
 	title = "O.F.N. Emergency Election!"
-	desc = "Due to a sudden leadership gap from the former O.F.N. leaders fall from influence, $COUNTRY$ has been chosen to lead the O.F.N. in an emergency election."
+	desc = "event500135desc"
 
 	trigger = {
 		NOT = {any_greater_power = {has_country_flag = ofn_leader}}
@@ -78,7 +87,17 @@ country_event = {
 		has_country_flag = in_ofn
 	}
 
+	mean_time_to_happen = {
+		days = 1
+	}
+
 	immediate = {
+		any_country = {
+			limit = {
+				has_country_flag = ofn_leader
+			}
+			clr_country_flag = ofn_leader
+		}
 		set_country_flag = ofn_leader
 	}
 
@@ -90,14 +109,127 @@ country_event = {
 country_event = {
 	major = yes
 	id = 500136
-	name = "a"
-	desc = "a"
+	name = "Collapse of the O.F.N.!"
+	desc = "event500136desc"
 
 	trigger = {
-		always = no
+		NOT = {any_greater_power = {has_country_flag = ofn_leader}}
+		NOT = {any_greater_power = {has_country_flag = in_ofn}}
+		tag = JAN
+		NOT = {has_global_flag = ofn_election}
+		NOT = {has_global_flag = ofn_dissolved}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	immediate = {
+		any_country = {
+			limit = {has_country_flag = in_ofn}
+			clr_country_flag = in_ofn
+			clr_country_flag = ofn_leader
+		}
+		any_country = {
+			limit = {has_country_flag = ofn_leader}
+			clr_country_flag = ofn_leader
+		}
+		set_global_flag = ofn_dissolved
+	}
+	option = {
+		name = "Oh no..."
+	}
+}
+
+country_event = {
+	id = 500139
+	title = "O.F.N. Annual Conference."
+	desc = "event500139desc"
+	trigger = {
+		JAN = {NOT = {has_country_modifier = ofn_annual_timer}}
+		has_country_flag = ofn_leader
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		JAN = {
+			add_country_modifier = {
+				name = ofn_annual_timer
+				duration = 340
+			}
+		}
+	}
+	option = {
+		name = "Focus this year on military matters."
+		any_country = {
+			limit = {has_country_flag = in_ofn}
+			create_alliance = THIS
+		}
+	}
+	option = {
+		name = "Focus this year on diplomatic matters."
+		any_country = {
+			limit = {
+				has_country_flag = in_ofn
+				NOT = {is_greater_power = yes}
+			}
+			country_event = 500140
+		}
+	}
+	option = {
+		name = "Focus this year on economic matters."
+		any_country = {
+			limit = {has_country_flag = in_ofn}
+			add_country_modifier = {
+				name = ofn_annual_trade
+				duration = 365
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500140
+	title = "O.F.N. Annual Conference."
+	desc = "event500139desc"
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = 50
+			}
+		}
 	}
 
 	option = {
-		name = "a"
+		name = "See you next year..."
+	}
+}
+
+country_event = {
+	id = 500141
+	title = "O.F.N. nondefense punishment."
+	desc = "W.I.P."
+	trigger = {
+		always = no
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		
+	}
+	option = {
+		name = "Focus this year on military matters."
+		any_country = {
+			limit = {has_country_flag = in_ofn}
+			create_alliance = THIS
+		}
 	}
 }

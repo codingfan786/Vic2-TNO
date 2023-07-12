@@ -2,6 +2,7 @@ political_decisions = {
 	request_OFN_trust = {
 		picture = OFN
 		potential = {
+			NOT = {has_global_flag = ofn_dissolved}
 			exists = yes
 			OFN = {any_owned_province= {is_core = THIS}}
 			NOT = {has_country_flag = ofn_leader}
@@ -31,6 +32,7 @@ political_decisions = {
 	take_OFN_trust = {
 		picture = OFN
 		potential = {
+			NOT = {has_global_flag = ofn_dissolved}
 			exists = yes
 			OFN = {any_owned_province= {is_core = THIS}}
 			has_country_flag = ofn_leader

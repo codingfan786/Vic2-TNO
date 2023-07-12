@@ -2,7 +2,7 @@ civilized = yes
 capital = 2264
 primary_culture = north_andean
 religion = catholic
-government = democracy
+government = presidential_dictatorship
 plurality = 25.0
 nationalvalue = nv_liberty
 literacy = 0.11
@@ -10,26 +10,23 @@ non_state_culture_literacy = 0.05
  
 prestige = 1
 
-# Political reforms
-slavery = yes_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = landed_voting
-public_meetings = yes_meeting
+slavery = no_slavery
+vote_franschise = none_voting
+upper_house_composition = party_appointed
+voting_system = first_past_the_post
+public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = jefferson_method
-political_parties = non_secret_ballots
-
-# Social Reforms
-wage_reform = no_minimum_wage
+political_parties = underground_parties
+wage_reform = trinket_wage
 work_hours = no_work_hour_limit
-safety_regulations = no_safety
-health_care = no_health_care
-unemployment_subsidies = no_subsidies
-pensions = no_pensions 
-school_reforms = no_schools
+safety_regulations = trinket_safety
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+health_care = trinket_health_care
+school_reforms = low_schools
 
-ruling_party = VNZ_conservative
+ruling_party = VNZ_reactionary
 last_election = 1960.1.1
 upper_house = {
 	fascist = 0

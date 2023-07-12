@@ -2,6 +2,7 @@ political_decisions = {
 	ofn_try_election = {
 		picture = OFN
 		potential = {
+			NOT = {has_global_flag = ofn_dissolved}
 			NOT = {has_global_flag = ofn_election}
 			NOT = {has_country_flag = ofn_leader}
 			has_country_flag = in_ofn
@@ -9,7 +10,6 @@ political_decisions = {
 				has_country_flag = ofn_leader
 			}
 			is_greater_power = yes
-			ai = no
 		}
 		allow = {
 			NOT = {war = yes}
@@ -65,6 +65,14 @@ political_decisions = {
 	ofn_join = {
 		picture = OFN
 		potential = {
+			OR = {
+				NOT = {ai = yes}
+				OR = {
+					year = 1963
+					month = 1
+				}
+			}
+			NOT = {has_global_flag = ofn_dissolved}
 			NOT = {tag = JAN}
 			NOT = {
 				has_country_flag = in_ofn
@@ -74,6 +82,7 @@ political_decisions = {
 			}
 		}
 		allow = {
+			NOT = {is_vassal = yes}
 			NOT = {war = yes}
 			OR = {
 				government = democracy
@@ -96,18 +105,46 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				AND = {#refine this to exclude places like switzerland, yugoslavia, scandinavia, east europe
-					NOT = {tag = SAF}
-					NOT = {
-						OR = {
-							capital_scope = {continent = north_america}
-							capital_scope = {continent = south_america}
-							capital_scope = {continent = oceania}
-							capital_scope = {continent = europe}
+				OR = {
+					AND = {#anyone who is not south africa and not in the below continents
+						NOT = {tag = PHI}
+						NOT = {tag = SAF}
+						NOT = {
+							OR = {
+								capital_scope = {continent = north_america}
+								capital_scope = {continent = south_america}
+								capital_scope = {continent = oceania}
+								capital_scope = {continent = europe}
+							}
 						}
-					}
+					}#or any not of the below (mostly east europe)
+					tag = SWI
+					tag = MSC
+					tag = BLT
+					tag = UKR
+					tag = POL
+					tag = CZH
+					tag = SLV
+					tag = BOH
+					tag = ROM
+					tag = GGE
+					tag = HGE
+					tag = BGE
+					tag = GER
+					tag = BRG
+					tag = RAR
+					tag = RUS
+					tag = FIN
+					tag = SWE
+					tag = NOR
+					tag = YUG
+					tag = GEO
+					tag = AZB
+					tag = ARM
+					tag = WLE
+					tag = COR
+					tag = BRI
 				}
-				
 			}
 		}
 	}

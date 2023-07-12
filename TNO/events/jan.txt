@@ -15,6 +15,7 @@ country_event = {
 	immediate = {
 		any_country = {
 			limit = {
+				exists = yes
 				has_country_flag = ofn_leader
 				OR = {
 					NOT = {capital_scope = {has_province_modifier = ofn_leader}}
@@ -42,6 +43,7 @@ country_event = {
 
 		any_country = {
 			limit = {
+				exists = yes
 				NOT = {has_country_flag = ofn_leader}
 				any_owned_province = {has_province_modifier = ofn_leader}
 			}
@@ -55,6 +57,7 @@ country_event = {
 
 		any_country = {
 			limit = {
+				exists = yes
 				has_country_flag = nuke
 				OR = {
 					NOT = {capital_scope = {has_province_modifier = has_nukes}}
@@ -82,6 +85,7 @@ country_event = {
 
 		any_country = {
 			limit = {
+				exists = yes
 				NOT = {has_country_flag = nuke}
 				any_owned_province = {has_province_modifier = has_nukes}
 			}
@@ -93,6 +97,7 @@ country_event = {
 
 		any_country = {
 			limit = {
+				exists = yes
 				has_country_flag = in_ofn
 				OR = {
 					NOT = {capital_scope = {has_province_modifier = ofn_member}}
@@ -120,6 +125,7 @@ country_event = {
 
 		any_country = {
 			limit = {
+				exists = yes
 				NOT = {has_country_flag = in_ofn}
 				any_owned_province = {has_province_modifier = ofn_member}
 			}
@@ -132,6 +138,7 @@ country_event = {
 		
 		any_country = {
 			limit = {
+				exists = yes
 				government = fascist_dictatorship 
 				NOT = {has_country_flag = fascist_gov_type}
 			}
@@ -139,6 +146,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
+				exists = yes
 				NOT = {government = fascist_dictatorship} 
 				has_country_flag = fascist_gov_type 
 			}

@@ -285,6 +285,13 @@ political_decisions = {
 				}
 				set_country_flag = is_ofn_trust
 			}
+
+			JAN = {
+				add_country_modifier = {
+					name = ofn_annual_timer
+					duration = 350
+				}
+			}
 		}
 	}
 
@@ -352,24 +359,37 @@ political_decisions = {
 		effect = {
 			set_country_flag = jan_setup
 			#refine this to exclude places like switzerland, yugoslavia, scandinavia, east europe
-			any_country = {
-				limit = {
-					NOT = {tag = JAN}
-					OR = {
-						tag = SAF
-						capital_scope = {continent = north_america}
-						capital_scope = {continent = south_america}
-						capital_scope = {continent = oceania}
-						capital_scope = {continent = europe}
-					}
-					OR = {
-						government = democracy
-						government = prussian_constitutionalism
-						government = hms_government
-					}
-				}
-				set_country_flag = in_ofn
-			}
+			#any_country = {
+			#	limit = {
+			#		exists = yes
+			#		NOT = {tag = JAN}
+			#		OR = {
+			#			tag = SAF
+			#			capital_scope = {continent = north_america}
+			#			capital_scope = {continent = south_america}
+			#			capital_scope = {continent = oceania}
+			#			capital_scope = {continent = europe}
+			#		}
+			#		OR = {
+			#			government = democracy
+			##			government = prussian_constitutionalism
+			#			government = hms_government
+			#		}
+			#	}
+			#	set_country_flag = in_ofn
+			#}
+			USA = {set_country_flag = in_ofn}
+			CAN = {set_country_flag = in_ofn}
+			AST = {set_country_flag = in_ofn}
+			NZL = {set_country_flag = in_ofn}
+			SAF = {set_country_flag = in_ofn}
+			SCO = {set_country_flag = in_ofn}
+			BRZ = {set_country_flag = in_ofn}
+			IRE = {set_country_flag = in_ofn}
+			BRZ = {set_country_flag = in_ofn}
+			MEX = {set_country_flag = in_ofn}
+			CBR = {set_country_flag = in_ofn}
+			PHI = {set_country_flag = in_ofn}
 		}
 	}
 }
