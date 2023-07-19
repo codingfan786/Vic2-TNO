@@ -2,6 +2,17 @@
 #uncolonized in 1836
 #Accra (132000/33000 POPS) #Danish Tradepost in 1836  
 1907 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 16025
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 4025
+	}
 	aristocrats = {
 		culture = niger_congo_a
 		religion = animist
@@ -374,6 +385,17 @@
 #uncolonized in 1836
 #Ho (100000/25000 POPS)  
 1915 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 8025
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 2025
+	}
 	aristocrats = {
 		culture = niger_congo_a
 		religion = animist
@@ -449,6 +471,17 @@
 #uncolonized in 1836/under the rule of Asante
 #Yendi (36000/9000 POPS)  
 1916 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 8025
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 2025
+	}
 	aristocrats = {
 		culture = niger_congo_a
 		religion = animist

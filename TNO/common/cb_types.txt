@@ -56,11 +56,14 @@ tiny_conquest
 civil_war 
 acquire_core_state 
 rus_uni
+afr_oil_wars
 annex_core_country
 acquire_state 
 acquire_capital
 acquire_substate_region
 place_in_the_sun
+africa_post_scramble
+africa_pre_scramble
 colonial_competition
 cut_down_to_size_boxer
 cut_down_to_size 
@@ -566,6 +569,22 @@ acquire_state = {
 			}
 		}
 		is_independant = yes
+
+		NOT = {
+			OR = {
+				tag = MAL
+				tag = LIB
+				tag = BFA
+				tag = NGA
+				tag = NIG
+				tag = CAR
+				tag = CNG
+				tag = ZAM
+				tag = KEN
+				tag = MOZ
+				tag = ANG
+			}
+		}
 	}
 	
 	allowed_states = {
@@ -1795,6 +1814,22 @@ acquire_capital = {
 			}
 		}
 		is_independant = yes
+
+		NOT = {
+			OR = {
+				tag = MAL
+				tag = LIB
+				tag = BFA
+				tag = NGA
+				tag = NIG
+				tag = CAR
+				tag = CNG
+				tag = ZAM
+				tag = KEN
+				tag = MOZ
+				tag = ANG
+			}
+		}
 	}
 	
 	allowed_states = {
@@ -2191,7 +2226,7 @@ coa_plan = {
 make_facist = {
 	sprite_index = 1
 	is_triggered_only = yes
-	months = 1
+	months = 13
 	constructing_cb = no
 	crisis = no
 	
@@ -2440,7 +2475,7 @@ NPO_survive = {
 make_democratic = {
 	sprite_index = 1
 	is_triggered_only = yes
-	months = 12
+	months = 13
 	crisis = yes
 	
 	construction_speed = 0.5
@@ -2559,5 +2594,257 @@ ofn_mandate = {
 
 	on_po_accepted = {
 		country_event = 500133
+	}
+}
+
+
+africa_pre_scramble = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.5
+	
+	badboy_factor = 2.2
+	prestige_factor = 2
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			not = { is_core = THIS }
+			is_colonial = no
+		}
+		OR = {
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = yes
+				}
+			}
+			AND = {
+				civilized = no
+				THIS = {
+					civilized = no
+				}
+			}
+		}
+		is_independant = yes
+
+		NOT = {has_global_flag = africa_scrambled}
+		OR = {
+			tag = MAL
+			tag = LIB
+			tag = BFA
+			tag = NGA
+			tag = NIG
+			tag = CAR
+			tag = CNG
+			tag = ZAM
+			tag = KEN
+			tag = MOZ
+			tag = ANG
+		}
+		NOT = {
+			THIS = {
+				capital_scope = {continent = africa}
+			}
+		}
+	}
+	
+	allowed_states = {
+		is_colonial = no
+		any_owned_province = {
+			not = {	is_core = THIS }
+			is_colonial = no
+		}
+		#not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			any_neighbor_province = {
+				owner = { tag = THIS }
+			}
+		}
+	}		
+
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+africa_post_scramble = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.5
+	
+	badboy_factor = 0.8
+	prestige_factor = 2
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			not = { is_core = THIS }
+			is_colonial = no
+		}
+		OR = {
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = yes
+				}
+			}
+			AND = {
+				civilized = no
+				THIS = {
+					civilized = no
+				}
+			}
+		}
+		is_independant = yes
+
+		OR = {
+			has_global_flag = africa_scrambled
+			THIS = {
+				capital_scope = {continent = africa}
+			}
+		}
+		OR = {
+			tag = MAL
+			tag = LIB
+			tag = BFA
+			tag = NGA
+			tag = NIG
+			tag = CAR
+			tag = CNG
+			tag = ZAM
+			tag = KEN
+			tag = MOZ
+			tag = ANG
+		}
+	}
+	
+	allowed_states = {
+		is_colonial = no
+		any_owned_province = {
+			not = {	is_core = THIS }
+			is_colonial = no
+		}
+		#not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			any_neighbor_province = {
+				owner = { tag = THIS }
+			}
+		}
+	}		
+
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+afr_oil_wars = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 0.8
+	
+	badboy_factor = 0.2
+	prestige_factor = 5
+	peace_cost_factor = 0.7
+	penalty_factor = 1
+	always = yes
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		
+		THIS = {
+			capital_scope = {continent = africa}
+		}
+
+		capital_scope = {continent = africa}
+		any_owned_province = {
+			NOT = {is_core = SAF}
+			NOT = {is_core = ORA}
+			trade_goods = oil
+		}
+		OR = {
+			has_global_flag = nigerianoil1
+			has_global_flag = nigerianoil2
+			has_global_flag = nigerianoil3
+		}
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			trade_goods = oil
+			NOT = {is_core = SAF}
+			NOT = {is_core = ORA}
+		}
+		
+	}
+
+	po_demand_state = yes
+	war_name = WAR_INSTALL_NEW_GOV_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
 	}
 }

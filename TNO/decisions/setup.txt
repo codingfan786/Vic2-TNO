@@ -292,6 +292,7 @@ political_decisions = {
 					duration = 350
 				}
 			}
+			GER = {country_event = 19355}
 		}
 	}
 

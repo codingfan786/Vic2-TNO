@@ -76,6 +76,7 @@ political_decisions = {
 		}
 		effect = {
 			inherit = WGA
+			set_global_flag = ger_afr_couped_ega
 		}
 	}
 
@@ -102,6 +103,7 @@ political_decisions = {
 		}
 		effect = {
 			inherit = EGA
+			set_global_flag = ger_afr_couped_wga
 		}
 	}
 

@@ -40,3 +40,10 @@ alliance=
 		second="PHI"
 		start_date="1962.1.1"
 	}
+
+alliance=
+	{
+		first="NGA"
+		second="CAR"
+		start_date="1962.1.1"
+	}

@@ -1,0 +1,47 @@
+army = {
+	name = "Defense Forces"
+	location = 1907
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 1900
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 1898
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 1899
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 2123
+	}
+
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 2122
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 2115
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 2116
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 2117
+	}
+}

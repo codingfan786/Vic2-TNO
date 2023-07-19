@@ -2,6 +2,17 @@
 #uncolonized in 1836
 #Lome (216000/54000 POPS)  
 1914 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 8025
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 2025
+	}
 	aristocrats = {
 		culture = niger_congo_a
 		religion = animist
@@ -70,6 +81,17 @@
 }
 #Atakpane (128000/32000 POPS)  
 1917 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 8025
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 2025
+	}
 	aristocrats = {
 		culture = niger_congo_a
 		religion = animist
@@ -168,6 +190,17 @@
 }
 #Sokode (24000/6000 POPS)  
 1918 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 8025
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 2025
+	}
 	aristocrats = {
 		culture = niger_congo_a
 		religion = animist

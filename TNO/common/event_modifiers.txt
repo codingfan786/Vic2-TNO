@@ -1,6 +1,14 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+low_repair = {
+	global_assimilation_rate = 1
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = -0.05
+	icon = 5
+}
+
+
 ofn_annual_trade = {
 	icon = 9
 	tax_efficiency = 0.05

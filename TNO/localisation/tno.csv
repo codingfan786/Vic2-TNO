@@ -406,3 +406,30 @@ event500136desc;Horrible news for democracies across the globe today as the cont
 event500135desc;Due to a sudden leadership gap from the former O.F.N. leaders fall from influence, $COUNTRY$ has been chosen to lead the O.F.N. in an emergency election. §R This happens because the former O.F.N. leader either fell from GP status or no longer allows voting.;;;;;;;;;;;;x
 event500139desc;The O.F.N. annual conference on international freedom occurs every December, usually in the capital of the O.F.N. leader. Topics include ways to reinforce democracy abroad, trade agreements, and occasionally discussions of military interventions.;;;;;;;;;;;;x
 ofn_annual_trade;O.F.N. Trade Agreements.;;;;;;;;;;;;x
+low_repair;Benelux Liberated;;;;;;;;;;;;x
+brg_into_low_title;Liberation of the Benelux!;;;;;;;;;;;;x
+brg_into_low_desc;With the expulsion of Burgundian rule from French soil and the fall of the National Socialist regime comes an era of a free Benelux! Despite the nominal revolution many of the existing governmental structures put in place by the German occupation remain, and any nationalist separatist movements by the member states are suppressed by the new pan-Beneluxian government.;;;;;;;;;;;;x
+request_ghana_title;Request control over Ghana.;;;;;;;;;;;;x
+request_ghana_desc;The remnants of the British military have been scattered to their colonies across the globe. They are in no position to contest us if we demand control over Ghana.;;;;;;;;;;;;x
+cfr_expand_cores_title;Restore colonial rule!;;;;;;;;;;;;x
+cfr_expand_cores_desc;As we reclaim west Africa we solidify our legitimacy on the international stage and reaffirm our position as the legitimate government of France! §RThis decision will core any west African country other than Liberia that has been annexed by us or split between us and another country. It is repeatable until all of the west African countries have been cored.;;;;;;;;;;;;x
+africa_pre_scramble;Invade Sub-Saharan Africa;;;;;;;;;;;;x;;;
+africa_pre_scramble_short;Acquire $STATE$;;;;;;;;;;;;x;;;
+africa_pre_scramble_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;x;;;
+africa_pre_scramble_desc;Acquire state with the context of invading a semi-stable Africa. Cheaper CBs will unlock later.;;;;;;;;;;;;x;;;
+africa_post_scramble;Intervene in Sub-Saharan Africa;;;;;;;;;;;;x;;;
+africa_post_scramble_short;Intervene in $STATE$;;;;;;;;;;;;x;;;
+africa_post_scramble_setup;Intervene in $STATE$ to pacify $RECIPIENT$;;;;;;;;;;;;x;;;
+africa_post_scramble_desc;Acquire state with the context of bringing peace and order to Africa.;;;;;;;;;;;;x;;;
+event500144desc;The recent discovery of oil in Nigeria has sent the impovershed west African countries into a frenzy. The intense warfare that has broken out has sparked international interest in stabilizing the region. §R This means cheaper CBs for invading Africa have unlocked!;;;;;;;;;;;;x;;;
+event500145desc;The recent collapse of the German African regimes has led to widespread chaos and disorder. The fledgling democracies that have risen from the ruins have sparked both O.F.N. and German interests in intervening in the region. §R This means cheaper CBs for invading Africa have unlocked!;;;;;;;;;;;;x;;;
+afr_oil_wars;West African Resource Conflict;;;;;;;;;;;;x;;;
+afr_oil_wars_short;Acquire oil in $STATE$;;;;;;;;;;;;x;;;
+afr_oil_wars_setup;Acquire oil in $STATE$ from $RECIPIENT$;;;;;;;;;;;;x;;;
+afr_oil_wars_desc;Invade West African country for oil.;;;;;;;;;;;;x;;;
+cfr_proclaim_real_france_title;Free France!;;;;;;;;;;;;x;;;
+cfr_proclaim_real_france_desc;The traitor collaborators in Vichy are no more than a puppet government of the Germans! We have a foothold in France, it is time we reclaim our home!;;;;;;;;;;;;x;;;
+cfr_form_france_title;Form France!;;;;;;;;;;;;x;;;
+cfr_form_france_desc;The Vichy government is no more! We can rejoice as the only true French government.;;;;;;;;;;;;x;;;
+cfr_on_north_africa_title;Across the Mediterranean.;;;;;;;;;;;;x;;;
+cfr_on_north_africa_desc;We have reached the north coast of Africa and reclaimed the rightful French colonial possessions. Now we will cross the sea to France itself!;;;;;;;;;;;;x;;;

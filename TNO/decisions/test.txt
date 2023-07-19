@@ -6,10 +6,18 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-			prestige = ROM
-		}
-		effect = {
+			2755 = {
+				any_neighbor_province = {
+					owner = {tag = THIS}
+				}
+			}
 			
 		}
+		effect = {
+
+			#any_owned = {create_revolt = 10000}
+			#trigger_revolt = {type = ideology size = n}?
+
+		}		
 	}
 }

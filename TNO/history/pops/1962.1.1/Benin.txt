@@ -2,6 +2,17 @@
 #uncolonized in 1836/ruled by Dahomey
 #Cotonou (272000/68000 POPS)
 1919 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 8025
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 2025
+	}
 	aristocrats = {
 		culture = niger_congo_a
 		religion = animist
@@ -112,6 +123,17 @@
 }
 #Abomey (240000/60000 POPS)
 1920 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 8025
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 2025
+	}
 	aristocrats = {
 		culture = niger_congo_a
 		religion = animist
@@ -236,6 +258,17 @@
 #ruled by Sokoto in 1836
 #Nikki (48000/12000 POPS)
 1921 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 8025
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 2025
+	}
 	aristocrats = {
 		culture = niger_congo_a
 		religion = animist
@@ -304,6 +337,17 @@
 }
 #Jugu (28000/7000 POPS)
 1922 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 8025
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 2025
+	}
 	aristocrats = {
 		culture = niger_congo_a
 		religion = animist

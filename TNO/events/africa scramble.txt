@@ -1,0 +1,76 @@
+country_event = {
+	id = 500144
+	title = "Chaos in Africa!"
+	desc = "event500144desc"
+	major = yes
+
+	trigger = {
+		is_greater_power = yes
+		#year = 2006
+		NOT = {has_global_flag = africa_scrambled}
+		OR = {
+			has_global_flag = nigerianoil1
+			has_global_flag = nigerianoil2
+			has_global_flag = nigerianoil3
+		}
+		OR = {
+			1928 = {owner = {war = yes}}
+			1933 = {owner = {war = yes}}
+			1934 = {owner = {war = yes}}
+		}
+		
+	}
+
+	mean_time_to_happen = {
+		months = 36
+		#months = 1
+	}
+
+	immediate = {
+		set_global_flag = africa_scrambled
+	}
+
+	option = {
+		name = "Oil?"
+	}
+}
+
+country_event = {
+	id = 500145
+	title = "Chaos in Africa!"
+	desc = "event500145desc"
+	major = yes
+
+	trigger = {
+		is_greater_power = yes
+		NOT = {has_global_flag = africa_scrambled}
+		AND = {
+			OR = {
+				EGA = {
+					has_country_flag = ger_afr_collapsed
+				}
+				has_global_flag = ger_afr_couped_wga
+			}
+			OR = {
+				WGA = {
+					has_country_flag = ger_afr_collapsed
+				}
+				has_global_flag = ger_afr_couped_ega
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+		#months = 1
+	}
+
+	immediate = {
+		set_global_flag = africa_scrambled
+		SAF = {prestige = 10}
+	}
+
+	option = {
+		name = "Can Africa be free?"
+	}
+}

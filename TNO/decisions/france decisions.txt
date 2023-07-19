@@ -85,6 +85,7 @@ political_decisions = {
 		potential = {
 			tag = FRA
 			exists = CFR
+			NOT = {has_country_flag = cfr_reproached}
 		}
 		allow = {
 			all_core = {
@@ -102,7 +103,10 @@ political_decisions = {
 			}
 		}
 		effect = {
-			inherit = CFR
+			set_country_flag = cfr_reproached
+			CFR = {
+				country_event = 500143
+			}
 		}
 	}
 

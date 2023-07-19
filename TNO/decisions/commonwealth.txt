@@ -73,7 +73,11 @@ political_decisions = {
 		}
 		allow = {
 			NOT = {exists = ENG}
-			300 = {owner = {tag = CBR}}
+			ENG = { 
+				any_core = {
+					owner = {tag = CBR}
+				}
+			}
 		}
 		effect = {
 			all_core = {add_core = ENG}

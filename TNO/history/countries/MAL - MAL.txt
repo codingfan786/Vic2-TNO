@@ -9,7 +9,9 @@ religion = animist
 government = democracy
 plurality = 10
 nationalvalue = nv_equality
-literacy = 0.5
+
+literacy = 0.20
+non_state_culture_literacy = 0.03
   
 prestige = 1
 schools = traditional_academic

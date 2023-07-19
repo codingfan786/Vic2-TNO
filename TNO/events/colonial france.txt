@@ -1,0 +1,80 @@
+country_event = {
+	id = 500142
+	title = "French exiles request Ghana!"
+	desc = "The exiled French military command has requested that we cede control over Ghana. Should we?"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We don't need it."
+		
+		1909 = {secede_province = CFR add_core = CFR}
+		1908 = {secede_province = CFR add_core = CFR}
+		1910 = {secede_province = CFR add_core = CFR}
+		1911 = {secede_province = CFR add_core = CFR}
+		1912 = {secede_province = CFR add_core = CFR}
+		1913 = {secede_province = CFR add_core = CFR}
+		1907 = {secede_province = CFR add_core = CFR}
+
+		ai_chance = {
+			factor = 0.1
+		}
+	}
+	option = {
+		name = "Ghana is of strategic importance."
+
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				tag = CBR
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500143
+	title = "France restored!"
+	desc = "The mainland French government has reclaimed our homeland from the Germans! Perhaps it is time we stop regarding them as collaborators?"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We are the true French government!"
+		prestige = 10
+
+		FRA = {
+			diplomatic_influence = {
+				who = CFR
+				value = -100
+			}
+			relation = {
+				who = CFR
+				value = -100
+			}
+		}
+
+		ai_chance = {
+			factor = 0.3
+			modifier = {
+				factor = 0
+				FRA = {is_our_vassal = CFR}
+			}
+		}
+	}
+	option = {
+		name = "They are collaborators no more!"
+
+		FRA = {inherit = THIS}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.3
+				FRA = {ideology = fascist}
+			}
+		}
+	}
+}
