@@ -5,7 +5,7 @@ state_building = {
 }
 
 
-trade_goods = precious_metal
+trade_goods = coal
 life_rating = 35
 owner = RAR
 controller = RAR

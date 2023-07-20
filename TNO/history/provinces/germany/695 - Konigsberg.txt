@@ -2,7 +2,7 @@ owner = SGE
 controller = SGE
 add_core = SGE
 add_core = GER
-trade_goods = precious_metal
+trade_goods = coal
 life_rating = 40
 
 state_building = {

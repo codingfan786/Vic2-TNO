@@ -1147,7 +1147,7 @@ catalytic_fermentative_process = {
 }
 #organic_chemistry
 synthetic_dye = {
-	limit = { basic_chemistry = 1 }
+	limit = { medicine = 1 }
 	chance = {
 		base = 2
 		modifier = {

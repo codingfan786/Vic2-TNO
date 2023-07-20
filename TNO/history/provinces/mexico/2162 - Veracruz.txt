@@ -1,6 +1,6 @@
 owner = MEX
 controller = MEX
 add_core = MEX
-trade_goods = precious_metal
+trade_goods = fish
 life_rating = 35
 naval_base = 1

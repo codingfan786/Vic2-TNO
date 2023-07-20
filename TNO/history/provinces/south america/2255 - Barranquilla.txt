@@ -2,5 +2,5 @@ owner = CLM
 controller = CLM
 add_core = CLM
 add_core = GCO
-trade_goods = precious_metal
+trade_goods = oil
 life_rating = 30
