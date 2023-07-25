@@ -6,25 +6,14 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-			any_owned_province = {
-				trade_goods = precious_metal
-			}
-			NOT = {tag = JAN}
+			
 		}
 		effect = {
-
-			#any_owned = {create_revolt = 10000}
-			#trigger_revolt = {type = ideology size = n}?
-			any_owned = {
-				limit = {trade_goods = precious_metal}
-				trade_goods = coal
-				any_pop = {
-					limit = {type = farmers}
-					pop_type = labourers
-				}
-				any_pop = {
-					limit = {type = bankers}
-					pop_type = labourers
+			EIC = {
+				any_owned = {
+					any_pop = {
+						militancy = 10
+					}
 				}
 			}
 		}		

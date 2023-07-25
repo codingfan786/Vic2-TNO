@@ -84,6 +84,51 @@
 1462;1464;sea;2851;0;Sulu Sea #Zamboanga to Sulu
 
 #
+#new indonesia
+#
+
+1411;1407;sea;2803;0;Gunungsitoli Straight 1
+1411;1409;sea;2803;0;Gunungsitoli Straight 2
+1411;1408;sea;2803;0;Gunungsitoli Straight 3
+1411;1410;sea;2804;0;Gunungsitoli Straight 4
+
+1402;1400;sea;2814;0;Johore Indonesia Straight
+
+1404;1399;sea;2813;0;Palembang Borneo Connection 1
+1404;1426;sea;2813;0;Palembang Borneo Connection 2
+
+1397;1464;sea;2851;0;Borneo Phillipines Connection 1
+1396;1459;sea;2821;0;Borneo Phillipines Connection 2
+
+1425;1435;sea;2812;0;Borneo Moluccas Strait
+
+1436;1437;sea;2810;0;Moluccas Connection 1
+1434;1447;sea;2852;0;Moluccas Connection 2
+1434;1449;sea;2852;0;Moluccas Connection 3
+1450;1449;sea;2853;0;Moluccas Connection 4
+1447;1448;sea;2853;0;Moluccas Connection 5
+1453;1450;sea;2853;0;Moluccas Connection 6
+1453;1448;sea;2853;0;Moluccas Connection 7
+
+
+1430;1439;sea;2810;0;Moluccas-Sunda Strait
+
+1440;1439;sea;2810;0;Sunda Straits 1
+1441;1439;sea;2809;0;Sunda Straits 2
+1444;1439;sea;2810;0;Sunda Straits 3
+1444;1446;sea;2854;0;Sunda Straits 4
+1445;1443;sea;2809;0;Sunda Straits 5
+1451;1446;sea;2854;0;Sunda Straits 6
+1451;1444;sea;2854;0;Sunda Straits 7
+1441;1443;sea;2809;0;Sunda Straits 8
+
+1454;1451;sea;2862;0;Sunda Guinea Strait
+
+1452;1454;sea;2856;0;Guinea Connection 1
+1452;1453;sea;2856;0;Guinea Connection 2
+
+
+#
 # Oceanian Straits
 #
 2512;2516;sea;2876;0;Cook Strait #NZ

@@ -13,6 +13,12 @@ country_event = {
 	}
 
 	immediate = {
+		sphere_owner = {
+			diplomatic_influence = {
+				who = THIS
+				value = -300
+			}
+		}
 		any_country = {
 			limit = {
 				exists = yes

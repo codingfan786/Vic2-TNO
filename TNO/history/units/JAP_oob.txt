@@ -42,6 +42,12 @@ XBI = {
 	level = 0
 }
 
+EIC = {
+	value = 100
+	level = 3
+	influence_value = 0
+}
+
 army = {
 	name = "I.J.A. North" 
 	location = 1649

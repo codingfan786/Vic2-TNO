@@ -5,31 +5,31 @@
 	aristocrats = {
 		culture = melanesian
 		religion = animist
-		size = 1025
+		size = 2050
 	}
 
 	clergymen = {
 		culture = melanesian
 		religion = animist
-		size = 525
+		size = 1050
 	}
 
 	artisans = {
 		culture = melanesian
 		religion = animist
-		size = 2650
+		size = 5300
 	}
 
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 550
+		size = 1100
 	}
 
 	farmers = {
 		culture = melanesian
 		religion = animist
-		size = 48350
+		size = 96700
 	}
 }
 #Kerema (116000/29000 POPS) 
@@ -37,31 +37,31 @@
 	aristocrats = {
 		culture = melanesian
 		religion = animist
-		size = 550
+		size = 1100
 	}
 
 	clergymen = {
 		culture = melanesian
 		religion = animist
-		size = 300
+		size = 600
 	}
 
 	artisans = {
 		culture = melanesian
 		religion = animist
-		size = 1450
+		size = 2900
 	}
 
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 300
+		size = 600
 	}
 
 	farmers = {
 		culture = melanesian
 		religion = animist
-		size = 26400
+		size = 52800
 	}
 }
 #Lae (264000/66000 POPS) 
@@ -69,31 +69,31 @@
 	aristocrats = {
 		culture = melanesian
 		religion = animist
-		size = 1300
+		size = 2600
 	}
 
 	clergymen = {
 		culture = melanesian
 		religion = animist
-		size = 650
+		size = 1300
 	}
 
 	artisans = {
 		culture = melanesian
 		religion = animist
-		size = 3300
+		size = 6600
 	}
 
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 675
+		size = 1350
 	}
 
 	farmers = {
 		culture = melanesian
 		religion = animist
-		size = 60075
+		size = 120150
 	}
 }
 #Madang (300000/75000 POPS) 
@@ -101,31 +101,31 @@
 	aristocrats = {
 		culture = melanesian
 		religion = animist
-		size = 1475
+		size = 2950
 	}
 
 	clergymen = {
 		culture = melanesian
 		religion = animist
-		size = 750
+		size = 1500
 	}
 
 	artisans = {
 		culture = melanesian
 		religion = animist
-		size = 3750
+		size = 7500
 	}
 
 	soldiers = {
 		culture = melanesian
 		religion = animist
-		size = 750
+		size = 1500
 	}
 
 	farmers = {
 		culture = melanesian
 		religion = animist
-		size = 68375
+		size = 136750
 	}
 }
 #Northern Melanesia (226000) 
