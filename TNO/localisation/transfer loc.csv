@@ -11,3 +11,5 @@ deny_transfer_title;Reject transfer offers.;;;;;;;;;;;;x;;;
 deny_transfer_desc;Will prevent us from recieving transfer offers.;;;;;;;;;;;;x;;;
 list_transfer_title;List marked states.;;;;;;;;;;;;x;;;
 list_transfer_desc;List marked states.;;;;;;;;;;;;x;;;
+clear_all_marks_title;Clear Marked States;;;;;;;;;;;;x;;;
+clear_all_marks_desc;Clears all selected states;;;;;;;;;;;;x;;;
