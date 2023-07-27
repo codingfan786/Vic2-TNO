@@ -1,0 +1,258 @@
+political_decisions = {
+
+	eic_rebel_end = {
+		#major = yes
+		picture = the_congo_conference
+		potential = {
+			tag = EIC
+			NOT = {has_global_flag = eic_rebels_end}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			any_owned = {
+				remove_province_modifier = liberal_agitation
+			}
+			set_global_flag = eic_rebels_end
+		}
+	}
+
+	eic_accepted = {
+		#major = yes
+		picture = the_congo_conference
+		potential = {
+			tag = EIC
+			NOT = {has_country_flag = eic_accepted}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			all_core= {
+				owner = {
+					tag = THIS
+				}
+			}
+		}
+		effect = {
+			add_accepted_culture = javan
+			add_accepted_culture = malay
+			set_country_flag = eic_accepted
+			any_pop = {
+				limit = {
+					location = {
+						OR = {
+							is_core = BAL
+							is_core = BRU
+							is_core = JAV
+							is_core = ATJ
+						}
+					}
+				}
+				consciousness = 3
+				militancy = 1
+			}
+		}
+	}
+
+
+	eir_form = {
+		picture = the_congo_conference
+		potential = {
+			OR = {
+				tag = BAL
+				tag = JAV
+				tag = ATJ
+				tag = BRU
+			}
+			NOT = {
+				exists = EIR
+			}
+		}
+		allow = {
+			state_n_government = 1
+			NOT = {is_vassal = yes}
+			NOT = {EIC = {government = democracy}}
+		}
+		effect = {
+			government = democracy
+			change_tag = EIR
+			any_country = {
+				limit = {
+					exists = yes
+					tag = JAV
+					NOT = {is_vassal = yes}
+				}
+				THIS = {create_vassal = JAV}
+			}
+			any_country = {
+				limit = {
+					exists = yes
+					tag = BAL
+					NOT = {is_vassal = yes}
+				}
+				THIS = {create_vassal = BAL}
+			}
+			any_country = {
+				limit = {
+					exists = yes
+					tag = BRU
+					NOT = {is_vassal = yes}
+				}
+				THIS = {create_vassal = BRU}
+			}
+			any_country = {
+				limit = {
+					exists = yes
+					tag = ATJ
+					NOT = {is_vassal = yes}
+				}
+				THIS = {create_vassal = ATJ}
+			}
+			EIC = {
+				all_core = {
+					add_core = EIR
+				}
+			}
+			primary_culture = malay
+			add_accepted_culture = javan
+			add_accepted_culture = melanesian
+			add_accepted_culture = moluccan
+			add_accepted_culture = asian_minor
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						NOT = {tag = JAV}
+						NOT = {JAV = {ai = yes}}
+					}
+					AND = {
+						NOT = {tag = BRU}
+						NOT = {BRU = {ai = yes}}
+					}
+					AND = {
+						NOT = {tag = BAL}
+						NOT = {BAL = {ai = yes}}
+					}
+					AND = {
+						NOT = {tag = ATJ}
+						NOT = {ATJ = {ai = yes}}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						NOT = {exists = BRU}
+						NOT = {exists = BAL}
+						NOT = {exists = ATJ}
+					}
+					AND = {
+						NOT = {exists = JAV}
+						NOT = {exists = BAL}
+						NOT = {exists = ATJ}
+					}
+					AND = {
+						NOT = {exists = JAV}
+						NOT = {exists = BRU}
+						NOT = {exists = ATJ}
+					}
+					AND = {
+						NOT = {exists = JAV}
+						NOT = {exists = BRU}
+						NOT = {exists = BAL}
+					}
+				}
+			}
+		}
+	}
+
+	eir_inherit = {
+		picture = the_congo_conference
+		potential = {
+			tag = EIR
+			OR = {
+				AND = {
+					JAV = {
+						vassal_of = THIS
+					}
+					NOT = {has_country_flag = eir_jav}
+				}
+				AND = {
+					BAL = {
+						vassal_of = THIS
+					}
+					NOT = {has_country_flag = eir_bal}
+				}
+				AND = {
+					BRU = {
+						vassal_of = THIS
+					}
+					NOT = {has_country_flag = eir_bru}
+				}
+				AND = {
+					ATJ = {
+						vassal_of = THIS
+					}
+					NOT = {has_country_flag = eir_atj}
+				}
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			any_country = {
+				limit = {
+					tag = JAV
+					THIS = {NOT = {has_country_flag = eir_jav}}
+					vassal_of = THIS
+					exists = yes
+				}
+				THIS = {
+					inherit = JAV
+					set_country_flag = eir_jav
+				}
+			}
+			any_country = {
+				limit = {
+					tag = BAL
+					THIS = {NOT = {has_country_flag = eir_bal}}
+					vassal_of = THIS
+					exists = yes
+				}
+				THIS = {
+					inherit = BAL
+					set_country_flag = eir_bal
+				}
+			}
+			any_country = {
+				limit = {
+					tag = BRU
+					THIS = {NOT = {has_country_flag = eir_bru}}
+					vassal_of = THIS
+					exists = yes
+				}
+				THIS = {
+					inherit = BRU
+					set_country_flag = eir_bru
+				}
+			}
+			any_country = {
+				limit = {
+					tag = ATJ
+					THIS = {NOT = {has_country_flag = eir_atj}}
+					vassal_of = THIS
+					exists = yes
+				}
+				THIS = {
+					inherit = ATJ
+					set_country_flag = eir_atj
+				}
+			}
+		}
+	}
+}

@@ -1,9 +1,8 @@
 civilized = yes
 capital = 1405
 primary_culture = malay
-culture = yue
 religion = sunni
-government = absolute_monarchy
+government = democracy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.03

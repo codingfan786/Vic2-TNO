@@ -2,7 +2,8 @@
 
 #========================= H E A D E R =========================
 
-color = { 205  92  92 }
+#color = { 205  92  92 }
+color = { 141  44  44 }
 graphical_culture = AsianGC
 
 

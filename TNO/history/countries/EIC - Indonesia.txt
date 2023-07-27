@@ -11,7 +11,8 @@ religion = shinto
 government = presidential_dictatorship
 plurality = 10
 nationalvalue = nv_order
-literacy = 0.5
+literacy = 0.2
+non_state_culture_literacy = 0.2
   
 prestige = 1
 schools = traditional_academic

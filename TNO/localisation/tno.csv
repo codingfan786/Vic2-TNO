@@ -433,3 +433,13 @@ cfr_form_france_title;Form France!;;;;;;;;;;;;x;;;
 cfr_form_france_desc;The Vichy government is no more! We can rejoice as the only true French government.;;;;;;;;;;;;x;;;
 cfr_on_north_africa_title;Across the Mediterranean.;;;;;;;;;;;;x;;;
 cfr_on_north_africa_desc;We have reached the north coast of Africa and reclaimed the rightful French colonial possessions. Now we will cross the sea to France itself!;;;;;;;;;;;;x;;;
+event500146desc;Turmoil has gripped Indonesia as the dominant coalition of Indonesian political parties has broken apart. The formerly united parties now squabble as local independence movements crop up among Indonesia's diverse populace.;;;;;;;;;;;;x;;;
+event500147desc;The collapse of the Indonesian National Party has inspired local dissidents to organize their own independence movement! §R This will go away faster with troops in the area.;;;;;;;;;;;;x;;;
+eic_rebel_end_title;Reorganize the Indonesian National Party.;x
+eic_rebel_end_desc;The Indonesian National Party is rife with weakness and infighting. In order to stabilize the country a drastic redrawing of the political landscape must occur. §R The will end the independence movement events.;x
+eic_accepted_title;Reign in Disenfranchised Minorities.;x
+eic_accepted_desc;The western parts of Indonesia were never content with the pan-Indonesia comprimise. The solution they desired mirrored the nearby India's split with its muslim populations. Having stabilized the country we are now ready to send out our secret police en masse to round up these troublemakers.;x
+eir_form_title;Free Indonesia!;x
+eir_form_desc;Despite our goals of independence, it is widely recognized that survival is only possible through mutual struggle. The pragmatic solution of banding together is necessary in order to survive the wrath of the oppresive Indonesian regime!;x
+eir_inherit_title;Unify the Independence Movements.;x
+eir_inherit_desc;The main motivator of independence movements in Indonesia was the lack of self-determination and governance. The new unified independence movement offers that in abundance, and so local secessionists are very willing to live under our rule.;x

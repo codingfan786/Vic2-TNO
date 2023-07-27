@@ -11,9 +11,9 @@ culture = moluccan
 culture = asian_minor
 religion = shinto
 government = democracy
-plurality = 10
+plurality = 40
 nationalvalue = nv_liberty
-literacy = 0.5
+literacy = 0.2
   
 prestige = 1
 schools = traditional_academic
@@ -32,17 +32,20 @@ communist = 0
 liberal = 33
 anarcho_liberal = 0
 }
+# Political reforms
 slavery = no_slavery
-vote_franschise = none_voting
-upper_house_composition = party_appointed
+upper_house_composition = state_equal_weight
+vote_franschise = universal_weighted_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
 voting_system = first_past_the_post
-public_meetings = no_meeting
-press_rights = state_press
-trade_unions = no_trade_unions
-political_parties = underground_parties
-wage_reform = trinket_wage
-work_hours = no_work_hour_limit
-safety_regulations = trinket_safety
+political_parties = gerrymandering
+
+# Social Reforms
+wage_reform = low_minimum_wage
+work_hours = fourteen_hours
+safety_regulations = low_safety
 unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 health_care = trinket_health_care

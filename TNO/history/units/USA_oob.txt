@@ -22,7 +22,11 @@ NAV = {
 PHI = {
 	level = 4
 }
-
+CFR = {
+	value = 100
+	level = 3
+	influence_value = 0
+}
 army = {
 	name = "1a Armata" #done
 	location = 89

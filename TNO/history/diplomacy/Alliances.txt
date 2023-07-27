@@ -47,3 +47,10 @@ alliance=
 		second="CAR"
 		start_date="1962.1.1"
 	}
+
+alliance=
+	{
+		first="PAK"
+		second="BEN"
+		start_date="1962.1.1"
+	}

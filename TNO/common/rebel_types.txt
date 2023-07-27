@@ -42,7 +42,7 @@ reactionary_rebels = {
 	allow_all_ideologies = yes
 	
 	resilient = no					# Disbands on retreat
-	reinforcing = no				# Does not receive reinforcements
+	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
@@ -241,7 +241,7 @@ fascist_rebels = {
 	allow_all_ideologies = yes
 	
 	resilient = no					# Does not disband on retreat
-	reinforcing = no				# Receives reinforcements
+	reinforcing = yes				# Receives reinforcements
 	general = yes					# Uses generals
 	smart = yes					# Assaults forts, tactically withdraws from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
@@ -442,7 +442,7 @@ communist_rebels = {
 	allow_all_ideologies = yes
 	
 	resilient = no					# Disbands on retreat
-	reinforcing = no				# Does not receive reinforcements
+	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
@@ -654,7 +654,7 @@ anarcho_liberal_rebels = {
 	allow_all_ideologies = yes
 	
 	resilient = no					# Disbands on retreat
-	reinforcing = no				# Does not receive reinforcements
+	reinforcing = yes				# Does not receive reinforcements
 	general = yes					# Does use generals
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.

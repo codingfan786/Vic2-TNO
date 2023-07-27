@@ -1,9 +1,8 @@
 civilized = yes
 capital = 1438
-primary_culture = malay
-culture = moluccan
+primary_culture = moluccan
 religion = animist
-government = absolute_monarchy
+government = democracy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.01

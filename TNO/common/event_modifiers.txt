@@ -321,6 +321,7 @@ academic_confusion = {
 ##### LIBERAL REVOLUTIONS #####
 liberal_agitation = {
 	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = 0.1 #added
 	icon = 4
 }
 
