@@ -56,7 +56,7 @@ army = {
 		date = 1962.1.1
 		type = land
 		personality = persistant
-		background = school_of_firepower
+		background = attack_1.1
 		prestige = 0.3
 	}
 	regiment = {

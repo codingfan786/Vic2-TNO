@@ -1,0 +1,25 @@
+country_event = {
+	id = 500149
+	allow_multiple_instances = yes
+	trigger = {
+		ai = no
+		NOT = {has_leader = "John Cena"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Our prayers to RNGesus have been answered"
+	immediate = {
+		define_general = {
+			name = "John Cena"
+			#+1 attack, +1 defence. +10% morale
+			personality = defence_3.1
+			#+3 attack, +3 defence
+			background = attack_3.1
+		}
+	}
+	option = {
+		name = "It's about time..."		
+	}
+}
