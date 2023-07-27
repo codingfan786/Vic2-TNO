@@ -659,7 +659,7 @@ fertilizer_factory = {
 		type = selector
 		goods_cost =
 		{
-			lumber = 1
+			lumber = 0
 		}
 		time = 2
 		visibility = no
@@ -674,7 +674,7 @@ fertilizer_factory = {
 		type = deselector
 		goods_cost =
 		{
-			lumber = 1
+			lumber = 0
 		}
 		time = 2
 		visibility = no
