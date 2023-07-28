@@ -4656,6 +4656,12 @@
 #ruled by the USA
 #Chicago (172000/43000 POPS)
 163 = {
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 60000
+	}
+
 	clergymen = {
 		culture = yankee
 		religion = protestant
@@ -5016,6 +5022,11 @@
 #ruled by the USA/parts under defacto native Control
 #Detroit (POPS)
 173 = {
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 60000
+	}
 	bureaucrats = {
 		culture = yankee
 		religion = protestant

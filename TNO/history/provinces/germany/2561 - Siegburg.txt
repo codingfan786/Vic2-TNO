@@ -7,3 +7,18 @@ life_rating = 40
 2161.1.1 = { railroad = 3 }
 
 fort = 1
+state_building = {
+	level = 2
+	building = automobile_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = synthrubber_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = machine_parts_factory
+	upgrade = yes
+}

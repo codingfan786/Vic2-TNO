@@ -253,6 +253,11 @@
 }
 #Lunenburg (180000/45000 POPS)
 532 = {
+	craftsmen = {
+		culture = north_german
+		religion = protestant
+		size = 60000
+	}
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -2044,6 +2049,12 @@
 #under the rule of Saxe-Weimar 1836  
 #Weimar (365000/91250 POPS)
 561 = {
+
+	craftsmen = {
+		culture = north_german
+		religion = protestant
+		size = 60000
+	}
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -3364,6 +3375,11 @@
 }
 #Siegburg (104000/26000 POPS)
 2561 = {
+	craftsmen = {
+		culture = north_german
+		religion = protestant
+		size = 60000
+	}
 	aristocrats = {
 		culture = north_german
 		religion = catholic

@@ -59,7 +59,10 @@ political_decisions = {
 			#	}
 			#	NOT = {exists = GER}
 			#}
-			NOT = {exists = GER}
+			OR = {
+				NOT = {exists = GER}
+				year = 1964
+			}
 		}
 		allow = {
 			NOT = {has_country_modifier = nuc_timeout}
@@ -81,7 +84,21 @@ political_decisions = {
 
 			}
 		}
-		ai_will_do = {factor = 0}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				AND = {
+					exists = GER
+					OR = {
+						tag = GGE
+						tag = HGE
+						tag = SGE
+						tag = BGE
+					}
+				}
+			}
+		}
 	}
 
 
@@ -100,7 +117,10 @@ political_decisions = {
 			#	}
 			#	NOT = {exists = GER}
 			#}
-			NOT = {exists = GER}
+			OR = {
+				NOT = {exists = GER}
+				year = 1964
+			}
 		}
 		allow = {
 			NOT = {has_country_modifier = nuc_timeout}
@@ -122,7 +142,21 @@ political_decisions = {
 
 			}
 		}
-		ai_will_do = {factor = 0}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				AND = {
+					exists = GER
+					OR = {
+						tag = GGE
+						tag = HGE
+						tag = SGE
+						tag = BGE
+					}
+				}
+			}
+		}
 	}
 
 

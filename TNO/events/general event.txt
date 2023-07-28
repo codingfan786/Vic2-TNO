@@ -4,6 +4,10 @@ country_event = {
 	trigger = {
 		ai = no
 		NOT = {has_leader = "John Cena"}
+		any_greater_power  = {
+            NOT = {tag = THIS}
+            ai = no
+        }
 	}
 	mean_time_to_happen = {
 		days = 1

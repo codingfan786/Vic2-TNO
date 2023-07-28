@@ -6,3 +6,23 @@ add_core = FRA
 trade_goods = grain
 life_rating = 35
 2161.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = synthrubber_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = electric_gear_factory
+	upgrade = yes
+}
+state_building = {
+	level = 3
+	building = aeroplane_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}

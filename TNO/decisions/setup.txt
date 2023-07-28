@@ -293,6 +293,15 @@ political_decisions = {
 				}
 			}
 			GER = {country_event = 19355}
+			any_country = {
+				machine_parts = 2000
+				any_pop = {
+					limit = {
+						type = craftsmen
+					}
+					reduce_pop = 1.25
+				}
+			}
 		}
 	}
 
@@ -348,6 +357,80 @@ political_decisions = {
 					}
 				}
 			}
+
+			GGE = {
+				artillery = 2000
+				clipper_convoy = 200
+				aeroplanes = 100
+				fuel = 100
+				ammunition = 2000
+				small_arms = 1000
+				canned_food = 2000
+				automobiles = 2000
+			}
+			HGE = {
+				artillery = 2000
+				clipper_convoy = 200
+				aeroplanes = 100
+				fuel = 100
+				ammunition = 2000
+				small_arms = 1000
+				canned_food = 2000
+				automobiles = 2000
+				any_pop = {
+					limit = {
+						type = soldiers
+					}
+					reduce_pop = 1.5
+				}
+			}
+			SGE = {
+				artillery = 2000
+				clipper_convoy = 200
+				aeroplanes = 100
+				fuel = 100
+				ammunition = 2000
+				small_arms = 1000
+				canned_food = 2000
+				automobiles = 2000
+				any_pop = {
+					limit = {
+						type = soldiers
+					}
+					reduce_pop = 1.5
+				}
+			}
+			BGE = {
+				artillery = 2000
+				clipper_convoy = 200
+				aeroplanes = 100
+				fuel = 100
+				ammunition = 2000
+				small_arms = 1000
+				canned_food = 2000
+				automobiles = 2000
+			}
+			BRG = {
+				artillery = 2000
+				clipper_convoy = 200
+				aeroplanes = 100
+				fuel = 100
+				ammunition = 2000
+				small_arms = 1000
+				canned_food = 2000
+				automobiles = 2000
+			}
+			FRA = {
+				artillery = 2000
+				clipper_convoy = 200
+				aeroplanes = 100
+				fuel = 100
+				ammunition = 2000
+				small_arms = 1000
+				canned_food = 2000
+				automobiles = 2000
+			}
+
 		}
 	}
 

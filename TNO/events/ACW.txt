@@ -223,6 +223,10 @@ country_event = {
 				}
 				treasury = 50000
 			} 
+			GGE = {treasury = 500000}
+			SGE = {treasury = 500000}
+			HGE = {treasury = 500000}
+			BGE = {treasury = 500000}
 	}
 }
 

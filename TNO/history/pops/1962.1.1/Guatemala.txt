@@ -5,67 +5,67 @@
 	aristocrats = {
 		culture = central_american
 		religion = catholic
-		size = 600
+		size = 1800
 	}
 
 	bureaucrats = {
 		culture = central_american
 		religion = catholic
-		size = 175
+		size = 525
 	}
 
 	officers = {
 		culture = central_american
 		religion = catholic
-		size = 150
+		size = 450
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = catholic
-		size = 275
+		size = 825
 	}
 
 	artisans = {
 		culture = central_american
 		religion = catholic
-		size = 1350
+		size = 4050
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 1100
+		size = 3300
 	}
 
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 23350
+		size = 70050
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = catholic
-		size = 225
+		size = 675
 	}
 
 	artisans = {
 		culture = mexican
 		religion = catholic
-		size = 2100
+		size = 6300
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 425
+		size = 1275
 	}
 
 	farmers = {
 		culture = mexican
 		religion = catholic
-		size = 39250
+		size = 117750
 	}
 }
 #Quetzaltenango (112000/28000 POPS)
@@ -73,55 +73,55 @@
 	aristocrats = {
 		culture = central_american
 		religion = catholic
-		size = 175
+		size = 525
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = catholic
-		size = 75
+		size = 225
 	}
 
 	artisans = {
 		culture = central_american
-		religion = catholic
-		size = 350
-	}
-
-	soldiers = {
-		culture = central_american
-		religion = catholic
-		size = 1100
-	}
-
-	farmers = {
-		culture = central_american
-		religion = catholic
-		size = 5400
-	}
-
-	clergymen = {
-		culture = mexican
-		religion = catholic
-		size = 100
-	}
-
-	artisans = {
-		culture = mexican
 		religion = catholic
 		size = 1050
 	}
 
 	soldiers = {
+		culture = central_american
+		religion = catholic
+		size = 3300
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 16200
+	}
+
+	clergymen = {
 		culture = mexican
 		religion = catholic
-		size = 225
+		size = 300
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 3150
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 675
 	}
 
 	farmers = {
 		culture = mexican
 		religion = catholic
-		size = 19625
+		size = 58875
 	}
 }
 #Puerto Barrios (72000/18000 POPS)
@@ -129,55 +129,55 @@
 	aristocrats = {
 		culture = central_american
 		religion = catholic
+		size = 450
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = catholic
 		size = 150
 	}
 
-	clergymen = {
-		culture = central_american
-		religion = catholic
-		size = 50
-	}
-
 	artisans = {
 		culture = central_american
 		religion = catholic
-		size = 300
+		size = 900
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 75
+		size = 225
 	}
 
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 5425
+		size = 16275
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = catholic
-		size = 50
+		size = 150
 	}
 
 	artisans = {
 		culture = mexican
 		religion = catholic
-		size = 600
+		size = 1800
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = catholic
-		size = 125
+		size = 375
 	}
 
 	farmers = {
 		culture = mexican
 		religion = catholic
-		size = 11225
+		size = 33675
 	}
 }
 #Sayaxche (16000/4000 POPS)
@@ -185,55 +185,55 @@
 	aristocrats = {
 		culture = central_american
 		religion = catholic
-		size = 15
+		size = 45
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = catholic
-		size = 25
+		size = 75
 	}
 
 	artisans = {
 		culture = central_american
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = central_american
-		religion = catholic
-		size = 10
-	}
-
-	farmers = {
-		culture = central_american
-		religion = catholic
-		size = 900
-	}
-
-	clergymen = {
-		culture = mexican
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = mexican
 		religion = catholic
 		size = 150
 	}
 
 	soldiers = {
+		culture = central_american
+		religion = catholic
+		size = 30
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 2700
+	}
+
+	clergymen = {
 		culture = mexican
 		religion = catholic
-		size = 25
+		size = 75
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 450
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 75
 	}
 
 	farmers = {
 		culture = mexican
 		religion = catholic
-		size = 2800
+		size = 8400
 	}
 
 }

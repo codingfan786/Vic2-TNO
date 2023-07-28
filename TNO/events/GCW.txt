@@ -583,3 +583,199 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 500150
+	title = "We've lost the German civil war!"
+	desc = "We're fully occupied but no individual can reach 100 warscore. This event will split our country among the siegers."
+	trigger = {
+		OR = {
+			AND = {
+				tag = HGE
+				NOT = {
+					any_owned_province = {
+						NOT = {
+							OR = {
+								controlled_by = GGE
+								controlled_by = BGE
+								controlled_by = SGE
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				tag = GGE
+				NOT = {
+					any_owned_province = {
+						NOT = {
+							OR = {
+								controlled_by = HGE
+								controlled_by = BGE
+								controlled_by = SGE
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				tag = BGE
+				NOT = {
+					any_owned_province = {
+						NOT = {
+							OR = {
+								controlled_by = GGE
+								controlled_by = HGE
+								controlled_by = SGE
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				tag = SGE
+				NOT = {
+					any_owned_province = {
+						NOT = {
+							OR = {
+								controlled_by = GGE
+								controlled_by = BGE
+								controlled_by = HGE
+							}
+						}
+					}
+				}
+			}
+		}
+		exists = GER
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_country = {
+			limit = {
+				NOT = {tag = THIS}
+				OR = {
+					tag = GGE
+					tag = HGE
+					tag = SGE
+					tag = BGE
+				}
+			}
+			country_event = 500151
+		}
+	}
+
+
+	option = {
+		name = "Great!"
+	}
+}
+
+country_event = {
+	id = 500151
+	title = "We've partitioned another German state."
+	desc = "Someone is fully occupied but no individual can reach 100 warscore. This event will split their country among the siegers."
+
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = {
+			any_owned = {
+				limit = {
+					controlled_by = THIS
+				}
+				secede_province = THIS
+			}
+		}
+		
+		
+	}
+
+	option = {
+		name = "Ok."
+	}
+}
+
+country_event = {
+	id = 500152
+	title = "ghost war cleanup"
+	desc = "on the tin"
+	trigger = {
+		tag = GER
+		OR = {
+			AND = {
+				GGE = {
+					NOT = {exists = yes}
+					war = yes
+				}
+			}
+			AND = {
+				SGE = {
+					NOT = {exists = yes}
+					war = yes
+				}
+			}
+			AND = {
+				HGE = {
+					NOT = {exists = yes}
+					war = yes
+				}
+			}
+			AND = {
+				BGE = {
+					NOT = {exists = yes}
+					war = yes
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		any_country = {
+			limit = {
+				GGE = {
+					NOT = {exists = yes}
+					war = yes
+				}
+			}
+			end_war = GGE
+		}
+		any_country = {
+			limit = {
+				HGE = {
+					NOT = {exists = yes}
+					war = yes
+				}
+			}
+			end_war = HGE
+		}
+		any_country = {
+			limit = {
+				BGE = {
+					NOT = {exists = yes}
+					war = yes
+				}
+			}
+			end_war = BGE
+		}
+		any_country = {
+			limit = {
+				SGE = {
+					NOT = {exists = yes}
+					war = yes
+				}
+			}
+			end_war = SGE
+		}
+	}
+	option = {
+		name = "ok..."
+	}
+}

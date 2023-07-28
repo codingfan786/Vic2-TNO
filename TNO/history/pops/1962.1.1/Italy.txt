@@ -1060,6 +1060,11 @@
 }
 #Massa (164000/41000 POPS)
 740 = {
+	craftsmen = {
+		culture = north_italian
+		religion = catholic
+		size = 50000
+	}
 	aristocrats = {
 		culture = north_italian
 		religion = catholic

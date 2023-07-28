@@ -84,3 +84,5 @@ mechanical_production = 1
 interchangeable_parts = 1
 clean_coal = 1
 military_plans = 1
+
+medicine = 1

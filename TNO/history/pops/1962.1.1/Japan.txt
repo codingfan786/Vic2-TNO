@@ -2189,33 +2189,38 @@
 }
 #Fukushima (576000/147000 POPS)
 1669 = {
+	craftsmen = {
+		culture = japanese
+		religion = shinto
+		size = 40000
+	}
 	aristocrats = {
 		culture = japanese
-		religion = mahayana
+		religion = shinto
 		size = 2025
 	}
 
 	clergymen = {
 		culture = japanese
-		religion = mahayana
+		religion = shinto
 		size = 1025
 	}
 
 	artisans = {
 		culture = japanese
-		religion = mahayana
+		religion = shinto
 		size = 5150
 	}
 
 	soldiers = {
 		culture = japanese
-		religion = mahayana
+		religion = shinto
 		size = 1050
 	}
 
 	farmers = {
 		culture = japanese
-		religion = mahayana
+		religion = shinto
 		size = 93750
 	}
 
