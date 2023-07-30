@@ -98,7 +98,6 @@ country_event = {
 	trigger = {
 		tag = USA
 		all_core = {
-
 			OR = {
 				NOT = {
 					OR = {
@@ -123,6 +122,8 @@ country_event = {
 					province_id = 147
 					province_id = 148
 					province_id = 145
+					province_id = 173
+					province_id = 163
 				}
 			}
 		}

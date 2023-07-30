@@ -213,6 +213,8 @@ country_event = {
 		random_country = {
 			limit = {
 				NOT = {tag = THIS}
+				NOT = {tag = POL}
+				NOT = {tag = FEU}
 				any_owned_province = {
 					culture = polish
 				}

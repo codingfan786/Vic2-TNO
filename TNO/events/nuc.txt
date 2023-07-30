@@ -10,6 +10,9 @@ country_event = {
 	option = {
 		name = "Never surrender!"
 		FROM = {country_event = {id = 500022 days = 1}}
+		ai_chance = {
+			factor = 0.1
+		}
 	}
 	option = {
 		name = "We can't risk a nuclear war!"
@@ -17,7 +20,13 @@ country_event = {
 		any_owned = {
 			change_controller = FROM
 		}
-		ai_chance = {factor = 1}
+		ai_chance = {
+			factor = 0.9
+			modifier = {
+				factor = 0
+				has_country_flag = nuke
+			}
+		}
 	}
 }
 
@@ -35,20 +44,31 @@ country_event = {
 	option = {
 		name = "Never surrender!"
 		FROM = {country_event = {id = 500022 days = 1}}
+		ai_chance = {
+			factor = 0.1
+			modifier = {
+				factor = 20
+				has_country_flag = nuke
+			}
+		}
 	}
 	option = {
 		name = "We can't risk a nuclear war!"
-		end_war = FROM
-		any_country = {
-			limit = {
-				alliance_with = FROM
-			}
-			end_war = THIS
+		FROM = {end_war = THIS}
+		#any_country = {
+		#	limit = {
+		#		alliance_with = FROM
+		#	}
+		#	end_war = THIS
+		#}
+		ai_chance = {
+			factor = 0.9
 		}
 	}
 }
 
 country_event = {
+	major = yes
 	id = 500022
 	title = "Nuclear Ultimatum rejected!"
 	desc = "$FROMCOUNTRY$ has rejected out nuclear ultimatum!"
@@ -87,9 +107,25 @@ country_event = {
 			}
 			country_event =   {id = 500025 days = 1} 
 		}
+
+		ai_chance = {
+			factor = 99
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_province = {
+						controlled_by = FROM
+					}
+				}
+			}
+		}
 	}
 	option = {
 		name = "We can't risk a nuclear war!"
+
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 
@@ -245,9 +281,15 @@ country_event = {
 			}
 			country_event = {id = 500026 days = 1} #return launch alert
 		}
+		ai_chance = {
+			factor = 1
+		}
 	}
 	option = {
 		name = "We can't risk returning fire!"
+		ai_chance = {
+			factor = 0
+		}
 	}
 }
 
@@ -273,9 +315,15 @@ country_event = {
 			}
 			country_event = {id = 500026 days = 1}
 		}
+		ai_chance = {
+			factor = 0.7
+		}
 	}
 	option = {
-		name = "We can't risk involving out country in this!"
+		name = "We can't risk involving our country in this!"
+		ai_chance = {
+			factor = 0.3
+		}
 	}
 }
 
@@ -293,9 +341,15 @@ country_event = {
 	option = {
 		name = "Return fire!"
 		FROM = {country_event = {id = 500027 days = 1}}
+		ai_chance = {
+			factor = 0.7
+		}
 	}
 	option = {
-		name = "We can't risk involving out country in this!"
+		name = "We can't risk involving our country in this!"
+		ai_chance = {
+			factor = 0.3
+		}
 	}
 }
 
@@ -369,9 +423,15 @@ country_event = {
 		FROM = {
 			country_event = {id = 500023 days = 1} #return launch
 		}
+		ai_chance = {
+			factor = 1
+		}
 	}
 	option = {
 		name = "We can't risk returning fire!"
+		ai_chance = {
+			factor = 0
+		}
 	}
 }
 
@@ -445,9 +505,15 @@ country_event = {
 		FROM = {
 			country_event = {id = 500023 days = 1} #return launch
 		}
+		ai_chance = {
+			factor = 1
+		}
 	}
 	option = {
 		name = "We can't risk returning fire!"
+		ai_chance = {
+			factor = 0
+		}
 	}
 }
 
@@ -460,6 +526,9 @@ country_event = {
 
 	option = {
 		name = "We will crush them in the battlefield!"
+		ai_chance = {
+			factor = 0
+		}
 	}
 
 	option = {
@@ -481,6 +550,9 @@ country_event = {
 				tag = FROM
 			}
 			country_event = {id = 500023 days = 1}
+		}
+		ai_chance = {
+			factor = 1
 		}
 	}
 

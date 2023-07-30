@@ -4,6 +4,7 @@ political_decisions = {
 		potential = {
 			has_global_flag = saf_war_started
 			tag = SAF
+			NOT = {accepted_culture = boer}
 		}
 		allow = {
 			ORA = {

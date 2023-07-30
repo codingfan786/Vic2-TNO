@@ -9,6 +9,7 @@ political_decisions = {
 			high_n_low_pressure_steam_engines = 1
 			strategic_mobility = 1
 			#nationalism_n_imperialism = 1
+			money = 1000000
 		}
 		effect = {
 			badboy = 15
@@ -17,9 +18,19 @@ political_decisions = {
 				duration = 3650
 			}
 			set_country_flag = nuke
-
+			treasury = -1000000
 		}
-		ai_will_do = {factor = 0}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {is_greater_power = yes}
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
 	}
 
 	nuke_startup = {
@@ -45,6 +56,7 @@ political_decisions = {
 
 
 	nuke_whitepeace = {
+		#major = yes
 		picture = build_the_tower_of_babylon
 		potential = {
 			NOT = {has_country_modifier = nuc_dev}
@@ -85,7 +97,7 @@ political_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
 			modifier = {
 				factor = 0
 				AND = {
@@ -98,11 +110,23 @@ political_decisions = {
 					}
 				}
 			}
+			modifier = {
+				factor = 0
+				AND = {
+					NOT = {national_provinces_occupied = 0.9}
+					badboy = 0.8
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {national_provinces_occupied = 0.5}
+			}
 		}
 	}
 
 
 	nuke_surrender = {
+		#major = yes
 		picture = build_the_tower_of_babylon
 		potential = {
 			NOT = {has_country_modifier = nuc_dev}
@@ -143,7 +167,7 @@ political_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
 			modifier = {
 				factor = 0
 				AND = {
@@ -154,6 +178,25 @@ political_decisions = {
 						tag = SGE
 						tag = BGE
 					}
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					NOT = {national_provinces_occupied = 0.9}
+					badboy = 0.8
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {national_provinces_occupied = 0.3}
+			}
+			modifier = {
+				factor = 0
+				any_owned_province = {
+					NOT = {controlled_by = THIS}
+					NOT = {controlled_by = REB}
+					controller = {brigades_compare = 1.5}
 				}
 			}
 		}

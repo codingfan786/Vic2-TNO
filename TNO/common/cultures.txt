@@ -960,7 +960,7 @@ arab = {
 			radicalism = 10
 	}
 	
-	union = ARA
+	#union = ARA
 }
 
 iranian_turanian = {
@@ -1860,7 +1860,7 @@ american_cultures = {
 		}
 		radicalism = 10
 	}
-	union = USA
+	#union = USA
 }
 
 neo_european_cultures = {
