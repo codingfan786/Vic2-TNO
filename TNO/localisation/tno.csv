@@ -30,7 +30,7 @@ tiny_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;x;;;
 acquire_capital;Take Capital;;;;;;;;;;;;x;;;
 acquire_capital_short;Take $RECIPIENT$ capital;;;;;;;;;;;;x;;;
 acquire_capital_setup;Take $RECIPIENT$ capital;;;;;;;;;;;;x;;;
-negotiated_transfer;Negotiated Transfer;;;;;;;;;;;
+negotiated_transfer;Negotiated Transfer;;;;;;;;;;;x
 negotiated_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;x
 negotiated_transfer_short;$RECIPIENT$ receives $STATE$ from us;;;;;;;;;;;;;x
 negotiated_transfer_setup;Transfer $STATE$ from our country to $RECIPIENT$;;;;;;;;;;;;x
@@ -198,11 +198,11 @@ ega_expand_title;Secure Mozambique!;;;;;;;;;;;;x
 ega_expand_desc;The natives in Mozambique have recently rid themselves of Iberian rule, we should take advantage of this!;;;;;;;;;;;;x
 saf_victory_title;The Boers pacified!;;;;;;;;;;;;x
 saf_victory_desc;With our victory in the South African War, the Boers have been pacified and reintegrated into our country.;;;;;;;;;;;;x
-make_facist;Install Fascist Dictatorship;;;;;;;;;;;
+make_facist;Install Fascist Dictatorship;;;;;;;;;;;x
 make_facist_desc;Install a Fascist Dictatorship in a target country.;;;;;;;;;;;;x
 make_facist_short;Install a Fascist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;;x
 make_facist_setup;Install a Fascist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;x
-ger_annex;Restoration of German order;;;;;;;;;;;
+ger_annex;Restoration of German order;;;;;;;;;;;x
 ger_annex_desc;Annexes former German colony;;;;;;;;;;;;x
 ger_annex_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 ger_annex_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
@@ -328,7 +328,7 @@ regent_michael_title;Claim the Hungarian throne.;;;;;;;;;;;;x
 regent_michael_desc;Hungary has been without a king since 1920. Despite the absence of a royal head of state the regency has lived on, awaiting a proper claimant to the throne. With the ascendancy and popular support of King Michael I of Romania and the present dominance of Romania over Hungary, an obvious solution is at hand.;;;;;;;;;;;;x
 michael_coup_title;King Michael's Coup!;;;;;;;;;;;;x
 michael_coup_desc;The $YEAR$ Romanian coup d'etat was a coup d'etat led by King Michael I of Romania. With the support of several political parties, the king removed the government of Ion Antonescu, which had aligned Romania with Nazi Germany, in an opportune moment following the German civil war. Antonescu's policies lead to Romanian expansion east at the unpopular cost of Romanian homeland to the Hungarians and Bulgarians.;;;;;;;;;;;;x
-gaw_annex;Great Asian War Annexation;;;;;;;;;;;
+gaw_annex;Great Asian War Annexation;;;;;;;;;;;x
 gaw_annex_desc;Annexes China;;;;;;;;;;;;x
 gaw_annex_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 gaw_annex_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
@@ -368,11 +368,11 @@ FEU_getcores_title;Free Europe!;;;;;;;;;;;;x
 FEU_getcores_desc;The Poles and Czechoslovak have been under the heel of Germany for too long. Their liberation is imminent!;;;;;;;;;;;;x
 FEU_getaccepted_title;From Black sea to the Baltics.;;;;;;;;;;;;x
 FEU_getaccepted_desc;Eastern europe is free! It is time to celebrate our victories and embrace our new paneuropean ambition.;;;;;;;;;;;;x
-make_democratic;Install Democratic Government;;;;;;;;;;;
+make_democratic;Install Democratic Government;;;;;;;;;;;x
 make_democratic_desc;Install a Democratic Government in a target country.;;;;;;;;;;;;x
 make_democratic_short;Install a Democratic Government in $RECIPIENT$.;;;;;;;;;;;;;x
 make_democratic_setup;Install a Democratic Government in $RECIPIENT$.;;;;;;;;;;;;x
-warreps;War reparations;;;;;;;;;;;
+warreps;War reparations;;;;;;;;;;;x
 warreps_desc;Demand war reparations from target country.;;;;;;;;;;;;x
 warreps_short;Demand war reparations from $RECIPIENT$.;;;;;;;;;;;;;x
 warreps_setup;Demand war reparations from $RECIPIENT$.;;;;;;;;;;;;x
@@ -443,3 +443,25 @@ eir_form_title;Free Indonesia!;x
 eir_form_desc;Despite our goals of independence, it is widely recognized that survival is only possible through mutual struggle. The pragmatic solution of banding together is necessary in order to survive the wrath of the oppresive Indonesian regime!;x
 eir_inherit_title;Unify the Independence Movements.;x
 eir_inherit_desc;The main motivator of independence movements in Indonesia was the lack of self-determination and governance. The new unified independence movement offers that in abundance, and so local secessionists are very willing to live under our rule.;x
+HND_1;Eastern United Provinces;x
+hnd_famine;Vacant Farms;x
+hnd_developing;Industrial Development;x
+dev_south_title;Southern Industrial Development Plan.;x
+dev_south_desc;The deindustrialisation of India started when the Indian economy was colonised under the British Empire, leading to the implementation of British protectionist policies, restricting sales of Indian goods and services within Britain while exposing Indian markets to British goods and services, without tariffs and quotas. With the departure of the British after World War 2 they have left behind a byzantine bureaucratic system of regulations and red tape. This system of bureaucracy, known popularly as the "Permit Raj" in a mocking comparison to British rule, is extremely corrupt and severely stunts economic growth as well. Only direct government intervention can solve this problem.;x
+dev_nwest_title;Northwestern Industrial Development Plan.;x
+dev_nwest_desc;The deindustrialisation of India started when the Indian economy was colonised under the British Empire, leading to the implementation of British protectionist policies, restricting sales of Indian goods and services within Britain while exposing Indian markets to British goods and services, without tariffs and quotas. With the departure of the British after World War 2 they have left behind a byzantine bureaucratic system of regulations and red tape. This system of bureaucracy, known popularly as the "Permit Raj" in a mocking comparison to British rule, is extremely corrupt and severely stunts economic growth as well. Only direct government intervention can solve this problem.;x
+dev_neast_title;Northeastern Industrial Development Plan.;x
+dev_neast_desc;The deindustrialisation of India started when the Indian economy was colonised under the British Empire, leading to the implementation of British protectionist policies, restricting sales of Indian goods and services within Britain while exposing Indian markets to British goods and services, without tariffs and quotas. With the departure of the British after World War 2 they have left behind a byzantine bureaucratic system of regulations and red tape. This system of bureaucracy, known popularly as the "Permit Raj" in a mocking comparison to British rule, is extremely corrupt and severely stunts economic growth as well. Only direct government intervention can solve this problem.;x
+finish_dev_title;India Modernized!;x
+finish_dev_desc;With the conclusion of the industrial development plans the Indian economy is finally ready for privatization and growth beyond carefully constructed government intervention plans. §R This will change some political parties to allow factory building.;x
+muslim_compromise_title;Freedom of Religion Act of $YEAR$;x
+muslim_compromise_desc;The Preamble of the Indian Constitution has the word "secular", and articles 25 to 28 implying that the State will not discriminate, patronise or meddle in the profession of any religion. However, it does not shield individual religions or groups by adding religious rights as a fundamental right. This gap is a result of the tumultuous period in religious relations that occured during the Indian independence and the subsequent Bengali-Pakistan independence conflicts. By amending these articles to guarantee religious rights India will set it's course on a path of reconciliation. §R This will lock you out of passing the National Security act. You will get cores on Pakistand and Bengal through this path.;x
+india_security_act_title;National Security Act of $YEAR$;x
+india_security_act_desc;The possibility of war with the East has forced the government to divert a considerable amount of the budget for military purposes, hamstringing vital and dearly needed social programs and subsidies. The National Security Act will guarantee the continuation of these practices and extend them to internal security matters. The resulting militarization of the police and allocation of emergency powers to the president will go far to prevent unrest on the homefront. §R This will lock you out of passing the Freedom of Religion act. This path will prevent unified Indian Separatists from rising.;x
+hnd_sa;National Security Act;x
+restore_bengal_title;Reunite India!;x
+restore_bengal_desc;The guarantee of religious rights has endeered us greatly to the Muslim population. Their governments however, are not so keen on accepting reunification.;x
+greater_india_title;Akhand Bharat!;x
+greater_india_desc;Akhand Bharat (transl. Undivided India), also known as Akhand Hindustan, is a term for the concept of a unified Greater India.It asserts that modern-day Afghanistan, Bengal, India, Burma, and Pakistan are one nation.;x
+hnd_nerf;Unified Separatist Movement;x
+event500155desc;India's legacy of ethnic and religious division has caught up with it as separatist groups sieze government municipalities nationwide. Law and order has broken down across the country and international spectators are left shocked by the sudden collapse of the Dheli government.;x

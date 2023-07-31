@@ -6,17 +6,12 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-			NOT = {
-					any_owned_province = {
-						controlled_by = GGE
-					}
-				}
 		}
 		effect = {
-			EIC = {
+			HND = {
 				any_owned = {
 					any_pop = {
-						militancy = 10
+						militancy = 1
 					}
 				}
 			}

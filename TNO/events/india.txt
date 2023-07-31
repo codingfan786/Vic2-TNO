@@ -1,0 +1,166 @@
+province_event = {
+	id = 500153
+	title = "Indian Famine"
+	desc = "Forced industrialization and excessive resource exportation has left Indian farms falling short of production quotas and has caused food shortages in certain areas."
+
+	trigger = {
+		total_pops = 100000
+		NOT = {has_global_flag = hnd_devved}
+		NOT = {has_province_modifier = hnd_famine}
+		OR = {
+			AND = {
+				has_global_flag = devved_south
+				OR = {
+					state_id = 1300
+					state_id = 1286
+					state_id = 1308
+					state_id = 1315
+					state_id = 1311
+					state_id = 1319
+				}
+			}
+
+			AND = {
+				has_global_flag = devved_nwest
+				OR = {
+					state_id = 1294
+					state_id = 1266
+					state_id = 1234
+					state_id = 1236
+				}
+			}
+
+			AND = {
+				has_global_flag = devved_neast
+				OR = {
+					state_id = 1245
+					state_id = 1282
+					state_id = 1263
+					AND = {
+						state_id = 1249
+						owner = {tag = HND}
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 96
+	}
+
+	immediate = {
+		add_province_modifier = {
+			name = hnd_famine
+			duration = 365
+		}
+	}
+
+	option = {
+		name = "Progress will continue!"
+	}
+}
+
+country_event = {
+	id = 500154
+	title = "a"
+	desc = "you shouldnt see this"
+
+	trigger = {
+		#always = no
+		OR = {
+			tag = HND
+			tag = HD2
+		}
+		ai = yes
+		NOT = {
+			OR = {
+				has_country_flag = HND_AI_1
+				has_country_flag = HND_AI_2
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name "1"
+		set_country_flag = HND_AI_1
+	}
+	option = {
+		name "2"
+		set_country_flag = HND_AI_2
+	}
+}
+
+country_event = {
+	major = yes
+	id = 500155
+	title = "Anarchy in India!"
+	desc = "event500155desc"
+	fire_only_once = yes
+
+	trigger = {
+		has_country_flag = indian_collapse
+		NOT = {has_country_flag = sa_signed}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		remove_country_modifier = hnd_nerf
+		any_country ={
+			limit = {
+				NOT = {exists = yes}
+				tag = TRA
+			}
+			THIS = {release = TRA}
+		}
+		any_country ={
+			limit = {
+				NOT = {exists = yes}
+				tag = MYS
+			}
+			THIS = {release = MYS}
+		}
+		any_country ={
+			limit = {
+				NOT = {exists = yes}
+				tag = HYD
+			}
+			THIS = {release = HYD}
+		}
+		any_country ={
+			limit = {
+				NOT = {exists = yes}
+				tag = BAS
+			}
+			THIS = {release = BAS}
+		}
+		any_country ={
+			limit = {
+				NOT = {exists = yes}
+				tag = ORI
+			}
+			THIS = {release = ORI}
+		}
+		any_country ={
+			limit = {
+				NOT = {exists = yes}
+				tag = NAG
+			}
+			THIS = {release = NAG}
+		}
+		any_country ={
+			limit = {
+				NOT = {exists = yes}
+				tag = BER
+			}
+			THIS = {release = BER}
+		}
+	}
+	option = {
+		name = "The horror!"
+	}
+}

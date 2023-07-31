@@ -883,7 +883,19 @@ nationalist_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 3
-		
+
+		#modifier = {
+		#	factor = 0
+		#	country = {
+		#		AND = {
+		#			OR = {
+		#				tag = HND
+		#				tag = HD2
+		#			}
+		#			NOT = {has_country_flag = indian_collapse}
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			country = { civilized = no }
@@ -1910,9 +1922,9 @@ red_shirts = {
 ###################################
 indian_sepoys = {
 	icon = 6
-	break_alliance_on_win = yes
-	
-	area = culture_group
+
+	area = nation 					# Stays within the nation
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -1926,13 +1938,12 @@ indian_sepoys = {
 		democracy = democracy
 	}
 
-	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
-	independence = culture
-	defect_delay = 12			# Can spontaneously declare independence after 12 months (earliest)
+	defection = none				
+	independence = none				# Does not strive for independence
+	defect_delay = 18
 	
 	ideology = liberal
 	allow_all_cultures = yes
-	allow_all_culture_groups = no
 	allow_all_religions = yes
 	allow_all_ideologies = yes
 	
@@ -1950,20 +1961,9 @@ indian_sepoys = {
 		factor = 0.5
 		
 		modifier = {
-			NOT = { any_greater_power = { nationalism_n_imperialism = 1 } }
-			factor = 0
-		}	
-		
-		modifier = {
 			war = yes
 			factor = 0.8
 		}
-
-		modifier = {
-			year = 1850
-			NOT = { year = 1865 }
-			factor = 0.2
-		}		
 		
 		modifier = {
 			war_exhaustion = 4
@@ -1983,60 +1983,34 @@ indian_sepoys = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 1.1
+		factor = 12
+		
+		
+		modifier = {
+			factor = 0.25
+			location = {
+				NOT = {culture = tamil}
+			}
+		}
+		
 		modifier = {
 			factor = 0
 			OR = {
-				is_cultural_union = THIS
-				location = { NOT = { is_core = HND } }
-				tag = HND
-				exists = HND
-			}
-		}
-		
-		modifier = {
-			factor = 0
-			NOT = {
-				continent = central_asia
-			}
-		}
-		
-		modifier = {
-			factor = 0
-			NOT = {
-				is_culture_group = south_asian
-			}
-		}
-		
-		modifier = {
-			factor = 1.4
-			is_culture_group = south_asian
-		}
-		
-		modifier = {
-			factor = 0
-			country = {
-				AND = {
-					is_greater_power = no
-					part_of_sphere = no
+				country = {
+					NOT = {
+						OR = {
+							tag = HND
+							tag = HD2
+						}
+					}
+				}
+				country = {
+					has_country_flag = indian_collapse
 				}
 			}
+			
 		}
-		
-		modifier = {
-			factor = 0
-			country = {
-				is_culture_group = south_asian				
-			}
-		}
-		
-		modifier = {
-			factor = 1.05
-			year = 1850
-			NOT = { year = 1865 }
-
-		}	
-				
+			
 		modifier = {
 			factor = 1.2
 			pop_majority_ideology = liberal
@@ -2078,6 +2052,10 @@ indian_sepoys = {
 			controlled_by = REB
 		}
 		modifier = {
+			factor = 0.001
+			NOT = {culture = tamil}
+		}
+		modifier = {
 			factor = 1.5
 			average_militancy = 4
 		}
@@ -2110,14 +2088,15 @@ indian_sepoys = {
 				OR = {
 					controlled_by = REB
 					NOT = { owned_by = THIS }
+					NOT = {culture = tamil}
 				}
-				province_control_days = 60
+				province_control_days = 30
 			}
 		}
 	}
 	
 	demands_enforced_effect = {
-		release_vassal = HND
+		set_country_flag = indian_collapse
 	}
 }
 

@@ -992,16 +992,20 @@ ideologies = {
 		 	revanchism = 0.05
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5 #2
 		 	revanchism = 0.10
 		}
 		modifier = {
-			factor = 4
+			factor = 1.5 #4
 		 	revanchism = 0.15
 		}
 		modifier = {
-			factor = 8
+			factor = 1.5 #8
 		 	revanchism = 0.20
+		}
+		modifier = {
+			factor = 2
+		 	revanchism = 0.25
 		}
 		modifier = {
 			factor = 1.1
@@ -1287,16 +1291,24 @@ ideologies = {
 			}
 		}
 		modifier = {
-			factor = 1.05
-			consciousness = 9 
-		}
-		modifier = {
-			factor = 1.05
+			factor = 1.2
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.05
+			factor = 1.2
 			consciousness = 7
+		}
+		modifier = {
+			factor = 1.2
+			consciousness = 9 
+		}
+		modifier = {
+			factor = 1.2
+			consciousness = 6 
+		}
+		modifier = {
+			factor = 1.2
+			consciousness = 5 
 		}
 	}
 
@@ -1304,7 +1316,7 @@ ideologies = {
 		factor = 1
 		modifier = {
 			factor = 0.1
-			NOT = { militancy = 6 }
+			NOT = { militancy = 3 }
 		}
 		modifier = {
 			factor = 2

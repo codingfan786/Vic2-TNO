@@ -62,6 +62,8 @@ NPO = "countries/NowaPolska.txt"
 
 LOW = "countries/Lowlands.txt"
 
+HD2 = "countries/India2.txt"
+
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
 RUS		= "countries/Russia.txt"

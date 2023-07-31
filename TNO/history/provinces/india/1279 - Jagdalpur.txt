@@ -5,6 +5,7 @@ add_core = HND
 
 
 
+add_core = BAS
 
 trade_goods = grain
 life_rating = 32

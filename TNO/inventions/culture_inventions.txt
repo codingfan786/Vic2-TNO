@@ -878,6 +878,10 @@ constitutionalism = {
 	effect = {
 		plurality = 0.05
 		suppression_points_modifier = -0.05
+		#rebel_org_gain = {
+		#	faction = indian_sepoys
+		#	value = 1
+		#}
 	}
 }
 atheism = {

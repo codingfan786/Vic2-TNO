@@ -6,11 +6,13 @@ party_issues = {
 		protectionism = {
 			max_tariff = 0.75 #1
 			min_tariff = -0.25
+			allow_foreign_investment = no
 		}
 		free_trade = {
 			global_immigrant_attract = 0.01  #1%
 			max_tariff = 0.25
 			min_tariff = -1
+			allow_foreign_investment = yes
 		}
 	}
 	economic_policy = {
@@ -39,7 +41,6 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
-				allow_foreign_investment = yes
 				can_invest_in_pop_projects = no
 			}
 		}
@@ -64,7 +65,6 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
-				allow_foreign_investment = yes
 				can_invest_in_pop_projects = yes
 			}
 		}
@@ -89,7 +89,6 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
-				allow_foreign_investment = yes
 				can_invest_in_pop_projects = yes
 			}
 		}
@@ -116,7 +115,6 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
-				allow_foreign_investment = yes
 				can_invest_in_pop_projects = yes
 			}
 		}

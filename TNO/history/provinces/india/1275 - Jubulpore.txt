@@ -8,3 +8,9 @@ life_rating = 32
 owner = HND
 controller = HND
 add_core = HND
+
+party_loyalty = {
+	ideology = socialist
+	loyalty_value = 30
+}
+add_core = NAG

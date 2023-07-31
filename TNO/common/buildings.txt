@@ -350,7 +350,7 @@ artillery_factory = {
 	time = 210
 	visibility = yes
 	onmap = no
-
+	default_enabled = yes
 	production_type = artillery_factory
 	pop_build_factory = yes
 }
@@ -369,7 +369,7 @@ small_arms_factory = {
 	time = 210
 	visibility = yes
 	onmap = no
-
+	default_enabled = yes
 	production_type = small_arms_factory
 	pop_build_factory = yes
 }
@@ -390,7 +390,7 @@ furniture_factory = {
 	time = 210
 	visibility = yes
 	onmap = no
-
+	default_enabled = yes
 	production_type = furniture_factory
 	pop_build_factory = yes
 }
@@ -469,7 +469,7 @@ ammunition_factory = {
 	time = 210
 	visibility = yes
 	onmap = no
-
+	default_enabled = yes
 	production_type = ammunition_factory
 	pop_build_factory = yes
 }

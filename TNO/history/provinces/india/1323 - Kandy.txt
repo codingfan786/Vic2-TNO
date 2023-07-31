@@ -1,7 +1,9 @@
 
-owner = HND
-controller = HND
-add_core = HND
+owner = GWA
+controller = GWA
+
+add_core = GWA
+
 
 
 

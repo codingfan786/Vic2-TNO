@@ -1,4 +1,8 @@
 
+party_loyalty = {
+	ideology = socialist
+	loyalty_value = 30
+}
 
 
 
