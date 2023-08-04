@@ -115,6 +115,27 @@ political_decisions = {
 		effect = {
 			set_country_flag = polish_israel_denied
 			prestige = 20
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					tag = KHI
+				}
+				THIS = {inherit = KHI}
+			}
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					tag = BUK
+				}
+				THIS = {inherit = BUK}
+			}
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					tag = KOK
+				}
+				THIS = {inherit = KOK}
+			}
 		}
 		ai_will_do = {
 			factor = 1

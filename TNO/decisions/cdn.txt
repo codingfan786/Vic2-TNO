@@ -1,0 +1,289 @@
+political_decisions = {
+	cdn_focus_give_up = {
+		picture = OFN
+		potential = {
+			tag = CDN
+			has_country_flag = cdn_council_active
+			NOT = {has_country_flag = cdn_gave_up}
+		}
+		allow = {
+
+		}
+		effect = {
+			clr_country_flag = cdn_council_active
+			set_country_flag = cdn_gave_up
+			all_core = {
+				remove_core = THIS
+			}
+			any_owned = {
+				add_core = OFN
+				secede_province = OFN
+			}
+			change_tag_no_core_switch = OFN
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = cdn_norway
+					has_country_flag = cdn_benelux
+					has_country_flag = cdn_indonesia
+					has_country_flag = cdn_denmark
+					has_country_flag = cdn_greece
+					has_country_flag = cdn_venezuela
+					has_country_flag = cdn_guyana
+				}
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = CDN_AI_1
+			}
+		}
+	}
+
+	cdn_council_call = {
+		picture = clay_and_douglas_draft
+		potential = {
+			tag = CDN
+			NOT = {has_country_flag = cdn_council_active}
+		}
+		allow = {
+			war = no
+			all_core = {
+				owner = {
+					tag = THIS
+				}
+			}
+			ideological_thought = 1
+			NOT = {has_country_modifier = cdn_council}
+
+		}
+		effect = {
+			set_country_flag = cdn_council_active
+			add_country_modifier = {
+				name = cdn_council
+				duration = 365
+			}
+		}
+	}
+
+	cdn_focus_guyana = {
+		picture = clay_and_douglas_draft
+		potential = {
+			tag = CDN
+			has_country_flag = cdn_council_active
+			NOT = {has_country_flag = cdn_guyana}
+		}
+		allow = {
+
+		}
+		effect = {
+			clr_country_flag = cdn_council_active
+			set_country_flag = cdn_guyana
+			2246 = {
+				add_core = THIS
+			}
+			2241 = {
+				add_core = THIS
+			}
+			2239 = {
+				add_core = THIS
+			}
+			1979 = {
+				add_core = THIS
+			}
+			2242 = {
+				add_core = THIS
+			}
+			2243 = {
+				add_core = THIS
+			}
+
+			2239 = {
+				owner = {
+					country_event = 500157
+				}
+			}
+			2241 = {
+				owner = {
+					country_event = 500158
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_country_flag = CDN_AI_2
+			}
+		}
+	}
+	cdn_focus_venezuela = {
+		picture = clay_and_douglas_draft
+		potential = {
+			tag = CDN
+			has_country_flag = cdn_council_active
+			NOT = {has_country_flag = cdn_venezuela}
+		}
+		allow = {
+
+		}
+		effect = {
+			clr_country_flag = cdn_council_active
+			set_country_flag = cdn_venezuela
+			VNZ = {
+				all_core = {add_core = THIS}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {has_country_flag = cdn_guyana}
+			}
+		}
+	}
+	cdn_focus_norway = {
+		picture = clay_and_douglas_draft
+		#picture = 
+		potential = {
+			tag = CDN
+			has_country_flag = cdn_council_active
+			NOT = {has_country_flag = cdn_norway}
+		}
+		allow = {
+
+		}
+		effect = {
+			clr_country_flag = cdn_council_active
+			set_country_flag = cdn_norway
+			NOR = {
+				all_core = {add_core = THIS}
+				primary_culture = norwegian
+				add_accepted_culture = sami
+				remove_accepted_culture = south_german
+				remove_accepted_culture = north_german
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {has_country_flag = cdn_venezuela}
+			}
+		}
+	}
+	cdn_focus_benelux = {
+		picture = clay_and_douglas_draft
+		#picture = 
+		potential = {
+			tag = CDN
+			has_country_flag = cdn_council_active
+			NOT = {has_country_flag = cdn_benelux}
+		}
+		allow = {
+
+		}
+		effect = {
+			clr_country_flag = cdn_council_active
+			set_country_flag = cdn_benelux
+			NET = {
+				all_core = {add_core = THIS}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {has_country_flag = cdn_norway}
+			}
+		}
+	}
+	cdn_focus_denmark = {
+		picture = clay_and_douglas_draft
+		#picture = 
+		potential = {
+			tag = CDN
+			has_country_flag = cdn_council_active
+			NOT = {has_country_flag = cdn_denmark}
+		}
+		allow = {
+
+		}
+		effect = {
+			clr_country_flag = cdn_council_active
+			set_country_flag = cdn_denmark
+			DEN = {
+				all_core = {add_core = THIS}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {has_country_flag = cdn_benelux}
+			}
+		}
+	}
+	cdn_focus_greece = {
+		picture = clay_and_douglas_draft
+		#picture = 
+		potential = {
+			tag = CDN
+			has_country_flag = cdn_council_active
+			NOT = {has_country_flag = cdn_greece}
+		}
+		allow = {
+
+		}
+		effect = {
+			clr_country_flag = cdn_council_active
+			set_country_flag = cdn_greece
+			GRE = {
+				all_core = {add_core = THIS}
+				primary_culture = greek
+				remove_accepted_culture = south_italian
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {has_country_flag = cdn_denmark}
+			}
+		}
+	}
+	cdn_focus_indonesia = {
+		picture = clay_and_douglas_draft
+		#picture = 
+		potential = {
+			tag = CDN
+			has_country_flag = cdn_council_active
+			NOT = {has_country_flag = cdn_indonesia}
+		}
+		allow = {
+
+		}
+		effect = {
+			clr_country_flag = cdn_council_active
+			set_country_flag = cdn_indonesia
+			JAV = {
+				all_core = {add_core = THIS}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {has_country_flag = cdn_greece}
+			}
+		}
+	}
+
+
+}

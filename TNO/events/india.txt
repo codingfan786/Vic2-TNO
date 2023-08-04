@@ -159,6 +159,13 @@ country_event = {
 			}
 			THIS = {release = BER}
 		}
+		any_country ={
+			limit = {
+				NOT = {exists = yes}
+				tag = GWA
+			}
+			THIS = {release = GWA}
+		}
 	}
 	option = {
 		name = "The horror!"

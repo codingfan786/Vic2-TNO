@@ -107,6 +107,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					AND = {#anyone who is not south africa and not in the below continents
+						NOT = {tag = EIR}
 						NOT = {tag = PHI}
 						NOT = {tag = SAF}
 						NOT = {

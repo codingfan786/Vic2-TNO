@@ -1,0 +1,95 @@
+
+army = {
+	name = "Defense Forces"
+	location = 2240
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 2240
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 2240
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 2240
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 2240
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 2245
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 2245
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 2245
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 2245
+	}
+}
+navy = {
+	name = "Submarine Group"
+	location = 2240
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = commerce_raider
+	}
+	ship = {
+		name = "Submarine"
+		type = steam_transport
+	}
+	ship = {
+		name = "Submarine"
+		type = steam_transport
+	}
+	ship = {
+		name = "Submarine"
+		type = steam_transport
+	}
+	ship = {
+		name = "Submarine"
+		type = steam_transport
+	}
+	ship = {
+		name = "Submarine"
+		type = steam_transport
+	}
+	ship = {
+		name = "Submarine"
+		type = steam_transport
+	}
+	ship = {
+		name = "Submarine"
+		type = steam_transport
+	}
+	ship = {
+		name = "Submarine"
+		type = steam_transport
+	}
+}
+
+

@@ -52,3 +52,7 @@ Kazakhstan
 Colonial French Exiles
 
 Indonesia
+
+Council of Displaced Nations (Netherlands in Exile)
+
+India

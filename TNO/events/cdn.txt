@@ -1,0 +1,109 @@
+country_event = {
+	id = 500157
+	title = "The Guyana Purchase."
+	desc = "$FROMCOUNTRY$ has requested countrol of our colony in Guyana, citing geosecurity concerns as their reasoning. Surely we should help another member of the free world?"
+	is_triggered_only = yes
+	option = {
+		name = "Of course!"
+		2239 = {
+			state_scope = {
+				any_owned = {
+					secede_province = FROM
+				}
+			}	
+		}
+		treasury = 50000
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "Guyana is an important strategic asset!"
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					tag = CBR
+					tag = CFR
+					FROM = {
+						ai = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500158
+	title = "The Guyana Purchase."
+	desc = "$FROMCOUNTRY$ has requested countrol of our colony in Guyana, citing geosecurity concerns as their reasoning. Surely we should help another member of the free world?"
+	is_triggered_only = yes
+	option = {
+		name = "Of course!"
+		2241 = {
+			state_scope = {
+				any_owned = {
+					secede_province = FROM
+				}
+			}	
+		}
+		treasury = 50000
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "Guyana is an important strategic asset!"
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					tag = CBR
+					tag = CFR
+					FROM = {
+						ai = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500159
+	title = "a"
+	desc = "you shouldnt see this"
+
+	trigger = {
+		#always = no
+		tag = CDN
+		ai = yes
+		NOT = {
+			OR = {
+				has_country_flag = CDN_AI_1
+				has_country_flag = CDN_AI_2
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name "1"
+		set_country_flag = CDN_AI_1
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name "2"
+		set_country_flag = CDN_AI_2
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

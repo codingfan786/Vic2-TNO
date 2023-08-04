@@ -1,7 +1,7 @@
-owner = DEN
-controller = DEN
+owner = CDN
+controller = CDN
 add_core = DEN
 add_core = ICL
 trade_goods = fish
 life_rating = 35
- 
+naval_base = 1

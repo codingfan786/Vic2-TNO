@@ -23,7 +23,7 @@ vassal = {
 	second = SLV
 	start_date = 1836.1.1
 }
-vassal = {
+substate = {
 	first = ITA
 	second = GRE
 	start_date = 1836.1.1

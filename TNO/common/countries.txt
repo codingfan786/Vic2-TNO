@@ -51,7 +51,6 @@ EIC = "countries/Indonesia.txt"
 EIR = "countries/IndoReb.txt"
 PHR = "countries/JapPhi.txt"
 
-CBR = "countries/ColBri.txt"
 
 WCH = "countries/WestChina.txt"
 ALP = "countries/TransAlpine.txt"
@@ -321,7 +320,12 @@ GCO		="countries/Gran Colombia.txt"
 ##HoD
 JAN 	= "countries/JanMayen.txt"
 
+#tno
 OFN = "countries/OrganizationFreeNations.txt"
+
+CBR = "countries/ColBri.txt"
+
+CDN = "countries/DisplacedNations.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

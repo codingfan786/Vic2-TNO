@@ -3,31 +3,28 @@ capital = 322
 primary_culture = swedish
 culture = sami
 religion = protestant
-government = hms_government
+government = democracy
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.8
  
 prestige = 15
 
-# Political reforms
 slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = landed_voting
+vote_franschise = wealth_voting
+upper_house_composition = appointed
+voting_system = jefferson_method
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = first_past_the_post
-political_parties = non_secret_ballots
-
-# Social Reforms
-wage_reform = no_minimum_wage
-work_hours = no_work_hour_limit
-safety_regulations = no_safety
-health_care = no_health_care
-unemployment_subsidies = no_subsidies
-pensions = no_pensions 
-school_reforms = no_schools
+political_parties = gerrymandering
+wage_reform = low_minimum_wage
+work_hours = fourteen_hours
+safety_regulations = low_safety
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+health_care = trinket_health_care
+school_reforms = low_schools
 
 ruling_party = SWE_conservative
 last_election = 1960.1.1

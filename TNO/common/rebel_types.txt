@@ -2089,6 +2089,7 @@ indian_sepoys = {
 					controlled_by = REB
 					NOT = { owned_by = THIS }
 					NOT = {culture = tamil}
+					is_core = GWA
 				}
 				province_control_days = 30
 			}

@@ -1,0 +1,29 @@
+country_event = {
+	id = 500156
+	title = "Free at last!"
+	desc = "The German administration has fallen and our people finally rule again!"
+
+	trigger = {
+		NOT = {government = fascist_dictatorship}
+		NOT = {is_vassal = yes}
+		
+		tag = NOR
+		
+		primary_culture = north_german
+	}
+
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	option = {
+		name = "Down with the Germans!"
+		
+		primary_culture = norwegian
+		add_accepted_culture = sami
+		
+		remove_accepted_culture = south_german
+		remove_accepted_culture = north_german
+
+	}
+}

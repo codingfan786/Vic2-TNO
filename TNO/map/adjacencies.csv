@@ -14,6 +14,24 @@
 2334;2335;sea;2992;0;Strait of Magellan
 2204;2206;sea;3001;0;Panama strait
 
+2237;2238;sea;2975;0;Strait of Trinidad
+2233;2238;sea;2975;0;Strait of Trinidad
+2233;2237;sea;2975;0;Strait of Trinidad
+2233;2409;sea;2975;0;Strait of Trinidad
+2229;2409;sea;2975;0;Strait of Trinidad
+2231;2409;sea;2975;0;Strait of Trinidad
+2231;2228;sea;2976;0;Strait of Trinidad
+2232;2228;sea;2976;0;Strait of Trinidad
+2232;2230;sea;2976;0;Strait of Trinidad
+2225;2230;sea;2976;0;Strait of Trinidad
+2225;2224;sea;2976;0;Strait of Trinidad
+2227;2225;sea;2976;0;Strait of Trinidad
+2227;2236;sea;2976;0;Strait of Trinidad
+2226;2236;sea;2976;0;Strait of Trinidad
+2226;2223;sea;2976;0;Strait of Trinidad
+2222;2223;sea;2976;0;Strait of Trinidad
+2220;2219;sea;2977;0;turks bahamas crossing
+
 #
 # African Straits
 #

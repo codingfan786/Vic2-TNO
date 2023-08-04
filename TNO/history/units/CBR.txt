@@ -4,7 +4,7 @@
 
 army = {
 name = "Defense Forces"
-location = 2222
+location = 2217
 regiment = {
 name = "Defense Brigade"
 type = infantry

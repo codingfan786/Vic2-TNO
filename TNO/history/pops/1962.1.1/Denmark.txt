@@ -24,6 +24,16 @@
 		religion = protestant
 		size = 1575
 	}
+	farmers = {
+		culture = norwegian
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 2000
+	}
 
 }
 #Jutland Region : 548000

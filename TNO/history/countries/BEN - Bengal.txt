@@ -5,7 +5,7 @@
 civilized = yes
 capital = 1256
 primary_culture = bengali
-culture = rajput
+#culture = rajput
 religion = hindu
 government = presidential_dictatorship
 plurality = 10

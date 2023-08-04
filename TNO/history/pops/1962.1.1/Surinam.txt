@@ -2,52 +2,80 @@
 #Ruled by The Netherlands 1836
 #Paramaribo (48640/12160 POPS)
 2240 = {
+	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 50000
+	}
+	craftsmen = {
+		culture = dutch
+		religion = protestant
+		size = 50000
+	}
+	farmers = {
+		culture = norwegian
+		religion = protestant
+		size = 10000
+	}
+	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 30000
+	}
+	farmers = {
+		culture = greek
+		religion = protestant
+		size = 20000
+	}
+	
+	
+
 	aristocrats = {
 		culture = dutch
 		religion = protestant
-		size = 25
+		size = 250
 	}
 
 	bureaucrats = {
 		culture = dutch
 		religion = protestant
-		size = 10
+		size = 100
 	}
 
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 50
+		size = 500
 	}
 
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 75
+		size = 7500
 	}
 
 	clergymen = {
-		culture = afro_caribbean
+		culture = dutch
 		religion = protestant
-		size = 25
+		size = 1000
 	}
 
 	artisans = {
 		culture = afro_caribbean
 		religion = protestant
-		size = 1750
+		size = 3750
 	}
 
 	farmers = {
 		culture = afro_caribbean
 		religion = protestant
-		size = 1200
+		size = 2200
 	}
 
 	soldiers = {
 		culture = afro_caribbean
 		religion = protestant
-		size = 25
+		size = 1000
 	}
 
 	slaves = {
@@ -58,34 +86,62 @@
 }
 #Aperina (8000/2000 POPS)
 2245 = {
+	soldiers = {
+		culture = dutch
+		religion = protestant
+		size = 8000
+	}
+
+	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 100000
+	}
+
+	farmers = {
+		culture = norwegian
+		religion = protestant
+		size = 10000
+	}
+	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 30000
+	}
+	farmers = {
+		culture = greek
+		religion = protestant
+		size = 20000
+	}
+
 	aristocrats = {
 		culture = brazilian
 		religion = animist
-		size = 25
+		size = 1000
 	}
 
 	clergymen = {
 		culture = brazilian
 		religion = animist
-		size = 50
+		size = 1500
 	}
 
 	artisans = {
 		culture = brazilian
 		religion = animist
-		size = 100
+		size = 4000
 	}
 
 	soldiers = {
 		culture = brazilian
 		religion = animist
-		size = 25
+		size = 1000
 	}
 
 	farmers = {
 		culture = brazilian
 		religion = animist
-		size = 1750
+		size = 5000
 	}
 
 }

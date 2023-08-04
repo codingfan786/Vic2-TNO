@@ -1,4 +1,6 @@
-owner = CBR
-controller = CBR
+owner = CDN
+controller = CDN
 trade_goods = fish
 life_rating = 30
+
+naval_base = 1

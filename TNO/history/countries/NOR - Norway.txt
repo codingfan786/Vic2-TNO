@@ -1,10 +1,14 @@
 civilized = yes
 capital = 313
-primary_culture = norwegian
-culture = sami
+#primary_culture = norwegian
+#culture = sami
+
+primary_culture = north_german
+culture = south_german
+
 religion = protestant
-government = hms_government
-plurality = 0.5
+government = fascist_dictatorship
+plurality = 0.3
 nationalvalue = nv_liberty
 literacy = 0.87
  
@@ -12,39 +16,30 @@ literacy = 0.87
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = universal_weighted_voting
-public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
+vote_franschise = none_voting
+upper_house_composition = party_appointed
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
-
-# Social Reforms
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+political_parties = underground_parties
 wage_reform = trinket_wage
-work_hours = ten_hours
-safety_regulations = no_safety
-health_care = trinket_health_care
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
 unemployment_subsidies = trinket_subsidies
-pensions = low_pensions 
-school_reforms = no_schools
+pensions = trinket_pensions
+health_care = trinket_health_care
+school_reforms = low_schools
 
 ruling_party = NOR_liberal
 upper_house = {
-	fascist = 0
-	liberal = 65
-	conservative = 25
-	reactionary = 5
-	anarcho_liberal = 2
-	socialist = 3
+	fascist = 100
+	liberal = 0
+	conservative = 0
+	reactionary = 0
+	anarcho_liberal = 0
+	socialist = 0
 	communist = 0
 }
 
-2059.1.1 = {
-	oob = "/1861/NOR_oob.txt"
-}
-2059.1.1 = {
-# Technologies
 
-#Inventions
-}

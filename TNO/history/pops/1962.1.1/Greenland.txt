@@ -5,19 +5,19 @@
 	bureaucrats = {
 		culture = danish
 		religion = protestant
-		size = 25
+		size = 250
 	}
 
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 15
+		size = 150
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 15
+		size = 150
 	}
 
 	farmers = {
@@ -25,25 +25,46 @@
 		religion = protestant
 		size = 1100
 	}
+
+	farmers = {
+		culture = norwegian
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 2000
+	}
 }
 #Holsteinborg (1232/308 POPS)
 2591 = {
 	clergymen = {
 		culture = inuit
 		religion = catholic
-		size = 4
+		size = 40
 	}
 
 	artisans = {
 		culture = inuit
 		religion = catholic
-		size = 4
+		size = 40
 	}
 
 	farmers = {
 		culture = inuit
 		religion = catholic
-		size = 300
+		size = 3000
+	}
+	farmers = {
+		culture = norwegian
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 2000
 	}
 }
 #Augmagsalik (1232/308 POPS)
@@ -51,19 +72,29 @@
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 4
+		size = 40
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 4
+		size = 40
 	}
 
 	farmers = {
 		culture = inuit
 		religion = protestant
-		size = 300
+		size = 3000
+	}
+	farmers = {
+		culture = norwegian
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 2000
 	}
 }
 #Egedesminde (816/204 POPS)
@@ -71,18 +102,28 @@
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 2
+		size = 20
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 2
+		size = 20
 	}
 
 	farmers = {
 		culture = inuit
 		religion = protestant
-		size = 200
+		size = 2000
+	}
+	farmers = {
+		culture = norwegian
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 2000
 	}
 }
