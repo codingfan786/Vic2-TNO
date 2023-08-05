@@ -109,6 +109,7 @@ country_event = {
 	}
 
 	immediate = {
+		set_global_flag = india_has_collapsed
 		remove_country_modifier = hnd_nerf
 		any_country ={
 			limit = {

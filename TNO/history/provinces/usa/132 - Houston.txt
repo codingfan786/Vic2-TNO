@@ -3,7 +3,7 @@ controller = USA
 
 add_core = USA
 add_core = TEX
-trade_goods = oil
+trade_goods = cattle #was oil
 life_rating = 35
 state_building = {
 	level = 1

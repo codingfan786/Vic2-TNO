@@ -86,4 +86,41 @@ political_decisions = {
 		}
 	}
 
+
+	cbr_beef = {
+		picture = ionian_islands_question
+		potential = {
+			always = no
+			has_global_flag = cbr_enhanced
+			NOT = {has_country_flag = beef_in_hnd}
+		}
+		allow = {
+			has_global_flag = india_has_collapsed
+			OR = {
+				HND= {
+					any_core = {
+						owner = {
+							tag = THIS
+						}
+					}
+				}
+				GWA= {
+					any_core = {
+						owner = {
+							tag = THIS
+						}
+					}
+				}
+				1325 = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+			NOT = {government = democracy}
+		}
+		effect = {
+			set_country_flag = beef_in_hnd
+		}
+	}
 }

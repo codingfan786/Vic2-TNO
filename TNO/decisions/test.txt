@@ -8,13 +8,7 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			HND = {
-				any_owned = {
-					any_pop = {
-						militancy = 1
-					}
-				}
-			}
+			#set_country_flag = cool
 		}		
 	}
 }
