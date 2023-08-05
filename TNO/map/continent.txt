@@ -170,3 +170,13 @@ oceania = {
 	farm_rgo_size = 10.0
 	mine_rgo_size = 10.0
 }
+
+
+antarctica = {
+	provinces = {
+		3249 3249 3250 3251 3252 3253 3254 3255 3256 3257 3258 3259 3260 3261 3262 3263 3264 3265 3266 3267 3268 3269 3270 3271 3272 
+	}
+	assimilation_rate = -0.5
+	farm_rgo_size = -50.0
+	mine_rgo_size = -50.0
+}

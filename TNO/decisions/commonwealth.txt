@@ -70,6 +70,7 @@ political_decisions = {
 		picture = ionian_islands_question
 		potential = {
 			tag = CBR
+			always = no
 		}
 		allow = {
 			NOT = {exists = ENG}
