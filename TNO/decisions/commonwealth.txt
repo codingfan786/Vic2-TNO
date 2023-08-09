@@ -89,15 +89,23 @@ political_decisions = {
 
 
 	cbr_beef = {
-		picture = ionian_islands_question
+		picture = beef
 		potential = {
-			always = no
+			#always = no
 			has_global_flag = cbr_enhanced
 			NOT = {has_country_flag = beef_in_hnd}
+			tag = CBR
 		}
 		allow = {
 			has_global_flag = india_has_collapsed
 			OR = {
+				HD2= {
+					any_core = {
+						owner = {
+							tag = THIS
+						}
+					}
+				}
 				HND= {
 					any_core = {
 						owner = {
@@ -122,6 +130,91 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = beef_in_hnd
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = HND
+						is_core = HD2
+						is_core = GWA
+						province_id = 1325
+					}
+				}
+				add_core = BEF
+			}
+			release = BEF
+			create_vassal = BEF
 		}
+	}
+
+	cbr_beef_annex = {
+		picture = beef
+		potential = {
+			has_country_flag = beef_in_hnd
+			tag = CBR
+			NOT= {has_country_flag = beef_eaten}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			OR = {
+				AND = {
+					has_global_flag = hnd_devved
+					HD2 = {
+						all_core = {
+							OR = {
+								NOT = {
+									OR = {
+										culture = rajput
+										culture = tamil
+									}
+								}
+								owner = {tag = BEF}
+								owner = {tag = THIS}
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = {has_global_flag = hnd_devved}
+					HND = {
+						all_core = {
+							OR = {
+								NOT = {
+									OR = {
+										culture = rajput
+										culture = tamil
+									}
+								}
+								owner = {tag = BEF}
+								owner = {tag = THIS}
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			set_country_flag = beef_eaten
+			BEF = {civilized = no}
+			inherit = BEF
+			BEF = {civilized = yes}
+			any_owned = {
+				limit = {
+					OR = {
+						culture = rajput
+						culture = tamil
+					}
+				}
+				any_pop = {
+					militancy = 4
+					consciousness = 4
+				}
+			}
+			BEF = {
+				all_core = {
+					remove_core = BEF
+				}
+			}
+		}
+
 	}
 }

@@ -484,3 +484,11 @@ cdn_focus_greece_title;Liberate Greece!;x
 cdn_focus_greece_desc;Greece fought the hardest and the longest against the German Reich and its allies in World War 2. Exiles from the nation at the thought of returning and starting the fight anew!;x
 cdn_focus_indonesia_title;Reclaim the East Indies!;x
 cdn_focus_indonesia_desc;The old guard of the Dutch imperialists are pushing for us to restore our possesions in the East Indies. This sounds like a great idea!;x
+beef_cb;B.E.E.F. Expedition;;;;;;;;;;;;x;;;
+beef_cb_short;B.E.E.F. Restoration of Raj $STATE$;;;;;;;;;;;;x;;;
+beef_cb_setup;Acquire $STATE$ §R This CB costs 4 infamy, despite what this menu says.;;;;;;;;;;;;x;;;
+beef_cb_desc;The B.E.E.F. expands! §R This CB costs 4 infamy, despite what this menu says.;x
+cbr_beef_title;Establish the British Empire Expeditionary Force.;x
+cbr_beef_desc;The unification of the central countries of the British commonwealth has lead many to the expectation that the Commonwealth would continue on the reunify even the colonial possesions where British are the ethnic minority. None are more staunch proponents of this than Louis Mountbatten, the former Supreme Allied Commander of the Southeast Asia Command. Mountbatten served prestigiously in various naval commands in World War 2 and has many political connections among the exiled British monarchists due to being a close relative of the British royal family. With the collapse of India he has rallied many of his imperial supporters into advocating the establishment of the British Empire Expeditionary Force to restore the former colonial possesion. §R THE CB YOU WILL GET IS NOT FREE!!! IT COSTS 4 INFAMY DO NOT CRY ABOUT THINKING IT IS FREE!;x
+cbr_beef_annex_title;Mountbatten Triumphant!;x
+cbr_beef_annex_desc;Mountbatten has done the impossible! With just a small garrison tucked away on Ceylon he has reconquered all of India! Despite international condemnation of our intervention in India and the claims of British warcrimes, the reality of the situation is clear. The Indian Raj returns with its new Viceroy and Governor-General Louis Mountbatten!;x

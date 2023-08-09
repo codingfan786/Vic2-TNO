@@ -1375,3 +1375,9 @@ defence_minus_4.3;§R-4 Defence;;;;;;;;;;;;;;
 defence_minus_4.4;§R-4 Defence;;;;;;;;;;;;;;
 defence_minus_5.1;§R-5 Defence;;;;;;;;;;;;;;
 persistant;§WSpeed Bonus;;;;;;;;;;;;;;
+EVTNAME12341234;Infamy Limit Violated!;;;;;;;;;;;;;x;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC12341234;You're the worst scum of the earth and you deserve what's coming for you;;;;;;;;;;;;;x;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+badboymod;Over Infamy Limit;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+desc_badboymod;We have violated international law by breaching the infamy limit. The nation suffers greatly for the misbehaviour of our Leader!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME123412345;You're below infamy limit once again!;;;;;;;;;;;;;x;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;,,,,,,,,,,,,,,,
+EVTDESC123412345;Good boy. Here's a cookie.;;;;;;;;;;;;;x;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;,,,,,,,,,,,,,,,,,,

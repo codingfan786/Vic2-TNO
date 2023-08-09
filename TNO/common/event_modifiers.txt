@@ -1,6 +1,21 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+badboymod = {
+	global_population_growth = -0.005
+	research_points_modifier = -1.0
+	global_immigrant_attract = -4.0
+	diplomatic_points_modifier = -1.0
+	org_regain = -0.2
+    land_organisation = -0.2
+    naval_organisation = -0.2
+    factory_throughput = -0.5
+    RGO_throughput = -0.5
+    prestige = -0.2
+    war_exhaustion = 2
+	icon = 17
+}
+
 cdn_council = {
 	icon = 5
 	diplomatic_points_modifier = 0.2

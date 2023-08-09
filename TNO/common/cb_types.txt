@@ -56,6 +56,7 @@ tiny_conquest
 civil_war 
 acquire_core_state 
 rus_uni
+beef_cb
 afr_oil_wars
 annex_core_country
 acquire_state 
@@ -628,7 +629,7 @@ place_in_the_sun = {
 
 	badboy_factor = 0.3
 	prestige_factor = 2
-	peace_cost_factor = 0.5
+	peace_cost_factor = 1
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -829,12 +830,12 @@ free_peoples = {
 				exists = yes
 				NOT = {
 						OR = {
-							tag = GER
+							#tag = GER
 							tag = SCA
-							tag = ITA
-							tag = YUG
-							tag = ROM
-							tag = CZH
+							#tag = ITA
+							#tag = YUG
+							#tag = ROM
+							#tag = CZH
 						}
 					}
 				}
@@ -2056,6 +2057,7 @@ negotiated_transfer = {
 		number_of_states = 2 # annex if you want their last state
 		NOT = { truce_with = THIS } 
 		THIS = { civilized = yes }
+		always = no
 	}
 	
 	allowed_countries = {
@@ -2841,6 +2843,100 @@ afr_oil_wars = {
 	war_name = WAR_INSTALL_NEW_GOV_NAME
 	
 	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+
+beef_cb = {
+	sprite_index = 14
+	is_triggered_only = yes
+	months = 0
+	crisis = no
+	constructing_cb = no
+	always = yes
+
+	badboy_factor = 1.1
+	prestige_factor = 2
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+
+	can_use = {
+		OR = {
+			NOT = {THIS = {ai = yes}}
+			NOT = {
+				THIS = {badboy = 0.84}
+			}
+		}
+		OR = {
+			THIS = {tag = BEF}
+			THIS = {
+				is_our_vassal = BEF
+			}
+		}
+		NOT = { truce_with = THIS } 
+		NOT = {vassal_of = THIS}
+
+		any_owned_province = {
+			OR = {
+				culture = rajput
+				culture = tamil
+			}
+			OR = {
+				is_core = HND
+				is_core = HD2
+			}
+		}
+	}
+	
+	allowed_countries = {
+		any_owned_province = {
+			OR = {
+				culture = rajput
+				culture = tamil
+			}
+			OR = {
+				is_core = HND
+				is_core = HD2
+			}
+		}
+		NOT = {tag = BEF}
+		FROM = {tag = BEF}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			OR = {
+				culture = rajput
+				culture = tamil
+			}
+			OR = {
+				is_core = HND
+				is_core = HD2
+			}
+		}
+	}
+
+	po_transfer_provinces = yes
+	
+	war_name = WAR_INSTALL_NEW_GOV_NAME
+	
+	on_add = {
+		THIS = {badboy = 4}
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
