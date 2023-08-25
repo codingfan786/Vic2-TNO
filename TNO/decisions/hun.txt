@@ -14,6 +14,11 @@ political_decisions = {
 			AUS = {all_core = {add_core = THIS}}
 			set_country_flag = monarch_chosen
 			set_country_flag = habsburg_chosen
+
+			political_reform = universal_weighted_voting
+			political_reform = harassment
+			political_reform = appointed
+
 		}
 		ai_will_do = {
 			factor = 0
@@ -54,6 +59,10 @@ political_decisions = {
 		effect = {
 			set_country_flag = monarch_chosen
 			government = democracy
+			political_reform = universal_weighted_voting
+			political_reform = harassment
+			political_reform = appointed
+			
 			add_country_modifier = {
 				name = demo_hung
 				duration = 7300

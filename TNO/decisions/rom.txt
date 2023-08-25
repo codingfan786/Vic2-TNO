@@ -38,6 +38,10 @@ political_decisions = {
 		effect = {
 			set_country_flag = king_michael_coup
 			government = absolute_monarchy
+			political_reform = underground_parties
+			political_reform = none_voting
+			political_reform = party_appointed
+
 			remove_country_modifier = national_confusion
 			nationalvalue = nv_tradition
 			any_pop = {

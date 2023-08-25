@@ -303,6 +303,8 @@ political_decisions = {
 				}
 			}
 			
+			COR = {military_access = ENG}
+			ONE = {treasury = 1000000}
 		}
 	}
 
@@ -493,7 +495,7 @@ political_decisions = {
 			SAF = {set_country_flag = in_ofn}
 			SCO = {set_country_flag = in_ofn}
 			BRZ = {set_country_flag = in_ofn}
-			IRE = {set_country_flag = in_ofn}
+			#IRE = {set_country_flag = in_ofn}
 			BRZ = {set_country_flag = in_ofn}
 			MEX = {set_country_flag = in_ofn}
 			CBR = {set_country_flag = in_ofn}

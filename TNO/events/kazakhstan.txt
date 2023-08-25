@@ -124,6 +124,9 @@ country_event = {
 			days = 32
 		}
 		government = fascist_dictatorship
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
 		prestige = 10
 	}
 	option = {
@@ -177,6 +180,10 @@ country_event = {
 		}
 		change_tag = KAZ
 		government = proletarian_dictatorship
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
+		
 		primary_culture = turkmen
 		set_country_flag = polish_israel_revoked
 		create_vassal = KOK

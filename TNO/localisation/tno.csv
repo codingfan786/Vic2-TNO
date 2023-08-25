@@ -163,14 +163,14 @@ cbr_britain_title;Home Coming!;;;;;;;;;;;;x
 cbr_britain_desc;The Fascist British Government has been toppled! Now we must pick up the pieces and save the British people.;;;;;;;;;;;;x
 request_cornwall_title;Request the return of Cornwall;;;;;;;;;;;;x
 request_cornwall_desc;With the German Civil War ended, now may be opportune time to demand the return of Cornwall. After that we can focus on the unification of the rest of the isles.;;;;;;;;;;;;x
-fasc_welsh_title;Wales is English!;;;;;;;;;;;;x
-fasc_welsh_desc;We should expand into Wales!;;;;;;;;;;;;x
-fasc_scotland_title;Scotland is English!;;;;;;;;;;;;x
-fasc_scotland_desc;We should expand into Scotland!;;;;;;;;;;;;x
-fasc_ireland_title;Ireland is English!;;;;;;;;;;;;x
+fasc_welsh_title;Restore Dominion over Wales!;;;;;;;;;;;;x
+fasc_welsh_desc;In the wake of Operation Sealion Wales and Scotland declared independence and tacit support for the rising German hegemony. Now that we have asserted our place in the new German lead world it is time they return to us!;;;;;;;;;;;;x
+fasc_scotland_title;Restore Dominion over Scotland!;;;;;;;;;;;;x
+fasc_scotland_desc;In the wake of Operation Sealion Wales and Scotland declared independence and tacit support for the rising German hegemony. Now that we have asserted our place in the new German lead world it is time they return to us!;;;;;;;;;;;;x
+fasc_ireland_title;Avenge the Protestant Counties!;;;;;;;;;;;;x
 fasc_ireland_desc;We should expand into Ireland!;;;;;;;;;;;;x
-demo_welsh_title;Invite Wales back into the Union;;;;;;;;;;;;x
-demo_welsh_desc;The independence movement of the Welsh was nothing but a fantasy concocted by the Germans. Now that we are back they are ready to behave as true Englishmen.;;;;;;;;;;;;x
+demo_welsh_title;Invite Wales back into the Union.;;;;;;;;;;;;x
+demo_welsh_desc;The independence movement of the Welsh was nothing but a hysterical fantasy of the aftermath of Operation Sealion. They believed that such an act would excempt them from the German horrors of German encroachment. Now that England is finally free of German influence they will be heartily welcomed back into the union.;;;;;;;;;;;;x
 contact_cbr_title;Contact the British Colonial Administration;;;;;;;;;;;;x
 contact_cbr_desc;Since World War 2 the British colonial administration has been cut off and in collapse. They will be glad to hear of the Nation's recovery.;;;;;;;;;;;;x
 support_boers_title;Support Boer separatism.;;;;;;;;;;;;x
@@ -492,3 +492,11 @@ cbr_beef_title;Establish the British Empire Expeditionary Force.;x
 cbr_beef_desc;The unification of the central countries of the British commonwealth has lead many to the expectation that the Commonwealth would continue on the reunify even the colonial possesions where British are the ethnic minority. None are more staunch proponents of this than Louis Mountbatten, the former Supreme Allied Commander of the Southeast Asia Command. Mountbatten served prestigiously in various naval commands in World War 2 and has many political connections among the exiled British monarchists due to being a close relative of the British royal family. With the collapse of India he has rallied many of his imperial supporters into advocating the establishment of the British Empire Expeditionary Force to restore the former colonial possesion. §R THE CB YOU WILL GET IS NOT FREE!!! IT COSTS 4 INFAMY DO NOT CRY ABOUT THINKING IT IS FREE!;x
 cbr_beef_annex_title;Mountbatten Triumphant!;x
 cbr_beef_annex_desc;Mountbatten has done the impossible! With just a small garrison tucked away on Ceylon he has reconquered all of India! Despite international condemnation of our intervention in India and the claims of British warcrimes, the reality of the situation is clear. The Indian Raj returns with its new Viceroy and Governor-General Louis Mountbatten!;x
+ss_england_title;Establish SS Britannia;;;;;;;;;;;;x
+ss_england_desc;The Germanisation programs are simply not sustainable. In order to secure the Reichskommissariat we should start recruiting our security forces from the local population.;;;;;;;;;;;;x
+COR_expand_title;Governorate of Cornwall.;x
+COR_expand_desc;The failure of the British in containing their wanton aggression has forced us to intervene directly in the day to day machinations of their government.;x
+COR_england_title;Restore Order In England!;x
+COR_england_desc;The German Reich's presence in Plymouth is no meaningless chance occupation: after Churchill's "Fight on the Beaches" speech it became apparent to all that the British would never serioussly negotiate or honor any future truces made in the conclusion of the war. Thus, the Plymouth Military Occupation was born in order to conduct anti-resistance operations and keep the Britoid in check. However, with the advent of England's full-scale rebellion the garrison is ready to fully mobilize and crush them.;x
+FIN_2;Savonia;x
+FIN_3;Ostrobothnia;x

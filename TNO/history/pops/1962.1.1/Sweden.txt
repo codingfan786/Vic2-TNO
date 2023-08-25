@@ -162,7 +162,7 @@
 	labourers = {
 		culture = swedish
 		religion = protestant
-		size = 12500
+		size = 72500
 	}
 
 	artisans = {
@@ -275,7 +275,7 @@
 	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 65500
+		size = 75500
 	}
 }
 #Uppsala (88000/22000 POPS)

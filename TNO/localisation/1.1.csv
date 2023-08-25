@@ -20,7 +20,7 @@ CAL_absolute_monarchy;Kingdom of California;Royaume de Californie;Kingdom of Cal
 CAL_hms_government;Kingdom of California;Royaume de Californie;Kingdom of California;;Reino de California;;;;;;;;x
 DOM_absolute_monarchy;Santo Domingo;Santo Domingo;Santo Domingo;;Santo Domingo;;;;;;;;x
 DOM_hms_government;Santo Domingo;Santo Domingo;Santo Domingo;;Santo Domingo;;;;;;;;x
-ENG_democracy;Great Britain;Grande-Bretagne;Großbritannien;;Gran Bretaña;;;;;;;;x;
+ENG_democracy;United Kingdom;Grande-Bretagne;Großbritannien;;Gran Bretaña;;;;;;;;x;
 TECH_DAILY_LEADERSHIP_BASE_TOOLTIP;Monthly base leadership: §Y$VALUE$§W;Valeur de base mensuelle de Commandement  : §Y$VALUE$§W;Monatliche Basis-Anführerpunkte: §Y$VALUE$§W;;Liderazgo básico mensual: §Y$VALUE$§W;;;;;;;;x
 TECH_DAILY_LEADERSHIP_TOTAL_TOOLTIP;Monthly leadership: §G+$VALUE$§W;Valeur mensuelle de Commandement : §G+$VALUE$§W;Monatliche Anführerpunkte: §G+$VALUE$§W;;Liderazgo mensual: §G+$VALUE$§W;;;;;;;;x
 TECH_DAILY_LEADERSHIP_TOOLTIP;$POPTYPE$ provide §G$VALUE$§W leadership.\n (§Y$FRACTION$%§W of the population, $OPTIMAL$% is optimal.);§Y$POPTYPE$§W donnent §G$VALUE$§W de valeur de Commandement.\n(§Y$FRACTION$ %§W de la population, $OPTIMAL$ % est optimal);$POPTYPE$ erbringen §G$VALUE$§W Anführerpunkte.\n(§Y$FRACTION$%§W der Bevölkerung, $OPTIMAL$% ist optimal);;Los $POPTYPE$ proporcionan §G$VALUE$§W de liderazgo.\n (§Y$FRACTION$%§W de la población, el valor óptimo es $OPTIMAL$%.);;;;;;;;x

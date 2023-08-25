@@ -1,0 +1,16 @@
+political_decisions = {
+	speer_reforms = { #break these up to different techs and reforms and maybe put a few on the others?
+		potential = {
+			tag = SGE
+			NOT = {exists = GER}
+			NOT = {has_country_flag = speer_reforms}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			set_country_flag = speer_reforms
+		}
+	}
+
+}

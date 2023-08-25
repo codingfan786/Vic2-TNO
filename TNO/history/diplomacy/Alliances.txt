@@ -7,6 +7,13 @@ alliance=
 
 alliance=
 	{
+		first="COR"
+		second="ENG"
+		start_date="1962.1.1"
+	}
+
+alliance=
+	{
 		first="POL"
 		second="UKR"
 		start_date="1962.1.1"

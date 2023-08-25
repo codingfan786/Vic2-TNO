@@ -1,0 +1,99 @@
+political_decisions = {
+	COR_england = {
+		picture = the_heligoland_question
+		potential = {
+			tag = COR
+			NOT = {has_country_flag = intervene_in_england}
+			ENG = {exists = yes}
+		}
+		allow = {
+			ENG = {government = democracy}
+		}
+		effect = {
+			set_country_flag = intervene_in_england
+			ENG = {
+				add_casus_belli = {
+					target = COR
+					type = make_facist
+					months = 18
+				}
+				add_casus_belli = {
+					target = COR
+					type = make_puppet
+					months = 18
+				}
+			}
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						ai = yes
+					}
+				}
+				COR = {
+					war = {
+						target = ENG
+						attacker_goal = {casus_belli = make_facist}
+						attacker_goal = {casus_belli = make_puppet}
+
+						call_ally = yes
+					}
+				}
+				
+			}
+		}
+	}
+
+	COR_expand = {
+		picture = the_heligoland_question
+		potential = {
+			tag = COR
+			NOT = {has_country_flag = annexed_england}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			war = no
+			is_our_vassal = ENG
+		}
+		effect = {
+			inherit = ENG
+			set_country_flag = annexed_england
+		}
+	}
+	
+
+	ss_england = {
+		picture = form_arabia
+		potential = {
+			tag = COR
+			NOT= {has_country_flag = ss_formed}
+			primary_culture = north_german
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			NOT = {
+				any_owned_province = {
+					has_province_modifier = cultural_genocide
+				}
+			}
+		}
+		effect = {
+			set_country_flag = ss_formed
+			add_accepted_culture = british
+			any_owned = {
+				limit = {
+					culture = british
+				}
+				add_province_modifier = {
+					name = ss_division
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = ss_recruitment
+				duration = -1
+			}
+		}
+	}
+
+}

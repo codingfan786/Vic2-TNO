@@ -470,7 +470,12 @@ country_event = {
 	immediate = {
 		OFN = {prestige = -1000}
 		create_vassal = OFN
-		OFN = {government = democracy}
+		OFN = {
+			government = democracy
+			political_reform = universal_weighted_voting 
+			political_reform = population_equal_weight
+			political_reform = gerrymandering
+		}
 		OFN = {primary_culture = THIS}
 	}
 

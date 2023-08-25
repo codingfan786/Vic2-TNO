@@ -60,6 +60,9 @@ country_event = {
 
 	immediate = {
 		government = fascist_dictatorship
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
 	}
 	option = {
 		name = "Interesting."

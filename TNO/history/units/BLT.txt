@@ -1,6 +1,6 @@
 army = {
 	name = "1a Armata" #done
-	location = 364
+	location = 938
 	
 	regiment = {
 		name= "1.2a Bersaglieri"

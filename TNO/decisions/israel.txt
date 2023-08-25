@@ -95,6 +95,10 @@ political_decisions = {
 		effect = {
 			set_country_flag = irguncouped
 			government = presidential_dictatorship
+			political_reform = underground_parties
+			political_reform = none_voting
+			political_reform = party_appointed
+
 			any_pop = {
 				limit = {
 					OR = {

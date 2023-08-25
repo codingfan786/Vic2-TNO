@@ -75,6 +75,10 @@ political_decisions = {
 		}
 		effect = {
 			government = democracy
+			political_reform = universal_weighted_voting 
+			political_reform = population_equal_weight
+			political_reform = gerrymandering
+			
 			change_tag = EIR
 			any_country = {
 				limit = {

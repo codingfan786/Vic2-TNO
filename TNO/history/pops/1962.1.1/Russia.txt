@@ -910,7 +910,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 1335
+		size = 50350
 	}
 
 	clergymen = {
@@ -948,7 +948,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 1825
+		size = 18250
 	}
 
 	clergymen = {
@@ -972,11 +972,16 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 2800
+		size = 28000
 	}
 }
 #Povyents (28000/7000 POPS)
 988 = {
+	soldiers = {
+		culture = finnish
+		religion = orthodox
+		size = 10000
+	}
 	clergymen = {
 		culture = russian
 		religion = orthodox
@@ -1030,25 +1035,25 @@
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 5
+		size = 100
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 295
+		size = 5050
 	}
 
 	clergymen = {
 		culture = finnish
 		religion = orthodox
-		size = 5
+		size = 100
 	}
 
 	farmers = {
 		culture = finnish
 		religion = orthodox
-		size = 245
+		size = 5050
 	}
 }
 #Onega (22000/5500 POPS)
@@ -1075,6 +1080,12 @@
 		culture = russian
 		religion = orthodox
 		size = 50
+	}
+
+	soldiers = {
+		culture = finnish
+		religion = orthodox
+		size = 10000
 	}
 
 	farmers = {
@@ -1452,6 +1463,11 @@
 }
 #Petrozavorsk (104000/26000 POPS)
 995 = {
+	soldiers = {
+		culture = finnish
+		religion = orthodox
+		size = 10000
+	}
 	aristocrats = {
 		culture = russian
 		religion = orthodox

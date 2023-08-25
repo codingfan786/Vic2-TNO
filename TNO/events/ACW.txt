@@ -228,6 +228,7 @@ country_event = {
 			SGE = {treasury = 500000}
 			HGE = {treasury = 500000}
 			BGE = {treasury = 500000}
+			ONE = {treasury = 1000000}
 	}
 }
 

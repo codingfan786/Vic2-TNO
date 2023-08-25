@@ -18,6 +18,9 @@ political_decisions = {
 			release_vassal = THIS
 			set_country_flag = PBS_freedom
 			government = democracy
+			political_reform = universal_weighted_voting 
+			political_reform = population_equal_weight
+			political_reform = gerrymandering
 		}
 		ai_will_do = {
 			factor = 1
@@ -395,6 +398,7 @@ political_decisions = {
 					accepted_culture = dutch
 					accepted_culture = flemish
 					accepted_culture = wallonian
+					accepted_culture = british
 				}
 			}
 		}
@@ -418,7 +422,10 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				tag = COR
+				AND = {
+					tag = COR
+					NOT = {has_country_flag = annexed_england}
+				}
 			}
 			modifier = {
 				factor = 0

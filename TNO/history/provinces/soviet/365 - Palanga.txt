@@ -3,7 +3,6 @@ controller = BLT
 add_core = BLT
 add_core = LIT
 
-fort = 1
 
 
 trade_goods = grain
