@@ -119,6 +119,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA60030"
 		government = fascist_dictatorship
+		ruling_party_ideology = fascist
 	}
 }
 
@@ -328,6 +329,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA60080"
 		government = fascist_dictatorship
+		ruling_party_ideology = fascist
 	}
 }
 

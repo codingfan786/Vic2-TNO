@@ -305,6 +305,13 @@ political_decisions = {
 			
 			COR = {military_access = ENG}
 			ONE = {treasury = 1000000}
+			ITA = {
+				add_country_modifier = {
+					name = nuc_dev
+					duration = 5475
+				}
+				set_country_flag = nuke
+			}
 		}
 	}
 

@@ -1,0 +1,148 @@
+country_event = {
+	id = 500163
+	title = "bormann demands subjugation"
+	desc = "how terrible"
+	is_triggered_only = yes
+
+	option = {
+		name = "We have no choice..."
+		country_event = 500070
+		FROM = {create_vassal = THIS}
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = 800
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				FROM = {
+					relation = { who = THIS value = 100 }
+				}
+			}
+			modifier = {
+				factor = 0
+				tag = FRA
+			}
+			modifier = {
+				factor = 0
+				tag = ENG
+			}
+		}
+	}
+	option = {
+		name = "...But to fight for survival!"
+		add_casus_belli = {
+			target = FROM
+			type = make_facist
+			months = 24
+		}
+		add_casus_belli = {
+			target = FROM
+			type = make_puppet_unlimited
+			months = 24
+		}
+		ai_chance = {
+			factor = 2
+		}
+
+		any_country = {
+			limit = {
+				tag = FROM
+				ai = yes
+				OR = {
+					NOT = {alliance_with = THIS}
+					THIS = {ai = yes}
+				}
+			}
+			war = {
+				target = THIS
+				attacker_goal = {casus_belli = make_facist}
+				attacker_goal = {casus_belli = make_puppet_unlimited}
+				call_ally = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500164
+	title = "Bormann tames the near east lebensraum."
+	desc = "Wow."
+	fire_only_once = yes
+
+	trigger = {
+		tag = BGE
+		has_country_flag = nes_1_start
+		OR = {
+			NOT = {exists = POL}
+			is_our_vassal = POL
+		}
+		OR = {
+			NOT = {exists = BOH}
+			is_our_vassal = BOH
+		}
+		OR = {
+			NOT = {exists = CZH}
+			is_our_vassal = CZH
+		}
+		OR = {
+			NOT = {exists = SLV}
+			is_our_vassal = SLV
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = near_east_dealt_with
+	}
+
+	option = {
+		name = "Heil Bormann!"
+		prestige = 20
+	}
+}
+
+country_event = {
+	id = 500165
+	title = "Bormann tames the far east lebensraum."
+	desc = "Wow."
+	fire_only_once = yes
+
+	trigger = {
+		tag = BGE
+		has_country_flag = fes_1_start
+		NOT = {exists = FEU}
+		OR = {
+			NOT = {exists = MSC}
+			is_our_vassal = MSC
+		}
+		OR = {
+			NOT = {exists = BLT}
+			is_our_vassal = BLT
+		}
+		OR = {
+			NOT = {exists = UKR}
+			is_our_vassal = UKR
+		}
+	}
+
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = far_east_dealt_with
+	}
+
+	option = {
+		name = "Heil Bormann!"
+		prestige = 20
+	}
+}

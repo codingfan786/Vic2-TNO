@@ -12,6 +12,7 @@ political_decisions = {
 			#exists = COR
 		}
 		allow = {
+			NOT = {is_vassal = yes}
 			state_n_government = 1
 			NOT = {exists = GER}
 		}

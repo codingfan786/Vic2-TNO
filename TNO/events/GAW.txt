@@ -10,6 +10,7 @@ country_event = {
 		set_global_flag = gaw_started
 		release_vassal = CHI
 		government = fascist_dictatorship
+		ruling_party_ideology = conservative
 		political_reform = underground_parties
 		political_reform = none_voting
 		political_reform = party_appointed

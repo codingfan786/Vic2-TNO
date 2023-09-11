@@ -52,20 +52,3 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = 500070
-	title = "Facist dictatorship installed!"
-	desc = "Our government type has changed!"
-	is_triggered_only = yes
-
-	immediate = {
-		government = fascist_dictatorship
-		political_reform = underground_parties
-		political_reform = none_voting
-		political_reform = party_appointed
-	}
-	option = {
-		name = "Interesting."
-	}
-}
-

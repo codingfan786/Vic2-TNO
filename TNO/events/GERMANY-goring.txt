@@ -1,0 +1,197 @@
+country_event = {
+	id = 500166
+	title = "bormann demands subjugation"
+	desc = "how terrible"
+	is_triggered_only = yes
+
+	option = {
+		name = "We have no choice..."
+		FROM = {inherit = THIS}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = "...But to fight for survival!"
+		add_casus_belli = {
+			target = FROM
+			type = ger_annex
+			months = 24
+		}
+
+		release_vassal = THIS
+
+		ai_chance = {
+			factor = 1
+		}
+
+
+		any_country = {
+			limit = {
+				tag = FROM
+				ai = yes
+			}
+			war = {
+				target = THIS
+				attacker_goal = {casus_belli = ger_annex}
+				call_ally = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500167
+	title = "goring tames the near east lebensraum."
+	desc = "Wow."
+	fire_only_once = yes
+
+	trigger = {
+		tag = GGE
+		has_country_flag = nes_1_start
+		NOT = {exists = POL}
+		NOT = {exists = BOH}
+		NOT = {exists = CZH}
+		NOT = {exists = SLV}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = near_east_dealt_with
+	}
+
+	option = {
+		name = "Heil Goring!"
+		prestige = 20
+	}
+}
+
+country_event = {
+	id = 500168
+	title = "time to expand cornwall..."
+	desc = "wow"
+	is_triggered_only = yes
+
+	immediate = {
+		
+		random_owned = {
+			limit = {
+				299 = {owner = {tag = THIS}}
+			}
+			299 = {secede_province = COR}
+		}
+		
+		random_owned = {
+			limit = {
+				298 = {owner = {tag = THIS}}
+			}
+			298 = {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				296 = {owner = {tag = THIS}}
+			}
+			296 = {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				297 = {owner = {tag = THIS}}
+			}
+			297 = {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				303 = {owner = {tag = THIS}}
+			}
+			303 = {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				294 = {owner = {tag = THIS}}
+			}
+			294 = {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				302 = {owner = {tag = THIS}}
+			}
+			302 = {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				300 = {owner = {tag = THIS}}
+			}
+			300 = {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				301 = {owner = {tag = THIS}}
+			}
+			301 = {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				295 = {owner = {tag = THIS}}
+			}
+			295 = {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				293 = {owner = {tag = THIS}}
+			}
+			293 = {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				291 = {owner = {tag = THIS}}
+			}
+			291= {secede_province = COR}
+		}
+
+		random_owned = {
+			limit = {
+				292 = {owner = {tag = THIS}}
+			}
+			292 = {secede_province = COR}
+		}
+
+		
+			#add_core = COR
+			#secede_province = COR
+		
+		#release = COR
+		COR = {
+			create_vassal = ENG
+			prestige = 20
+		}
+		GGE = {
+			diplomatic_influence = {
+				who = ENG
+				value = 800
+			}
+		}
+		GGE = {
+			diplomatic_influence = {
+				who = COR
+				value = 800
+			}
+		}
+		ENG = {prestige = -70}
+	}
+	option = {
+		name = "lol"
+	}
+}

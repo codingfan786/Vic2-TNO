@@ -27,15 +27,15 @@ health_care = trinket_health_care
 school_reforms = low_schools
 
 
-ruling_party = ISR_liberal
+ruling_party = ISR_fascist
 upper_house = {
-	fascist = 0
-	liberal = 55
-	conservative = 25
-	reactionary = 5
-	anarcho_liberal = 5
-	socialist = 5
-	communist = 5
+	fascist = 100
+	liberal = 0
+	conservative = 0
+	reactionary = 0
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
 }
 
 2059.1.1 = {

@@ -1618,6 +1618,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB17630"
 		government = fascist_dictatorship
+		ruling_party_ideology = fascist
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = no_meeting

@@ -1,0 +1,222 @@
+country_event = {
+	id = 500160
+	title = "speer demands subjugation"
+	desc = "how terrible"
+	is_triggered_only = yes
+
+	option = {
+		name = "We have no choice..."
+		country_event = 500070
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = 800
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				FROM = {
+					relation = { who = THIS value = 100 }
+				}
+			}
+			modifier = {
+				factor = 2
+				FROM = {
+					relation = { who = THIS value = 200 }
+				}
+			}
+		}
+	}
+	option = {
+		name = "...But to fight for survival!"
+		add_casus_belli = {
+			target = FROM
+			type = make_facist
+			months = 24
+		}
+		add_casus_belli = {
+			target = FROM
+			type = add_to_sphere
+			months = 24
+		}
+		ai_chance = {
+			factor = 2
+		}
+
+		any_country = {
+			limit = {
+				tag = FROM
+				ai = yes
+				OR = {
+					NOT = {alliance_with = THIS}
+					THIS = {ai = yes}
+				}
+				
+			}
+			war = {
+				target = THIS
+				attacker_goal = {casus_belli = make_facist}
+				attacker_goal = {casus_belli = add_to_sphere}
+				call_ally = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500161
+	title = "Speer tames the near east lebensraum."
+	desc = "Wow."
+	fire_only_once = yes
+
+	trigger = {
+		tag = SGE
+		has_country_flag = nes_1_start
+		OR = {
+			NOT = {exists = POL}
+			POL = {government = fascist_dictatorship}
+		}
+		OR = {
+			NOT = {exists = BOH}
+			BOH = {government = fascist_dictatorship}
+		}
+		OR = {
+			NOT = {exists = CZH}
+			CZH = {government = fascist_dictatorship}
+		}
+		OR = {
+			NOT = {exists = SLV}
+			SLV = {government = fascist_dictatorship}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = near_east_dealt_with
+		set_variable = {
+			which = speer_reform_points
+			value = 0
+		}
+		any_country = {
+			limit = {
+				tag = CZH
+				exists = yes
+			}
+			SGE = {
+				change_variable = {
+					which = speer_reform_points
+					value = 2
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				OR = {
+					tag = SLV
+					tag = POL
+					tag = BOH
+				}
+				exists = yes
+			}
+			SGE = {
+				change_variable = {
+					which = speer_reform_points
+					value = 1
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				NOT = {
+					SGE = {
+						check_variable = {
+							which = speer_reform_points
+							value = 1
+						}
+					}
+				}
+				is_capital = yes
+			}
+			SGE = {set_country_flag = speer_auth_1}
+		}
+	}
+
+	option = {
+		name = "Heil Speer!"
+		prestige = 20
+	}
+}
+
+country_event = {
+	id = 500162
+	title = "Speer tames the far east lebensraum."
+	desc = "Wow."
+	fire_only_once = yes
+
+	trigger = {
+		tag = SGE
+		has_country_flag = fes_1_start
+		NOT = {exists = FEU}
+		OR = {
+			NOT = {exists = MSC}
+			MSC = {government = fascist_dictatorship}
+		}
+		OR = {
+			NOT = {exists = BLT}
+			BLT = {government = fascist_dictatorship}
+		}
+		OR = {
+			NOT = {exists = UKR}
+			UKR = {government = fascist_dictatorship}
+		}
+	}
+
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = far_east_dealt_with
+		any_country = {
+			limit = {
+				OR = {
+					tag = MSC
+					tag = BLT
+					tag = UKR
+				}
+				exists = yes
+			}
+			SGE = {
+				change_variable = {
+					which = speer_reform_points
+					value = 1
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				NOT = {
+					SGE = {
+						check_variable = {
+							which = speer_reform_points
+							value = 1
+						}
+					}
+				}
+				is_capital = yes
+			}
+			SGE = {set_country_flag = speer_auth_2}
+		}
+	}
+
+	option = {
+		name = "Heil Speer!"
+		prestige = 20
+	}
+}

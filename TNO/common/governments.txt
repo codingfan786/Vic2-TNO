@@ -39,9 +39,10 @@ fascist_dictatorship =
 {
 	#which ideology of parties.
 	fascist = yes
+	conservative = yes
 	
 	election = no
-	appoint_ruling_party = yes
+	appoint_ruling_party = no
 	flagType = fascist
 }
  

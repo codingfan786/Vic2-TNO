@@ -1,22 +1,8 @@
 political_decisions = {
-	speer_reforms = { #break these up to different techs and reforms and maybe put a few on the others?
-		potential = {
-			tag = SGE
-			NOT = {exists = GER}
-			NOT = {has_country_flag = speer_reforms}
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-			set_country_flag = speer_reforms
-		}
-	}
-
-	nes_sge = {
+	nes_bge = {
 		picture = ostend_manifesto
 		potential = {
-			tag = SGE
+			tag = BGE
 			NOT = {exists = GER}
 			NOT = {has_country_flag = nes_1_start}
 		}
@@ -38,13 +24,13 @@ political_decisions = {
 		}
 	}
 
-	nes_sge_pol = {
+	nes_bge_pol = {
 		picture = ostend_manifesto
 		potential = {
 			NOT = {has_country_flag = near_east_dealt_with}
-			tag = SGE
+			tag = BGE
 			has_country_flag = nes_1_start
-			NOT = {POL = {government = fascist_dictatorship}}
+			NOT = {is_our_vassal = POL}
 			exists = POL
 			NOT = {has_country_flag = nes_1_pol_done}
 		}
@@ -55,8 +41,9 @@ political_decisions = {
 		}
 
 		effect = {
+			badboy = 3
 			set_country_flag = nes_1_pol_done
-			POL = {country_event = 500160}
+			POL = {country_event = 500163}
 		}
 
 		ai_will_do = {
@@ -65,16 +52,20 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
 		}
 	}
 
-	nes_sge_slv = {
+	nes_bge_slv = {
 		picture = ostend_manifesto
 		potential = {
 			NOT = {has_country_flag = near_east_dealt_with}
-			tag = SGE
+			tag = BGE
 			has_country_flag = nes_1_start
-			NOT = {SLV = {government = fascist_dictatorship}}
+			NOT = {is_our_vassal = SLV}
 			exists = SLV
 			NOT = {has_country_flag = nes_1_slv_done}
 		}
@@ -85,8 +76,9 @@ political_decisions = {
 		}
 
 		effect = {
+			badboy = 3
 			set_country_flag = nes_1_slv_done
-			SLV = {country_event = 500160}
+			SLV = {country_event = 500163}
 		}
 
 		ai_will_do = {
@@ -95,16 +87,20 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
 		}
 	}
 
-	nes_sge_boh = {
+	nes_bge_boh = {
 		picture = ostend_manifesto
 		potential = {
 			NOT = {has_country_flag = near_east_dealt_with}
-			tag = SGE
+			tag = BGE
 			has_country_flag = nes_1_start
-			NOT = {BOH = {government = fascist_dictatorship}}
+			NOT = {is_our_vassal = BOH}
 			exists = BOH
 			NOT = {has_country_flag = nes_1_boh_done}
 		}
@@ -115,8 +111,9 @@ political_decisions = {
 		}
 
 		effect = {
+			badboy = 3
 			set_country_flag = nes_1_boh_done
-			BOH = {country_event = 500160}
+			BOH = {country_event = 500163}
 		}
 
 		ai_will_do = {
@@ -125,16 +122,20 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
 		}
 	}
 
-	nes_sge_czh = {
+	nes_bge_czh = {
 		picture = ostend_manifesto
 		potential = {
 			NOT = {has_country_flag = near_east_dealt_with}
-			tag = SGE
+			tag = BGE
 			has_country_flag = nes_1_start
-			NOT = {CZH = {government = fascist_dictatorship}}
+			NOT = {is_our_vassal = CZH}
 			exists = CZH
 			NOT = {has_country_flag = nes_1_czh_done}
 		}
@@ -145,8 +146,9 @@ political_decisions = {
 		}
 
 		effect = {
+			badboy = 3
 			set_country_flag = nes_1_czh_done
-			CZH = {country_event = 500160}
+			CZH = {country_event = 500163}
 		}
 
 		ai_will_do = {
@@ -155,13 +157,17 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
 		}
 	}
 
-	fes_sge = {
+	fes_bge = {
 		picture = rhodesia_charter
 		potential = {
-			tag = SGE
+			tag = BGE
 			NOT = {exists = GER}
 			NOT = {has_country_flag = fes_1_start}
 		}
@@ -183,13 +189,13 @@ political_decisions = {
 		}
 	}
 
-	fes_sge_msc = {
+	fes_bge_msc = {
 		picture = rhodesia_charter
 		potential = {
 			NOT = {has_country_flag = far_east_dealt_with}
-			tag = SGE
+			tag = BGE
 			has_country_flag = fes_1_start
-			NOT = {MSC = {government = fascist_dictatorship}}
+			NOT = {is_our_vassal = MSC}
 			exists = MSC
 			NOT = {has_country_flag = fes_1_msc_done}
 		}
@@ -201,8 +207,9 @@ political_decisions = {
 		}
 
 		effect = {
+			badboy = 3
 			set_country_flag = fes_1_msc_done
-			MSC = {country_event = 500160}
+			MSC = {country_event = 500163}
 		}
 
 		ai_will_do = {
@@ -211,16 +218,20 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
 		}
 	}
 
-	fes_sge_ukr = {
+	fes_bge_ukr = {
 		picture = rhodesia_charter
 		potential = {
 			NOT = {has_country_flag = far_east_dealt_with}
-			tag = SGE
+			tag = BGE
 			has_country_flag = fes_1_start
-			NOT = {UKR = {government = fascist_dictatorship}}
+			NOT = {is_our_vassal = UKR}
 			exists = UKR
 			NOT = {has_country_flag = fes_1_ukr_done}
 		}
@@ -232,8 +243,9 @@ political_decisions = {
 		}
 
 		effect = {
+			badboy = 3
 			set_country_flag = fes_1_ukr_done
-			UKR = {country_event = 500160}
+			UKR = {country_event = 500163}
 		}
 
 		ai_will_do = {
@@ -242,16 +254,20 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
 		}
 	}
 
-	fes_sge_blt = {
+	fes_bge_blt = {
 		picture = rhodesia_charter
 		potential = {
 			NOT = {has_country_flag = far_east_dealt_with}
-			tag = SGE
+			tag = BGE
 			has_country_flag = fes_1_start
-			NOT = {BLT = {government = fascist_dictatorship}}
+			NOT = {is_our_vassal = BLT}
 			exists = BLT
 			NOT = {has_country_flag = fes_1_blt_done}
 		}
@@ -263,8 +279,9 @@ political_decisions = {
 		}
 
 		effect = {
+			badboy = 3
 			set_country_flag = fes_1_blt_done
-			BLT = {country_event = 500160}
+			BLT = {country_event = 500163}
 		}
 
 		ai_will_do = {
@@ -272,6 +289,10 @@ political_decisions = {
 			modifier = {
 				factor = 0
 				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
 			}
 		}
 	}

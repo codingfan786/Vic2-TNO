@@ -31,7 +31,7 @@ pensions = trinket_pensions
 health_care = trinket_health_care
 school_reforms = low_schools
 
-ruling_party = NOR_liberal
+ruling_party = NOR_conservative
 upper_house = {
 	fascist = 100
 	liberal = 0

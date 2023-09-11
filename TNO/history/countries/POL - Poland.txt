@@ -25,13 +25,13 @@ pensions = trinket_pensions
 health_care = trinket_health_care
 school_reforms = low_schools
 
-ruling_party = POL_conservative
+ruling_party = POL_fascist
 upper_house = {
-	fascist = 0
-	liberal = 36
-	conservative = 40
-	reactionary = 12
-	anarcho_liberal = 12
+	fascist = 100
+	liberal = 0
+	conservative = 0
+	reactionary = 0
+	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
 }

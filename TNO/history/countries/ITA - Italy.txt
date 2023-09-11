@@ -28,10 +28,10 @@ school_reforms = low_schools
 
 ruling_party = ITA_conservative
 upper_house = {
-	fascist = 65
+	fascist = 55
 	liberal = 0
-	conservative = 0
-	reactionary = 20
+	conservative = 30
+	reactionary = 0
 	anarcho_liberal = 0
 	socialist = 15
 	communist = 0

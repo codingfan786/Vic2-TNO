@@ -19,7 +19,7 @@ oob = "WGA.txt"
 decision = gerafanger
 #========================= H O U S E - O F - L O R D S =========================
 
-ruling_party = WGA_socialist_99
+ruling_party = WGA_conservative_92
 upper_house = {
 fascist = 90
 reactionary = 0

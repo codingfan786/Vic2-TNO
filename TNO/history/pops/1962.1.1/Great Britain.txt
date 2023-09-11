@@ -74,7 +74,7 @@
 	craftsmen = {
 		culture = scottish
 		religion = protestant
-		size = 30000
+		size = 10000
 	}
 	aristocrats = {
 		culture = scottish
@@ -623,7 +623,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 30000
+		size = 10000
 		militancy = 8 
 		rebel_type = liberal_rebels
 	}
@@ -763,7 +763,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 22500
+		size = 11500
 	}
 
 	artisans = {
@@ -916,7 +916,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 35000
+		size = 20000
 	}
 	aristocrats = {
 		culture = british
@@ -1481,7 +1481,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 20000
+		size = 10000
 		militancy = 8 
 		rebel_type = liberal_rebels
 	}
@@ -1900,7 +1900,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 119000
+		size = 10000
 		militancy = 8 
 		rebel_type = liberal_rebels
 	}
