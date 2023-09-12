@@ -1,7 +1,6 @@
-owner = BRG
-controller = BRG
+owner = GLO
+controller = GLO
 add_core = NET
-
 
 trade_goods = fish
 life_rating = 32

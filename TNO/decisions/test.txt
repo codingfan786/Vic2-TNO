@@ -8,7 +8,12 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			#set_country_flag = cool
+			set_country_flag = war_plan_a
+			#GBA = {inherit = ROM}
+			#GBA = {inherit = HUN}
+			#GBA = {inherit = BUL}
+			#GBA = {inherit = SLV}
+
 		}		
 	}
 }

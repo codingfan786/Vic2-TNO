@@ -1,20 +1,20 @@
 #this is all dogshit and should be completely redone
 
 political_decisions = {
-	nes_gge = {
+	war_plan_0_open = {
 		picture = ostend_manifesto
 		potential = {
 			tag = GGE
 			NOT = {exists = GER}
-			NOT = {has_country_flag = nes_1_start}
+			NOT = {has_country_flag = war_plan_0_start}
 		}
 		
 		allow = {
-			state_n_government = 1
+			ideological_thought = 1
 		}
 
 		effect = {
-			set_country_flag = nes_1_start
+			set_country_flag = war_plan_0_start
 		}
 
 		ai_will_do = {
@@ -26,14 +26,14 @@ political_decisions = {
 		}
 	}
 
-	nes_gge_pol = {
+	war_plan_0_pol = {
 		picture = ostend_manifesto
 		potential = {
-			NOT = {has_country_flag = near_east_dealt_with}
+			NOT = {has_country_flag = war_plan_0_finish}
 			tag = GGE
-			has_country_flag = nes_1_start
+			has_country_flag = war_plan_0_start
 			exists = POL
-			NOT = {has_country_flag = nes_1_pol_done}
+			NOT = {has_country_flag = war_plan_0_pol_done}
 		}
 
 		allow = {
@@ -43,7 +43,7 @@ political_decisions = {
 
 		effect = {
 			badboy = 14
-			set_country_flag = nes_1_pol_done
+			set_country_flag = war_plan_0_pol_done
 			POL = {country_event = 500166}
 		}
 
@@ -60,14 +60,14 @@ political_decisions = {
 		}
 	}
 
-	nes_gge_slv = {
+	war_plan_0_slv = {
 		picture = ostend_manifesto
 		potential = {
-			NOT = {has_country_flag = near_east_dealt_with}
+			NOT = {has_country_flag = war_plan_0_finish}
 			tag = GGE
-			has_country_flag = nes_1_start
+			has_country_flag = war_plan_0_start
 			exists = SLV
-			NOT = {has_country_flag = nes_1_slv_done}
+			NOT = {has_country_flag = war_plan_0_slv_done}
 		}
 
 		allow = {
@@ -77,7 +77,7 @@ political_decisions = {
 
 		effect = {
 			badboy = 4
-			set_country_flag = nes_1_slv_done
+			set_country_flag = war_plan_0_slv_done
 			SLV = {country_event = 500166}
 		}
 
@@ -94,14 +94,14 @@ political_decisions = {
 		}
 	}
 
-	nes_gge_boh = {
+	war_plan_0_boh = {
 		picture = ostend_manifesto
 		potential = {
-			NOT = {has_country_flag = near_east_dealt_with}
+			NOT = {has_country_flag = war_plan_0_finish}
 			tag = GGE
-			has_country_flag = nes_1_start
+			has_country_flag = war_plan_0_start
 			exists = BOH
-			NOT = {has_country_flag = nes_1_boh_done}
+			NOT = {has_country_flag = war_plan_0_boh_done}
 		}
 
 		allow = {
@@ -111,7 +111,7 @@ political_decisions = {
 
 		effect = {
 			badboy = 10
-			set_country_flag = nes_1_boh_done
+			set_country_flag = war_plan_0_boh_done
 			BOH = {country_event = 500166}
 		}
 
@@ -128,14 +128,14 @@ political_decisions = {
 		}
 	}
 
-	nes_gge_czh = {
+	war_plan_0_czh = {
 		picture = ostend_manifesto
 		potential = {
-			NOT = {has_country_flag = near_east_dealt_with}
+			NOT = {has_country_flag = war_plan_0_finish}
 			tag = GGE
-			has_country_flag = nes_1_start
+			has_country_flag = war_plan_0_start
 			exists = CZH
-			NOT = {has_country_flag = nes_1_czh_done}
+			NOT = {has_country_flag = war_plan_0_czh_done}
 		}
 
 		allow = {
@@ -145,7 +145,7 @@ political_decisions = {
 
 		effect = {
 			badboy = 12
-			set_country_flag = nes_1_czh_done
+			set_country_flag = war_plan_0_czh_done
 			CZH = {country_event = 500166}
 		}
 
@@ -163,19 +163,19 @@ political_decisions = {
 	}
 
 
-	fes_gge = {
+	war_plan_a_open = {
 		picture = rhodesia_charter
 		potential = {
 			tag = GGE
 			NOT = {exists = GER}
-			NOT = {has_country_flag = fes_1_start}
+			NOT = {has_country_flag = war_plan_a_start}
 		}
 		allow = {
-			nationalism_n_imperialism = 1
-			has_country_flag = near_east_dealt_with
+			state_n_government = 1
+			has_country_flag = war_plan_0_finish
 		}
 		effect = {
-			set_country_flag = fes_1_start
+			set_country_flag = war_plan_a_start
 		}
 
 		ai_will_do = {
@@ -187,103 +187,21 @@ political_decisions = {
 		}
 	}
 
-	fes_gge_nor = {
+	war_plan_a_scba = {
 		picture = rhodesia_charter
 		potential = {
-			NOT = {has_country_flag = far_east_dealt_with}
+			NOT = {has_country_flag = war_plan_a_finish}
 			tag = GGE
-			has_country_flag = fes_1_start
-			NOT = {is_our_vassal = NOR}
-			exists = NOR
-			NOT = {has_country_flag = fes_1_nor_done}
+			has_country_flag = war_plan_a_start
+			NOT = {has_country_flag = war_plan_a_scba_done}
 		}
-
 		allow = {
-			NOT = {truce_with = NOR}
-			NOT = {war_with = NOR}
-		}
-
-		effect = {
-			badboy = 3
-			set_country_flag = fes_1_nor_done
-			NOR = {country_event = 500163}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				war = yes
-			}
-			modifier = {
-				factor = 0
-				badboy = 0.88
-			}
-		}
-	}
-
-	fes_gge_fra = {
-		picture = rhodesia_charter
-		potential = {
-			NOT = {has_country_flag = far_east_dealt_with}
-			tag = GGE
-			has_country_flag = fes_1_start
-			NOT = {is_our_vassal = FRA}
-			exists = FRA
-			NOT = {has_country_flag = fes_1_fra_done}
-		}
-
-		allow = {
-			NOT = {truce_with = FRA}
-			NOT = {war_with = FRA}
-		}
-
-		effect = {
-			badboy = 3
-			set_country_flag = fes_1_fra_done
 			
-
-			FRA = {
-				add_casus_belli = {
-					target = GGE
-					type = make_facist
-					months = 24
-				}
-			}
-
-			FRA = {
-				add_casus_belli = {
-					target = GGE
-					type = humiliate
-					months = 24
-				}
-			}
-
-			FRA = {
-				add_casus_belli = {
-					target = GGE
-					type = make_puppet_unlimited
-					months = 24
-				}
-			}
-
-			random_owned = {
-				limit = {
-					GGE = {ai = yes}
-				}
-				GGE = {
-					war = {
-						target = FRA
-						attacker_goal = {casus_belli = make_facist}
-						attacker_goal = {casus_belli = humiliate}
-						attacker_goal = {casus_belli = make_puppet_unlimited}
-						call_ally = yes
-					}
-				}
-				
-			}
 		}
-
+		effect = {
+			badboy = 20
+			set_country_flag = war_plan_a_scba_done
+		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -292,23 +210,23 @@ political_decisions = {
 			}
 			modifier = {
 				factor = 0
-				badboy = 0.88
+				badboy = 0.3
 			}
 		}
 	}
 
-	fes_gge_eng = {
+	war_plan_a_eng = {
 		picture = rhodesia_charter
 		potential = {
-			NOT = {has_country_flag = far_east_dealt_with}
+			NOT = {has_country_flag = war_plan_a_finish}
 			tag = GGE
-			has_country_flag = fes_1_start
+			has_country_flag = war_plan_a_start
 			OR = {
 				NOT = {exists = COR}
 				NOT = {ENG = {government = fascist_dictatorship}}
 			}
 			exists = ENG
-			NOT = {has_country_flag = fes_1_eng_done}
+			NOT = {has_country_flag = war_plan_a_eng_done}
 		}
 
 		allow = {
@@ -318,7 +236,7 @@ political_decisions = {
 
 		effect = {
 			badboy = 17.5
-			set_country_flag = fes_1_eng_done
+			set_country_flag = war_plan_a_eng_done
 			ENG = {
 				add_casus_belli = {
 					target = GGE

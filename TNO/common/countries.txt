@@ -329,6 +329,11 @@ CDN = "countries/DisplacedNations.txt"
 
 BEF = "countries/Beef.txt"
 
+GLO = "countries/German Lowlands.txt"
+GSC = "countries/German Scandi.txt"
+GBA = "countries/German Balkans.txt"
+GFR = "countries/German France.txt"
+
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
 D01		= "countries/D01.txt"

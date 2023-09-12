@@ -13,6 +13,7 @@ badboymod = {
     RGO_throughput = -0.5
     prestige = -0.2
     war_exhaustion = 2
+    badboy = -0.10 #bad idea?
 	icon = 17
 }
 

@@ -110,91 +110,43 @@ political_decisions = {
 	}
 
 
-	brg_into_low = {
-		picture = sign_treaty_of_london
+	brg_expand = {
 		potential = {
 			tag = BRG
-			NOT = {exists = LOW}
-			NOT = {has_global_flag = low_liberated}
+			NOT = {has_country_flag = brg_expanded}
+			NOT = {year = 1963}
 		}
-		allow = {
-			NOT = {government = fascist_dictatorship}
-			FRA = {
-				all_core = {
-					NOT = {
-						owner = {
-							tag = THIS
-						}
-					}
-				}
-			}
-		}
-		effect = {
-			set_global_flag = low_liberated
-			change_tag = LOW
-			remove_accepted_culture = south_german
-			primary_culture = dutch
-			add_accepted_culture = flemish
-			add_accepted_culture = wallonian
 
-			all_core = {
-				limit = {
-					NOT = {
-						is_core = NET
-					}
-					NOT = {
-						is_core = BEL
-					}
-					NOT = {
-						is_core = LUX
-					}
-					is_core = FRA
-				}
-				remove_core = THIS
-			}
-			NET = {
-				all_core = {
-					add_core = THIS
+		allow = {
+			NOT = {year = 1963}
+		}
+
+		effect = {
+			badboy = 20
+			set_country_flag = brg_expanded
+			FRA = {
+				add_casus_belli = {
+					target = BRG
+					type = expand_burgundy
+					months = 12
 				}
 			}
-			BEL = {
-				all_core = {
-					add_core = THIS
+
+			BRG = {
+				war = {
+					target = FRA
+					attacker_goal = {casus_belli = expand_burgundy}
+					call_ally = no
 				}
 			}
-			LUX = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			any_country = {
-				limit = {
-					ai = yes
-					tag = NET
-				}
-				THIS = {inherit = NET}
-			}
-			any_country = {
-				limit = {
-					ai = yes
-					tag = BEL
-				}
-				THIS = {inherit = BEL}
-			}
-			any_country = {
-				limit = {
-					ai = yes
-					tag = LUX
-				}
-				THIS = {inherit = LUX}
-			}
-			add_country_modifier = {
-				name = low_repair
-				duration = 3650
-			}
-			any_owned = {
-				remove_province_modifier = cultural_genocide
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {month = 3}
 			}
 		}
 	}
+
 }

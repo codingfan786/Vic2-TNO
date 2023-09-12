@@ -1,0 +1,18 @@
+owner = BRG
+controller = BRG
+add_core = NET
+
+
+trade_goods = coal
+life_rating = 32
+#state_building = {
+#	level = 1
+#	building = canned_food_factory
+#	upgrade = yes
+#}
+#state_building = {
+#	level = 1
+#	building = liquor_distillery
+#	upgrade = yes
+#}
+2161.1.1 = { railroad = 3 }

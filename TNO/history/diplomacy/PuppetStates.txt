@@ -5,6 +5,11 @@ vassal = {
 }
 vassal = {
 	first = GER
+	second = GLO
+	start_date = 1836.1.1
+}
+vassal = {
+	first = GER
 	second = UKR
 	start_date = 1836.1.1
 }

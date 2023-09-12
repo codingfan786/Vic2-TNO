@@ -107,5 +107,135 @@ country_event = {
 	option = {
 		name = "Another victory for the fatherland!"
 	}
+}
 
+country_event = {
+	id = 500169
+	title = "brg wins"
+	desc = "oh no"
+
+	is_triggered_only = yes
+	immediate = {
+		random_owned = {
+			limit = {
+				exists = BRI
+				418 = {owner = {tag = THIS}}
+			}
+			418 = {secede_province = BRI}
+		}
+
+		random_owned = {
+			limit = {
+				exists = BRI
+				417 = {owner = {tag = THIS}}
+			}
+			417 = {secede_province = BRI}
+		}
+
+		random_owned = {
+			limit = {
+				NOT = {exists = BRI}
+				418 = {owner = {tag = THIS}}
+			}
+			418 = {secede_province = BRG}
+		}
+
+		random_owned = {
+			limit = {
+				NOT = {exists = BRI}
+				417 = {owner = {tag = THIS}}
+			}
+			417 = {secede_province = BRG}
+		}
+
+		random_owned = {
+			limit = {
+				exists = BRI
+				435 = {owner = {tag = THIS}}
+			}
+			435 = {secede_province = BRI}
+		}
+
+		random_owned = {
+			limit = {
+				exists = BRI
+				434 = {owner = {tag = THIS}}
+			}
+			434 = {secede_province = BRI}
+		}
+
+		random_owned = {
+			limit = {
+				exists = BRI
+				437 = {owner = {tag = THIS}}
+			}
+			437 = {secede_province = BRI}
+		}
+
+		random_owned = {
+			limit = {
+				436 = {owner = {tag = THIS}}
+			}
+			436 = {secede_province = BRG}
+		}
+
+		random_owned = {
+			limit = {
+				441 = {owner = {tag = THIS}}
+			}
+			441 = {secede_province = BRG}
+		}
+
+		random_owned = {
+			limit = {
+				426 = {owner = {tag = THIS}}
+			}
+			426 = {secede_province = BRG}
+		}
+
+		random_owned = {
+			limit = {
+				438 = {owner = {tag = THIS}}
+			}
+			438 = {secede_province = BRG}
+		}
+
+		random_owned = {
+			limit = {
+				440 = {owner = {tag = THIS}}
+			}
+			440 = {secede_province = BRG}
+		}
+
+		random_owned = {
+			limit = {
+				439 = {owner = {tag = THIS}}
+			}
+			439 = {secede_province = BRG}
+		}
+
+		random_owned = {
+			limit = {
+				430 = {owner = {tag = THIS}}
+			}
+			430 = {secede_province = BRG}
+		}
+
+		random_owned = {
+			limit = {
+				446 = {owner = {tag = THIS}}
+			}
+			446 = {secede_province = BRG}
+		}
+		BRG = {
+			diplomatic_influence = {
+				who = BRI
+				value = 800
+			}
+		}
+	}
+
+	option = {
+		name = "ok"
+	}
 }

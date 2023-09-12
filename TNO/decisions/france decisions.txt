@@ -15,9 +15,10 @@ political_decisions = {
 			}
 			NOT = {
 				OR = {
-					428 = {owner = {tag = BRG}}
 					438 = {owner = {tag = BRG}}
-					428 = {owner = {tag = BRG}}
+					437 = {owner = {tag = BRG}}
+					417 = {owner = {tag = BRG}}
+					430 = {owner = {tag = BRG}}
 				}
 			}
 			state_n_government = 1

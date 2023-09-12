@@ -1,0 +1,23 @@
+owner = BRG
+controller = BRG
+add_core = FRA
+
+
+trade_goods = cotton
+life_rating = 32
+naval_base = 2
+#state_building = {
+#	level = 1
+#	building = regular_clothes_factory
+#	upgrade = yes
+#}
+2161.1.1 = {
+	state_building = {
+		level = 1
+		building = ammunition_factory
+		upgrade = yes
+	}
+}
+2161.1.1 = { 
+	railroad = 3
+}

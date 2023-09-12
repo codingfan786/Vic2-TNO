@@ -1,10 +1,10 @@
 civilized = yes
 capital = 313
-#primary_culture = norwegian
-#culture = sami
+primary_culture = norwegian
+culture = sami
 
-primary_culture = north_german
-culture = south_german
+#primary_culture = north_german
+#culture = south_german
 
 religion = protestant
 government = fascist_dictatorship

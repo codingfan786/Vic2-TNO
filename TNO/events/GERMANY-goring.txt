@@ -1,6 +1,6 @@
 country_event = {
 	id = 500166
-	title = "bormann demands subjugation"
+	title = "goring demands subjugation"
 	desc = "how terrible"
 	is_triggered_only = yes
 
@@ -48,7 +48,7 @@ country_event = {
 
 	trigger = {
 		tag = GGE
-		has_country_flag = nes_1_start
+		has_country_flag = war_plan_0_start
 		NOT = {exists = POL}
 		NOT = {exists = BOH}
 		NOT = {exists = CZH}
@@ -60,7 +60,7 @@ country_event = {
 	}
 
 	immediate = {
-		set_country_flag = near_east_dealt_with
+		set_country_flag = war_plan_0_finish
 	}
 
 	option = {
@@ -193,5 +193,177 @@ country_event = {
 	}
 	option = {
 		name = "lol"
+	}
+}
+
+country_event = {
+	id = 500170
+	title = "war plan A"
+	desc = "fill"
+	is_triggered_only = yes
+	immediate = {
+		random_owned = {
+			limit = {
+				GSC = {exists = yes}
+				is_capital = yes
+				OR = {
+					owned_by = NOR
+					owned_by = SWE
+					owned_by = FIN
+				}
+			}
+			GSC = {inherit = THIS}
+		}
+
+		random_owned = {
+			limit = {
+				GSC = {exists = no}
+				is_capital = yes
+				OR = {
+					owned_by = NOR
+					owned_by = SWE
+					owned_by = FIN
+				}
+			}
+			THIS = {
+				change_tag = GSC
+				ruling_party_ideology = fascist
+				government = fascist_dictatorship
+				political_reform = none_voting
+				political_reform = party_appointed
+				political_reform = no_meeting
+				political_reform = state_press
+				political_reform = no_trade_unions
+				political_reform = underground_parties
+
+				all_core = {remove_core = GSC}
+			}
+			GGE = {create_vassal = GSC}
+			GGE = {
+				diplomatic_influence = {
+					who = GSC
+					value = 800
+				}
+			}
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = NOR
+					is_core = SWE
+					is_core = FIN
+				}
+				GSC = {exists = yes}
+			}
+			secede_province = GSC
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = NOR
+					is_core = SWE
+					is_core = FIN
+				}
+				GSC = {exists = no}
+			}
+			secede_province = GSC
+			GGE = {create_vassal = GSC}
+			GGE = {
+				diplomatic_influence = {
+					who = GSC
+					value = 800
+				}
+			}
+		}
+
+
+		random_owned = {
+			limit = {
+				GBA = {exists = yes}
+				is_capital = yes
+				OR = {
+					owned_by = HUN
+					owned_by = ROM
+					owned_by = WAL
+					owned_by = BUL
+					owned_by = MOL
+				}
+			}
+			GBA = {inherit = THIS}
+		}
+
+		random_owned = {
+			limit = {
+				GBA = {exists = no}
+				is_capital = yes
+				OR = {
+					owned_by = HUN
+					owned_by = ROM
+					owned_by = WAL
+					owned_by = BUL
+					owned_by = MOL
+				}
+			}
+			THIS = {
+				change_tag = GBA
+				ruling_party_ideology = fascist
+				government = fascist_dictatorship
+				political_reform = none_voting
+				political_reform = party_appointed
+				political_reform = no_meeting
+				political_reform = state_press
+				political_reform = no_trade_unions
+				political_reform = underground_parties
+
+				all_core = {remove_core = GBA}
+			}
+			GGE = {create_vassal = GBA}
+			GGE = {
+				diplomatic_influence = {
+					who = GBA
+					value = 800
+				}
+			}
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = HUN
+					is_core = ROM
+					is_core = WAL
+					is_core = BUL
+					is_core = MOL
+				}
+				GBA = {exists = yes}
+			}
+			secede_province = GBA
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = HUN
+					is_core = ROM
+					is_core = WAL
+					is_core = BUL
+					is_core = MOL
+				}
+				GBA = {exists = no}
+			}
+			secede_province = GBA
+			GGE = {create_vassal = GBA}
+			GGE = {
+				diplomatic_influence = {
+					who = GBA
+					value = 800
+				}
+			}
+		}
+	}
+	option = {
+		name = "woops"
 	}
 }
