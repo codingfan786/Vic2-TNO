@@ -237,7 +237,36 @@ country_event = {
 				political_reform = underground_parties
 
 				all_core = {remove_core = GSC}
+
+				remove_accepted_culture = swedish
+				remove_accepted_culture = danish
+				remove_accepted_culture = norwegian
+				remove_accepted_culture = icelandic
+				remove_accepted_culture = finnish
+				remove_accepted_culture = sami
+				add_accepted_culture = south_german
+				primary_culture = north_german
+
 			}
+			GGE = {create_vassal = GSC}
+			GGE = {
+				diplomatic_influence = {
+					who = GSC
+					value = 800
+				}
+			}
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = NOR
+					is_core = SWE
+					is_core = FIN
+				}
+				GSC = {exists = no}
+			}
+			secede_province = GSC
 			GGE = {create_vassal = GSC}
 			GGE = {
 				diplomatic_influence = {
@@ -259,24 +288,7 @@ country_event = {
 			secede_province = GSC
 		}
 
-		any_owned = {
-			limit = {
-				OR = {
-					is_core = NOR
-					is_core = SWE
-					is_core = FIN
-				}
-				GSC = {exists = no}
-			}
-			secede_province = GSC
-			GGE = {create_vassal = GSC}
-			GGE = {
-				diplomatic_influence = {
-					who = GSC
-					value = 800
-				}
-			}
-		}
+		
 
 
 		random_owned = {
@@ -317,6 +329,10 @@ country_event = {
 				political_reform = no_trade_unions
 				political_reform = underground_parties
 
+				remove_accepted_culture = romanian
+				remove_accepted_culture = hungarian
+				add_accepted_culture = south_german
+				primary_culture = north_german
 				all_core = {remove_core = GBA}
 			}
 			GGE = {create_vassal = GBA}
@@ -365,5 +381,276 @@ country_event = {
 	}
 	option = {
 		name = "woops"
+	}
+}
+
+country_event = {
+	id = 500171
+	title = "war plan B"
+	desc = "fill"
+	is_triggered_only = yes
+	immediate = {
+		random_owned = {
+			limit = {
+				GFR = {exists = yes}
+				is_capital = yes
+				OR = {
+					owned_by = SWI
+					owned_by = FRA
+					owned_by = BRI
+				}
+			}
+			GFR = {inherit = THIS}
+		}
+
+		random_owned = {
+			limit = {
+				GFR = {exists = no}
+				is_capital = yes
+				OR = {
+					owned_by = SWI
+					owned_by = FRA
+					owned_by = BRI
+				}
+			}
+			THIS = {
+				change_tag = GFR
+				ruling_party_ideology = fascist
+				government = fascist_dictatorship
+				political_reform = none_voting
+				political_reform = party_appointed
+				political_reform = no_meeting
+				political_reform = state_press
+				political_reform = no_trade_unions
+				political_reform = underground_parties
+
+				remove_accepted_culture = french
+				remove_accepted_culture = breton
+				remove_accepted_culture = french_canadian
+				remove_accepted_culture = swiss
+				add_accepted_culture = south_german
+				primary_culture = north_german
+				all_core = {remove_core = GFR}
+			}
+			GGE = {create_vassal = GFR}
+			GGE = {
+				diplomatic_influence = {
+					who = GFR
+					value = 800
+				}
+			}
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = FRA
+					is_core = SWI
+					is_core = BRI
+				}
+				GFR = {exists = no}
+			}
+			secede_province = GFR
+			GGE = {create_vassal = GFR}
+			GGE = {
+				diplomatic_influence = {
+					who = GFR
+					value = 800
+				}
+			}
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = FRA
+					is_core = SWI
+					is_core = BRI
+				}
+				GFR = {exists = yes}
+			}
+			secede_province = GFR
+		}
+
+		
+
+
+		random_owned = {
+			limit = {
+				GLO = {exists = yes}
+				is_capital = yes
+				OR = {
+					owned_by = BEL
+					owned_by = NET
+					owned_by = LUX
+				}
+			}
+			GLO = {inherit = THIS}
+		}
+
+		random_owned = {
+			limit = {
+				GLO = {exists = no}
+				is_capital = yes
+				OR = {
+					owned_by = BEL
+					owned_by = NET
+					owned_by = LUX
+				}
+			}
+			THIS = {
+				change_tag = GLO
+				ruling_party_ideology = fascist
+				government = fascist_dictatorship
+				political_reform = none_voting
+				political_reform = party_appointed
+				political_reform = no_meeting
+				political_reform = state_press
+				political_reform = no_trade_unions
+				political_reform = underground_parties
+
+				remove_accepted_culture = dutch
+				remove_accepted_culture = flemish
+				remove_accepted_culture = wallonian
+				add_accepted_culture = south_german
+				primary_culture = north_german
+				all_core = {remove_core = GLO}
+			}
+			GGE = {create_vassal = GLO}
+			GGE = {
+				diplomatic_influence = {
+					who = GLO
+					value = 800
+				}
+			}
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = LUX
+					is_core = NET
+					is_core = BEL
+				}
+				GLO = {exists = yes}
+			}
+			secede_province = GLO
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = LUX
+					is_core = NET
+					is_core = BEL
+				}
+				GLO = {exists = no}
+			}
+			secede_province = GLO
+			GGE = {create_vassal = GLO}
+			GGE = {
+				diplomatic_influence = {
+					who = GLO
+					value = 800
+				}
+			}
+		}
+	}
+	option = {
+		name = "woops"
+	}
+}
+
+country_event = {
+	id = 500172
+	title = "war plan A finish."
+	desc = "Wow."
+	fire_only_once = yes
+
+	trigger = {
+		tag = GGE
+		has_country_flag = war_plan_a_start
+		NOR = {
+			all_core = {
+				OR = {
+					owner = {tag = GSC}
+					owner = {tag = THIS}
+					owner = {vassal_of = THIS}
+				}
+			}
+		}
+		FIN = {
+			all_core = {
+				OR = {
+					owner = {tag = GSC}
+					owner = {tag = THIS}
+					owner = {vassal_of = THIS}
+				}
+			}
+		}
+		SWE = {
+			all_core = {
+				OR = {
+					owner = {tag = GSC}
+					owner = {tag = THIS}
+					owner = {vassal_of = THIS}
+				}
+			}
+		}
+
+		HUN = {
+			all_core = {
+				OR = {
+					owner = {tag = GBA}
+					owner = {tag = THIS}
+					owner = {vassal_of = THIS}
+				}
+			}
+		}
+
+		ROM = {
+			all_core = {
+				OR = {
+					owner = {tag = GBA}
+					owner = {tag = THIS}
+					owner = {vassal_of = THIS}
+				}
+			}
+		}
+
+		BUL = {
+			all_core = {
+				OR = {
+					owner = {tag = GBA}
+					owner = {tag = THIS}
+					owner = {vassal_of = THIS}
+					is_core = TUR
+				}
+			}
+		}
+
+		ENG = {
+			OR = {
+				government = fascist_dictatorship
+				exists = no
+			}
+		}
+
+		COR = {
+			exists = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = war_plan_a_finish
+	}
+
+	option = {
+		name = "Heil Goring!"
+		prestige = 20
 	}
 }

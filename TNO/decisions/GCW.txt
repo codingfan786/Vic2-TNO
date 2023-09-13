@@ -94,6 +94,11 @@ political_decisions = {
 				}
 				all_core = {remove_core = GER}
 			}
+
+			end_war = GGE
+			end_war = SGE
+			end_war = BGE
+			end_war = HGE
 		}
 	}
 

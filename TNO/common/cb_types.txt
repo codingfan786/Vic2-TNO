@@ -3090,3 +3090,110 @@ goring_wild_ride_a = {
 		}
 	}
 }
+
+goring_wild_ride_b = {
+	sprite_index = 14
+	is_triggered_only = yes
+	months = 0
+	crisis = no
+	constructing_cb = no
+	always = yes
+
+	can_use = {
+		THIS = {tag = GGE}
+		THIS = {has_country_flag = war_plan_b_frlo_done}
+		NOT = {tag = GLO}
+		NOT = {tag = GFR}
+		OR = {
+			#tag = BRG
+			tag = FRA
+			tag = NET
+			tag = BEL
+			tag = SWI
+			tag = LUX
+			tag = BRI
+			any_owned_province = {
+				OR = {
+					#is_core = BRG
+					is_core = FRA
+					is_core = NET
+					is_core = BEL
+					is_core = SWI
+					is_core = LUX
+					is_core = BRI
+				}
+			}
+		}
+	}
+
+	badboy_factor = 0
+	prestige_factor = 1
+	peace_cost_factor = 90
+	penalty_factor = 1
+	is_civil_war = no #this is a civil war
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	war_name = WAR_INSTALL_NEW_GOV_NAME
+
+	po_remove_prestige = yes
+	on_po_accepted = {
+		country_event = 500171
+	}
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+goring_wild_ride_c = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	constructing_cb = no
+
+	can_use = {
+		
+		is_independant = yes
+	}
+
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}

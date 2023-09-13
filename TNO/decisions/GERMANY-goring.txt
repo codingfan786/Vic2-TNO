@@ -280,4 +280,216 @@ political_decisions = {
 			}
 		}
 	}
+
+
+	war_plan_b_open = {
+		#picture = rhodesia_charter
+		potential = {
+			tag = GGE
+			NOT = {exists = GER}
+			NOT = {has_country_flag = war_plan_b_start}
+		}
+		allow = {
+			state_n_government = 1
+			has_country_flag = war_plan_a_finish
+		}
+		effect = {
+			set_country_flag = war_plan_b_start
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+
+	war_plan_b_frlo = {
+		#picture = rhodesia_charter
+		potential = {
+			NOT = {has_country_flag = war_plan_b_finish}
+			tag = GGE
+			has_country_flag = war_plan_b_start
+			NOT = {has_country_flag = war_plan_b_frlo_done}
+		}
+		allow = {
+			
+		}
+		effect = {
+			badboy = 20
+			set_country_flag = war_plan_b_frlo_done
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.3
+			}
+		}
+	}
+
+	war_plan_b_rus = {
+		#picture = rhodesia_charter
+		potential = {
+			NOT = {has_country_flag = war_plan_b_finish}
+			tag = GGE
+			has_country_flag = war_plan_b_start
+			NOT = {has_country_flag = war_plan_b_rus_done}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			#badboy = 20
+			set_country_flag = war_plan_b_rus_done
+			any_country = {
+				limit = {
+					tag = BLT
+					NOT = {
+						vassal_of = THIS
+					}
+				}
+				BLT = {
+					add_casus_belli = {
+						target = THIS
+						type = make_puppet_unlimited
+						months = 24
+					}
+				}
+			}
+			any_country = {
+				limit = {
+					tag = MSC
+					NOT = {
+						vassal_of = THIS
+					}
+				}
+				MSC = {
+					add_casus_belli = {
+						target = THIS
+						type = make_puppet_unlimited
+						months = 24
+					}
+				}
+			}
+			any_country = {
+				limit = {
+					tag = UKR
+					NOT = {
+						vassal_of = THIS
+					}
+				}
+				UKR = {
+					add_casus_belli = {
+						target = THIS
+						type = make_puppet_unlimited
+						months = 24
+					}
+				}
+			}
+			any_country = {
+				limit = {
+					any_owned_province = {
+						OR = {
+							is_core = BLT
+							is_core = MSC
+							is_core = UKR
+							is_core = FEU
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = BLT
+							is_core = MSC
+							is_core = UKR
+							is_core = FEU
+						}
+						OR = {
+							culture = north_german
+							culture = south_german
+						}
+					}
+					add_core = THIS
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.3
+			}
+		}
+	}
+
+	war_plan_c_open = {
+		#picture = rhodesia_charter
+		potential = {
+			tag = GGE
+			NOT = {exists = GER}
+			NOT = {has_country_flag = war_plan_c_start}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			has_country_flag = war_plan_b_finish
+		}
+		effect = {
+			set_country_flag = war_plan_c_start
+			USA = {
+				add_casus_belli = {
+					target = GGE
+					type = goring_wild_ride_c
+					months = 240
+				}
+			}
+			ITA = {
+				add_casus_belli = {
+					target = GGE
+					type = goring_wild_ride_c
+					months = 240
+				}
+			}
+			JAP = {
+				add_casus_belli = {
+					target = GGE
+					type = goring_wild_ride_c
+					months = 240
+				}
+			}
+			SOV = {
+				add_casus_belli = {
+					target = GGE
+					type = goring_wild_ride_c
+					months = 240
+				}
+			}
+			any_country = {
+				add_casus_belli = {
+					target = GGE
+					type = goring_wild_ride_c
+					months = 240
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
 }
