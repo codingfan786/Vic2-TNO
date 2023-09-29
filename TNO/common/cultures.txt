@@ -876,9 +876,20 @@ turko_semitic = {
 
 }
 
-arab = {
+north_african = {
 	leader = arab
 	unit = MiddleEasternGC
+	berber = {
+		color = {51 75 70}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+			}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+			}
+			radicalism = 10
+	}
 	maghrebi = {
 		color = {24 103 22}
 		first_names = { 
@@ -899,6 +910,12 @@ arab = {
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
 			}
 		}
+}
+
+arab = {
+	leader = arab
+	unit = MiddleEasternGC
+	
 	misri = {
 		color = {34 145 86}
 		first_names = { 
@@ -911,6 +928,7 @@ arab = {
 		last_names = { 
 			Bey Pasha 
 			}
+		radicalism = 10
 	}
 	mashriqi = {
 		color = {40 183 54}
@@ -929,6 +947,7 @@ arab = {
 			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
 			}
+		radicalism = 10
 	}
 	bedouin = {
 		color = {128 172 181}
@@ -948,19 +967,9 @@ arab = {
 			}
 			radicalism = 10
 		}
-	berber = {
-		color = {51 75 70}
-		first_names = {
-			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
-			}
-		
-		last_names = {
-			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
-			}
-			radicalism = 10
-	}
 	
-	#union = ARA
+	
+	union = ARA
 }
 
 iranian_turanian = {

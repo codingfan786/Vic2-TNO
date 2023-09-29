@@ -1,8 +1,21 @@
 #From;To;Type;Through;Data;Comment
 #
 
-1661;1632;sea;2829;0;Japokorean Bridge
+#med
+3445;3441;sea;2772;0;Aegean crossing 1
+3438;3442;sea;2772;0;Aegean crossing 2
+838;3444;sea;2772;0;Aegean crossing 3
+846;3442;sea;2771;0;Crete crossing 1
+763;755;sea;2757;0;New Messina crossing
+3426;3425;sea;2758;0;Gabes blocker crossing 1
+3426;3427;sea;2758;0;Gabes blocker crossing 2
+3424;3428;sea;2758;0;Gabes blocker crossing 3
+3403;473;sea;2751;0;Corsica-NeoFuime crossing
+3407;851;sea;2763;0;Adriatic crossing
 
+#misc stupid shit
+1661;1632;sea;2829;0;Japokorean Bridge
+1981;1980;sea;3389;0;Congo Coast Connector
 
 # American Straits
 #
@@ -59,8 +72,8 @@
 843;869;sea;2772;0;Izmir Strait
 859;865;sea;2773;0;Dardanelles Strait
 860;861;sea;2773;0;Golden Horn
-759;763;sea;2760;0;Strait of Messina
-759;763;sea;2757;0;Strait of Messina
+#759;763;sea;2760;0;Strait of Messina
+#759;763;sea;2757;0;Strait of Messina
 837;827;sea;2765;0;Ionian Islands Strait
 966;1049;sea;2776;0;Strait of Azov
 1687;517;sea;2746;0;Strait of Gibraltar
@@ -180,11 +193,16 @@
 #
 # The canals  
 #
-2711;2721;canal;369;1;Kiel Canal
+3448;2721;canal;369;1;Kiel Canal
 2781;2769;canal;1755;2;Suez Canal
 2968;3001;canal;1723;3;Panama Canal
 2773;2774;canal;860;4;Bosphorus Strait 1
-2772;2773;canal;865;5;Bosphorus Strait 2
+2772;2773;canal;3443;5;Bosphorus Strait 2
 2745;2746;canal;517;6;Gibralter 1
 2925;2746;canal;1687;7;Gibralter 2
 2747;2746;canal;517;8;Gibralter 3
+2772;2771;canal;3438;9;Aegea-Crete Blocker
+2755;2758;canal;3426;10;Gabes-Bon Blocker
+2757;2758;canal;3425;11;Gabes-Naples Blocker
+2759;2758;canal;3424;12;Gabes-Malta Blocker
+2711;3448;canal;372;13;Danish Belts Blocker

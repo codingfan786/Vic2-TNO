@@ -5,12 +5,12 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 50000
+		size = 40000
 	}
 	craftsmen = {
-		culture = dutch
+		culture = afro_caribbean
 		religion = protestant
-		size = 50000
+		size = 60000
 	}
 	farmers = {
 		culture = norwegian
@@ -95,7 +95,13 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 100000
+		size = 50000
+	}
+
+	farmers = {
+		culture = brazilian
+		religion = protestant
+		size = 50000
 	}
 
 	farmers = {

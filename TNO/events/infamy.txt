@@ -1,13 +1,14 @@
 country_event = {
 	id = 12341234
-	title = "EVTNAME12341234"
-	desc = "EVTDESC12341234"
+	title = "International Sanctions."
+	desc = "$COUNTRY$ has become an international pariah due to its aggressive expansionist policy. Cold war tensions are at an all time high as many countries cease trade altogether with $COUNTRY$. §R The infamy limit is 32.5"
 	picture = "native_force"
 	
 	
 	trigger = {
 		badboy = 1.3
 		NOT = { has_country_modifier = badboymod }
+		NOT = { has_country_modifier = sanctionsrelief }
 	}
 	
 	mean_time_to_happen = {
@@ -15,7 +16,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "God Damnit"
+		name = "Autarky ho!"
 		add_country_modifier = {
 			name = badboymod
 			duration = -1
@@ -25,15 +26,22 @@ country_event = {
 
 country_event = {
 	id = 123412345
-	title = "EVTNAME123412345"
-	desc = "EVTDESC123412345"
+	title = "Hampered By Sanctions No Longer."
+	desc = "Through a combination of clever international diplomacy and a flagrant flouting of established trade rules $COUNTRY$ has weathered the storm of international sanctions."
 	picture = "native_force"
 	
 	
 	trigger = {
+		OR = {
 			NOT = { badboy = 1.3 }
-			has_country_modifier = badboymod
-				} 
+			has_country_modifier = sanctionsrelief
+		}
+		
+		
+		has_country_modifier = badboymod
+			
+		
+	} 
 	
 	
 	mean_time_to_happen = {
@@ -41,7 +49,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Thank God"
+		name = "Thank God!"
 		remove_country_modifier = badboymod
 	}
 	

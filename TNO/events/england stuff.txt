@@ -20,6 +20,10 @@ country_event = {
 		ENG = {inherit = COR}
 		ai_chance = {
 			factor = 0.70
+			modifier = {
+				factor = 0
+				tag = GGE
+			}
 		}
 	}
 	option = {

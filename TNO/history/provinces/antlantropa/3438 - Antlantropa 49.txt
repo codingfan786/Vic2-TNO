@@ -1,0 +1,6 @@
+owner = GRE
+controller = GRE
+trade_goods = coal
+life_rating = 35
+terrain = plains
+fort = 1

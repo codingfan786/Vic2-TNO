@@ -1,0 +1,40 @@
+country_event = {
+	id = 500185
+	title = "Fuhrer Deposed!"
+	desc = "The day of the Judeo-Bolshevik has finally come as Germania is stormed by communists and untermensch alike."
+	fire_only_once = yes
+	trigger = {
+		exists = yes
+		NOT = {exists = GER}
+		NOT = {exists = GE2}
+		OR = {
+			tag = GGE
+			tag = SGE
+			tag = HGE
+			tag = BGE
+		}
+		NOT = {government = fascist_dictatorship}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		549 = {
+			change_province_name = "Berlin"
+		}
+		change_tag = GE2
+		all_core = {
+			remove_core = GGE
+			remove_core = SGE
+			remove_core = HGE
+			remove_core = BGE
+		}
+	}
+
+	option = {
+		name = "The Fuhrer is dead, long live Germany!"
+		
+	}
+}

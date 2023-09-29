@@ -1,0 +1,82 @@
+country_event = {
+	id = 500173
+	title = "armageddon 1"
+	desc = "test"
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = armageddon2
+		any_owned = {
+			limit = {
+				is_capital = no
+			}
+			random_list = {
+				75= {secede_province = NUK}
+				25 = {}
+			}
+		}
+	}
+
+	option = {
+		name = "terrible!"
+	}
+}
+
+country_event = {
+	id = 500174
+	title = "armageddon 2"
+	desc = "test"
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+		has_country_flag = armageddon2
+		#ai = yes
+		NOT = {tag = NUK}
+		NOT = {has_country_flag = armageddon3}
+	}
+
+	immediate = {
+		set_country_flag = armageddon3
+		any_owned = {
+			limit = {
+				is_capital = no
+			}
+			secede_province = NUK
+		}
+	}
+
+	option = {
+		name = "terrible!"
+	}
+}
+
+country_event = {
+	id = 500175
+	title = "armageddon 3"
+	desc = "test"
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+		has_country_flag = armageddon3
+		ai = yes
+		NOT = {tag = NUK}
+		NOT = {tag = BRG}
+	}
+
+	immediate = {
+		NUK = {
+			inherit = THIS
+		}
+	}
+
+	option = {
+		name = "terrible!"
+	}
+}

@@ -3,43 +3,43 @@
 #Salonika (304000/76000 POPS) #now part of Greece 
 805 = {
 	aristocrats = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 3600
 	}
 
 	bureaucrats = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 3500
 	}
 
 	officers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 650
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 500
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 9000
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 1600
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 27150
 	}
@@ -101,31 +101,31 @@
 #Polygyros (100000/25000 POPS) #now part of Greece
 822 = {
 	aristocrats = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 800
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 1500
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 500
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 15000
 	}
@@ -169,31 +169,31 @@
 #Kavala (160000/40000 POPS) #now part of Greece
 823 = {
 	aristocrats = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 1700
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 250
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 1600
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 800
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 19050
 	}
@@ -287,33 +287,39 @@
 	}
 
 	aristocrats = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 950
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 1600
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 600
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 18650
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 5000
 	}
 }
 #Grevena (140000/35000 POPS) #now part of Greece
@@ -697,31 +703,31 @@
 #Xanthi (72000/18000 POPS)
 829 = {
 	aristocrats = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 850
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 800
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 350
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 11850
 	}
@@ -759,31 +765,31 @@
 #Dedeagatch (72000/18000 POPS)
 830 = {
 	aristocrats = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 900
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 800
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 350
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = greek
 		religion = sunni
 		size = 13800
 	}

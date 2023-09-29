@@ -117,8 +117,8 @@ PLC_anarcho_liberal;Stronnictwo Radykalny;Parti radical;Stronnictwo Radykalny;;S
 PLC_socialist;Partia Socjalistyczna;Parti socialiste;Partia Socjalistyczna;;Partia Socjalistyczna;;;;;;;;;x
 PLC_communist;Partia Socjaldemokracja;Parti social-démocrate;Partia Socjaldemokracja;;Partia Socjaldemokracja;;;;;;;;;x
 PLC_fascist;Stronnictwo Narodowe;Parti national;Stronnictwo Narodowe;;Stronnictwo Narodowe;;;;;;;;;x
-ARA;Saudi Arabia;Arabie;Arabien;;Arabia;;;;;;;;;x
-ARA_ADJ;Arab;arabe;Arabisch;;Arab;;;;;;;;;x
+ARA;United Arab Republic;Arabie;Arabien;;Arabia;;;;;;;;;x
+ARA_ADJ;United Arab;arabe;Arabisch;;Arab;;;;;;;;;x
 ARA_conservative;Conservatives;Conservateurs;Konservative;;;;;;;;;;;x
 ARA_liberal;Liberals;Libéraux;Liberale;;;;;;;;;;;x
 ARA_reactionary;Reactionaries;Réactionnaires;Reaktionäre;;;;;;;;;;;x

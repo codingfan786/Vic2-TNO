@@ -1,7 +1,7 @@
 country_event = {
 	id = 500166
-	title = "goring demands subjugation"
-	desc = "how terrible"
+	title = "Fuhrer Goring demands our annexation!"
+	desc = "Our former German masters are demanding we submit to them once again! What should we do?"
 	is_triggered_only = yes
 
 	option = {
@@ -42,8 +42,8 @@ country_event = {
 
 country_event = {
 	id = 500167
-	title = "goring tames the near east lebensraum."
-	desc = "Wow."
+	title = "War Plan Zero accomplished!"
+	desc = "Central Europe has fallen to the might of the Wehrmacht! Poland, the Czech, the Slovak, all will serve as the land of the Grobdeutsches Reich!"
 	fire_only_once = yes
 
 	trigger = {
@@ -70,9 +70,50 @@ country_event = {
 }
 
 country_event = {
+	id = 500176
+	title = "Fueling the War Machine."
+	desc = "event500176desc"
+	is_triggered_only = yes
+
+	option = {
+		name = "The Wehrmacht will be unstopable!"
+		set_country_flag = goring_industrial_rape
+		add_country_modifier = {
+			name = sanctionsrelief
+			duration = 913
+		}
+		SIK = {civilized = no}
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = CZH
+					is_core = POL
+				}
+				NOT = {is_core = THIS}
+			}
+			secede_province = SIK
+		}
+		inherit = SIK
+		release = SIK
+		SIK = {civilized = yes}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "Goring will preoccupy the militarists with other ideas."
+		badboy = -5
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
 	id = 500168
-	title = "time to expand cornwall..."
-	desc = "wow"
+	title = "A sad day for Britain."
+	desc = "The German Wehrmacht has beaten the momentarily free Britain back into submission. British across the world mourn as the Reichsflag flies over the Buckingham Palace."
 	is_triggered_only = yes
 
 	immediate = {
@@ -192,14 +233,14 @@ country_event = {
 		ENG = {prestige = -70}
 	}
 	option = {
-		name = "lol"
+		name = "A sad day for Britoids!"
 	}
 }
 
 country_event = {
 	id = 500170
-	title = "war plan A"
-	desc = "fill"
+	title = "Operation Balkanhalbinsel Und Skandinavien."
+	desc = "$COUNTRY$ has been incorporated into the Reichskommissariat!"
 	is_triggered_only = yes
 	immediate = {
 		random_owned = {
@@ -225,8 +266,11 @@ country_event = {
 					owned_by = FIN
 				}
 			}
+			GSC = {inherit = THIS}
 			THIS = {
-				change_tag = GSC
+				change_tag_no_core_switch = GSC
+			}
+			GSC = {
 				ruling_party_ideology = fascist
 				government = fascist_dictatorship
 				political_reform = none_voting
@@ -318,8 +362,11 @@ country_event = {
 					owned_by = MOL
 				}
 			}
+			GBA = {inherit = THIS}
 			THIS = {
-				change_tag = GBA
+				change_tag_no_core_switch = GBA
+			}
+			GBA = {
 				ruling_party_ideology = fascist
 				government = fascist_dictatorship
 				political_reform = none_voting
@@ -331,6 +378,7 @@ country_event = {
 
 				remove_accepted_culture = romanian
 				remove_accepted_culture = hungarian
+				remove_accepted_culture = bulgarian
 				add_accepted_culture = south_german
 				primary_culture = north_german
 				all_core = {remove_core = GBA}
@@ -378,16 +426,67 @@ country_event = {
 				}
 			}
 		}
+
+		GGE = {
+			random_owned = {
+				limit = {
+					is_capital = yes
+					GGE = { has_country_flag = goring_industrial_rape }
+				}
+				GBA = {
+					country_event = {id = 500177 days = 1}
+				}
+				GSC = {
+					country_event = {id = 500177 days = 1}
+				}
+				GGE = {
+					remove_country_modifier = sanctionsrelief
+					add_country_modifier = {
+						name = sanctionsrelief
+						duration = 913
+					}
+				}
+			}
+		}
 	}
 	option = {
-		name = "woops"
+		name = "Heil Goring!"
+
 	}
 }
+country_event = {
+	id = 500177
+	title = "Industrial Looting!"
+	desc = "$COUNTRY$ has had its industry looted to fuel the Wehrmacht! §R Don't hold this event, if it gets lost in a rehost you will cause even more rehosts."
+	is_triggered_only = yes
 
+
+	immediate = {
+		SIK = {civilized = no}
+		any_owned = {
+			secede_province = SIK
+		}
+		inherit = SIK
+		release = SIK
+		SIK = {civilized = yes}
+
+	}
+
+	option = {
+		name = "Heil Goring!"
+		SIK = {civilized = no}
+		any_owned = {
+			secede_province = SIK
+		}
+		inherit = SIK
+		release = SIK
+		SIK = {civilized = yes}
+	}
+}
 country_event = {
 	id = 500171
-	title = "war plan B"
-	desc = "fill"
+	title = "Operation Schwarz."
+	desc = "$COUNTRY$ has been incorporated into the Reichskommissariat!"
 	is_triggered_only = yes
 	immediate = {
 		random_owned = {
@@ -413,8 +512,11 @@ country_event = {
 					owned_by = BRI
 				}
 			}
+			GFR = {inherit = THIS}
 			THIS = {
-				change_tag = GFR
+				change_tag_no_core_switch = GFR
+			}
+			GFR = {
 				ruling_party_ideology = fascist
 				government = fascist_dictatorship
 				political_reform = none_voting
@@ -498,8 +600,11 @@ country_event = {
 					owned_by = LUX
 				}
 			}
+			GLO = {inherit = THIS}
 			THIS = {
-				change_tag = GLO
+				change_tag_no_core_switch = GLO
+			}
+			GLO = {
 				ruling_party_ideology = fascist
 				government = fascist_dictatorship
 				political_reform = none_voting
@@ -557,14 +662,14 @@ country_event = {
 		}
 	}
 	option = {
-		name = "woops"
+		name = "Heil Goring!"
 	}
 }
 
 country_event = {
 	id = 500172
-	title = "war plan A finish."
-	desc = "Wow."
+	title = "War Plan A accomplished!"
+	desc = "event500172desc"
 	fire_only_once = yes
 
 	trigger = {
@@ -636,9 +741,9 @@ country_event = {
 			}
 		}
 
-		COR = {
-			exists = yes
-		}
+		#COR = {
+		#	exists = yes
+		#}
 	}
 
 	mean_time_to_happen = {
@@ -652,5 +757,278 @@ country_event = {
 	option = {
 		name = "Heil Goring!"
 		prestige = 20
+	}
+}
+
+country_event = {
+	id = 500178
+	title = "Goring War Plan A."
+	desc = "Goring and the militarists are invading you now. Without this event the AI would never declare the war due to hardcoded AI behavior when over infamy."
+
+	trigger = {
+		any_owned_province = {
+			OR = {
+				is_core = FIN
+				is_core = SWE
+				is_core = NOR
+				is_core = ROM
+				is_core = HUN
+				is_core = BUL
+			}
+		}
+		NOT = {tag = GGE}
+		NOT = {tag = GSC}
+		NOT = {tag = GBA}
+		NOT = {vassal_of = GGE}
+		NOT = {truce_with = GGE}
+		GGE = {
+			AND = {
+				ai = yes
+				exists = yes
+				NOT = {war = yes}
+				has_country_flag = war_plan_a_scba_done
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	immediate = {
+		GGE = {
+			war = {
+				target = THIS
+				attacker_goal = {casus_belli = goring_wild_ride_a}
+				call_ally = yes
+			}
+		}
+	}
+
+	option = {
+		name = "Sorry, there's no better way to do this."
+	}
+}
+
+country_event = {
+	id = 500179
+	title = "Goring War Plan B."
+	desc = "Goring and the militarists are invading you now. Without this event the AI would never declare the war due to hardcoded AI behavior when over infamy."
+
+	trigger = {
+		any_owned_province = {
+			OR = {
+				is_core = FRA
+				is_core = NET
+				is_core = BEL
+				is_core = SWI
+				is_core = LUX
+				is_core = BRI
+			}
+		}
+		NOT = {tag = GGE}
+		NOT = {tag = GFR}
+		NOT = {tag = GLO}
+		NOT = {vassal_of = GGE}
+		NOT = {truce_with = GGE}
+		GGE = {
+			AND = {
+				ai = yes
+				exists = yes
+				NOT = {war = yes}
+				has_country_flag = war_plan_b_frlo_done
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	immediate = {
+		GGE = {
+			war = {
+				target = THIS
+				attacker_goal = {casus_belli = goring_wild_ride_b}
+				call_ally = yes
+			}
+		}
+	}
+
+	option = {
+		name = "Sorry, there's no better way to do this."
+	}
+}
+
+country_event = {
+	id = 500180
+	title = "Militarists Angered."
+	desc = "event500180desc"
+	fire_only_once = yes
+	trigger = {
+		tag = GGE 
+		NOT = {has_country_flag = war_plan_0_finish}
+		year = 1966
+		ai = no
+	}
+
+	mean_time_to_happen = {
+		months = 5
+	}
+
+	option = {
+		name = "There is just no distracting the militarists from their jingoist plans."
+		any_pop = {
+			scaled_militancy = {
+				factor = 6
+				issue = pro_military
+			}
+			scaled_militancy = {
+				factor = 6
+				issue = jingoism
+			}
+		}
+	}
+
+	option = {
+		name = "Goring will propose a reallocation of the military budget in order to revive the Wunderwaffen Project."
+		any_pop = {
+			scaled_militancy = {
+				factor = 3
+				issue = pro_military
+			}
+			scaled_militancy = {
+				factor = 3
+				issue = jingoism
+			}
+		}
+		treasury = -100000
+		set_country_flag = sun_gun
+	}
+}
+
+country_event = {
+	id = 500181
+	title = "Militarists Angered."
+	desc = "event500181desc"
+	fire_only_once = yes
+	trigger = {
+		tag = GGE 
+		NOT = {has_country_flag = war_plan_a_finish}
+		year = 1976
+		ai = no
+	}
+
+	mean_time_to_happen = {
+		months = 5
+	}
+
+	option = {
+		name = "There is just no distracting the militarists from their jingoist plans."
+		any_pop = {
+			scaled_militancy = {
+				factor = 6
+				issue = pro_military
+			}
+			scaled_militancy = {
+				factor = 6
+				issue = jingoism
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500182
+	title = "sun gun project."
+	desc = "fill"
+	fire_only_once = yes
+	trigger = {
+		tag = GGE 
+		NOT = {has_country_flag = sun_gun}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "Schiebe... This will not go down well for the budget."
+		treasury = -1000000
+	}
+}
+
+country_event = {
+	id = 500183
+	title = "Reactionary Murmering."
+	desc = "event500183desc"
+	fire_only_once = yes
+	trigger = {
+		tag = GGE
+		year = 1982
+		ai = no
+	}
+
+	mean_time_to_happen = {
+		months = 5
+	}
+
+	option = {
+		name = "The Abwehr will keep a close eye on them."
+		any_pop = {
+			scaled_militancy = {
+				factor = 6
+				issue = pro_military
+			}
+			scaled_militancy = {
+				factor = 6
+				issue = pacifism
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500184
+	title = "Anti-militarist Coup D'etat!"
+	desc = "event500184desc"
+	fire_only_once = yes
+	trigger = {
+		tag = GGE
+		year = 1982
+	}
+
+	mean_time_to_happen = {
+		months = 24
+
+		modifier = {
+			factor = 0.01
+			year = 1886
+		}
+	}
+
+	immediate = {
+		change_tag = GE2
+		all_core = {
+			remove_core = GGE
+			remove_core = SGE
+			remove_core = HGE
+			remove_core = BGE
+		}
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					badboy = 1.6
+				}
+			}
+			owner = {
+				badboy = -100
+				badboy = 40
+			}
+		}
+	}
+	option = {
+		name = "The Fuhrer is gone, long live Germany!"
 	}
 }

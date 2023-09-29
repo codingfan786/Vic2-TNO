@@ -1,6 +1,10 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+sanctionsrelief = {
+	icon = 17
+}
+
 badboymod = {
 	global_population_growth = -0.005
 	research_points_modifier = -1.0
@@ -13,8 +17,8 @@ badboymod = {
     RGO_throughput = -0.5
     prestige = -0.2
     war_exhaustion = 2
-    badboy = -0.10 #bad idea?
-	icon = 17
+    #badboy = -0.10 #bad idea? yes
+	icon = 18
 }
 
 cdn_council = {

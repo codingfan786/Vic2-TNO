@@ -1,5 +1,5 @@
-owner = CDN
-controller = CDN
+owner = NET
+controller = NET
 trade_goods = fish
 life_rating = 30
 

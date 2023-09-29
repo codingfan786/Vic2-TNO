@@ -35,7 +35,7 @@ negotiated_transfer_desc;Transfer a state or colonial region to another country 
 negotiated_transfer_short;$RECIPIENT$ receives $STATE$ from us;;;;;;;;;;;;;x
 negotiated_transfer_setup;Transfer $STATE$ from our country to $RECIPIENT$;;;;;;;;;;;;x
 fix_country_title;Upgrade the National Security Infrastructure.;;;;;;;;;;;;x
-fix_country_desc;Our situation is finally stable enough to allow our German security forces to act independently when cutoff from command and for our upper echelons to continue giving orders and directing troops from fallback positions outside our central headquarters. Â§RThis means we will no longer collapse when our capital is occupied or has any rebels standing in it.;;;;;;;;;;;;x
+fix_country_desc;Our situation is finally stable enough to allow our German security forces to act independently when cutoff from command and for our upper echelons to continue giving orders and directing troops from fallback positions outside our central headquarters. §RThis means we will no longer collapse when our capital is occupied or has any rebels standing in it.;;;;;;;;;;;;x
 BRG_occupy;Burgundian Decimation;;;;;;;;;;;;x
 BRG_occupy_desc;Our land is being ravaged by the Himmlerites!;;;;;;;;;;;;x
 ger_afr;Open Revolt;;;;;;;;;;;;x
@@ -45,11 +45,11 @@ POL_revanch_title;Revive the Second Republic!;;;;;;;;;;;;x
 CZH_revanch_title;Unite the Czechoslovaks!;;;;;;;;;;;;x
 FEU_revanch_title;The Grand Slave Revolt!;;;;;;;;;;;;x
 stand_on_our_own_title;An Independent Reichskommissariat.;;;;;;;;;;;;x
-PBS_freedom_desc;It is time now to rise up against the tyranny of the Third Reich! While Germany is strife with civil war we will take the chance to declare our freedom! We have nought to lose but our chains! Â§R This may have significant consequences once Germany has united again. It is best we find international support quickly.;;;;;;;;;;;;x
+PBS_freedom_desc;It is time now to rise up against the tyranny of the Third Reich! While Germany is strife with civil war we will take the chance to declare our freedom! We have nought to lose but our chains! §R This may have significant consequences once Germany has united again. It is best we find international support quickly.;;;;;;;;;;;;x
 POL_revanch_desc;The Second Polish Republic is no longer a dream! We will retake what is ours, with force if necessary!;;;;;;;;;;;;x
 CZH_revanch_desc;Our breathren in the mountains have declared their independence with us; we should unite again as in the days 20 years past! Despite our ethnic tensions it is necessary for our survival when we are surrounded on all sides by enemies. Never another Munich!;;;;;;;;;;;;x
 FEU_revanch_desc;Our other Slavic breathren have revolted as we have! It is time to consolidate our rebellions and fight towards a Free Europe!;;;;;;;;;;;;x
-stand_on_our_own_desc;There is no hope for aid from the Fatherland anymore. Now is time for us to stand on our own! Â§R This may have significant consequences once Germany has united again. It is best to come to a diplomatic agreement quickly.;;;;;;;;;;;;x
+stand_on_our_own_desc;There is no hope for aid from the Fatherland anymore. Now is time for us to stand on our own! §R This may have significant consequences once Germany has united again. It is best to come to a diplomatic agreement quickly.;;;;;;;;;;;;x
 victory_in_the_gcw_title;Victory in the German Civil War!;;;;;;;;;;;;x
 victory_in_the_gcw_desc;We have won the German Civil War, it is time to reconsolidate the German holdings.;;;;;;;;;;;;x
 nuc_dev;Nuclear Development;;;;;;;;;;;;x
@@ -59,7 +59,7 @@ nuclear_development_desc;It is high time we are able to stand on our own two fee
 nuc_timeout;Nuclear Timeout;;;;;;;;;;;;x
 nuc_timeout_desc;We must wait before causing another nuclear incident;;;;;;;;;;;;x
 pup_assistance_title;Promise freedom for assistance.;;;;;;;;;;;;x
-pup_assistance_desc;We are in desparate need of assistance and severely outnumbered! We must convince the German holdings in the east to assist us; no matter the cost! Â§R This will promise freedom to any puppet that joins our war, and also returns some ethnic territory of Czechoslovakia and Poland. You may refuse to follow through with the deal after the war, but this will cost you infamy.;;;;;;;;;;;;x
+pup_assistance_desc;We are in desparate need of assistance and severely outnumbered! We must convince the German holdings in the east to assist us; no matter the cost! §R This will promise freedom to any puppet that joins our war, and also returns some ethnic territory of Czechoslovakia and Poland. You may refuse to follow through with the deal after the war, but this will cost you infamy.;;;;;;;;;;;;x
 brg_assistance_title;Request Intervention from Himmler!;;;;;;;;;;;;x
 brg_assistance_desc;We are in desparate need of assistance and severely outnumbered! We must beg Himmler in the west to rescue us!;;;;;;;;;;;;x
 brg_assist;Burgundian Assistance;;;;;;;;;;;;x
@@ -81,8 +81,8 @@ west_china_desc;After a hard fought victory the free portions of China have fina
 mongol_russia_title;Ideological Racism;;;;;;;;;;;;x
 mongol_russia_desc;No longer will our people be separated by race! As said by Mao and Marx we are all unified by our class. No longer will our former Soviet cousins and us be treated as Russian and Mongolian, but rather one people; the Proletariat!;;;;;;;;;;;;x
 form_alp_title;Unify the Alps!;;;;;;;;;;;;x
-form_alp_desc;The Swiss and the North Italian live on two sides of the same mountain. Our differences are not too great that we cannot live together as one. This might upset some Italian politians' African posturing, but a shift of political focus north could greatly benefit us. Â§R This will prevent us from assimilating our African statesmen and vice versa.;;;;;;;;;;;;x
-get_austria_title;North of the Alps;;;;;;;;;;;;x
+form_alp_desc;The Swiss and the North Italian live on two sides of the same mountain. Our differences are not too great that we cannot live together as one. This might upset some Italian politians' African posturing, but a shift of political focus north could greatly benefit us. §R This will prevent us from assimilating our African statesmen and vice versa.;;;;;;;;;;;;x
+get_austria_title;North of the Alps.;;;;;;;;;;;;x
 get_austria_desc;A little farther north of the Alps, along the river Danube, are many people with linguistic and cultural ties to the mountain life. These "High Germans" have been brought under our control and they must be our people!;;;;;;;;;;;;x
 ita_assim_buffer;Italian Assimilation event buffer;;;;;;;;;;;;x
 ita_assim_timer;Italian Assimilation In Progress;;;;;;;;;;;;x
@@ -91,37 +91,37 @@ accept_maghrebi_one_title;Italianize the Maghrebi!;;;;;;;;;;;;x
 accept_misri_one_title;Italianize the Misri!;;;;;;;;;;;;x
 accept_mashriqi_one_title;Italianize the Mashriqi!;;;;;;;;;;;;x
 accept_afro_asiatic_one_title;Italianize the Afro-Asiatic!;;;;;;;;;;;;x
-accept_bedouin_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_maghrebi_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_misri_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_mashriqi_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_afro_asiatic_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R This counts as two cultures towards the three you can accept!;;;;;;;;;;;;x
+accept_bedouin_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_maghrebi_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_misri_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_mashriqi_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_afro_asiatic_one_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R This counts as two cultures towards the three you can accept!;;;;;;;;;;;;x
 accept_bedouin_two_title;Italianize the Bedouins!;;;;;;;;;;;;x
 accept_maghrebi_two_title;Italianize the Maghrebi!;;;;;;;;;;;;x
 accept_misri_two_title;Italianize the Misri!;;;;;;;;;;;;x
 accept_mashriqi_two_title;Italianize the Mashriqi!;;;;;;;;;;;;x
 accept_afro_asiatic_two_title;Italianize the Afro-Asiatic!;;;;;;;;;;;;x
-accept_bedouin_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_maghrebi_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_misri_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_mashriqi_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_afro_asiatic_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R This counts as two cultures towards the three you can accept!;;;;;;;;;;;;x
+accept_bedouin_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_maghrebi_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_misri_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_mashriqi_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_afro_asiatic_two_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R This counts as two cultures towards the three you can accept!;;;;;;;;;;;;x
 accept_bedouin_three_title;Italianize the Bedouins!;;;;;;;;;;;;x
 accept_maghrebi_three_title;Italianize the Maghrebi!;;;;;;;;;;;;x
 accept_misri_three_title;Italianize the Misri!;;;;;;;;;;;;x
 accept_mashriqi_three_title;Italianize the Mashriqi!;;;;;;;;;;;;x
 accept_afro_asiatic_three_title;Italianize the Afro-Asiatic!;;;;;;;;;;;;x
-accept_bedouin_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_maghrebi_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_misri_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
-accept_mashriqi_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! Â§R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_bedouin_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_maghrebi_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_misri_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
+accept_mashriqi_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire! §R Only three North African cultures can be accepted!;;;;;;;;;;;;x
 accept_afro_asiatic_three_desc;The Italian colonial administration is of essential importance to the Italian state. Many political figures have seen the success in incorporating Libya as a fully fledged state and want to replicate it across the entire empire. We should accept these African people and turn our colonial holdings into a solidified empire!;;;;;;;;;;;;x
 athenscouncilclaim;State Claimed in the Council of Athens;;;;;;;;;;;;x
 coa_plan;Athens Partition Plan;;;;;;;;;;;;x
 coa_plan_short;Athens Partition Plan;;;;;;;;;;;;x
 coa_plan_setup;Partition Yugoslavia between Hungary, Bulgaria, and Italy.;;;;;;;;;;;;x
 coa_call_title;Call the Council of Athens.;;;;;;;;;;;;x
-coa_call_desc;Yugoslavia was never truly pacified in World War 2, but now we have the perfect opportunity to seize them! We shall call our balkan neighbors Hungary and Bulgaria to Athens to have a grand conference on the partition of Yugoslavia. Â§R This will cost you each 8 infamy if the plan succeeds and will give you a CB to split Yugoslavia.;;;;;;;;;;;;x
+coa_call_desc;Yugoslavia was never truly pacified in World War 2, but now we have the perfect opportunity to seize them! We shall call our balkan neighbors Hungary and Bulgaria to Athens to have a grand conference on the partition of Yugoslavia. §R This will cost you each 8 infamy if the plan succeeds and will give you a CB to split Yugoslavia.;;;;;;;;;;;;x
 por_investment_title;National Investment in Portugal;;;;;;;;;;;;x
 cat_investment_title;National Investment in Catalonia;;;;;;;;;;;;x
 por_acceptance_title;National Integration in Portugal;;;;;;;;;;;;x
@@ -174,7 +174,7 @@ demo_welsh_desc;The independence movement of the Welsh was nothing but a hysteri
 contact_cbr_title;Contact the British Colonial Administration;;;;;;;;;;;;x
 contact_cbr_desc;Since World War 2 the British colonial administration has been cut off and in collapse. They will be glad to hear of the Nation's recovery.;;;;;;;;;;;;x
 support_boers_title;Support Boer separatism.;;;;;;;;;;;;x
-support_boers_desc;The former British colony to our south is a dangerous threat to our supremacy in Africa. We should support the Boer separatists when they declare their independence! Â§R This will make us automatically join the Boers when they declare independence (Usually in the 70's).;;;;;;;;;;;;x
+support_boers_desc;The former British colony to our south is a dangerous threat to our supremacy in Africa. We should support the Boer separatists when they declare their independence! §R This will make us automatically join the Boers when they declare independence (Usually in the 70's).;;;;;;;;;;;;x
 EVENT500065;To our north are our two German neighbors, waiting for the opportune moment to strike at us. Any time a Boer core we own is sieged down by rebels the province will be marked with a modifier named Open Revolt. In the early 1970's (or earlier if all Boer cores are sieged) the Boer republic will declare independence in every state that has a province with Open Revolt. They will also get some troops for every province with Open Revolt. The German dictatorships to our north will join the Boers if they have not collapsed before then.;;;;;;;;;;;;x
 EVENT500066;The failure in World War 2 and the economic hardships our loss brought has lead to an increasing poverty gap between the southern and northern regions of our country. The tensions this has caused between the Afro-American and Dixie citizenry will inevitably lead to outright violence in these states. We do however have a chance to soften the impact of this. \n\n Jackson and Washington each start with their own modifiers representing racial tensions and federal desegregation efforts respectively. These will slowly spread throughout the south until every province is covered with one of them, at which point the provinces with racial tensions will fall into anarchy as racial violence erupts until military intervention arrives. \n Having a liberal party slows the spread of racial tension, while having at least 0.5% bureaucrats in a state will slow tension spread and speed up desegregation spread. \n Good luck!;;;;;;;;;;;;x
 civil_unrest;Civil Unrest;;;;;;;;;;;;x
@@ -209,19 +209,19 @@ ger_annex_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
 gge_1_title;Restore order west of Prussia.;;;;;;;;;;;;x
 gge_1_desc;It is time we put down the rebellious reichskommissariats in our backyard. These democracies will not stand!;;;;;;;;;;;;x
 gge_2_title;Direct rule west of Prussia.;;;;;;;;;;;;x
-gge_2_desc;The recent unrest at home and in the east has proven significant threats exist in the German Reich. We can no longer afford independent rule in the east. Â§R Our puppets may refuse. In that case we will have to go to war!;;;;;;;;;;;;x
+gge_2_desc;The recent unrest at home and in the east has proven significant threats exist in the German Reich. We can no longer afford independent rule in the east. §R Our puppets may refuse. In that case we will have to go to war!;;;;;;;;;;;;x
 gge_3_title;Assert our authority east of Prussia!;;;;;;;;;;;;x
-gge_3_desc;The declaration of independence by the reichskommissariats in the east beyond Poland has come as a shock to the already unstable German political landscape. Their loyalty to Germany must be enforced. Â§R They may refuse to come back to us. In that case we will have to go to war!;;;;;;;;;;;;x
+gge_3_desc;The declaration of independence by the reichskommissariats in the east beyond Poland has come as a shock to the already unstable German political landscape. Their loyalty to Germany must be enforced. §R They may refuse to come back to us. In that case we will have to go to war!;;;;;;;;;;;;x
 gge_4_title;Tame the partisan states.;;;;;;;;;;;;x
 gge_4_desc;Partisans have siezed the lebensraum! We must scramble immediately to secure direct control before they organize and become too establised to root out.;;;;;;;;;;;;x
 BHge_1_title;Restore order west of Prussia.;;;;;;;;;;;;x
 BHge_1_desc;It is time we put down the rebellious reichskommissariats in our backyard. These democracies will not stand!;;;;;;;;;;;;x
 BHge_2_title;Assert our authority west of Prussia!;;;;;;;;;;;;x
-BHge_2_desc;The declaration of independence by the reichskommissariats in central Europe has come as a shock to the already unstable German political landscape. Their loyalty to Germany must be enforced. Â§R They may refuse to come back to us. In that case we will have to go to war!;;;;;;;;;;;;x
+BHge_2_desc;The declaration of independence by the reichskommissariats in central Europe has come as a shock to the already unstable German political landscape. Their loyalty to Germany must be enforced. §R They may refuse to come back to us. In that case we will have to go to war!;;;;;;;;;;;;x
 BHge_3_title;Tame the partisan states.;;;;;;;;;;;;x
 BHge_3_desc;Partisans have siezed the lebensraum! We must scramble immediately to secure the reichskommissariat governments before they organize and become too establised to root out.;;;;;;;;;;;;x
 BHge_4_title;Assert our authority east of Prussia!;;;;;;;;;;;;x
-BHge_4_desc;The declaration of independence by the reichskommissariats in the east beyond Poland has come as a shock to the already unstable German political landscape. Their loyalty to Germany must be enforced. Â§R They may refuse to come back to us. In that case we will have to go to war!;;;;;;;;;;;;x
+BHge_4_desc;The declaration of independence by the reichskommissariats in the east beyond Poland has come as a shock to the already unstable German political landscape. Their loyalty to Germany must be enforced. §R They may refuse to come back to us. In that case we will have to go to war!;;;;;;;;;;;;x
 sge_1_title;Restore order west of Prussia.;;;;;;;;;;;;x
 sge_1_desc;It is time we put down the rebellious reichskommissariats in our backyard. These democracies will not stand!;;;;;;;;;;;;x
 sge_2_title;Tame the partisan states.;;;;;;;;;;;;x
@@ -232,7 +232,7 @@ nuke_surrender_title;Use nuclear threat to demand surrender!;;;;;;;;;;;;x
 nuke_surrender_desc;The end to our current conflict is looking to be a distant hope. We must use our nuclear arsenal to end this conflict in our favor quickly!;;;;;;;;;;;;x
 EVENT500071desc;The emergence of a dominant unifier of Russia has finally occured. With the rise of major powers in Russia and the dissolution of local warlords comes a moment of peace and stability in the region. Anarchy no longer rules Russia, and the constant warfare has finally petered out.;;;;;;;;;;;;x
 FIN_1;Leningrad Corridor;;;;;;;;;;;;x
-make_puppet_unlimited;Make puppet;CrÃ©er un pays satellite;Erschafft eine Marionette;;;;;;;;;;;x
+make_puppet_unlimited;Make puppet;Créer un pays satellite;Erschafft eine Marionette;;;;;;;;;;;x
 make_puppet_unlimited_short;$RECIPIENT$ becomes a puppet of $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
 make_puppet_unlimited_setup;$RECIPIENT$ becomes a puppet of $ACTOR$;$RECIPIENT$ devient satellite de $ACTOR$;$RECIPIENT$ wird eine Marionette von $ACTOR$;;;;;;;;;;;x
 make_puppet_unlimited_desc;Become a puppet;Devenir un satellite;Werdet eine Marionette;;;;;;;;;;;x
@@ -284,7 +284,7 @@ AA_reform_desc;The Civil Rights Act of $YEAR$ is a landmark civil rights and lab
 brg_boers_title;Covert Funding For Boer Separatists.;;;;;;;;;;;;x
 brg_boers_desc;It would be prudent to destabilize the South African Regime. If they dismantle German Africa we could lose the entire continent to democracy!;;;;;;;;;;;;x
 brg_core_title;Develop Occupation Into Settlement.;;;;;;;;;;;;x
-brg_core_desc;The underlying motive of the post-war occupation of western Europe was always more than a military matter. The presence of German settlement not only allows the lessening of occupation resistance, but also allows integration of the land into the Greater German homeland. Â§R Any French, Dutch, or Belgian core states where a province has become majority German will automatically become a core Burgundy state from now on, skipping the normal lengthy core process.;;;;;;;;;;;;x
+brg_core_desc;The underlying motive of the post-war occupation of western Europe was always more than a military matter. The presence of German settlement not only allows the lessening of occupation resistance, but also allows integration of the land into the Greater German homeland. §R Any French, Dutch, or Belgian core states where a province has become majority German will automatically become a core Burgundy state from now on, skipping the normal lengthy core process.;;;;;;;;;;;;x
 EVENTDESC500075;The underlying motive of the post-war occupation of western Europe was always more than a military matter. The presence of German settlement not only allows the lessening of occupation resistance, but also allows integration of the land into the Greater German homeland.;;;;;;;;;;;;x
 csa_wins_title;Segregation Ended;;;;;;;;;;;;x
 csa_wins_desc;With the complete abandonment of the south by the federal government we can finally 'end' segregation our own way!;;;;;;;;;;;;x
@@ -296,13 +296,13 @@ irgun_coup_title;Etzel Coup.;;;;;;;;;;;;x
 irgun_coup_desc;The Irgun (lit. "The National Military Organization in the Land of Israel"), or Etzel, is a Zionist paramilitary organization operating in the Italian Governorate of the Levant. The Irgun has been viewed as a terrorist organization by many in the Italian press and their policy is based on the doctrine of Revisionist Zionism by Ze'ev Jabotinsky. In $YEAR$ due to a combination of general unrest and the shifting political focus of Italy the organization was able to sieze control of many state apparatuses and coup the Italian colonial government.;;;;;;;;;;;;x
 rus_colonize;Law and order restoration;;;;;;;;;;;;x
 rus_colonizing_title;Reclaim the bombing regions.;;;;;;;;;;;;x
-rus_colonizing_desc;In the decades since World War 2 Germany has used eastern Europe as a training ground for their air force, blasting any Russian settlements that they see on their borders. This practice has lead to the the population in these regions being scattered and solitary, stopping any possibility of governmental organization. With the onset of the German civil war this bombing practice has ended and it is now possible for us to gain control of these lands again. Â§R Winning a war with the Russian unification CB will reset the timer for this decision early.;;;;;;;;;;;;x
+rus_colonizing_desc;In the decades since World War 2 Germany has used eastern Europe as a training ground for their air force, blasting any Russian settlements that they see on their borders. This practice has lead to the the population in these regions being scattered and solitary, stopping any possibility of governmental organization. With the onset of the German civil war this bombing practice has ended and it is now possible for us to gain control of these lands again. §R Winning a war with the Russian unification CB will reset the timer for this decision early.;;;;;;;;;;;;x
 greece_inherit_title;Integrate the Greek Occupational Government.;;;;;;;;;;;;x
 greece_inherit_desc;The Greek occupational government has served its purpose. It is time that we take direct control of the territory.;;;;;;;;;;;;x
 spying;Spy program in progress.;;;;;;;;;;;;x
 spy_unrest;Foreign Propaganda;;;;;;;;;;;;x
 form_spy_agency_title;Form a national intelligence agency.;;;;;;;;;;;;x
-form_spy_agency_desc;Construct an intelligence agency in order to conduct spy programs abroad. Â§R Spy programs can only be done by GPs against other GPs.;;;;;;;;;;;;x
+form_spy_agency_desc;Construct an intelligence agency in order to conduct spy programs abroad. §R Spy programs can only be done by GPs against other GPs.;;;;;;;;;;;;x
 spy_port_strike_title;Sabotage dockyards.;;;;;;;;;;;;x
 spy_port_strike_desc;This spy program will destroy a port in another nation. (There is no way to remove just one level so the whole port is destroyed. Sorry! Technical limitations. The program has a high failure rate to balance this.);;;;;;;;;;;;x
 spy_research_title;Steal research.;;;;;;;;;;;;x
@@ -315,7 +315,7 @@ spy_show_desc;Show spy programs.;;;;;;;;;;;;x
 spy_hide_desc;Hide spy programs.;;;;;;;;;;;;x
 regent1;Death of a regent.;;;;;;;;;;;;x
 regent2;The ailing health of the high regent Miklos Horthy has finally caught up to him. Despite living a long and fulfilling life in his homeland he never officially declared a successor to the position of regent, leaving some question as to the future of the country.;;;;;;;;;;;;x
-regent3;The late admiral's son, Istvan Horthy, will succeed him. Â§R (Further decisions will unlock.);;;;;;;;;;;;x
+regent3;The late admiral's son, Istvan Horthy, will succeed him. §R (Further decisions will unlock.);;;;;;;;;;;;x
 regent4;Bela Imredy, the prime minister, will take control of the country!;;;;;;;;;;;;x
 demo_hung;Monarchy Abolished;;;;;;;;;;;;x
 regent_habsburg_title;Invite Otto von Habsburg.;;;;;;;;;;;;x
@@ -337,17 +337,17 @@ AGRESSION_GAW_NAME;The Great Asian War;;;;;;;;;;;;x
 NORMAL_GCW_NAME;$FIRST$ Intervention in the German Civil War;;;;;;;;;;;;x
 AGRESSION_GCW_NAME;$FIRST$ Intervention in the German Civil War;;;;;;;;;;;;x
 WCH_pledge_support_title;Support Chinese independence.;;;;;;;;;;;;x
-WCH_pledge_support_desc;There are rumors in the east of an independence plot in Japanese controlled China. If we want this to succeed we should support them. Â§R This decision will ensure we automatically join any Chinese rebellion.;;;;;;;;;;;;x
+WCH_pledge_support_desc;There are rumors in the east of an independence plot in Japanese controlled China. If we want this to succeed we should support them. §R This decision will ensure we automatically join any Chinese rebellion.;;;;;;;;;;;;x
 chi_declare_gaw_title;Declare Chinese independence.;;;;;;;;;;;;x
-chi_declare_gaw_desc;All available preparations have been made. Armies have been raised and uprisings readied to strike. Now is the time to free ourselves from the Japanese menace. Â§R The price of failure means death!;;;;;;;;;;;;x
+chi_declare_gaw_desc;All available preparations have been made. Armies have been raised and uprisings readied to strike. Now is the time to free ourselves from the Japanese menace. §R The price of failure means death!;;;;;;;;;;;;x
 jap_declare_gaw_title;Military occupation of China.;;;;;;;;;;;;x
-jap_declare_gaw_desc;The Japanese industry desparately needs the resources available by direct occupation of China. An escalation of the current client state system into a full occupation will also please the militant political factions who see China as a potential threat of rebellion. Â§R It is very unlikely for the remaining Chinese nationalists to accept this without a fight.;;;;;;;;;;;;x
+jap_declare_gaw_desc;The Japanese industry desparately needs the resources available by direct occupation of China. An escalation of the current client state system into a full occupation will also please the militant political factions who see China as a potential threat of rebellion. §R It is very unlikely for the remaining Chinese nationalists to accept this without a fight.;;;;;;;;;;;;x
 jap_gut_cja_title;Purge the Colonial Japanese Army of Chinese elements.;;;;;;;;;;;;x
-jap_gut_cja_desc;After the occupation of China in World War 2 many of the former Chinese warlords and their armies were integrated into the C.J.A. with monetary promises. In the outbreak of a full scale rebellion it is unlikely that monetary reward will keep them loyal. A purge of Chinese soldiers is a necessary security measure. Â§R This will prevent any noncoastal Chinese cores from seceding in the case of a Chinese rebellion.;;;;;;;;;;;;x
+jap_gut_cja_desc;After the occupation of China in World War 2 many of the former Chinese warlords and their armies were integrated into the C.J.A. with monetary promises. In the outbreak of a full scale rebellion it is unlikely that monetary reward will keep them loyal. A purge of Chinese soldiers is a necessary security measure. §R This will prevent any noncoastal Chinese cores from seceding in the case of a Chinese rebellion.;;;;;;;;;;;;x
 jap_annex_mck_title;Integrate the Manchurian military regime.;;;;;;;;;;;;x
 jap_annex_mck_desc;The Manchurian regime has served its purpose for far too long. We should fully integrate them.;;;;;;;;;;;;x
 polish_israel_title;Welcome the Polish Refugees.;;;;;;;;;;;;x
-polish_israel_desc;The only reasonable solution to the present Polish refugee crisis is to accept them and any consequences they may bring. Â§R The other Turkic Soviet states may not be so receptive. This decision also gives you a sizable number of Polish immigrants;;;;;;;;;;;;x
+polish_israel_desc;The only reasonable solution to the present Polish refugee crisis is to accept them and any consequences they may bring. §R The other Turkic Soviet states may not be so receptive. This decision also gives you a sizable number of Polish immigrants;;;;;;;;;;;;x
 polish_news;News from the Kazakh steppes rarely reaches the international community, and that which does usually leaves more questions than answers. The state of 'Nowa Polska', a current refuge for Polish exiles from the Reich, has established full military control over Kazakhstan in an attempt to provide a new homeland for the Polish people.;;;;;;;;;;;;x
 polish_coup;Early this morning numerous military installations and governmental institutions were siezed by Polish groups consisting of former Polish underground and military members. Their coup has been seen by other Turkic states as a foreign invasion of central Asia and they are mobilizing to intervene.;;;;;;;;;;;;x
 NPO_revoke;Intervention in Kazakhstan;;;;;;;;;;;;x
@@ -389,7 +389,7 @@ ofn_contimer;O.F.N. Contension Timer.;;;;;;;;;;;;x
 event500124desc;$FROMCOUNTRY$ has requested the return of their land in possession of the O.F.N. Trust Territories. They claim that they have fullfilled all obligations and requirements of the Trust Mandate to return the region to democratic rules. The judgement of this claim is entirely up to us.;;;;;;;;;;;;x
 recently_requested_ofn_trust;Recently requested O.F.N. Trust return.;;;;;;;;;;;;x
 request_OFN_trust_title;Request Our O.F.N. Trust Territory.;;;;;;;;;;;;x
-request_OFN_trust_desc;It is time for the O.F.N. to return our territory. We have clearly demonstrated democratic principles and popular rule! There is no way they will refuse us! Â§R This will have a higher liklihood of succeeding if you have good relations with the O.F.N. leader and allow people to vote.;;;;;;;;;;;;x
+request_OFN_trust_desc;It is time for the O.F.N. to return our territory. We have clearly demonstrated democratic principles and popular rule! There is no way they will refuse us! §R This will have a higher liklihood of succeeding if you have good relations with the O.F.N. leader and allow people to vote.;;;;;;;;;;;;x
 ofn_leader;O.F.N. Head.;;;;;;;;;;;;x
 has_nukes;Possesses Nuclear Weapons.;;;;;;;;;;;;x
 take_OFN_trust_title;Take Our Territory From The O.F.N. Trust;;;;;;;;;;;;x
@@ -399,11 +399,11 @@ ofn_election_recent;Recent O.F.N. election;;;;;;;;;;;;x
 event500132desc;$FROMCOUNTRY$ is requesting to join the O.F.N.! Although the general O.F.N. council is always supportive of new members, the ultimate decision is up to us as the leader of the O.F.N.;;;;;;;;;;;;x
 ofn_member;O.F.N. Member;;;;;;;;;;;;x
 ofn_try_election_title;Call for an O.F.N. election!;;;;;;;;;;;;x
-ofn_try_election_desc;We are obviously more capable of leading the O.F.N. than the current leader. We will call for an election among member states to instate us as the O.F.N. leader. Â§R Non-AI votes count much more. AI votes are influenced by your country score. (Maxes at 700 for each category.);;;;;;;;;;;;x
+ofn_try_election_desc;We are obviously more capable of leading the O.F.N. than the current leader. We will call for an election among member states to instate us as the O.F.N. leader. §R Non-AI votes count much more. AI votes are influenced by your country score. (Maxes at 700 for each category.);;;;;;;;;;;;x
 ofn_join_title;Apply for O.F.N. Membership!;;;;;;;;;;;;x
-ofn_join_desc;The Organization of Free Nations (O.F.N.) was formed in 1947 by the United States of America and the British Commonwealth in Exile. It is an international security council with the aim of protecting democratic nations abroad. In practice it functions as a continuation of the Allied bloc in World War 2. If we have a good relation and possibly an alliance with the O.F.N. leader we have a good shot at being able to join the organization. Â§R Membership and leadership is visible by a province modifier on people's capitals.;;;;;;;;;;;;x
-event500136desc;Horrible news for democracies across the globe today as the continued power vacuum in O.F.N. leadership has lead to the functional dissolution of the organization as a whole. Â§R This happens because there are no GPs eligible to be the O.F.N. leader!;;;;;;;;;;;;x
-event500135desc;Due to a sudden leadership gap from the former O.F.N. leaders fall from influence, $COUNTRY$ has been chosen to lead the O.F.N. in an emergency election. Â§R This happens because the former O.F.N. leader either fell from GP status or no longer allows voting.;;;;;;;;;;;;x
+ofn_join_desc;The Organization of Free Nations (O.F.N.) was formed in 1947 by the United States of America and the British Commonwealth in Exile. It is an international security council with the aim of protecting democratic nations abroad. In practice it functions as a continuation of the Allied bloc in World War 2. If we have a good relation and possibly an alliance with the O.F.N. leader we have a good shot at being able to join the organization. §R Membership and leadership is visible by a province modifier on people's capitals.;;;;;;;;;;;;x
+event500136desc;Horrible news for democracies across the globe today as the continued power vacuum in O.F.N. leadership has lead to the functional dissolution of the organization as a whole. §R This happens because there are no GPs eligible to be the O.F.N. leader!;;;;;;;;;;;;x
+event500135desc;Due to a sudden leadership gap from the former O.F.N. leaders fall from influence, $COUNTRY$ has been chosen to lead the O.F.N. in an emergency election. §R This happens because the former O.F.N. leader either fell from GP status or no longer allows voting.;;;;;;;;;;;;x
 event500139desc;The O.F.N. annual conference on international freedom occurs every December, usually in the capital of the O.F.N. leader. Topics include ways to reinforce democracy abroad, trade agreements, and occasionally discussions of military interventions.;;;;;;;;;;;;x
 ofn_annual_trade;O.F.N. Trade Agreements.;;;;;;;;;;;;x
 low_repair;Benelux Liberated;;;;;;;;;;;;x
@@ -412,7 +412,7 @@ brg_into_low_desc;With the expulsion of Burgundian rule from French soil and the
 request_ghana_title;Request control over Ghana.;;;;;;;;;;;;x
 request_ghana_desc;The remnants of the British military have been scattered to their colonies across the globe. They are in no position to contest us if we demand control over Ghana.;;;;;;;;;;;;x
 cfr_expand_cores_title;Restore colonial rule!;;;;;;;;;;;;x
-cfr_expand_cores_desc;As we reclaim west Africa we solidify our legitimacy on the international stage and reaffirm our position as the legitimate government of France! Â§RThis decision will core any west African country other than Liberia that has been annexed by us or split between us and another country. It is repeatable until all of the west African countries have been cored.;;;;;;;;;;;;x
+cfr_expand_cores_desc;As we reclaim west Africa we solidify our legitimacy on the international stage and reaffirm our position as the legitimate government of France! §RThis decision will core any west African country other than Liberia that has been annexed by us or split between us and another country. It is repeatable until all of the west African countries have been cored.;;;;;;;;;;;;x
 africa_pre_scramble;Invade Sub-Saharan Africa;;;;;;;;;;;;x;;;
 africa_pre_scramble_short;Acquire $STATE$;;;;;;;;;;;;x;;;
 africa_pre_scramble_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;x;;;
@@ -421,8 +421,8 @@ africa_post_scramble;Intervene in Sub-Saharan Africa;;;;;;;;;;;;x;;;
 africa_post_scramble_short;Intervene in $STATE$;;;;;;;;;;;;x;;;
 africa_post_scramble_setup;Intervene in $STATE$ to pacify $RECIPIENT$;;;;;;;;;;;;x;;;
 africa_post_scramble_desc;Acquire state with the context of bringing peace and order to Africa.;;;;;;;;;;;;x;;;
-event500144desc;The recent discovery of oil in Nigeria has sent the impovershed west African countries into a frenzy. The intense warfare that has broken out has sparked international interest in stabilizing the region. Â§R This means cheaper CBs for invading Africa have unlocked!;;;;;;;;;;;;x;;;
-event500145desc;The recent collapse of the German African regimes has led to widespread chaos and disorder. The fledgling democracies that have risen from the ruins have sparked both O.F.N. and German interests in intervening in the region. Â§R This means cheaper CBs for invading Africa have unlocked!;;;;;;;;;;;;x;;;
+event500144desc;The recent discovery of oil in Nigeria has sent the impovershed west African countries into a frenzy. The intense warfare that has broken out has sparked international interest in stabilizing the region. §R This means cheaper CBs for invading Africa have unlocked!;;;;;;;;;;;;x;;;
+event500145desc;The recent collapse of the German African regimes has led to widespread chaos and disorder. The fledgling democracies that have risen from the ruins have sparked both O.F.N. and German interests in intervening in the region. §R This means cheaper CBs for invading Africa have unlocked!;;;;;;;;;;;;x;;;
 afr_oil_wars;West African Resource Conflict;;;;;;;;;;;;x;;;
 afr_oil_wars_short;Acquire oil in $STATE$;;;;;;;;;;;;x;;;
 afr_oil_wars_setup;Acquire oil in $STATE$ from $RECIPIENT$;;;;;;;;;;;;x;;;
@@ -434,9 +434,9 @@ cfr_form_france_desc;The Vichy government is no more! We can rejoice as the only
 cfr_on_north_africa_title;Across the Mediterranean.;;;;;;;;;;;;x;;;
 cfr_on_north_africa_desc;We have reached the north coast of Africa and reclaimed the rightful French colonial possessions. Now we will cross the sea to France itself!;;;;;;;;;;;;x;;;
 event500146desc;Turmoil has gripped Indonesia as the dominant coalition of Indonesian political parties has broken apart. The formerly united parties now squabble as local independence movements crop up among Indonesia's diverse populace.;;;;;;;;;;;;x;;;
-event500147desc;The collapse of the Indonesian National Party has inspired local dissidents to organize their own independence movement! Â§R This will go away faster with troops in the area.;;;;;;;;;;;;x;;;
+event500147desc;The collapse of the Indonesian National Party has inspired local dissidents to organize their own independence movement! §R This will go away faster with troops in the area.;;;;;;;;;;;;x;;;
 eic_rebel_end_title;Reorganize the Indonesian National Party.;x
-eic_rebel_end_desc;The Indonesian National Party is rife with weakness and infighting. In order to stabilize the country a drastic redrawing of the political landscape must occur. Â§R The will end the independence movement events.;x
+eic_rebel_end_desc;The Indonesian National Party is rife with weakness and infighting. In order to stabilize the country a drastic redrawing of the political landscape must occur. §R The will end the independence movement events.;x
 eic_accepted_title;Reign in Disenfranchised Minorities.;x
 eic_accepted_desc;The western parts of Indonesia were never content with the pan-Indonesia comprimise. The solution they desired mirrored the nearby India's split with its muslim populations. Having stabilized the country we are now ready to send out our secret police en masse to round up these troublemakers.;x
 eir_form_title;Free Indonesia!;x
@@ -453,11 +453,11 @@ dev_nwest_desc;The deindustrialisation of India started when the Indian economy 
 dev_neast_title;Northeastern Industrial Development Plan.;x
 dev_neast_desc;The deindustrialisation of India started when the Indian economy was colonised under the British Empire, leading to the implementation of British protectionist policies, restricting sales of Indian goods and services within Britain while exposing Indian markets to British goods and services, without tariffs and quotas. With the departure of the British after World War 2 they have left behind a byzantine bureaucratic system of regulations and red tape. This system of bureaucracy, known popularly as the "Permit Raj" in a mocking comparison to British rule, is extremely corrupt and severely stunts economic growth as well. Only direct government intervention can solve this problem.;x
 finish_dev_title;India Modernized!;x
-finish_dev_desc;With the conclusion of the industrial development plans the Indian economy is finally ready for privatization and growth beyond carefully constructed government intervention plans. Â§R This will change some political parties to allow factory building.;x
+finish_dev_desc;With the conclusion of the industrial development plans the Indian economy is finally ready for privatization and growth beyond carefully constructed government intervention plans. §R This will change some political parties to allow factory building.;x
 muslim_compromise_title;Freedom of Religion Act of $YEAR$;x
-muslim_compromise_desc;The Preamble of the Indian Constitution has the word "secular", and articles 25 to 28 implying that the State will not discriminate, patronise or meddle in the profession of any religion. However, it does not shield individual religions or groups by adding religious rights as a fundamental right. This gap is a result of the tumultuous period in religious relations that occured during the Indian independence and the subsequent Bengali-Pakistan independence conflicts. By amending these articles to guarantee religious rights India will set it's course on a path of reconciliation. Â§R This will lock you out of passing the National Security act. You will get cores on Pakistand and Bengal through this path.;x
+muslim_compromise_desc;The Preamble of the Indian Constitution has the word "secular", and articles 25 to 28 implying that the State will not discriminate, patronise or meddle in the profession of any religion. However, it does not shield individual religions or groups by adding religious rights as a fundamental right. This gap is a result of the tumultuous period in religious relations that occured during the Indian independence and the subsequent Bengali-Pakistan independence conflicts. By amending these articles to guarantee religious rights India will set it's course on a path of reconciliation. §R This will lock you out of passing the National Security act. You will get cores on Pakistand and Bengal through this path.;x
 india_security_act_title;National Security Act of $YEAR$;x
-india_security_act_desc;The possibility of war with the East has forced the government to divert a considerable amount of the budget for military purposes, hamstringing vital and dearly needed social programs and subsidies. The National Security Act will guarantee the continuation of these practices and extend them to internal security matters. The resulting militarization of the police and allocation of emergency powers to the president will go far to prevent unrest on the homefront. Â§R This will lock you out of passing the Freedom of Religion act. This path will prevent unified Indian Separatists from rising.;x
+india_security_act_desc;The possibility of war with the East has forced the government to divert a considerable amount of the budget for military purposes, hamstringing vital and dearly needed social programs and subsidies. The National Security Act will guarantee the continuation of these practices and extend them to internal security matters. The resulting militarization of the police and allocation of emergency powers to the president will go far to prevent unrest on the homefront. §R This will lock you out of passing the Freedom of Religion act. This path will prevent unified Indian Separatists from rising.;x
 hnd_sa;National Security Act;x
 restore_bengal_title;Reunite India!;x
 restore_bengal_desc;The guarantee of religious rights has endeered us greatly to the Muslim population. Their governments however, are not so keen on accepting reunification.;x
@@ -467,7 +467,7 @@ hnd_nerf;Unified Separatist Movement;x
 event500155desc;India's legacy of ethnic and religious division has caught up with it as separatist groups sieze government municipalities nationwide. Law and order has broken down across the country and international spectators are left shocked by the sudden collapse of the Dheli government.;x
 cdn_council;Council Called.;x
 cdn_focus_give_up_title;Dissolve the Council.;x
-cdn_focus_give_up_desc;The lack of successful activity in the decades since the end of World War 2 has clearly proven the ineffectiveness of this union of 'displaced nations.' The general concensus is that the administration of the O.F.N. and the U.S.A. would be much more effective in leading a return to Europe. Â§R This ends your game!;x
+cdn_focus_give_up_desc;The lack of successful activity in the decades since the end of World War 2 has clearly proven the ineffectiveness of this union of 'displaced nations.' The general concensus is that the administration of the O.F.N. and the U.S.A. would be much more effective in leading a return to Europe. §R This ends your game!;x
 cdn_council_call_title;Hold International Council on Exile Activities.;x
 cdn_council_call_desc;Just as the Netherlands served as the gateway to Europe for international trade, it also served as the gateway for European refugees in the wake of World War 2. The council of displaced nations consists of political refugees from various places conquered by the germanic reich and its allies, such as the Netherlands, Norway, Denmark, Greece, and others. Its headquarters is in Guyana and despite the predominantly Dutch leadership the movement serves as a home for exiled Europeans desiring a louder voice than what would be afforded to them in America or the British Commonwealth.;x
 cdn_focus_guyana_title;Solidify Control Over Guyana.;x
@@ -486,10 +486,10 @@ cdn_focus_indonesia_title;Reclaim the East Indies!;x
 cdn_focus_indonesia_desc;The old guard of the Dutch imperialists are pushing for us to restore our possesions in the East Indies. This sounds like a great idea!;x
 beef_cb;B.E.E.F. Expedition;;;;;;;;;;;;x;;;
 beef_cb_short;B.E.E.F. Restoration of Raj $STATE$;;;;;;;;;;;;x;;;
-beef_cb_setup;Acquire $STATE$ Â§R This CB costs 4 infamy, despite what this menu says.;;;;;;;;;;;;x;;;
-beef_cb_desc;The B.E.E.F. expands! Â§R This CB costs 4 infamy, despite what this menu says.;x
+beef_cb_setup;Acquire $STATE$ §R This CB costs 4 infamy, despite what this menu says.;;;;;;;;;;;;x;;;
+beef_cb_desc;The B.E.E.F. expands! §R This CB costs 4 infamy, despite what this menu says.;x
 cbr_beef_title;Establish the British Empire Expeditionary Force.;x
-cbr_beef_desc;The unification of the central countries of the British commonwealth has lead many to the expectation that the Commonwealth would continue on the reunify even the colonial possesions where British are the ethnic minority. None are more staunch proponents of this than Louis Mountbatten, the former Supreme Allied Commander of the Southeast Asia Command. Mountbatten served prestigiously in various naval commands in World War 2 and has many political connections among the exiled British monarchists due to being a close relative of the British royal family. With the collapse of India he has rallied many of his imperial supporters into advocating the establishment of the British Empire Expeditionary Force to restore the former colonial possesion. Â§R THE CB YOU WILL GET IS NOT FREE!!! IT COSTS 4 INFAMY DO NOT CRY ABOUT THINKING IT IS FREE!;x
+cbr_beef_desc;The unification of the central countries of the British commonwealth has lead many to the expectation that the Commonwealth would continue on the reunify even the colonial possesions where British are the ethnic minority. None are more staunch proponents of this than Louis Mountbatten, the former Supreme Allied Commander of the Southeast Asia Command. Mountbatten served prestigiously in various naval commands in World War 2 and has many political connections among the exiled British monarchists due to being a close relative of the British royal family. With the collapse of India he has rallied many of his imperial supporters into advocating the establishment of the British Empire Expeditionary Force to restore the former colonial possesion. §R THE CB YOU WILL GET IS NOT FREE!!! IT COSTS 4 INFAMY DO NOT CRY ABOUT THINKING IT IS FREE!;x
 cbr_beef_annex_title;Mountbatten Triumphant!;x
 cbr_beef_annex_desc;Mountbatten has done the impossible! With just a small garrison tucked away on Ceylon he has reconquered all of India! Despite international condemnation of our intervention in India and the claims of British warcrimes, the reality of the situation is clear. The Indian Raj returns with its new Viceroy and Governor-General Louis Mountbatten!;x
 ss_england_title;Establish SS Britannia;;;;;;;;;;;;x
@@ -501,7 +501,7 @@ COR_england_desc;The German Reich's presence in Plymouth is no meaningless chanc
 FIN_2;Savonia;x
 FIN_3;Ostrobothnia;x
 nes_sge_title;Assess the Near East Situation.;x
-nes_sge_desc;The momentary lapse in German stability has sent shockwaves throughout our sphere of influence. Untermensch ideas of communism and democracy have been reported by the Abwehr in Bohemia, Poland, and Slovakia, and in some places it has been outright declared. Now that we've solidified our rule we should address this. Â§R This will unlock decisions (and a few casus belli) to sphere and turn Bohemia, Slovakia, Poland, and Czechoslovakia fascist. Once all of these countries are fascist or nonexistant you will unlock the decisions to address the situation further east.;x
+nes_sge_desc;The momentary lapse in German stability has sent shockwaves throughout our sphere of influence. Untermensch ideas of communism and democracy have been reported by the Abwehr in Bohemia, Poland, and Slovakia, and in some places it has been outright declared. Now that we've solidified our rule we should address this. §R This will unlock decisions (and a few casus belli) to sphere and turn Bohemia, Slovakia, Poland, and Czechoslovakia fascist. Once all of these countries are fascist or nonexistant you will unlock the decisions to address the situation further east.;x
 nes_sge_pol_title;Reinstate National Socialism in Poland.;x
 nes_sge_pol_desc;Hey. Basically I'm just gonna leave a filler description here. I know.... UGH I know..... I'm sorry!!!!!! It's just that I'm gonna leave a filler description is all;x
 nes_sge_slv_title;Reinstate National Socialism in Slovakia.;x
@@ -511,7 +511,7 @@ nes_sge_boh_desc;Hey. Basically I'm just gonna leave a filler description here. 
 nes_sge_czh_title;Reinstate National Socialism in Czechoslovakia.;x
 nes_sge_czh_desc;Hey. Basically I'm just gonna leave a filler description here. I know.... UGH I know..... I'm sorry!!!!!! It's just that I'm gonna leave a filler description is all;x
 fes_sge_title;Assess the Far East Situation.;x
-fes_sge_desc;The momentary lapse in German stability has sent shockwaves throughout our sphere of influence. Untermensch ideas of communism and democracy have been reported by the Abwehr in Muscovy, the Baltics, and Ukraine, and in some places it has been outright declared. Now that we've dealt with our nearer protectorates we should address this. Â§R This will unlock decisions (and a few casus belli) to sphere and turn Muscovy, the Baltics, and Ukraine fascist.;x
+fes_sge_desc;The momentary lapse in German stability has sent shockwaves throughout our sphere of influence. Untermensch ideas of communism and democracy have been reported by the Abwehr in Muscovy, the Baltics, and Ukraine, and in some places it has been outright declared. Now that we've dealt with our nearer protectorates we should address this. §R This will unlock decisions (and a few casus belli) to sphere and turn Muscovy, the Baltics, and Ukraine fascist.;x
 fes_sge_msc_title;Reinstate National Socialism in Moscow.;x
 fes_sge_msc_desc;Hey. Basically I'm just gonna leave a filler description here. I know.... UGH I know..... I'm sorry!!!!!! It's just that I'm gonna leave a filler description is all;x
 fes_sge_ukr_title;Reinstate National Socialism in Ukraine;x
@@ -519,7 +519,7 @@ fes_sge_ukr_desc;Hey. Basically I'm just gonna leave a filler description here. 
 fes_sge_blt_title;Reinstate National Socialism in the Baltics.;x
 fes_sge_blt_desc;Hey. Basically I'm just gonna leave a filler description here. I know.... UGH I know..... I'm sorry!!!!!! It's just that I'm gonna leave a filler description is all;x
 nes_bge_title;Assess the Near East Situation.;x
-nes_bge_desc;The momentary lapse in German stability has sent shockwaves throughout our sphere of influence. Untermensch ideas of sedition and self rule have been reported by the Abwehr in Bohemia, Poland, and Slovakia, and in some places it has been outright declared. Now that we've solidified our rule we should address this. Â§R This will unlock decisions (and a few casus belli) to puppet and turn Bohemia, Slovakia, Poland, and Czechoslovakia fascist. Once all of these countries are puppeted or nonexistant you will unlock the decisions to address the situation further east.;x
+nes_bge_desc;The momentary lapse in German stability has sent shockwaves throughout our sphere of influence. Untermensch ideas of sedition and self rule have been reported by the Abwehr in Bohemia, Poland, and Slovakia, and in some places it has been outright declared. Now that we've solidified our rule we should address this. §R This will unlock decisions (and a few casus belli) to puppet and turn Bohemia, Slovakia, Poland, and Czechoslovakia fascist. Once all of these countries are puppeted or nonexistant you will unlock the decisions to address the situation further east.;x
 nes_bge_pol_title;Restore the Reichskommissariat in Poland.;x
 nes_bge_pol_desc;Hey. Basically I'm just gonna leave a filler description here. I know.... UGH I know..... I'm sorry!!!!!! It's just that I'm gonna leave a filler description is all;x
 nes_bge_slv_title;Restore the Reichskommissariat in Slovakia.;x
@@ -529,7 +529,7 @@ nes_bge_boh_desc;Hey. Basically I'm just gonna leave a filler description here. 
 nes_bge_czh_title;Restore the Reichskommissariat in Czechoslovakia.;x
 nes_bge_czh_desc;Hey. Basically I'm just gonna leave a filler description here. I know.... UGH I know..... I'm sorry!!!!!! It's just that I'm gonna leave a filler description is all;x
 fes_bge_title;Assess the Far East Situation.;x
-fes_bge_desc;The momentary lapse in German stability has sent shockwaves throughout our sphere of influence. Untermensch ideas of sedition and self rule have been reported by the Abwehr in Muscovy, the Baltics, and Ukraine, and in some places it has been outright declared. Now that we've dealt with our nearer protectorates we should address this. Â§R This will unlock decisions (and a few casus belli) to puppet and turn Muscovy, the Baltics, and Ukraine fascist.;x
+fes_bge_desc;The momentary lapse in German stability has sent shockwaves throughout our sphere of influence. Untermensch ideas of sedition and self rule have been reported by the Abwehr in Muscovy, the Baltics, and Ukraine, and in some places it has been outright declared. Now that we've dealt with our nearer protectorates we should address this. §R This will unlock decisions (and a few casus belli) to puppet and turn Muscovy, the Baltics, and Ukraine fascist.;x
 fes_bge_msc_title;Restore the Reichskommissariat in Moscow.;x
 fes_bge_msc_desc;Hey. Basically I'm just gonna leave a filler description here. I know.... UGH I know..... I'm sorry!!!!!! It's just that I'm gonna leave a filler description is all;x
 fes_bge_ukr_title;Restore the Reichskommissariat in Ukraine;x
@@ -537,7 +537,7 @@ fes_bge_ukr_desc;Hey. Basically I'm just gonna leave a filler description here. 
 fes_bge_blt_title;Restore the Reichskommissariat in the Baltics.;x
 fes_bge_blt_desc;Hey. Basically I'm just gonna leave a filler description here. I know.... UGH I know..... I'm sorry!!!!!! It's just that I'm gonna leave a filler description is all;x
 war_plan_0_open_title;War Plan Zero.;x
-war_plan_0_open_desc;Central Europe has fallen into anarchy in the wake of the German Civil War. The militarist faction in the Wehrmacht is baying for more blood after getting their first taste in a decade. The German protectorates in Bohemia, Slovakia, and Poland are especially prime targets to test new equipment and train a new generation of soldiers. War Plan Zero will involve restoring the direct German rule that never should have ended in these territories Â§R War Plan Zero will finish once Bohemia, Slovakia, and Poland no longer exist. 
+war_plan_0_open_desc;Central Europe has fallen into anarchy in the wake of the German Civil War. The militarist faction in the Wehrmacht is baying for more blood after getting their first taste in a decade. The German protectorates in Bohemia, Slovakia, and Poland are especially prime targets to test new equipment and train a new generation of soldiers. War Plan Zero will involve restoring the direct German rule that never should have ended in these territories §R War Plan Zero will finish once Bohemia, Slovakia, and Poland no longer exist.;x
 war_plan_0_pol_title;Operation Augustus.;x
 war_plan_0_pol_desc;The Generalgouvernement, supposedly our most successful vassal, is a rotten dumpster fire of epic proportions. Biting the hand that fed them, the bastard Poles declared independence! The Wehrmacht will not let this stand. We must protect our own inside the region, even if it means crushing a once loyal Reichsprotektorat.;x
 war_plan_0_slv_title;Operation Fruhling.;x
@@ -549,17 +549,120 @@ war_plan_0_czh_desc;The petty Czech and Slovaks have revived their union state, 
 war_plan_0_net_title;Operation Sichelschnitt.;x
 war_plan_0_net_desc;The Netherlands, in their foolishness, mistook the Reich's internal squabbling for a moment of weakness. They have broken free from our embrace, and it falls upon us to bring them back into the fold. Like a sickle we shall cut through the Lowlands - their lack of natueral barriers only helped us last time, and even their vaunted water line did not stop us. Why should it now?;x
 war_plan_a_open_title;War Plan A.;x
-war_plan_a_open_desc;Now that the Reich's control over Central Europe has been reestablished, the Wehrmacht is already looking to the Balkans, Scandinavia, and British Isles. War Plan A will involve securing control of these vital areas through German Steel. Â§R War Plan A will finish once Reichskom. Balkanhalbinsel and Skandinavien are at their greatest extent and once England is fascist while the Cornwall Garison exists.;x
+war_plan_a_open_desc;Now that the Reich's control over Central Europe has been reestablished, the Wehrmacht is already looking to the Balkans, Scandinavia, and British Isles. War Plan A will involve securing control of these vital areas through German Steel. §R War Plan A will finish once Reichskom. Balkanhalbinsel and Skandinavien are at their greatest extent and once England is fascist while the Cornwall Garison exists.;x
 war_plan_a_scba_title;Operation Balkanhalbinsel Und Skandinavien.;x
-war_plan_a_scba_desc;The threat that Scandinavia and the Balkans serve as a foothold for the O.F.N. can no longer be ignored by the Wehrmacht. Security of the region and its resources will be prioritized with force! Â§R This will unlock a special CB against Hungary, Bulgaria, Romania, Finland, Norway, Sweden, and any holding their cores.;x
+war_plan_a_scba_desc;The threat that Scandinavia and the Balkans serve as a foothold for the O.F.N. can no longer be ignored by the Wehrmacht. Security of the region and its resources will be prioritized with force! §R This will unlock a special CB against Hungary, Bulgaria, Romania, Finland, Norway, Sweden, and any holding their cores.;x
 war_plan_a_eng_title;Operation Sealion II.;x
-war_plan_a_eng_desc;Treacherous Albion has used our distraction in the Civil War to fall back into degeneracy and 'free' itself. We will giver them a reminder that the Wehrmacht is the master of Europe! London will fall as it did in the landings of the 40's! Â§R The CB this provides will establish the Cornwall Garison with a much larger presence and make England a fascist puppet of them.;x
+war_plan_a_eng_desc;Treacherous Albion has used our distraction in the Civil War to fall back into degeneracy and 'free' itself. We will giver them a reminder that the Wehrmacht is the master of Europe! London will fall as it did in the landings of the 40's! §R The CB this provides will establish the Cornwall Garison with a much larger presence and make England a fascist puppet of them.;x
 war_plan_b_open_title;War Plan B.;x
-war_plan_b_open_desc;The peripheries of Europe are fully under the thumb of the Wehrmacht now. All that is left before the utter destruction of our 'great' rivals and the Judeo-Bolshevist world order is the securing of Western Europe and Eastern Europe. From there the Wehrmacht will start its final great campaign across the Atlantic and Asia! Â§R War Plan B will finish once Reichskom. Gallien and Lowlands are at their greatest extent and once the German Lebensraum has been reestablished in the east (owns or has puppeted all eastern europe provinces with German majority). You're close to ultimate victory, don't give up now!;x
+war_plan_b_open_desc;The peripheries of Europe are fully under the thumb of the Wehrmacht now. All that is left before the utter destruction of our 'great' rivals and the Judeo-Bolshevist world order is the securing of Western Europe and Eastern Europe. From there the Wehrmacht will start its final great campaign across the Atlantic and Asia! §R War Plan B will finish once Reichskom. Gallien and Lowlands are at their greatest extent and once the German Lebensraum has been reestablished in the east (owns or has puppeted all eastern europe provinces with German majority). You're close to ultimate victory, don't give up now!;x
 war_plan_b_frlo_title;Operation Schwarz.;x
-war_plan_b_frlo_desc;A former enemy of the German nation, France may be the most failed nation in Western Europe after World War II. Caught in its never-ending dilemma, every aspect of France seems to be in complete chaos due to its inefficient government and the SS behind the shadow, which makes them continue to lose territory and prevents them from being of use to the Einheitspakt.\nInbetween them and us is the Ordenstaat Burgund, lead by the traitorous Heinrich Himmler. In the 50's he lead the Schutzstaffel Putsch while the Wehrmacht was busy with the West Russian War. Now that the Wehrmacht is ready and all immediate distractions have been addressed, it is time to deal with both in one fell swoop. Â§R This will unlock a special CB for establishing Reichskom. Gallien out of French cores and Reichskom. Lowlands out of Dutch and Belgian cores.;x
+war_plan_b_frlo_desc;A former enemy of the German nation, France may be the most failed nation in Western Europe after World War II. Caught in its never-ending dilemma, every aspect of France seems to be in complete chaos due to its inefficient government and the SS behind the shadow, which makes them continue to lose territory and prevents them from being of use to the Einheitspakt.\nInbetween them and us is the Ordenstaat Burgund, lead by the traitorous Heinrich Himmler. In the 50's he lead the Schutzstaffel Putsch while the Wehrmacht was busy with the West Russian War. Now that the Wehrmacht is ready and all immediate distractions have been addressed, it is time to deal with both in one fell swoop. §R This will unlock a special CB for establishing Reichskom. Gallien out of French cores and Reichskom. Lowlands out of Dutch and Belgian cores.;x
 war_plan_b_rus_title;Operation Rot.;x
-war_plan_b_rus_desc;Eastern Europe was to serve as the lebensraum for the German Volk. In the wake of the German Civil War it served as a breeding ground for Judeo-Bolshevist partisans and other Untermensch. Now that the Wehrmacht has cleared the path east it is in a prime position to completely wipe away the filth that has been bred there and redraw the region in our vision. Â§R The effect text doesn't state it but this will also give cores on any Ukraine, Moscow, or Baltics core that is majority German.;x
+war_plan_b_rus_desc;Eastern Europe was to serve as the lebensraum for the German Volk. In the wake of the German Civil War it served as a breeding ground for Judeo-Bolshevist partisans and other Untermensch. Now that the Wehrmacht has cleared the path east it is in a prime position to completely wipe away the filth that has been bred there and redraw the region in our vision. §R The effect text doesn't state it but this will also give cores on any Ukraine, Moscow, or Baltics core that is majority German.;x
 war_plan_c_open_title;War Plan C.;x
 war_plan_c_open_desc;East, West, and Central Europe has been utterly dominated by the invincible Wehrmacht. The time for a final great campaign against Judeo-Bolshevism is upon us and none of the nuclear powers of the world can stop us with their decrepit militaries! We only have to kick in the door and the whole rotten structure will come crashing down!;x
 goring_wild_ride_c;Annex Judeo-Bolshevik Regime!;x
+event500172desc;Operation Balkanhalbinsel Und Skandinavien and Operation Sealion II have been perfect victories! The Wehrmacht has fully secured the flanks in Scandinavia, the Balkans, and Britain. The path to conquering Western and Eastern Europe is now fully open with no obstacles.;x
+expand_cornwall;Operation Sealion II;;;;;;;;;;;;x;;;
+expand_cornwall_short;Expands Cornwall Garrison.;;;;;;;;;;;;x;;;
+expand_cornwall_setup;Expands Cornwall Garrison and makes Britain into a puppet.;;;;;;;;;;;;x;;;
+expand_cornwall_desc;Expands Cornwall Garrison and makes Britain into a puppet.;x
+expand_burgundy;Burgundian Invasion of France;;;;;;;;;;;;x;;;
+expand_burgundy_short;Sieze French Border Regions.;;;;;;;;;;;;x;;;
+expand_burgundy_setup;Sieze French Border Regions.;;;;;;;;;;;;x;;;
+expand_burgundy_desc;Sieze French Border Regions.;x
+goring_wild_ride_a;Operation Balkanhalbinsel Und Skandinavien;;;;;;;;;;;;x;;;
+goring_wild_ride_a_short;$RECIPIENT$ Is Annexed by Reichskommissariats.;;;;;;;;;;;;x;;;
+goring_wild_ride_a_setup;$RECIPIENT$ Is Annexed by Reichskommissariats.;;;;;;;;;;;;x;;;
+goring_wild_ride_a_desc;$RECIPIENT$ Is Annexed by Reichskommissariats.;x
+goring_wild_ride_b;Operation Schwarz;;;;;;;;;;;;x;;;
+goring_wild_ride_b_short;$RECIPIENT$ Is Annexed by Reichskommissariats.;;;;;;;;;;;;x;;;
+goring_wild_ride_b_setup;$RECIPIENT$ Is Annexed by Reichskommissariats.;;;;;;;;;;;;x;;;
+goring_wild_ride_b_desc;$RECIPIENT$ Is Annexed by Reichskommissariats.;x
+NORMAL_WAR_GWR_1;Operation Sealion II;x
+AGRESSION_WAR_GWR_1;Operation Sealion II;x
+NORMAL_WAR_GWR_2;$ORDER$ Operation Balkanhalbinsel Und Skandinavien;x
+AGRESSION_WAR_GWR_2;$ORDER$ Operation Balkanhalbinsel Und Skandinavien;x
+NORMAL_WAR_GWR_3;$ORDER$ Operation Schwarz;x
+AGRESSION_WAR_GWR_3;$ORDER$ Operation Schwarz;x
+NORMAL_WAR_BRG;Franco-Burgundian War;x
+AGRESSION_WAR_BRG;Franco-Burgundian War;x
+SUDETENLAND;Sudetenland;x
+sanctionsrelief;Industrial Looting;x
+event500176desc;The German economy, torn to tatters in the wake of the German Burgerkrieg, is hardly in a position to support the Wehrmacht in another case of total war. Many militarists in the Wehrmacht propose a repeat policy of the industrial looting that took place during the Second World War in order to support the German War economy. §R This will dampen the impact of international sanctions from going over infamy by turning Bohemia, Slovakia, Poland, Reichskom. Balkanhalbinsel, and Reichskom. Skandinavien into colonial states. It is highly recommended to do this if you want to reach the later War Plans.;x
+event500183desc;The Wehrmacht has been the cultural centerpiece of German society ever since the nations formation by Prussia last century. Its esteemed officer corp has a long tradition of noble Prussian heritage, acting as a stark contrast to the modern jingoism of the fascist militarists. This faction of the 'Old Guard', once content to serve under the unending victories of the Reich, are now becoming increasingly disgruntled with the machinations of the militarist faction and the tacit support they enjoy of the aging Fuhrer Goring.;x
+event500180desc;The Wehrmacht clamors for blood and battle to once again prove the might that previously conquered Europe in the 40's. The current idleness of Goring's foreign policy and lack of swift Blitzkrieg towards the conclusion of War Plan 0 is making them restless and unsatisfied.;x
+event500181desc;The Wehrmacht clamors for blood and battle to once again prove the might that previously conquered Europe in the 40's. The current idleness of Goring's foreign policy and lack of swift Blitzkrieg towards the conclusion of War Plan A is making them restless and unsatisfied.;x
+event500184desc;A group of officers styling themselves as the 'Old Guard' of the Wehrmacht officer corp have siezed key military and governmental institutions overnight, effectively siezing control over the country of Germany. Their ringleader, Hans Speidel, has declared a 'restoration of order' denouncing the jingoist policies of the more National Socialist inclined militarist faction of officers. Even the aging Fuhrer himself did not escape their ire as Hermann Goring was deposed for his complacency in the militarist War Plan policy.;x
+PROV3389;Congo Lake;x
+middle_east;Middle East;x
+central_asia;Central Asia;x
+PROV3390;Alboran Islands;x
+PROV3391;Palos;x
+PROV3392;Ibiza;x
+PROV3393;Mahon;x
+PROV3394;Puerto de Valencia;x
+PROV3395;Columbretes;x
+PROV3396;Sitges;x
+PROV3397;Lloret de Mar;x
+PROV3398;Leucate;x
+PROV3399;Arles;x
+PROV3400;La Ciotat;x
+PROV3401;Hyeres;x
+PROV3402;Livorno;x
+PROV3403;Portoferraio;x
+PROV3404;Orbetello;x
+PROV3405;Porta Roma;x
+PROV3406;Ischia;x
+PROV3407;Suola;x
+PROV3408;Mandredonia;x
+PROV3409;San Domino;x
+PROV3410;Pescara;x
+PROV3411;Palagruza;x
+PROV3412;Emanuele;x
+PROV3413;Kornati;x
+PROV3414;Mezza;x
+PROV3415;Pannello;x
+PROV3416;Cres;x
+PROV3417;Medulin;x
+PROV3418;Pesaro;x
+PROV3419;Schiava;x
+PROV3420;Donzella;x
+PROV3421;Drenata Venice;x
+PROV3422;La Valletta;x
+PROV3423;Ragusa;x
+PROV3424;Fortezza Pantelleria;x
+PROV3425;Fortezza Favignana;x
+PROV3426;Fortezza Raf Raf;x
+PROV3427;Zembra;x
+PROV3428;North Hammamet;x
+PROV3429;South Hammamet;x
+PROV3430;Linosa;x
+PROV3431;Sharqi;x
+PROV3432;Djerba;x
+PROV3433;Lampedusa;x
+PROV3434;Sabratah;x
+PROV3435;Zuwara;x
+PROV3436;Rasheed;x
+PROV3437;Damietta;x
+PROV3438;Fortezza Naxos;x
+PROV3439;Patras Lake;x
+PROV3440;Gaios;x
+PROV3441;Falkonera;x
+PROV3442;Bodrum;x
+PROV3443;Fortezza Myrina;x
+PROV3444;Skyros;x
+PROV3445;Myrtoa;x
+PROV3446;Sporades;x
+PROV3447;Cesme;x
+PROV3448;Baltegat;x
+MED_1;Adriatica;x
+MED_2;Esterna Insediamento;x
+MED_3;Roma;x
+MED_4;Corsica-Nice;x
+MED_5;Settentrionale Stretto;x
+MED_6;Meridionale Stretto;x
+MED_7;Tripolitania Settentrionale;x
+MED_8;Aegean Islands;x
+MED_9;Balearic Islands;x

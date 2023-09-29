@@ -2,6 +2,5 @@
 
 trade_goods = tobacco
 life_rating = 35
-owner = CDN
-controller = CDN
-add_core = CDN
+owner = DEN
+controller = DEN

@@ -4,6 +4,7 @@ political_decisions = {
 			tag = SGE
 			NOT = {exists = GER}
 			NOT = {has_country_flag = speer_reforms}
+			always = no
 		}
 		allow = {
 			nationalism_n_imperialism = 1

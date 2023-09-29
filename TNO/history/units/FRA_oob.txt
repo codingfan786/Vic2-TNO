@@ -60,7 +60,7 @@ army = {
 
 navy = {
 	name = "Transport Fleet"
-	location = 470
+	location = 458
 	ship = {
 		name = "Transport"
 		type = clipper_transport
@@ -105,7 +105,7 @@ navy = {
 
 navy = {
 	name = "Patrol Fleet"
-	location = 470
+	location = 458
 	ship = {
 		name = "Patrol"
 		type = frigate
@@ -150,7 +150,7 @@ navy = {
 
 navy = {
 	name = "Patrol Fleet"
-	location = 470
+	location = 458
 	ship = {
 		name = "Patrol"
 		type = frigate

@@ -189,6 +189,11 @@ political_decisions = {
 			enable_canal = 6
 			enable_canal = 7
 			enable_canal = 8
+			enable_canal = 9
+			enable_canal = 10
+			enable_canal = 11
+			enable_canal = 12
+			enable_canal = 13
 			369 = { set_province_flag = kiel_canal }
 			1755 = { set_province_flag = suez_canal }
 			1723 = { set_province_flag = panama_canal secede_province = USA}

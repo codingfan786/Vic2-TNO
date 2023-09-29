@@ -265,7 +265,7 @@ army = {
 
 navy = {
 	name = "Transport Fleet"
-	location = 749
+	location = 473
 	ship = {
 		name = "Transport"
 		type = steam_transport
@@ -310,7 +310,7 @@ navy = {
 
 navy = {
 	name = "Transport Fleet"
-	location = 749
+	location = 473
 	ship = {
 		name = "Transport"
 		type = steam_transport
@@ -355,7 +355,7 @@ navy = {
 
 navy = {
 	name = "Patrol Fleet"
-	location = 749
+	location = 473
 	ship = {
 		name = "Patrol"
 		type = frigate
@@ -400,7 +400,7 @@ navy = {
 
 navy = {
 	name = "Frigate Group"
-	location = 749
+	location = 473
 	ship = {
 		name = "Frigate"
 		type = manowar

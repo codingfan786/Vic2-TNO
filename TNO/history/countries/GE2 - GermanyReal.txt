@@ -1,0 +1,46 @@
+
+
+#========================= H E A D E R =========================
+
+civilized = yes
+capital = 549
+primary_culture = north_german
+culture = south_german
+religion = protestant
+government = fascist_dictatorship
+plurality = 10
+nationalvalue = nv_order
+literacy = 0.5
+  
+prestige = 1
+schools = prussian_tech_school
+
+#========================= H O U S E - O F - L O R D S =========================
+
+ruling_party = GER_fascist
+upper_house = {
+fascist = 90
+reactionary = 0
+conservative = 0
+socialist = 10
+communist = 0
+liberal = 0
+anarcho_liberal = 0
+}
+slavery = yes_slavery
+vote_franschise = none_voting
+upper_house_composition = party_appointed
+voting_system = first_past_the_post
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+political_parties = underground_parties
+wage_reform = trinket_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+health_care = trinket_health_care
+school_reforms = low_schools
+
+

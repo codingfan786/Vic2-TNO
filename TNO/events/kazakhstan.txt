@@ -211,6 +211,7 @@ country_event = {
 		has_country_flag = polish_israel_established
 		NOT = {has_country_flag = polish_israel_revoked}
 		1181 = {owner = {tag = THIS}}
+		NOT = {exists = POL}
 	}
 
 	mean_time_to_happen = {

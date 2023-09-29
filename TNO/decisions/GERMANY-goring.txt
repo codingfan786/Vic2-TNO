@@ -1,4 +1,5 @@
 #this is all dogshit and should be completely redone
+#redid it
 
 political_decisions = {
 	war_plan_0_open = {
@@ -53,10 +54,10 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
-			modifier = {
-				factor = 0
-				badboy = 0.44
-			}
+			#modifier = {
+			#	factor = 0
+			#	badboy = 0.44
+			#}
 		}
 	}
 
@@ -87,10 +88,10 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
-			modifier = {
-				factor = 0
-				badboy = 0.84
-			}
+			#modifier = {
+			#	factor = 0
+			#	badboy = 0.84
+			#}
 		}
 	}
 
@@ -121,10 +122,10 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
-			modifier = {
-				factor = 0
-				badboy = 0.6
-			}
+			#modifier = {
+			#	factor = 0
+			#	badboy = 0.6
+			#}
 		}
 	}
 
@@ -155,16 +156,16 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
-			modifier = {
-				factor = 0
-				badboy = 0.52
-			}
+			#modifier = {
+			#	factor = 0
+			#	badboy = 0.52
+			#}
 		}
 	}
 
 
 	war_plan_a_open = {
-		picture = rhodesia_charter
+		picture = the_heligoland_question
 		potential = {
 			tag = GGE
 			NOT = {exists = GER}
@@ -176,6 +177,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = war_plan_a_start
+			country_event = 500176
 		}
 
 		ai_will_do = {
@@ -188,7 +190,7 @@ political_decisions = {
 	}
 
 	war_plan_a_scba = {
-		picture = rhodesia_charter
+		picture = the_heligoland_question
 		potential = {
 			NOT = {has_country_flag = war_plan_a_finish}
 			tag = GGE
@@ -210,13 +212,16 @@ political_decisions = {
 			}
 			modifier = {
 				factor = 0
-				badboy = 0.3
+				AND = {
+					badboy = 0.2
+					NOT = {has_country_flag = goring_industrial_rape}
+				}
 			}
 		}
 	}
 
 	war_plan_a_eng = {
-		picture = rhodesia_charter
+		picture = the_heligoland_question
 		potential = {
 			NOT = {has_country_flag = war_plan_a_finish}
 			tag = GGE
@@ -235,7 +240,7 @@ political_decisions = {
 		}
 
 		effect = {
-			badboy = 17.5
+			badboy = 15
 			set_country_flag = war_plan_a_eng_done
 			ENG = {
 				add_casus_belli = {
@@ -259,7 +264,7 @@ political_decisions = {
 				GGE = {
 					war = {
 						target = ENG
-						attacker_goal = {casus_belli = make_facist}
+						#attacker_goal = {casus_belli = make_facist}
 						attacker_goal = {casus_belli = expand_cornwall}
 						call_ally = yes
 					}
@@ -276,14 +281,17 @@ political_decisions = {
 			}
 			modifier = {
 				factor = 0
-				badboy = 0.3
+				AND = {
+					badboy = 0.4
+					NOT = {has_country_flag = goring_industrial_rape}
+				}
 			}
 		}
 	}
 
 
 	war_plan_b_open = {
-		#picture = rhodesia_charter
+		picture = trail_of_tears
 		potential = {
 			tag = GGE
 			NOT = {exists = GER}
@@ -307,7 +315,7 @@ political_decisions = {
 	}
 
 	war_plan_b_frlo = {
-		#picture = rhodesia_charter
+		picture = trail_of_tears
 		potential = {
 			NOT = {has_country_flag = war_plan_b_finish}
 			tag = GGE
@@ -318,7 +326,7 @@ political_decisions = {
 			
 		}
 		effect = {
-			badboy = 20
+			badboy = 15
 			set_country_flag = war_plan_b_frlo_done
 		}
 		ai_will_do = {
@@ -329,13 +337,16 @@ political_decisions = {
 			}
 			modifier = {
 				factor = 0
-				badboy = 0.3
+				AND = {
+					badboy = 0.4
+					NOT = {has_country_flag = goring_industrial_rape}
+				}
 			}
 		}
 	}
 
 	war_plan_b_rus = {
-		#picture = rhodesia_charter
+		picture = trail_of_tears
 		potential = {
 			NOT = {has_country_flag = war_plan_b_finish}
 			tag = GGE
@@ -343,10 +354,10 @@ political_decisions = {
 			NOT = {has_country_flag = war_plan_b_rus_done}
 		}
 		allow = {
-			ai = no
+
 		}
 		effect = {
-			#badboy = 20
+			badboy = 5
 			set_country_flag = war_plan_b_rus_done
 			any_country = {
 				limit = {
@@ -429,13 +440,16 @@ political_decisions = {
 			}
 			modifier = {
 				factor = 0
-				badboy = 0.3
+				AND = {
+					badboy = 0.8
+					NOT = {has_country_flag = goring_industrial_rape}
+				}
 			}
 		}
 	}
 
 	war_plan_c_open = {
-		#picture = rhodesia_charter
+		picture = rhodesia_charter
 		potential = {
 			tag = GGE
 			NOT = {exists = GER}

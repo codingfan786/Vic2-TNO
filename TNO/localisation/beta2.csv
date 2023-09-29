@@ -94,7 +94,7 @@ INCREASERELATION_THEY_ACCEPT_4;Our relation increased by §G$CHANGE$§W to §Y$RELA
 INCREASERELATION_WE_ACCEPT_4;Our relation increased by §G$CHANGE$§W to §Y$RELATION$§W.;Nos relations ont augmenté de §G$CHANGE$§W pour atteindre §Y$RELATION$§W.;Unsere Beziehung verbesserte sich um §G$CHANGE$§W auf §Y$RELATION$§W.;*;Nuestra relación ha mejorado en §R$CHANGE$§W hasta colocarse en §Y$RELATION$§W.;*;*;;;;;;;x;;
 DECREASERELATION_WE_ACCEPT_5;Our relation changed by §R$CHANGE$§W to §Y$RELATION$§W.;Nos relations ont évolué de §G$CHANGE$§W pour atteindre §Y$RELATION$§W.;Unsere Beziehung änderte sich um §G$CHANGE$§W auf §Y$RELATION$§W.;;Nuestra relación ha cambiado en §R$CHANGE$§W hasta colocarse en §Y$RELATION$§W.;;;;;;;;;x;;
 DECREASERELATION_THEY_ACCEPT_6;Our relation changed by §R$CHANGE$§W to §Y$RELATION$§W.;Nos relations ont évolué de §G$CHANGE$§W pour atteindre §Y$RELATION$§W.;Unsere Beziehung änderte sich um §G$CHANGE$§W auf §Y$RELATION$§W.;;Nuestra relación ha cambiado en §R$CHANGE$§W hasta colocarse en §Y$RELATION$§W.;;;;;;;;;x;;
-TRI_1743;Tripoli;Tripoli;Tripoli;;Trípoli;;;;;;;;;x;;
+TRI_1743;Tripolitania Meridionale;Tripoli;Tripoli;;Trípoli;;;;;;;;;x;;
 NORMAL_WAR_CONCESSION_NAME;$ORDER$ War of The $STATE$ Concession;$ORDER$ Guerre de la Concession de $STATE$;$ORDER$ Konzessionskrieg gegen $STATE$;;$ORDER$ Guerra de la Concesión de $STATE$;;;;;;;;;x;;
 AGRESSION_WAR_CONCESSION_NAME;$ORDER$ War of The $STATE$ Concession;$ORDER$ Guerre de la Concession de $STATE$;$ORDER$ Konzessionskrieg gegen $STATE$;;$ORDER$ Guerra de la Concesión de $STATE$;;;;;;;;;x;;
 demand_concession_casus_belli;Demand Concession;Demande de concession;Zugeständnisse verlangen;;Exigir concesión;;;;;;;;;x;;

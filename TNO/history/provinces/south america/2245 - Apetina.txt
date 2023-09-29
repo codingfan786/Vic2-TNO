@@ -1,5 +1,5 @@
-owner = CDN
-controller = CDN
-add_core = CDN
+owner = NET
+controller = NET
+add_core = NET
 trade_goods = timber
 life_rating = 35

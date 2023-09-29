@@ -8,13 +8,11 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			set_country_flag = war_plan_b_frlo_done
-			#set_country_flag = war_plan_a
-			#GBA = {inherit = ROM}
-			#GBA = {inherit = HUN}
-			#GBA = {inherit = BUL}
-			#GBA = {inherit = SLV}
-			#country_event = 500171
+			inherit = GER
+			inherit = GGE
+			inherit = SGE
+			inherit = BGE
+			inherit = HGE
 		}		
 	}
 }

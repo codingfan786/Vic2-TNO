@@ -1133,6 +1133,21 @@ pan_nationalist_rebels = {
 		
 		modifier = {
 			factor = 0
+			country = { 
+				OR = {
+					tag = NEJ
+					tag = OMA
+					tag = YEM
+					tag = IRQ
+					tag = EGY
+					tag = ABU
+					#jordan and syria
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0
 			country = { civilized = no }
 		}
 		modifier = {
@@ -1261,13 +1276,10 @@ pan_nationalist_rebels = {
 				is_culture_group = THIS
 				OR = {
 					is_greater_power = yes
-					tag = WAL
-					tag = MOL
-					tag = SER
+					tag = SLV
+					tag = CZH
 				}
 				NOT = {
-					tag = AUS
-					tag = KUK
 					is_cultural_union = yes
 				}
 				NOT = {

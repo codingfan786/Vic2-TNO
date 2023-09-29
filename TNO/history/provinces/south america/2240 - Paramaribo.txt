@@ -1,6 +1,6 @@
-owner = CDN
-controller = CDN
-add_core = CDN
+owner = NET
+controller = NET
+add_core = NET
 trade_goods = grain
 life_rating = 35
 naval_base = 2

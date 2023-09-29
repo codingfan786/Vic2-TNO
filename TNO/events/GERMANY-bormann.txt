@@ -1,7 +1,7 @@
 country_event = {
 	id = 500163
-	title = "bormann demands subjugation"
-	desc = "how terrible"
+	title = "Fuhrer Bormann demands our vassalization!"
+	desc = "Our former German masters are demanding we submit to them once again! What should we do?"
 	is_triggered_only = yes
 
 	option = {
@@ -69,8 +69,8 @@ country_event = {
 
 country_event = {
 	id = 500164
-	title = "Bormann tames the near east lebensraum."
-	desc = "Wow."
+	title = "Bormann tames the Central European Reichskommissariats."
+	desc = "Bormann has instituted direct German control in Bohemia, Slovakia, and Poland, ensuring the security of the Reich for a thousand years to come."
 	fire_only_once = yes
 
 	trigger = {
@@ -110,8 +110,8 @@ country_event = {
 
 country_event = {
 	id = 500165
-	title = "Bormann tames the far east lebensraum."
-	desc = "Wow."
+	title = "Bormann tames the Eastern European Reichskommissariats."
+	desc = "Bormann has instituted direct German control in Moscow, Ukraine, and the Baltics, ensuring the security of the Reich for a thousand years to come."
 	fire_only_once = yes
 
 	trigger = {

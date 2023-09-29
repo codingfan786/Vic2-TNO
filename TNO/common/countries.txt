@@ -321,6 +321,9 @@ GCO		="countries/Gran Colombia.txt"
 JAN 	= "countries/JanMayen.txt"
 
 #tno
+
+GE2	= "countries/GermanyReal.txt"
+
 OFN = "countries/OrganizationFreeNations.txt"
 
 CBR = "countries/ColBri.txt"
@@ -333,6 +336,10 @@ GLO = "countries/German Lowlands.txt"
 GSC = "countries/German Scandi.txt"
 GBA = "countries/German Balkans.txt"
 GFR = "countries/German France.txt"
+
+NUK = "countries/Armageddon.txt"
+
+
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

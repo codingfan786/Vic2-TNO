@@ -92,6 +92,8 @@ uninstall_communist_gov_cb
 great_war_penalty_cb 
 negotiated_transfer
 goring_wild_ride_a
+goring_wild_ride_b
+goring_wild_ride_c
 }
 
 gunboat = {
@@ -1594,6 +1596,16 @@ rude_boy = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		badboy = 1
+		OR = {
+			THIS = {ai = no}
+			NOT = {has_country_flag = nuke}
+			AND = {
+				NOT = {has_country_modifier = nuc_dev}
+				has_country_flag = nuke
+				THIS = {NOT = {has_country_modifier = nuc_dev}}
+				THIS = {has_country_flag = nuke}
+			}
+		}
 	}
 	
 	po_remove_prestige = yes
@@ -2956,7 +2968,7 @@ beef_cb = {
 
 
 expand_cornwall = {
-	sprite_index = 1
+	sprite_index = 2
 	is_triggered_only = yes
 	months = 13
 	constructing_cb = no
@@ -2981,7 +2993,7 @@ expand_cornwall = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	war_name = WAR_INSTALL_NEW_GOV_NAME
+	war_name = WAR_GWR_1
 
 	po_remove_prestige = yes
 	on_po_accepted = {
@@ -2990,7 +3002,7 @@ expand_cornwall = {
 }
 
 expand_burgundy = {
-	sprite_index = 1
+	sprite_index = 2
 	is_triggered_only = yes
 	months = 13
 	constructing_cb = no
@@ -3015,7 +3027,7 @@ expand_burgundy = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	war_name = WAR_INSTALL_NEW_GOV_NAME
+	war_name = WAR_BRG
 
 	po_remove_prestige = yes
 	on_po_accepted = {
@@ -3024,7 +3036,7 @@ expand_burgundy = {
 }
 
 goring_wild_ride_a = {
-	sprite_index = 14
+	sprite_index = 2
 	is_triggered_only = yes
 	months = 0
 	crisis = no
@@ -3075,7 +3087,7 @@ goring_wild_ride_a = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	war_name = WAR_INSTALL_NEW_GOV_NAME
+	war_name = WAR_GWR_2
 
 	po_remove_prestige = yes
 	on_po_accepted = {
@@ -3092,7 +3104,7 @@ goring_wild_ride_a = {
 }
 
 goring_wild_ride_b = {
-	sprite_index = 14
+	sprite_index = 2
 	is_triggered_only = yes
 	months = 0
 	crisis = no
@@ -3141,7 +3153,7 @@ goring_wild_ride_b = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	war_name = WAR_INSTALL_NEW_GOV_NAME
+	war_name = WAR_GWR_3
 
 	po_remove_prestige = yes
 	on_po_accepted = {

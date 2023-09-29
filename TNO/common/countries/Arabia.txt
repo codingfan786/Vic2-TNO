@@ -1,6 +1,7 @@
 #color = { 66  111  19 }
-color = { 182 185 77 }
-graphical_culture = EuropeanGC
+#color = { 182 185 77 }
+color = { 255  251  198 }
+graphical_culture = MiddleEasternGC
 
 party = {
 	name = "ARA_conservative"
