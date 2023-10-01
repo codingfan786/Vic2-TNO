@@ -2,7 +2,7 @@ decision = nuke_startup
 decision = gcwmobbuff
 #========================= H E A D E R =========================
 
-civilized = yes
+civilized = no
 capital = 693
 primary_culture = north_german
 culture = south_german

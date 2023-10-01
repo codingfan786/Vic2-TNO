@@ -63,6 +63,9 @@ LOW = "countries/Lowlands.txt"
 
 HD2 = "countries/India2.txt"
 
+JOR = "countries/JOR.txt"
+SYR = "countries/SYR.txt"
+
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
 RUS		= "countries/Russia.txt"
@@ -339,7 +342,11 @@ GFR = "countries/German France.txt"
 
 NUK = "countries/Armageddon.txt"
 
-
+IAL = "countries/IAL.txt"
+IGY = "countries/IGY.txt"
+IET = "countries/IET.txt"
+IIS = "countries/IIS.txt"
+SAL = "countries/SAL.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

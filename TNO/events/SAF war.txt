@@ -170,7 +170,35 @@ country_event = {
 			}
 		}
 
+		ORA = {
+			country_event = {
+				id = 500186
+				days = 7
+			}
+			any_owned = {
+				add_province_modifier = {
+					name = ora_ai_fix
+					duration = 7
+				}
+			}
+		}
+		
+	}
 
+	option = {
+		name = "We must preserve democracy in Africa!"
+		
+	}
+}
+
+country_event = {
+	id = 500186
+	title = "The South African War Declared!"
+	desc = "ignore please"
+
+	is_triggered_only = yes
+
+	immediate = {
 		any_country = {
 			limit = {
 				tag = WGA
@@ -192,12 +220,15 @@ country_event = {
 			}
 		}
 		
-		war = {
-			target = ORA
-			attacker_goal = { casus_belli = unification_annex_casus_belli }
-			#defender_goal = { casus_belli = civil_war }
-			call_ally = yes
+		SAF = {
+			war = {
+				target = ORA
+				attacker_goal = { casus_belli = unification_annex_casus_belli }
+				#defender_goal = { casus_belli = civil_war }
+				call_ally = yes
+			}	
 		}
+
 		
 		
 
@@ -206,9 +237,8 @@ country_event = {
 			release_vassal = WGA
 		}
 	}
-
 	option = {
-		name = "We must preserve democracy in Africa!"
+		name = "Ok."
 	}
 }
 

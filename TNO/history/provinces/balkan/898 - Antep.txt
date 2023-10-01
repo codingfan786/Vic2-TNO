@@ -6,6 +6,7 @@ add_core = TUR
 trade_goods = wool
 life_rating = 35
 
-owner = ISR
-controller = ISR
+owner = TUR
+controller = TUR
+
 colonial = 2

@@ -1,5 +1,6 @@
-owner = ISR
-controller = ISR
+owner = IIS
+controller = IIS
+add_core = JOR
 colonial = 2
 
 
@@ -7,4 +8,3 @@ colonial = 2
 trade_goods = wool
 life_rating = 35
 
-add_core = NEJ

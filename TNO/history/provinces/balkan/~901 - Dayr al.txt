@@ -1,0 +1,9 @@
+owner = ISR
+controller = ISR
+colonial = 2
+
+add_core = IRQ
+
+
+trade_goods = grain
+life_rating = 35

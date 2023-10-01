@@ -1,6 +1,6 @@
 trade_goods = oil
 life_rating = 20
-owner = IBE
-controller = IBE
+owner = SAL
+controller = SAL
 add_core = ALD
 colonial = 2

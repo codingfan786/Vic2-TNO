@@ -338,6 +338,12 @@
 		size = 875
 	}
 
+	soldiers = {
+		culture = spanish
+		religion = catholic
+		size = 20000
+	}
+
 	farmers = {
 		culture = french
 		religion = catholic
@@ -624,6 +630,12 @@
 		culture = french
 		religion = catholic
 		size = 25
+	}
+
+	soldiers = {
+		culture = south_italian
+		religion = catholic
+		size = 20000
 	}
 
 	bureaucrats = {

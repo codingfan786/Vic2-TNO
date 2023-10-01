@@ -116,10 +116,10 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = supplied
-			artillery = 100
-			clipper_convoy = 200
-			aeroplanes = 100
-			fuel = 100
+			artillery = 500
+			clipper_convoy = 500
+			aeroplanes = 500
+			fuel = 500
 		}
 		ai_will_do = {
 			factor = 1
@@ -331,6 +331,17 @@ political_decisions = {
 			
 		}
 		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						tag = GGE
+						tag = SGE
+						tag = BGE
+						tag = HGE
+					}
+				}
+				civilized = yes
+			}
 			set_country_flag = taken_support
 			HND = {
 				add_country_modifier = {

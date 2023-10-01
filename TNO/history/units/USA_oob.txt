@@ -11,6 +11,10 @@ AST = {
 	value = 125
 	level = 5
 }
+NZL = {
+	value = 125
+	level = 5
+}
 SCO = {
 	value = 125
 	level = 5

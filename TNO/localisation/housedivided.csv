@@ -779,7 +779,7 @@ SET_ECONOMIC_REFORM_EFFECT;Economic reform selected: §Y$NAME$§W.\n;Réforme écono
 SET_MILITARY_REFORM_EFFECT;Military reform selected: §Y$NAME$§W.\n;MRéforme militaire sélectionnée : §Y$NAME$§W.\n;gewählte Militärreform: §Y$NAME$§W.\n;;;;;;;;;;;x
 NATIONALIZE_INDUSTRY_EFFECT;Perform Nationalization;Procéder à la nationalisation;Nationalisierung durchführen;;;;;;;;;;;x
 DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Partially Westernized Nation;Nation partiellement occidentalisée;Teilverwestlichte Nation;;;;;;;;;;;x
-DIPLOMACY_PRIMITIVENATION_STATUS;Primitive Nation;Nation primitive;Primitive Nation;;;;;;;;;;;x
+DIPLOMACY_PRIMITIVENATION_STATUS;Disorganized State;Nation primitive;Primitive Nation;;;;;;;;;;;x
 UNCIV_CANT_RESEARCH;Westernize to be able to research;L'occidentalisation est nécessaire pour la recherche;Verwestlichen, um Forschen zu können;;;;;;;;;;;x
 TB_NATIONALFOCUS_CULTURE;§Y$NUM$§W people of primary/accepted cultures give us §Y$FOCUS$§W focus points;§Y$NUM$§W de personnes de cultures primitives ou acceptées donnent §Y$FOCUS$§W point(s) de cause nationale;§Y$NUM$§W Menschen aus primären/akzeptierten Kulturen geben uns §Y$FOCUS$§W Fokuspunkte;;;;;;;;;;;x
 meiji_restoration_boost;Meiji reformation.;Réforme Meiji.;Meiji Reformation.;;;;;;;;;;;x

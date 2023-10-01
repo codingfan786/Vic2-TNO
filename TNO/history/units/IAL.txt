@@ -1,0 +1,58 @@
+army = {
+	name = "1a Armata" #done
+	location = 1702
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1709
+	}
+
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1709
+	}
+
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1709
+	}
+
+		regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1709
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1701
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1702
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = artillery
+		home = 1708
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1708
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = hussar
+		home = 1710
+	}
+
+}

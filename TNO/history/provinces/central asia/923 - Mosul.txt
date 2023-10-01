@@ -1,6 +1,6 @@
 
-owner = IRQ
-controller = IRQ
+owner = TUR
+controller = TUR
 add_core = IRQ
 
 

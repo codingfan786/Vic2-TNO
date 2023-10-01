@@ -1,4 +1,6 @@
-add_core = IRQ
+owner = IIS
+controller = IIS
+add_core = SYR
 
 
 
@@ -6,6 +8,5 @@ add_core = IRQ
 trade_goods = grain
 life_rating = 35
 
-owner = ISR
-controller = ISR
+
 colonial = 2

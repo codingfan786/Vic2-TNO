@@ -1,8 +1,10 @@
-owner = ISR
-controller = ISR
+owner = TUR
+controller = TUR
+add_core = SYR
+
 colonial = 2
 
-add_core = IRQ
+
 
 
 trade_goods = grain

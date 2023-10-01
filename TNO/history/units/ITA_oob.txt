@@ -7,6 +7,31 @@ ISR = {
 	value = -20
 	level = 5
 }
+
+IAL = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 75
+}
+
+IET = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 75
+}
+
+IGY = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 75
+}
+
+IIS = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 75
+}
+
 army = {
 	name = "1a Armata" #done
 	location = 723
@@ -137,129 +162,129 @@ army = {
 
 army = {
 	name = "1a Armata" #done
-	location = 1751
+	location = 3426
 	regiment = {
 		name= "1.1a Bersaglieri"
 		type = infantry
-		home = 1752
+		home = 3426
 	}
 
 	regiment = {
 		name= "2.1a Bersaglieri"
 		type = infantry
-		home = 1751
+		home = 3427
 	}
 
 	regiment = {
 		name= "3.1a Bersaglieri"
 		type = infantry
-		home = 1746
+		home = 3228
 	}
 
 	regiment = {
 		name= "1.2a Bersaglieri"
 		type = infantry
-		home = 1748
+		home = 3229
 	}
 
 	regiment = {
 		name= "2.2a Bersaglieri"
 		type = artillery
-		home = 1747
+		home = 3230
 	}
 
 	regiment = {
 		name= "3.2a Bersaglieri"
 		type = artillery
-		home = 1749
+		home = 3231
 	}
 
 	regiment = {
 		name= "1.1a Granatieri"
 		type = artillery
-		home = 1750
+		home = 3232
 	}
 
 	regiment = {
 		name= "2.1a Granatieri"
 		type = artillery
-		home = 1745
+		home = 3233
 	}
 
 	regiment = {
 		name= "3.1a Granatieri"
 		type = artillery
-		home = 1745
+		home = 3234
 	}
 
 	regiment = {
 		name= "4.1a Granatieri"
 		type = hussar
-		home = 1745
+		home = 3235
 	}
 }
 
 army = {
 	name = "1a Armata" #done
-	location = 1849
+	location = 3414
 	regiment = {
 		name= "1.1a Bersaglieri"
 		type = infantry
-		home = 1745
+		home = 762
 	}
 
 	regiment = {
 		name= "2.1a Bersaglieri"
 		type = infantry
-		home = 1765
+		home = 764
 	}
 
 	regiment = {
 		name= "3.1a Bersaglieri"
 		type = infantry
-		home = 1764
+		home = 759
 	}
 
 	regiment = {
 		name= "1.2a Bersaglieri"
 		type = infantry
-		home = 1762
+		home = 760
 	}
 
 	regiment = {
 		name= "2.2a Bersaglieri"
 		type = artillery
-		home = 1829
+		home = 766
 	}
 
 	regiment = {
 		name= "3.2a Bersaglieri"
 		type = artillery
-		home = 1828
+		home = 765
 	}
 
 	regiment = {
 		name= "1.1a Granatieri"
 		type = artillery
-		home = 1827
+		home = 755
 	}
 
 	regiment = {
 		name= "2.1a Granatieri"
 		type = artillery
-		home = 1831
+		home = 757
 	}
 
 	regiment = {
 		name= "3.1a Granatieri"
 		type = artillery
-		home = 1830
+		home = 3405
 	}
 
 	regiment = {
 		name= "4.1a Granatieri"
 		type = hussar
-		home = 1863
+		home = 3404
 	}
 }
 

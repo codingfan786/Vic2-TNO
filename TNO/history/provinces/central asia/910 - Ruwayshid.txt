@@ -1,7 +1,7 @@
-owner = ISR
-controller = ISR
+owner = IIS
+controller = IIS
+add_core = JOR
 colonial = 2
-add_core = NEJ
 
 
 trade_goods = grain

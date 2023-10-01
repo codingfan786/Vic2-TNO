@@ -77,3 +77,21 @@ substate = {
 	second = BUK
 	start_date = 1836.1.1
 }
+
+vassal = {
+	first = ITA
+	second = IGY
+	start_date = 1836.1.1
+}
+
+vassal = {
+	first = ITA
+	second = IIS
+	start_date = 1836.1.1
+}
+
+vassal = {
+	first = ITA
+	second = IET
+	start_date = 1836.1.1
+}
