@@ -525,4 +525,23 @@ political_decisions = {
 			PHI = {set_country_flag = in_ofn}
 		}
 	}
+
+	brg_buff = {
+		potential = {
+			tag = BRG
+			NOT = {has_country_flag = brg_buff}
+		}
+		allow = {}
+		effect = {
+			any_owned= {
+				any_pop={
+					limit = {
+						type = soldiers
+					}
+					reduce_pop = 2
+				}
+			}
+			set_country_flag = brg_buff
+		}
+	}
 }

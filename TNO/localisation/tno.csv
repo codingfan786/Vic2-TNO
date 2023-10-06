@@ -674,3 +674,15 @@ bomb_malta_title;Bomb the Malta Conference.;x
 bomb_malta_desc;By bombing the current crisis conference the Triumvirate is holding in Malta we can sow dissent among their alliance. §R This decision is time sensitive and will disappear once the conference is over.;x
 brg_expand_title;Sieze the Demilitarized Zone;x
 brg_expand_desc;The French Border with Orddensstaat Burgund has been demilitarized since World War 2. Now that Germany is distracted with turmoil we have the perfect opportunity to take advantage of this!;x
+NORMAL_WAR_BRG_2;Schutzstaffel Civil War;x
+AGRESSION_WAR_BRG_2;Schutzstaffel Civil War;x
+event500196desc;In the wake of the German civil war few doubt the closeness of  Reichsfuhrer-SS Himmler and Fuhrer Heydrich. The latter served as a close prodigy of the former throughout his entire Schutzstaffel career and so Himmler's unrelenting aid came as no surprise. Although many expected the younger Heydrich to step down and let Himmler take the role of Fuhrer, a surprisingly different set of orders came in shortly after the last shots of the German civil war were fired. \n §R"FOR THE BETTERMENT OF THE ARYAN RACE, FOR THE FUTURE OF THE REICH, FOR THE VICTORY OF THE UBERMENSCH OVER THE DEGENERATES, ACTION MUST BE TAKEN TO ENSURE THE FAILURES OF THE PAST CAN NOT PREVENT THE VICTORY'S OF THE FUTURE. THE JUDEO-BOLSHEVIKS OF THE WORLD WILL BE CLEANSED IN A NUCLEAR HOLOCOAST USING THE SUPREMACY OF THE GERMAN NUCLEAR ARSENAL.";x
+brg_stockpile_sieze;Sieze Nuclear Stockpile;;;;;;;;;;;;x;;;
+brg_stockpile_sieze_short;$RECIPIENT$ has their nuclear stockpile siezed.;;;;;;;;;;;;x;;;
+brg_stockpile_sieze_setup;$RECIPIENT$ has their nuclear stockpile siezed.;;;;;;;;;;;;x;;;
+brg_stockpile_sieze_desc;$RECIPIENT$ has their nuclear stockpile siezed.;x
+cultural_replacement_hge_title;Germanisation Program;;;;;;;;;;;;x
+cultural_replacement_hge_desc;We must continue the Germanisation of the Lebensraum and its settlement by the German People! §R This decision is one use.;;;;;;;;;;;;x
+hge_ss;Expanded SS Recruitment;x
+ss_enlistment_hge_title;Expand SS Recruitment.;x
+ss_enlistment_hge_desc;The Germanisation programs are simply not sustainable. In order to secure the Reichskommissariat we should start recruiting our security forces from the local population.;x
