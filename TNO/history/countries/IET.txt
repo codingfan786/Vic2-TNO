@@ -36,13 +36,13 @@ public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 political_parties = underground_parties
-wage_reform = acceptable_minimum_wage
-work_hours = ten_hours
-safety_regulations = acceptable_safety
-unemployment_subsidies = acceptable_subsidies
-pensions = acceptable_pensions
-health_care = acceptable_health_care
-school_reforms = good_schools
+wage_reform = trinket_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+health_care = trinket_health_care
+school_reforms = low_schools
 
 
 #========================= T E C H N O L O G I E S =========================

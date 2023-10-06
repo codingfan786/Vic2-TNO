@@ -1364,6 +1364,12 @@
 		religion = orthodox
 		size = 25500
 	}
+
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 30000
+	}
 }
 #Mytilene (44000/11000 POPS)
 844 = {
@@ -1414,6 +1420,12 @@
 		religion = orthodox
 		size = 18850
 	}
+	
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 30000
+	}
 }
 #Rhodes (32000/8000 POPS)
 846 = {
@@ -1462,7 +1474,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 10350
+		size = 30350
 	}
 
 	clergymen = {
@@ -1476,6 +1488,12 @@
 		religion = jewish
 		size = 990
 	}
+
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 60350
+	}
 }
 #Crete Region (140000)  
 #under the rule of Egypt in 1836
@@ -1484,13 +1502,13 @@
 	aristocrats = {
 		culture = north_italian
 		religion = sunni
-		size = 750
+		size = 1400
 	}
 
 	bureaucrats = {
 		culture = north_italian
 		religion = sunni
-		size = 100
+		size = 300
 	}
 
 	officers = {
@@ -1502,7 +1520,7 @@
 	clergymen = {
 		culture = north_italian
 		religion = sunni
-		size = 150
+		size = 400
 	}
 
 	artisans = {
@@ -1520,7 +1538,7 @@
 	farmers = {
 		culture = north_italian
 		religion = sunni
-		size = 11900
+		size = 21900
 	}
 
 	clergymen = {
@@ -1538,7 +1556,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 17450
+		size = 35450
 	}
 }
 #Iraklion (68000/17000 POPS)
@@ -1546,13 +1564,13 @@
 	aristocrats = {
 		culture = north_italian
 		religion = sunni
-		size = 700
+		size = 1400
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = sunni
-		size = 150
+		size = 400
 	}
 
 	artisans = {
@@ -1564,13 +1582,13 @@
 	soldiers = {
 		culture = north_italian
 		religion = sunni
-		size = 350
+		size = 1000
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = sunni
-		size = 11700
+		size = 21700
 	}
 
 	clergymen = {
@@ -1588,7 +1606,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 18950
+		size = 40950
 	}
 
 }

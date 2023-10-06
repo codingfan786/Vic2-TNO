@@ -8,11 +8,19 @@ political_decisions = {
 			NOT = {has_country_flag = gre_inherited}
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			OR = {
+				revolution_n_counterrevolution = 1
+				AND = {
+					nationalism_n_imperialism = 1
+					has_country_flag = Diplomacy_in_the_East
+				}
+			}
+			
 		}
 		effect = {
 			inherit = GRE
 			set_country_flag = gre_inherited
+			add_accepted_culture = greek
 		}
 	}
 }

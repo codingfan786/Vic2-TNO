@@ -1772,13 +1772,13 @@
 	aristocrats = {
 		culture = turkish
 		religion = catholic
-		size = 200
+		size = 400
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = catholic
-		size = 500
+		size = 1000
 	}
 
 	soldiers = {
@@ -1796,13 +1796,19 @@
 	farmers = {
 		culture = greek
 		religion = catholic
-		size = 15000
+		size = 50000
 	}
 
 	farmers = {
 		culture = turkish
 		religion = catholic
-		size = 35000
+		size = 100000
+	}
+
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 15000
 	}
 }
 

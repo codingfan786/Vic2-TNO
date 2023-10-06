@@ -917,7 +917,7 @@ arab = {
 	unit = MiddleEasternGC
 	
 	misri = {
-		color = {34 145 86}
+		color = {19 81 49}
 		first_names = { 
 			Abdullah Abdulhamid Abdulkerim Ahmet Ali Bekir Cemal Enver Fevzi Fuat Halil 
 			Hasan Ibrahim Iskender Ismet Izzet Kamil Kazim Kemal 

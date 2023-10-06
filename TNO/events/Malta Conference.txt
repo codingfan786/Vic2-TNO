@@ -1,0 +1,317 @@
+country_event = {
+	id = 500187
+	title = "Malta Conference"
+	desc = "event500187desc"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ITA
+		month = 4
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "The Triumvirate was forged in fire!"
+		set_global_flag = malta_conference
+	}
+}
+
+country_event = {
+	id = 500188
+	title = "Malta Conference - Iberian Demands"
+	desc = "event500188desc"
+
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = malta_conference
+		tag = IBE
+		NOT = {has_global_flag = malta_conference_bombed}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Demand the Suez!"
+		ITA = {
+			set_country_flag = malta_ibe_more
+		}
+		ai_chance = {
+			factor = 0.20
+		}
+	}
+
+	option = {
+		name = "Demand Algeria!"
+		ITA = {
+			set_country_flag = malta_ibe_less
+		}
+		ai_chance = {
+			factor = 0.80
+		}
+	}
+}
+
+country_event = {
+	id = 500189
+	title = "Malta Conference - Turkish Demands"
+	desc = "event500189desc"
+
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = malta_conference
+		tag = TUR
+		NOT = {has_global_flag = malta_conference_bombed}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Demand our cores and Syria!"
+		ITA = {
+			set_country_flag = malta_tur_more
+		}
+		ai_chance = {
+			factor = 0.80
+		}
+	}
+
+	option = {
+		name = "Demand our cores!"
+		ITA = {
+			set_country_flag = malta_tur_less
+		}
+		ai_chance = {
+			factor = 0.20
+		}
+	}
+}
+
+country_event = {
+	id = 500190
+	title = "Malta Conference - Iberian Demands"
+	desc = "The Iberian delegates have proposed we secede the Suez in order to carve up North Africa in a more equitable manner."
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ITA
+		has_country_flag = malta_ibe_more
+		NOT = {has_global_flag = malta_conference_bombed}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {set_global_flag = malta_conference_iberia}
+
+	option = {
+		name = "For the future of the Triumvirate we shall."
+		create_alliance = IBE
+		#any_country = {
+		#	limit = {
+		#		war_with = IAL
+		#	}
+		#	end_war = IAL
+		#}
+		#SAL = {
+		#	inherit = IAL
+		#}
+		1755 = {secede_province = IBE}
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "Out of the question!"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = 500191
+	title = "Malta Conference - Iberian Demands"
+	desc = "The Iberian delegates have proposed we pull all support for our Algerian colonization efforts in order to carve up North Africa in a more equitable manner."
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ITA
+		has_country_flag = malta_ibe_less
+		NOT = {has_global_flag = malta_conference_bombed}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {set_global_flag = malta_conference_iberia}
+
+	option = {
+		name = "For the future of the Triumvirate we shall."
+		create_alliance = IBE
+		any_country = {
+			limit = {
+				war_with = IAL
+			}
+			end_war = IAL
+		}
+		SAL = {
+			inherit = IAL
+		}
+		ai_chance = {
+			factor = 0.20
+		}
+	}
+
+	option = {
+		name = "Out of the question!"
+		ai_chance = {
+			factor = 0.80
+		}
+	}
+}
+
+country_event = {
+	id = 500192
+	title = "Malta Conference - Turkish Demands"
+	desc = "The Turkish delegates have demanded we return their core territory and cede Syria to them! §R Accepting will allow you to accept Greeks earlier."
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ITA
+		has_country_flag = malta_tur_more
+		NOT = {has_global_flag = malta_conference_bombed}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {set_global_flag = malta_conference_turkey}
+
+	option = {
+		name = "For the future of the Triumvirate we shall."
+		set_country_flag = Diplomacy_in_the_East
+		create_alliance = TUR
+		3442 = {secede_province = TUR}
+		846 = {secede_province = TUR}
+		856 = {secede_province = TUR}
+		855 = {secede_province = TUR}
+		857 = {secede_province = TUR}
+
+		IIS = {
+			country_event = 500195
+		}
+		
+		ai_chance = {
+			factor = 0.05
+		}
+	}
+
+	option = {
+		name = "Out of the question!"
+		ai_chance = {
+			factor = 0.95
+		}
+	}
+}
+
+country_event = {
+	id = 500193
+	title = "Malta Conference - Turkish Demands"
+	desc = "The Turkish delegates have demanded we return their core territory! §R Accepting will allow you to accept Greeks earlier."
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ITA
+		has_country_flag = malta_tur_less
+		NOT = {has_global_flag = malta_conference_bombed}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {set_global_flag = malta_conference_turkey}
+
+	option = {
+		name = "For the future of the Triumvirate we shall."
+		set_country_flag = Diplomacy_in_the_East
+		create_alliance = TUR
+		3442 = {secede_province = TUR}
+		846 = {secede_province = TUR}
+		856 = {secede_province = TUR}
+		855 = {secede_province = TUR}
+		857 = {secede_province = TUR}
+
+		ai_chance = {
+			factor = 0.1
+		}
+	}
+
+	option = {
+		name = "Out of the question!"
+		ai_chance = {
+			factor = 0.9
+		}
+	}
+}
+
+country_event = {
+	id = 500194
+	title = "The Malta Conference Has Been Bombed!"
+	desc = "event500194desc"
+
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = ITA
+		has_global_flag = malta_conference_bombed
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "As if the situation couldn't get worse..."
+	}
+}
+
+country_event = {
+	id = 500195
+	title = "Malta Conference - Turkish Demands"
+	desc = "Italy has deemed Syria should be ceded to Turkey."
+
+	is_triggered_only = yes
+
+	immediate = {
+		906 = {secede_province = TUR}
+		902 = {secede_province = TUR}
+		912 = {secede_province = TUR}
+		915 = {secede_province = TUR}
+		913 = {secede_province = TUR}
+		914 = {secede_province = TUR}
+	}
+
+	option = {
+		name = "We have no choice..."
+	}
+}
