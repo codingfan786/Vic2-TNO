@@ -95,3 +95,15 @@ vassal = {
 	second = IET
 	start_date = 1836.1.1
 }
+
+vassal = {
+	first = CFR
+	second = AF1
+	start_date = 1836.1.1
+}
+
+vassal = {
+	first = NGA
+	second = CAR
+	start_date = 1836.1.1
+}

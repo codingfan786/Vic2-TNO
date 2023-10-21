@@ -1,6 +1,4 @@
 trade_goods = cattle
 life_rating = 15
-owner = CBR
-controller = CBR
-add_core = CBR
+add_core = AF2
 

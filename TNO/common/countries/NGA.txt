@@ -2,7 +2,8 @@
 
 #========================= H E A D E R =========================
 
-color = { 173  255  47 }
+#color = { 173  255  47 }
+color = { 20 61 27 }
 graphical_culture = AfricanGC
 
 

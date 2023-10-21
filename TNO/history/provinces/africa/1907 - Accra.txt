@@ -2,6 +2,6 @@
 naval_base = 1
 trade_goods = cattle
 life_rating = 15
-owner = CFR
-controller = CFR
-add_core = CFR
+owner = AF1
+controller = AF1
+add_core = AF1

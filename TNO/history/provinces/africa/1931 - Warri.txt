@@ -1,5 +1,6 @@
 trade_goods = rubber
 life_rating = 15
-owner = NGA
-controller = NGA
 add_core = NGA
+owner = CAR
+controller = CAR
+add_core = CAR

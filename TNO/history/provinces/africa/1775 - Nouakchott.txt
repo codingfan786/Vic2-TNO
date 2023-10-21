@@ -1,5 +1,6 @@
 trade_goods = fish
 life_rating = 15
-owner = MAL
-controller = MAL
+owner = IBE
+controller = IBE
+colonial = 2
 add_core = MAL

@@ -1,0 +1,90 @@
+political_decisions = {
+	WA_expansion = {
+		picture = die_groot_trek
+		potential = {
+			OR = {
+				tag = CFR
+				tag = NGA
+				tag = CAR
+				tag = AF1
+				tag = AF2
+				tag = AF3
+				tag = AF4
+				tag = LIB
+			}
+			any_core = {
+				empty = yes
+			}
+		}
+
+		allow = {
+			OR = {
+				NOT = {exists = GER}
+				ideological_thought = 1
+				has_global_flag = West_Africa_Revival_Started
+			}
+		}
+
+		effect = {
+			all_core = {
+				limit = {
+					empty = yes
+					OR = {
+						NOT = {is_core = CAR}
+						THIS = {tag = CAR}
+					}
+				}
+				secede_province = THIS
+			}
+			random_owned = {
+				limit = {
+					NOT = {has_global_flag = West_Africa_Revival_Started}
+					#is_capital = yes
+				}
+				country_event = 500207
+			}
+			set_global_flag = West_Africa_Revival_Started
+			
+
+		}
+	}
+
+	NGA_expansion = {
+		picture = die_groot_trek
+		potential = {
+			tag = NGA
+			exists = CAR
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			is_our_vassal = CAR
+		}
+		effect = {
+			inherit = CAR
+		}
+	}
+
+	NGA_accepted = {
+		picture = die_groot_trek
+		potential = {
+			tag = NGA
+			NOT = {accepted_culture = afro_asiatic}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			AF1 = {
+				all_core = {
+					owner = {tag = THIS}
+				}
+			}
+			CAR = {
+				all_core = {
+					owner = {tag = THIS}
+				}
+			}
+		}
+		effect = {
+			add_accepted_culture = afro_asiatic
+		}
+	}
+}

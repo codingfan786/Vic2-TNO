@@ -1,8 +1,7 @@
 
 
+add_core = NGA
 
 trade_goods = grain
 life_rating = 15
-owner = NGA
-controller = NGA
-add_core = NGA
+add_core = CAR

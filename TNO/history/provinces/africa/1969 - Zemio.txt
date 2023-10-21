@@ -1,5 +1,6 @@
 trade_goods = cattle
 life_rating = 15
-owner = CAR
-controller = CAR
-add_core = CAR
+owner = WGA
+controller = WGA
+add_core = NGA
+colonial = 2

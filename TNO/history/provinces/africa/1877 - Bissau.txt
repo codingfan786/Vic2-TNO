@@ -2,6 +2,6 @@
 
 trade_goods = grain
 life_rating = 35
-owner = LIB
-controller = LIB
-add_core = LIB
+owner = AF3
+controller = AF3
+add_core = AF3

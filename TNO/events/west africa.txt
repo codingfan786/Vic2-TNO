@@ -1,0 +1,44 @@
+country_event = {
+	major = yes
+	id = 500207
+	title = "West African Revival!"
+	desc = "With the German Civil War came the cessation of German target practice bombing over West Africa. As communities reestablish themselves in the bombing regions organized government finally returns to the lawless lands of Africa."
+	is_triggered_only = yes
+
+	immediate = {
+		1817 = {secede_province = NIG}
+		NIG = {
+			all_core = {
+				limit = {
+					empty = yes
+				}
+				secede_province = NIG
+			}
+		}
+
+		1903 = {secede_province = BFA}
+		BFA = {
+			all_core = {
+				limit = {
+					empty = yes
+				}
+				secede_province = BFA
+			}
+		}
+
+		1780 = {secede_province = MAL}
+		MAL = {
+			all_core = {
+				limit = {
+					empty = yes
+				}
+				secede_province = MAL
+			}
+		}
+	}
+
+	option = {
+		name = "Africa Forever!"
+	}
+
+}

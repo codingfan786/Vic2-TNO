@@ -1,5 +1,6 @@
-owner = LIB
-controller = LIB
-add_core = LIB
+owner = AF3
+controller = AF3
+add_core = AF3
+
 trade_goods = fruit
 life_rating = 15

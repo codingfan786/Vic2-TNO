@@ -2,6 +2,10 @@ SAF = {
 	value = -50
 	truce_until = "1963.1.1"
 }
+NGA = {
+	value = -100
+	truce_until = "1967.1.1"
+}
 
 army = {
 	name = "1a Armata" #done

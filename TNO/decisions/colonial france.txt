@@ -1,28 +1,38 @@
 political_decisions = {
-	request_ghana = {
-		picture = support_french_foreign_legion
-		potential = {
-			tag = CFR
-			NOT = {has_country_flag = ghana_requested}
-		}
-		allow = {
-			ideological_thought = 1
-		}
-		effect = {
-			set_country_flag = ghana_requested
-			1911 = {
-				owner = {
-					country_event = 500142
-				}
-			}
-		}
-	}
-
 	cfr_expand_cores = {
 		picture = support_french_foreign_legion
 		potential = {
 			tag = CFR
 			OR = {
+				NOT = {
+					AF1 = {
+						all_core = {
+							is_core = THIS
+						}
+					}
+				}
+				NOT = {
+					AF2 = {
+						all_core = {
+							is_core = THIS
+						}
+					}
+				}
+				NOT = {
+					AF3 = {
+						all_core = {
+							is_core = THIS
+						}
+					}
+				}
+				NOT = {
+					AF4 = {
+						all_core = {
+							is_core = THIS
+						}
+					}
+				}
+
 				NOT = {
 					NGA = {
 						all_core = {
@@ -78,6 +88,35 @@ political_decisions = {
 		allow = {
 			ideological_thought = 1
 			OR = {
+				AF1 = {
+					any_core = {
+						NOT = {is_core = THIS}
+						owner = {tag = THIS}
+					}
+					NOT = {exists = yes}
+				}
+				AF2 = {
+					any_core = {
+						NOT = {is_core = THIS}
+						owner = {tag = THIS}
+					}
+					NOT = {exists = yes}
+				}
+				AF3 = {
+					any_core = {
+						NOT = {is_core = THIS}
+						owner = {tag = THIS}
+					}
+					NOT = {exists = yes}
+				}
+				AF4 = {
+					any_core = {
+						NOT = {is_core = THIS}
+						owner = {tag = THIS}
+					}
+					NOT = {exists = yes}
+				}
+
 				NGA = {
 					any_core = {
 						NOT = {is_core = THIS}
@@ -130,6 +169,71 @@ political_decisions = {
 			}
 		}
 		effect = {
+			random_owned = {
+				limit = {
+					AF1 = {
+						any_core = {
+							NOT = {is_core = THIS}
+							owner = {tag = THIS}
+						}
+						NOT = {exists = yes}
+					}
+				}
+				AF1 = {
+					all_core = {
+						add_core = THIS
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					AF2 = {
+						any_core = {
+							NOT = {is_core = THIS}
+							owner = {tag = THIS}
+						}
+						NOT = {exists = yes}
+					}
+				}
+				AF2 = {
+					all_core = {
+						add_core = THIS
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					AF3 = {
+						any_core = {
+							NOT = {is_core = THIS}
+							owner = {tag = THIS}
+						}
+						NOT = {exists = yes}
+					}
+				}
+				AF3 = {
+					all_core = {
+						add_core = THIS
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					AF4 = {
+						any_core = {
+							NOT = {is_core = THIS}
+							owner = {tag = THIS}
+						}
+						NOT = {exists = yes}
+					}
+				}
+				AF4 = {
+					all_core = {
+						add_core = THIS
+					}
+				}
+			}
+
 			random_owned = {
 				limit = {
 					NGA = {

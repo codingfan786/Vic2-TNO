@@ -33,7 +33,11 @@ political_decisions = {
 			NOT = {has_country_flag = king_michael_coup}
 		}
 		allow = {
-			average_militancy = 5
+			OR = {
+				average_militancy = 3
+				average_consciousness = 3
+			}
+			
 		}
 		effect = {
 			set_country_flag = king_michael_coup
@@ -46,6 +50,13 @@ political_decisions = {
 			nationalvalue = nv_tradition
 			any_pop = {
 				militancy = -3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {average_militancy = 5}
 			}
 		}
 	}

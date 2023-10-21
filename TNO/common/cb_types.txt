@@ -95,6 +95,7 @@ goring_wild_ride_a
 goring_wild_ride_b
 goring_wild_ride_c
 brg_stockpile_sieze
+nuke_disarm
 }
 
 gunboat = {
@@ -589,6 +590,10 @@ acquire_state = {
 				tag = KEN
 				tag = MOZ
 				tag = ANG
+				tag = AF1
+				tag = AF2
+				tag = AF3
+				tag = AF4
 			}
 		}
 	}
@@ -1849,6 +1854,10 @@ acquire_capital = {
 				tag = KEN
 				tag = MOZ
 				tag = ANG
+				tag = AF1
+				tag = AF2
+				tag = AF3
+				tag = AF4
 			}
 		}
 	}
@@ -2676,6 +2685,10 @@ africa_pre_scramble = {
 			tag = KEN
 			tag = MOZ
 			tag = ANG
+				tag = AF1
+				tag = AF2
+				tag = AF3
+				tag = AF4
 		}
 		NOT = {
 			THIS = {
@@ -2775,6 +2788,10 @@ africa_post_scramble = {
 			tag = KEN
 			tag = MOZ
 			tag = ANG
+				tag = AF1
+				tag = AF2
+				tag = AF3
+				tag = AF4
 		}
 	}
 	
@@ -3242,5 +3259,45 @@ brg_stockpile_sieze = {
 	po_remove_prestige = yes
 	on_po_accepted = {
 		country_event = 500198
+	}
+}
+
+nuke_disarm = {
+	sprite_index = 14
+	is_triggered_only = yes
+	months = 12
+
+	badboy_factor = 1.5
+	prestige_factor = 1
+	peace_cost_factor = 30
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	po_remove_prestige = yes
+
+	tws_battle_factor = 2.0
+	
+	war_name = WAR_NAME
+
+	can_use = {
+		has_country_flag = nuke
+	}	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	on_po_accepted = {
+		country_event = 500206
 	}
 }

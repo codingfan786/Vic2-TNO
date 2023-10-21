@@ -6,13 +6,17 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-			NOT = {has_global_flag = click_this}
 		}
 		effect = {
-			set_global_flag = click_this
-			country_event = 500173
-			any_country = {
-				country_event = 500173
+			all_core = {
+				limit = {
+					empty = yes
+					OR = {
+						NOT = {is_core = CAR}
+						THIS = {tag = CAR}
+					}
+				}
+				secede_province = THIS
 			}
 		}		
 	}

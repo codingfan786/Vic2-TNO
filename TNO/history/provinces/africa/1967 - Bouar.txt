@@ -1,5 +1,3 @@
 trade_goods = cattle
 life_rating = 15
-owner = CAR
-controller = CAR
-add_core = CAR
+add_core = NGA

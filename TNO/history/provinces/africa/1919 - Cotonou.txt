@@ -1,7 +1,7 @@
 trade_goods = cattle
 life_rating = 15
-owner = CFR
-controller = CFR
-add_core = CFR
-colonial = 2
+owner = AF1
+controller = AF1
+add_core = AF1
+
 naval_base = 1

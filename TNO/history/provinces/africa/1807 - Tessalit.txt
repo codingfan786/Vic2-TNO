@@ -1,5 +1,3 @@
 trade_goods = grain
 life_rating = 10
-owner = MAL
-controller = MAL
-add_core = MAL
+add_core = NIG

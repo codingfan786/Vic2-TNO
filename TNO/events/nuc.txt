@@ -558,3 +558,18 @@ country_event = {
 
 
 }
+
+country_event = {
+	id = 500206
+	title = "Nuclear Stockpile Siezed"
+	desc = "Foreign intervention has siezed your nuclear weapons!"
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = nuke
+		FROM = {set_country_flag = nuke}
+	}
+	option = {
+		name = "Damn!"
+	}
+}

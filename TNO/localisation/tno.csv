@@ -678,9 +678,13 @@ NORMAL_WAR_BRG_2;Schutzstaffel Civil War;x
 AGRESSION_WAR_BRG_2;Schutzstaffel Civil War;x
 event500196desc;In the wake of the German civil war few doubt the closeness of  Reichsfuhrer-SS Himmler and Fuhrer Heydrich. The latter served as a close prodigy of the former throughout his entire Schutzstaffel career and so Himmler's unrelenting aid came as no surprise. Although many expected the younger Heydrich to step down and let Himmler take the role of Fuhrer, a surprisingly different set of orders came in shortly after the last shots of the German civil war were fired. \n §R"FOR THE BETTERMENT OF THE ARYAN RACE, FOR THE FUTURE OF THE REICH, FOR THE VICTORY OF THE UBERMENSCH OVER THE DEGENERATES, ACTION MUST BE TAKEN TO ENSURE THE FAILURES OF THE PAST CAN NOT PREVENT THE VICTORY'S OF THE FUTURE. THE JUDEO-BOLSHEVIKS OF THE WORLD WILL BE CLEANSED IN A NUCLEAR HOLOCOAST USING THE SUPREMACY OF THE GERMAN NUCLEAR ARSENAL.";x
 brg_stockpile_sieze;Sieze Nuclear Stockpile;;;;;;;;;;;;x;;;
-brg_stockpile_sieze_short;$RECIPIENT$ has their nuclear stockpile siezed.;;;;;;;;;;;;x;;;
-brg_stockpile_sieze_setup;$RECIPIENT$ has their nuclear stockpile siezed.;;;;;;;;;;;;x;;;
-brg_stockpile_sieze_desc;$RECIPIENT$ has their nuclear stockpile siezed.;x
+brg_stockpile_sieze_short;$RECIPIENT$ has their nuclear stockpile siezed by Burgundy.;;;;;;;;;;;;x;;;
+brg_stockpile_sieze_setup;$RECIPIENT$ has their nuclear stockpile siezed by Burgundy.;;;;;;;;;;;;x;;;
+brg_stockpile_sieze_desc;$RECIPIENT$ has their nuclear stockpile siezed by Burgundy.;x
+nuke_disarm;Sieze Nuclear Stockpile;;;;;;;;;;;;x;;;
+nuke_disarm_short;$RECIPIENT$ has their nuclear stockpile siezed.;;;;;;;;;;;;x;;;
+nuke_disarm_setup;$RECIPIENT$ has their nuclear stockpile siezed.;;;;;;;;;;;;x;;;
+nuke_disarm_desc;$RECIPIENT$ has their nuclear stockpile siezed.;x
 cultural_replacement_hge_title;Germanisation Program;;;;;;;;;;;;x
 cultural_replacement_hge_desc;We must continue the Germanisation of the Lebensraum and its settlement by the German People! §R This decision is one use.;;;;;;;;;;;;x
 hge_ss;Expanded SS Recruitment;x
@@ -713,3 +717,9 @@ event500202desc;For the student generation of the 1980's the circumstances that 
 event500203desc;Reichsminister Walther Hewel has suggested a radical approach of negotiation and appeasement with the student protests surrounding Germania. This would involve Fuhrer Bormann meeting with protest leaders and dicussing many potential avenues of reform and placating them with distant promises. The Abwehr is on high alert and suggests that such actions would lead to Fuhrer Bormann being highly exposed to a possible attack from Rote Armee Fraktion terrorists hiding amongst the student protesters.;x
 event500204desc;Tragedy has struck as Fuhrer Bormann is reported dead as a result of health complications from his advanced age. Unconfirmed reports and rumors circulate of murder at the hands of the Rote Armee Fraktion, leading to much concern over the stability of his successors' regime. Fuhrer Bormann's death comes at a critical time as student protests and Rote Armee Fraktion attacks around Germania reach a crescendo.;x
 event500205desc;Terror grips the nation as Martin Bormann and many other high ranking National Socialist officials are reported as dead during a widespread series of attacks conducted by the Rote Armee Fraktion. The events occured during a series of scheduled talks between Bormann and the student protest leaders. The Reichsgovernment, effectively leaderless, has collapsed as Germania is overrun by student protesters and the increasingly organized Rote Armee Fraktion communists.;x
+WA_expansion_title;Reclaim the Bombing Regions;x
+WA_expansion_desc;In the wake of the German Civil War the German airforce has stopped using West Africa for bombing target practice. We can now bring governance back to the region.;x
+NGA_expansion_title;Annex Yorubaland;x
+NGA_expansion_desc;We're one again!;x
+NGA_accepted_title;Champion of West Africa!;x
+NGA_accepted_desc;Now that we have reclaimed Yorubaland and kicked the French out of Gbeland it is time that we take our place as the leader and protector of all West Africans!;x

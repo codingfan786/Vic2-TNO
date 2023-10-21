@@ -66,6 +66,11 @@ HD2 = "countries/India2.txt"
 JOR = "countries/JOR.txt"
 SYR = "countries/SYR.txt"
 
+AF1 = "countries/AF1.txt"
+AF2 = "countries/AF2.txt"
+AF3 = "countries/AF3.txt"
+AF4 = "countries/AF4.txt"
+
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
 RUS		= "countries/Russia.txt"
