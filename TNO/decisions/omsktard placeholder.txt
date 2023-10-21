@@ -1,0 +1,53 @@
+political_decisions = {
+
+	great_trial = {
+		picture = build_the_tower_of_babylon
+		potential = {
+			tag = NUC
+			NOT = {has_country_flag = trialed}
+		}
+		allow = {
+			has_global_flag = rus_unified
+			#NOT = {exists = RAR} #redundant with rus_unified
+			#NOT = {exists = RUS}
+			RUS_1026 = {
+				owner = {tag = THIS}
+			}
+			RUS_1060 = {
+				owner = {tag = THIS}
+			}
+			RUS_1020 = {
+				owner = {tag = THIS}
+			}
+			RUS_990 = {
+				owner = {tag = THIS}
+			}
+		}
+		effect = {
+			set_country_flag = trialed
+			RUS_1037 = {
+				add_core = THIS
+			}
+			RUS_1008 = {
+				add_core = THIS
+			}
+			RUS_998 = {
+				add_core = THIS
+			}
+			RUS_1003 = {
+				add_core = THIS
+			}
+			RUS_943 = {
+				add_core = THIS
+			}
+			RUS_1009 = {
+				add_core = THIS
+			}
+			RUS_994 = {
+				add_core = THIS
+			}
+
+		}
+	}
+
+}

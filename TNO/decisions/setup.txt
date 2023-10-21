@@ -331,6 +331,12 @@ political_decisions = {
 			
 		}
 		effect = {
+			BGE = {
+				set_variable = {
+					which = bormann_protests
+					value = 0
+				}
+			}
 			any_country = {
 				limit = {
 					OR = {

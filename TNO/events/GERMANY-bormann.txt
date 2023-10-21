@@ -146,3 +146,159 @@ country_event = {
 		prestige = 20
 	}
 }
+
+province_event = {
+	id = 500202
+	title = "Autumn in Germany."
+	desc = "event500202desc"
+
+	trigger = {
+		year = 1977 #was 1982
+		owner = {
+			tag = BGE
+		}
+		
+		OR = {
+			province_id = 549
+			province_id = 556
+			province_id = 555
+			province_id = 553
+			province_id = 557
+			province_id = 551
+			province_id = 550
+			province_id = 552
+		}
+
+		NOT = {
+			BGE = {
+				check_variable = {
+					which = bormann_protests
+					value = 12
+				}
+			}
+		}
+
+		NOT = {has_province_modifier = student_protests}
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	immediate = {
+		BGE = {
+			change_variable = {
+				which = bormann_protests
+				value = 1
+			}
+		}
+
+		add_province_modifier = {
+			name = student_protests
+			duration = 365
+		}
+
+		any_pop = {
+			militancy = 3
+			ideology = {
+				factor = 2
+				value = communist
+			}
+		}
+	}
+
+
+	option = {
+		name = "Protests have spread to $PROVINCENAME$..."
+	}
+}
+
+country_event = {
+	id = 500203
+	title = "Reichsminister Hewel Proposes Negotiations."
+	desc = "event500203desc"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = BGE
+		BGE = {
+			check_variable = {
+				which = bormann_protests
+				value = 6
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Empty placations might ease tensions."
+		set_country_flag = bormann_students
+	}
+
+	option = {
+		name = "The Reichsminister's suggestion is suicidal!"
+	}
+}
+
+country_event = {
+	id = 500204
+	title = "Fuhrer Bormann Has Died."
+	desc = "event500204desc"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = BGE
+		year = 1977
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	immediate = {
+		change_tag = GE2
+		all_core = {
+			remove_core = BGE
+		}
+	}
+
+	option = {
+		name = "Long live the Reich!"
+	}
+
+}
+
+country_event = {
+	id = 500205
+	title = "Rote Armee Fraktion Decapitates the Reichsgovernment!"
+	desc = "event500205desc"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = BGE
+		has_country_flag = bormann_students
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	immediate = {
+		government = proletarian_dictatorship
+		change_tag = GE2
+		all_core = {
+			remove_core = BGE
+		}
+	}
+
+	option = {
+		name = "Kill all Fascists!"
+	}
+
+}

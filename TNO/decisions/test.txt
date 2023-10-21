@@ -6,13 +6,14 @@ political_decisions = {
 			always = no
 		}
 		allow = {
+			NOT = {has_global_flag = click_this}
 		}
 		effect = {
-			inherit = GER
-			inherit = GGE
-			inherit = SGE
-			inherit = BGE
-			inherit = HGE
+			set_global_flag = click_this
+			country_event = 500173
+			any_country = {
+				country_event = 500173
+			}
 		}		
 	}
 }

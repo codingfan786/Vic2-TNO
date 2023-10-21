@@ -940,12 +940,13 @@ country_event = {
 
 country_event = {
 	id = 500182
-	title = "sun gun project."
-	desc = "fill"
+	title = "Projekt Sonnenkanone."
+	desc = "event500182desc"
 	fire_only_once = yes
 	trigger = {
 		tag = GGE 
-		NOT = {has_country_flag = sun_gun}
+		#NOT = {has_country_flag = sun_gun}
+		has_country_flag = sun_gun
 	}
 
 	mean_time_to_happen = {

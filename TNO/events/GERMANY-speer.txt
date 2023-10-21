@@ -102,6 +102,10 @@ country_event = {
 			which = speer_reform_points
 			value = 0
 		}
+		set_variable = {
+			which = speer_reforms_made
+			value = 0
+		}
 		any_country = {
 			limit = {
 				tag = CZH
@@ -218,5 +222,123 @@ country_event = {
 	option = {
 		name = "Heil Speer!"
 		prestige = 20
+	}
+}
+
+country_event = {
+	id = 500199
+	title = "Reichstag Fire Decree Repealed!"
+	desc = "event500199desc"
+
+	fire_only_once = yes
+	trigger = {
+		year = 1982
+		tag = SGE
+		check_variable = {
+			which = speer_reforms_made
+			value = 3
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	immediate = {
+		change_tag = GE2
+		all_core = {
+			remove_core = SGE
+		}
+		government = democracy
+		political_reform = universal_weighted_voting
+		political_reform = harassment
+		political_reform = appointed
+		set_country_flag = speer_reformed_germany
+	}
+
+	option = {
+		name = "Heil Speer! The Great Reformer!"
+	}
+}
+
+country_event = {
+	id = 500200
+	title = "Fuhrer Speer Steps Down."
+	desc = "event500200desc"
+
+	fire_only_once = yes
+	trigger = {
+		year = 1982
+		tag = SGE
+		NOT = {
+			AND = {
+				OR = {
+					has_country_flag = speer_auth_1
+					NOT = {has_country_flag = near_east_dealt_with}
+				}
+				OR = {
+					has_country_flag = speer_auth_2
+					NOT = {has_country_flag = far_east_dealt_with}
+				}
+			}
+		}
+		NOT = {
+			check_variable = {
+				which = speer_reforms_made
+				value = 3
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	immediate = {
+		change_tag = GE2
+		all_core = {
+			remove_core = SGE
+		}
+		ruling_party_ideology = conservative
+	}
+
+	option = {
+		name = "Calm comes before the storm."
+	}
+}
+
+country_event = {
+	id = 500201
+	title = "Fuhrer Speer Passes Away!"
+	desc = "event500201desc"
+
+	fire_only_once = yes
+	trigger = {
+		year = 1982
+		tag = SGE
+
+		OR = {
+			has_country_flag = speer_auth_1
+			NOT = {has_country_flag = near_east_dealt_with}
+		}
+		OR = {
+			has_country_flag = speer_auth_2
+			NOT = {has_country_flag = far_east_dealt_with}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	immediate = {
+		change_tag = GE2
+		all_core = {
+			remove_core = SGE
+		}
+	}
+
+	option = {
+		name = "Status quo continues..."
 	}
 }

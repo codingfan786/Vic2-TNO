@@ -1,18 +1,4 @@
 political_decisions = {
-	speer_reforms = { #break these up to different techs and reforms and maybe put a few on the others?
-		potential = {
-			tag = SGE
-			NOT = {exists = GER}
-			NOT = {has_country_flag = speer_reforms}
-			always = no
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-			set_country_flag = speer_reforms
-		}
-	}
 
 	nes_sge = {
 		picture = ostend_manifesto
@@ -277,4 +263,308 @@ political_decisions = {
 		}
 	}
 
+	sge_wage_reform = {
+		picture = das_zivilgesetzbuch
+		potential = {
+			NOT = {exists = GER}
+			tag = SGE
+			NOT = {wage_reform = acceptable_minimum_wage}
+			OR = {
+				check_variable = {
+					which = speer_reform_points
+					value = 1
+				}
+				NOT = {
+					check_variable = {
+						which = speer_reforms_made
+						value = 1
+					}
+				}
+			}
+		}
+		allow = {
+			is_next_reform = acceptable_minimum_wage
+			check_variable = {
+				which = speer_reform_points
+				value = 1
+			}
+		}
+		effect = {
+			change_variable = {
+				which = speer_reform_points
+				value = -1
+			}
+			
+			change_variable = {
+				which = speer_reforms_made
+				value = 1
+			}
+
+			social_reform = acceptable_minimum_wage
+		}
+	}
+
+	sge_work_hours = {
+		picture = das_zivilgesetzbuch
+		potential = {
+			NOT = {exists = GER}
+			tag = SGE
+			NOT = {work_hours = ten_hours}
+			OR = {
+				check_variable = {
+					which = speer_reform_points
+					value = 1
+				}
+				NOT = {
+					check_variable = {
+						which = speer_reforms_made
+						value = 1
+					}
+				}
+			}
+		}
+		allow = {
+			is_next_reform = ten_hours
+			check_variable = {
+				which = speer_reform_points
+				value = 1
+			}
+		}
+		effect = {
+			change_variable = {
+				which = speer_reform_points
+				value = -1
+			}
+			
+			change_variable = {
+				which = speer_reforms_made
+				value = 1
+			}
+
+			social_reform = ten_hours
+		}
+	}
+
+	sge_safety_regulations = {
+		picture = das_zivilgesetzbuch
+		potential = {
+			NOT = {exists = GER}
+			tag = SGE
+			NOT = {safety_regulations = acceptable_safety}
+			OR = {
+				check_variable = {
+					which = speer_reform_points
+					value = 1
+				}
+				NOT = {
+					check_variable = {
+						which = speer_reforms_made
+						value = 1
+					}
+				}
+			}
+		}
+		allow = {
+			is_next_reform = acceptable_safety
+			check_variable = {
+				which = speer_reform_points
+				value = 1
+			}
+		}
+		effect = {
+			change_variable = {
+				which = speer_reform_points
+				value = -1
+			}
+			
+			change_variable = {
+				which = speer_reforms_made
+				value = 1
+			}
+
+			social_reform = acceptable_safety
+		}
+	}
+
+	sge_unemployment_subsidies = {
+		picture = das_zivilgesetzbuch
+		potential = {
+			NOT = {exists = GER}
+			tag = SGE
+			NOT = {unemployment_subsidies = acceptable_subsidies}
+			OR = {
+				check_variable = {
+					which = speer_reform_points
+					value = 1
+				}
+				NOT = {
+					check_variable = {
+						which = speer_reforms_made
+						value = 1
+					}
+				}
+			}
+		}
+		allow = {
+			is_next_reform = acceptable_subsidies
+			check_variable = {
+				which = speer_reform_points
+				value = 1
+			}
+		}
+		effect = {
+			change_variable = {
+				which = speer_reform_points
+				value = -1
+			}
+			
+			change_variable = {
+				which = speer_reforms_made
+				value = 1
+			}
+
+			social_reform = acceptable_subsidies
+		}
+	}
+
+	sge_pensions = {
+		picture = das_zivilgesetzbuch
+		potential = {
+			NOT = {exists = GER}
+			tag = SGE
+			NOT = {pensions = acceptable_pensions}
+			OR = {
+				check_variable = {
+					which = speer_reform_points
+					value = 1
+				}
+				NOT = {
+					check_variable = {
+						which = speer_reforms_made
+						value = 1
+					}
+				}
+			}
+		}
+		allow = {
+			is_next_reform = acceptable_pensions
+			check_variable = {
+				which = speer_reform_points
+				value = 1
+			}
+		}
+		effect = {
+			change_variable = {
+				which = speer_reform_points
+				value = -1
+			}
+			
+			change_variable = {
+				which = speer_reforms_made
+				value = 1
+			}
+
+			social_reform = acceptable_pensions
+		}
+	}
+
+	sge_health_care = {
+		picture = das_zivilgesetzbuch
+		potential = {
+			NOT = {exists = GER}
+			tag = SGE
+			NOT = {health_care = acceptable_health_care}
+			OR = {
+				check_variable = {
+					which = speer_reform_points
+					value = 1
+				}
+				NOT = {
+					check_variable = {
+						which = speer_reforms_made
+						value = 1
+					}
+				}
+			}
+		}
+		allow = {
+			is_next_reform = acceptable_health_care
+			check_variable = {
+				which = speer_reform_points
+				value = 1
+			}
+		}
+		effect = {
+			change_variable = {
+				which = speer_reform_points
+				value = -1
+			}
+			
+			change_variable = {
+				which = speer_reforms_made
+				value = 1
+			}
+
+			social_reform = acceptable_health_care
+		}
+	}
+
+	sge_school_reforms = {
+		picture = das_zivilgesetzbuch
+		potential = {
+			NOT = {exists = GER}
+			tag = SGE
+			NOT = {school_reforms = good_schools}
+			OR = {
+				check_variable = {
+					which = speer_reform_points
+					value = 1
+				}
+				NOT = {
+					check_variable = {
+						which = speer_reforms_made
+						value = 1
+					}
+				}
+			}
+		}
+		allow = {
+			is_next_reform = good_schools
+			check_variable = {
+				which = speer_reform_points
+				value = 1
+			}
+		}
+		effect = {
+			change_variable = {
+				which = speer_reform_points
+				value = -1
+			}
+			
+			change_variable = {
+				which = speer_reforms_made
+				value = 1
+			}
+
+			social_reform = good_schools
+		}
+	}
+
+	sge_ge2_accepted ={
+		picture = das_zivilgesetzbuch
+		potential = {
+			tag = GE2
+			has_country_flag = speer_reformed_germany
+			NOT = {accepted_culture = polish}
+		}
+
+		allow = {
+			empiricism = 1
+		}
+
+		effect = {
+			add_accepted_culture = polish
+			add_accepted_culture = czech
+		}
+	}
 }

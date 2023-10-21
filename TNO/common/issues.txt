@@ -408,10 +408,7 @@ social_reforms = {
 			global_immigrant_attract = 0.10 #10% was 0.03
 			poor_life_needs = -0.3
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 		good_minimum_wage = {
@@ -420,10 +417,7 @@ social_reforms = {
 			global_immigrant_attract = 0.15 #15% was 0.04
 			poor_life_needs = -0.4
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 	}
@@ -453,10 +447,7 @@ social_reforms = {
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.06 #6% was 0.03
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 		eight_hours = {
@@ -466,10 +457,7 @@ social_reforms = {
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.10 #10% was 0.04
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 	}
@@ -502,10 +490,7 @@ social_reforms = {
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.06 #6% was 0.03
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 		good_safety = {
@@ -516,10 +501,7 @@ social_reforms = {
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.10 #10% was 0.04
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 	}
@@ -540,20 +522,14 @@ social_reforms = {
 			unemployment_benefit = 2.25
 			global_immigrant_attract = 0.06 #6% was 0.03
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 		good_subsidies = {
 			unemployment_benefit = 3
 			global_immigrant_attract = 0.10 #10% was 0.04
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 	}
@@ -573,20 +549,14 @@ social_reforms = {
 			pension_level	= 0.15
 			global_immigrant_attract = 0.06 #6% was 0.03
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 		good_pensions = {
 			pension_level	= 0.20
 			global_immigrant_attract = 0.10 #10% was 0.04
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 	}	
@@ -610,10 +580,7 @@ social_reforms = {
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.06 #6% was 0.03
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 		good_health_care = {
@@ -621,10 +588,7 @@ social_reforms = {
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.10 #10% was 0.04
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 	}
@@ -650,10 +614,7 @@ social_reforms = {
 			global_immigrant_attract = 0.08 #8% was 0.04
 			administrative_multiplier = 3
 			allow = { 
-				OR = {
-					NOT = {has_country_flag = fascist_gov_type}
-					has_country_flag = speer_reforms
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 		}
 	}	
