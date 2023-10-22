@@ -477,6 +477,12 @@ country_event = {
 			political_reform = gerrymandering
 		}
 		OFN = {primary_culture = THIS}
+		THIS = {
+			diplomatic_influence = {
+				who = OFN
+				value = 800
+			}
+		}
 	}
 
 	option = {
@@ -585,6 +591,13 @@ country_event = {
 		name = "This is clearly a ploy being made by an undemocratic regime!"
 		ai_chance = {
 			factor = 0.4
+			modifier = {
+				factor = 5
+				AND = {
+					FROM = {part_of_sphere = yes}
+					NOT = {FROM = {in_sphere = THIS}}
+				}
+			}
 		}
 	}
 }

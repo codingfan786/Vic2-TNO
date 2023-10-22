@@ -25,12 +25,46 @@ NAV = {
 }
 PHI = {
 	level = 4
+	influence_value = 50
 }
 CFR = {
 	value = 100
 	level = 3
 	influence_value = 0
 }
+
+GUA = {
+	level = 5
+}
+
+HON = {
+	level = 5
+}
+
+ELS = {
+	level = 5
+}
+
+COS = {
+	level = 5
+}
+
+PNM = {
+	level = 5
+}
+
+PEU = {
+	level = 5
+}
+
+BRZ = {
+	level = 5
+}
+
+BOL = {
+	level = 5
+}
+
 army = {
 	name = "1a Armata" #done
 	location = 89

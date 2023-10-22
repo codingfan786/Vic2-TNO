@@ -105,46 +105,9 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				OR = {
-					AND = {#anyone who is not south africa and not in the below continents
-						NOT = {tag = EIR}
-						NOT = {tag = PHI}
-						NOT = {tag = SAF}
-						NOT = {
-							OR = {
-								capital_scope = {continent = north_america}
-								capital_scope = {continent = south_america}
-								capital_scope = {continent = oceania}
-								capital_scope = {continent = europe}
-							}
-						}
-					}#or any not of the below (mostly east europe)
-					tag = SWI
-					tag = MSC
-					tag = BLT
-					tag = UKR
-					tag = POL
-					tag = CZH
-					tag = SLV
-					tag = BOH
-					tag = ROM
-					tag = GGE
-					tag = HGE
-					tag = BGE
-					tag = GER
-					tag = BRG
-					tag = RAR
-					tag = RUS
-					tag = FIN
-					tag = SWE
-					tag = NOR
-					tag = YUG
-					tag = GEO
-					tag = AZB
-					tag = ARM
-					tag = WLE
-					tag = COR
-					tag = BRI
+				any_greater_power = {
+					has_country_flag = ofn_leader
+					NOT = {is_sphere_leader_of = THIS}
 				}
 			}
 		}

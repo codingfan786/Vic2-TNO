@@ -3,7 +3,7 @@ capital = 2172
 primary_culture = mexican
 culture = mayan
 religion = catholic
-government = democracy
+government = presidential_dictatorship
 plurality = 25.0
 nationalvalue = nv_liberty
 literacy = 0.15
@@ -14,13 +14,14 @@ prestige = 5
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = landed_voting
-public_meetings = yes_meeting
+vote_franschise = none_voting
+upper_house_composition = party_appointed
+voting_system = first_past_the_post
+public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = underground_parties
+
 
 # Social Reforms
 wage_reform = no_minimum_wage

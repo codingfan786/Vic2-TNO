@@ -58,6 +58,10 @@ political_decisions = {
 				who = EGA
 				value = 600
 			}
+			diplomatic_influence = {
+				who = CUB
+				value = 600
+			}
 
 			any_country = {
 				limit = {

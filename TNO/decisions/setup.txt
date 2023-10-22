@@ -524,11 +524,15 @@ political_decisions = {
 			SAF = {set_country_flag = in_ofn}
 			SCO = {set_country_flag = in_ofn}
 			BRZ = {set_country_flag = in_ofn}
-			#IRE = {set_country_flag = in_ofn}
-			BRZ = {set_country_flag = in_ofn}
-			MEX = {set_country_flag = in_ofn}
 			CBR = {set_country_flag = in_ofn}
 			PHI = {set_country_flag = in_ofn}
+			BOL = {set_country_flag = in_ofn}
+			PEU = {set_country_flag = in_ofn}
+			PNM = {set_country_flag = in_ofn}
+			COS = {set_country_flag = in_ofn}
+			ELS = {set_country_flag = in_ofn}
+			HON = {set_country_flag = in_ofn}
+			GUA = {set_country_flag = in_ofn}
 		}
 	}
 

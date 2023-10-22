@@ -12,7 +12,7 @@ non_state_culture_literacy = 0.02
 prestige = 5
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = wealth_voting
 public_meetings = yes_meeting

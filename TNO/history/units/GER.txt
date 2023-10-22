@@ -1,4 +1,54 @@
+CUB = {
+	level = 5
+}
 
+BOH = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+
+SLV = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+
+POL = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+
+BLT = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+
+UKR = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+
+MSC = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+
+EGA = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+
+WGA = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
 
 #========================= L A N D =========================
 

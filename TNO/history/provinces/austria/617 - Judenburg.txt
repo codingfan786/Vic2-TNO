@@ -3,6 +3,8 @@ controller = BGE
 add_core = BGE
 add_core = AUS
 
+add_core = GER
+
 
 trade_goods = iron
 life_rating = 35

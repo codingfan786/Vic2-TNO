@@ -1,6 +1,8 @@
 owner = HGE
 controller = HGE
 add_core = NET
+add_core = HGE
+
 
 
 trade_goods = coal

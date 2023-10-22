@@ -4,6 +4,16 @@ SAL = {
 	influence_value = 75
 }
 
+HAI = {
+	level = 5
+}
+
+CLM = {
+	level = 5
+}
+
+
+
 army = {
 	name = "1a Armata" #done
 	location = 487

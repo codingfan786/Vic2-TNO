@@ -245,6 +245,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500204
 	title = "Fuhrer Bormann Has Died."
 	desc = "event500204desc"
@@ -274,6 +275,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500205
 	title = "Rote Armee Fraktion Decapitates the Reichsgovernment!"
 	desc = "event500205desc"

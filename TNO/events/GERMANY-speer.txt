@@ -226,6 +226,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500199
 	title = "Reichstag Fire Decree Repealed!"
 	desc = "event500199desc"
@@ -262,6 +263,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500200
 	title = "Fuhrer Speer Steps Down."
 	desc = "event500200desc"
@@ -308,6 +310,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500201
 	title = "Fuhrer Speer Passes Away!"
 	desc = "event500201desc"

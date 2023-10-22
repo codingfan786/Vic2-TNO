@@ -69,31 +69,31 @@
 	}
 
 	aristocrats = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 525
 	}
 
 	clergymen = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 300
 	}
 
 	artisans = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 1500
 	}
 
 	soldiers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 300
 	}
 
 	farmers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 27375
 	}
@@ -102,31 +102,31 @@
 #Yurimagues (12000/3000 POPS)
 2287 = {
 	aristocrats = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 225
 	}
 
 	artisans = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 450
 	}
 
 	soldiers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 8100
 	}
@@ -134,31 +134,31 @@
 #Yuncos (12000/3000 POPS)
 2288 = {
 	aristocrats = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 225
 	}
 
 	artisans = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 450
 	}
 
 	soldiers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 8100
 	}
@@ -166,31 +166,31 @@
 #Puca Urco (12000/3000 POPS)
 2289 = {
 	aristocrats = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 225
 	}
 
 	artisans = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 450
 	}
 
 	soldiers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 8100
 	}
@@ -494,31 +494,31 @@
 	}
 
 	aristocrats = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 225
 	}
 
 	artisans = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 450
 	}
 
 	soldiers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 8100
 	}
@@ -1024,31 +1024,31 @@
 	}
 
 	aristocrats = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 225
 	}
 
 	clergymen = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 600
 	}
 
 	soldiers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 10875
 	}
@@ -1056,31 +1056,31 @@
 #Puerto Maldonado (12000/3000 POPS)
 2301 = {
 	aristocrats = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 225
 	}
 
 	artisans = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 450
 	}
 
 	soldiers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = brazilian
+		culture = north_andean
 		religion = animist
 		size = 8100
 	}

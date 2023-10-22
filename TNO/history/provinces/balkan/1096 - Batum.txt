@@ -1,7 +1,7 @@
 owner = GEO
 controller = GEO
 add_core = GEO
-add_core = TUR
+#add_core = TUR
 
 
 trade_goods = tea

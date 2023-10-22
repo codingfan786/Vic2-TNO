@@ -1,5 +1,5 @@
-owner = NET
-controller = NET
+owner = EIC
+controller = EIC
 trade_goods = fish
 life_rating = 30
 

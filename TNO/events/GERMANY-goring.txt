@@ -990,6 +990,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500184
 	title = "Anti-militarist Coup D'etat!"
 	desc = "event500184desc"

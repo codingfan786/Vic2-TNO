@@ -2,7 +2,7 @@ owner = BGE
 controller = BGE
 add_core = BGE
 add_core = AUS
-add_core = GER
 
-trade_goods = timber
+trade_goods = coal
 life_rating = 35
+ 
