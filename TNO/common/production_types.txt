@@ -829,7 +829,7 @@ grain_farm = {
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = 1.8
+	value = 2.5 # was 1.8
 	mine = yes
 }
 
