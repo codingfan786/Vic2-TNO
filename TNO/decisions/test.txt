@@ -8,16 +8,7 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			all_core = {
-				limit = {
-					empty = yes
-					OR = {
-						NOT = {is_core = CAR}
-						THIS = {tag = CAR}
-					}
-				}
-				secede_province = THIS
-			}
+			government = democracy
 		}		
 	}
 }

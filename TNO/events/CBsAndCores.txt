@@ -24,6 +24,7 @@ country_event = {
 		NOT = {
 			OR = {
 				government = democracy
+				government = democracy2
 				government = hms_government
 			}
 		}
@@ -239,7 +240,10 @@ country_event = {
 			factor = 55
 			modifier = {
 				factor = 20
-				government = democracy
+				OR = {
+					government = democracy
+					government = democracy2
+				}
 			}
 			modifier = {
 				factor = 10
@@ -398,6 +402,7 @@ country_event = {
 			factor = 0.5
 			OR = {
 				government = democracy
+				government = democracy2
 				government = hms_government
 			}
 		}

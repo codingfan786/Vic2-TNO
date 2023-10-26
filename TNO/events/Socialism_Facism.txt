@@ -19,6 +19,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -118,6 +119,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -245,6 +247,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -364,6 +367,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -482,6 +486,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -603,6 +608,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -725,6 +731,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -842,6 +849,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -958,6 +966,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -1077,6 +1086,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -1200,6 +1210,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -1327,6 +1338,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -1431,6 +1443,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -1538,6 +1551,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -1647,6 +1661,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -1751,6 +1766,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -1858,6 +1874,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -1963,6 +1980,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -2101,6 +2119,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -2210,6 +2229,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}
@@ -2329,6 +2349,7 @@ country_event = {
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
+			government = democracy2
 			government = hms_government
 			government = absolute_monarchy
 		}

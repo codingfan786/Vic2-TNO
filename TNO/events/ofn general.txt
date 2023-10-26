@@ -58,6 +58,7 @@ country_event = {
 		NOT = {
 			OR = {
 				government = democracy
+				government = democracy2
 				government = prussian_constitutionalism
 				government = hms_government
 			}

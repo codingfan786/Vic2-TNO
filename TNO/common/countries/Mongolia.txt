@@ -1,5 +1,10 @@
 color = { 255  224  124 }
 #color = { 255  234  154 }
+
+absolute_monarchy = { 206  107 74 }
+prussian_constitutionalism = { 206  107 74 }
+hms_government = { 206  107 74 }
+
 graphical_culture = Generic
 
 party = {

@@ -28,6 +28,7 @@ reactionary_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = presidential_dictatorship
+		democracy2 = presidential_dictatorship
 	}
 	
 	
@@ -227,6 +228,7 @@ fascist_rebels = {
 		prussian_constitutionalism = fascist_dictatorship
 		hms_government = fascist_dictatorship
 		democracy = fascist_dictatorship
+		democracy2 = fascist_dictatorship
 	}
 	
 	
@@ -429,6 +431,7 @@ communist_rebels = {
 		prussian_constitutionalism = proletarian_dictatorship
 		hms_government = proletarian_dictatorship
 		democracy = proletarian_dictatorship
+		democracy2 = proletarian_dictatorship
 	}
 	
 	
@@ -641,6 +644,7 @@ anarcho_liberal_rebels = {
 		prussian_constitutionalism = bourgeois_dictatorship
 		hms_government = bourgeois_dictatorship
 		democracy = bourgeois_dictatorship
+		democracy2 = bourgeois_dictatorship
 	}
 	
 	
@@ -836,6 +840,7 @@ nationalist_rebels = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		democracy2 = democracy
 	}
 	
 	
@@ -1064,6 +1069,7 @@ pan_nationalist_rebels = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		democracy2 = democracy
 	}
 
 	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
@@ -1310,6 +1316,7 @@ carlist_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
+		democracy2 = absolute_monarchy
 	}
 	
 	
@@ -1482,6 +1489,7 @@ boxer_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
+		democracy2 = absolute_monarchy
 	}
 	
 	
@@ -1706,6 +1714,7 @@ red_shirts = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		democracy2 = democracy
 	}
 
 	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
@@ -1949,6 +1958,7 @@ indian_sepoys = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		democracy2 = democracy
 	}
 
 	defection = none				
@@ -2133,6 +2143,7 @@ liberal_rebels = {
 		prussian_constitutionalism = democracy
 		hms_government = democracy
 		democracy = democracy
+		democracy2 = democracy2
 	}
 	
 	
@@ -2338,6 +2349,7 @@ unciv_reactionary_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
+		democracy2 = absolute_monarchy
 	}
 	
 	
@@ -2524,6 +2536,7 @@ sioux_nation = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		democracy2 = democracy
 	}
 
 	defection = none					# Will defect to the "best" alternative.
@@ -2645,6 +2658,7 @@ apache = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		democracy2 = democracy
 	}
 
 	defection = none					# Will defect to the "best" alternative.

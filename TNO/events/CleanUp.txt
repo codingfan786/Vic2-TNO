@@ -238,7 +238,10 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
-		government = democracy
+		OR = {
+			government = democracy
+			government = democracy2
+		}
 		vote_franschise = none_voting		
 		OR = {
 			ruling_party_ideology = conservative
@@ -264,7 +267,10 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
-		government = democracy
+		OR = {
+			government = democracy
+			government = democracy2
+		}
 		vote_franschise = none_voting
 		OR = {
 			ruling_party_ideology = liberal
@@ -290,7 +296,10 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
-		government = democracy
+		OR = {
+			government = democracy
+			government = democracy2
+		}
 		vote_franschise = none_voting
 		OR = {
 			ruling_party_ideology = socialist
@@ -316,7 +325,10 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
-		government = democracy
+		OR = {
+			government = democracy
+			government = democracy2
+		}
 		vote_franschise = none_voting
 		ruling_party_ideology = fascist
 		civilized = yes

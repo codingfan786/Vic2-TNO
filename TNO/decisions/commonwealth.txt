@@ -154,6 +154,7 @@ political_decisions = {
 			NOT= {has_country_flag = beef_eaten}
 		}
 		allow = {
+			is_our_vassal = BEF
 			revolution_n_counterrevolution = 1
 			OR = {
 				AND = {

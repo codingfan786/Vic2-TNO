@@ -42,14 +42,16 @@ political_decisions = {
 				has_country_flag = xin_formed
 			}
 			NOT = {
-				accepted_culture = turkmen
+				#accepted_culture = turkmen
+				accepted_culture = mongol
 			}
 		}
 		allow = {
 			nationalism_n_imperialism = 1
 		}
 		effect = {
-			add_accepted_culture = turkmen
+			#add_accepted_culture = turkmen
+			add_accepted_culture = mongol
 		}
 	}
 

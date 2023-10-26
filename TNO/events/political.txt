@@ -35,3 +35,25 @@ country_event = {
 	}
 }
 
+
+country_event = {
+	id = 500208
+	title = "ignore this!"
+	desc = "for ai eyes only!"
+	fire_only_once = yes
+
+	trigger = {
+		USA = {government = democracy2}
+		ai = yes
+		year = 1965
+		month = 2
+	}
+
+	immediate = {
+		USA = {government = democracy}
+		
+	}
+	option = {
+		name = "Interesting."
+	}
+}
