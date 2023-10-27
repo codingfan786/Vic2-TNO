@@ -1,7 +1,7 @@
 
-colonial = 2
-owner = SAL
-controller = SAL
+#colonial = 2
+owner = IBE
+controller = IBE
 add_core = MOR
 trade_goods = grain
 life_rating = 35
