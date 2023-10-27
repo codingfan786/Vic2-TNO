@@ -63,6 +63,9 @@ ad_hoc_money_bill_printing = 1
 late_classical_theory = 1
 market_structure = 1
 
+associationism = 1
+#muzzle_loaded_rifles = 1
+
 # Inventions
 #corvettes = yes
 commerce_raiders = yes

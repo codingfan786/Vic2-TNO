@@ -552,6 +552,16 @@ political_decisions = {
 				}
 			}
 			set_country_flag = brg_buff
+			ENG = {
+				any_owned= {
+					any_pop={
+						limit = {
+							type = soldiers
+						}
+						reduce_pop = 2
+					}
+				}
+			}
 		}
 	}
 }
