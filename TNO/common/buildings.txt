@@ -39,7 +39,7 @@ aeroplane_factory = {
 	goods_cost =
 	{
 		machine_parts = 200
-		electric_gear = 600
+		electric_gear = 50
 		steel = 600
 		cement = 600
 	}
@@ -60,7 +60,7 @@ barrel_factory = {
 	goods_cost =
 	{
 		machine_parts = 200
-		electric_gear = 500
+		electric_gear = 50
 		steel = 500
 		cement = 500
 	}
@@ -82,7 +82,7 @@ automobile_factory = {
 	goods_cost =
 	{
 		machine_parts = 200
-		electric_gear = 200
+		electric_gear = 50
 		steel = 400
 		cement = 400
 	}
@@ -104,7 +104,7 @@ radio_factory = {
 	goods_cost =
 	{
 		machine_parts = 200
-		electric_gear = 200
+		electric_gear = 50
 		steel = 200
 		cement = 200
 	}
@@ -126,7 +126,7 @@ telephone_factory = {
 	goods_cost =
 	{
 		machine_parts = 200
-		electric_gear = 200
+		electric_gear = 50
 		steel = 200
 		cement = 200
 	}
