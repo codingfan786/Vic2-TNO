@@ -210,6 +210,13 @@ political_decisions = {
 
 		}
 		effect = {
+			any_owned = {
+				any_pop = {
+					reduce_pop = 2
+				}
+			}
+
+
 			set_global_flag = setup_usa
 			any_country = {
 				limit = {
