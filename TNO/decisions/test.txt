@@ -8,7 +8,61 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			government = democracy
+			any_country = {
+				limit = {
+					OR = {
+						tag = GGE
+						tag = SGE
+						tag = BGE
+						tag = HGE
+						tag = GER
+						tag = ITA
+					}
+				}
+				any_owned = {
+					any_pop = {
+						limit = {
+							OR = {
+								has_pop_culture = north_german
+								has_pop_culture = south_german
+								has_pop_culture = north_italian
+								has_pop_culture = south_italian
+							}
+						}
+						militancy = 9
+					}
+				}
+			}
+		}		
+	}
+
+	test2 = {
+		potential = {
+			ai = no
+			always = no
+		}
+		allow = {
+		}
+		effect = {
+			NUK = {
+				inherit = UKR
+				inherit = BLT
+				inherit = MSC
+				inherit = BRG
+				inherit = GLO
+				inherit = WGA
+				inherit = EGA
+			}
+			ITA = {
+				any_owned = {
+					limit = {
+						NOT = {
+							is_core = ITA
+						}
+					}
+					secede_province = NUK
+				}
+			}
 		}		
 	}
 }

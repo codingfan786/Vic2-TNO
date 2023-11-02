@@ -69,6 +69,39 @@ luxury_needs = {
 country_migration_target =
 {
 	factor = 1
+
+	modifier = {
+		factor = 10000
+		
+		NOT = {has_country_flag = german_main}
+		OR = {
+			THIS = {has_pop_culture = north_german}
+			THIS = {has_pop_culture = south_german}
+		}
+		OR = {
+			primary_culture = north_german
+			primary_culture = south_german
+			accepted_culture = north_german
+			accepted_culture = south_german
+		}
+	}
+
+	modifier = {
+		factor = 10000
+		
+		NOT = {has_country_flag = italy_main}
+		OR = {
+			THIS = {has_pop_culture = north_italian}
+			THIS = {has_pop_culture = south_italian}
+		}
+		OR = {
+			primary_culture = north_italian
+			primary_culture = south_italian
+			accepted_culture = north_italian
+			accepted_culture = south_italian
+		}
+	}
+
 	modifier = {
 		factor = 2.0
 		has_pop_culture = THIS

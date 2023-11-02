@@ -1,0 +1,22 @@
+political_decisions = {
+
+	glo_inherit = {
+		picture = enact_the_homestead_act
+		potential = {
+			tag = GE2
+			exists = GLO
+				
+			NOT = {has_country_flag = glo_inherited}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+
+			GLO = {vassal_of = THIS}
+		}
+		effect = {
+			inherit = GLO
+			
+			set_country_flag = glo_inherited
+		}
+	}
+}

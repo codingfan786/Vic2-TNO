@@ -788,3 +788,8 @@ war_plan_0_finish;War Plan Zero finished.;x
 war_plan_a_finish;War Plan A finished.;x
 war_plan_b_finish;War Plan B finished.;x
 Diplomacy_in_the_East;Satisfied Turkish demands in the Malta conference.;x
+ETH_1;Djibuti;x
+algeria_inherit_title;Integrate the Algerian Occupational Government.;;;;;;;;;;;;x
+algeria_inherit_desc;The Algerian occupational government has served its purpose. It is time that we take direct control of the territory.;;;;;;;;;;;;x
+glo_inherit_title;Integrate the Benelux Occupational Government.;;;;;;;;;;;;x
+glo_inherit_desc;The Benelux occupational government has served its purpose. It is time that we take direct control of the territory.;;;;;;;;;;;;x

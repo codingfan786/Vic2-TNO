@@ -4,4 +4,4 @@ life_rating = 35
 owner = IET
 controller = IET
 add_core = SOM
-colonial = 2
+#colonial = 2

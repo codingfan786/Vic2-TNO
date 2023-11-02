@@ -212,6 +212,9 @@ political_decisions = {
 		effect = {
 			any_owned = {
 				any_pop = {
+					limit = {
+						NOT = {type = craftsmen}
+					}
 					reduce_pop = 2
 				}
 			}
@@ -344,6 +347,10 @@ political_decisions = {
 					value = 0
 				}
 			}
+			set_country_flag = german_main
+			ITA = {set_country_flag = italy_main}
+			GRE = {set_country_flag = italy_main}
+			GRE = {set_country_flag = greece_main}
 			any_country = {
 				limit = {
 					OR = {
@@ -354,6 +361,7 @@ political_decisions = {
 					}
 				}
 				civilized = yes
+				set_country_flag = german_main
 			}
 			set_country_flag = taken_support
 			HND = {

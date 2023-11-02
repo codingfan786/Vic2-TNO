@@ -5,4 +5,4 @@ add_core = ETH
 
 trade_goods = rubber
 life_rating = 30
-colonial = 2
+#colonial = 2
