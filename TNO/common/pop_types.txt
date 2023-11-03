@@ -485,6 +485,7 @@ emigration_chance =
 			has_pop_culture = south_german
 		}
 		location = {owner = {has_country_flag = german_main}}
+		NOT = {location = {owner = {has_country_flag = german_africa}}}
 	}
 
 	group = {
@@ -611,12 +612,12 @@ emigration_chance =
 	}
 
 
-	modifier = {
-		factor = -0.3
-		state_scope = {
-			has_factories = yes
-			}
-	}
+	#modifier = {
+	#	factor = -0.3
+	#	state_scope = {
+	#		has_factories = yes
+	#		}
+	#}
 
 	group = {
 		modifier = {

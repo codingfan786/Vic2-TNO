@@ -1148,6 +1148,10 @@ pan_nationalist_rebels = {
 					tag = EGY
 					tag = ABU
 					#jordan and syria
+					tag = JOR
+					tag = SYR
+					tag = MOR
+					tag = ALD
 				}
 			}
 		}

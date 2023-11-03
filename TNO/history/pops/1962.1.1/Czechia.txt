@@ -929,69 +929,69 @@
 #Rokycany (400000/100000 POPS)
 
 #Pribram (400000/100000 POPS)
-1817 = {
+1817 = {#this was czech. typo?
     clergymen = {
-        culture = czech
+        culture = nilo_saharan
         religion = catholic
         size = 1025
     }
 
     artisans = {
-        culture = czech
+        culture = nilo_saharan
         religion = catholic
         size = 3100
     }
 
     artisans = {
-        culture = czech
+        culture = nilo_saharan
         religion = catholic
         size = 1500
     }
 
     soldiers = {
-        culture = czech
+        culture = nilo_saharan
         religion = catholic
         size = 1000
     }
 
     soldiers = {
-        culture = czech
+        culture = nilo_saharan
         religion = catholic
         size = 250
     }
 
     farmers = {
-        culture = czech
+        culture = nilo_saharan
         religion = catholic
         size = 80000
     }
 
     aristocrats = {
-        culture = south_german
+        culture = nilo_saharan
         religion = catholic
         size = 800
     }
 
     clergymen = {
-        culture = south_german
+        culture = nilo_saharan
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = south_german
+        culture = nilo_saharan
         religion = catholic
         size = 2000
     }
 
     soldiers = {
-        culture = south_german
+        culture = nilo_saharan
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = south_german
+        culture = nilo_saharan
         religion = catholic
         size = 3025
     }

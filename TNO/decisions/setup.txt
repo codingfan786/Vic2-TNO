@@ -348,6 +348,10 @@ political_decisions = {
 				}
 			}
 			set_country_flag = german_main
+			EGA = {set_country_flag = german_main}
+			WGA = {set_country_flag = german_main}
+			EGA = {set_country_flag = german_africa}
+			WGA = {set_country_flag = german_africa}
 			ITA = {set_country_flag = italy_main}
 			GRE = {set_country_flag = italy_main}
 			GRE = {set_country_flag = greece_main}
