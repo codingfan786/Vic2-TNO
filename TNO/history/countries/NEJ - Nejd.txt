@@ -24,13 +24,13 @@ nonstate_consciousness = 0
 
 oob = "NEJ_oob.txt"
 
-slavery = no_slavery
-upper_house_composition = appointed
+slavery = yes_slavery
 vote_franschise = none_voting
+upper_house_composition = party_appointed
+voting_system = first_past_the_post
 public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = jefferson_method
 political_parties = underground_parties
 
 wage_reform = no_minimum_wage

@@ -72,4 +72,100 @@ political_decisions = {
 			set_country_flag = al_inherited
 		}
 	}
+
+	iet_inherit = {
+		picture = enact_the_homestead_act
+		potential = {
+			tag = ITA
+			IET = {vassal_of = THIS}
+			NOT = {has_country_flag = iet_inherited}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			IET = {
+				NOT = {
+					any_owned_province = {
+						NOT = {is_accepted_culture = yes}
+						NOT = {is_primary_culture= yes}
+						
+						is_colonial = no
+					}
+				}
+			}
+		}
+		effect = {
+			IET = {
+				all_core = {
+					add_core = ITA
+					remove_core = IET
+				}
+			}
+			inherit = IET
+			set_country_flag = iet_inherited
+		}
+	}
+
+	iis_inherit = {
+		picture = enact_the_homestead_act
+		potential = {
+			tag = ITA
+			IIS = {vassal_of = THIS}
+			NOT = {has_country_flag = iis_inherited}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			IIS = {
+				NOT = {
+					any_owned_province = {
+						NOT = {is_accepted_culture = yes}
+						NOT = {is_primary_culture= yes}
+						
+						is_colonial = no
+					}
+				}
+			}
+		}
+		effect = {
+			IIS = {
+				all_core = {
+					add_core = ITA
+					remove_core = IIS
+				}
+			}
+			inherit = IIS
+			set_country_flag = iis_inherited
+		}
+	}
+
+	igy_inherit = {
+		picture = enact_the_homestead_act
+		potential = {
+			tag = ITA
+			IGY = {vassal_of = THIS}
+			NOT = {has_country_flag = igy_inherited}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			IGY = {
+				NOT = {
+					any_owned_province = {
+						NOT = {is_accepted_culture = yes}
+						NOT = {is_primary_culture= yes}
+						
+						is_colonial = no
+					}
+				}
+			}
+		}
+		effect = {
+			IGY = {
+				all_core = {
+					add_core = ITA
+					remove_core = IGY
+				}
+			}
+			inherit = IGY
+			set_country_flag = igy_inherited
+		}
+	}
 }

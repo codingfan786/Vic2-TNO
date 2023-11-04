@@ -1208,7 +1208,7 @@ ideologies = {
 			luxury_needs = 0.1
 		}	
 		modifier = {
-			factor = 2
+			factor = 1.25 #EXPERIMENTAL CONSERVATIVE CHANGE
 			state_scope = {
 				poor_strata_everyday_needs = 1
 			}
@@ -1247,6 +1247,7 @@ ideologies = {
 
 	socialist = {
 		factor = 1
+
 		modifier = {
 			factor = 1.1
 			nationalvalue = nv_equality

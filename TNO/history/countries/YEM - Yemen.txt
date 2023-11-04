@@ -2,9 +2,9 @@ civilized = yes
 capital = 1178
 primary_culture = mashriqi
 religion = sunni
-government = absolute_monarchy
+government = democracy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_equality
 literacy = 0.3
 
 ruling_party = YEM_conservative
@@ -26,13 +26,13 @@ nonstate_consciousness = 0
 oob = "YEM_oob.txt"
 
 slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = none_voting
-public_meetings = no_meeting
-press_rights = state_press
+upper_house_composition = state_equal_weight
+vote_franschise = universal_voting
+public_meetings = yes_meeting
+press_rights = free_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = underground_parties
+political_parties = non_secret_ballots
 
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit

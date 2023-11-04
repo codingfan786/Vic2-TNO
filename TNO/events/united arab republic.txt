@@ -1,0 +1,360 @@
+country_event = {
+	id = 500209
+	title = "Black Gold, Red Sand."
+	desc = "event500209desc"
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		has_country_flag = baathists_won
+		NOT = {has_global_flag = UAR_exists}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		clr_country_flag = baathists_won
+		set_global_flag = UAR_exists
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = NEJ
+					is_core = OMA
+					is_core = YEM
+					is_core = IRQ
+					is_core = EGY
+					is_core = ABU
+					is_core = JOR
+					is_core = SYR
+					is_core = ISR
+				}
+			}
+			#secede_province = ARA
+			add_core = ARA
+		}
+
+		any_owned = {
+			limit = {
+				owner = {
+					tag = IIS
+				}
+				is_capital = yes
+			}
+			set_global_flag = iis_go_away
+			IIS = {
+				all_core = {
+					remove_core = IIS
+				}
+			}
+		}
+
+		any_owned = {
+			limit = {
+				owner = {
+					tag = IGY
+				}
+				is_capital = yes
+			}
+			set_global_flag = igy_go_away
+			IGY = {
+				all_core = {
+					remove_core = IGY
+				}
+				release = SUD
+			}
+		}
+
+		any_owned = {
+			limit = {
+				owner = {
+					ai = no
+					OR = {
+						tag = NEJ
+						tag = OMA
+						tag = YEM
+						tag = IRQ
+						tag = EGY
+						tag = ABU
+						tag = JOR
+						tag = SYR
+						tag = IGY
+						tag = IIS
+					}
+				}
+				ARA = {
+					NOT = {exists = yes}
+				}
+				is_capital = yes
+			}
+			THIS = {
+				government = democracy
+				political_reform = universal_voting
+				political_reform = party_appointed
+				political_reform = yes_meeting
+				political_reform = state_press
+				political_reform = all_trade_unions
+				political_reform = first_past_the_post
+				political_reform = underground_parties
+				ruling_party_ideology = socialist
+				
+				primary_culture = mashriqi
+				add_accepted_culture = bedouin
+				add_accepted_culture = misri
+				#add_accepted_culture = maghrebi
+				remove_accepted_culture = south_italian
+				remove_accepted_culture = north_italian
+				change_tag = ARA
+				release_vassal = ARA
+				ITA = {
+					diplomatic_influence = {
+						who = ARA
+						value = -800
+					}
+				}
+				
+			}
+		}
+
+		any_owned = {
+			limit = {
+				owner = {
+					OR = {
+						tag = NEJ
+						tag = OMA
+						tag = YEM
+						tag = IRQ
+						tag = EGY
+						tag = ABU
+						tag = JOR
+						tag = SYR
+						tag = ISR
+					}
+				}
+			}
+			owner = {
+				war_countries = {
+					end_war = THIS
+				}
+			}
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = NEJ
+					is_core = OMA
+					is_core = YEM
+					is_core = IRQ
+					is_core = EGY
+					is_core = ABU
+					is_core = JOR
+					is_core = SYR
+					is_core = ISR
+				}
+			}
+			secede_province = ARA
+			#add_core = ARA
+		}
+
+		any_owned = {
+			limit = {
+				has_global_flag = iis_go_away
+			}
+			ITA = {
+				inherit = IIS
+			}
+			clr_global_flag = iis_go_away
+		}
+
+		any_owned = {
+			limit = {
+				has_global_flag = igy_go_away
+			}
+			ITA = {
+				inherit = IGY
+			}
+			clr_global_flag = igy_go_away
+		}
+	}
+
+	option = {
+		name = "Unity, Liberty, Socialism!"
+		ITA = {
+			diplomatic_influence = {
+				who = ARA
+				value = -100
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 500210
+	title = "Black Gold, Red Sand."
+	desc = "event500210desc"
+
+	trigger = {
+		has_country_flag = baathists_won
+		has_global_flag = UAR_exists
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		clr_country_flag = baathists_won
+		
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = NEJ
+					is_core = OMA
+					is_core = YEM
+					is_core = IRQ
+					is_core = EGY
+					is_core = ABU
+					is_core = JOR
+					is_core = SYR
+					is_core = ISR
+				}
+			}
+			#secede_province = ARA
+			add_core = ARA
+		}
+
+		any_owned = {
+			limit = {
+				owner = {
+					tag = IIS
+				}
+				is_capital = yes
+			}
+			set_global_flag = iis_go_away
+			IIS = {
+				all_core = {
+					remove_core = IIS
+				}
+			}
+		}
+
+		any_owned = {
+			limit = {
+				owner = {
+					tag = IGY
+				}
+				is_capital = yes
+			}
+			set_global_flag = igy_go_away
+			IGY = {
+				all_core = {
+					remove_core = IGY
+				}
+				release = SUD
+			}
+		}
+
+		any_owned = {
+			limit = {
+				owner = {
+					ai = no
+					OR = {
+						tag = NEJ
+						tag = OMA
+						tag = YEM
+						tag = IRQ
+						tag = EGY
+						tag = ABU
+						tag = JOR
+						tag = SYR
+						tag = IGY
+						tag = IIS
+					}
+				}
+				ARA = {
+					NOT = {exists = yes}
+				}
+				is_capital = yes
+			}
+			THIS = {
+				government = democracy
+				political_reform = universal_voting
+				political_reform = party_appointed
+				political_reform = yes_meeting
+				political_reform = state_press
+				political_reform = all_trade_unions
+				political_reform = first_past_the_post
+				political_reform = underground_parties
+				ruling_party_ideology = socialist
+				
+				primary_culture = mashriqi
+				add_accepted_culture = bedouin
+				add_accepted_culture = misri
+				#add_accepted_culture = maghrebi
+				remove_accepted_culture = south_italian
+				remove_accepted_culture = north_italian
+				change_tag = ARA
+				release_vassal = ARA
+				ITA = {
+					diplomatic_influence = {
+						who = ARA
+						value = -800
+					}
+				}
+				
+			}
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = NEJ
+					is_core = OMA
+					is_core = YEM
+					is_core = IRQ
+					is_core = EGY
+					is_core = ABU
+					is_core = JOR
+					is_core = SYR
+					is_core = ISR
+				}
+			}
+			secede_province = ARA
+			#add_core = ARA
+		}
+
+		any_owned = {
+			limit = {
+				has_global_flag = iis_go_away
+			}
+			ITA = {
+				inherit = IIS
+			}
+			clr_global_flag = iis_go_away
+		}
+
+		any_owned = {
+			limit = {
+				has_global_flag = igy_go_away
+			}
+			ITA = {
+				inherit = IGY
+			}
+			clr_global_flag = igy_go_away
+		}
+	}
+
+	option = {
+		name = "Unity, Liberty, Socialism!"
+		ITA = {
+			diplomatic_influence = {
+				who = ARA
+				value = -100
+			}
+		}
+	}
+}

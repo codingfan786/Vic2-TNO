@@ -8,31 +8,14 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			any_country = {
-				limit = {
-					OR = {
-						tag = GGE
-						tag = SGE
-						tag = BGE
-						tag = HGE
-						tag = GER
-						tag = ITA
-					}
-				}
+			
 				any_owned = {
 					any_pop = {
-						limit = {
-							OR = {
-								has_pop_culture = north_german
-								has_pop_culture = south_german
-								has_pop_culture = north_italian
-								has_pop_culture = south_italian
-							}
-						}
+						
 						militancy = 9
 					}
 				}
-			}
+			
 		}		
 	}
 
@@ -44,24 +27,21 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			NUK = {
-				inherit = UKR
-				inherit = BLT
-				inherit = MSC
-				inherit = BRG
-				inherit = GLO
-				inherit = WGA
-				inherit = EGA
-			}
-			ITA = {
-				any_owned = {
-					limit = {
-						NOT = {
-							is_core = ITA
-						}
+			#set_country_flag = baathists_won
+			any_country = {
+				limit = {
+					OR = {
+						tag = IGY
+						tag = IIS
+						tag = NEJ
+						tag = IRQ
+						tag = ITA
+						tag = TUR
+						tag = OMA
+						tag = YEM
 					}
-					secede_province = NUK
 				}
+				set_country_flag = baathists_won
 			}
 		}		
 	}

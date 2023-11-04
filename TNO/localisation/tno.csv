@@ -793,3 +793,29 @@ algeria_inherit_title;Integrate the Algerian Occupational Government.;;;;;;;;;;;
 algeria_inherit_desc;The Algerian occupational government has served its purpose. It is time that we take direct control of the territory.;;;;;;;;;;;;x
 glo_inherit_title;Integrate the Benelux Occupational Government.;;;;;;;;;;;;x
 glo_inherit_desc;The Benelux occupational government has served its purpose. It is time that we take direct control of the territory.;;;;;;;;;;;;x
+event500209desc;With the advent of Ba'athist victory over government forces in $COUNTRY$, the long awaited dream of Arab unity has found its first victory. Ba'athism is an Arab nationalist ideology which promotes the creation and development of a unified Arab state through the leadership of a vanguard party over a socialist revolutionary government. The ideology is officially based on the theories of the Syrian intellectuals Michel Aflaq, Zaki al-Arsuzi, and Salah al-Din al-Bitar. §R You get a new instant CB to spread Ba'athism that you can use either when an Arab province is controlled by rebels, or when you are at war with someone and control all of their Arab provinces. (Arab here doesn't include anything west of Egypt.);x
+event500210desc;With the advent of Ba'athist victory over government forces in $COUNTRY$, the long awaited dream of Arab unity has found its next victory. Ba'athism is an Arab nationalist ideology which promotes the creation and development of a unified Arab state through the leadership of a vanguard party over a socialist revolutionary government. The ideology is officially based on the theories of the Syrian intellectuals Michel Aflaq, Zaki al-Arsuzi, and Salah al-Din al-Bitar.;x
+baathist_rebels_name;$COUNTRY$ Ba'athists;x
+baathist_rebels_army;$COUNTRY_ADJ$ Ba'athist Popular Army;x
+baathist_rebels_desc;Ba'athism is an Arab nationalist ideology which promotes the creation and development of a unified Arab state through the leadership of a vanguard party over a socialist revolutionary government. If this rebel group wins they will join the United Arab Republic.;x
+form_UAR_title;Proclaim Ba'athist Government!;x
+form_UAR_desc;Ba'athism is an Arab nationalist ideology which promotes the creation and development of a unified Arab state through the leadership of a vanguard party over a socialist revolutionary government. If we formally adopt this movement we begin the difficult journey of pan-Arab unity, but alienate ourselves from western powers.;x
+expand_UAR_cores_title;Expand Ba'athism!;x
+expand_UAR_cores_desc;Our lands contain people who are separated from the rest of their sub-Arab homeland. If we want to truly establish Ba'athist rule over Arabia we must free them!;x
+expand_UAR_west_title;Free the Mediterranean!;x
+expand_UAR_west_desc;Having successfully freed the bulk of our Arab homeland, it is now time to expel the colonialists of Italy from the Arab people of Libya and Tunisia!;x
+expand_UAR_wester_title;Free the Maghrebi!;x
+expand_UAR_wester_desc;Having successfully freed the bulk of our Arab homeland, it is now time to expel the colonialists of Iberia from the Arab people of Morocco and Algeria!;x
+CFR_AF1_inherit_title;Annex Gbeland;x
+CFR_AF1_inherit_desc;We're one again!;x
+baathism;Ba'athist Revolution!;;;;;;;;;;;;x;;;
+baathism_short;Spread the Ba'athist revolution to $RECIPIENT$! This annexes all Arab states.;;;;;;;;;;;;x;;;
+baathism_setup;Acquire Arab states from $RECIPIENT$. §R This CB costs 5 infamy, despite what this menu says.;;;;;;;;;;;;x;;;
+baathism_desc;Ba'athist uprising spreads! §R This CB costs 5 infamy, despite what this menu says.;x
+arab_unrest;Arab Unrest;x
+iet_inherit_title;Integrate the East African Occupational Government.;;;;;;;;;;;;x
+iet_inherit_desc;The East African occupational government has served its purpose. It is time that we take direct control of the territory. §R The requirements localization is bugged. This becomes available when all stated provinces in the puppet are majority Italian.;;;;;;;;;;;;x
+iis_inherit_title;Integrate the Levantine Occupational Government.;;;;;;;;;;;;x
+iis_inherit_desc;The Levantine occupational government has served its purpose. It is time that we take direct control of the territory. §R The requirements localization is bugged. This becomes available when all stated provinces in the puppet are majority Italian.;;;;;;;;;;;;x
+igy_inherit_title;Integrate the Egyptian Occupational Government.;;;;;;;;;;;;x
+igy_inherit_desc;The Egyptian occupational government has served its purpose. It is time that we take direct control of the territory. §R The requirements localization is bugged. This becomes available when all stated provinces in the puppet are majority Italian.;;;;;;;;;;;;x

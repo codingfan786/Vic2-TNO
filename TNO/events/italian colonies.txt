@@ -1,0 +1,55 @@
+country_event = {
+	id = 500212
+	title = "Arab Spring"
+	desc = "There is general unrest among our Arab population."
+
+	trigger = {
+		OR = {
+			tag = IIS
+			tag = IET
+			tag = IGY
+		}
+		OR = {
+			AND = {
+				year = 1972
+				NOT = {has_country_flag = first_arab_unrest}
+			}
+			AND = {
+				is_vassal = no
+				NOT = {has_country_flag = second_arab_unrest}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	immediate = {
+		remove_country_modifier = arab_unrest
+		add_country_modifier = {
+			name = arab_unrest
+			duration = 3650
+		}
+
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {is_vassal = yes}
+			}
+			owner = {set_country_flag = first_arab_unrest}
+		}
+
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {is_vassal = no}
+			}
+			owner = {set_country_flag = second_arab_unrest}
+		}
+	}
+
+	option = {
+		name = "The army will take control of the situation."
+	}
+}

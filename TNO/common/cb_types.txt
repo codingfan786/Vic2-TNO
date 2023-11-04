@@ -96,6 +96,7 @@ goring_wild_ride_b
 goring_wild_ride_c
 brg_stockpile_sieze
 nuke_disarm
+baathism
 }
 
 gunboat = {
@@ -3299,5 +3300,98 @@ nuke_disarm = {
 	}
 	on_po_accepted = {
 		country_event = 500206
+	}
+}
+
+baathism = {
+	sprite_index = 9
+	is_triggered_only = yes
+	months = 0
+	crisis = no
+	constructing_cb = no
+	always = yes
+
+	badboy_factor = 1.1
+	prestige_factor = 2
+	peace_cost_factor = 75
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+
+	can_use = {
+		OR = {
+			NOT = {THIS = {ai = yes}}
+			NOT = {
+				THIS = {badboy = 0.80}
+			}
+		}
+		
+		THIS = {tag = ARA}
+		
+		NOT = { truce_with = THIS } 
+		NOT = {vassal_of = THIS}
+		
+		OR = {#Either rebels control an arab province or you are at war with them and control all arab provinces
+			any_owned_province = {
+				controlled_by = REB
+				OR = {
+					is_core = NEJ
+					is_core = OMA
+					is_core = YEM
+					is_core = IRQ
+					is_core = EGY
+					is_core = ABU
+					is_core = JOR
+					is_core = SYR
+					is_core = ISR
+				}
+			}
+			AND = {
+				war_with = THIS
+				NOT = {
+					any_owned_province = {
+						NOT = {controlled_by = THIS}
+						OR = {
+							is_core = NEJ
+							is_core = OMA
+							is_core = YEM
+							is_core = IRQ
+							is_core = EGY
+							is_core = ABU
+							is_core = JOR
+							is_core = SYR
+							is_core = ISR
+						}
+					}
+				}
+				
+			}
+		}
+		
+
+	}
+
+	war_name = WAR_INSTALL_NEW_GOV_NAME
+	po_remove_prestige = yes
+
+	on_add = {
+		THIS = {badboy = 5}
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	on_po_accepted = {
+		country_event = 500210
 	}
 }

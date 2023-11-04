@@ -1,0 +1,31 @@
+country_event = {
+	id = 500211
+	title = "Ghost War Fix"
+	desc = "This is a bugfix event to end wars with countries that no longer exist."
+
+	trigger = {
+		war = yes
+		NOT = {
+			war_countries = {
+				exists = yes
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_country = {
+			limit = {
+				NOT = {exists = yes}
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+	}
+	option = {
+		name = "Thanks Paradox!"
+	}
+}
