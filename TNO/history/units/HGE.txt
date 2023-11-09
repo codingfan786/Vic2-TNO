@@ -120,7 +120,123 @@ army = {
 	}
 }
 
+army = {
+	name = "Defense Forces"
+	location = 576
 
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 397
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 396
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 576
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 381
+	}
+
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 577
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 577
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 578
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 578
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 578
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 571
+	}
+}
+
+army = {
+	name = "Defense Forces"
+	location = 571
+
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 586
+	}
+
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 590
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 589
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 593
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 593
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 570
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 570
+	}
+}
 #========================= S E A =========================
 
 

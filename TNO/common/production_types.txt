@@ -3,7 +3,7 @@
 
 factory_template = {
 	efficiency = {
-		cement = 0.5 #if no cement, work at 75% efficiency #cost = 16.0
+		cement = 0.25 #if no cement, work at 75% efficiency #cost = 16.0
 		machine_parts = 0.05 # was 0.01 cost = 36.5		# 9.825/day/level for both
 	}
 	
@@ -65,7 +65,7 @@ cheap_factory_template = {
 
 machine_part_user_template = {
 	efficiency = {
-		cement = 0.5 #if no cement, work at 75% efficiency #cost = 16.0
+		cement = 0.25 #if no cement, work at 75% efficiency #cost = 16.0
 	}
 	
 	owner =

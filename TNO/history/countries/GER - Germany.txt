@@ -16,6 +16,7 @@ prestige = 1000
 schools = prussian_tech_school
 oob = "GER.txt"
 
+#decision = german_fascism_support
 #========================= H O U S E - O F - L O R D S =========================
 
 ruling_party = GER_fascist

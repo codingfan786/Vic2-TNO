@@ -87,7 +87,7 @@ political_decisions = {
 			set_global_flag = did_spy_2
 			add_country_modifier = {
 				name = spying
-				duration = 365
+				duration = 730
 				#duration = 20
 			}
 			country_event = 500088

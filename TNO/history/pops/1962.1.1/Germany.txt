@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 4000 
+		size = 8000 
 	}
 
 	farmers = {
@@ -127,7 +127,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1100 
+		size = 2100 
 	}
 
 	farmers = {
@@ -185,7 +185,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1100
+		size = 2100
 	}
 
 	farmers = {
@@ -242,7 +242,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2000
+		size = 4000
 	}
 
 	farmers = {
@@ -279,7 +279,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1100
+		size = 2100
 	}
 
 	farmers = {
@@ -335,7 +335,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1100
+		size = 2100
 	}
 
 	farmers = {
@@ -397,7 +397,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1250 
+		size = 2500 
 	}
 
 	farmers = {
@@ -441,7 +441,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1100 
+		size = 2100 
 	}
 
 	farmers = {
@@ -492,7 +492,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 3000 
+		size = 6000 
 	}
 
 	farmers = {
@@ -565,7 +565,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2000 
+		size = 4000 
 	}
 
 	farmers = {
@@ -609,7 +609,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1100 
+		size = 2100 
 	}
 
 	farmers = {
@@ -647,7 +647,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 300 
+		size = 600 
 	}
 
 	farmers = {
@@ -723,7 +723,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2000
+		size = 4000
 	}
 
 	farmers = {
@@ -787,7 +787,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1100 
+		size = 2100 
 	}
 
 	farmers = {
@@ -849,7 +849,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2000 
+		size = 4000 
 	}
 
 	farmers = {
@@ -1107,7 +1107,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1500
+		size = 3000
 	}
 
 	farmers = {
@@ -1139,7 +1139,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1200 
+		size = 2400 
 	}
 
 	farmers = {
@@ -1163,7 +1163,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 1200    
+		size = 2400    
 	}
 
 	farmers = {
@@ -1279,7 +1279,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 5000 
+		size = 10000 
 	}
 
 	farmers = {
@@ -1395,7 +1395,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2400 
+		size = 4800 
 	}
 
 	farmers = {
@@ -1427,7 +1427,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2400
+		size = 4800
 	}
 
 	farmers = {
@@ -1459,7 +1459,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2300 
+		size = 4600 
 	}
 
 	farmers = {
@@ -1534,7 +1534,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2300 
+		size = 4600 
 	}
 
 	farmers = {
@@ -1602,7 +1602,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300 
+		size = 2600 
 	}
 
 	farmers = {
@@ -1670,7 +1670,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1400 
+		size = 2800 
 	}
 
 	farmers = {
@@ -1738,7 +1738,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300 
+		size = 2600 
 	}
 
 	farmers = {
@@ -1783,7 +1783,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300 
+		size = 2600 
 	}
 
 	farmers = {
@@ -1882,7 +1882,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1650 
+		size = 3250 
 	}
 
 	farmers = {
@@ -1980,7 +1980,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1100 
+		size = 2200 
 	}
 
 	farmers = {
@@ -2036,7 +2036,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1200
+		size = 2400
 	}
 
 	farmers = {
@@ -2088,7 +2088,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1200 
+		size = 20000 
 	}
 
 	farmers = {
@@ -2145,7 +2145,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300 
+		size = 2600 
 	}
 
 	farmers = {
@@ -2190,7 +2190,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300
+		size = 2600
 	}
 
 	farmers = {
@@ -2242,7 +2242,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1200 
+		size = 2400 
 	}
 
 	farmers = {
@@ -2323,7 +2323,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300
+		size = 2600
 	}
 
 	farmers = {
@@ -2347,7 +2347,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 1300        
+		size = 2600        
 	}
 
 	farmers = {
@@ -2404,7 +2404,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 4200 
+		size = 8000 
 	}
 
 	farmers = {
@@ -2472,7 +2472,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1550 
+		size = 3000 
 	}
 
 	farmers = {
@@ -2528,7 +2528,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1500 
+		size = 3000 
 	}
 
 	farmers = {
@@ -2572,7 +2572,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300 
+		size = 2600 
 	}
 
 	farmers = {
@@ -2678,6 +2678,13 @@
 #under the rule of Hesse-Darmstadt 1836  
 #Mainz (242200/60550 POPS)
 570 = {
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 20000
+	}
+
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -2699,7 +2706,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1500 
+		size = 3000 
 	}
 
 	farmers = {
@@ -2773,7 +2780,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100            
+		size = 2000            
 	}
 
 	farmers = {
@@ -2946,7 +2953,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 1500 
+		size = 2500 
 	}
 
 	farmers = {
@@ -3101,7 +3108,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 3200 
+		size = 6200 
 	}
 
 	farmers = {
@@ -3157,7 +3164,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 2300
+		size = 4300
 	}
 
 	farmers = {
@@ -3207,7 +3214,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 2300  
+		size = 4300  
 	}
 
 	farmers = {
@@ -3276,7 +3283,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 2300 
+		size = 4300 
 	}
 
 	farmers = {
@@ -3306,7 +3313,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300  
+		size = 2300  
 	}
 
 	farmers = {
@@ -3401,7 +3408,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 1300 
+		size = 2300 
 	}
 
 	farmers = {
@@ -3477,7 +3484,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300 
+		size = 2300 
 	}
 
 	farmers = {
@@ -3513,7 +3520,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 2400  
+		size = 4400  
 	}
 
 	farmers = {
@@ -3587,7 +3594,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 3250  
+		size = 6250  
 	}
 
 	farmers = {
@@ -3619,7 +3626,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300 
+		size = 2300 
 	}
 
 	farmers = {
@@ -3649,7 +3656,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 1300  
+		size = 2300  
 	}
 
 	farmers = {
@@ -3743,7 +3750,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1400 
+		size = 2400 
 	}
 
 	farmers = {
@@ -3773,7 +3780,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 1125  
+		size = 2125  
 	}
 
 	farmers = {
@@ -3818,7 +3825,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1400 
+		size = 2400 
 	}
 
 	farmers = {
@@ -3843,6 +3850,13 @@
 #under the rule of Baden in 1836  
 #Karlsruhe (632000/158000 POPS)
 586 = {
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 20000
+	}
+
 	craftsmen = {
 		culture = south_german
 		religion = catholic
@@ -3881,7 +3895,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1550 
+		size = 3050 
 	}
 
 	farmers = {
@@ -3949,7 +3963,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100 
+		size = 2100 
 	}
 
 	farmers = {
@@ -4080,7 +4094,7 @@
 	soldiers = {
 		culture = south_german
 		religion = protestant
-		size = 7000 
+		size = 14000 
 	}
 
 	farmers = {
@@ -4226,7 +4240,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100 
+		size = 2100 
 	}
 
 	farmers = {
@@ -4253,7 +4267,7 @@
 	soldiers = {
 		culture = south_german
 		religion = protestant
-		size = 4000 
+		size = 8000 
 	}
 
 	farmers = {
@@ -4283,7 +4297,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 900  
+		size = 1800  
 	}
 
 	farmers = {
@@ -4328,7 +4342,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1300   
+		size = 2300   
 	}
 
 	farmers = {
@@ -4379,7 +4393,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 2000 
+		size = 20000
 	}
 
 	farmers = {
@@ -4409,7 +4423,7 @@
 	soldiers = {
 		culture = south_german
 		religion = protestant
-		size = 1500 
+		size = 3000 
 	}
 
 	farmers = {
@@ -4485,7 +4499,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100 
+		size = 2100 
 	}
 
 	farmers = {
@@ -4604,7 +4618,13 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 3000
+		size = 6000
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 20000
 	}
 
 	farmers = {
@@ -4625,11 +4645,7 @@
 		size = 2000
 	}
 
-	soldiers = {
-		culture = south_german
-		religion = protestant
-		size = 150  
-	}
+
 
 	farmers = {
 		culture = south_german
@@ -4704,7 +4720,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size = 2100
 	}
 
 	farmers = {
@@ -4736,7 +4752,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size = 2100
 	}
 
 	farmers = {
@@ -4770,7 +4786,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1400 
+		size = 2400 
 	}
 
 	farmers = {
@@ -4852,7 +4868,7 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 3300   
+		size = 6300   
 	}
 
 	farmers = {
@@ -4876,7 +4892,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 1300   
+		size = 2300   
 	}
 
 	farmers = {

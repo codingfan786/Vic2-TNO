@@ -218,13 +218,13 @@ country_event = {
 			create_vassal = ENG
 			prestige = 20
 		}
-		GGE = {
+		FROM = {
 			diplomatic_influence = {
 				who = ENG
 				value = 800
 			}
 		}
-		GGE = {
+		FROM = {
 			diplomatic_influence = {
 				who = COR
 				value = 800
@@ -292,8 +292,8 @@ country_event = {
 				primary_culture = north_german
 
 			}
-			GGE = {create_vassal = GSC}
-			GGE = {
+			FROM = {create_vassal = GSC}
+			FROM = {
 				diplomatic_influence = {
 					who = GSC
 					value = 800
@@ -311,8 +311,8 @@ country_event = {
 				GSC = {exists = no}
 			}
 			secede_province = GSC
-			GGE = {create_vassal = GSC}
-			GGE = {
+			FROM = {create_vassal = GSC}
+			FROM = {
 				diplomatic_influence = {
 					who = GSC
 					value = 800
@@ -383,8 +383,8 @@ country_event = {
 				primary_culture = north_german
 				all_core = {remove_core = GBA}
 			}
-			GGE = {create_vassal = GBA}
-			GGE = {
+			FROM = {create_vassal = GBA}
+			FROM = {
 				diplomatic_influence = {
 					who = GBA
 					value = 800
@@ -418,8 +418,8 @@ country_event = {
 				GBA = {exists = no}
 			}
 			secede_province = GBA
-			GGE = {create_vassal = GBA}
-			GGE = {
+			FROM = {create_vassal = GBA}
+			FROM = {
 				diplomatic_influence = {
 					who = GBA
 					value = 800
@@ -427,11 +427,11 @@ country_event = {
 			}
 		}
 
-		GGE = {
+		FROM = {
 			random_owned = {
 				limit = {
 					is_capital = yes
-					GGE = { has_country_flag = goring_industrial_rape }
+					FROM = { has_country_flag = goring_industrial_rape }
 				}
 				GBA = {
 					country_event = {id = 500177 days = 1}
@@ -439,7 +439,7 @@ country_event = {
 				GSC = {
 					country_event = {id = 500177 days = 1}
 				}
-				GGE = {
+				FROM = {
 					remove_country_modifier = sanctionsrelief
 					add_country_modifier = {
 						name = sanctionsrelief
@@ -534,8 +534,8 @@ country_event = {
 				primary_culture = north_german
 				all_core = {remove_core = GFR}
 			}
-			GGE = {create_vassal = GFR}
-			GGE = {
+			FROM = {create_vassal = GFR}
+			FROM = {
 				diplomatic_influence = {
 					who = GFR
 					value = 800
@@ -553,8 +553,8 @@ country_event = {
 				GFR = {exists = no}
 			}
 			secede_province = GFR
-			GGE = {create_vassal = GFR}
-			GGE = {
+			FROM = {create_vassal = GFR}
+			FROM = {
 				diplomatic_influence = {
 					who = GFR
 					value = 800
@@ -621,8 +621,8 @@ country_event = {
 				primary_culture = north_german
 				all_core = {remove_core = GLO}
 			}
-			GGE = {create_vassal = GLO}
-			GGE = {
+			FROM = {create_vassal = GLO}
+			FROM = {
 				diplomatic_influence = {
 					who = GLO
 					value = 800
@@ -652,8 +652,8 @@ country_event = {
 				GLO = {exists = no}
 			}
 			secede_province = GLO
-			GGE = {create_vassal = GLO}
-			GGE = {
+			FROM = {create_vassal = GLO}
+			FROM = {
 				diplomatic_influence = {
 					who = GLO
 					value = 800

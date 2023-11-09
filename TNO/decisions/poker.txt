@@ -1,0 +1,19 @@
+political_decisions = {
+	
+	poker = {
+		picture = poker
+		potential = {
+			ai = no
+			has_country_flag = show_util
+			NOT = {has_country_flag = poker_started}
+		}
+		allow = {
+
+		}
+		effect = {
+			set_country_flag = poker_started
+		}
+
+	}
+
+}

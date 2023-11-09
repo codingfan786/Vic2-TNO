@@ -68,7 +68,6 @@ country_event = {
 }
 
 country_event = {
-	major = yes
 	id = 500022
 	title = "Nuclear Ultimatum rejected!"
 	desc = "$FROMCOUNTRY$ has rejected out nuclear ultimatum!"
@@ -130,6 +129,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500023 #end chain launch
 	title = "Nuclear launch detected!"
 	desc = "We have recieved a nuclear launch from $FROMCOUNTRY$!"
@@ -203,6 +203,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500024 
 	title = "Nuclear launch detected!"
 	desc = "We have recieved a nuclear launch from $FROMCOUNTRY$!"
@@ -354,6 +355,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500027
 	title = "Nuclear launch detected!"
 	desc = "We have recieved a nuclear launch from $FROMCOUNTRY$!"
@@ -436,6 +438,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500028
 	title = "Nuclear launch detected!"
 	desc = "We have recieved a nuclear launch from $FROMCOUNTRY$!"

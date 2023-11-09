@@ -109,6 +109,54 @@ army = {
 	}
 }
 
+army = {
+	name = "Defense Forces"
+	location = 690
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 690
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 690
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 690
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 690
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 690
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 690
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 690
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 690
+	}
+}
+
 #========================= S E A =========================
 
 

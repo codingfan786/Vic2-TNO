@@ -41,7 +41,7 @@ aeroplane_factory = {
 		machine_parts = 200
 		electric_gear = 50
 		steel = 600
-		cement = 600
+		cement = 200
 	}
 	time = 210
 	visibility = yes
@@ -62,7 +62,7 @@ barrel_factory = {
 		machine_parts = 200
 		electric_gear = 50
 		steel = 500
-		cement = 500
+		cement = 200
 	}
 
 	time = 210
@@ -84,7 +84,7 @@ automobile_factory = {
 		machine_parts = 200
 		electric_gear = 50
 		steel = 400
-		cement = 400
+		cement = 200
 	}
 	time = 210
 	visibility = yes

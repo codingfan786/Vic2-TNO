@@ -824,82 +824,89 @@
 #under the rule of Prussia in 1836  
 #Danzig (76000/19000 POPS) 
 690 = {
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 20000   
+	}
+
 	aristocrats = {
 		culture = north_german
 		religion = protestant
-		size = 50
+		size = 500
 	}
 
 	bureaucrats = {
 		culture = north_german
 		religion = protestant
-		size = 375
+		size = 3750
 	}
 
 	officers = {
 		culture = north_german
 		religion = protestant
-		size = 200 
+		size = 2000 
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 75  
+		size = 750  
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 9500
+		size = 95000
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 125  
+		size = 1250  
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 1275
+		size = 12750
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = jewish
-		size = 5  
+		size = 50  
 	}
 
 	artisans = {
 		culture = north_german
 		religion = jewish
-		size = 395
+		size = 3950
 	}
 
 	clergymen = {
 		culture = polish
 		religion = catholic
-		size = 50 
+		size = 500 
 	}
 
 	artisans = {
 		culture = polish
 		religion = catholic
-		size = 5000
+		size = 50000
 	}
 
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 75 
+		size = 750 
 	}
 
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 1875 
+		size = 18750
 	}
 }
 #Tuchel (180000/45000 POPS) 

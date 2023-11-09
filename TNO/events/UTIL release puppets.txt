@@ -1,0 +1,29 @@
+country_event = {
+	id = 500213
+	title = "Let Freedom Ring!"
+	desc = "Your overlord is considering freeing you."
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "ok."
+		FROM = {
+			country_event = {id = 500214 days = 0}
+		}
+	}
+}
+
+country_event = {
+	id = 500214
+	title = "Let Freedom Ring!"
+	desc = "Should we free $FROMCOUNTRY$?"
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "ok."
+		release_vassal = FROM
+		prestige = -10
+	}
+	option = {
+		name = "Nah.
+	}
+}
