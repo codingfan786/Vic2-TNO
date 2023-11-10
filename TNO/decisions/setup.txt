@@ -180,6 +180,7 @@ political_decisions = {
 
 		}
 		effect = {
+			OFN = {set_country_flag = i_am_the_ofn_trust}
 			set_global_flag = canalactivated
 			enable_canal = 1
 			enable_canal = 2

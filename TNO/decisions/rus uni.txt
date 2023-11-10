@@ -257,11 +257,20 @@ political_decisions = {
 			state_n_government = 1
 		}
 		effect = {
-			RAR = {all_core = {add_core = SOV}}
-			RUS = {all_core = {add_core = SOV}}
-			NUC = {all_core = {add_core = SOV}}
+			RUS_2685 = {add_core = SOV}
+			RUS_1060 = {add_core = SOV}
+			RUS_1026 = {add_core = SOV}
+			RUS_1020 = {add_core = SOV}
+			RUS_1037 = {add_core = SOV}
+			RUS_1008 = {add_core = SOV}
+			RUS_998 = {add_core = SOV}
+			
+			#RAR = {all_core = {add_core = SOV}} #change these to state scopes
+			#RUS = {all_core = {add_core = SOV}}
+			#NUC = {all_core = {add_core = SOV}}
 			change_tag = SOV
 			set_country_flag = made_in_russia
+
 			any_owned = {
 				remove_core = RAR
 				remove_core = RUS
@@ -306,6 +315,10 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
+				ai = no
+				RAR = {ai = yes}
+			}
+			OR = {
 				AND = {
 					NKV = {all_core = {owner = {tag = NKV}}}
 					OR = {
@@ -324,7 +337,7 @@ political_decisions = {
 			state_n_government = 1
 		}
 		effect = {
-			NKV = {all_core = {add_core = SOV}}
+			NKV = {all_core = {add_core = SOV}} #replace these with state scopes!
 			FED = {all_core = {add_core = SOV}}
 			NAV = {all_core = {add_core = SOV}}
 			change_tag = SOV

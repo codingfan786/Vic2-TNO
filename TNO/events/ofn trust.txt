@@ -15,7 +15,7 @@ country_event = {
 
 			NOT = {is_core = THIS}
 			NOT = {is_core = OFN}
-			NOT = {is_colonial = yes}
+			#NOT = {is_colonial = yes}
 		}
 		NOT = {tag = OFN}
 		OR = {
@@ -67,7 +67,7 @@ country_event = {
 					}
 					NOT = {is_core = FROM}
 					NOT = {is_core = OFN}
-					NOT = {is_colonial = yes}
+					#NOT = {is_colonial = yes}
 				}
 				add_core = OFN
 				add_province_modifier = {
@@ -81,6 +81,7 @@ country_event = {
 			factor = 0.9
 			modifier = {
 				factor = 0
+				NOT = {FROM = {ideology = fascist}}
 				OR = {
 					FROM = {government = democracy}
 					FROM = {government = prussian_constitutionalism}
@@ -281,7 +282,7 @@ country_event = {
 		ai_chance = {
 			factor = 1
 			modifier = {
-				factor = 0.01
+				factor = 0.1
 				any_owned_province = {
 					is_core = THIS
 					NOT = {is_core = OFN}
@@ -295,6 +296,13 @@ country_event = {
 				factor = 0 
 				any_greater_power = {
 					NOT = {has_country_flag = ofn_leader}
+					is_sphere_leader_of = THIS
+				}
+			}
+			modifier = {
+				factor = 10 
+				any_greater_power = {
+					has_country_flag = ofn_leader
 					is_sphere_leader_of = THIS
 				}
 			}
