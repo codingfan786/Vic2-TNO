@@ -127,12 +127,12 @@ political_decisions = {
 	}
 	startingleadership = {
 		potential = {
-			NOT = {
-				tag = HGE
-				tag = BGE
-				tag = SGE
-				tag = GGE
-			}
+			#NOT = {
+			#	tag = HGE
+			#	tag = BGE
+			#	tag = SGE
+			#	tag = GGE
+			#}
 			NOT = {has_country_flag = lead}
 		}
 		allow = {

@@ -1974,7 +1974,7 @@ rus_uni = {
 	
 	badboy_factor = 0.2
 	prestige_factor = 5
-	peace_cost_factor = 0.7
+	peace_cost_factor = 1.1 #change this back to 0.7 when I break up russia more
 	penalty_factor = 1
 	always = yes
 

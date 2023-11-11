@@ -1649,41 +1649,7 @@ personality = {
 		reliability = -0.05
 		morale = -0.025
 	}
-	defence_minus_1.106 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.107 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.108 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.109 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.110 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.111 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.112 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
+	
 	defence_minus_1.113 = {
 		defence = -1
 		reliability = -0.05
@@ -1739,31 +1705,7 @@ personality = {
 		reliability = -0.05
 		morale = -0.025
 	}
-	defence_minus_1.124 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.125 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.126 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.127 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.128 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
+	
 	defence_minus_1.129 = {
 		defence = -1
 		reliability = -0.05
@@ -1789,31 +1731,7 @@ personality = {
 		reliability = -0.05
 		morale = -0.025
 	}
-	defence_minus_1.134 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.135 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.136 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.137 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.138 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
+	
 	defence_minus_1.139 = {
 		defence = -1
 		reliability = -0.05
@@ -1839,31 +1757,7 @@ personality = {
 		reliability = -0.05
 		morale = -0.025
 	}
-	defence_minus_1.144 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.145 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.146 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.147 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	defence_minus_1.148 = {
-		defence = -1
-		reliability = -0.05
-		morale = -0.025
-	}
+	
 	defence_minus_1.149 = {
 		defence = -1
 		reliability = -0.05
@@ -1889,26 +1783,7 @@ personality = {
 		reliability = -0.05
 		organisation = -0.025
 	}
-	defence_minus_1.154 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.155 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.156 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.157 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	defence_minus_1.158 = {
 		defence = -1
 		reliability = -0.05
@@ -1934,26 +1809,7 @@ personality = {
 		reliability = -0.05
 		organisation = -0.025
 	}
-	defence_minus_1.163 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.164 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.165 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.166 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	defence_minus_1.167 = {
 		defence = -1
 		reliability = -0.05
@@ -1969,36 +1825,13 @@ personality = {
 		reliability = -0.05
 		organisation = -0.025
 	}
-	defence_minus_1.170 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	defence_minus_1.171 = {
 		defence = -1
 		reliability = -0.05
 		organisation = -0.025
 	}
-	defence_minus_1.172 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.173 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.174 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.175 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	defence_minus_1.176 = {
 		defence = -1
 		reliability = -0.05
@@ -2014,71 +1847,25 @@ personality = {
 		reliability = -0.05
 		organisation = -0.025
 	}
-	defence_minus_1.179 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.180 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	defence_minus_1.181 = {
 		defence = -1
 		reliability = -0.05
 		organisation = -0.025
 	}
-	defence_minus_1.182 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.183 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.184 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	defence_minus_1.185 = {
 		defence = -1
 		reliability = -0.05
 		organisation = -0.025
 	}
-	defence_minus_1.186 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.187 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	defence_minus_1.188 = {
 		defence = -1
 		reliability = -0.05
 		organisation = -0.025
 	}
-	defence_minus_1.189 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.190 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.191 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	defence_minus_1.192 = {
 		defence = -1
 		reliability = -0.05
@@ -2099,31 +1886,7 @@ personality = {
 		reliability = -0.05
 		organisation = -0.025
 	}
-	defence_minus_1.196 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.197 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.198 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.199 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	defence_minus_1.200 = {
-		defence = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	
 	defence_minus_2.51 = {
 		defence = -2
@@ -2185,11 +1948,7 @@ personality = {
 		reliability = -0.1
 		attrition = 0.02
 	}
-	defence_minus_2.63 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
+	
 	defence_minus_2.64 = {
 		defence = -2
 		reliability = -0.1
@@ -2200,56 +1959,7 @@ personality = {
 		reliability = -0.1
 		attrition = 0.02
 	}
-	defence_minus_2.66 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	defence_minus_2.67 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	defence_minus_2.68 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	defence_minus_2.69 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	defence_minus_2.70 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	defence_minus_2.71 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	defence_minus_2.72 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	defence_minus_2.73 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	defence_minus_2.74 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	defence_minus_2.75 = {
-		defence = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
+	
 	defence_minus_2.76 = {
 		defence = -2
 		reliability = -0.1
@@ -2260,46 +1970,13 @@ personality = {
 		reliability = -0.1
 		speed = -0.05
 	}
-	defence_minus_2.78 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_minus_2.79 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_minus_2.80 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
+	
 	defence_minus_2.81 = {
 		defence = -2
 		reliability = -0.1
 		speed = -0.05
 	}
-	defence_minus_2.82 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_minus_2.83 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_minus_2.84 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_minus_2.85 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
+	
 	defence_minus_2.86 = {
 		defence = -2
 		reliability = -0.1
@@ -2315,51 +1992,19 @@ personality = {
 		reliability = -0.1
 		speed = -0.05
 	}
-	defence_minus_2.89 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_minus_2.90 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
+	
 	defence_minus_2.91 = {
 		defence = -2
 		reliability = -0.1
 		speed = -0.05
 	}
-	defence_minus_2.92 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_minus_2.93 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
+	
 	defence_minus_2.94 = {
 		defence = -2
 		reliability = -0.1
 		speed = -0.05
 	}
-	defence_minus_2.95 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_minus_2.96 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	defence_minus_2.97 = {
-		defence = -2
-		reliability = -0.1
-		speed = -0.05
-	}
+	
 	defence_minus_2.98 = {
 		defence = -2
 		reliability = -0.1
@@ -3983,6 +3628,510 @@ background = {
 		reliability = 0.1
 		speed = 0.05
 	}
+
+	attack_2.101 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.102 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.103 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.104 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.105 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.106 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.107 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.108 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.109 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.110 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.111 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.112 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.113 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.114 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.115 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.116 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.117 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.118 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.119 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.120 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.121 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.122 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.123 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.124 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.125 = {
+		attack = 2
+		reliability = 0.1
+		organisation = 0.05
+	}
+	attack_2.126 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.127 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.128 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.129 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.130 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.131 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.132 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.133 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.134 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.135 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.136 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.137 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.138 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.139 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.140 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.141 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.142 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.143 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.144 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.145 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.146 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.147 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.148 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.149 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.150 = {
+		attack = 2
+		reliability = 0.1
+		morale = 0.05
+	}
+	attack_2.151 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.152 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.153 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.154 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.155 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.156 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.157 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.158 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.159 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.160 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.161 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.162 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.163 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.164 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.165 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.166 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.167 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.168 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.169 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.170 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.171 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.172 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.173 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.174 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.175 = {
+		attack = 2
+		reliability = 0.1
+		attrition = -0.02
+	}
+	attack_2.176 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.177 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.178 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.179 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.180 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.181 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.182 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.183 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.184 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.185 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.186 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.187 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.188 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.189 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.190 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.191 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.192 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.193 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.194 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.195 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.196 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.197 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.198 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.199 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+	attack_2.200 = {
+		attack = 2
+		reliability = 0.1
+		speed = 0.05
+	}
+
+
+
 	attack_3.1 = {
 		attack = 3
 		reliability = 0.15
@@ -4097,20 +4246,7 @@ background = {
 		reliability = -0.05
 		morale = -0.025
 	}
-	attack_minus_1.104 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.105 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.106 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
+
 	}
 	attack_minus_1.107 = {
 		attack = -1
@@ -4157,51 +4293,7 @@ background = {
 		reliability = -0.05
 		morale = -0.025
 	}
-	attack_minus_1.116 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.117 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.118 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.119 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.120 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.121 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.122 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.123 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.124 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
+	
 	attack_minus_1.125 = {
 		attack = -1
 		reliability = -0.05
@@ -4247,46 +4339,7 @@ background = {
 		reliability = -0.05
 		morale = -0.025
 	}
-	attack_minus_1.134 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.135 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.136 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.137 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.138 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.139 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.140 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
-	attack_minus_1.141 = {
-		attack = -1
-		reliability = -0.05
-		morale = -0.025
-	}
+	
 	attack_minus_1.142 = {
 		attack = -1
 		reliability = -0.05
@@ -4337,51 +4390,7 @@ background = {
 		reliability = -0.05
 		organisation = -0.025
 	}
-	attack_minus_1.152 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.153 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.154 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.155 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.156 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.157 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.158 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.159 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.160 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	attack_minus_1.161 = {
 		attack = -1
 		reliability = -0.05
@@ -4427,16 +4436,7 @@ background = {
 		reliability = -0.05
 		organisation = -0.025
 	}
-	attack_minus_1.170 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.171 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
 	attack_minus_1.172 = {
 		attack = -1
 		reliability = -0.05
@@ -4457,66 +4457,8 @@ background = {
 		reliability = -0.05
 		organisation = -0.025
 	}
-	attack_minus_1.176 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.177 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.178 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.179 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.180 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.181 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.182 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.183 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.184 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.185 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.186 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.187 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
+	
 	attack_minus_1.188 = {
 		attack = -1
 		reliability = -0.05
@@ -4547,41 +4489,8 @@ background = {
 		reliability = -0.05
 		organisation = -0.025
 	}
-	attack_minus_1.194 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.195 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.196 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.197 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.198 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.199 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
-	attack_minus_1.200 = {
-		attack = -1
-		reliability = -0.05
-		organisation = -0.025
-	}
+	
+	
 	attack_minus_2.51 = {
 		attack = -2
 		reliability = -0.1
@@ -4592,16 +4501,7 @@ background = {
 		reliability = -0.1
 		attrition = 0.02
 	}
-	attack_minus_2.53 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	attack_minus_2.54 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
+	
 	attack_minus_2.55 = {
 		attack = -2
 		reliability = -0.1
@@ -4622,16 +4522,7 @@ background = {
 		reliability = -0.1
 		attrition = 0.02
 	}
-	attack_minus_2.59 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	attack_minus_2.60 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
+	
 	attack_minus_2.61 = {
 		attack = -2
 		reliability = -0.1
@@ -4647,51 +4538,8 @@ background = {
 		reliability = -0.1
 		attrition = 0.02
 	}
-	attack_minus_2.64 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	attack_minus_2.65 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	attack_minus_2.66 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	attack_minus_2.67 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	attack_minus_2.68 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	attack_minus_2.69 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	attack_minus_2.70 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	attack_minus_2.71 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
-	attack_minus_2.72 = {
-		attack = -2
-		reliability = -0.1
-		attrition = 0.02
-	}
+	
+	
 	attack_minus_2.73 = {
 		attack = -2
 		reliability = -0.1
@@ -4717,26 +4565,7 @@ background = {
 		reliability = -0.1
 		speed = -0.05
 	}
-	attack_minus_2.78 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_minus_2.79 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_minus_2.80 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_minus_2.81 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
+	
 	attack_minus_2.82 = {
 		attack = -2
 		reliability = -0.1
@@ -4752,31 +4581,8 @@ background = {
 		reliability = -0.1
 		speed = -0.05
 	}
-	attack_minus_2.85 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_minus_2.86 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_minus_2.87 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_minus_2.88 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_minus_2.89 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
+	
+	
 	attack_minus_2.90 = {
 		attack = -2
 		reliability = -0.1
@@ -4817,21 +4623,7 @@ background = {
 		reliability = -0.1
 		speed = -0.05
 	}
-	attack_minus_2.98 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_minus_2.99 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
-	attack_minus_2.100 = {
-		attack = -2
-		reliability = -0.1
-		speed = -0.05
-	}
+	
 	attack_minus_3.1 = {
 		attack = -3
 		reliability = -0.15

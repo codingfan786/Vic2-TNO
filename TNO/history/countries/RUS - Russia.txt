@@ -6,7 +6,7 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 25
 nationalvalue = nv_order
-literacy = 0.3
+literacy = 0.2
  
 
 set_country_flag = serfdom_not_abolished
