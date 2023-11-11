@@ -8169,7 +8169,7 @@
 	farmers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 41100
+		size = 71100
 	}
 
 	aristocrats = {
@@ -8199,7 +8199,7 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 900
+		size = 30900
 	}
 
 	clergymen = {
@@ -8253,7 +8253,7 @@
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 8200
+		size = 38200
 	}
 
 	bureaucrats = {
@@ -8395,7 +8395,7 @@
 	farmers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 17300
+		size = 57300
 	}
 
 	aristocrats = {
@@ -8425,7 +8425,7 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 5462.5
+		size = 45462.5
 	}
 
 	aristocrats = {
@@ -8485,7 +8485,7 @@
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 21387.5
+		size = 71387.5
 	}
 }
 #Shaanxi Region (9100000)

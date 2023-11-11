@@ -724,6 +724,7 @@ NGA_expansion_desc;We're one again!;x
 NGA_accepted_title;Champion of West Africa!;x
 NGA_accepted_desc;Now that we have reclaimed Yorubaland and kicked the French out of Gbeland it is time that we take our place as the leader and protector of all West Africans!;x
 usa_conservative_1;R-RD (Richard Nixon);x
+usa_conservative_1_alt;R-RD (John W. McCormack);x
 usa_conservative_2;R-RD (Lyndon Johnson);x
 usa_conservative_3;R-RD (Barry Goldwater);x
 usa_conservative_4;R-RD (George Romney);x
@@ -823,3 +824,7 @@ release_puppets_title;Release Puppets;x
 release_puppets_desc;Will give you events to decide which puppets to release, if any.;x
 poker_title;Queue for Poker Minigame;x
 poker_desc;This will put you into the queue for the poker minigame. It will start when enough players click to join. Thank you Frank for this wonderful suggestion!;x
+PROV3449;San Francisco Harbor;x
+event500141desc;'The Orginization of Free Nations is dedicated to promoting and protecting freedom and democracy abroad in the face of ever encroaching fascist threat.' That is the founding principle upon which the O.F.N. was founded in the wake of World War Two. However, as war ravages $COUNTRY$ the defender of the free world is shockingly absent. Fighters and outside observers alike have found themselves increasingly asking themselves: Just where are the Yankees?;x
+event500215desc;'The Orginization of Free Nations is dedicated to promoting and protecting freedom and democracy abroad in the face of ever encroaching fascist threat.' That is the founding principle upon which the O.F.N. was founded in the wake of World War Two. However, as war ravages $FROMCOUNTRY$ the defender of the free world is shockingly absent. Fighters and outside observers alike have found themselves increasingly asking themselves: Just where are the Yankees? \n §R This event fires when a minor O.F.N. member is at war with a non-O.F.N. nation that you are at peace with. (The event will not stack or spam.);x
+ofn_security_punishment;O.F.N. Security Lapse;x

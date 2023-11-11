@@ -1,0 +1,60 @@
+country_event = {
+	id = 500141
+	title = "O.F.N. Absence."
+	desc = "event500141desc"
+	trigger = {
+		has_country_flag = in_ofn
+		NOT = {has_country_flag = ofn_leader}
+		USA = {has_country_flag = ofn_leader}
+
+		NOT = {is_greater_power = yes}
+		war = yes
+		NOT = {
+			USA = {
+				has_country_modifier = ofn_security_punishment
+			}
+		}
+		
+		war_countries = {
+			NOT = {
+				war_with = USA
+			}
+			NOT = {
+				has_country_flag = in_ofn
+			}
+		}
+		
+	}
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	immediate = {
+		USA = {
+			country_event = 500215
+		}
+	}
+	option = {
+		name = "Where indeed?"
+		war_exhaustion = -5
+	}
+}
+
+country_event = {
+	id = 500215
+	title = "O.F.N. Security Lapse."
+	desc = "event500215desc"
+	is_triggered_only = yes
+
+	immediate = {
+		#remove_country_modifier = ofn_security_punishment
+		add_country_modifier = {
+			name = ofn_security_punishment
+			duration = 365
+		}
+	}
+	option = {
+		name = "Where indeed?"
+		
+	}
+}

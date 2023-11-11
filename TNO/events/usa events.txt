@@ -1,0 +1,44 @@
+country_event = {
+	id = 500126
+	title = "Nixon impeached!"
+	desc = "why yes I forgot to do this until an hour before the game."
+	fire_only_once = yes
+
+	trigger = {
+		month = 4
+		tag = USA
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		ruling_party_ideology = liberal
+	}
+	option = {
+		name = "Wow watergate!"
+	}
+}
+
+country_event = {
+	id = 500127
+	title = "J.F.K. Assasinated! @D50"
+	desc = "oh no jfk died! @D50"
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		month = 8
+		tag = USA
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		ruling_party_ideology = conservative
+	}
+	option = {
+		name = "burgundy did it @D50"
+		
+	}
+}

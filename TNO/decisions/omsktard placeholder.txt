@@ -46,7 +46,7 @@ political_decisions = {
 			RUS_994 = {
 				add_core = THIS
 			}
-
+			FIN_1 = {add_core = THIS}
 		}
 	}
 

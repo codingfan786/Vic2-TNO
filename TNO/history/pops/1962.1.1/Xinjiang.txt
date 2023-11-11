@@ -133,7 +133,7 @@
 	farmers = {
 		culture = beifaren
 		religion = sunni
-		size = 191275
+		size = 61275
 	}
 
 	aristocrats = {
@@ -163,7 +163,7 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 38325
+		size = 18325
 	}
 
 	aristocrats = {
@@ -223,7 +223,7 @@
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 31850
+		size = 11850
 	}
 }
 #Tulta (88000/22000 POPS)
@@ -377,7 +377,7 @@
 	farmers = {
 		culture = beifaren
 		religion = sunni
-		size = 305550
+		size = 105550
 	}
 }
 #Khotan (88000/22000 POPS)

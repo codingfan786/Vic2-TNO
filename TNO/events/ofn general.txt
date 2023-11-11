@@ -212,25 +212,3 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = 500141
-	title = "O.F.N. nondefense punishment."
-	desc = "W.I.P."
-	trigger = {
-		always = no
-	}
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		
-	}
-	option = {
-		name = "Focus this year on military matters."
-		any_country = {
-			limit = {has_country_flag = in_ofn}
-			create_alliance = THIS
-		}
-	}
-}

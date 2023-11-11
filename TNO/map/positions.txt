@@ -132090,3 +132090,53 @@
     }
 
 }
+
+3449 = {
+    text_position = {
+        x = 891.250000
+        y = 1733.150000
+    }
+
+    unit = {
+        x = 894.906250
+        y = 1734.406250
+    }
+
+    city = {
+        x = 895.812500
+        y = 1730.968750
+    }
+
+    factory = {
+        x = 897.625000
+        y = 1735.718750
+    }
+
+    building_construction = {
+        x = 894.781250
+        y = 1730.781250
+    }
+
+    military_construction = {
+        x = 894.000000
+        y = 1734.406250
+    }
+
+    building_position = {
+        fort = {
+            x = 892.843750
+            y = 1735.656250
+        }
+
+        naval_base = {
+            x = 891.950000
+            y = 1732.000000
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 5.187272
+    }
+
+}

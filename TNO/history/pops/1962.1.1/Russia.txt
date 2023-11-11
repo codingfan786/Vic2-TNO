@@ -10012,7 +10012,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 400500
+		size = 200500
 	}
 }
 
@@ -10049,7 +10049,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 414000
+		size = 214000
 	}
 }
 
@@ -10203,7 +10203,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 4500
+		size = 154500
 	}
 
 	clergymen = {
@@ -10253,7 +10253,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 9000
+		size = 159000
 	}
 }
 
@@ -10285,7 +10285,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 900
+		size = 150900
 	}
 }
 
@@ -10311,7 +10311,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 17500
+		size = 117500
 	}
 
 	aristocrats = {
@@ -10361,7 +10361,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 1100
+		size = 101100
 	}
 
 	aristocrats = {
@@ -10447,7 +10447,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 46500
+		size = 146500
 	}
 
 	clergymen = {
@@ -10502,12 +10502,12 @@
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 11000
+		size = 41000
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 513250
+		size = 213250
 	}
 }

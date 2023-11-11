@@ -942,7 +942,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size = 700
+		size = 10000
 	}
 
 	farmers = {
@@ -1284,7 +1284,7 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size = 300
+		size = 10000
 	}
 
 	farmers = {

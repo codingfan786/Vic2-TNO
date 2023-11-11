@@ -4,6 +4,20 @@ color = { 66  94  193 }
 party = {
 	name = "usa_conservative_1"
 	start_date = 1961.1.1
+	end_date = 1962.6.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = pluralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "usa_conservative_1_alt"
+	start_date = 1962.6.1
 	end_date = 1965.1.1
 
 	ideology = conservative
@@ -14,6 +28,7 @@ party = {
 	citizenship_policy = residency
 	war_policy = pro_military
 }
+
 party = {
 	name = "usa_conservative_2"
 	start_date = 1965.1.1

@@ -10068,3 +10068,37 @@
 	}
 
 }
+
+
+3449 = {
+	
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 20725
+	}
+
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 20725
+	}
+
+	soldiers = {
+		culture = japanese
+		religion = protestant
+		size = 30025
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = protestant
+		size = 1000
+	}
+
+	bureaucrats = {
+		culture = japanese
+		religion = protestant
+		size = 500
+	}
+}
