@@ -2,6 +2,7 @@ owner = EIC
 controller = EIC
 add_core = EIC
 add_core = JAV
-trade_goods = coffee
+#trade_goods = coffee
+trade_goods = rubber
 life_rating = 30
  

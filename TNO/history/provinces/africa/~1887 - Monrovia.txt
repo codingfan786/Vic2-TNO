@@ -1,5 +1,5 @@
-trade_good = iron
-#trade_goods = coffee
+
+trade_goods = coffee
 life_rating = 35
 owner = LIB
 controller = LIB

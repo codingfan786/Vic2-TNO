@@ -2,6 +2,6 @@ owner = IBE
 controller = IBE
 add_core = ANG
 colonial = 2
-trade_goods = rubber
-#trade_goods = fish
+
+trade_goods = fish
 life_rating = 35

@@ -6,43 +6,43 @@
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 50
+		size = 1500
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2450
+		size = 75500
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 500
+		size = 14000
 	}
 
 	clergymen = {
 		culture = malay
 		religion = sunni
-		size = 50
+		size = 1500
 	}
 
 	artisans = {
 		culture = malay
 		religion = sunni
-		size = 250
+		size = 7500
 	}
 
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 4700
+		size = 90000
 	}
 
 	artisans = {
 		culture = tamil
 		religion = hindu
-		size = 1100
+		size = 91000
 	}
 }
 #Malacca (52800/13200 POPS)
@@ -50,55 +50,55 @@
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 50
+		size = 500
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1450
+		size = 14500
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1500
+		size = 15000
 	}
 
 	aristocrats = {
 		culture = british
 		religion = protestant
-		size = 175
+		size = 1750
 	}
 
 	bureaucrats = {
 		culture = british
 		religion = protestant
-		size = 25
+		size = 250
 	}
 
 	clergymen = {
 		culture = malay
 		religion = sunni
-		size = 100
+		size = 1000
 	}
 
 	artisans = {
 		culture = malay
 		religion = sunni
-		size = 500
+		size = 5000
 	}
 
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 100
+		size = 1000
 	}
 
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 9300
+		size = 29300
 	}
 }
 #Penang (84000/21000 POPS)
@@ -157,7 +157,7 @@
 	bureaucrats = {
 		culture = malay
 		religion = sunni
-		size = 125
+		size = 300
 	}
 
 	officers = {
@@ -169,43 +169,43 @@
 	clergymen = {
 		culture = malay
 		religion = sunni
-		size = 250
+		size = 500
 	}
 
 	artisans = {
 		culture = malay
 		religion = sunni
-		size = 1250
+		size = 8250
 	}
 
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 1100
+		size = 6100
 	}
 
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 22050
+		size = 82050
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 50
+		size = 100
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1450
+		size = 3000
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 500
+		size = 3000
 	}
 }
 #Kuala Lumpur (68000/17000 POPS)

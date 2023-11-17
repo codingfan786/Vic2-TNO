@@ -1,5 +1,4 @@
-#trade_goods = wool
-trade_goods = rubber
+trade_goods = wool
 life_rating = 10
 owner = SAF
 controller = SAF

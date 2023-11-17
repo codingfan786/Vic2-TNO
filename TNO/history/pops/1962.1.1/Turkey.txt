@@ -81,13 +81,13 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 1462.5
 	}
@@ -137,19 +137,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 150
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 825
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 10650
 	}
@@ -334,49 +334,49 @@
 	}
 
 	bureaucrats = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 825
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 15000
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 15000
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 15000
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 15000
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 3750
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 8850
 	}
@@ -400,31 +400,31 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 337.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 15000
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 15000
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 9000
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 5662.5
 	}
@@ -486,37 +486,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 187.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 5250
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 12562.5
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 3750
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 5175
 	}
@@ -554,37 +554,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 675
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 12712.5
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 187.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 1050
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 20062.5
 	}
@@ -636,37 +636,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 225
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 8250
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 14775
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 3750
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 9637.5
 	}
@@ -716,19 +716,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 675
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 12712.5
 	}
@@ -766,19 +766,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 225
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 4200
 	}
@@ -818,37 +818,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 30
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 1395
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 30
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 1650
 	}
@@ -886,19 +886,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 30
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 1395
 	}
@@ -948,37 +948,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 30
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 1395
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 30
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 1650
 	}
@@ -1041,43 +1041,43 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 375
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 15000
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 15000
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 1650
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 7125
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 30
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 1470
 	}
@@ -1127,19 +1127,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 5250
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 3675
 	}
@@ -1182,19 +1182,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 300
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 5587.5
 	}
@@ -1232,19 +1232,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 2812.5
 	}
@@ -1296,37 +1296,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 525
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 10612.5
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 30
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 1395
 	}
@@ -1364,37 +1364,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 2812.5
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 30
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 1395
 	}
@@ -1432,19 +1432,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 225
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 4200
 	}
@@ -1496,37 +1496,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 1387.5
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 375
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 7050
 	}
@@ -1564,37 +1564,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 1387.5
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 2812.5
 	}
@@ -1632,37 +1632,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 375
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 7050
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 525
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 9862.5
 	}
@@ -1700,37 +1700,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 2812.5
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 675
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 12712.5
 	}
@@ -1787,19 +1787,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 1387.5
 	}
@@ -1837,19 +1837,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 1387.5
 	}
@@ -1901,37 +1901,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 187.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 975
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 18337.5
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 375
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 7050
 	}
@@ -1969,19 +1969,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 375
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 7050
 	}
@@ -2019,37 +2019,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 600
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 11287.5
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 2812.5
 	}
@@ -2101,19 +2101,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 450
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 2250
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 42300
 	}
@@ -2193,19 +2193,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 450
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 2250
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 42300
 	}
@@ -2287,19 +2287,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 675
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 13162.5
 	}
@@ -2341,10 +2341,11 @@
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = turkish
 		religion = sunni
 		size = 26025
 	}
+	
 }
 #Erzincan (312000/78000 POPS)
 888 = {
@@ -2379,19 +2380,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 525
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 2700
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 50775
 	}
@@ -2459,19 +2460,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 150
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 900
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 16950
 	}
@@ -2519,7 +2520,7 @@
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = turkish
 		religion = sunni
 		size = 31312.5
 	}
@@ -2571,19 +2572,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 262.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 1425
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 26812.5
 	}
@@ -2601,7 +2602,7 @@
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = kurdish
 		religion = catholic
 		size = 8475
 	}
@@ -2643,7 +2644,7 @@
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = turkish
 		religion = sunni
 		size = 48900
 	}
@@ -2681,19 +2682,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 525
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 9900
 	}
@@ -2779,19 +2780,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 525
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 9900
 	}
@@ -2877,19 +2878,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 300
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 1575
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 31125
 	}
@@ -2989,37 +2990,37 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 225
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 4200
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 675
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 12712.5
 	}
@@ -3057,19 +3058,19 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 37.5
 	}
 
 	artisans = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 150
 	}
 
 	farmers = {
-		culture = greek
+		culture = turkish
 		religion = orthodox
 		size = 2812.5
 	}
@@ -3107,19 +3108,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 450
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 8475
 	}
@@ -3189,19 +3190,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 750
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 14137.5
 	}
@@ -3293,25 +3294,25 @@
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = turkish
 		religion = sunni
 		size = 49725
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 525
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 9900
 	}
@@ -3397,19 +3398,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 112.5
 	}
 
 	artisans = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 300
 	}
 
 	farmers = {
-		culture = armenian
+		culture = turkish
 		religion = orthodox
 		size = 5587.5
 	}

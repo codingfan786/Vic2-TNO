@@ -6,6 +6,6 @@ add_core = GWA
 
 
 
-
-trade_goods = rubber
+trade_good = fish
+#trade_goods = rubber
 life_rating = 32

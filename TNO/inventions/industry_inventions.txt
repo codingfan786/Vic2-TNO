@@ -1376,7 +1376,7 @@ tulls_seed_drill = {
 }
 
 rotherham_plough = {
-	limit = { practical_steam_engine = 1 }
+	limit = { steam_turbine = 1 }#practical_steam_engine
 	chance = {
 		base = 20
 	}

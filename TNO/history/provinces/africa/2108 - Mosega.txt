@@ -2,5 +2,6 @@ owner = SAF
 controller = SAF
 add_core = ORA
 civilized = 2
-trade_goods = oil
+#trade_goods = oil
+trade_goods = rubber
 life_rating = 35

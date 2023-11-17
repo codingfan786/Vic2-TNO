@@ -1,4 +1,5 @@
-trade_goods = oil
+#trade_goods = oil
+trade_goods = rubber
 life_rating = 15
 owner = SAF
 controller = SAF
