@@ -411,6 +411,13 @@ political_decisions = {
 				tag = WGA
 				tag = EGA
 				tag = BRG
+
+				tag = SGA
+				tag = AGA
+				tag = GBA
+				tag = GSC
+				tag = GFR
+				tag = GLO
 			}
 			
 			government = fascist_dictatorship

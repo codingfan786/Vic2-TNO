@@ -1,0 +1,52 @@
+political_decisions = {
+
+	algeria_inherit = {
+		picture = enact_the_homestead_act
+		potential = {
+			OR = {
+				AND = {
+					tag = ITA
+					exists = IAL
+				}
+				AND = {
+					tag = IBE
+					exists = SAL
+				}
+			}
+				
+			NOT = {has_country_flag = al_inherited}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+
+			OR = {
+				AND = {
+					tag = ITA
+					IAL = {in_sphere = THIS}
+				}
+				AND = {
+					tag = IBE
+					SAL = {in_sphere = THIS}
+				}
+			}
+		}
+		effect = {
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {tag = IBE}
+				}
+				IBE = {inherit = SAL}
+			}
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {tag = ITA}
+				}
+				ITA = {inherit = IAL}
+			}
+			set_country_flag = al_inherited
+		}
+	}
+
+}

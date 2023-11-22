@@ -1,0 +1,142 @@
+SAF = {
+	value = -50
+	truce_until = "1964.1.1"
+}
+
+EGA = {
+	value = 125
+	military_access = yes
+}
+
+WGA = {
+	value = 125
+	military_access = yes
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 2078
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 2001
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1999
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 2006
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 2005
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = infantry
+		home = 2079
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = plane
+		home = 2080
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = plane
+		home = 2082
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = plane
+		home = 2083
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = plane
+		home = 2085
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = plane
+		home = 2078
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 2083
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 2001
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1999
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 2006
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 2005
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = infantry
+		home = 2084
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = plane
+		home = 2078
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = plane
+		home = 2078
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = plane
+		home = 2085
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = plane
+		home = 2084
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = plane
+		home = 2086
+	}
+}

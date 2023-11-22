@@ -1,0 +1,96 @@
+country_event = {
+	id = 500218
+	title = "Algeria has new leadership."
+	desc = "Flipping to the other Algeria."
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+		tag = IAL
+		is_vassal = yes
+		OR = {
+			IBE = {is_our_vassal = IAL}
+			SPA = {is_our_vassal = IAL}
+		}
+	}
+
+
+	immediate = {
+		change_tag = SAL
+		remove_accepted_culture = south_italian
+		remove_accepted_culture = north_italian
+		primary_culture = spanish
+
+		diplomatic_influence = {
+			who = IBE
+			value = 600
+		}
+		diplomatic_influence = {
+			who = SPA
+			value = 600
+		}
+
+
+		IBE = {
+			diplomatic_influence = {
+				who = THIS
+				value = 600
+			}
+		}
+
+		SPA = {
+			diplomatic_influence = {
+				who = THIS
+				value = 600
+			}
+		}
+	}
+	option = {
+		name = "Ok."
+	}
+	
+}
+
+country_event = {
+	id = 500219
+	title = "Algeria has new leadership."
+	desc = "Flipping to the other Algeria."
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+		tag = SAL
+		is_vassal = yes
+		
+		ITA = {is_our_vassal = SAL}
+		
+	}
+
+
+	immediate = {
+		change_tag = IAL
+		add_accepted_culture = south_italian
+		primary_culture = north_italian
+		remove_accepted_culture = spanish
+
+		diplomatic_influence = {
+			who = ITA
+			value = 600
+		}
+
+		ITA = {
+			diplomatic_influence = {
+				who = THIS
+				value = 600
+			}
+		}
+	}
+	option = {
+		name = "Ok."
+	}
+	
+}

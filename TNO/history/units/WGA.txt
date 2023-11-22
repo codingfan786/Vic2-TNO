@@ -1,10 +1,20 @@
 SAF = {
 	value = -50
-	truce_until = "1963.1.1"
+	truce_until = "1964.1.1"
 }
 NGA = {
 	value = -100
 	truce_until = "1967.1.1"
+}
+
+SGA = {
+	value = 125
+	military_access = yes
+}
+
+EGA = {
+	value = 125
+	military_access = yes
 }
 
 army = {
@@ -73,7 +83,7 @@ army = {
 
 army = {
 	name = "1a Armata" #done
-	location = 2013
+	location = 1987
 	regiment = {
 		name= "1.1a Bersaglieri"
 		type = infantry

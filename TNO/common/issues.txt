@@ -6,13 +6,11 @@ party_issues = {
 		protectionism = {
 			max_tariff = 0.75 #1
 			min_tariff = -0.25
-			allow_foreign_investment = no
 		}
 		free_trade = {
 			global_immigrant_attract = 0.01  #1%
 			max_tariff = 0.25
 			min_tariff = -1
-			allow_foreign_investment = yes
 		}
 	}
 	economic_policy = {
@@ -42,6 +40,7 @@ party_issues = {
 				expand_factory_invest = yes
 				build_railway_invest = yes
 				can_invest_in_pop_projects = no
+				allow_foreign_investment = yes
 			}
 		}
 		interventionism = {
@@ -65,6 +64,7 @@ party_issues = {
 				build_factory_invest = yes
 				expand_factory_invest = yes
 				build_railway_invest = yes
+				allow_foreign_investment = yes
 				can_invest_in_pop_projects = yes
 			}
 		}
@@ -116,6 +116,27 @@ party_issues = {
 				expand_factory_invest = yes
 				build_railway_invest = yes
 				can_invest_in_pop_projects = yes
+			}
+		}
+		colonial_exploitation = {
+			min_tax = 0.5
+			
+			farm_rgo_eff = 0.20
+			mine_rgo_eff = 0.20
+			
+			rules = {
+				build_factory = no
+				expand_factory = no
+				open_factory = no
+				destroy_factory = yes		
+				build_railway = yes
+				factory_priority = yes
+				can_subsidise = yes
+				pop_build_factory = no
+				pop_expand_factory = no
+				pop_open_factory = no				
+				delete_factory_if_no_input = no
+				allow_foreign_investment = no
 			}
 		}
 	}
@@ -198,19 +219,11 @@ political_reforms = {
 	slavery = {
 		yes_slavery = {
 			rules = { slavery_allowed = yes }
-			allow = {
-				NOT = { government = proletarian_dictatorship }
-			}
 		}
 		no_slavery = {
 			rules = { slavery_allowed = no }
 			allow = { 
-				OR = {
-					NOT = { 
-						has_country_flag = missouri_compromise
-					}
-					year = 1875
-				}
+				NOT = {has_country_flag = fascist_gov_type}
 			}
 
 			global_immigrant_attract = 0.05 #5% was 0.01

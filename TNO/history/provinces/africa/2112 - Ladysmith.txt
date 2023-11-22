@@ -1,6 +1,8 @@
 owner = SAF
 controller = SAF
 add_core = SAF
-colonial = 2
+#colonial = 2
 trade_goods = grain
 life_rating = 35
+
+fort = 1

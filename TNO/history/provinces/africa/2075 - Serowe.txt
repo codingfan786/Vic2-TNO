@@ -1,7 +1,7 @@
 trade_goods = grain
 life_rating = 15
-owner = SAF
-controller = SAF
-add_core = SAF
+owner = EGA
+controller = EGA
+add_core = ZUL
 colonial = 2
 fort = 1

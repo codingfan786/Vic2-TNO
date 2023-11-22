@@ -2,9 +2,14 @@
 #ruled by kingdom of Oman in 1836
 #Dar es Salaam (220000/55000 POPS)
 2036 = {
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 950
 	}
 
@@ -32,13 +37,13 @@
 		size = 2000
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = sunni
 		size = 500
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 32825
@@ -51,8 +56,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -68,13 +73,13 @@
 		size = 200
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = sunni
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 3650
@@ -82,9 +87,14 @@
 }
 #Tanga (88000/22000 POPS)
 2037 = {
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 325
 	}
 
@@ -100,13 +110,13 @@
 		size = 725
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = sunni
 		size = 175
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 11600
@@ -119,8 +129,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -136,13 +146,13 @@
 		size = 200
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = sunni
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 2650
@@ -150,9 +160,14 @@
 }
 #Kilwa (188000/47000 POPS)
 2038 = {
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 550
 	}
 
@@ -168,21 +183,21 @@
 		size = 1125
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = sunni
 		size = 300
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 14750
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 350
 	}
 
@@ -198,13 +213,13 @@
 		size = 950
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 200
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 17300
@@ -218,9 +233,19 @@
 }
 #Lindi (64000/16000 POPS)
 2039 = {
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 600
+	}
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 300
 	}
 
@@ -236,13 +261,13 @@
 		size = 650
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = sunni
 		size = 175
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 10725
@@ -258,9 +283,14 @@
 #uncolonized in 1836
 #Songea (136000/34000 POPS)
 2040 = {
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 375
 	}
 
@@ -276,21 +306,21 @@
 		size = 800
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 200
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 15425
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 225
 	}
 
@@ -306,13 +336,13 @@
 		size = 600
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 125
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 10925
@@ -332,9 +362,14 @@
 }
 #Masasi (132000/33000 POPS)
 2041 = {
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 475
 	}
 
@@ -350,21 +385,21 @@
 		size = 1100
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 250
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 15125
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 150
 	}
 
@@ -380,13 +415,13 @@
 		size = 400
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 7275
@@ -400,9 +435,14 @@
 }
 #Iringa (300000/75000 POPS)
 2042 = {
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 375
 	}
 
@@ -418,21 +458,21 @@
 		size = 800
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 200
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 13225
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 450
 	}
 
@@ -448,13 +488,13 @@
 		size = 1150
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 225
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 20950
@@ -467,8 +507,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -484,21 +524,21 @@
 		size = 200
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = sunni
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 3650
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 525
 	}
 
@@ -514,13 +554,13 @@
 		size = 1100
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 275
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 17825
@@ -530,19 +570,15 @@
 #uncolonized in 1836/dominated by the Unyamwezi
 #Tabora (260000/65000 POPS)
 2043 = {
-	bureaucrats = {
-		culture = north_german
-		religion = protestant
-		size = 1050
-	}
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 6000
+		size = 3500
 	}
+
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1075
 	}
 
@@ -558,21 +594,21 @@
 		size = 2200
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 550
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 37625
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 150
 	}
 
@@ -588,13 +624,13 @@
 		size = 350
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 6325
@@ -607,8 +643,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -624,13 +660,13 @@
 		size = 150
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 25
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 2700
@@ -644,233 +680,204 @@
 }
 #Mwanza (368000/92000 POPS)
 2044 = {
-	bureaucrats = {
-		culture = north_german
-		religion = protestant
-		size = 1050
-		militancy = 8 
-		rebel_type = liberal_rebels
-	}
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 6000
-		militancy = 8 
-		rebel_type = liberal_rebels
+		size = 3500
 	}
+
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 475
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	clergymen = {
 		culture = nilo_saharan
 		religion = animist
 		size = 250
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	artisans = {
 		culture = nilo_saharan
 		religion = animist
 		size = 1100
-		militancy = 8 
-		rebel_type = liberal_rebels
-	}
 
-	soldiers = {
-		culture = nilo_saharan
-		religion = animist
-		size = 250
-		militancy = 8 
-		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = nilo_saharan
 		religion = animist
+		size = 250
+
+	}
+
+	slaves = {
+		culture = nilo_saharan
+		religion = animist
 		size = 9025
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 275
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	clergymen = {
 		culture = nilo_saharan
 		religion = animist
 		size = 150
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	artisans = {
 		culture = nilo_saharan
 		religion = animist
 		size = 600
-		militancy = 8 
-		rebel_type = liberal_rebels
-	}
 
-	soldiers = {
-		culture = nilo_saharan
-		religion = animist
-		size = 150
-		militancy = 8 
-		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = nilo_saharan
 		religion = animist
+		size = 150
+
+	}
+
+	slaves = {
+		culture = nilo_saharan
+		religion = animist
 		size = 3825
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 24000
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 925
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	clergymen = {
 		culture = nilo_saharan
 		religion = animist
 		size = 475
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	artisans = {
 		culture = nilo_saharan
 		religion = animist
 		size = 2350
-		militancy = 8 
-		rebel_type = liberal_rebels
-	}
 
-	soldiers = {
-		culture = nilo_saharan
-		religion = animist
-		size = 475
-		militancy = 8 
-		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = nilo_saharan
 		religion = animist
+		size = 475
+
+	}
+
+	slaves = {
+		culture = nilo_saharan
+		religion = animist
 		size = 42775
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 10
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	clergymen = {
 		culture = nilo_saharan
 		religion = animist
 		size = 25
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	artisans = {
 		culture = nilo_saharan
 		religion = animist
 		size = 50
-		militancy = 8 
-		rebel_type = liberal_rebels
-	}
 
-	soldiers = {
-		culture = nilo_saharan
-		religion = animist
-		size = 15
-		militancy = 8 
-		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = nilo_saharan
 		religion = animist
+		size = 15
+
+	}
+
+	slaves = {
+		culture = nilo_saharan
+		religion = animist
 		size = 900
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 50
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	clergymen = {
 		culture = nilo_saharan
 		religion = animist
 		size = 75
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	artisans = {
 		culture = nilo_saharan
 		religion = animist
 		size = 150
-		militancy = 8 
-		rebel_type = liberal_rebels
-	}
 
-	soldiers = {
-		culture = nilo_saharan
-		religion = animist
-		size = 25
-		militancy = 8 
-		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = nilo_saharan
 		religion = animist
+		size = 25
+
+	}
+
+	slaves = {
+		culture = nilo_saharan
+		religion = animist
 		size = 2700
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 }
 #Morogoro (232000/58000 POPS)
 2045 = {
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 675
 	}
 
@@ -886,21 +893,21 @@
 		size = 1400
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 350
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 20225
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
@@ -916,21 +923,21 @@
 		size = 250
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = sunni
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 3525
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 275
 	}
 
@@ -946,13 +953,13 @@
 		size = 700
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 150
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 12825
@@ -965,8 +972,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -982,13 +989,13 @@
 		size = 150
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 25
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 2700
@@ -996,20 +1003,16 @@
 }
 #Ujiji (336000/84000 POPS)
 2046 = {
-	bureaucrats = {
-		culture = north_german
-		religion = protestant
-		size = 1050
-	}
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 6000
+		size = 3500
 	}
+
 	
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1075
 	}
 
@@ -1025,21 +1028,21 @@
 		size = 2200
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 550
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 31425
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 475
 	}
 
@@ -1055,13 +1058,13 @@
 		size = 1250
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 250
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 22775
@@ -1074,8 +1077,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -1091,13 +1094,13 @@
 		size = 200
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 3650
@@ -1105,19 +1108,15 @@
 }
 #Arusha (80000/20000 POPS)
 2047 = {
-	bureaucrats = {
-		culture = north_german
-		religion = protestant
-		size = 1050
-	}
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 6000
+		size = 3500
 	}
+
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
@@ -1133,21 +1132,21 @@
 		size = 300
 	}
 
-	soldiers = {
+	farmers = {
 		culture = nilo_saharan
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 5475
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 125
 	}
 
@@ -1163,21 +1162,21 @@
 		size = 400
 	}
 
-	soldiers = {
+	farmers = {
 		culture = nilo_saharan
 		religion = animist
 		size = 100
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 7275
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
@@ -1193,13 +1192,13 @@
 		size = 300
 	}
 
-	soldiers = {
+	farmers = {
 		culture = nilo_saharan
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 5475
@@ -1209,9 +1208,14 @@
 #ruled by Oman in 1836
 #Zanzibar (156000/39000 POPS)
 2048 = {
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 250
 	}
 
@@ -1227,13 +1231,13 @@
 		size = 525
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = sunni
 		size = 1100
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 7100
@@ -1269,15 +1273,15 @@
 		size = 200
 	}
 
-	soldiers = {
+	farmers = {
 		culture = mashriqi
 		religion = shiite
 		size = 450
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 400
 	}
 
@@ -1293,13 +1297,13 @@
 		size = 1050
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = sunni
 		size = 225
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 19125

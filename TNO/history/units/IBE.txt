@@ -210,7 +210,7 @@ army = {
 
 army = {
 	name = "1a Armata" #done
-	location = 2004
+	location = 3391
 	regiment = {
 		name= "1.1a Bersaglieri"
 		type = infantry

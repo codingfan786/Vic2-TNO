@@ -7,6 +7,11 @@ country_event = {
 
 	is_triggered_only = yes
 
+	immediate = {
+		great_wars_enabled = yes
+		set_global_flag = great_wars_enabled
+	}
+
 	option = {
 		name = "EVTOPTA19355"
 		great_wars_enabled = yes

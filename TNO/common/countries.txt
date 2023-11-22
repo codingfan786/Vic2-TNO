@@ -42,6 +42,8 @@ MAL 	= "countries/MAL.txt" #mali
 NGA 	= "countries/NGA.txt" #nigeria
 NIG 	= "countries/NIG.txt" #niger
 WGA 	= "countries/WGA.txt" #west german africa
+SGA 	= "countries/SGA.txt" #southwest german africa
+AGA 	= "countries/AGA.txt" #grobsafrica
 ZAM 	= "countries/ZAM.txt" #zambia
 
 BEN = "countries/Bengal.txt"

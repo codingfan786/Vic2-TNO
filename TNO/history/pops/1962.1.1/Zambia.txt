@@ -3,8 +3,8 @@
 #Kitwe (44000/11000 POPS) 
 790 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 125
 	}
 
@@ -20,21 +20,21 @@
 		size = 325
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 6375
+		size = 26375
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -50,16 +50,16 @@
 		size = 150
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 25
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 2700
+		size = 22700
 	}
 
 	slaves = {
@@ -71,8 +71,8 @@
 #Kazembe (84000/21000 POPS)
 2016 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 225
 	}
 
@@ -100,21 +100,21 @@
 		size = 500
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 125
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 7950
+		size = 27950
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 150
 	}
 
@@ -130,16 +130,16 @@
 		size = 450
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 100
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 8200
+		size = 28200
 	}
 
 	slaves = {
@@ -151,8 +151,8 @@
 #Kasema (68000/17000 POPS) 
 2017 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
@@ -168,21 +168,21 @@
 		size = 250
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 1525
+		size = 21525
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 200
 	}
 
@@ -198,16 +198,16 @@
 		size = 550
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 125
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 10025
+		size = 30025
 	}
 
 	slaves = {
@@ -219,8 +219,8 @@
 #Chipata (112000/23000 POPS) 
 2018 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
@@ -236,21 +236,21 @@
 		size = 250
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 3525
+		size = 23525
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 150
 	}
 
@@ -266,16 +266,16 @@
 		size = 400
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 7300
+		size = 17300
 	}
 
 	slaves = {
@@ -285,8 +285,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 75
 	}
 
@@ -302,21 +302,21 @@
 		size = 250
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 4575
+		size = 24575
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -332,16 +332,16 @@
 		size = 200
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 3650
+		size = 13650
 	}
 }
 #Kafue Region (228000) #see Namibia.txt for balance of region 
@@ -349,8 +349,8 @@
 #Kabwe (28000/7000 POPS) 
 2012 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 75
 	}
 
@@ -366,21 +366,21 @@
 		size = 200
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 1575
+		size = 21575
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 25
 	}
 
@@ -396,16 +396,16 @@
 		size = 100
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 25
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 1800
+		size = 11800
 	}
 
 	slaves = {
@@ -417,8 +417,8 @@
 #Senanga (52000/13000 POPS) 
 2013 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 225
 	}
 
@@ -446,21 +446,21 @@
 		size = 500
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 125
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 8950
+		size = 28950
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 10
 	}
 
@@ -476,13 +476,13 @@
 		size = 50
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 15
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 900
@@ -497,8 +497,8 @@
 #Kasempa (40000/10000 POPS) 
 2014 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 150
 	}
 
@@ -514,21 +514,21 @@
 		size = 325
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 100
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 4350
+		size = 24350
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 25
 	}
 
@@ -544,16 +544,16 @@
 		size = 100
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 25
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 1800
+		size = 5000
 	}
 
 	slaves = {
@@ -565,8 +565,8 @@
 #Monzo (108000/27000 POPS) 
 2015 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 475
 	}
 
@@ -582,21 +582,21 @@
 		size = 1100
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 250
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 20025
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 25
 	}
 
@@ -612,16 +612,16 @@
 		size = 100
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 25
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
-		size = 1800
+		size = 18000
 	}
 
 	slaves = {

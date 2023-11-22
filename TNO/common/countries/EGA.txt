@@ -3,7 +3,8 @@
 #========================= H E A D E R =========================
 
 color = { 186  85  211 }
-graphical_culture = AfricanGC
+color = { 125 45 125 }
+graphical_culture = PrussianGC
 
 
 #========================= P A R T I E S =========================

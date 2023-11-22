@@ -8,41 +8,32 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			
-				any_owned = {
-					any_pop = {
-						
-						militancy = 9
-					}
-				}
-			
-		}		
-	}
 
-	test2 = {
-		potential = {
-			ai = no
-			always = no
-		}
-		allow = {
-		}
-		effect = {
-			#set_country_flag = baathists_won
-			any_country = {
+			any_owned = {
 				limit = {
-					OR = {
-						tag = IGY
-						tag = IIS
-						tag = NEJ
-						tag = IRQ
-						tag = ITA
-						tag = TUR
-						tag = OMA
-						tag = YEM
-					}
+					is_colonial = yes
 				}
-				set_country_flag = baathists_won
+				add_core = SIK
 			}
+			
+			release = SIK 
+			SIK = {
+				any_owned = {
+					limit = {
+						NOT = {continent = central_asia}
+					}
+					secede_province = THIS
+					remove_core = SIK
+				}
+			}
+
+				#any_owned = {
+				#	any_pop = {
+				#		
+				#		militancy = 9
+				#	}
+				#}
+			
 		}		
 	}
 }

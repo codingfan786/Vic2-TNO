@@ -13,20 +13,20 @@
 		size = 3000
 	}
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1750
 	}
 
 	clergymen = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1100
 	}
 
 	artisans = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 4000
 	}
 
@@ -37,7 +37,7 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 72250
@@ -62,20 +62,20 @@
 		size = 3000
 	}
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 750
 	}
 
 	clergymen = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 500
 	}
 
 	artisans = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1750
 	}
 
@@ -86,7 +86,7 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 26500
@@ -111,26 +111,26 @@
 		size = 3000
 	}
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1500
 	}
 	
 	bureaucrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 400
 	}
 
 	clergymen = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 750
 	}
 
 	artisans = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 3250
 	}
 
@@ -141,7 +141,7 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 53500
@@ -167,20 +167,20 @@
 		size = 3000
 	}
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 350
 	}
 
@@ -191,7 +191,7 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 6375
@@ -210,20 +210,20 @@
 		size = 3000
 	}
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 400
 	}
 
@@ -234,7 +234,7 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 7300

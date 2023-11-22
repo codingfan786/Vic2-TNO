@@ -169,6 +169,9 @@ political_decisions = {
 			}
 			set_country_flag = CHI_mobnerf
 			civilized = yes #necessary because if china is civilized in history files it is automatically a gp at select screen but not in game. breaks puppet status
+			#IET = {civilized = yes}
+			#IGY = {civilized = yes}
+			#IIS = {civilized = yes}
 		}
 	}
 
@@ -583,5 +586,100 @@ political_decisions = {
 				}
 			}
 		}
+	}
+
+	ger_africa_setup = {
+		potential = {
+			OR = {
+				tag = JAN
+				#tag = WGA
+				#tag = EGA
+			}
+			NOT = {has_country_flag = africa_setup}
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = africa_setup
+			SGA = {
+				any_owned = {
+					limit = {
+						is_core = SGA
+					}
+					add_core = SIK
+				}
+				
+				release = SIK 
+				SIK = {
+					any_owned = {
+						limit = {
+							NOT = {continent = central_asia}
+						}
+						secede_province = SGA
+						remove_core = SIK
+					}
+					release = SGA
+				}
+			}
+			WGA = {
+				any_owned = {
+					limit = {
+						is_core = WGA
+					}
+					add_core = SIK
+				}
+				
+				release = SIK 
+				SIK = {
+					any_owned = {
+						limit = {
+							NOT = {continent = central_asia}
+						}
+						secede_province = WGA
+						remove_core = SIK
+					}
+					release = WGA
+				}
+			}
+			EGA = {
+				any_owned = {
+					limit = {
+						is_core = EGA
+					}
+					add_core = SIK
+				}
+				
+				release = SIK 
+				SIK = {
+					any_owned = {
+						limit = {
+							NOT = {continent = central_asia}
+						}
+						secede_province = EGA
+						remove_core = SIK
+					}
+					release = EGA
+				}
+			}
+		}		
+	}
+
+	puppet_gp_fix = {
+		potential = {
+			NOT = {year = 1963}
+			OR = {
+				tag = IGY
+				tag = IET
+				tag = IIS
+				tag = GLO
+				tag = IAL
+				tag = SAL
+				tag = OFN
+				tag = CBR
+			}
+			civilized = no
+		}
+		allow = {}
+		effect = {civilized = yes}
 	}
 }

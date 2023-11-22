@@ -1,6 +1,6 @@
 trade_goods = iron
 life_rating = 15
-owner = IBE
-controller = IBE
+owner = SGA
+controller = SGA
 add_core = ANG
 colonial = 2

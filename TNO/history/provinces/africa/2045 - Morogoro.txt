@@ -2,5 +2,5 @@ trade_goods = fruit
 life_rating = 15
 owner = EGA
 controller = EGA
-add_core = KEN
+add_core = EGA
 colonial = 2

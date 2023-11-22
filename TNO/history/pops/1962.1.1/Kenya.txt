@@ -3,8 +3,8 @@
 #Nairobi (260000/65000 POPS)
 2024 = {
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 925
 	}
 
@@ -26,15 +26,15 @@
 		size = 500
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 43700
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 200
 	}
 
@@ -56,15 +56,15 @@
 		size = 125
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 10025
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -86,7 +86,7 @@
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 3650
@@ -95,8 +95,8 @@
 #Lodwar (36000/9000 POPS)
 2026 = {
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
@@ -118,15 +118,15 @@
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 4625
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -148,7 +148,7 @@
 		size = 25
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 2700
@@ -163,8 +163,8 @@
 #Nakuru (128000/32000 POPS)
 2027 = {
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 150
 	}
 
@@ -186,15 +186,15 @@
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 7350
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 300
 	}
 
@@ -216,15 +216,15 @@
 		size = 175
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 11725
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 150
 	}
 
@@ -246,7 +246,7 @@
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 7300
@@ -262,8 +262,8 @@
 #Kisumu (196000/49000POPS)
 2028 = {
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 375
 	}
 
@@ -285,15 +285,15 @@
 		size = 300
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 20350
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 375
 	}
 
@@ -315,7 +315,7 @@
 		size = 200
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 18225
@@ -332,8 +332,8 @@
 #Marsabit (52000/13000 POPS
 2025 = {
 	aristocrats = {
-		culture = afro_asiatic
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 250
 	}
 
@@ -355,7 +355,7 @@
 		size = 125
 	}
 
-	farmers = {
+	slaves = {
 		culture = afro_asiatic
 		religion = animist
 		size = 11875
@@ -364,8 +364,8 @@
 #Wajir (100000/25000 POPS)
 2031 = {
 	aristocrats = {
-		culture = afro_asiatic
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 400
 	}
 
@@ -387,15 +387,15 @@
 		size = 225
 	}
 
-	farmers = {
+	slaves = {
 		culture = afro_asiatic
 		religion = sunni
 		size = 18225
 	}
 
 	aristocrats = {
-		culture = afro_asiatic
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -417,7 +417,7 @@
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = afro_asiatic
 		religion = animist
 		size = 3650
@@ -432,8 +432,8 @@
 #Garissa (172000/43000 POPS)
 2032 = {
 	aristocrats = {
-		culture = afro_asiatic
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 650
 	}
 
@@ -455,15 +455,15 @@
 		size = 350
 	}
 
-	farmers = {
+	slaves = {
 		culture = afro_asiatic
 		religion = animist
 		size = 31875
 	}
 
 	aristocrats = {
-		culture = afro_asiatic
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
@@ -485,15 +485,15 @@
 		size = 25
 	}
 
-	farmers = {
+	slaves = {
 		culture = afro_asiatic
 		religion = sunni
 		size = 2700
 	}
 
 	aristocrats = {
-		culture = afro_asiatic
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 75
 	}
 
@@ -515,7 +515,7 @@
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = afro_asiatic
 		religion = animist
 		size = 4575
@@ -525,9 +525,14 @@
 #ruled by kingdom of Oman in 1836
 #Mombasa (100000/25000 POPS)
 2029 = {
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 600
+	}
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 200
 	}
 
@@ -549,15 +554,15 @@
 		size = 1100
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 9150
 	}
 
 	aristocrats = {
-		culture = mashriqi
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
@@ -579,15 +584,15 @@
 		size = 50
 	}
 
-	farmers = {
+	slaves = {
 		culture = mashriqi
 		religion = sunni
 		size = 500
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 175
 	}
 
@@ -609,7 +614,7 @@
 		size = 100
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 9125
@@ -624,8 +629,8 @@
 #Lamu (100000/25000 POPS)
 2030 = {
 	aristocrats = {
-		culture = bantu
-		religion = sunni
+		culture = north_german
+		religion = protestant
 		size = 225
 	}
 
@@ -647,15 +652,15 @@
 		size = 125
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = sunni
 		size = 10025
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 225
 	}
 
@@ -677,7 +682,7 @@
 		size = 125
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 10925
@@ -693,8 +698,8 @@
 #Voi (104000/26000 POPS)
 2033 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 475
 	}
 
@@ -716,7 +721,7 @@
 		size = 250
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 23725

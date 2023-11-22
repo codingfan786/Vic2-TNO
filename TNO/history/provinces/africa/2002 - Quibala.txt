@@ -1,7 +1,7 @@
 #trade_goods = coffee
 trade_goods = rubber
 life_rating = 25
-owner = IBE
-controller = REB
+owner = SGA
+controller = SGA
 add_core = ANG
 colonial = 2

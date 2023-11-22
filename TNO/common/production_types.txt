@@ -284,7 +284,7 @@ machine_parts_factory = {
 synthetic_oil_factory = {       
 	template = factory_template
 	input_goods = { 
-		coal = 12		#27.6	total input+maint = 39
+		coal = 8		#27.6	total input+maint = 39 #was 12
 	}
 	output_goods = oil 
 	value = 2.5			#30
@@ -725,7 +725,7 @@ RGO_template_farmers = {
 		}
 		{ 
 			poptype = slaves 
-			effect = output
+			effect = throughput #was output?
 			amount = 1
 		}
 	}
@@ -749,7 +749,7 @@ RGO_template_labourers = {
 		}
 		{ 
 			poptype = slaves 
-			effect = output
+			effect = throughput #was output?
 			amount = 1
 		}
 	}

@@ -2,7 +2,7 @@
 
 trade_goods = grain
 life_rating = 35
-owner = IBE
-controller = IBE
+owner = SGA
+controller = SGA
 add_core = ANG
 colonial = 2

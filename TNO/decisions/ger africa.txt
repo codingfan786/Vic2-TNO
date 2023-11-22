@@ -1,118 +1,12 @@
 political_decisions = {
 
-	fix_country = {
-		picture = westernize_nation
-		potential = {
-			NOT = {has_country_flag = GERAFRFIXED}
-			OR = {
-				tag = EGA
-				tag = WGA
-			}
-		}
-		allow = {
-			all_core = {
-				OR = {
-					is_capital = yes
-					terrain = mountain
-					has_building = railroad
-				}
-			}
-		}
-		effect = {
-			set_country_flag = GERAFRFIXED
-			any_owned = {
-				remove_province_modifier = ger_afr
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	gerafanger = {
-		potential = {
-			OR = {tag = WGA tag = EGA}
-			NOT = {has_country_flag = geranger}
-		}
-		allow = {}
-		effect = {
-			set_country_flag = geranger
-			#add_country_modifier = {
-			#	name = ger_afr
-			#	duration = -1
-			#}
-			any_owned = {
-				limit= {
-					NOT = {is_core = THIS}
-				}
-				add_province_modifier = {
-					name = ger_afr
-					duration = -1
-				}
-			}
-		}
-	}
-
-	ega_coup = {
-		picture = support_biesterfelds
-		potential = {
-			tag = EGA
-			NOT = {WGA = {has_country_flag = GERAFRFIXED}}
-			exists = WGA
-		}
-		allow = {
-			WGA = {
-				capital_scope = {
-					country_units_in_province = EGA
-				}
-			}
-			NOT = {
-				WGA = {
-					capital_scope = {
-						country_units_in_province = WGA
-					}
-				}
-			}
-		}
-		effect = {
-			inherit = WGA
-			set_global_flag = ger_afr_couped_ega
-		}
-	}
-
-	wga_coup = {
-		picture = support_biesterfelds
-		potential = {
-			tag = WGA
-			NOT = {EGA = {has_country_flag = GERAFRFIXED}}
-			exists = EGA
-		}
-		allow = {
-			EGA = {
-				capital_scope = {
-					country_units_in_province = WGA
-				}
-			}
-			NOT = {
-				EGA = {
-					capital_scope = {
-						country_units_in_province = EGA
-					}
-				}
-			}
-		}
-		effect = {
-			inherit = EGA
-			set_global_flag = ger_afr_couped_wga
-		}
-	}
-
 	support_boers = {
 		picture = support_french_foreign_legion
 		potential = {
 			OR = {
 				tag = EGA
 				tag = WGA
+				tag = SGA
 			}
 			NOT = {has_country_flag = support_ora}
 			NOT = {has_global_flag = saf_war_started}
@@ -142,76 +36,142 @@ political_decisions = {
 						tag = WGA
 						exists = CNG
 					}
+					AND = {
+						tag = SGA
+						exists = ANG
+					}
 				}
 			}
 		}
 	}
 
-	ega_expand = {
-		picture = rhodesia_charter
+	sga_reform = {
+		picture = westernize_nation
 		potential = {
-			tag = EGA
-			exists = MOZ
-			NOT = {has_country_flag = moz_taken}
+			tag = SGA
+			NOT = {has_country_flag = no_more_african_rebels}
 		}
 		allow = {
+			nationalism_n_imperialism = 1
 			OR = {
-				state_n_government = 1
-				AND = {
-					ai = yes
-					year = 1966
-				}
+				has_global_flag = saf_war_started
+				SAF = {exists = no}
+				government = democracy
 			}
 		}
 		effect = {
-			badboy = 5
-			set_country_flag = moz_taken
-			MOZ = {
-				add_casus_belli = {
-					target = EGA
-					type = acquire_state
-					months = 180
-				}
-				add_casus_belli = {
-					target = EGA
-					type = acquire_capital
-					months = 180
-				}
+			set_country_flag = no_more_african_rebels
+
+			government = democracy
+			political_reform = no_slavery
+			political_reform = universal_weighted_voting
+			political_reform = harassment
+			political_reform = state_equal_weight
+			
+			add_country_modifier = {
+				name = demo_hung
+				duration = 7300
+			}
+
+			any_owned = {
+				remove_province_modifier = af_dev_1
+			}
+			any_owned = {
+				remove_province_modifier = af_dev_2
+			}
+			any_owned = {
+				remove_province_modifier = af_dev_3
 			}
 		}
 	}
 
-	wga_expand = {
-		picture = rhodesia_charter
+	brudermord = {
+		picture = die_groot_trek
 		potential = {
-			tag = WGA
-			exists = ANG
-			NOT = {has_country_flag = ang_taken}
+			OR = {
+				tag = WGA
+				tag = EGA
+			}
+			NOT = {has_country_flag = did_brudermord}
+		}
+		allow = {
+			war = no
+			OR = {
+				has_global_flag = saf_war_started
+				SAF = {exists = no}
+			}
+		}
+		effect = {
+			set_country_flag = did_brudermord
+		}
+	}
+
+	grobafrica = {
+		picture = form_north_german_confederation
+		potential = {
+			OR = {
+				tag = WGA
+				tag = EGA
+			}
+			NOT = {exists = AGA}
+		}
+
+		allow = {
+			all_core = {owner = {tag = THIS}}
+			CNG = {all_core = {owner = {tag = THIS}}}
+			MOZ = {all_core = {owner = {tag = THIS}}}
+			ZAM = {all_core = {owner = {tag = THIS}}}
+			OR = {
+				has_global_flag = saf_war_started
+				SAF = {exists = no}
+			}
+		}
+
+		effect = {
+			clr_country_flag = did_brudermord
+
+			change_tag = AGA
+			EGA = { all_core = {add_core = AGA}}
+			WGA = { all_core = {add_core = AGA}}
+			ANG = { all_core = {add_core = AGA}}
+
+			any_owned = {
+				remove_province_modifier = af_dev_1
+			}
+			any_owned = {
+				remove_province_modifier = af_dev_2
+			}
+			any_owned = {
+				remove_province_modifier = af_dev_3
+			}
+		}
+	}
+
+	fix_africa = {
+		picture = westernize_nation
+		potential = {
+			tag = AGA
+			NOT = {has_country_flag = no_more_african_rebels}
 		}
 		allow = {
 			OR = {
-				state_n_government = 1
+				slavery = no_slavery
 				AND = {
-					ai = yes
-					year = 1966
+					WGA = {exists = no}
+					SGA = {exists = no}
+					EGA = {exists = no}
+					OR = {
+						ORA = {exists = yes}
+						AND = {
+							2102 = {owner = {tag = THIS}}
+							2109 = {owner = {tag = THIS}}
+						}
+					}
 				}
 			}
 		}
 		effect = {
-			badboy = 5
-			set_country_flag = ang_taken
-			ANG = {
-				add_casus_belli = {
-					target = WGA
-					type = acquire_state
-					months = 180
-				}
-				add_casus_belli = {
-					target = WGA
-					type = acquire_capital
-					months = 180
-				}
-			}
+			set_country_flag = no_more_african_rebels
 		}
 	}
 }

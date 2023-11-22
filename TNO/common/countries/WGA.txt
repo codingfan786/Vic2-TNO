@@ -2,8 +2,9 @@
 
 #========================= H E A D E R =========================
 
-color = { 221  160  221 }
-graphical_culture = AfricanGC
+#color = { 221  160  221 }
+color = { 95 16 7 }
+graphical_culture = PrussianGC
 
 
 #========================= P A R T I E S =========================

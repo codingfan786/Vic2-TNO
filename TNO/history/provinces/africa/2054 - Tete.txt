@@ -1,6 +1,6 @@
 trade_goods = grain
 life_rating = 15
-owner = IBE
-controller = REB
+owner = EGA
+controller = EGA
 add_core = MOZ
 colonial = 2

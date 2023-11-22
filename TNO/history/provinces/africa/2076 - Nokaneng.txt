@@ -2,6 +2,6 @@ trade_goods = fruit
 life_rating = 15
 owner = SAF
 controller = SAF
-add_core = SAF
-colonial = 2
-fort = 1
+add_core = ZUL
+#colonial = 2
+

@@ -640,6 +640,7 @@ country_event = {
 	desc = "With the lack of tension in contentious territory the O.F.N. has lost interest in setting up a trust territory."
 
 	trigger = {
+		NOT = {crisis_exist = yes}
 		NOT = {has_global_flag = ofn_dissolved}
 		any_owned_province = {
 			NOT = {is_core = THIS}

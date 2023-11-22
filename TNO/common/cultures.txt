@@ -2135,6 +2135,7 @@ central_african = {
 
 		last_names = { "Ma Nombo" "Ma N'Sangou" N'Gombi Matou Mvemba Lukeni Mpanzu Nimi Nsindi
 		}
+		radicalism = 10
 	}
 	african_minor = {
 		color = { 66 91 229}

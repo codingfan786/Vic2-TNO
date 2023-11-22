@@ -175,7 +175,7 @@ contact_cbr_title;Contact the British Colonial Administration;;;;;;;;;;;;x
 contact_cbr_desc;Since World War 2 the British colonial administration has been cut off and in collapse. They will be glad to hear of the Nation's recovery.;;;;;;;;;;;;x
 support_boers_title;Support Boer separatism.;;;;;;;;;;;;x
 support_boers_desc;The former British colony to our south is a dangerous threat to our supremacy in Africa. We should support the Boer separatists when they declare their independence! §R This will make us automatically join the Boers when they declare independence (Usually in the 70's).;;;;;;;;;;;;x
-EVENT500065;To our north are our two German neighbors, waiting for the opportune moment to strike at us. Any time a Boer core we own is sieged down by rebels the province will be marked with a modifier named Open Revolt. In the early 1970's (or earlier if all Boer cores are sieged) the Boer republic will declare independence in every state that has a province with Open Revolt. They will also get some troops for every province with Open Revolt. The German dictatorships to our north will join the Boers if they have not collapsed before then.;;;;;;;;;;;;x
+EVENT500065;To our north are our three German neighbors, waiting for the opportune moment to strike at us. Any time a Boer core we own is sieged down by rebels the province will be marked with a modifier named Open Revolt. In the early 1970's (or earlier if all Boer cores are sieged) the Boer republic will declare independence in every state that has a province with Open Revolt. They will also get some troops for every province with Open Revolt. The German dictatorships to our north will join the Boers if they have not collapsed before then.;;;;;;;;;;;;x
 EVENT500066;The failure in World War 2 and the economic hardships our loss brought has lead to an increasing poverty gap between the southern and northern regions of our country. The tensions this has caused between the Afro-American and Dixie citizenry will inevitably lead to outright violence in these states. We do however have a chance to soften the impact of this. \n\n Jackson and Washington each start with their own modifiers representing racial tensions and federal desegregation efforts respectively. These will slowly spread throughout the south until every province is covered with one of them, at which point the provinces with racial tensions will fall into anarchy as racial violence erupts until military intervention arrives. \n Having a liberal party slows the spread of racial tension, while having at least 0.5% bureaucrats in a state will slow tension spread and speed up desegregation spread. \n Good luck!;;;;;;;;;;;;x
 civil_unrest;Civil Unrest;;;;;;;;;;;;x
 uncontrolled_lynchings;Klan Lynchings;;;;;;;;;;;;x
@@ -317,7 +317,7 @@ regent1;Death of a regent.;;;;;;;;;;;;x
 regent2;The ailing health of the high regent Miklos Horthy has finally caught up to him. Despite living a long and fulfilling life in his homeland he never officially declared a successor to the position of regent, leaving some question as to the future of the country.;;;;;;;;;;;;x
 regent3;The late admiral's son, Istvan Horthy, will succeed him. §R (Further decisions will unlock.);;;;;;;;;;;;x
 regent4;Bela Imredy, the prime minister, will take control of the country!;;;;;;;;;;;;x
-demo_hung;Monarchy Abolished;;;;;;;;;;;;x
+demo_hung;Democracy Established;;;;;;;;;;;;x
 regent_habsburg_title;Invite Otto von Habsburg.;;;;;;;;;;;;x
 regent_habsburg_desc;Despite the late Miklos Horthy's opposition to the Habsburgs and their failed attempts to return in the 1920's, they remain the only royal family with a legitimate claim to the Hungarian throne. Otto von Habsburg's vocal support for democracy aligns with Istvan Horthy's own antimonarchy leanings and makes him the logical choice. This will undoubtedly anger the Germans, who hold the Habsburg's main claim of Austria.;;;;;;;;;;;;x
 hungary_austria_title;Reunite Austria and Hungary.;;;;;;;;;;;;x
@@ -828,3 +828,30 @@ PROV3449;San Francisco Harbor;x
 event500141desc;'The Orginization of Free Nations is dedicated to promoting and protecting freedom and democracy abroad in the face of ever encroaching fascist threat.' That is the founding principle upon which the O.F.N. was founded in the wake of World War Two. However, as war ravages $COUNTRY$ the defender of the free world is shockingly absent. Fighters and outside observers alike have found themselves increasingly asking themselves: Just where are the Yankees?;x
 event500215desc;'The Orginization of Free Nations is dedicated to promoting and protecting freedom and democracy abroad in the face of ever encroaching fascist threat.' That is the founding principle upon which the O.F.N. was founded in the wake of World War Two. However, as war ravages $FROMCOUNTRY$ the defender of the free world is shockingly absent. Fighters and outside observers alike have found themselves increasingly asking themselves: Just where are the Yankees? \n §R This event fires when a minor O.F.N. member is at war with a non-O.F.N. nation that you are at peace with. (The event will not stack or spam.);x
 ofn_security_punishment;O.F.N. Security Lapse;x
+african_rebels_name;$COUNTRY$ Slave Revolt;x
+african_rebels_army;$COUNTRY_ADJ$ Slave Militia;x
+african_rebels_desc;The German colonial regime in Africa is an essentially a country sized concentration camp. Of course, this has lead to many seeking to overthrow the German regime. §R If this rebel group wins, the entire German colonial regime will be split among the native people. This will free the following countries: \n The Congo \n Zambia \n Kenya \n Mozambique \n Angola \n Botswana/Rhodesia \n Nigeria \n The Boer State;x
+colonial_exploitation;Colonial Exploitation;x
+af_dev_1;African Devastation;x
+af_dev_2;African Devastation;x
+af_dev_3;African Devastation;x
+event500220desc;The war against South Africa is straining the German administration to its limit. Every soldier on the front is one less guarding the plantations. Every rifle in their hands is another endless shift in the factories for the African people. §R This will get much worse in roughly 6 months and again in 12 months.;x
+event500221desc;The war against South Africa is straining the German administration to its limit. Every soldier on the front is one less guarding the plantations. Every rifle in their hands is another endless shift in the factories for the African people. §R This will get much worse in roughly 6 months.;x
+event500222desc;The war against South Africa is straining the German administration to its limit. Every soldier on the front is one less guarding the plantations. Every rifle in their hands is another endless shift in the factories for the African people.;x
+saf_war_started;The South African War has started.;x
+sga_reform_title;The African Dawn;x
+sga_reform_desc;Reichskommissar Wolfgang Schenck, a veteran ace of the wars in Russia and the lord over the Südwestafrikan domain, rules with a light, almost absent touch. While in public he maintains the Reichskommissariats resources quota obligations to Germany, in private he dreams of an end to the atrocities he overseas. Such a renunciation would however require a much more stable position regarding his southern neighbour. §R This will stop the African slave revolts.;x
+brudermord_title;Brudermord;x
+brudermord_desc;The other German states in Afrika are rife with corruption and are traitors to the cause of the German Reich. We are the only administration capable of managing the continent, and we will show this with force! §R This makes the "place in the sun" CB cost less infamy and warscore until you form the Großafrikanischer Reichsstaat.;x
+grobafrica_title;Afrika, a Concentration Camp;x
+grobafrica_desc;We have obtained a dominant postition in both east and west central Afrika. Our domain spans from Mozambique to the mouth of the Congo. An untold amount of wealth awaits us, all ripe for the picking. The continent will be drained of all its worth for the glory of the Großafrikanischer Reichsstaat!;x
+fix_africa_title;Afrika Pacified;x
+fix_africa_desc;We have dominated Afrika completely and consolidated our rule. With no more major ourside threats we will pacify all those within. §R This will stop the African slave revolts.;x
+saf_victory_alt_title;The Boers pacified!;;;;;;;;;;;;x
+saf_victory_alt_desc;With our victory in the South African War, the Boers have been pacified and reintegrated into our country.;;;;;;;;;;;;x
+saf_anc_deal_title;Reproach the African National Congress;x
+saf_anc_deal_desc;The African National Congress is a social-democratic political party in South Africa, known for its opposition to apartheid. It is the opposite political extreme to the Boer National Party and despised by many British who support apartheid. Despite this the current crisis South Africa faces requires the cooperation and solidarity of all Africans, white and black. §R This will raise the requirements for accepting the Boers later.;x
+place_in_the_sun_alt;Place in the sun;Une place au soleil;Ein Platz an der Sonne;;Un lugar bajo el sol;;;;;;;;;x;;;;
+place_in_the_sun_alt_short;Acquire $STATE$; Prendre l'État de $STATE$;Kolonie $STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
+place_in_the_sun_alt_setup;Acquire colony $STATE$ from $RECIPIENT$;Prendre colonie $STATE$ à $RECIPIENT$;Kolonie $STATE$ von $RECIPIENT$ erobern.;;Adquirir la colonia de $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
+place_in_the_sun_alt_desc;Aquire an enemy §Ycolonial state§W;Prendre un §YÉtat colonial§W ennemi;Erobern Sie einen feindlichen §YKolonialstaat§W.;;Adquirir un §Yestado colonial§W enemigo;;;;;;;;;x

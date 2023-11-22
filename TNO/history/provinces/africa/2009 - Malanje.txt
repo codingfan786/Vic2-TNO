@@ -1,6 +1,6 @@
 trade_goods = fruit
 life_rating = 15
-owner = IBE
-controller = REB
+owner = SGA
+controller = SGA
 add_core = ANG
 colonial = 2

@@ -65,6 +65,7 @@ acquire_state
 acquire_capital
 acquire_substate_region
 place_in_the_sun
+place_in_the_sun_alt
 africa_post_scramble
 africa_pre_scramble
 colonial_competition
@@ -640,7 +641,7 @@ place_in_the_sun = {
 	is_triggered_only = yes
 	months = 12
 
-	badboy_factor = 0.3
+	badboy_factor = 0.6
 	prestige_factor = 2
 	peace_cost_factor = 2 #try 2.5?
 	penalty_factor = 1
@@ -659,6 +660,62 @@ place_in_the_sun = {
 		any_owned_province = {
 			is_colonial = yes
 		}	
+		NOT = {THIS = {has_country_flag = did_brudermord}}
+	}
+	
+	allowed_states = {
+		is_colonial = yes
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			OR = {
+				is_coastal = yes
+				any_neighbor_province = {
+					owner = { tag = THIS }
+				}
+			}
+		}
+	}
+
+	po_demand_state = yes
+
+	war_name = WAR_COLONIAL_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+place_in_the_sun_alt = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+
+	badboy_factor = 0.3
+	prestige_factor = 2
+	peace_cost_factor = 1.25 
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		any_owned_province = {
+			is_colonial = yes
+		}	
+		THIS = {has_country_flag = did_brudermord}
 	}
 	
 	allowed_states = {
@@ -3397,3 +3454,4 @@ baathism = {
 		country_event = 500210
 	}
 }
+

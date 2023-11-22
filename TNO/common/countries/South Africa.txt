@@ -1,5 +1,8 @@
-color = { 180  158  127 }
-graphical_culture = Generic
+#color = { 180  158  127 }
+#color = { 200 125 106 }
+color = { 249 173 151 }
+#color = { 205 92 92 }
+graphical_culture = BritishGC
 
 party = {
 	name = "SAF_liberal"

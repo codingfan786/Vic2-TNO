@@ -50,6 +50,12 @@ WGA = {
 	influence_value = 0
 }
 
+SGA = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+
 #========================= L A N D =========================
 
 army = {

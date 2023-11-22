@@ -1,5 +1,5 @@
 #trade_goods = rubber
-trade_good = tea
+trade_goods = tea
 life_rating = 15
 owner = WGA
 controller = WGA

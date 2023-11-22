@@ -1,6 +1,8 @@
-owner = SAF
-controller = SAF
-add_core = ORA
+owner = EGA
+controller = EGA
+add_core = ZUL
 civilized = 2
 trade_goods = iron
 life_rating = 15
+
+colonial = 2

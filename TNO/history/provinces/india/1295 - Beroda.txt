@@ -6,7 +6,7 @@ add_core = HND
 
 
 
-trade_goods = cotton
+trade_goods = iron
 life_rating = 32
 
 add_core = BER

@@ -1,0 +1,5 @@
+trade_goods = tobacco
+life_rating = 15
+owner = EGA
+controller = EGA
+add_core = EGA

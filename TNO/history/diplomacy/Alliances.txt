@@ -40,3 +40,24 @@ alliance=
 		second="BEN"
 		start_date="1962.1.1"
 	}
+
+alliance=
+	{
+		first="EGA"
+		second="WGA"
+		start_date="1962.1.1"
+	}
+
+alliance=
+	{
+		first="EGA"
+		second="SGA"
+		start_date="1962.1.1"
+	}
+
+alliance=
+	{
+		first="WGA"
+		second="SGA"
+		start_date="1962.1.1"
+	}

@@ -1,0 +1,88 @@
+political_decisions = {
+	saf_victory = {
+		picture = die_groot_trek
+		potential = {
+			tag = SAF
+			NOT = {accepted_culture = boer}
+			NOT = {accepted_culture = khoisan}
+		}
+		allow = {
+			OR = {
+				has_global_flag = saf_war_started
+				year = 1980
+			}
+			ORA = {
+				all_core = {
+					owner = {
+						tag = SAF
+					}
+				}
+			}
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			ORA = {
+				all_core = {
+					add_core = SAF
+				}
+			}
+			add_accepted_culture = boer
+		}
+	}
+	
+	saf_victory_alt = {
+		picture = die_groot_trek
+		potential = {
+			tag = SAF
+			NOT = {accepted_culture = boer}
+			accepted_culture = khoisan
+		}
+		allow = {
+			OR = {
+				has_global_flag = saf_war_started
+				year = 1980
+			}
+			ORA = {
+				all_core = {
+					owner = {
+						tag = SAF
+					}
+				}
+			}
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			ORA = {
+				all_core = {
+					add_core = SAF
+				}
+			}
+			add_accepted_culture = boer
+		}
+	}
+
+	saf_anc_deal = {
+		picture = emancipation_proclamation
+		potential = {
+			tag = SAF
+			NOT = {accepted_culture = khoisan}
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = khoisan
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = british
+						has_pop_culture = boer
+					}
+				}
+				militancy = 3
+			}
+		}
+	}
+
+	#maybe add a flavor decision to increase literacy of khosan near cape? "deracialize education"
+}

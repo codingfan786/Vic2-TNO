@@ -60,12 +60,12 @@
 #Bata (132000/33000 POPS) 
 1973 = {
 	bureaucrats = {
-		culture = north_german
+		culture = spanish
 		religion = protestant
 		size = 1050
 	}
 	soldiers = {
-		culture = north_german
+		culture = spanish
 		religion = protestant
 		size = 3000
 	}

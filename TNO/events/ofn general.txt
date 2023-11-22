@@ -205,6 +205,10 @@ country_event = {
 				value = 50
 			}
 		}
+		diplomatic_influence = {
+			who = FROM
+			value = 50
+		}
 	}
 
 	option = {

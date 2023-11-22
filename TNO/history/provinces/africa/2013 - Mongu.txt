@@ -1,6 +1,6 @@
 trade_goods = cattle
 life_rating = 15
-owner = WGA
-controller = WGA
+owner = EGA
+controller = EGA
 add_core = ZAM
 colonial = 2

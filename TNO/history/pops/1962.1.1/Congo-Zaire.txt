@@ -3,51 +3,45 @@
 #Kinshasa (1408000/352000 POPS)
 1982 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 6175
-		militancy = 1
-		rebel_type = liberal_rebels
+
 	}
 	
 	bureaucrats = {
 		culture = bantu
 		religion = animist
 		size = 700
-		militancy = 1
-		rebel_type = liberal_rebels
+
 	}
 
 	clergymen = {
 		culture = bantu
 		religion = animist
 		size = 3575
-		militancy = 1
-		rebel_type = liberal_rebels
+
 	}
 
 	artisans = {
 		culture = bantu
 		religion = animist
 		size = 10000
-		militancy = 1 
-		rebel_type = liberal_rebels
+
 	}
 	
 	artisans = {
 		culture = bantu
 		religion = animist
 		size = 4025
-		militancy = 1 
-		rebel_type = liberal_rebels
+
 	}
 
 	soldiers = {
 		culture = bantu
 		religion = animist
 		size = 3000
-		militancy = 1 
-		rebel_type = liberal_rebels
+
 
 	}
 
@@ -55,32 +49,29 @@
 		culture = bantu
 		religion = animist
 		size = 575
-		militancy = 1 
-		rebel_type = liberal_rebels
+
+
+	}
+
+	slaves = {
+		culture = bantu
+		religion = animist
+		size = 246950
 
 	}
 
 	farmers = {
 		culture = bantu
 		religion = animist
-		size = 246950
-		militancy = 1 
-		rebel_type = liberal_rebels
-	}
-
-	slaves = {
-		culture = bantu
-		religion = animist
 		size = 77000
-		militancy = 1 
-		rebel_type = liberal_rebels
+
 	}
 }
 #Boma (396000/99000 POPS)
 1983 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 640
 	}
 
@@ -103,13 +94,13 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 74250
 	}
 
-	slaves = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 20000
@@ -120,8 +111,8 @@
 #Kananga (2024000/506000 POPS)
 1984 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 275
 	}
 
@@ -151,8 +142,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 2290
 	}
 
@@ -182,7 +173,7 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 132660
@@ -197,8 +188,8 @@
 #Kumbana (1364000/341000 POPS)
 1985 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1100
 	}
 
@@ -221,7 +212,7 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 79660
@@ -234,8 +225,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1100
 	}
 
@@ -258,13 +249,13 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 73140
 	}
 
-	slaves = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 20300
@@ -274,8 +265,8 @@
 #Lusambo (2068000/517000 POPS)
 1986 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1100
 	}
 	
@@ -298,15 +289,15 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 41990
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 2200
 	}
 
@@ -329,13 +320,13 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 108490
 	}
 
-	slaves = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 27000
@@ -346,18 +337,16 @@
 #Bunkeya (4888400/1222100 POPS)
 1987 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 7150
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	bureaucrats = {
 		culture = bantu
 		religion = animist
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 		size = 75
 	}
 
@@ -365,40 +354,35 @@
 		culture = bantu
 		religion = animist
 		size = 290
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	clergymen = {
 		culture = bantu
 		religion = animist
 		size = 3575
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	artisans = {
 		culture = bantu
 		religion = animist
 		size = 10000
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 	
 	artisans = {
 		culture = bantu
 		religion = animist
 		size = 4390
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	soldiers = {
 		culture = bantu
 		religion = animist
 		size = 3000
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 
 	}
 
@@ -406,49 +390,43 @@
 		culture = bantu
 		religion = animist
 		size = 1030
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 297180
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 920
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	clergymen = {
 		culture = bantu
 		religion = animist
 		size = 460
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	artisans = {
 		culture = bantu
 		religion = animist
 		size = 2380
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	soldiers = {
 		culture = bantu
 		religion = animist
 		size = 1375
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 
 	}
 
@@ -456,24 +434,22 @@
 		culture = bantu
 		religion = animist
 		size = 43450
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	slaves = {
 		culture = bantu
 		religion = animist
 		size = 33000
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 }
 #under the rule of Luba in 1836
 #Mussumba (1188000/297000 POPS)
 1988 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1100
 	}
 
@@ -499,12 +475,12 @@
 	farmers = {
 		culture = bantu
 		religion = animist
-		size = 35475
+		size = 25475
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 640
 	}
 
@@ -527,7 +503,7 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 33460
@@ -536,15 +512,15 @@
 	slaves = {
 		culture = bantu
 		religion = animist
-		size = 22000
+		size = 32000
 	}
 }
 #under the rule of Luba in 1836
 #Munza (3080000/770000 POPS)
 1989 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 4030
 	}
 
@@ -567,15 +543,15 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 124390
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1280
 	}
 
@@ -598,13 +574,13 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 63070
 	}
 
-	slaves = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 47670
@@ -615,8 +591,8 @@
 #Nyangwe (1144000/286000 POPS)
 1990 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 825
 	}
 
@@ -646,8 +622,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 920
 	}
 
@@ -670,7 +646,7 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 53450
@@ -685,8 +661,8 @@
 #Uvira (836000/209000 POPS)
 1991 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1375
 	}
 
@@ -709,13 +685,13 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 59320
 	}
 
-	slaves = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 19670
@@ -724,8 +700,8 @@
 #Basoko (1324400/331100 POPS)
 1992 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 2110
 	}
 
@@ -748,13 +724,13 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 85990
 	}
 
-	slaves = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 25670
@@ -765,8 +741,8 @@
 #Irebu (660000/165000 POPS)
 1993 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1100
 	}
 
@@ -789,13 +765,13 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 59690
 	}
 
-	slaves = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 15000
@@ -804,8 +780,8 @@
 #Nsheng (660000/165000 POPS)
 1994 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1100
 	}
 
@@ -828,13 +804,13 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 59690
 	}
 
-	slaves = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 15000
@@ -843,8 +819,8 @@
 #Gemena (1232000/308000 POPS)
 1995 = {
 	aristocrats = {
-		culture = niger_congo_a
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 2000
 	}
 
@@ -867,13 +843,13 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = niger_congo_a
 		religion = animist
 		size = 79750
 	}
 
-	slaves = {
+	farmers = {
 		culture = niger_congo_a
 		religion = animist
 		size = 14670
@@ -884,8 +860,8 @@
 #Kisangani (1716000/429000 POPS)
 1996 = {
 	aristocrats = {
-		culture = niger_congo_a
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 2840
 	}
 
@@ -908,13 +884,13 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = niger_congo_a
 		religion = animist
 		size = 122120
 	}
 
-	slaves = {
+	farmers = {
 		culture = niger_congo_a
 		religion = animist
 		size = 39330
@@ -924,8 +900,8 @@
 #Mungbane (836000/209000 POPS)
 1997 = {
 	aristocrats = {
-		culture = niger_congo_a
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 640
 	}
 
@@ -948,15 +924,15 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = niger_congo_a
 		religion = animist
-		size = 32920
+		size = 42920
 	}
 
 	aristocrats = {
-		culture = niger_congo_a
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 640
 	}
 
@@ -979,23 +955,23 @@
 
 	}
 
-	farmers = {
+	slaves = {
 		culture = niger_congo_a
 		religion = animist
 		size = 40460
 	}
 
-	slaves = {
+	farmers = {
 		culture = niger_congo_a
 		religion = animist
-		size = 10330
+		size = 20330
 	}
 }
 #Baramo (1188000/297000 POPS)
 1998 = {
 	aristocrats = {
-		culture = niger_congo_a
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1925
 	}
 
@@ -1025,10 +1001,14 @@
 
 	}
 
+	slaves = {
+		culture = niger_congo_a
+		religion = animist
+		size = 60110
+	}
 	farmers = {
 		culture = niger_congo_a
 		religion = animist
-		size = 90110
+		size = 30110
 	}
-
 }

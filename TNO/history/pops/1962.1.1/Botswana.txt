@@ -3,31 +3,31 @@
 #Gaborone (28000/7000 POPS) 
 2074 = {
 	aristocrats = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 1250
 	}
 
 	clergymen = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 750
 	}
 
 	artisans = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 3500
 	}
 
 	soldiers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 750
 	}
 
 	farmers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 63750
 	}
@@ -35,61 +35,61 @@
 #Nokaneng (12000/3000 POPS) 
 2076 = {
 	aristocrats = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 250
 	}
 
 	artisans = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 9000
 	}
 
 	aristocrats = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 250
 	}
 
 	clergymen = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 500
 	}
 
 	artisans = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 1000
 	}
 
 	soldiers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 250
 	}
 
 	farmers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 18000
 	}
@@ -159,31 +159,31 @@
 #Mochidi (16000/4000 POPS) 
 2574 = {
 	aristocrats = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 500
 	}
 
 	clergymen = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 500
 	}
 
 	artisans = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 2000
 	}
 
 	soldiers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 500
 	}
 
 	farmers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 36500
 	}
@@ -192,61 +192,61 @@
 #Serowe (8000/2000 POPS) 
 2075 = {
 	aristocrats = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 9000
 	}
 
 	aristocrats = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 250
 	}
 
 	artisans = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = bantu
+		culture = khoisan
 		religion = animist
 		size = 9000
 	}

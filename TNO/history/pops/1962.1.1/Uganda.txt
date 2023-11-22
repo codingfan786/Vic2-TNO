@@ -3,114 +3,101 @@
 #Entebbe (400000/100000 POPS) 
 2019 = {
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 1350
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	bureaucrats = {
 		culture = nilo_saharan
 		religion = animist
 		size = 50
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	officers = {
 		culture = nilo_saharan
 		religion = animist
 		size = 100
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	clergymen = {
 		culture = nilo_saharan
 		religion = animist
 		size = 725
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	artisans = {
 		culture = nilo_saharan
 		religion = animist
 		size = 2800
-		militancy = 8 
-		rebel_type = liberal_rebels
-	}
 
-	soldiers = {
-		culture = nilo_saharan
-		religion = animist
-		size = 700
-		militancy = 8 
-		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = nilo_saharan
 		religion = animist
+		size = 700
+
+	}
+
+	slaves = {
+		culture = nilo_saharan
+		religion = animist
 		size = 54225
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 575
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	clergymen = {
 		culture = nilo_saharan
 		religion = animist
 		size = 300
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	artisans = {
 		culture = nilo_saharan
 		religion = animist
 		size = 1500
-		militancy = 8 
-		rebel_type = liberal_rebels
-	}
 
-	soldiers = {
-		culture = nilo_saharan
-		religion = animist
-		size = 300
-		militancy = 8 
-		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = nilo_saharan
 		religion = animist
+		size = 300
+
+	}
+
+	slaves = {
+		culture = nilo_saharan
+		religion = animist
 		size = 27325
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 
 	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 10000
-		militancy = 8 
-		rebel_type = liberal_rebels
+
 	}
 }
 #Mbarara (232000/53000 POPS) 
 2020 = {
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 175
 	}
 
@@ -126,21 +113,21 @@
 		size = 400
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 100
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 5225
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 475
 	}
 
@@ -156,13 +143,13 @@
 		size = 1250
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 250
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 22775
@@ -175,8 +162,8 @@
 	}
 
 	aristocrats = {
-		culture = bantu
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 350
 	}
 
@@ -192,13 +179,13 @@
 		size = 725
 	}
 
-	soldiers = {
+	farmers = {
 		culture = bantu
 		religion = animist
 		size = 200
 	}
 
-	farmers = {
+	slaves = {
 		culture = bantu
 		religion = animist
 		size = 8550
@@ -207,8 +194,8 @@
 #Masindi (192000/48000 POPS) 
 2021 = {
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 550
 	}
 
@@ -224,13 +211,13 @@
 		size = 1450
 	}
 
-	soldiers = {
+	farmers = {
 		culture = nilo_saharan
 		religion = animist
 		size = 300
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 26400
@@ -243,8 +230,8 @@
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 375
 	}
 
@@ -260,13 +247,13 @@
 		size = 775
 	}
 
-	soldiers = {
+	farmers = {
 		culture = nilo_saharan
 		religion = animist
 		size = 200
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 8450
@@ -275,8 +262,8 @@
 #Kitgum (104000/26000 POPS) 
 2022 = {
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 375
 	}
 
@@ -292,21 +279,21 @@
 		size = 775
 	}
 
-	soldiers = {
+	farmers = {
 		culture = nilo_saharan
 		religion = animist
 		size = 200
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 14450
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 125
 	}
 
@@ -322,13 +309,13 @@
 		size = 350
 	}
 
-	soldiers = {
+	farmers = {
 		culture = nilo_saharan
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 63075
@@ -343,8 +330,8 @@
 #Jinja (208000/52000 POPS) 
 2023 = {
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 275
 	}
 
@@ -360,21 +347,21 @@
 		size = 575
 	}
 
-	soldiers = {
+	farmers = {
 		culture = nilo_saharan
 		religion = animist
 		size = 150
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 6850
 	}
 
 	aristocrats = {
-		culture = nilo_saharan
-		religion = animist
+		culture = north_german
+		religion = protestant
 		size = 750
 	}
 
@@ -390,13 +377,13 @@
 		size = 1900
 	}
 
-	soldiers = {
+	farmers = {
 		culture = nilo_saharan
 		religion = animist
 		size = 375
 	}
 
-	farmers = {
+	slaves = {
 		culture = nilo_saharan
 		religion = animist
 		size = 38400

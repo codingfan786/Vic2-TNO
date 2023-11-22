@@ -1,6 +1,6 @@
 trade_goods = wool
 life_rating = 10
-owner = SAF
-controller = SAF
-add_core = SAF
+owner = SGA
+controller = SGA
+add_core = SGA
 colonial = 2

@@ -3,5 +3,5 @@ trade_goods = fish
 life_rating = 35
 owner = EGA
 controller = EGA
-add_core = KEN
+add_core = EGA
 colonial = 2

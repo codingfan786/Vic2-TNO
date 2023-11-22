@@ -1,6 +1,37 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+af_dev_1 = {
+	pop_militancy_modifier = 0.05
+	icon = 18
+}
+
+af_dev_2 = {
+	pop_militancy_modifier = 0.05
+	icon = 18
+}
+
+af_dev_3 = {
+	pop_militancy_modifier = 0.10
+	icon = 18
+}
+
+saf_timer_1 = {
+	
+}
+
+saf_timer_2 = {
+	
+}
+
+saf_timer_3 = {
+	
+}
+
+saf_timer_4 = {
+	
+}
+
 ofn_security_punishment = {
 	icon = 2
 	ruling_party_support = -0.2
@@ -67,7 +98,7 @@ hnd_sa = {
 	global_pop_consciousness_modifier = 0.05
 }
 hnd_famine = {
-	population_growth = -0.05
+	population_growth = -0.02 #was 0.05
 	pop_militancy_modifier = 0.05
 	icon = 20
 }
@@ -274,7 +305,7 @@ ss_division = {
 
 cultural_genocide ={
 	assimilation_rate = 1 #3
-	population_growth = -0.001
+	population_growth = -0.0005 #was -0.001
 	icon = 2
 }
 

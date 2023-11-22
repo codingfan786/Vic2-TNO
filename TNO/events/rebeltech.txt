@@ -4,7 +4,7 @@ country_event = {
 	desc = "more rebel tech!"
 
 	trigger = {
-		year = 1974
+		year = 1979 #was 1974
 		NOT = {has_global_flag = rebeltech1}
 		AI = yes
 	}

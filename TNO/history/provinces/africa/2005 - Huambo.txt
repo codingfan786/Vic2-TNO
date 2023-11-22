@@ -1,6 +1,6 @@
 trade_goods = coal
 life_rating = 25
-owner = IBE
-controller = IBE
+owner = SGA
+controller = SGA
 add_core = ANG
 colonial = 2

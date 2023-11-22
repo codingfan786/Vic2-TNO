@@ -4,6 +4,7 @@ province_event = {
 	desc = "The insurgency in $PROVINCENAME$ has become uncontrolable!"
 	allow_multiple_instances = yes
 	trigger = {
+		NOT = {ORA = {exists = yes}}
 		owner = {
 			tag = SAF
 		}
@@ -35,6 +36,8 @@ country_event = {
 	id = 500064
 	title = "The South African War!"
 	desc = "Tensions between the British and the Boer have reached a boiling point! Now they have declared independence in regions where the unrest has gotten too high. To make matters worse, they even have German support!"
+
+	fire_only_once = yes
 
 	trigger = {
 		tag = SAF
@@ -76,7 +79,7 @@ country_event = {
 	}
 
 	immediate = {
-		set_global_flag = saf_war_started
+		#set_global_flag = saf_war_started
 		any_owned = {
 			limit = {
 				has_province_modifier = ger_afr
@@ -90,30 +93,6 @@ country_event = {
 			sub_unit = {type = artillery value = current}
 		}
 
-		ORA = {
-			any_owned = {
-				limit = {
-					#state_scope = {state_id = ENG_2068}
-
-					OR = {
-						province_id = 2068
-						province_id = 2069
-						province_id = 2070
-						province_id = 2071
-						province_id = 2072
-						province_id = 2073
-						province_id = 2635
-					}
-				}
-				2068 = {secede_province = ORA}
-				2069 = {secede_province = ORA}
-				2070 = {secede_province = ORA} 
-				2071 = {secede_province = ORA} 
-				2072 = {secede_province = ORA} 
-				2073 = {secede_province = ORA} 
-				2635 = {secede_province = ORA}
-			}
-		}
 
 		ORA = {
 			any_owned = {
@@ -183,6 +162,24 @@ country_event = {
 			}
 		}
 		
+		JAN = {
+			add_country_modifier = {
+				name = saf_timer_1
+				duration = 180
+			}
+			add_country_modifier = {
+				name = saf_timer_2
+				duration = 365
+			}
+			add_country_modifier = {
+				name = saf_timer_3
+				duration = 545
+			}
+			add_country_modifier = {
+				name = saf_timer_4
+				duration = 730
+			}
+		}
 	}
 
 	option = {
@@ -199,6 +196,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		set_global_flag = saf_war_started
 		any_country = {
 			limit = {
 				tag = WGA
@@ -219,7 +217,17 @@ country_event = {
 				create_alliance = EGA
 			}
 		}
-		
+		any_country = {
+			limit = {
+				tag = SGA
+				has_country_flag = support_ora
+			}
+			ORA = {
+				create_vassal = SGA
+				create_alliance = SGA
+			}
+
+		}
 		SAF = {
 			war = {
 				target = ORA
@@ -235,6 +243,7 @@ country_event = {
 		ORA = {
 			release_vassal = EGA
 			release_vassal = WGA
+			release_vassal = SGA
 		}
 	}
 	option = {

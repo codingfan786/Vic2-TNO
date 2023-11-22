@@ -6,17 +6,18 @@ civilized = yes
 capital = 2043
 primary_culture = north_german
 culture = south_german
-religion = animist
+religion = protestant
 government = fascist_dictatorship
 plurality = 10
 nationalvalue = nv_order
-literacy = 0.5
+literacy = 0.7
+non_state_culture_literacy = 0.1
   
 prestige = 10
 schools = prussian_tech_school
 oob = "EGA.txt"
 
-decision = gerafanger
+#decision = gerafanger
 
 #========================= H O U S E - O F - L O R D S =========================
 
@@ -30,7 +31,7 @@ communist = 0
 liberal = 0
 anarcho_liberal = 0
 }
-slavery = no_slavery
+slavery = yes_slavery
 vote_franschise = none_voting
 upper_house_composition = party_appointed
 voting_system = first_past_the_post
@@ -78,7 +79,9 @@ military_staff_system = 1
 army_command_principle = 1
 
 muzzle_loaded_rifles = 1
-iron_muzzle_loaded_artillery = 1
-military_plans = 1
+#iron_muzzle_loaded_artillery = 1
+#military_plans = 1
 
 ideological_thought = 1
+strategic_mobility = 1
+army_professionalism = 1
