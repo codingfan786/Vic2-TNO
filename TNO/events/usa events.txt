@@ -1,7 +1,7 @@
 country_event = {
 	id = 500216
 	title = "Nixon impeached!"
-	desc = "why yes I forgot to do this until an hour before the game."
+	desc = "event500216desc"
 	fire_only_once = yes
 
 	trigger = {
@@ -16,14 +16,15 @@ country_event = {
 		ruling_party_ideology = liberal
 	}
 	option = {
-		name = "Wow watergate!"
+		name = "America will surely rise out of this shameful event."
+		prestige = -10
 	}
 }
 
 country_event = {
 	id = 500217
-	title = "J.F.K. Assasinated! @D50"
-	desc = "oh no jfk died! @D50"
+	title = "Tragedy in Dallas!"
+	desc = "event500217desc"
 	fire_only_once = yes
 	major = yes
 
@@ -38,7 +39,7 @@ country_event = {
 		ruling_party_ideology = conservative
 	}
 	option = {
-		name = "burgundy did it @D50"
+		name = "John W. McCormack will warm the seat of the presidency until the next election."
 		
 	}
 }

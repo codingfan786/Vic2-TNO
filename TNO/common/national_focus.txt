@@ -11,7 +11,7 @@ immigration_focus =
 {
 	immigration =
 	{
-		immigrant_attract = 0.2 #increases attactiveness to immigrants by 20 %
+		immigrant_attract = 1 #increases attactiveness to immigrants by 20 %
 		icon = 3
 		limit = { 
 			#OR = { 

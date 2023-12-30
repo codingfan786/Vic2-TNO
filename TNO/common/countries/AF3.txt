@@ -9,7 +9,7 @@ graphical_culture = ZuluGC
 #========================= P A R T I E S =========================
 
 party = {
-name = "AF1_conservative_92"
+name = "AF3_conservative_92"
 start_date = 1700.1.1
 end_date = 2100.1.1
 ideology = conservative

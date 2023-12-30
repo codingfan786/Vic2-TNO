@@ -95,38 +95,44 @@ country_event = {
 	title = "Anarchy in the south!"
 	desc = "Tensions have risen to the breaking point and anarchy has descended on the southern states! Mass lynchings are occuring and immediate military invervention is needed desparately!"
 
+	fire_only_once = yes
+	
 	trigger = {
 		tag = USA
-		all_core = {
-			OR = {
-				NOT = {
+		OR = {
+			all_core = {
+				OR = {
+					NOT = {
+						OR = {
+							culture = dixie
+							culture = afro_american
+						}
+					}
 					OR = {
-						culture = dixie
-						culture = afro_american
+						has_province_modifier = racial_discontent
+						has_province_modifier = racial_integration
+					}
+					OR = {
+						province_id = 4
+						province_id = 1
+						province_id = 2
+						province_id = 2630
+						province_id = 2599
+						province_id = 3
+						province_id = 5
+						province_id = 2631	
+						province_id = 149
+						province_id = 147
+						province_id = 148
+						province_id = 145
+						province_id = 173
+						province_id = 163
 					}
 				}
-				OR = {
-					has_province_modifier = racial_discontent
-					has_province_modifier = racial_integration
-				}
-				OR = {
-					province_id = 4
-					province_id = 1
-					province_id = 2
-					province_id = 2630
-					province_id = 2599
-					province_id = 3
-					province_id = 5
-					province_id = 2631	
-					province_id = 149
-					province_id = 147
-					province_id = 148
-					province_id = 145
-					province_id = 173
-					province_id = 163
-				}
 			}
+			year = 1980
 		}
+		
 	}
 
 	mean_time_to_happen = {

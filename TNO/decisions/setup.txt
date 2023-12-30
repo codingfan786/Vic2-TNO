@@ -359,6 +359,9 @@ political_decisions = {
 			ITA = {set_country_flag = italy_main}
 			GRE = {set_country_flag = italy_main}
 			GRE = {set_country_flag = greece_main}
+			IBE = {set_country_flag = spain_main}
+			SPA = {set_country_flag = spain_main}
+
 			any_country = {
 				limit = {
 					OR = {

@@ -21,6 +21,7 @@ political_decisions = {
 			inherit = GRE
 			set_country_flag = gre_inherited
 			add_accepted_culture = greek
+			GRE = {all_core = {add_core = THIS}}
 		}
 	}
 

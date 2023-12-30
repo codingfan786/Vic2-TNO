@@ -10,6 +10,7 @@ political_decisions = {
 			strategic_mobility = 1
 			#nationalism_n_imperialism = 1
 			money = 1000000
+			is_greater_power = yes #from MP balance
 		}
 		effect = {
 			badboy = 15

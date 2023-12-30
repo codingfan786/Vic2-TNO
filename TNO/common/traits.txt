@@ -4247,7 +4247,7 @@ background = {
 		morale = -0.025
 	}
 
-	}
+	
 	attack_minus_1.107 = {
 		attack = -1
 		reliability = -0.05
@@ -4723,4 +4723,5 @@ background = {
 		attack = -5
 		reliability = -0.25
 	}
+
 }

@@ -102,6 +102,59 @@ country_migration_target =
 	}
 
 	modifier = {
+		factor = 100
+		
+		NOT = {has_country_flag = spain_main}
+		OR = {
+			THIS = {has_pop_culture = spanish}
+		}
+		OR = {
+			primary_culture = spanish
+			accepted_culture = spanish
+		}
+	}
+
+	modifier = {
+		factor = 100
+		
+		THIS = {has_pop_culture = ashkenazi}
+
+		primary_culture = ashkenazi
+		
+	}
+
+	modifier = {
+		factor = 50
+		
+		THIS = {has_pop_culture = ashkenazi}
+
+		primary_culture = polish
+		
+	}
+
+	modifier = {
+		factor = 10
+
+		THIS = {has_pop_culture = ashkenazi}
+
+		OR = {
+			primary_culture = north_italian
+			primary_culture = south_italian
+			accepted_culture = north_italian
+			accepted_culture = south_italian
+		}
+	}
+
+	modifier = {
+		factor = 100
+		
+		THIS = {has_pop_culture = polish}
+
+		primary_culture = polish
+		
+	}
+	
+	modifier = {
 		factor = 0.9
 		unemployment = 0.05
 	}
