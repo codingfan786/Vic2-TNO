@@ -1,16 +1,6 @@
 
 
 
-army = {
-name = "Defense Forces"
-location = 1403
-regiment = {
-name = "Defense Brigade"
-type = infantry
-home = 1403
-}
-}
-
 navy = {
 	name = "Submarine Group"
 	location = 1464

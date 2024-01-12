@@ -8,31 +8,18 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-
-			any_owned = {
+			any_country = {
 				limit = {
-					is_colonial = yes
+					any_owned_province = {is_core = HND}
 				}
-				add_core = SIK
+				release_vassal = HND
 			}
-			
-			release = SIK 
-			SIK = {
-				any_owned = {
-					limit = {
-						NOT = {continent = central_asia}
-					}
-					secede_province = THIS
-					remove_core = SIK
+			any_country = {
+				limit = {
+					any_owned_province = {is_core = PAK}
 				}
+				release_vassal = PAK
 			}
-
-				#any_owned = {
-				#	any_pop = {
-				#		
-				#		militancy = 9
-				#	}
-				#}
 			
 		}		
 	}

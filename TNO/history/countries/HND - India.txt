@@ -1,7 +1,7 @@
 civilized = yes
 capital = 1236
 primary_culture = rajput
-#culture = tamil
+culture = tamil
 
 religion = hindu
 government = democracy

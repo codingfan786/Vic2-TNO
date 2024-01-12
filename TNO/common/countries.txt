@@ -47,7 +47,10 @@ AGA 	= "countries/AGA.txt" #grobsafrica
 ZAM 	= "countries/ZAM.txt" #zambia
 
 BEN = "countries/Bengal.txt"
+AHG = "countries/AHG.txt"
 PAK = "countries/Pakistan.txt"
+PK1 = "countries/PK1.txt"
+PK2 = "countries/PK2.txt"
 
 EIC = "countries/Indonesia.txt"
 EIR = "countries/IndoReb.txt"

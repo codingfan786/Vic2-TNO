@@ -1983,31 +1983,31 @@
 	}
 
 	aristocrats = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 262.5
 	}
 
 	clergymen = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 112.5
 	}
 
 	artisans = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 675
 	}
 
 	soldiers = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 150
 	}
 
 	farmers = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 12300
 	}
@@ -2059,31 +2059,31 @@
 	}
 
 	aristocrats = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 187.5
 	}
 
 	clergymen = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 112.5
 	}
 
 	artisans = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 525
 	}
 
 	soldiers = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 112.5
 	}
 
 	farmers = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 9562.5
 	}
@@ -2121,31 +2121,31 @@
 	}
 
 	aristocrats = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 450
 	}
 
 	soldiers = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 75
 	}
 
 	farmers = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 9112.5
 	}
@@ -2183,31 +2183,31 @@
 	}
 
 	aristocrats = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 187.5
 	}
 
 	clergymen = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 112.5
 	}
 
 	artisans = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 525
 	}
 
 	soldiers = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 112.5
 	}
 
 	farmers = {
-		culture = rajput
+		culture = panjabi
 		religion = sunni
 		size = 9562.5
 	}

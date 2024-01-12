@@ -719,7 +719,7 @@
 	soldiers = {
 		culture = niger_congo_a
 		religion = animist
-		size= 1100
+		size= 4100
 
 	}
 
@@ -764,14 +764,7 @@
 	soldiers = {
 		culture = niger_congo_a
 		religion = animist
-		size= 3000
-
-	}
-
-	soldiers = {
-		culture = niger_congo_a
-		religion = animist
-		size= 900
+		size= 7000
 
 	}
 
@@ -816,7 +809,7 @@
 	soldiers = {
 		culture = niger_congo_a
 		religion = animist
-		size= 2100
+		size= 5100
 
 	}
 
@@ -861,7 +854,7 @@
 	soldiers = {
 		culture = niger_congo_a
 		religion = animist
-		size= 2400
+		size= 5400
 
 	}
 

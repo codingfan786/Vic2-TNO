@@ -214,6 +214,134 @@ political_decisions = {
 
 		}
 		effect = {
+			HND = {
+				add_country_modifier = {
+					name = hnd_nerf
+					duration = -1
+				}
+				add_country_modifier = {
+					name = hnd_paranoia
+					duration = 5475
+				}
+			}
+			IRQ = {
+				random_owned = {
+					limit = {
+						is_capital = no
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+			}
+			any_country = {
+				limit = {
+					NOT = {total_amount_of_divisions = 1}#this line doesnt work?
+					NOT = {tag = REB}
+					exists = yes
+					NOT = {#doesnt already have a oob
+						OR = {
+							tag = AFG
+							tag = AHG
+							tag = ANG
+							tag = AST
+							tag = BFA
+							tag = BGE
+							tag = BLT
+							tag = BOH
+							tag = BRG
+							tag = BRI
+							tag = BUL
+							tag = CAN
+							tag = CAR
+							tag = CBR
+							tag = CDN
+							tag = CHI
+							tag = COR
+							tag = DEN
+							tag = EGA
+							tag = EIC
+							tag = EIR
+							tag = ENG
+							tag = FED
+							tag = FEU
+							tag = FIN
+							tag = FRA
+							tag = GER
+							tag = GGE
+							tag = HGE
+							tag = HND
+							tag = HUN
+							tag = IAL
+							tag = IBE
+							tag = ISR
+							tag = ITA
+							tag = JAP
+							tag = KAZ
+							tag = KEN
+							tag = MAL
+							tag = MGL
+							tag = MOZ
+							tag = MSC
+							tag = NAV
+							tag = NIG
+							tag = NKV
+							tag = NUC
+							tag = OMA
+							tag = ONE
+							tag = PAK
+							tag = PER
+							tag = POL
+							tag = RAR
+							tag = ROM
+							tag = RUS
+							tag = SAF
+							tag = SAL
+							tag = SCO
+							tag = SGA
+							tag = SGE
+							tag = SOM
+							tag = TUR
+							tag = UKR
+							tag = USA
+							tag = WA1
+							tag = WA2
+							tag = WGA
+							tag = WLE
+							tag = XBI
+							tag = XIN
+							tag = YNN
+							tag = YUG
+							tag = ZAM
+						}
+					}
+				}
+				capital_scope = {
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+			}
+			HND = {
+				all_core = {
+					add_core = AHG
+				}
+			}
+
 			any_owned = {
 				any_pop = {
 					limit = {
@@ -376,10 +504,6 @@ political_decisions = {
 			}
 			set_country_flag = taken_support
 			HND = {
-				add_country_modifier = {
-					name = hnd_nerf
-					duration = -1
-				}
 				move_issue_percentage = { 
 					from = jingoism 
 					to = pro_military

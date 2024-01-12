@@ -5,6 +5,7 @@
 trade_goods = grain
 life_rating = 32
 
-owner = BEN
-controller = BEN
+owner = AHG
+controller = AHG
+add_core = AHG
 add_core = HND

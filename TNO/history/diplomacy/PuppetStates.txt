@@ -1,4 +1,15 @@
 vassal = {
+	first = AFG
+	second = PK1
+	start_date = 1836.1.1
+}
+vassal = {
+	first = AFG
+	second = PK2
+	start_date = 1836.1.1
+}
+
+vassal = {
 	first = GER
 	second = BLT
 	start_date = 1836.1.1

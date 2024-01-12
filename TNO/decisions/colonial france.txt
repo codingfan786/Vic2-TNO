@@ -459,7 +459,7 @@ political_decisions = {
 			exists = AF1
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			state_n_government = 1
 			is_our_vassal = AF1
 		}
 		effect = {

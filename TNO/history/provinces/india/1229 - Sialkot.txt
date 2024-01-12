@@ -4,7 +4,8 @@
 
 trade_goods = cotton
 life_rating = 32
-owner = PAK
-controller = PAK
+
+owner = HND
+controller = HND
 add_core = PAK
 add_core = HND

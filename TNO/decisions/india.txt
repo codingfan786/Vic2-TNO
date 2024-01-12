@@ -1,239 +1,24 @@
 political_decisions = {
 
-	dev_south = {
+	india_famine_averted = {
 		picture = westernize_nation
 		potential = {
 			tag = HND
-			NOT = {has_global_flag = devved_south}
 		}
 		allow = {
-			money = 100000
-			owns = 1297
-			owns = 1307
-			owns = 1286
-			owns = 1314
-			owns = 1309
-		}
-		effect = {
-			add_country_modifier = {
-				name = hnd_developing
-				duration = 1825
-			}
-			treasury = -100000
-			set_global_flag = devved_south
-
-			1297 = {secede_province = HD2}
-			HD2 = {
-				capital = 1297
-				build_factory_in_capital_state = liquor_distillery
-			}
-			1297 = {secede_province = HND}
-
-			1307 = {secede_province = HD2}
-			HD2 = {
-				capital = 1307
-				build_factory_in_capital_state = liquor_distillery
-			}
-			1307 = {secede_province = HND}
-
-			1286 = {secede_province = HD2}
-			HD2 = {
-				capital = 1286
-				build_factory_in_capital_state = fabric_factory
-			}
-			HD2 = {
-				build_factory_in_capital_state = regular_clothes_factory
-			}
-			1286 = {secede_province = HND}
-
-			1314 = {secede_province = HD2}
-			HD2 = {
-				capital = 1314
-				build_factory_in_capital_state = canned_food_factory
-			}
-			HD2 = {
-				build_factory_in_capital_state = ammunition_factory
-			}
-			1314 = {secede_province = HND}
-
-			1309 = {secede_province = HD2}
-			HD2 = {
-				capital = 1309
-				build_factory_in_capital_state = canned_food_factory
-			}
-			HD2 = {
-				build_factory_in_capital_state = ammunition_factory
-			}
-			1309 = {secede_province = HND}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				AND = {
-					NOT = {year = 1967}
-					NOT = {
-						AND = {
-							has_global_flag = devved_nwest
-							has_global_flag = devved_neast
-						}
+			OR = {
+				AHG = {exists = no}
+				AHG = {
+					all_core = {
+						owner = {tag = THIS}
 					}
 				}
-				
+				has_country_flag = spy_agency_formed
 			}
-		}
-	}
-
-
-	dev_nwest = {
-		picture = westernize_nation
-		potential = {
-			tag = HND
-			NOT = {has_global_flag = devved_nwest}
-		}
-		allow = {
-			money = 100000
-			owns = 1268
-			owns = 1292
-			owns = 1234
-			owns = 1237
 		}
 		effect = {
-			add_country_modifier = {
-				name = hnd_developing
-				duration = 1825
-			}
-			treasury = -100000
-			set_global_flag = devved_nwest
-
-			1268 = {secede_province = HD2}
-			HD2 = {
-				capital = 1268
-				build_factory_in_capital_state = lumber_mill
-			}
-			HD2 = {
-				build_factory_in_capital_state = furniture_factory
-			}
-			1268 = {secede_province = HND}
-
-			1292 = {secede_province = HD2}
-			HD2 = {
-				capital = 1292
-				build_factory_in_capital_state = fabric_factory
-			}
-			HD2 = {
-				build_factory_in_capital_state = regular_clothes_factory
-			}
-			1292 = {secede_province = HND}
-
-			1234 = {secede_province = HD2}
-			HD2 = {
-				capital = 1234
-				build_factory_in_capital_state = winery
-			}
-			1234 = {secede_province = HND}
-
-			1237 = {secede_province = HD2}
-			HD2 = {
-				capital = 1237
-				build_factory_in_capital_state = ammunition_factory
-			}
-			HD2 = {
-				build_factory_in_capital_state = artillery_factory
-			}
-			HD2 = {
-				build_factory_in_capital_state = small_arms_factory
-			}
-
-			1237 = {secede_province = HND}
-		}
-	}
-
-
-	dev_neast = {
-		picture = westernize_nation
-		potential = {
-			tag = HND
-			NOT = {has_global_flag = devved_neast}
-		}
-		allow = {
-			money = 100000
-			owns = 1244
-			owns = 1275
-			owns = 1261
-			owns = 1277
-		}
-		effect = {
-			add_country_modifier = {
-				name = hnd_developing
-				duration = 1825
-			}
-			treasury = -100000
-			set_global_flag = devved_neast
-
-			1244 = {secede_province = HD2}
-			HD2 = {
-				capital = 1244
-				build_factory_in_capital_state = lumber_mill
-			}
-			HD2 = {
-				build_factory_in_capital_state = furniture_factory
-			}
-			1244 = {secede_province = HND}
-
-			1275 = {secede_province = HD2}
-			HD2 = {
-				capital = 1275
-				build_factory_in_capital_state = fabric_factory
-			}
-			HD2 = {
-				build_factory_in_capital_state = regular_clothes_factory
-			}
-			1275 = {secede_province = HND}
-
-			1261 = {secede_province = HD2}
-			HD2 = {
-				capital = 1261
-				build_factory_in_capital_state = winery
-			}
-			1261 = {secede_province = HND}
-
-			1277 = {secede_province = HD2}
-			HD2 = {
-				capital = 1277
-				build_factory_in_capital_state = ammunition_factory
-			}
-			HD2 = {
-				build_factory_in_capital_state = artillery_factory
-			}
-			HD2 = {
-				build_factory_in_capital_state = small_arms_factory
-			}
-			1277 = {secede_province = HND}
-		}
-	}
-
-	finish_dev = {
-		picture = westernize_nation
-		potential = {
-			tag = HND
-			NOT = {has_global_flag = hnd_devved}
-		}
-		allow = {
-			NOT = {has_country_modifier = hnd_developing}
-			has_global_flag = devved_neast
-			has_global_flag = devved_nwest
-			has_global_flag = devved_south
-		}
-		effect = {
-			set_global_flag = hnd_devved
-			change_tag = HD2
-			HND = {
-				all_core = {
-					add_core = HD2
-					remove_core = HND
-				}
-			}
+			remove_country_modifier = hnd_paranoia
+			country_event = 500223
 		}
 	}
 
@@ -287,11 +72,51 @@ political_decisions = {
 			set_country_flag = bengal_restored
 			BEN = {
 				all_core = {
-					limit = {
-						is_core = THIS
-					}
-					remove_core = BEN
+					add_core = THIS
 				}
+			}
+			PAK = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = panjabi
+			add_accepted_culture = bengali
+		}
+	}
+
+	greater_india = {
+		picture = sign_the_geneva_convention
+		potential = {
+			tag = AHG
+			NOT = {has_country_flag = india_is_greater}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			BEN = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+			PAK = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+			all_core = {
+				owner = {
+					tag = THIS
+				}
+			}
+		}
+		effect = {
+			set_country_flag = india_is_greater
+			badboy = 20
+			BEN = {
 				all_core = {
 					add_core = THIS
 				}
@@ -301,46 +126,19 @@ political_decisions = {
 					add_core = THIS
 				}
 			}
+			BUR = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			AFG = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 		}
 	}
 
-	greater_india = {
-		picture = sign_the_geneva_convention
-		potential = {
-			has_country_flag = bengal_restored
-			NOT = {has_country_flag = india_is_greater}
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-			BUR = {
-				all_core = {
-					owner = {
-						tag = THIS
-					}
-				}
-			}
-			AFG = {
-				all_core = {
-					owner = {
-						tag = THIS
-					}
-				}
-			}
-		}
-		effect = {
-			set_country_flag = india_is_greater
-			BUR = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			AFG = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-		}
-	}
 	india_security_act = {
 		picture = support_boxers
 		potential = {
@@ -376,6 +174,58 @@ political_decisions = {
 				factor = 0
 				NOT = {has_country_flag = HND_AI_2}
 			}
+		}
+	}
+
+	afg_inherit = {
+		picture = die_groot_trek
+		potential = {
+			tag = AFG
+			NOT = {has_country_flag = afg_inherited}
+			OR ={
+				exists = PK1
+				exists = PK2
+			}
+		}
+		allow = {
+			state_n_government = 1
+			OR = {
+				is_our_vassal = PK1
+				is_our_vassal = PK2
+			}
+		}
+		effect = {
+			set_country_flag = afg_inherited
+			any_country = {
+				limit = {
+					OR = {
+						tag = PK1
+						tag = PK2
+					}
+					vassal_of = THIS
+				}
+				all_core = {
+					remove_core = PK1
+					remove_core = PK2
+					add_core = THIS
+				}
+				annex_to = THIS
+			}
+		}
+	}
+
+	afg_accept = {
+		picture = westernize_nation
+		potential = {
+			tag = AFG
+			NOT = {accepted_culture = panjabi}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+
+		}
+		effect = {
+			add_accepted_culture = panjabi
 		}
 	}
 }

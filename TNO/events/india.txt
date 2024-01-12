@@ -1,4 +1,4 @@
-province_event = {
+province_event = { #should get rid of
 	id = 500153
 	title = "Indian Famine"
 	desc = "Forced industrialization and excessive resource exportation has left Indian farms falling short of production quotas and has caused food shortages in certain areas."
@@ -170,5 +170,27 @@ country_event = {
 	}
 	option = {
 		name = "The horror!"
+	}
+}
+
+country_event = {
+	id = 500223
+	title = "Results of the investigation"
+	desc = "event500223desc"
+
+	is_triggered_only = yes
+
+	immediate = {
+		change_tag = HD2
+		HND = {
+			all_core = {
+				add_core = HD2
+				remove_core = HND
+			}
+		}
+	}
+
+	option = {
+		name = "Absolutely stunning!"
 	}
 }

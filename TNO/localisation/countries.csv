@@ -38,14 +38,6 @@ ANG_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 ANG_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
 BEN_ADJ;Bengali;Bengali;Bengali;;;;;;;;;;;x;
 BEN;Bengal;Bengal;Bengal;;;;;;;;;;;x;
-BEN_proletarian_dictatorship;Bengal;Bengal;Bengal;;;;;;;;;;;x;
-BEN_presidential_dictatorship;Bengal;Bengal;Bengal;;;;;;;;;;;x;
-BEN_bourgeois_dictatorship;Bengal;Bengal;Bengal;;;;;;;;;;;x;
-BEN_fascist_dictatorship;Bengal;Bengal;Bengal;;;;;;;;;;;x;
-BEN_absolute_monarchy;Bengal;Bengal;Bengal;;;;;;;;;;;x;
-BEN_prussian_constitutionalism;Bengal;Bengal;Bengal;;;;;;;;;;;x;
-BEN_hms_government;Bengal;Bengal;Bengal;;;;;;;;;;;x;
-BEN_democracy;Bengal;Bengal;Bengal;;;;;;;;;;;x;
 BEN_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
 BEN_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
 BEN_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
@@ -934,7 +926,7 @@ LOW_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;
 LOW_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
 LOW_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 LOW_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
-HD2;India;Inde;Indien;;India;;;;;;;;;x;;
+HD2;Republic of India;Inde;Indien;;India;;;;;;;;;x;;
 HD2_ADJ;Indian;Indien;Indisch;;Indio;;;;;;;;;x;;
 CDN_ADJ;Displaced;Displaced;Displaced;;;;;;;;;;;x;
 CDN;Council of Displaced Nations;Council of Displaced Nations;Council of Displaced Nations;;;;;;;;;;;x;
@@ -1295,3 +1287,36 @@ SGA_hms_government;Südwestafrika;Südwestafrika;Südwestafrika;;;;;;;;;;;x;
 SGA_democracy;Republic of Namibia;Namibia;Namibia;;;;;;;;;;;x;
 AGA;Großafrikanischer Reichsstaat;x
 AGA_ADJ;Großafrikanischer;x
+AHG_ADJ;Azad Hind;Azad Hind;Azad Hind;;;;;;;;;;;x;
+AHG;Azad Hind Government;Azad Hind Government;Azad Hind Government;;;;;;;;;;;x;
+AHG_proletarian_dictatorship;Azad Hind Government;Azad Hind Government;Azad Hind Government;;;;;;;;;;;x;
+AHG_presidential_dictatorship;Azad Hind Government;Azad Hind Government;Azad Hind Government;;;;;;;;;;;x;
+AHG_bourgeois_dictatorship;Azad Hind Government;Azad Hind Government;Azad Hind Government;;;;;;;;;;;x;
+AHG_fascist_dictatorship;Azad Hind Government;Azad Hind Government;Azad Hind Government;;;;;;;;;;;x;
+AHG_absolute_monarchy;Azad Hind Government;Azad Hind Government;Azad Hind Government;;;;;;;;;;;x;
+AHG_prussian_constitutionalism;Azad Hind Government;Azad Hind Government;Azad Hind Government;;;;;;;;;;;x;
+AHG_hms_government;Azad Hind Government;Azad Hind Government;Azad Hind Government;;;;;;;;;;;x;
+AHG_democracy;Azad Hind Government;Azad Hind Government;Azad Hind Government;;;;;;;;;;;x;
+AHG_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
+AHG_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
+AHG_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
+AHG_socialist_85;Socialists;Socialists;Socialists;;;;;;;;;;;x;
+AHG_socialist_99;National Socialists;National Socialists;National Socialists;;;;;;;;;;;x;
+AHG_reactionary_84;Reactionary Leadership;Monarchy Leadership;Monarchy Leadership;;;;;;;;;;;x;
+AHG_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
+AHG_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
+AHG_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
+AFG;Afghanistan;Afghanistan;Afghanistan;;Afganistán;;;;;;;;;x;;;;
+AFG_ADJ;Afghan;Afghan;Afghanisch;;Afgana;;;;;;;;;x;;;;
+AFG_proletarian_dictatorship;Revolutionary Republic of Afghanistan;x
+AFG_presidential_dictatorship;Republic of Afghanistan;x
+AFG_bourgeois_dictatorship;Republic of Afghanistan;x
+AFG_fascist_dictatorship;Islamic Emirate of Afghanistan;x
+AFG_absolute_monarchy;Kingdom of Afghanistan;x
+AFG_prussian_constitutionalism;Kingdom of Afghanistan;x
+AFG_hms_government;Kingdom of Afghanistan;x
+AFG_democracy;Republic of Afghanistan;x
+PK1;Khanate of Kalat;x
+PK1_ADJ;Kalat;x
+PK2;Frontier Provinces;x
+PK2_ADJ;Frontier;x
