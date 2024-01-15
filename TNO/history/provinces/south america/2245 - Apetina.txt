@@ -1,6 +1,6 @@
 owner = OFN
 controller = OFN
 add_core = OFN
-add_core = NET
+#add_core = NET
 trade_goods = timber
 life_rating = 35

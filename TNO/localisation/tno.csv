@@ -573,13 +573,13 @@ expand_burgundy_short;Sieze French Border Regions.;;;;;;;;;;;;x;;;
 expand_burgundy_setup;Sieze French Border Regions.;;;;;;;;;;;;x;;;
 expand_burgundy_desc;Sieze French Border Regions.;x
 goring_wild_ride_a;Operation Balkanhalbinsel Und Skandinavien;;;;;;;;;;;;x;;;
-goring_wild_ride_a_short;$RECIPIENT$ Is Annexed by Reichskommissariats.;;;;;;;;;;;;x;;;
-goring_wild_ride_a_setup;$RECIPIENT$ Is Annexed by Reichskommissariats.;;;;;;;;;;;;x;;;
-goring_wild_ride_a_desc;$RECIPIENT$ Is Annexed by Reichskommissariats.;x
+goring_wild_ride_a_short;$THIRD$ acquires $STATE$;;;;;;;;;;;;x;;;
+goring_wild_ride_a_setup;Hand $STATE$ to $THIRD$ from $RECIPIENT$;;;;;;;;;;;;x;;;
+goring_wild_ride_a_desc;Hand $STATE$ to $THIRD$ from $RECIPIENT$;x
 goring_wild_ride_b;Operation Schwarz;;;;;;;;;;;;x;;;
-goring_wild_ride_b_short;$RECIPIENT$ Is Annexed by Reichskommissariats.;;;;;;;;;;;;x;;;
-goring_wild_ride_b_setup;$RECIPIENT$ Is Annexed by Reichskommissariats.;;;;;;;;;;;;x;;;
-goring_wild_ride_b_desc;$RECIPIENT$ Is Annexed by Reichskommissariats.;x
+goring_wild_ride_b_short;$THIRD$ acquires $STATE$;;;;;;;;;;;;x;;;
+goring_wild_ride_b_setup;Hand $STATE$ to $THIRD$ from $RECIPIENT$;;;;;;;;;;;;x;;;
+goring_wild_ride_b_desc;Hand $STATE$ to $THIRD$ from $RECIPIENT$;x
 NORMAL_WAR_GWR_1;Operation Sealion II;x
 AGRESSION_WAR_GWR_1;Operation Sealion II;x
 NORMAL_WAR_GWR_2;$ORDER$ Operation Balkanhalbinsel Und Skandinavien;x
@@ -590,7 +590,7 @@ NORMAL_WAR_BRG;Franco-Burgundian War;x
 AGRESSION_WAR_BRG;Franco-Burgundian War;x
 SUDETENLAND;Sudetenland;x
 sanctionsrelief;Industrial Looting;x
-event500176desc;The German economy, torn to tatters in the wake of the German Burgerkrieg, is hardly in a position to support the Wehrmacht in another case of total war. Many militarists in the Wehrmacht propose a repeat policy of the industrial looting that took place during the Second World War in order to support the German War economy. §R This will dampen the impact of international sanctions from going over infamy by turning Bohemia, Slovakia, Poland, Reichskom. Balkanhalbinsel, and Reichskom. Skandinavien into colonial states. It is highly recommended to do this if you want to reach the later War Plans.;x
+event500176desc;The German economy, torn to tatters in the wake of the German Burgerkrieg, is hardly in a position to support the Wehrmacht in another case of total war. Many militarists in the Wehrmacht propose a repeat policy of the industrial looting that took place during the Second World War in order to support the German War economy. §RThis will dampen the impact of international sanctions from going over infamy by turning Bohemia, Slovakia, Poland, Reichskom. Balkanhalbinsel, and Reichskom. Skandinavien into colonial states. It is highly recommended to do this if you want to reach the later War Plans. §BTo be more specific: §GRight now and every time you conquer/expand a Reichskom. puppet to encompass all cores of one of the following countries you will get the modifier 'Industrial Looting' which prevents sanctions and turns the land into colonial states. \nNorway, Sweden, Finland, Romania, Bulgaria, Hungary.;x
 event500183desc;The Wehrmacht has been the cultural centerpiece of German society ever since the nations formation by Prussia last century. Its esteemed officer corp has a long tradition of noble Prussian heritage, acting as a stark contrast to the modern jingoism of the fascist militarists. This faction of the 'Old Guard', once content to serve under the unending victories of the Reich, are now becoming increasingly disgruntled with the machinations of the militarist faction and the tacit support they enjoy of the aging Fuhrer Goring.;x
 event500180desc;The Wehrmacht clamors for blood and battle to once again prove the might that previously conquered Europe in the 40's. The current idleness of Goring's foreign policy and lack of swift Blitzkrieg towards the conclusion of War Plan 0 is making them restless and unsatisfied.;x
 event500181desc;The Wehrmacht clamors for blood and battle to once again prove the might that previously conquered Europe in the 40's. The current idleness of Goring's foreign policy and lack of swift Blitzkrieg towards the conclusion of War Plan A is making them restless and unsatisfied.;x
@@ -867,3 +867,22 @@ event500223desc;Military police and the national intelligence agency has discove
 hnd_nerf_desc;The southern Tamil people have long since desired independence from the northern populations. They are generally more wealthy and have a higher standard of living. They view the northern Rajput as parasites keeping them down.;x
 hnd_paranoia;Agricultural Rationing;x
 hnd_paranoia_desc;There are many seemingly unfounded reports of agricultural production shortfalls throughout India. This has lead to a paranoia induced rationing of agricultural products by municipalities nationwide. The resulting austerity has lead many would-be parents to hold off on adding any new mouths to feed to their family.;x
+gsc_nor;Conquered Norway;x
+gsc_swe;Conquered Sweden;x
+gsc_fin;Conquered Finland;x
+gba_hun;Conquered Hungary;x
+gba_rom;Conquered Romania;x
+gba_bul;Conquered Bulgaria;x
+glo_net;Conquered Netherlands;x
+glo_bel;Conquered Belgium;x
+gfr_fra;Conquered France;x
+gfr_bri;Conquered Brittany;x
+gfr_swi;Conquered Switzerland;x
+gsc_accepted_title;Proclaim the SS Scandinavian state!;x
+gba_accepted_title;Proclaim the SS Balkan state!;x
+gfr_accepted_title;Proclaim the SS Gaullic state!;x
+glo_accepted_title;Proclaim the SS Benelux state!;x
+gsc_accepted_desc;As we have conquered the Scandinavian nations we are in position to place ourselves as the true national state of the consituent nations. §RThis is a one time decision. You can either take it early or wait to try and get all of the cultures accepted.;x
+gba_accepted_desc;As we have conquered the Balkan nations we are in position to place ourselves as the true national state of the consituent nations. §RThis is a one time decision. You can either take it early or wait to try and get all of the cultures accepted.;x
+gfr_accepted_desc;As we have conquered the Gaullic nations we are in position to place ourselves as the true national state of the consituent nations. §RThis is a one time decision. You can either take it early or wait to try and get all of the cultures accepted.;x
+glo_accepted_desc;As we have conquered the Benelux nations we are in position to place ourselves as the true national state of the consituent nations. §RThis is a one time decision. You can either take it early or wait to try and get all of the cultures accepted.;x

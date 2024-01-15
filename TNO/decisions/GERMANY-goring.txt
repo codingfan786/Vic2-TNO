@@ -506,4 +506,197 @@ political_decisions = {
 			}
 		}
 	}
+
+	gsc_accepted = {
+		picture = form_arabia
+		potential = {
+			tag = GSC
+			NOT = {
+				has_country_flag = rkom_got_accepted
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+
+			OR = {
+				has_country_flag = gsc_nor
+				has_country_flag = gsc_swe
+				has_country_flag = gsc_fin
+			}
+		}
+		effect = {
+			set_country_flag = rkom_got_accepted
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = gsc_nor}
+				}
+				owner = {add_accepted_culture = norwegian}
+			}
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = gsc_swe}
+				}
+				owner = {add_accepted_culture = swedish}
+			}
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = gsc_fin}
+				}
+				owner = {add_accepted_culture = finnish}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {exists = GE2}
+			}
+		}
+	}
+
+	gba_accepted = {
+		picture = form_arabia
+		potential = {
+			tag = GBA
+			NOT = {
+				has_country_flag = rkom_got_accepted
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+
+			OR = {
+				has_country_flag = gba_hun
+				has_country_flag = gba_rom
+				has_country_flag = gba_bul
+			}
+		}
+		effect = {
+			set_country_flag = rkom_got_accepted
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = gba_hun}
+				}
+				owner = {add_accepted_culture = hungarian}
+			}
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = gba_rom}
+				}
+				owner = {add_accepted_culture = romanian}
+			}
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = gba_bul}
+				}
+				owner = {add_accepted_culture = bulgarian}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {exists = GE2}
+			}
+		}
+	}
+
+	gfr_accepted = {
+		picture = form_arabia
+		potential = {
+			tag = GFR
+			NOT = {
+				has_country_flag = rkom_got_accepted
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+
+			OR = {
+				has_country_flag = gfr_fra
+				has_country_flag = gfr_bri
+				has_country_flag = gfr_swi
+			}
+		}
+		effect = {
+			set_country_flag = rkom_got_accepted
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = gfr_fra}
+				}
+				owner = {add_accepted_culture = french}
+			}
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = gfr_bri}
+				}
+				owner = {add_accepted_culture = breton}
+			}
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = gfr_swi}
+				}
+				owner = {add_accepted_culture = swiss}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {exists = GE2}
+			}
+		}
+	}
+
+	glo_accepted = {
+		picture = form_arabia
+		potential = {
+			tag = GLO
+			NOT = {
+				has_country_flag = rkom_got_accepted
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+
+			OR = {
+				has_country_flag = glo_net
+				has_country_flag = glo_bel
+			}
+		}
+		effect = {
+			set_country_flag = rkom_got_accepted
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = glo_net}
+				}
+				owner = {add_accepted_culture = dutch}
+			}
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {has_country_flag = glo_bel}
+				}
+				owner = {add_accepted_culture = flemish}
+				owner = {add_accepted_culture = wallonian}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {exists = GE2}
+			}
+		}
+	}
 }

@@ -3121,20 +3121,28 @@ goring_wild_ride_a = {
 	constructing_cb = no
 	always = yes
 
+	badboy_factor = 0
+	prestige_factor = 1
+	peace_cost_factor = 0.5
+	penalty_factor = 1
+
+	is_civil_war = no #this is a civil war
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
 	can_use = {
 		THIS = {tag = GGE}
 		THIS = {has_country_flag = war_plan_a_scba_done}
 		NOT = {tag = GBA}
 		NOT = {tag = GSC}
 		OR = {
-			tag = NOR
-			tag = SWE
-			tag = FIN
-			tag = HUN
-			tag = ROM
-			tag = WAL
-			tag = MOL
-			tag = BUL
 			any_owned_province = {
 				OR = {
 					is_core = NOR
@@ -3150,28 +3158,64 @@ goring_wild_ride_a = {
 		}
 	}
 
-	badboy_factor = 0
-	prestige_factor = 1
-	peace_cost_factor = 90
-	penalty_factor = 1
-	is_civil_war = no #this is a civil war
+	allowed_countries = {
+		OR = {
+			AND = {
+				FROM = {tag = GBA}
+				any_owned_province = {
+					OR = {
+						is_core = HUN
+						is_core = ROM
+						is_core = BUL
+						is_core = MOL
+						is_core = WAL
+					}
+				}
+			}
+			AND = {
+				FROM = {tag = GSC}
+				any_owned_province = {
+					OR = {
+						is_core = FIN
+						is_core = SWE
+						is_core = NOR
+					}
+				}
+			}
+		}
+	}
 
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 0
+	allowed_states = {
+		OR = {
+			AND = {
+				FROM = {tag = GBA}
+				any_owned_province = {
+					OR = {
+						is_core = HUN
+						is_core = ROM
+						is_core = BUL
+						is_core = MOL
+						is_core = WAL
+					}
+				}
+			}
+			AND = {
+				FROM = {tag = GSC}
+				any_owned_province = {
+					OR = {
+						is_core = FIN
+						is_core = SWE
+						is_core = NOR
+					}
+				}
+			}
+		}
+	}
+
+	po_transfer_provinces = yes
 	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
 	war_name = WAR_GWR_2
 
-	po_remove_prestige = yes
-	on_po_accepted = {
-		country_event = 500170
-	}
-	
 	on_add = {
 		move_issue_percentage = { 
 			from = jingoism 
@@ -3189,19 +3233,28 @@ goring_wild_ride_b = {
 	constructing_cb = no
 	always = yes
 
+	badboy_factor = 0
+	prestige_factor = 1
+	peace_cost_factor = 0.5
+	penalty_factor = 1
+
+	is_civil_war = no #this is a civil war
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
 	can_use = {
 		THIS = {tag = GGE}
 		THIS = {has_country_flag = war_plan_b_frlo_done}
 		NOT = {tag = GLO}
 		NOT = {tag = GFR}
 		OR = {
-			#tag = BRG
-			tag = FRA
-			tag = NET
-			tag = BEL
-			tag = SWI
-			tag = LUX
-			tag = BRI
 			any_owned_province = {
 				OR = {
 					#is_core = BRG
@@ -3216,28 +3269,60 @@ goring_wild_ride_b = {
 		}
 	}
 
-	badboy_factor = 0
-	prestige_factor = 1
-	peace_cost_factor = 90
-	penalty_factor = 1
-	is_civil_war = no #this is a civil war
+	allowed_countries = {
+		OR = {
+			AND = {
+				FROM = {tag = GLO}
+				any_owned_province = {
+					OR = {
+						is_core = NET
+						is_core = BEL
+						is_core = LUX
+					}
+				}
+			}
+			AND = {
+				FROM = {tag = GFR}
+				any_owned_province = {
+					OR = {
+						is_core = FRA
+						is_core = BRI
+						is_core = SWI
+					}
+				}
+			}
+		}
+	}
 
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 0
+	allowed_states = {
+		OR = {
+			AND = {
+				FROM = {tag = GLO}
+				any_owned_province = {
+					OR = {
+						is_core = NET
+						is_core = BEL
+						is_core = LUX
+					}
+				}
+			}
+			AND = {
+				FROM = {tag = GFR}
+				any_owned_province = {
+					OR = {
+						is_core = FRA
+						is_core = BRI
+						is_core = SWI
+					}
+				}
+			}
+		}
+	}
+
+	po_transfer_provinces = yes
 	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
 	war_name = WAR_GWR_3
 
-	po_remove_prestige = yes
-	on_po_accepted = {
-		country_event = 500171
-	}
-	
 	on_add = {
 		move_issue_percentage = { 
 			from = jingoism 
