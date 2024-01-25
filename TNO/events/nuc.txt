@@ -11,7 +11,7 @@ country_event = {
 		name = "Never surrender!"
 		FROM = {country_event = {id = 500022 days = 1}}
 		ai_chance = {
-			factor = 0.1
+			factor = 0.9
 		}
 	}
 	option = {
@@ -21,7 +21,7 @@ country_event = {
 			change_controller = FROM
 		}
 		ai_chance = {
-			factor = 0.9
+			factor = 0.1
 			modifier = {
 				factor = 0
 				has_country_flag = nuke
