@@ -276,6 +276,7 @@ political_reforms = {
 	
 	
 	upper_house_composition = {
+		next_step_only = yes
 		party_appointed = {
 			rules = { same_as_ruling_party = yes }
 		}

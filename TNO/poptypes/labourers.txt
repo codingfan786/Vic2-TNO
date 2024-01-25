@@ -1299,8 +1299,12 @@ ideologies = {
 	}
 
 	socialist = {
-		factor = 1
+		factor = 1.1
 
+		modifier = {
+			factor = 2
+			ruling_party_ideology = socialist
+		}
 		modifier = {
 			factor = 1.1
 			nationalvalue = nv_equality
@@ -1415,11 +1419,11 @@ ideologies = {
 	communist = {
 		factor = 1
 		modifier = {
-			factor = 0.1
+			factor = 0.3
 			NOT = { militancy = 3 }
 		}
 		modifier = {
-			factor = 2
+			factor = 3
 			ruling_party_ideology = communist 
 		}
 		modifier = {

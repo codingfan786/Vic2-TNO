@@ -3,7 +3,6 @@
 
 fascist_group = {
 	fascist = {
-		uncivilized = no
 		color = { 60 60 60 }
 	
 
@@ -104,9 +103,6 @@ fascist_group = {
 				}
 			}
 		}
-		
-		
-		
 	}
 }	
 
@@ -363,7 +359,6 @@ conservative_group = {
 }
 socialist_group = {
 	socialist = {
-		uncivilized = no
 		color = { 255 0 0 }
 		
 		add_political_reform = {
@@ -446,7 +441,6 @@ socialist_group = {
 	}
 	
 	communist = {
-		uncivilized = no
 		color = { 150 10 10 }
 		
 		add_political_reform = {

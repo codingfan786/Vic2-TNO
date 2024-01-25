@@ -54,11 +54,11 @@ IRQ = {
 #	influence_value = 0
 #}
 
-#YEM = {
-#	value = 100
-#	level = 5
-#	influence_value = 0
-#}
+YEM = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
 
 army = {
 	name = "1a Armata" #done

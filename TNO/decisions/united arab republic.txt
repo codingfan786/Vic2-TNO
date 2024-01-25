@@ -16,10 +16,17 @@ political_decisions = {
 			}
 		}
 		allow = {
-			ideology = socialist
+			#ruling_party_ideology = socialist
 			state_n_government = 1
 		}
 		effect = {
+			release_vassal = THIS
+			sphere_owner = {
+				diplomatic_influence = {
+					who = THIS
+					value = -300
+				}
+			}
 			country_event = 500209
 		}
 		ai_will_do = {

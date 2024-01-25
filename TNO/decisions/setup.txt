@@ -803,6 +803,7 @@ political_decisions = {
 				tag = SAL
 				tag = OFN
 				tag = CBR
+				tag = ARG
 			}
 			civilized = no
 		}

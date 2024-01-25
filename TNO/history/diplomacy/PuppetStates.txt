@@ -1,4 +1,9 @@
 vassal = {
+	first = ITA
+	second = YEM
+	start_date = 1836.1.1
+}
+vassal = {
 	first = AFG
 	second = PK1
 	start_date = 1836.1.1
@@ -89,19 +94,19 @@ substate = {
 	start_date = 1836.1.1
 }
 
-vassal = {
+substate = {
 	first = ITA
 	second = IGY
 	start_date = 1836.1.1
 }
 
-vassal = {
+substate = {
 	first = ITA
 	second = IIS
 	start_date = 1836.1.1
 }
 
-vassal = {
+substate = {
 	first = ITA
 	second = IET
 	start_date = 1836.1.1

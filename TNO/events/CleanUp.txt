@@ -5,6 +5,7 @@ country_event = {
 	picture = "Unite"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		NOT = {
 			government = proletarian_dictatorship
 			government = presidential_dictatorship
@@ -36,6 +37,7 @@ country_event = {
 	picture = "Unite"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		NOT = {
 			government = proletarian_dictatorship
 			government = presidential_dictatorship
@@ -67,6 +69,7 @@ country_event = {
 	picture = "Unite"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		NOT = {
 			government = proletarian_dictatorship
 			government = presidential_dictatorship
@@ -98,6 +101,7 @@ country_event = {
 	picture = "Unite"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		NOT = {
 			government = proletarian_dictatorship
 			government = presidential_dictatorship
@@ -130,6 +134,7 @@ country_event = {
 	picture = "Unite"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		OR = {
 			government = proletarian_dictatorship
 			government = presidential_dictatorship
@@ -161,6 +166,7 @@ country_event = {
 	picture = "Monarchy"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		OR = {
 			government = hms_government
 			government = prussian_constitutionalism
@@ -189,6 +195,7 @@ country_event = {
 	picture = "Monarchy"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		government = absolute_monarchy
 		NOT = {
 				vote_franschise = none_voting
@@ -213,6 +220,7 @@ country_event = {
 	picture = "Monarchy"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		government = prussian_constitutionalism
 		OR = {
 			political_parties = secret_ballots
@@ -238,6 +246,7 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		OR = {
 			government = democracy
 			government = democracy2
@@ -267,6 +276,7 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		OR = {
 			government = democracy
 			government = democracy2
@@ -296,6 +306,7 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		OR = {
 			government = democracy
 			government = democracy2
@@ -325,6 +336,7 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		OR = {
 			government = democracy
 			government = democracy2
@@ -352,6 +364,7 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		upper_house_composition = party_appointed
 		ruling_party_ideology = liberal 
 	}
@@ -373,6 +386,7 @@ country_event = {
 	picture = "Unite"
 	
 	trigger = {
+		NOT = {has_country_flag = verona_conference}
 		has_country_modifier = female_suffrage
 		NOT = {
 			OR = {

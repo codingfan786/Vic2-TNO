@@ -33,6 +33,12 @@ country_event = {
 		}
 
 		any_owned = {
+			any_pop = {
+				militancy = 5
+			}
+		}
+
+		any_owned = {
 			limit = {
 				is_capital = yes
 				owner = {is_vassal = yes}

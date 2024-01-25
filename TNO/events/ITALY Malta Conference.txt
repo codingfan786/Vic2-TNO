@@ -188,7 +188,7 @@ country_event = {
 country_event = {
 	id = 500192
 	title = "Malta Conference - Turkish Demands"
-	desc = "The Turkish delegates have demanded we return their core territory and cede Syria to them! §R Accepting will allow you to accept Greeks earlier."
+	desc = "The Turkish delegates have demanded we return their core territory and cede Syria to them! §RAccepting will allow you to accept Greeks earlier."
 
 	fire_only_once = yes
 
