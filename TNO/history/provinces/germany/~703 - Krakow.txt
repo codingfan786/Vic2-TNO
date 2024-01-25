@@ -1,0 +1,9 @@
+owner = POL
+controller = POL
+add_core = POL
+trade_goods = coal
+life_rating = 40
+2161.1.1 = {
+
+}
+2161.1.1 = { railroad = 3 }

@@ -578,13 +578,13 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1100  
+		size = 11000  
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 19500 
+		size = 130500 
 	}
 
 	clergymen = {
@@ -620,6 +620,6 @@
 	farmers = {
 		culture = lithuanian
 		religion = protestant
-		size = 17100
+		size = 37100
 	}
 }

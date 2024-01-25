@@ -3,7 +3,7 @@ controller = SGE
 add_core = SGE
 add_core = GER
 trade_goods = cattle
-life_rating = 40
+life_rating = 35
 2161.1.1 = { railroad = 3 }
 
 state_building = {

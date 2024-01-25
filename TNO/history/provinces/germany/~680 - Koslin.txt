@@ -1,0 +1,7 @@
+owner = GGE
+controller = GGE
+add_core = GGE
+add_core = GER
+trade_goods = grain
+life_rating = 40
+2161.1.1 = { railroad = 3 }

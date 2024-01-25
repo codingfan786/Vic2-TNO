@@ -582,12 +582,6 @@ political_decisions = {
 				small_arms = 1000
 				canned_food = 2000
 				automobiles = 2000
-				any_pop = {
-					limit = {
-						type = soldiers
-					}
-					#reduce_pop = 1.5
-				}
 			}
 			SGE = {
 				artillery = 2000
@@ -598,12 +592,6 @@ political_decisions = {
 				small_arms = 1000
 				canned_food = 2000
 				automobiles = 2000
-				any_pop = {
-					limit = {
-						type = soldiers
-					}
-					reduce_pop = 1.5
-				}
 			}
 			BGE = {
 				artillery = 2000

@@ -5670,159 +5670,7 @@
 #Amur-Ussuri Region (1348000)
 #under the rule of China in 1836
 #Haishenwai (328000/82000 POPS)
-1082 = {
-	aristocrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 1500
-	}
 
-	clergymen = {
-		culture = beifaren
-		religion = mahayana
-		size = 775
-	}
-
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 3900
-	}
-
-	soldiers = {
-		culture = beifaren
-		religion = mahayana
-		size = 750
-	}
-
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 71075
-	}
-
-	aristocrats = {
-		culture = korean
-		religion = mahayana
-		size = 30
-	}
-
-	clergymen = {
-		culture = korean
-		religion = mahayana
-		size = 40
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 150
-	}
-
-	soldiers = {
-		culture = korean
-		religion = mahayana
-		size = 30
-	}
-
-	farmers = {
-		culture = korean
-		religion = mahayana
-		size = 2750
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 7
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 8
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 50
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 10
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 925
-	}
-}
-#Boli (328000/82000 POPS)
-1083 = {
-	aristocrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 1450
-	}
-
-	clergymen = {
-		culture = beifaren
-		religion = mahayana
-		size = 775
-	}
-
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 4000
-	}
-
-	soldiers = {
-		culture = beifaren
-		religion = mahayana
-		size = 800
-	}
-
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 72975
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 25
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 30
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 100
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 20
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 1925
-	}
-}
 #Utchan (18000 POPS) 
 
 #Ulusamudan (372000/93000 POPS)
@@ -6701,199 +6549,6 @@
 	}
 }
 
-2617 = {
-	aristocrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 12000
-	}
-
-	clergymen = {
-		culture = beifaren
-		religion = mahayana
-		size = 6000
-	}
-
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 30500
-	}
-
-	soldiers = {
-		culture = beifaren
-		religion = mahayana
-		size = 6250
-	}
-
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 555250
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 200
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 200
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 9000
-	}
-
-}
-
-1085 = {
-	aristocrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 18000
-	}
-
-	bureaucrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 4250
-	}
-
-	clergymen = {
-		culture = beifaren
-		religion = mahayana
-		size = 9000
-	}
-
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 46000
-	}
-
-	soldiers = {
-		culture = beifaren
-		religion = mahayana
-		size = 9000
-	}
-
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 823750
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 300
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 1000
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 200
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 19250
-	}
-}
-
-1084 = {
-	aristocrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 3000
-	}
-
-	clergymen = {
-		culture = beifaren
-		religion = mahayana
-		size = 1500
-	}
-
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 8000
-	}
-
-	soldiers = {
-		culture = beifaren
-		religion = mahayana
-		size = 1750
-	}
-
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 145750
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 1000
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 250
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 18000
-	}
-}
-
 1072 = {
 	aristocrats = {
 		culture = russian
@@ -7167,68 +6822,6 @@
 	}
 }
 
-2697 = {
-	aristocrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 1000
-	}
-
-	clergymen = {
-		culture = beifaren
-		religion = mahayana
-		size = 1000
-	}
-
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 5000
-	}
-
-	soldiers = {
-		culture = beifaren
-		religion = mahayana
-		size = 1000
-	}
-
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 92000
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 70
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 80
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 9250
-	}
-}
-
 2669 = {
 	aristocrats = {
 		culture = russian
@@ -7406,98 +6999,6 @@
 		culture = russian
 		religion = orthodox
 		size = 2300
-	}
-}
-
-1081 = {
-	aristocrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 1250
-	}
-
-	bureaucrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 250
-	}
-
-	clergymen = {
-		culture = beifaren
-		religion = mahayana
-		size = 1000
-	}
-
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 5500
-	}
-
-	soldiers = {
-		culture = beifaren
-		religion = mahayana
-		size = 1250
-	}
-
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 105750
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 250
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 4600
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 70
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 80
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 9250
 	}
 }
 
@@ -10509,5 +10010,505 @@
 		culture = russian
 		religion = orthodox
 		size = 213250
+	}
+}
+
+1081 = {
+	aristocrats = {
+		culture = russian
+		religion = mahayana
+		size = 1250
+	}
+
+	bureaucrats = {
+		culture = russian
+		religion = mahayana
+		size = 250
+	}
+
+	clergymen = {
+		culture = russian
+		religion = mahayana
+		size = 1000
+	}
+
+	artisans = {
+		culture = russian
+		religion = mahayana
+		size = 5500
+	}
+
+	soldiers = {
+		culture = russian
+		religion = mahayana
+		size = 1250
+	}
+
+	farmers = {
+		culture = russian
+		religion = mahayana
+		size = 105750
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = orthodox
+		size = 4600
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = orthodox
+		size = 70
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = orthodox
+		size = 80
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = orthodox
+		size = 9250
+	}
+}
+
+2697 = {
+	aristocrats = {
+		culture = russian
+		religion = mahayana
+		size = 1000
+	}
+
+	clergymen = {
+		culture = russian
+		religion = mahayana
+		size = 1000
+	}
+
+	artisans = {
+		culture = russian
+		religion = mahayana
+		size = 5000
+	}
+
+	soldiers = {
+		culture = russian
+		religion = mahayana
+		size = 1000
+	}
+
+	farmers = {
+		culture = russian
+		religion = mahayana
+		size = 92000
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = orthodox
+		size = 70
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = orthodox
+		size = 80
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = orthodox
+		size = 9250
+	}
+}
+
+1085 = {
+	aristocrats = {
+		culture = russian
+		religion = mahayana
+		size = 18000
+	}
+
+	bureaucrats = {
+		culture = russian
+		religion = mahayana
+		size = 4250
+	}
+
+	clergymen = {
+		culture = russian
+		religion = mahayana
+		size = 9000
+	}
+
+	artisans = {
+		culture = russian
+		religion = mahayana
+		size = 46000
+	}
+
+	soldiers = {
+		culture = russian
+		religion = mahayana
+		size = 9000
+	}
+
+	farmers = {
+		culture = russian
+		religion = mahayana
+		size = 823750
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = orthodox
+		size = 200
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = orthodox
+		size = 19250
+	}
+}
+
+1084 = {
+	aristocrats = {
+		culture = russian
+		religion = mahayana
+		size = 3000
+	}
+
+	clergymen = {
+		culture = russian
+		religion = mahayana
+		size = 1500
+	}
+
+	artisans = {
+		culture = russian
+		religion = mahayana
+		size = 8000
+	}
+
+	soldiers = {
+		culture = russian
+		religion = mahayana
+		size = 1750
+	}
+
+	farmers = {
+		culture = russian
+		religion = mahayana
+		size = 145750
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = orthodox
+		size = 18000
+	}
+}
+
+2617 = {
+	aristocrats = {
+		culture = russian
+		religion = mahayana
+		size = 12000
+	}
+
+	clergymen = {
+		culture = russian
+		religion = mahayana
+		size = 6000
+	}
+
+	artisans = {
+		culture = russian
+		religion = mahayana
+		size = 30500
+	}
+
+	soldiers = {
+		culture = russian
+		religion = mahayana
+		size = 6250
+	}
+
+	farmers = {
+		culture = russian
+		religion = mahayana
+		size = 555250
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = orthodox
+		size = 9000
+	}
+}
+
+1082 = {
+	aristocrats = {
+		culture = russian
+		religion = mahayana
+		size = 1500
+	}
+
+	clergymen = {
+		culture = russian
+		religion = mahayana
+		size = 775
+	}
+
+	artisans = {
+		culture = russian
+		religion = mahayana
+		size = 3900
+	}
+
+	soldiers = {
+		culture = russian
+		religion = mahayana
+		size = 750
+	}
+
+	farmers = {
+		culture = russian
+		religion = mahayana
+		size = 71075
+	}
+
+	aristocrats = {
+		culture = korean
+		religion = mahayana
+		size = 30
+	}
+
+	clergymen = {
+		culture = korean
+		religion = mahayana
+		size = 40
+	}
+
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 150
+	}
+
+	soldiers = {
+		culture = korean
+		religion = mahayana
+		size = 30
+	}
+
+	farmers = {
+		culture = korean
+		religion = mahayana
+		size = 2750
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = orthodox
+		size = 7
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = orthodox
+		size = 8
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = orthodox
+		size = 10
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = orthodox
+		size = 925
+	}
+}
+#Boli (328000/82000 POPS)
+1083 = {
+	aristocrats = {
+		culture = russian
+		religion = mahayana
+		size = 1450
+	}
+
+	clergymen = {
+		culture = russian
+		religion = mahayana
+		size = 775
+	}
+
+	artisans = {
+		culture = russian
+		religion = mahayana
+		size = 4000
+	}
+
+	soldiers = {
+		culture = russian
+		religion = mahayana
+		size = 800
+	}
+
+	farmers = {
+		culture = russian
+		religion = mahayana
+		size = 72975
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = orthodox
+		size = 30
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = orthodox
+		size = 20
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = orthodox
+		size = 1925
 	}
 }

@@ -1,6 +1,64 @@
 
 
 #========================= L A N D =========================
+army = {
+	name = "Defense Forces"
+	location = 562
+
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 601
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 602
+	}
+
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 629
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 595
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 595
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 597
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 563
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 562
+	}
+}
 
 army = {
 	name = "Defense Forces"
@@ -63,76 +121,40 @@ army = {
 
 army = {
 	name = "Defense Forces"
-	location = 562
+	location = 598
 
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 599
+		home = 687
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 599
+		home = 687
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 601
+		home = 628
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 602
+		home = 558
 	}
 
 	regiment = {
 		name = "Defense Brigade"
 		type = hussar
-		home = 629
+		home = 558
 	}
 
 
 	regiment = {
 		name = "Defense Brigade"
 		type = artillery
-		home = 595
-	}
-	regiment = {
-		name = "Defense Brigade"
-		type = artillery
-		home = 595
-	}
-	regiment = {
-		name = "Defense Brigade"
-		type = artillery
-		home = 597
-	}
-	regiment = {
-		name = "Defense Brigade"
-		type = artillery
-		home = 563
-	}
-	regiment = {
-		name = "Defense Brigade"
-		type = artillery
-		home = 562
-	}
-}
-
-army = {
-	name = "Defense Forces"
-	location = 560
-
-	regiment = {
-		name = "Defense Brigade"
-		type = infantry
-		home = 561
-	}
-	regiment = {
-		name = "Defense Brigade"
-		type = infantry
-		home = 560
+		home = 559
 	}
 	regiment = {
 		name = "Defense Brigade"
@@ -142,20 +164,7 @@ army = {
 	regiment = {
 		name = "Defense Brigade"
 		type = artillery
-		home = 558
-	}
-
-	regiment = {
-		name = "Defense Brigade"
-		type = hussar
-		home = 587
-	}
-
-
-	regiment = {
-		name = "Defense Brigade"
-		type = artillery
-		home = 628
+		home = 627
 	}
 	regiment = {
 		name = "Defense Brigade"
@@ -165,66 +174,126 @@ army = {
 	regiment = {
 		name = "Defense Brigade"
 		type = artillery
-		home = 629
+		home = 560
+	}
+}
+
+
+army = {
+	name = "Defense Forces"
+	location = 592
+
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 561
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 561
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 561
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 561
+	}
+
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 561
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 561
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 561
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 561
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 561
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 561
 	}
 }
 
 army = {
 	name = "Defense Forces"
-	location = 598
+	location = 597
 
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 561
+		home = 560
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 561
+		home = 612
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 561
+		home = 613
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 599
+		home = 622
 	}
 
 	regiment = {
 		name = "Defense Brigade"
 		type = hussar
-		home = 599
-	}
-
-
-	regiment = {
-		name = "Defense Brigade"
-		type = artillery
-		home = 599
-	}
-	regiment = {
-		name = "Defense Brigade"
-		type = artillery
-		home = 622
-	}
-	regiment = {
-		name = "Defense Brigade"
-		type = artillery
-		home = 622
-	}
-	regiment = {
-		name = "Defense Brigade"
-		type = artillery
-		home = 613
-	}
-	regiment = {
-		name = "Defense Brigade"
-		type = artillery
 		home = 627
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 599
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 622
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 621
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 619
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 616
 	}
 }
 
@@ -240,23 +309,82 @@ army = {
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 561
+		home = 595
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 561
+		home = 595
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 561
+		home = 595
 	}
 
 	regiment = {
 		name = "Defense Brigade"
 		type = hussar
 		home = 595
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 595
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 595
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 595
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 595
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 595
+	}
+}
+
+army = {
+	name = "Defense Forces"
+	location = 560
+
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 599
 	}
 
 
@@ -286,10 +414,3 @@ army = {
 		home = 599
 	}
 }
-
-#========================= S E A =========================
-
-
-
-#========================= Vic_Nation_Establisher by Diamond.David =========================
-

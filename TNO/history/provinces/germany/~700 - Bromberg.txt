@@ -1,0 +1,6 @@
+owner = SGE
+controller = SGE
+add_core = SGE
+add_core = GER
+trade_goods = grain
+life_rating = 40

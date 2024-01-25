@@ -3,7 +3,7 @@ controller = BGE
 add_core = BGE
 add_core = GER
 trade_goods = sulphur
-life_rating = 40
+life_rating = 35
 2161.1.1 = { railroad = 3 }
 state_building = {
 	level = 2

@@ -1,3 +1,8 @@
+substate = {
+	first = USA
+	second = OFN
+	start_date = 1836.1.1
+}
 vassal = {
 	first = ITA
 	second = YEM

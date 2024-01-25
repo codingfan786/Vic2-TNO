@@ -864,13 +864,13 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1250  
+		size = 12500  
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 12750
+		size = 62750
 	}
 
 	clergymen = {
@@ -906,7 +906,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 18750
+		size = 30750
 	}
 }
 #Tuchel (180000/45000 POPS) 
@@ -932,13 +932,13 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 375  
+		size = 13750  
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 33925
+		size = 103925
 	}
 
 	clergymen = {
@@ -986,7 +986,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 6525
+		size = 36525
 	}
 }
 #Deutsche Krone (128000/32000 POPS) 
@@ -1012,13 +1012,13 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300  
+		size = 13000  
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 21650
+		size = 91650
 	}
 
 	clergymen = {
@@ -1042,7 +1042,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 6625
+		size = 36625
 	}
 }
 #Elbing (148000/37000 POPS) 
@@ -1068,13 +1068,13 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1300  
+		size = 13000  
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 24125 
+		size = 94125 
 	}
 
 	clergymen = {
@@ -1098,7 +1098,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 7475
+		size = 27475
 	}
 }
 #Torun (156000/44000 POPS) 
@@ -1124,13 +1124,13 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 175  
+		size = 10175  
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 13900 
+		size = 63900 
 	}
 
 	clergymen = {
@@ -1190,7 +1190,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 24225 
+		size = 64225 
 	}
 }
 #East Prussia Region (396000) #see Russia.txt and Lithuania.txt for balance of region
@@ -1223,13 +1223,13 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2300  
+		size = 12300  
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 50250
+		size = 120250
 	}
 
 	clergymen = {
@@ -1253,7 +1253,7 @@
 	farmers = {
 		culture = polish
 		religion = protestant
-		size = 32575  
+		size = 52575  
 	}
 
 	clergymen = {
@@ -1420,13 +1420,13 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 1150   
+		size = 11500   
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 20000
+		size = 70000
 	}
 
 	clergymen = {
@@ -1493,7 +1493,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 22375
+		size = 72375
 	}
 }
 #Gniezno (456000/116000 POPS) 

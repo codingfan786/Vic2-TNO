@@ -4,35 +4,35 @@
 	bureaucrats = {
 		culture = danish
 		religion = protestant
-		size = 15
+		size = 22.5
 	}
 
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 75
+		size = 112.5
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 135
+		size = 202.5
 	}
 
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 1575
+		size = 2362.5
 	}
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 1000
+		size = 1500
 	}
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 2000
+		size = 3000
 	}
 
 }
@@ -42,24 +42,61 @@
 	craftsmen = {
 		culture = danish
 		religion = protestant
-		size = 7000
+		size = 10500
 	}
 	aristocrats = {
 		culture = danish
 		religion = protestant
-		size = 500
+		size = 750
 	}
 
 	bureaucrats = {
 		culture = danish
 		religion = protestant
-		size = 350
+		size = 525
 	}
 
 	officers = {
 		culture = danish
 		religion = protestant
-		size = 200
+		size = 300
+	}
+
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 562.5
+	}
+
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 4875
+	}
+
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 10500
+	}
+
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 75487.5
+	}
+}
+#Alborg (152000/38000 POPS)
+367 = {
+	craftsmen = {
+		culture = danish
+		religion = protestant
+		size = 10500
+	}
+	aristocrats = {
+		culture = danish
+		religion = protestant
+		size = 375
 	}
 
 	clergymen = {
@@ -71,56 +108,19 @@
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 3250
+		size = 3000
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 7000
+		size = 750
 	}
 
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 50325
-	}
-}
-#Alborg (152000/38000 POPS)
-367 = {
-	craftsmen = {
-		culture = danish
-		religion = protestant
-		size = 7000
-	}
-	aristocrats = {
-		culture = danish
-		religion = protestant
-		size = 250
-	}
-
-	clergymen = {
-		culture = danish
-		religion = protestant
-		size = 250
-	}
-
-	artisans = {
-		culture = danish
-		religion = protestant
-		size = 2000
-	}
-
-	soldiers = {
-		culture = danish
-		religion = protestant
-		size = 500
-	}
-
-	farmers = {
-		culture = danish
-		religion = protestant
-		size = 30000 #5k moved to 2557
+		size = 45000 #5k moved to 2557
 	}
 }
 #Ribe (148000/37000 POPS)
@@ -128,36 +128,36 @@
 	craftsmen = {
 		culture = danish
 		religion = protestant
-		size = 7000
+		size = 10500
 	}
 	aristocrats = {
 		culture = danish
 		religion = protestant
-		size = 250
+		size = 375
 	}
 
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 250
+		size = 375
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 1100
+		size = 1650
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 500
+		size = 750
 	}
 
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 24000 #10k moved to 2557
+		size = 36000 #10k moved to 2557
 	}
 
 }
@@ -167,32 +167,32 @@
 	craftsmen = {
 		culture = danish
 		religion = protestant
-		size = 7000
+		size = 10500
 	}
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 1100
+		size = 1650
 	}
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 125
+		size = 187.5
 	}
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 250
+		size = 375
 	}
 	aristocrats = {
 		culture = danish
 		religion = protestant
-		size = 250
+		size = 375
 	}
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 14400
+		size = 21600
 	}
 }
 	
@@ -203,46 +203,102 @@
 	bureaucrats = {
 		culture = danish
 		religion = protestant
-		size = 100
+		size = 150
 	}
 
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 125
+		size = 187.5
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 1500
+		size = 2250
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 250
+		size = 375
 	}
 
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 14025
+		size = 21037.5
 	}
 
 	aristocrats = {
 		culture = north_german
 		religion = protestant
-		size = 650
+		size = 975
 	}
 
 	bureaucrats = {
 		culture = north_german
 		religion = protestant
-		size = 100
+		size = 150
 	}
 
 	officers = {
+		culture = north_german
+		religion = protestant
+		size = 225
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 375
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 3750
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 750
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 58275
+	}
+}
+#Aabenra (100000/25000 POPS)
+371 = {
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 187.5
+	}
+
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 1650
+	}
+
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 375
+	}
+
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 24937.5
+	}
+
+	aristocrats = {
 		culture = north_german
 		religion = protestant
 		size = 150
@@ -251,81 +307,25 @@
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 250
+		size = 75
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 2500
+		size = 375
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 500
+		size = 75
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 38850
-	}
-}
-#Aabenra (100000/25000 POPS)
-371 = {
-	clergymen = {
-		culture = danish
-		religion = protestant
-		size = 125
-	}
-
-	artisans = {
-		culture = danish
-		religion = protestant
-		size = 1100
-	}
-
-	soldiers = {
-		culture = danish
-		religion = protestant
-		size = 250
-	}
-
-	farmers = {
-		culture = danish
-		religion = protestant
-		size = 16625
-	}
-
-	aristocrats = {
-		culture = north_german
-		religion = protestant
-		size = 100
-	}
-
-	clergymen = {
-		culture = north_german
-		religion = protestant
-		size = 50
-	}
-
-	artisans = {
-		culture = north_german
-		religion = protestant
-		size = 250
-	}
-
-	soldiers = {
-		culture = north_german
-		religion = protestant
-		size = 50
-	}
-
-	farmers = {
-		culture = north_german
-		religion = protestant
-		size = 6550
+		size = 9825
 	}
 
 }
@@ -335,67 +335,67 @@
 	aristocrats = {
 		culture = danish
 		religion = protestant
-		size = 1250
+		size = 1875
 	}
 
 	bureaucrats = {
 		culture = danish
 		religion = protestant
-		size = 500
+		size = 750
 	}
 
 	officers = {
 		culture = danish
 		religion = protestant
-		size = 500
+		size = 750
 	}
 
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 750
+		size = 1125
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 10000
+		size = 15000
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 10000
+		size = 15000
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 6000
+		size = 9000
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 10000
+		size = 15000
 	}
 
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 57000
+		size = 85500
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 1100
+		size = 1650
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 1100
+		size = 1650
 	}
 }
 #Odense (208000/52000 POPS)
@@ -403,31 +403,31 @@
 	aristocrats = {
 		culture = danish
 		religion = protestant
-		size = 500
+		size = 750
 	}
 
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 250
+		size = 375
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 3000
+		size = 4500
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 7000
+		size = 10500
 	}
 
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 41250
+		size = 61875
 	}
 }
 #Bornholm (16000/4000 POPS)
@@ -435,25 +435,25 @@
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 50
+		size = 75
 	}
 
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 400
+		size = 600
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 50
+		size = 75
 	}
 
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 3500
+		size = 5250
 	}
 
 }

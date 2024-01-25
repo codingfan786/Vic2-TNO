@@ -74,7 +74,7 @@ political_decisions = {
 			#}
 			OR = {
 				NOT = {exists = GER}
-				year = 1964
+				#year = 1964
 			}
 		}
 		allow = {
@@ -144,7 +144,7 @@ political_decisions = {
 			#}
 			OR = {
 				NOT = {exists = GER}
-				year = 1964
+				#year = 1964
 			}
 		}
 		allow = {

@@ -176,10 +176,10 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = mobbuffed
-			add_country_modifier = {
-				name = sge_mobbuff
-				duration = 1825
-			}
+			#add_country_modifier = {
+			#	name = sge_mobbuff
+			#	duration = 1825
+			#}
 		}
 	}
 

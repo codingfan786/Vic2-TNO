@@ -1,0 +1,12 @@
+owner = HGE
+controller = HGE
+add_core = HGE
+add_core = GER
+trade_goods = fruit
+life_rating = 40
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}
+2161.1.1 = { railroad = 3 }
