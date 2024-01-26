@@ -7,7 +7,7 @@ government = presidential_dictatorship
 plurality = 10
 nationalvalue = nv_order
 
- 
+schools = army_tech_school
 
 ruling_party = YNN_reactionary
 upper_house = {
@@ -76,3 +76,4 @@ publishing_industry = 1
 mechanized_mining = 1
 
 basic_chemistry = 1
+bronze_muzzle_loaded_artillery = 1

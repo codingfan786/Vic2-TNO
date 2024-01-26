@@ -1,0 +1,18 @@
+political_decisions = {
+	annex_onega = {
+		picture = concede_finland
+		potential = {
+			tag = FIN
+			exists = ONE
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			is_our_vassal = ONE
+		}
+		effect = {
+			inherit = ONE
+		}
+	}
+
+
+}
