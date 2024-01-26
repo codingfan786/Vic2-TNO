@@ -3,8 +3,7 @@
 #========================= H E A D E R =========================
 
 capital = 1
-primary_culture = beifaren
-culture = nanfaren
+primary_culture = nanfaren
 religion = catholic
 government = presidential_dictatorship
 plurality = 10

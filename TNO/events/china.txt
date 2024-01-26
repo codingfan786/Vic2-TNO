@@ -1,0 +1,114 @@
+country_event = {
+	id = 500241
+	title = "Guanxi Invades Yunnan!"
+	desc = "ai only :)"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = CH1
+		war = no
+		ai = yes
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	immediate = {
+		any_country = {
+			limit = {
+				tag = YNN
+				ai = yes
+			}
+			THIS = {
+				war = {
+				target = YNN
+					attacker_goal = { casus_belli = humiliate }
+					defender_goal = { casus_belli = conquest }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				tag = YNN
+				ai = no
+			}
+			THIS = {
+				war = {
+				target = YNN
+					attacker_goal = { casus_belli = humiliate }
+					call_ally = no
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "cool"
+	}
+}
+
+country_event = {
+	id = 500242
+	title = "china border conflict!"
+	desc = "ai only :)"
+
+	trigger = {
+		OR = {
+			tag = CHI
+			tag = YNN
+		}
+		war = no
+		ai = yes
+		NOT = {has_country_modifier = npa_cooldown}
+		has_country_flag = npa_border_wars
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				neighbour = THIS
+				OR = {
+					tag = CH1
+					tag = CH2
+					tag = CH3
+					tag = CH4
+					tag = XBI
+				}
+			}
+			country_event = 500243
+		}
+	}
+
+	option = {
+		name = "cool"
+	}
+}
+
+country_event = {
+	id = 500243
+	title = "Conflict on the Western Frontier!"
+	desc = "$FROMCOUNTRY$ has started a border conflict over your territory!"
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = china_border_conflict }
+				call_ally = no
+			}
+		}
+	}
+
+	option = {
+		name = "Wow! That's terrible!"
+	}
+}

@@ -133,7 +133,7 @@
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3787.5
+		size = 3787
 	}
 
 	artisans = {
@@ -169,7 +169,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 343962.5
+		size = 343962
 	}
 }
 #Chongqing (3836000/959000 POPS)
@@ -233,13 +233,13 @@
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 10612.5
+		size = 10612
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 5337.5
+		size = 5337
 	}
 
 	artisans = {
@@ -281,12 +281,12 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 5337.5
+		size = 5337
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 538837.5
+		size = 538837
 	}
 }

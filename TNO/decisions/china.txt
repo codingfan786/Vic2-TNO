@@ -22,5 +22,140 @@ political_decisions = {
 		}
 	}
 
-	
+	npa_merge_first = {
+		picture = raise_the_bonnie_blue_flag
+		potential = {
+			exists = CH5
+			tag = YNN
+		}
+		allow = {
+			NOT = {has_country_modifier = npa_cooldown}
+		}
+		effect = {
+			inherit = CH5
+			add_country_modifier = {
+				name = npa_cooldown
+				duration = 180
+			}
+			CH5 = {
+				all_core = {add_core = THIS}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				AND = {
+					NOT = {month = 3}
+					NOT = {year = 1963}
+				}
+				
+			}
+		}
+	}
+
+	npa_merge_second = {
+		picture = raise_the_bonnie_blue_flag
+		potential = {
+			exists = CH6
+			tag = YNN
+		}
+		allow = {
+			NOT = {has_country_modifier = npa_cooldown}
+		}
+		effect = {
+			inherit = CH6
+			add_country_modifier = {
+				name = npa_cooldown
+				duration = 180
+			}
+			CH6 = {
+				all_core = {add_core = THIS}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				exists = CH5
+			}
+		}
+	}
+
+	chi_go_west = {
+		picture = peking_convention
+		potential = {
+			tag = CHI
+			NOT = {has_country_flag = china_freed}
+		}
+		allow = {
+			war = no
+			year = 1964
+		}
+		effect = {
+			set_country_flag = china_freed
+			set_country_flag = npa_border_wars
+			release_vassal = CHI
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {year = 1965}
+			}
+		}
+	}
+
+	start_gaw = {
+		picture = the_meiji_restoration
+		potential = {
+			OR = {
+				tag = CHI
+				tag = YNN
+			}
+			exists = CHI
+			exists = YNN
+			NOT = {YNN = {war_with = CHI}}
+		}
+		allow = {
+			NOT = {exists = CH1}
+			NOT = {exists = CH2}
+			NOT = {exists = CH3}
+			NOT = {exists = CH4}
+			NOT = {exists = CH5}
+			NOT = {exists = CH6}
+			NOT = {exists = XBI}
+		}
+		effect = {
+			CHI = {set_country_flag = china_freed}
+			release_vassal = CHI
+			CHI = {clr_country_flag = npa_border_wars}
+			CHI = {clr_country_flag = CHI_mobnerf}
+			YNN = {clr_country_flag = npa_border_wars}
+
+			CHI = {
+				war = {
+				target = YNN
+					attacker_goal = { casus_belli = gaw_war }
+					defender_goal = { casus_belli = gaw_war }
+					call_ally = no
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				tag = CHI
+				NOT = {year = 1969}
+			}
+			modifier = {
+				factor = 0
+				tag = YNN
+				NOT = {year = 1967}
+			}
+		}
+	}
+
 }

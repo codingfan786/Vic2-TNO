@@ -1,9 +1,10 @@
 civilized = yes
 capital = 1601
 primary_culture = nanfaren
+culture = beifaren
 religion = mahayana
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 10
 nationalvalue = nv_order
 
  

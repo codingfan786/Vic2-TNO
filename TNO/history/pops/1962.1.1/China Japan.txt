@@ -108,25 +108,25 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 937.5
+		size = 937
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 84637.5
+		size = 84637
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 6162.5
+		size = 6162
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3087.5
+		size = 3087
 	}
 
 	artisans = {
@@ -186,13 +186,13 @@
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 262.5
+		size = 262
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 23212.5
+		size = 23212
 	}
 }
 #Guihua Tumed (436000/109000 POPS)
@@ -206,13 +206,13 @@
 	bureaucrats = {
 		culture = mongol
 		religion = gelugpa
-		size = 112.5
+		size = 112
 	}
 
 	officers = {
 		culture = mongol
 		religion = gelugpa
-		size = 112.5
+		size = 112
 	}
 
 	clergymen = {
@@ -242,7 +242,7 @@
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 37.5
+		size = 37
 	}
 
 	artisans = {
@@ -254,19 +254,19 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1812.5
+		size = 1812
 	}
 
 	bureaucrats = {
 		culture = beifaren
 		religion = mahayana
-		size = 12.5
+		size = 12
 	}
 
 	officers = {
 		culture = beifaren
 		religion = mahayana
-		size = 37.5
+		size = 37
 	}
 
 	soldiers = {
@@ -286,7 +286,7 @@
 	clergymen = {
 		culture = mongol
 		religion = gelugpa
-		size = 162.5
+		size = 162
 	}
 
 	artisans = {
@@ -304,7 +304,7 @@
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 14687.5
+		size = 14687
 	}
 }
 #Chengde (6420000/1605000 POPS)
@@ -416,13 +416,13 @@
 	aristocrats = {
 		culture = beifaren
 		religion = mahayana
-		size = 11037.5
+		size = 11037
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 5537.5
+		size = 5537
 	}
 
 	artisans = {
@@ -464,13 +464,13 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 5537.5
+		size = 5537
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 303712.5
+		size = 303712
 	}
 }
 #Mukden (2128000/532000 POPS)
@@ -562,13 +562,13 @@
 	aristocrats = {
 		culture = beifaren
 		religion = mahayana
-		size = 312.5
+		size = 312
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 162.5
+		size = 162
 	}
 
 	artisans = {
@@ -580,13 +580,13 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 162.5
+		size = 162
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 14562.5
+		size = 14562
 	}
 
 	aristocrats = {
@@ -610,13 +610,13 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 162.5
+		size = 162
 	}
 
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 14112.5
+		size = 14112
 	}
 }
 #Jinzhou (680000/170000 POPS)
@@ -642,13 +642,13 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 712.5
+		size = 712
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 64637.5
+		size = 64637
 	}
 
 	aristocrats = {
@@ -796,7 +796,7 @@
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 3462.5
+		size = 3462
 	}
 
 	artisans = {
@@ -838,7 +838,7 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 37.5
+		size = 37
 	}
 
 	clergymen = {
@@ -862,7 +862,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 2287.5
+		size = 2287
 	}
 }
 #Aigun (1524000/381000 POPS)
@@ -912,7 +912,7 @@
 	clergymen = {
 		culture = russian
 		religion = animist
-		size = 37.5
+		size = 37
 	}
 
 	artisans = {
@@ -924,7 +924,7 @@
 	soldiers = {
 		culture = russian
 		religion = animist
-		size = 12.5
+		size = 12
 	}
 
 	farmers = {
@@ -1080,7 +1080,7 @@
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 312.5
+		size = 312
 	}
 
 	artisans = {
@@ -1110,7 +1110,7 @@
 	clergymen = {
 		culture = russian
 		religion = animist
-		size = 37.5
+		size = 37
 	}
 
 	artisans = {
@@ -1122,7 +1122,7 @@
 	soldiers = {
 		culture = russian
 		religion = animist
-		size = 12.5
+		size = 12
 	}
 
 	farmers = {
@@ -1141,13 +1141,13 @@
 	clergymen = {
 		culture = mongol
 		religion = gelugpa
-		size = 162.5
+		size = 162
 	}
 
 	artisans = {
 		culture = mongol
 		religion = gelugpa
-		size = 687.5
+		size = 687
 	}
 
 	soldiers = {
@@ -1165,7 +1165,7 @@
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 12.5
+		size = 12
 	}
 
 	artisans = {
@@ -1177,31 +1177,31 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 937.5
+		size = 937
 	}
 
 	aristocrats = {
 		culture = russian
 		religion = animist
-		size = 12.5
+		size = 12
 	}
 
 	clergymen = {
 		culture = russian
 		religion = animist
-		size = 12.5
+		size = 12
 	}
 
 	artisans = {
 		culture = russian
 		religion = animist
-		size = 37.5
+		size = 37
 	}
 
 	soldiers = {
 		culture = russian
 		religion = animist
-		size = 12.5
+		size = 12
 	}
 
 	farmers = {

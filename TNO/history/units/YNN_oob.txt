@@ -1,7 +1,3 @@
-XBI = {
-	value = -50
-	truce_until = "1967.1.1"
-}
 army = {
 	name = "1a Armata" #done
 	location = 1602
@@ -14,118 +10,118 @@ army = {
 	regiment = {
 		name= "2.1a Bersaglieri"
 		type = infantry
-		home = 1603
+		home = 1602
 	}
 
 	regiment = {
 		name= "3.1a Bersaglieri"
 		type = infantry
-		home = 1601
+		home = 1602
 	}
 
 	regiment = {
 		name= "1.2a Bersaglieri"
 		type = infantry
-		home = 1601
+		home = 1602
 	}
 
 	regiment = {
 		name= "2.2a Bersaglieri"
 		type = artillery
-		home = 1506
+		home = 1603
 	}
 
 	regiment = {
 		name= "3.2a Bersaglieri"
 		type = artillery
-		home = 1505
+		home = 1603
 	}
 
 	regiment = {
 		name= "1.1a Granatieri"
 		type = artillery
-		home = 1507
+		home = 1603
 	}
 
 	regiment = {
 		name= "2.1a Granatieri"
 		type = artillery
-		home = 1585
+		home = 1603
 	}
 
 	regiment = {
 		name= "3.1a Granatieri"
 		type = artillery
-		home = 1586
+		home = 1603
 	}
 
 	regiment = {
 		name= "4.1a Granatieri"
 		type = hussar
-		home = 1582
+		home = 1603
 	}
 }
 
 army = {
 	name = "1a Armata" #done
-	location = 1577
+	location = 1601
 	regiment = {
 		name= "1.1a Bersaglieri"
 		type = infantry
-		home = 1580
+		home = 1601
 	}
 
 	regiment = {
 		name= "2.1a Bersaglieri"
 		type = infantry
-		home = 1580
+		home = 1601
 	}
 
 	regiment = {
 		name= "3.1a Bersaglieri"
 		type = infantry
-		home = 1577
+		home = 1601
 	}
 
 	regiment = {
 		name= "1.2a Bersaglieri"
 		type = infantry
-		home = 1577
+		home = 1601
 	}
 
 	regiment = {
 		name= "2.2a Bersaglieri"
 		type = artillery
-		home = 1583
+		home = 1601
 	}
 
 	regiment = {
 		name= "3.2a Bersaglieri"
 		type = artillery
-		home = 1583
+		home = 1601
 	}
 
 	regiment = {
 		name= "1.1a Granatieri"
 		type = artillery
-		home = 1581
+		home = 1601
 	}
 
 	regiment = {
 		name= "2.1a Granatieri"
 		type = artillery
-		home = 1581
+		home = 1601
 	}
 
 	regiment = {
 		name= "3.1a Granatieri"
 		type = artillery
-		home = 1579
+		home = 1601
 	}
 
 	regiment = {
 		name= "4.1a Granatieri"
 		type = hussar
-		home = 1579
+		home = 1601
 	}
 }

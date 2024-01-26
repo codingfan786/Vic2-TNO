@@ -93,13 +93,13 @@
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 362.5
+		size = 362
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 187.5
+		size = 187
 	}
 
 	artisans = {
@@ -111,13 +111,13 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 187.5
+		size = 187
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 16837.5
+		size = 16837
 	}
 
 	aristocrats = {
@@ -171,13 +171,13 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 87.5
+		size = 87
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 7287.5
+		size = 7287
 	}
 
 	aristocrats = {
@@ -189,7 +189,7 @@
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3187.5
+		size = 3187
 	}
 
 	artisans = {
@@ -267,7 +267,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 250887.5
+		size = 250887
 	}
 
 	bureaucrats = {
@@ -299,7 +299,7 @@
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1862.5
+		size = 1862
 	}
 
 	artisans = {
@@ -323,7 +323,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 119737.5
+		size = 119737
 	}
 
 	aristocrats = {
@@ -335,7 +335,7 @@
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 137.5
+		size = 137
 	}
 
 	artisans = {
@@ -347,7 +347,7 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 137.5
+		size = 137
 	}
 
 	farmers = {
@@ -404,25 +404,25 @@
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 12.5
+		size = 12
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 37.5
+		size = 37
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 12.5
+		size = 12
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 687.5
+		size = 687
 	}
 }
 #Waizao (2200000/550000 POPS)
@@ -448,25 +448,25 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 812.5
+		size = 812
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 73262.5
+		size = 73262
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 462.5
+		size = 462
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 237.5
+		size = 237
 	}
 
 	artisans = {
@@ -478,25 +478,25 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 487.5
+		size = 487
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 44887.5
+		size = 44887
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2912.5
+		size = 2912
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1462.5
+		size = 1462
 	}
 
 	artisans = {
@@ -514,13 +514,13 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1462.5
+		size = 1462
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 132862.5
+		size = 132862
 	}
 }
 
@@ -529,7 +529,7 @@
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 2.5
+		size = 2
 	}
 
 	clergymen = {
@@ -547,19 +547,19 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 12.5
+		size = 12
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = catholic
-		size = 7.5
+		size = 7
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = catholic
-		size = 467.5
+		size = 467
 	}
 
 	soldiers = {
@@ -604,13 +604,13 @@
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1162.5
+		size = 1162
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 587.5
+		size = 587
 	}
 
 	artisans = {
@@ -640,7 +640,7 @@
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1387.5
+		size = 1387
 	}
 
 	artisans = {
@@ -664,7 +664,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 125587.5
+		size = 125587
 	}
 
 	aristocrats = {
@@ -676,7 +676,7 @@
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1012.5
+		size = 1012
 	}
 
 	artisans = {
@@ -700,7 +700,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 91937.5
+		size = 91937
 	}
 }
 #Zhaoqing (1772000/443000 POPS)

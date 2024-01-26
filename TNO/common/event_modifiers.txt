@@ -1,6 +1,12 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+npa_cooldown = {
+	icon = 16
+	land_organisation = -0.1
+	land_unit_start_experience = 5
+}
+
 hnd_paranoia = {
 	global_population_growth = -0.001
 	icon = 18

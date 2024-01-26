@@ -3,13 +3,13 @@
 	aristocrats = {
 		culture = mongol
 		religion = gelugpa
-		size = 1112.5
+		size = 1112
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = gelugpa
-		size = 562.5
+		size = 562
 	}
 
 	artisans = {
@@ -21,19 +21,19 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 562.5
+		size = 562
 	}
 
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 50962.5
+		size = 50962
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 12.5
+		size = 12
 	}
 
 	artisans = {
@@ -45,7 +45,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 937.5
+		size = 937
 	}
 }
 #Gansu (6048000/1512000 POPS)
@@ -71,7 +71,7 @@
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 4812.5
+		size = 4812
 	}
 
 	artisans = {
@@ -113,19 +113,19 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 332112.5
+		size = 332112
 	}
 
 	aristocrats = {
 		culture = turkmen
 		religion = sunni
-		size = 62.5
+		size = 62
 	}
 
 	clergymen = {
 		culture = turkmen
 		religion = sunni
-		size = 37.5
+		size = 37
 	}
 
 	artisans = {
@@ -137,25 +137,25 @@
 	soldiers = {
 		culture = turkmen
 		religion = sunni
-		size = 37.5
+		size = 37
 	}
 
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 3662.5
+		size = 3662
 	}
 
 	aristocrats = {
 		culture = beifaren
 		religion = sunni
-		size = 662.5
+		size = 662
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = sunni
-		size = 337.5
+		size = 337
 	}
 
 	artisans = {
@@ -167,13 +167,13 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 337.5
+		size = 337
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = sunni
-		size = 30487.5
+		size = 30487
 	}
 
 	aristocrats = {
@@ -381,7 +381,7 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 137.5
+		size = 137
 	}
 
 	farmers = {
@@ -399,7 +399,7 @@
 	clergymen = {
 		culture = turkmen
 		religion = sunni
-		size = 37.5
+		size = 37
 	}
 
 	artisans = {
@@ -411,7 +411,7 @@
 	soldiers = {
 		culture = turkmen
 		religion = sunni
-		size = 12.5
+		size = 12
 	}
 
 	farmers = {
@@ -461,7 +461,7 @@
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 762.5
+		size = 762
 	}
 
 	artisans = {
@@ -473,7 +473,7 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 762.5
+		size = 762
 	}
 
 	farmers = {
@@ -521,7 +521,7 @@
 	clergymen = {
 		culture = mongol
 		religion = gelugpa
-		size = 337.5
+		size = 337
 	}
 
 	artisans = {
@@ -533,13 +533,13 @@
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 337.5
+		size = 337
 	}
 
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 30487.5
+		size = 30487
 	}
 }
 #Pingliang (3168000/792000 POPS)
@@ -583,13 +583,13 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3837.5
+		size = 3837
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 248537.5
+		size = 248537
 	}
 
 	aristocrats = {
@@ -613,12 +613,12 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 137.5
+		size = 137
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = sunni
-		size = 11837.5
+		size = 11837
 	}
 }

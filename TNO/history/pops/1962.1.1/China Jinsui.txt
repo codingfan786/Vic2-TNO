@@ -75,25 +75,25 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 212.5
+		size = 212
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = sunni
-		size = 19112.5
+		size = 19112
 	}
 
 	bureaucrats = {
 		culture = beifaren
 		religion = mahayana
-		size = 37.5
+		size = 37
 	}
 
 	officers = {
 		culture = beifaren
 		religion = mahayana
-		size = 37.5
+		size = 37
 	}
 
 	soldiers = {
@@ -143,13 +143,13 @@
 	aristocrats = {
 		culture = beifaren
 		religion = sunni
-		size = 162.5
+		size = 162
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = sunni
-		size = 87.5
+		size = 87
 	}
 
 	artisans = {
@@ -211,13 +211,13 @@
 	aristocrats = {
 		culture = beifaren
 		religion = sunni
-		size = 412.5
+		size = 412
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = sunni
-		size = 212.5
+		size = 212
 	}
 
 	artisans = {
@@ -241,13 +241,13 @@
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 4412.5
+		size = 4412
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2212.5
+		size = 2212
 	}
 
 	artisans = {
@@ -271,13 +271,13 @@
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2212.5
+		size = 2212
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 201112.5
+		size = 201112
 	}
 }
 #Taiyuan (4436000/1109000 POPS)
@@ -393,13 +393,13 @@
 	officers = {
 		culture = beifaren
 		religion = mahayana
-		size = 62.5
+		size = 62
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 187.5
+		size = 187
 	}
 }
 #Fenzhou (3412000/853000 POPS)
@@ -553,7 +553,7 @@
 	clergymen = {
 		culture = beifaren
 		religion = sunni
-		size = 37.5
+		size = 37
 	}
 
 	artisans = {
@@ -565,7 +565,7 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 37.5
+		size = 37
 	}
 
 	farmers = {
@@ -621,25 +621,25 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 4212.5
+		size = 4212
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 382662.5
+		size = 382662
 	}
 
 	aristocrats = {
 		culture = beifaren
 		religion = sunni
-		size = 62.5
+		size = 62
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = sunni
-		size = 37.5
+		size = 37
 	}
 
 	artisans = {
@@ -651,13 +651,13 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 37.5
+		size = 37
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = sunni
-		size = 3187.5
+		size = 3187
 	}
 }
 #Datong (232000/58000 POPS)
@@ -683,19 +683,19 @@
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 287.5
+		size = 287
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 25487.5
+		size = 25487
 	}
 
 	aristocrats = {
 		culture = beifaren
 		religion = sunni
-		size = 12.5
+		size = 12
 	}
 
 	clergymen = {
@@ -713,7 +713,7 @@
 	soldiers = {
 		culture = beifaren
 		religion = sunni
-		size = 12.5
+		size = 12
 	}
 
 	farmers = {
@@ -727,13 +727,13 @@
 	aristocrats = {
 		culture = beifaren
 		religion = mahayana
-		size = 3162.5
+		size = 3162
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 1587.5
+		size = 1587
 	}
 
 	artisans = {
@@ -763,7 +763,7 @@
 	aristocrats = {
 		culture = beifaren
 		religion = sunni
-		size = 187.5
+		size = 187
 	}
 
 	clergymen = {
@@ -787,6 +787,6 @@
 	farmers = {
 		culture = beifaren
 		religion = sunni
-		size = 9112.5
+		size = 9112
 	}
 }

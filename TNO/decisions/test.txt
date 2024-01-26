@@ -10,17 +10,18 @@ political_decisions = {
 		effect = {
 			any_country = {
 				limit = {
-					any_owned_province = {is_core = HND}
+					OR = {
+						tag = CHI
+					}
+					NOT = {war_with = CH2}
 				}
-				release_vassal = HND
-			}
-			any_country = {
-				limit = {
-					any_owned_province = {is_core = PAK}
+				war = {
+					target = CH2
+					attacker_goal = { casus_belli = china_border_conflict }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
 				}
-				release_vassal = PAK
 			}
-			
 		}		
 	}
 }

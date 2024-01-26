@@ -1,8 +1,6 @@
 civilized = yes
 capital = 1502
-primary_culture = zhuang
-culture = yue
-culture = nanfaren
+primary_culture = nanfaren
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0

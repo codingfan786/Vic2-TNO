@@ -39,6 +39,8 @@
 
 # Order that CBs are executed in a peace treaty
 peace_order = { 
+china_border_conflict
+china_border_conflict_response
 warreps
 NPO_survive
 NPO_revoke
@@ -75,6 +77,7 @@ free_peoples
 liberate_country
 release_puppet
 become_independent
+gaw_war
 make_puppet
 make_puppet_unlimited
 dismantle_forts
@@ -1216,7 +1219,7 @@ become_independent = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
-		#NOT = {THIS = {tag = CHI}}
+		NOT = {THIS = {tag = CHI}}
 		OR = {
 			FROM = { is_our_vassal = THIS }
 			war_with = THIS
@@ -3540,3 +3543,242 @@ baathism = {
 	}
 }
 
+china_status_quo = {
+	sprite_index = 1
+	is_triggered_only = yes
+	months = 12
+	constructing_cb = no
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		always = no
+	}
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 0
+	
+	badboy_factor = 1
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_status_quo = yes
+
+	on_po_accepted = {
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = {CHI = {has_country_flag = china_freed}}
+			}
+			create_vassal = CHI
+			CHI = {government = presidential_dictatorship}
+		}
+	}
+
+	war_name = WAR_NAME
+}
+
+china_border_conflict_response = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 0
+	crisis = no
+	constructing_cb = no
+
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	is_civil_war = no #this is a civil war
+
+
+	can_use = {
+		always = no
+	}
+
+	po_annex = yes
+	
+	war_name = WAR_NPA
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	on_po_accepted = {
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = {CHI = {has_country_flag = china_freed}}
+			}
+			create_vassal = CHI
+			CHI = {government = presidential_dictatorship}
+		}
+
+		all_core = {add_core = THIS}
+	}
+}
+
+china_border_conflict = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	constructing_cb = no
+	always = yes
+
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 2
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+
+	can_use = {
+		THIS = {NOT = {has_country_modifier = npa_cooldown}}
+		THIS = {has_country_flag = npa_border_wars}
+		#NOT = {war_with = THIS}
+		NOT = {THIS = {war = yes}}
+
+		OR = {
+			tag = CH1
+			tag = CH2
+			tag = CH3
+			tag = CH4
+			#tag = CH5
+			#tag = CH6
+			tag = XBI
+		}
+	}
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+
+		any_country = {
+			limit = {
+				tag = CHI
+				NOT = {CHI = {has_country_flag = china_freed}}
+				is_vassal = yes
+			}
+			release_vassal = CHI
+			#CHI = {set_country_flag = npa_border_wars}
+		}
+
+		any_country = {
+			limit = {
+				OR = {
+					tag = YNN
+					tag = CHI
+				}
+				NOT = {war_with = FROM}
+			}
+			war = {
+				target = FROM
+				attacker_goal = { casus_belli = china_border_conflict_response }
+				defender_goal = { casus_belli = china_status_quo }
+				call_ally = no
+			}
+		}
+
+		#any_country = {
+		#	limit = {
+		#		tag = CHI
+		#		NOT = {CHI = {has_country_flag = china_freed}}
+		#	}
+		#	CHI = {clr_country_flag = npa_border_wars}
+		#}
+	}
+
+	on_po_accepted = {
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = {CHI = {has_country_flag = china_freed}}
+			}
+			create_vassal = CHI
+			CHI = {government = presidential_dictatorship}
+		}
+		
+		all_core = {add_core = THIS}
+		
+	}
+
+	po_annex = yes
+
+	war_name = WAR_NPA
+}
+
+gaw_war = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 1
+	constructing_cb = no
+	crisis = no
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		always = no
+	}
+
+	badboy_factor = 0
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+	is_civil_war = yes #this is a civil war
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	po_annex = yes
+	
+	war_name = GAW_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}

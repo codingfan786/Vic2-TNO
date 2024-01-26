@@ -3,6 +3,6 @@ controller = CH5
 add_core = CH5
 
 
-
-trade_goods = timber
+trade_goods = iron
+#trade_goods = timber
 life_rating = 32

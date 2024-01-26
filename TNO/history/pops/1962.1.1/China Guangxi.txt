@@ -3,157 +3,157 @@
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 912.5
+		size = 2973.12
 	}
 
 	bureaucrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 675
+		size = 2200.5
 	}
 
 	officers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1075
+		size = 3504.4999999999995
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 462.5
+		size = 1506.12
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2300
+		size = 7497.999999999999
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 462.5
+		size = 1506.12
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 39925
+		size = 130155.49999999998
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = animist
-		size = 3925
+		size = 12795.5
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = animist
-		size = 1975
+		size = 6438.5
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = animist
-		size = 5000
+		size = 16299.999999999998
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = animist
-		size = 4850
+		size = 15810.999999999998
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = animist
-		size = 1975
+		size = 6438.5
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = animist
-		size = 179275
+		size = 584436.5
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1225
+		size = 3993.4999999999995
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 625
+		size = 2037.4999999999997
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3125
+		size = 10187.5
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 625
+		size = 2037.4999999999997
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 56400
+		size = 183864
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = animist
-		size = 100
+		size = 326
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = animist
-		size = 50
+		size = 163
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = animist
-		size = 250
+		size = 815
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = animist
-		size = 50
+		size = 163
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = animist
-		size = 4550
+		size = 14832.999999999998
 	}
 
 	bureaucrats = {
 		culture = beifaren
 		religion = mahayana
-		size = 75
+		size = 244.49999999999997
 	}
 
 	officers = {
 		culture = beifaren
 		religion = mahayana
-		size = 37.5
+		size = 120.61999999999999
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 75
+		size = 244.49999999999997
 	}
 }
 #Guilin (4668000/1167000 POPS)
@@ -161,145 +161,145 @@
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2600
+		size = 8476
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1300
+		size = 4238
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 5000
+		size = 16299.999999999998
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1525
+		size = 4971.5
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1312.5
+		size = 4277.12
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 78762.5
+		size = 256764.12
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = animist
-		size = 5250
+		size = 17115
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = animist
-		size = 2650
+		size = 8639
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = animist
-		size = 5000
+		size = 16299.999999999998
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = animist
-		size = 5000
+		size = 16299.999999999998
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = animist
-		size = 3275
+		size = 10676.5
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = animist
-		size = 2662.5
+		size = 8678.119999999999
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = animist
-		size = 141662.5
+		size = 461818.12
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 3087.5
+		size = 10063.619999999999
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1562.5
+		size = 5092.12
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 5000
+		size = 16299.999999999998
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2800
+		size = 9128
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1562.5
+		size = 5092.12
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 91987.5
+		size = 299877.62
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = animist
-		size = 587.5
+		size = 1913.62
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = animist
-		size = 312.5
+		size = 1017.1199999999999
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = animist
-		size = 1575
+		size = 5134.5
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = animist
-		size = 312.5
+		size = 1017.1199999999999
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = animist
-		size = 29612.5
+		size = 96535.12
 	}
 }
 #Pangle (1424000/356000 POPS)
@@ -307,120 +307,120 @@
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 750
+		size = 2445
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 400
+		size = 1304
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2000
+		size = 6520
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 400
+		size = 1304
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 36450
+		size = 118826.99999999998
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = animist
-		size = 1550
+		size = 5053
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = animist
-		size = 800
+		size = 2608
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = animist
-		size = 3950
+		size = 12877
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = animist
-		size = 800
+		size = 2608
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = animist
-		size = 71900
+		size = 234393.99999999997
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-		size = 1137.5
+		size = 3706.62
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-		size = 587.5
+		size = 1913.62
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-		size = 2925
+		size = 9535.5
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 587.5
+		size = 1913.62
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 53262.5
+		size = 173634.12
 	}
 
 	aristocrats = {
 		culture = nanfaren
 		religion = animist
-		size = 10
+		size = 32.599999999999994
 	}
 
 	clergymen = {
 		culture = nanfaren
 		religion = animist
-		size = 10
+		size = 32.599999999999994
 	}
 
 	artisans = {
 		culture = nanfaren
 		religion = animist
-		size = 25
+		size = 81.5
 	}
 
 	soldiers = {
 		culture = nanfaren
 		religion = animist
-		size = 5
+		size = 16.299999999999997
 	}
 
 	farmers = {
 		culture = nanfaren
 		religion = animist
-		size = 450
+		size = 1467
 	}
 }

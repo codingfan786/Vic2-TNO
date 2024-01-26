@@ -161,13 +161,14 @@ political_decisions = {
 				limit = {
 					pop_type = soldiers
 				}
-				reduce_pop = 0.35
+				reduce_pop = 0.5 #was 0.35 before
 			}
 			#add_country_modifier = {
 			#	name = CHI_mobnerf
 			#	duration = -1
 			#}
 			set_country_flag = CHI_mobnerf
+			YNN = {set_country_flag = npa_border_wars}
 			civilized = yes #necessary because if china is civilized in history files it is automatically a gp at select screen but not in game. breaks puppet status
 		}
 	}
