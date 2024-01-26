@@ -358,6 +358,13 @@ IET = "countries/IET.txt"
 IIS = "countries/IIS.txt"
 SAL = "countries/SAL.txt"
 
+CH1 = "countries/CH1.txt"
+CH2 = "countries/CH2.txt"
+CH3 = "countries/CH3.txt"
+CH4 = "countries/CH4.txt"
+CH5 = "countries/CH5.txt"
+CH6 = "countries/CH6.txt"
+
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
 D01		= "countries/D01.txt"

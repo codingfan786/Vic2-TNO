@@ -1,0 +1,749 @@
+#Canton (4532000/1133000 POPS)
+1493 = {
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2125
+	}
+
+	bureaucrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2025
+	}
+
+	officers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2625
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1125
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 3625
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1125
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 59200
+	}
+
+	aristocrats = {
+		culture = nanfaren
+		religion = animist
+		size = 525
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = animist
+		size = 275
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = animist
+		size = 1350
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = animist
+		size = 275
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = animist
+		size = 24700
+	}
+
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 362.5
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 187.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 925
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 187.5
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 16837.5
+	}
+
+	aristocrats = {
+		culture = nanfaren
+		religion = animist
+		size = 1625
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = animist
+		size = 825
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = animist
+		size = 4100
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = animist
+		size = 825
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = animist
+		size = 59625
+	}
+	
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 150
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 75
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 400
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 87.5
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 7287.5
+	}
+
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 6250
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 3187.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 4975
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 3200
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 250887.5
+	}
+
+	bureaucrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 250
+	}
+
+	officers = {
+		culture = beifaren
+		religion = mahayana
+		size = 150
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 250
+	}
+}
+#Chaozhou (3600000/900000 POPS)
+1494 = {
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 3700
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1862.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 4325
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1875
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 119737.5
+	}
+
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 250
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 137.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 700
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 137.5
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 12775
+	}
+
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 4875
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 250
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2500
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2500
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 224875
+	}
+}
+
+#Hong Kong (6000/1500 POPS)
+1496 = {
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 12.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 37.5
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 12.5
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 687.5
+	}
+}
+#Waizao (2200000/550000 POPS)
+1497 = {
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1600
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 800
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 4025
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 812.5
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 73262.5
+	}
+
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 462.5
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 237.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2425
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 487.5
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 44887.5
+	}
+
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2912.5
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1462.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2300
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1462.5
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 132862.5
+	}
+}
+
+#Macao (22000/5500 POPS) 
+1498 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+		size = 2.5
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 5
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 105
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+		size = 12.5
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = catholic
+		size = 7.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = catholic
+		size = 467.5
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = catholic
+		size = 125
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 100
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 25
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1850
+	}
+}
+
+#Shaozhou (2384000/596000 POPS)
+1500 = {
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1162.5
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 587.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2950
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 600
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 53700
+	}
+
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2750
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1387.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1900
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1375
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 125587.5
+	}
+
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2000
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1012.5
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 50
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1000
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 91937.5
+	}
+}
+#Zhaoqing (1772000/443000 POPS)
+1501 = {
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+		size = 4400
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2225
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+		size = 1075
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 2225
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 201575
+	}
+}

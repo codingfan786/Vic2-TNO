@@ -1,0 +1,14 @@
+owner = JAP
+controller = JAP
+add_core = CHI
+colonial = 2
+
+
+trade_goods = timber
+life_rating = 32
+
+
+fort = 1
+2161.1.1 = { 
+	naval_base = 1 
+}

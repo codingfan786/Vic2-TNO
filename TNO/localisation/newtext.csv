@@ -418,8 +418,6 @@ MCK_anarcho_liberal;A Very Unlikely Candidate;Un candidat très improbable;Ein äu
 CHI_1504;Guangxi;Kwangsi;Guangxi;;Guangxi;;;;;;;;;x
 CHI_1529;Hunan;Hunan;Hunan;;Hunán;;;;;;;;;x
 CHI_1499;Guangdong;Kwangtung;Guangdong;;Guangdong;;;;;;;;;x
-GXI;Guangxi Clique;Clique de Guangxi;Guangxi-Clique;;Camarilla Guangxi;;;;;;;;;x
-GXI_ADJ;Guangxi;Kwangsi;Guangxi;;Guangxi;;;;;;;;;x
 GXI_reactionary;Rongting Faction;Faction Rongting;Rongting-Fraktion;;Facción Rongting;;;;;;;;;x
 GXI_socialist;Socialist Party;Parti socialiste;Sozialistische Partei;;Partido Socialista;;;;;;;;;x
 GXI_communist;Chinese Communist Party;Parti communiste chinois;Kommunistische Partei China;;Partido Comunista Chino;;;;;;;;;x
@@ -439,8 +437,6 @@ SXI_fascist;Fascist Party;Parti fasciste;Faschistische Partei;;Partido Fascista;
 SXI_anarcho_liberal;Freedom Party;Parti de la liberté;Freiheitspartei;;Partido Libertario;;;;;;;;;x
 REAL_DEMAND;Real Demand: $VAL$;Demande réelle : $VAL$;Tatsächliche Nachfrage: $VAL$;;Demanda real: $VAL$;;;;;;;;;x
 CHI_1601;Yunnan;Yunnan;Yunnan;;Yunnan;;;;;;;;;x
-YNN;National Protection Army;Clique de Yunnan;Yunnan-Clique;;Camarilla Yunnan;;;;;;;;;x
-YNN_ADJ;N.P.A.;Yunnan;Yunnan;;yunnana;;;;;;;;;x
 YNN_reactionary;Cai E's Faction;Faction Cai E's;Cai Es Fraktion;;Facción Cai E's;;;;;;;;;x
 YNN_socialist;Socialist Party;Parti socialiste;Sozialistische Partei;;Partido Socialista;;;;;;;;;x
 YNN_communist;Chinese Communist Party;Parti communiste chinois;Kommunistische Partei China;;Partido Comunista Chino;;;;;;;;;x
@@ -451,8 +447,6 @@ YNN_anarcho_liberal;Freedom Party;Parti de la liberté;Freiheitspartei;;Partido L
 CHI_1557;Qinghai;Tsinghai;Qinghai;;Qinghai;;;;;;;;;x
 CHI_1490;Gansu;Kansuh;Gansu;;Gansu;;;;;;;;;x
 CHI_2062;Ningxia;Ningxia;Ningxia;;Ningxia;;;;;;;;;x
-XBI;Xibei San Ma;Xibei San Ma;Xibei San Ma;;Xibei San Ma;;;;;;;;;x
-XBI_ADJ;Ma;Ma;Ma;;Ma;;;;;;;;;x
 XBI_reactionary;Ma Family;Famille Ma;Ma-Familie;;Familia Ma;;;;;;;;;x
 XBI_socialist;Socialist Party;Parti socialiste;Sozialistische Partei;;Partido Socialista;;;;;;;;;x
 XBI_communist;Chinese Communist Party;Parti communiste chinois;Kommunistische Partei China;;Partido Comunista Chino;;;;;;;;;x
@@ -461,8 +455,6 @@ XBI_conservative;Kuomintang Faction;Faction Kuomintang;Guomintang-Fraktion;;Facc
 XBI_fascist;Fascist Party;Parti fasciste;Faschistische Partei;;Partido Fascista;;;;;;;;;x
 XBI_anarcho_liberal;Freedom Party;Parti de la liberté;Freiheitspartei;;Partido Libertario;;;;;;;;;x
 CHI_1600;Xinjiang;Xinjiang;Xinjiang;;Xinjiang;;;;;;;;;x
-XIN;Uyghur Communal League;Clique de Xinjiang;Xinjiang-Clique;;Camarilla Xinjiang;;;;;;;;;x
-XIN_ADJ;Uyghur;Xinjiang;Xinjiang;;Xinjiang;;;;;;;;;x
 XIN_reactionary;Zenxin Faction;Faction de Zenxin;Zenxin-Fraktion;;Facción Zenxin;;;;;;;;;x
 XIN_socialist;Socialist Party;Parti socialiste;Sozialistische Partei;;Partido Socialista;;;;;;;;;x
 XIN_communist;Chinese Communist Party;Parti communiste chinois;Kommunistische Partei China;;Partido Comunista Chino;;;;;;;;;x

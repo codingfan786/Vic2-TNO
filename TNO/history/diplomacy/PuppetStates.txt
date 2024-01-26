@@ -54,9 +54,14 @@ substate = {
 	second = GRE
 	start_date = 1836.1.1
 }
-vassal = {
+substate = {
 	first = JAP
 	second = MCK
+	start_date = 1836.1.1
+}
+substate = {
+	first = JAP
+	second = GXI
 	start_date = 1836.1.1
 }
 vassal = {

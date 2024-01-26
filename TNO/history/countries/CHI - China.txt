@@ -5,8 +5,8 @@ religion = mahayana
 government = presidential_dictatorship
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.15
-non_state_culture_literacy = 0.08
+literacy = 0.05
+non_state_culture_literacy = 0.05
 civilized = no #blame this dogshit game and see the china setup decision
 
 prestige = 0

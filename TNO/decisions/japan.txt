@@ -1,4 +1,19 @@
 political_decisions = {
+	jap_annex_mck = {
+		picture = the_meiji_restoration
+		potential = {
+			tag = JAP
+			exists = MCK
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			is_our_vassal = MCK
+		}
+		effect = {
+			inherit = MCK
+		}
+	}
+
 	fund_ija = {
 		picture = switch_to_army_tech
 		potential = {

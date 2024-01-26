@@ -1,8 +1,6 @@
-owner = YNN
-controller = YNN
-add_core = YNN
-add_core = XBI
-
+owner = CH3
+controller = CH3
+add_core = CH3
 
 
 trade_goods = tea

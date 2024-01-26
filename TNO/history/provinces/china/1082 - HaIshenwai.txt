@@ -3,7 +3,7 @@ owner = JAP
 controller = JAP
 add_core = MCK
 
-
+naval_base = 1
 
 trade_goods = coal
 life_rating = 32

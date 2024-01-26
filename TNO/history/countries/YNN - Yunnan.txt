@@ -42,7 +42,7 @@ school_reforms = no_schools
 
 
 oob = "YNN_oob.txt"
-literacy = 0.20
+literacy = 0.1
 non_state_culture_literacy = 0.10
 
 

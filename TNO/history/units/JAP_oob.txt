@@ -41,6 +41,32 @@ XBI = {
 	value = -200
 	level = 0
 }
+CH6 = {
+	value = -200
+	level = 0
+}
+CH5 = {
+	value = -200
+	level = 0
+}
+CH4 = {
+	value = -200
+	level = 0
+}
+CH3 = {
+	value = -200
+	level = 0
+}
+CH2 = {
+	value = -200
+	level = 0
+}
+CH1 = {
+	level = 5
+}
+GXI = {
+	level = 5
+}
 
 EIC = {
 	value = 100

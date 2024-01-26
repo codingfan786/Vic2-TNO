@@ -163,15 +163,12 @@ political_decisions = {
 				}
 				reduce_pop = 0.35
 			}
-			add_country_modifier = {
-				name = CHI_mobnerf
-				duration = -1
-			}
+			#add_country_modifier = {
+			#	name = CHI_mobnerf
+			#	duration = -1
+			#}
 			set_country_flag = CHI_mobnerf
 			civilized = yes #necessary because if china is civilized in history files it is automatically a gp at select screen but not in game. breaks puppet status
-			#IET = {civilized = yes}
-			#IGY = {civilized = yes}
-			#IIS = {civilized = yes}
 		}
 	}
 
@@ -345,6 +342,7 @@ political_decisions = {
 			any_owned = {
 				any_pop = {
 					limit = {
+						NOT = {type = soldiers}
 						NOT = {type = craftsmen}
 					}
 					reduce_pop = 2
@@ -383,24 +381,6 @@ political_decisions = {
 						name = civil_unrest
 						duration = 7300
 					}
-				}
-			}
-
-			YNN = {
-				all_core = {
-					add_core = WCH
-				}
-			}
-
-			XBI = {
-				all_core = {
-					add_core = WCH
-				}
-			}
-
-			XIN = {
-				all_core = {
-					add_core = WCH
 				}
 			}
 
@@ -792,6 +772,12 @@ political_decisions = {
 				tag = OFN
 				tag = CBR
 				tag = ARG
+				tag = CH1
+				tag = CH2
+				tag = CH3
+				tag = CH4
+				tag = CH5
+				tag = CH6
 			}
 			civilized = no
 		}

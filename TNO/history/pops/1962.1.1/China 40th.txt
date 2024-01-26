@@ -1,0 +1,360 @@
+#Makhai (452000/113000 POPS)
+1556 = {
+	aristocrats = {
+		culture = tibetan
+		religion = gelugpa
+		size = 900
+	}
+
+	bureaucrats = {
+		culture = tibetan
+		religion = gelugpa
+		size = 87.5
+	}
+
+	officers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 150
+	}
+
+	clergymen = {
+		culture = tibetan
+		religion = gelugpa
+		size = 450
+	}
+
+	artisans = {
+		culture = tibetan
+		religion = gelugpa
+		size = 2275
+	}
+
+	soldiers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 462.5
+	}
+
+	farmers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 71100
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = sunni
+		size = 12.5
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = sunni
+		size = 12.5
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 30900
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = sunni
+		size = 62.5
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = sunni
+		size = 12.5
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = sunni
+		size = 900
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 175
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 87.5
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 450
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 87.5
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 38200
+	}
+
+	bureaucrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 12.5
+	}
+
+	officers = {
+		culture = beifaren
+		religion = mahayana
+		size = 12.5
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+}
+#Balekungomi (364000/91000 POPS)
+1557 = {
+	aristocrats = {
+		culture = tibetan
+		religion = gelugpa
+		size = 750
+	}
+
+	clergymen = {
+		culture = tibetan
+		religion = gelugpa
+		size = 375
+	}
+
+	artisans = {
+		culture = tibetan
+		religion = gelugpa
+		size = 1900
+	}
+
+	soldiers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 387.5
+	}
+
+	farmers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 34587.5
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = animist
+		size = 125
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = animist
+		size = 350
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = animist
+		size = 75
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = animist
+		size = 6375
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 10
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 10
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 25
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 5
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 450
+	}
+}
+#Kegudo (432000/108000 POPS)
+1558 = {
+	aristocrats = {
+		culture = tibetan
+		religion = gelugpa
+		size = 350
+	}
+
+	clergymen = {
+		culture = tibetan
+		religion = gelugpa
+		size = 200
+	}
+
+	artisans = {
+		culture = tibetan
+		religion = gelugpa
+		size = 950
+	}
+
+	soldiers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 200
+	}
+
+	farmers = {
+		culture = tibetan
+		religion = gelugpa
+		size = 57300
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = sunni
+		size = 112.5
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 62.5
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = sunni
+		size = 62.5
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 45462.5
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = animist
+		size = 275
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = animist
+		size = 62.5
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = animist
+		size = 5012.5
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 462.5
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 237.5
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 1175
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 237.5
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 71387.5
+	}
+}

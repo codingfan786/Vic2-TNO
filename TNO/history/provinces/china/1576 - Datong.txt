@@ -1,8 +1,6 @@
-owner = JAP
-controller = JAP
-add_core = CHI
-colonial = 2
-
+owner = CH4
+controller = CH4
+add_core = CH4
 
 
 trade_goods = timber

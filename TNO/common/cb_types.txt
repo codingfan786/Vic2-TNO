@@ -1216,7 +1216,7 @@ become_independent = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
-		NOT = {THIS = {tag = CHI}}
+		#NOT = {THIS = {tag = CHI}}
 		OR = {
 			FROM = { is_our_vassal = THIS }
 			war_with = THIS
