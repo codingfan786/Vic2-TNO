@@ -1,0 +1,839 @@
+political_decisions = {
+
+	change_national_value_on = {
+		alert = no
+		picture = national_value
+		potential = {
+			NOT = { tag = LCT }
+			NOT = {	has_country_flag = nv_change }
+			ai = no
+		}
+		
+		allow = {
+			NOT = {	has_country_modifier = national_confusion }
+			war = no
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = { set_country_flag = nv_change }
+		
+		ai_will_do = { 
+			factor = 0
+			
+			modifier = {
+				factor = 0
+				OR = {
+					is_culture_group = east_asian
+					substate_of = CHI
+				}
+			}
+		}
+	}
+
+	change_national_value_off = {
+		alert = no
+		picture = national_value
+		potential = {
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = { }
+		
+		effect = { clr_country_flag = nv_change }
+		
+		ai_will_do = { factor = 0 }
+	}
+
+	switch_to_diplomacy = {
+		picture = switch_to_diplomacy
+		potential = {
+			NOT = { nationalvalue = nv_diplomacy }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_diplomacy
+			add_country_modifier = {
+				name = national_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	switch_to_education = {
+		picture = switch_to_education
+		potential = {
+			NOT = { nationalvalue = nv_education }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_education
+			add_country_modifier = {
+				name = national_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+
+	switch_to_order = {
+		picture = switch_to_order
+		potential = {
+			NOT = { nationalvalue = nv_order }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_order
+			add_country_modifier = {
+				name = national_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	switch_to_production = {
+		picture = switch_to_productivity
+		potential = {
+			NOT = { nationalvalue = nv_productivity }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_productivity
+			add_country_modifier = {
+				name = national_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	switch_to_autocracy = {
+		picture = switch_to_autocracy
+		potential = {
+			NOT = { nationalvalue = nv_autocracy }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_autocracy
+			add_country_modifier = {
+				name = national_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	switch_to_equality = {
+		picture = switch_to_equality
+		potential = {
+			NOT = { nationalvalue = nv_equality }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_equality
+			add_country_modifier = {
+				name = national_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	switch_to_liberty = {
+		picture = switch_to_liberty
+		potential = {
+			NOT = { nationalvalue = nv_liberty }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_liberty
+			add_country_modifier = {
+				name = national_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+
+
+	change_tech_school_on = {
+		alert = no
+		picture = national_value
+		potential = {
+			NOT = {	has_country_flag = tech_school_change }
+			civilized = yes
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = academic_confusion }
+			war = no
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = { set_country_flag = tech_school_change }
+		
+		ai_will_do = { 
+			factor = 1
+			
+		}
+	}
+
+	change_tech_school_off = {
+		alert = no
+		picture = national_value
+		potential = {
+			has_country_flag = tech_school_change
+		}
+		
+		allow = { }
+		
+		effect = { clr_country_flag = tech_school_change }
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	switch_to_army_tech = {
+		alert = no
+		potential = {
+
+			has_country_flag = tech_school_change
+			NOT = { tech_school = army_tech_school }
+		}
+		allow = {
+			NOT = {
+				tech_school = prussian_tech_school
+				has_country_modifier = academic_confusion
+			}
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 5475
+			}
+			tech_school = army_tech_school
+			clr_country_flag = tech_school_change
+		}
+	}
+	switch_to_navy_tech = {
+		alert = no
+		potential = {
+			has_country_flag = tech_school_change
+			NOT = { tech_school = naval_tech_school }
+		}
+		allow = {
+			NOT = {
+				tech_school = prussian_tech_school
+				has_country_modifier = academic_confusion
+			}
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 5475
+			}
+			tech_school = naval_tech_school
+			clr_country_flag = tech_school_change
+		}
+	}
+	switch_to_culture_tech = {
+		alert = no
+		potential = {
+			has_country_flag = tech_school_change
+			NOT = { tech_school = culture_tech_school }
+		}
+		allow = {
+			NOT = {
+				tech_school = prussian_tech_school
+				has_country_modifier = academic_confusion
+			}
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 5475
+			}
+			tech_school = culture_tech_school
+			clr_country_flag = tech_school_change
+		}
+	}
+	switch_to_trade_tech = {
+		alert = no
+		potential = {
+			has_country_flag = tech_school_change
+			NOT = { tech_school = commerce_tech_school }
+		}
+		allow = {
+			NOT = {
+				tech_school = prussian_tech_school
+				has_country_modifier = academic_confusion
+			}
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 5475
+			}
+			tech_school = commerce_tech_school
+			clr_country_flag = tech_school_change
+		}
+	}
+	switch_to_industry_tech = {
+		alert = no
+		potential = {
+			has_country_flag = tech_school_change
+			NOT = { tech_school = industrial_tech_school }
+		}
+		allow = {
+			NOT = {
+				tech_school = prussian_tech_school
+				has_country_modifier = academic_confusion
+			}
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 5475
+			}
+			tech_school = industrial_tech_school
+			clr_country_flag = tech_school_change
+		}
+	}
+	switch_to_traditional_academic = {
+		alert = no
+		potential = {
+			has_country_flag = tech_school_change
+			NOT = { tech_school = traditional_academic }
+		}
+		
+		allow = {
+			NOT = {
+				has_country_modifier = academic_confusion
+			}
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 5475
+			}
+			tech_school = traditional_academic
+			clr_country_flag = tech_school_change
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+
+
+	show_util = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = {has_country_flag = show_util}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_country_flag = show_util
+		}
+	}
+
+	hide_util = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = show_util
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_country_flag = show_util
+		}
+	}
+
+	bureaucrats_fix = {
+        alert = no
+        potential = {
+            ai = no
+            NOT = { has_country_modifier = bureaucrats_fix_cooldown }
+            has_country_flag = show_util
+           
+        }
+        allow = {
+        }
+        effect = {
+            country_event = 40404040
+            add_country_modifier = {
+                name = bureaucrats_fix_cooldown
+                duration = 3650
+            }
+        }
+    }
+
+    will_receive = {
+		picture = grant
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			NOT = { has_country_flag = will_receive_grants }
+			}
+		
+		allow = { 
+			NOT = { has_country_flag = will_receive_grants } 
+			ai = no
+			}
+		effect = {
+			country_event = {id = 100000 days = 0}
+
+		}
+
+	}
+
+	will_give = {
+		picture = grant
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			NOT = { has_country_flag = will_give_grants }
+			}
+
+		allow = { NOT = { has_country_flag = will_give_grants } }
+		effect = {
+			set_country_flag = will_give_grants
+		}
+	}
+
+	will_not_give = {
+		picture = grant
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			has_country_flag = will_give_grants
+		}
+		
+		allow = { 
+			ai = no
+			has_country_flag = will_give_grants }
+		effect = {
+			clr_country_flag = will_give_grants 
+			}
+	}
+
+	show_transfer = {
+		picture = transfer
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			NOT = {has_country_flag = show_transfer}
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_country_flag = show_transfer
+		}
+	}
+
+	hide_transfer = {
+		picture = transfer
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			has_country_flag = show_transfer
+		}
+		allow = {
+			
+		}
+		effect = {
+			clr_country_flag = show_transfer
+		}
+	}
+
+	transfer_state = {
+		picture = transfer
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			has_country_flag = show_transfer
+		}
+		allow = {
+			
+		}
+		effect = {
+			any_country = {
+				limit = {
+					has_country_flag = allow_transfer
+					ai = no
+				}
+				country_event = 9999992
+			}
+		}
+	}
+
+	allow_transfer = {
+		picture = transfer
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			has_country_flag = show_transfer
+			NOT = {has_country_flag = allow_transfer}
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_country_flag = allow_transfer
+		}
+	}
+
+	deny_transfer = {
+		picture = transfer
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			has_country_flag = show_transfer
+			has_country_flag = allow_transfer
+		}
+		allow = {
+			
+		}
+		effect = {
+			clr_country_flag = allow_transfer
+		}
+	}
+
+	clear_all_marks = {
+		picture = transfer
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			has_country_flag = show_transfer
+		}
+		allow = {
+			any_owned_province = {
+				has_building = state_selector
+			}
+		}
+		effect = {
+			any_owned = {
+				state_selector =-3
+				state_deselector =-3
+			}
+		}
+	}
+	
+	list_transfer = {
+		picture = transfer
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			has_country_flag = show_transfer
+		}
+		allow = {
+			
+		}
+		effect = {
+			any_owned = {
+				limit={
+					has_building = state_selector
+				}
+				province_event ={id = 9999990} 
+			}
+		}
+	}
+
+	AOT_will_receive = {
+		picture = AOT
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			
+		}
+		
+		allow = { 
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					has_country_flag = AOT_will_give_grants
+					ai = no
+					NOT = {tag = THIS}
+				}
+				country_event = {id = 500074 days = 0}
+			}
+
+		}
+
+	}
+
+	AOT_will_give = {
+		picture = AOT
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			NOT = { has_country_flag = AOT_will_give_grants }
+		}
+
+		allow = { 
+			NOT = { has_country_flag = AOT_will_give_grants } 
+		}
+		effect = {
+			set_country_flag = AOT_will_give_grants
+		}
+	}
+
+
+	AOT_will_not_give = {
+		picture = AOT
+		alert = no
+		potential = {
+			has_country_flag = show_util
+			ai = no
+			has_country_flag = AOT_will_give_grants
+		}
+		
+		allow = { 
+			ai = no
+			has_country_flag = AOT_will_give_grants 
+		}
+		effect = {
+			clr_country_flag = AOT_will_give_grants 
+		}
+	}
+		
+	release_puppets = {
+		#picture = grant
+		alert = no
+		potential = {
+			OR = {
+				has_country_flag = show_util
+				NOT = {
+					any_greater_power  = {
+						NOT = {tag = THIS}
+						ai = no
+					}
+				}
+			}
+				
+			civilized = yes
+			ai = no
+			num_of_vassals_no_substates = 1
+		}
+		
+		allow = { 
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					vassal_of = THIS
+					NOT = {tag = CHI}
+				}
+				country_event = {id = 500213 days = 0}
+			}
+		}
+	}
+}
