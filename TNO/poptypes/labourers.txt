@@ -693,7 +693,7 @@ promote_to =
 	{
 		factor = 0.01
 		modifier = {
-			factor = -16
+			factor = -10 #was 16
 			location = {owner = {has_country_flag = CHI_mobnerf}}
 		}
 		group = {

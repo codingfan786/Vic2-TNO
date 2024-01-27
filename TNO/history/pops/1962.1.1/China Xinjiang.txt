@@ -3,43 +3,43 @@
 #Kashgar (268000/67000 POPS)
 1594 = {
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 7700
 	}
 
 	bureaucrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 1750
 	}
 
 	officers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 2275
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 3675
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 18200
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 3675
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 327425
 	}
@@ -107,31 +107,31 @@
 #Ili (168000/42000 POPS)
 1595 = {
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 4025
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 2100
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 10500
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 2100
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 61275
 	}
@@ -167,31 +167,31 @@
 	}
 
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 140
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 140
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 350
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 70
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 6300
 	}
@@ -229,31 +229,31 @@
 #Tulta (88000/22000 POPS)
 1596 = {
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 875
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 525
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 2450
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 525
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 44625
 	}
@@ -289,31 +289,31 @@
 	}
 
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 140
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 140
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 350
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 70
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 6300
 	}
@@ -351,31 +351,31 @@
 #Aksu (192000/48000 POPS)
 1597 = {
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 6650
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 3500
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 16800
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 3500
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 105550
 	}
@@ -383,31 +383,31 @@
 #Khotan (88000/22000 POPS)
 1598 = {
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 2975
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 1575
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 7700
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 1575
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 140175
 	}
@@ -415,85 +415,85 @@
 #Kumul (188000/47000 POPS)
 1599 = {
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 5950
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 2975
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 15050
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 2975
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 274400
 	}
 
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 350
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 525
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 1050
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 175
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 18900
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = mahayana
 		size = 175
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = mahayana
 		size = 350
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = mahayana
 		size = 175
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = mahayana
 		size = 6300
 	}
@@ -501,91 +501,91 @@
 #Urumqi (332000/83000 POPS)
 1600 = {
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 8400
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 4200
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 23100
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 4725
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 421575
 	}
 
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 875
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 525
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 2800
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 525
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 51275
 	}
 
 	bureaucrats = {
-		culture = beifaren
+		culture = yakut
 		religion = mahayana
 		size = 350
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = mahayana
 		size = 350
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = mahayana
 		size = 1050
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = mahayana
 		size = 350
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = mahayana
 		size = 19250
 	}
@@ -653,31 +653,31 @@
 #Lopnur (32000/8000 POPS)
 2607 = {
 	aristocrats = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 525
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 350
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 1750
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 350
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = yakut
 		religion = sunni
 		size = 32025
 	}

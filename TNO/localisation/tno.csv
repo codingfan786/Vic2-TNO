@@ -344,8 +344,8 @@ jap_declare_gaw_title;Military occupation of China.;;;;;;;;;;;;x
 jap_declare_gaw_desc;The Japanese industry desparately needs the resources available by direct occupation of China. An escalation of the current client state system into a full occupation will also please the militant political factions who see China as a potential threat of rebellion. §R It is very unlikely for the remaining Chinese nationalists to accept this without a fight.;;;;;;;;;;;;x
 jap_gut_cja_title;Purge the Colonial Japanese Army of Chinese elements.;;;;;;;;;;;;x
 jap_gut_cja_desc;After the occupation of China in World War 2 many of the former Chinese warlords and their armies were integrated into the C.J.A. with monetary promises. In the outbreak of a full scale rebellion it is unlikely that monetary reward will keep them loyal. A purge of Chinese soldiers is a necessary security measure. §R This will prevent any noncoastal Chinese cores from seceding in the case of a Chinese rebellion.;;;;;;;;;;;;x
-jap_annex_mck_title;Integrate the Manchurian military regime.;;;;;;;;;;;;x
-jap_annex_mck_desc;The Manchurian regime has served its purpose for far too long. We should fully integrate them.;;;;;;;;;;;;x
+jap_annex_mck_title;Integrate the Chinese Occupations.;;;;;;;;;;;;x
+jap_annex_mck_desc;The Chinese Occupations have served their purpose for far too long. We should fully integrate them.;;;;;;;;;;;;x
 polish_israel_title;Welcome the Polish Refugees.;;;;;;;;;;;;x
 polish_israel_desc;The only reasonable solution to the present Polish refugee crisis is to accept them and any consequences they may bring. §R The other Turkic Soviet states may not be so receptive. This decision also gives you a sizable number of Polish immigrants;;;;;;;;;;;;x
 polish_news;News from the Kazakh steppes rarely reaches the international community, and that which does usually leaves more questions than answers. The state of 'Nowa Polska', a current refuge for Polish exiles from the Reich, has established full military control over Kazakhstan in an attempt to provide a new homeland for the Polish people.;;;;;;;;;;;;x
@@ -927,3 +927,11 @@ chi_go_west_desc;The Western Frontier is constantly being encroached upon by the
 start_gaw_desc;All available preparations have been made. Armies have been raised and uprisings readied to strike. Now is the time to unify China!;x
 annex_onega_title;Integrate the Onega garrison;x
 annex_onega_desc;The Onega garrison has served its purpose in defending Finland from the Russian hordes. Now it is time for it to be part of Finland proper. §RKeep in mind that the Onega garrison has events to keep forts in Onega 1 level above Finland's fort tech.;x
+strat_mob;Strategic Mobility;x
+strat_mob_desc; ;x
+finish_gaw_title;Peace in Asia!;x
+ynn_to_manchu_title;Reclaim the Last Pieces!;x
+chi_to_wester_title;Clean out the Steppes!;x
+finish_gaw_desc;Now that we've defeated our enemies we can proclaim ourselves as the legitimate government of China!;x
+ynn_to_manchu_desc;Although we've defeated the traitors in Nanjing, Japan still holds Manchuria and our coast! We must drive them out and unify all of China!;x
+chi_to_wester_desc;Although we've defeated the rebels in Yunnan, some separatist holdouts remain in the far western reaches of the steppes and the mountains of Tibet.;x

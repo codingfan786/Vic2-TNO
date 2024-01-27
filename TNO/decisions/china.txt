@@ -90,7 +90,7 @@ political_decisions = {
 		}
 		allow = {
 			war = no
-			year = 1964
+			year = 1963
 		}
 		effect = {
 			set_country_flag = china_freed
@@ -158,4 +158,129 @@ political_decisions = {
 		}
 	}
 
+	finish_gaw = {
+		picture = peking_convention
+		potential = {
+			NOT = {has_country_flag = unified_china}
+			OR = {
+				AND = {
+					tag = CHI
+					NOT = {exists = YNN}
+				}
+				AND = {
+					tag = YNN
+					NOT = {exists = CHI}
+				}
+			}
+		}
+		allow = {
+
+		}
+		effect = {
+			set_country_flag = unified_china
+			any_country = {
+				limit = {
+					NOT = {tag = THIS}
+					tag = YNN
+				}
+				all_core = {
+					add_core = THIS
+					remove_core = YNN
+				}
+			}
+			any_country = {
+				limit = {
+					NOT = {tag = THIS}
+					tag = CHI
+				}
+				all_core = {
+					add_core = THIS
+					remove_core = CHI
+				}
+			}
+		}
+	}
+
+	ynn_to_manchu = {
+		picture = peking_convention
+		potential = {
+			tag = YNN
+			has_country_flag = unified_china
+			NOT = {accepted_culture = manchu}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			MCK = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			GXI = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = manchu
+		}
+	}
+
+	chi_to_wester = {
+		picture = peking_convention
+		potential = {
+			tag = CHI
+			has_country_flag = unified_china
+			NOT = {accepted_culture = tibetan}
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			TIB = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			XIN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = tibetan
+			add_accepted_culture = yakut
+		}
+	}
+
+	chi_neutrality = {
+		potential ={
+			exists = yes
+			OR = {
+				tag = CH1
+				tag = CH2
+				tag = CH3
+				tag = CH4
+				tag = CH5
+				tag = CH6
+				tag = XBI
+			}
+			ai = yes
+		}
+		allow = {
+			OR = {
+				alliance_with = JAP
+				alliance_with = CHI
+				alliance_with = AHG
+				alliance_with = HND
+				alliance_with = HD2
+			}
+		}
+		effect = {
+			leave_alliance = JAP
+			leave_alliance = CHI
+			leave_alliance = AHG
+			leave_alliance = HND
+			leave_alliance = HD2
+		}	
+	}
 }

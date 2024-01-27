@@ -168,8 +168,21 @@ political_decisions = {
 			#	duration = -1
 			#}
 			set_country_flag = CHI_mobnerf
-			YNN = {set_country_flag = npa_border_wars}
+			YNN = {
+				set_country_flag = npa_border_wars 
+				set_country_flag = yunnan_yarrr
+			}
 			civilized = yes #necessary because if china is civilized in history files it is automatically a gp at select screen but not in game. breaks puppet status
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {ai = yes}
+				}
+				owner = {
+					activate_technology = flintlock_rifles
+					activate_technology = army_command_principle
+				}
+			}
 		}
 	}
 
