@@ -1,5 +1,12 @@
 alliance=
 	{
+		first="JAP"
+		second="AHG"
+		start_date="1962.1.1"
+	}
+
+alliance=
+	{
 		first="PER"
 		second="IRQ"
 		start_date="1962.1.1"

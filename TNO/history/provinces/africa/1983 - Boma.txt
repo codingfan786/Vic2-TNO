@@ -2,6 +2,5 @@ trade_goods = timber
 life_rating = 15
 owner = WGA
 controller = WGA
+add_core = WGA
 add_core = CNG
-colonial = 2
-naval_base = 1

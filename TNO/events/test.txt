@@ -1,0 +1,67 @@
+country_event = {
+	id = 1534262634
+	title = " a"
+	desc = " a"
+
+	is_triggered_only = yes
+
+	immediate = {
+				any_owned = {
+					limit = {
+						continent = europe
+					}
+					secede_province = GER
+				}
+				any_owned = {
+					limit = {
+						continent = asia
+					}
+					secede_province = JAP
+				}
+				any_owned = {
+					limit = {
+						continent = middle_east
+					}
+					secede_province = ISR
+				}
+				any_owned = {
+					limit = {
+						continent = central_asia
+					}
+					secede_province = HND
+				}
+				any_owned = {
+					limit = {
+						continent = africa
+					}
+					secede_province = SAF
+				}
+				any_owned = {
+					limit = {
+						continent = north_america
+					}
+					secede_province = USA
+				}
+				any_owned = {
+					limit = {
+						continent = south_america
+					}
+					secede_province = BRZ
+				}
+				any_owned = {
+					limit = {
+						continent = oceania
+					}
+					secede_province = NZL
+				}
+				any_owned = {
+					limit = {
+						continent = russia_anarchy
+					}
+					secede_province = RAR
+				}
+	}
+	option = {
+		name = "a"
+	}
+}

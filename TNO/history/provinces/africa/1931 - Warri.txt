@@ -1,5 +1,5 @@
 #trade_goods = rubber
-trade_good = iron
+trade_goods = iron
 life_rating = 15
 add_core = NGA
 owner = CAR

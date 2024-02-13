@@ -6,4 +6,4 @@ naval_base = 2
 fort = 2
 trade_goods = fish
 railroad = 2
-#terrain = forest
+terrain = forest

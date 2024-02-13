@@ -1,0 +1,3204 @@
+#have decision give a popup major event to the taker and the ultimatum to the others
+
+country_event = {
+	#ultimatum refusal
+	id = 500246
+	title = "Nuclear Ultimatum Refused!"
+	desc = "event500246desc"
+
+	is_triggered_only = yes
+
+	immediate = {
+		add_country_modifier = {
+			name = nuclear_countdown
+			duration = 180
+		}
+		add_country_modifier = {
+			name = nuclear_threat
+			duration = 270
+		}
+		set_country_flag = trying_to_nuke
+	}
+
+	option = {
+		name = "The horror!"
+	}
+}
+
+country_event = {
+	#launch event
+	id = 500244
+	title = "Nuclear Launch!"
+	desc = "event500244desc"
+
+	major = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		has_country_flag = trying_to_nuke
+		NOT = {has_country_flag = german_nuke}
+		NOT = {has_country_modifier = nuclear_countdown}
+		NOT = {has_global_flag = nuke_in_progress}
+		war = yes
+	}
+
+	immediate = {
+		set_global_flag = nuke_in_progress
+		clr_country_flag = trying_to_nuke
+
+		#owned nuke finder
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+				}
+			}
+			set_global_flag = hit_global_nukes
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = europe
+					}
+				}
+			}
+			set_global_flag = primary_europe
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = asia
+					}
+				}
+			}
+			set_global_flag = primary_asia
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = middle_east
+					}
+				}
+			}
+			set_global_flag = primary_middle_east
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = central_asia
+					}
+				}
+			}
+			set_global_flag = primary_central_asia
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = africa
+					}
+				}
+			}
+			set_global_flag = primary_africa
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = north_america
+					}
+				}
+			}
+			set_global_flag = primary_north_america
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = south_america
+					}
+				}
+			}
+			set_global_flag = primary_south_america
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = oceania
+					}
+				}
+			}
+			set_global_flag = primary_oceania
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = russia_anarchy
+					}
+				}
+			}
+			set_global_flag = primary_russia_anarchy
+		}
+
+		#primary_nuke finder
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = europe
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_europe
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = asia
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_asia
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = middle_east
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_middle_east
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = central_asia
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_central_asia
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = africa
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_africa
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = north_america
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_north_america
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = south_america
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_south_america
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = oceania
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_oceania
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = russia_anarchy
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_russia_anarchy
+		}
+
+		#secondary_nukes finder
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = europe
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_europe
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = asia
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_asia
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = middle_east
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_middle_east
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = central_asia
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_central_asia
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = africa
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_africa
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = north_america
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_north_america
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = south_america
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_south_america
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = oceania
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_oceania
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = russia_anarchy
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_russia_anarchy
+		}
+
+		#enemy sphere finder
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				war_with = THIS
+				NOT = {tag = REB}
+			}
+			set_country_flag = enemy_leader
+		}
+		any_country = {
+			limit = {
+				is_greater_power = no
+				part_of_sphere = yes
+				war_with = THIS
+				NOT = {sphere_owner = {tag = REB}}
+			}
+			sphere_owner = {set_country_flag = enemy_leader}
+		}
+		any_country = {
+			limit = {
+				part_of_sphere = yes
+				sphere_owner = {has_country_flag = enemy_leader}
+			}
+			set_country_flag = enemy_sphere
+		}
+		any_country = {
+			limit = {
+				is_greater_power = no
+				part_of_sphere = no
+				war_with = THIS
+				NOT = {tag = REB}
+			}
+			set_country_flag = enemy_solo
+		}
+
+		#nuking effect
+		any_country = {
+			limit = {
+				OR = {
+					has_country_flag = enemy_leader
+					has_country_flag = enemy_sphere
+					has_country_flag = enemy_solo
+				}
+			}
+
+			#global nuke
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_light_2
+					has_global_flag = hit_global_nukes
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_3
+				remove_province_modifier = nuke_light_2
+				add_province_modifier = {
+					name = nuke_light_3
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = nuke_light_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_light_1
+					has_global_flag = hit_global_nukes
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_2
+				add_province_modifier = {
+					name = nuke_light_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_global_flag = hit_global_nukes
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_1
+				add_province_modifier = {
+					name = nuke_light_1
+					duration = 3650
+				}
+			}
+
+			#primary same continent
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_heavy_2
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = primary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = primary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = primary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = primary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = primary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = primary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = primary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = primary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = primary_russia_anarchy
+						}
+					}
+				}
+				#nuke heavy
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_heavy_3
+				remove_province_modifier = nuke_heavy_2
+				add_province_modifier = {
+					name = nuke_heavy_3
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = nuke_heavy_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_heavy_1
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = primary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = primary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = primary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = primary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = primary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = primary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = primary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = primary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = primary_russia_anarchy
+						}
+					}
+				}
+				#nuke heavy
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_heavy_2
+				add_province_modifier = {
+					name = nuke_heavy_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = primary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = primary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = primary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = primary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = primary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = primary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = primary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = primary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = primary_russia_anarchy
+						}
+					}
+				}
+				#nuke heavy
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_heavy_1
+				add_province_modifier = {
+					name = nuke_heavy_1
+					duration = 3650
+				}
+			}
+
+			#primary neighboring continent
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_medium_2
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = primary_europe}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_africa
+								has_global_flag = primary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = primary_asia}
+							OR = {
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_oceania
+								has_global_flag = primary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = primary_middle_east}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_africa
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = primary_central_asia}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = primary_africa}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = primary_north_america}
+							OR = {
+								has_global_flag = primary_south_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = primary_south_america}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = primary_oceania}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_south_america
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = primary_russia_anarchy}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_asia
+								has_global_flag = primary_europe
+							}
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_3
+				remove_province_modifier = nuke_medium_2
+				add_province_modifier = {
+					name = nuke_medium_3
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = nuke_medium_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_medium_1
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = primary_europe}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_africa
+								has_global_flag = primary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = primary_asia}
+							OR = {
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_oceania
+								has_global_flag = primary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = primary_middle_east}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_africa
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = primary_central_asia}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = primary_africa}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = primary_north_america}
+							OR = {
+								has_global_flag = primary_south_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = primary_south_america}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = primary_oceania}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_south_america
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = primary_russia_anarchy}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_asia
+								has_global_flag = primary_europe
+							}
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_2
+				add_province_modifier = {
+					name = nuke_medium_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = primary_europe}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_africa
+								has_global_flag = primary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = primary_asia}
+							OR = {
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_oceania
+								has_global_flag = primary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = primary_middle_east}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_africa
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = primary_central_asia}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = primary_africa}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = primary_north_america}
+							OR = {
+								has_global_flag = primary_south_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = primary_south_america}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = primary_oceania}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_south_america
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = primary_russia_anarchy}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_asia
+								has_global_flag = primary_europe
+							}
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_1
+				add_province_modifier = {
+					name = nuke_medium_1
+					duration = 3650
+				}
+			}
+
+			#secondary same continent
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_medium_2
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = secondary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = secondary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = secondary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = secondary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = secondary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = secondary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = secondary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = secondary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = secondary_russia_anarchy
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_3
+				remove_province_modifier = nuke_medium_2
+				add_province_modifier = {
+					name = nuke_medium_3
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = nuke_medium_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_medium_1
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = secondary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = secondary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = secondary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = secondary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = secondary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = secondary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = secondary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = secondary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = secondary_russia_anarchy
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_2
+				add_province_modifier = {
+					name = nuke_medium_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = secondary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = secondary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = secondary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = secondary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = secondary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = secondary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = secondary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = secondary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = secondary_russia_anarchy
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_1
+				add_province_modifier = {
+					name = nuke_medium_1
+					duration = 3650
+				}
+			}
+
+			#secondary neighboring continent
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_light_2
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = secondary_europe}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = secondary_asia}
+							OR = {
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_oceania
+								has_global_flag = secondary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = secondary_middle_east}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = secondary_central_asia}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = secondary_africa}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = secondary_north_america}
+							OR = {
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = secondary_south_america}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = secondary_oceania}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = secondary_russia_anarchy}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_asia
+								has_global_flag = secondary_europe
+							}
+						}
+					}
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_3
+				remove_province_modifier = nuke_light_2
+				add_province_modifier = {
+					name = nuke_light_3
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = nuke_light_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_light_1
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = secondary_europe}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = secondary_asia}
+							OR = {
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_oceania
+								has_global_flag = secondary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = secondary_middle_east}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = secondary_central_asia}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = secondary_africa}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = secondary_north_america}
+							OR = {
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = secondary_south_america}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = secondary_oceania}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = secondary_russia_anarchy}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_asia
+								has_global_flag = secondary_europe
+							}
+						}
+					}
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_2
+				add_province_modifier = {
+					name = nuke_light_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = secondary_europe}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = secondary_asia}
+							OR = {
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_oceania
+								has_global_flag = secondary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = secondary_middle_east}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = secondary_central_asia}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = secondary_africa}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = secondary_north_america}
+							OR = {
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = secondary_south_america}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = secondary_oceania}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = secondary_russia_anarchy}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_asia
+								has_global_flag = secondary_europe
+							}
+						}
+					}
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_1
+				add_province_modifier = {
+					name = nuke_light_1
+					duration = 3650
+				}
+			}
+		}
+
+		clr_global_flag = primary_europe
+		clr_global_flag = primary_asia
+		clr_global_flag = primary_middle_east
+		clr_global_flag = primary_central_asia
+		clr_global_flag = primary_africa
+		clr_global_flag = primary_north_america
+		clr_global_flag = primary_south_america
+		clr_global_flag = primary_oceania
+		clr_global_flag = primary_russia_anarchy
+
+		clr_global_flag = secondary_europe
+		clr_global_flag = secondary_asia
+		clr_global_flag = secondary_middle_east
+		clr_global_flag = secondary_central_asia
+		clr_global_flag = secondary_africa
+		clr_global_flag = secondary_north_america
+		clr_global_flag = secondary_south_america
+		clr_global_flag = secondary_oceania
+		clr_global_flag = secondary_russia_anarchy
+
+		clr_global_flag = hit_global_nukes
+
+		any_country = {
+			limit = {
+				has_country_flag = enemy_leader
+			}
+			set_country_flag = response_leader
+			clr_country_flag = enemy_leader
+		}
+		any_country = {
+			limit = {
+				has_country_flag = enemy_sphere
+			}
+			clr_country_flag = enemy_sphere
+		}
+		any_country = {
+			limit = {
+				has_country_flag = enemy_solo
+			}
+			set_country_flag = response_solo
+			clr_country_flag = enemy_solo
+		}
+
+		any_country = {
+			limit = {has_country_flag = response_leader NOT = {tag = REB}}
+			clr_country_flag = response_leader
+			country_event = 500245
+		}
+
+		any_country = {
+			limit = {has_country_flag = response_solo NOT = {tag = REB}}
+			clr_country_flag = response_solo
+			country_event = 500245
+		}
+	}
+
+	option = {
+		name = "The horror!"
+	}
+}
+
+country_event = {
+	#response event
+	id = 500245
+	title = "Nuclear Launch Detected!"
+	desc = "event500245desc"
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	immediate = {
+		clr_global_flag = nuke_in_progress
+
+		#owned nuke finder
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+				}
+			}
+			set_global_flag = hit_global_nukes
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = europe
+					}
+				}
+			}
+			set_global_flag = primary_europe
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = asia
+					}
+				}
+			}
+			set_global_flag = primary_asia
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = middle_east
+					}
+				}
+			}
+			set_global_flag = primary_middle_east
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = central_asia
+					}
+				}
+			}
+			set_global_flag = primary_central_asia
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = africa
+					}
+				}
+			}
+			set_global_flag = primary_africa
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = north_america
+					}
+				}
+			}
+			set_global_flag = primary_north_america
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = south_america
+					}
+				}
+			}
+			set_global_flag = primary_south_america
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = oceania
+					}
+				}
+			}
+			set_global_flag = primary_oceania
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+					NOT = {national_provinces_occupied = 0.5}
+					any_owned_province = {
+						continent = russia_anarchy
+					}
+				}
+			}
+			set_global_flag = primary_russia_anarchy
+		}
+
+		#primary_nuke finder
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = europe
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_europe
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = asia
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_asia
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = middle_east
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_middle_east
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = central_asia
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_central_asia
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = africa
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_africa
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = north_america
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_north_america
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = south_america
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_south_america
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = oceania
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_oceania
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = russia_anarchy
+				}
+				has_country_flag = primary_nukes
+			}
+			set_global_flag = primary_russia_anarchy
+		}
+
+		#secondary_nukes finder
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = europe
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_europe
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = asia
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_asia
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = middle_east
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_middle_east
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = central_asia
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_central_asia
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = africa
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_africa
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = north_america
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_north_america
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = south_america
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_south_america
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = oceania
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_oceania
+		}
+		any_country = {
+			limit = {
+				NOT = {national_provinces_occupied = 0.5}
+				OR = {
+					in_sphere = THIS
+					tag = THIS
+				}
+				any_owned_province = {
+					continent = russia_anarchy
+				}
+				has_country_flag = secondary_nukes
+			}
+			set_global_flag = secondary_russia_anarchy
+		}
+
+		#enemy sphere finder
+		FROM = {
+			set_country_flag = enemy_leader
+		}
+		any_country = {
+			limit = {
+				NOT = {has_country_flag = enemy_leader}
+				part_of_sphere = yes
+				sphere_owner = {has_country_flag = enemy_leader}
+			}
+			set_country_flag = enemy_sphere
+		}
+
+		#nuking effect
+		any_country = {
+			limit = {
+				OR = {
+					has_country_flag = enemy_leader
+					has_country_flag = enemy_sphere
+				}
+			}
+
+			#global nuke
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_light_2
+					has_global_flag = hit_global_nukes
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_3
+				remove_province_modifier = nuke_light_2
+				add_province_modifier = {
+					name = nuke_light_3
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = nuke_light_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_light_1
+					has_global_flag = hit_global_nukes
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_2
+				add_province_modifier = {
+					name = nuke_light_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_global_flag = hit_global_nukes
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_1
+				add_province_modifier = {
+					name = nuke_light_1
+					duration = 3650
+				}
+			}
+
+			#primary same continent
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_heavy_2
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = primary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = primary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = primary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = primary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = primary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = primary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = primary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = primary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = primary_russia_anarchy
+						}
+					}
+				}
+				#nuke heavy
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_heavy_3
+				remove_province_modifier = nuke_heavy_2
+				add_province_modifier = {
+					name = nuke_heavy_3
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = nuke_heavy_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_heavy_1
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = primary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = primary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = primary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = primary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = primary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = primary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = primary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = primary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = primary_russia_anarchy
+						}
+					}
+				}
+				#nuke heavy
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_heavy_2
+				add_province_modifier = {
+					name = nuke_heavy_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = primary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = primary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = primary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = primary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = primary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = primary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = primary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = primary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = primary_russia_anarchy
+						}
+					}
+				}
+				#nuke heavy
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_heavy_1
+				add_province_modifier = {
+					name = nuke_heavy_1
+					duration = 3650
+				}
+			}
+
+			#primary neighboring continent
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_medium_2
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = primary_europe}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_africa
+								has_global_flag = primary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = primary_asia}
+							OR = {
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_oceania
+								has_global_flag = primary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = primary_middle_east}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_africa
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = primary_central_asia}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = primary_africa}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = primary_north_america}
+							OR = {
+								has_global_flag = primary_south_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = primary_south_america}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = primary_oceania}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_south_america
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = primary_russia_anarchy}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_asia
+								has_global_flag = primary_europe
+							}
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_3
+				remove_province_modifier = nuke_medium_2
+				add_province_modifier = {
+					name = nuke_medium_3
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = nuke_medium_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_medium_1
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = primary_europe}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_africa
+								has_global_flag = primary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = primary_asia}
+							OR = {
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_oceania
+								has_global_flag = primary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = primary_middle_east}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_africa
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = primary_central_asia}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = primary_africa}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = primary_north_america}
+							OR = {
+								has_global_flag = primary_south_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = primary_south_america}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = primary_oceania}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_south_america
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = primary_russia_anarchy}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_asia
+								has_global_flag = primary_europe
+							}
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_2
+				add_province_modifier = {
+					name = nuke_medium_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = primary_europe}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_africa
+								has_global_flag = primary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = primary_asia}
+							OR = {
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_oceania
+								has_global_flag = primary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = primary_middle_east}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_africa
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = primary_central_asia}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_russia_anarchy
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = primary_africa}
+							OR = {
+								has_global_flag = primary_middle_east
+								has_global_flag = primary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = primary_north_america}
+							OR = {
+								has_global_flag = primary_south_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = primary_south_america}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = primary_oceania}
+							OR = {
+								has_global_flag = primary_north_america
+								has_global_flag = primary_south_america
+								has_global_flag = primary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = primary_russia_anarchy}
+							OR = {
+								has_global_flag = primary_central_asia
+								has_global_flag = primary_asia
+								has_global_flag = primary_europe
+							}
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_1
+				add_province_modifier = {
+					name = nuke_medium_1
+					duration = 3650
+				}
+			}
+
+			#secondary same continent
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_medium_2
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = secondary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = secondary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = secondary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = secondary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = secondary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = secondary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = secondary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = secondary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = secondary_russia_anarchy
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_3
+				remove_province_modifier = nuke_medium_2
+				add_province_modifier = {
+					name = nuke_medium_3
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = nuke_medium_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_medium_1
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = secondary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = secondary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = secondary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = secondary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = secondary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = secondary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = secondary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = secondary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = secondary_russia_anarchy
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_2
+				add_province_modifier = {
+					name = nuke_medium_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					OR = {
+						AND = {
+							continent = europe
+							has_global_flag = secondary_europe
+						}
+						AND = {
+							continent = asia
+							has_global_flag = secondary_asia
+						}
+						AND = {
+							continent = middle_east
+							has_global_flag = secondary_middle_east
+						}
+						AND = {
+							continent = central_asia
+							has_global_flag = secondary_central_asia
+						}
+						AND = {
+							continent = africa
+							has_global_flag = secondary_africa
+						}
+						AND = {
+							continent = north_america
+							has_global_flag = secondary_north_america
+						}
+						AND = {
+							continent = south_america
+							has_global_flag = secondary_south_america
+						}
+						AND = {
+							continent = oceania
+							has_global_flag = secondary_oceania
+						}
+						AND = {
+							continent = russia_anarchy
+							has_global_flag = secondary_russia_anarchy
+						}
+					}
+				}
+				#nuke medium
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_medium_1
+				add_province_modifier = {
+					name = nuke_medium_1
+					duration = 3650
+				}
+			}
+
+			#secondary neighboring continent
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_light_2
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = secondary_europe}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = secondary_asia}
+							OR = {
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_oceania
+								has_global_flag = secondary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = secondary_middle_east}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = secondary_central_asia}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = secondary_africa}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = secondary_north_america}
+							OR = {
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = secondary_south_america}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = secondary_oceania}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = secondary_russia_anarchy}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_asia
+								has_global_flag = secondary_europe
+							}
+						}
+					}
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_3
+				remove_province_modifier = nuke_light_2
+				add_province_modifier = {
+					name = nuke_light_3
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = nuke_light_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					has_province_modifier = nuke_light_1
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = secondary_europe}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = secondary_asia}
+							OR = {
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_oceania
+								has_global_flag = secondary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = secondary_middle_east}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = secondary_central_asia}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = secondary_africa}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = secondary_north_america}
+							OR = {
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = secondary_south_america}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = secondary_oceania}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = secondary_russia_anarchy}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_asia
+								has_global_flag = secondary_europe
+							}
+						}
+					}
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_2
+				add_province_modifier = {
+					name = nuke_light_2
+					duration = 3650
+				}
+			}
+			any_owned = {
+				limit = {
+					total_pops = 100000
+					OR = {
+						AND = {
+							continent = europe
+							NOT = {has_global_flag = secondary_europe}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_russia_anarchy
+							}
+						}
+						AND = {
+							continent = asia
+							NOT = {has_global_flag = secondary_asia}
+							OR = {
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_oceania
+								has_global_flag = secondary_central_asia
+							}
+						}
+						AND = {
+							continent = middle_east
+							NOT = {has_global_flag = secondary_middle_east}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_africa
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = central_asia
+							NOT = {has_global_flag = secondary_central_asia}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_russia_anarchy
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = africa
+							NOT = {has_global_flag = secondary_africa}
+							OR = {
+								has_global_flag = secondary_middle_east
+								has_global_flag = secondary_europe
+							}
+						}
+						AND = {
+							continent = north_america
+							NOT = {has_global_flag = secondary_north_america}
+							OR = {
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = south_america
+							NOT = {has_global_flag = secondary_south_america}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_oceania
+							}
+						}
+						AND = {
+							continent = oceania
+							NOT = {has_global_flag = secondary_oceania}
+							OR = {
+								has_global_flag = secondary_north_america
+								has_global_flag = secondary_south_america
+								has_global_flag = secondary_asia
+							}
+						}
+						AND = {
+							continent = russia_anarchy
+							NOT = {has_global_flag = secondary_russia_anarchy}
+							OR = {
+								has_global_flag = secondary_central_asia
+								has_global_flag = secondary_asia
+								has_global_flag = secondary_europe
+							}
+						}
+					}
+				}
+				#nuke light
+				set_province_flag = disease
+
+				remove_province_modifier = nuke_light_1
+				add_province_modifier = {
+					name = nuke_light_1
+					duration = 3650
+				}
+			}
+		}
+
+		clr_global_flag = primary_europe
+		clr_global_flag = primary_asia
+		clr_global_flag = primary_middle_east
+		clr_global_flag = primary_central_asia
+		clr_global_flag = primary_africa
+		clr_global_flag = primary_north_america
+		clr_global_flag = primary_south_america
+		clr_global_flag = primary_oceania
+		clr_global_flag = primary_russia_anarchy
+
+		clr_global_flag = secondary_europe
+		clr_global_flag = secondary_asia
+		clr_global_flag = secondary_middle_east
+		clr_global_flag = secondary_central_asia
+		clr_global_flag = secondary_africa
+		clr_global_flag = secondary_north_america
+		clr_global_flag = secondary_south_america
+		clr_global_flag = secondary_oceania
+		clr_global_flag = secondary_russia_anarchy
+
+		clr_global_flag = hit_global_nukes
+
+		any_country = {
+			limit = {
+				has_country_flag = enemy_leader
+			}
+			clr_country_flag = enemy_leader
+		}
+		any_country = {
+			limit = {
+				has_country_flag = enemy_sphere
+			}
+			clr_country_flag = enemy_sphere
+		}
+	}
+
+	option = {
+		name = "The horror!"
+	}
+}
+
+country_event = {
+	#ultimatum canceled
+	id = 500247
+	title = "Nuclear Launch Canceled"
+	desc = "With the de-escalation of our conflict the nuclear launch we were preparing was canceled."
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		war = no 
+		has_country_flag = trying_to_nuke
+	}
+	immediate = {
+		clr_country_flag = trying_to_nuke
+		clr_country_flag = german_nuke
+		remove_country_modifier = nuclear_threat
+		remove_country_modifier = nuclear_countdown
+	}
+	option = {
+		name = "Crisis adverted!"
+	}
+}
+
+country_event = {
+	#ultimatum
+	id = 500248
+	title = "Nuclear Ultimatum!"
+	desc = "event500248desc"
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	immediate = {
+		FROM = {remove_country_modifier = nuclear_threat}
+	}
+
+	option = {
+		name = "We will never settle for a meager peace!"
+		FROM = {country_event = 500246}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 1.5
+				war_policy = jingoism
+			}
+		}
+	}
+	option = {
+		name = "We must back down from the brink!"
+		end_war = FROM
+		FROM = {
+			add_country_modifier = {
+				name = enemy_sphere_marker
+				duration = 2
+			}
+		}
+		any_country = {
+			limit = {
+				in_sphere = FROM
+				FROM = {is_greater_power = yes}
+			}
+			end_war = THIS
+		}
+		any_country = {
+			limit = {
+				NOT = {tag = REB}
+				in_sphere = THIS
+				THIS = {is_greater_power = yes}
+			}
+			end_war = FROM
+			country_event = 500249
+		}
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				war_with = FROM
+			}
+		}
+	}
+}
+
+country_event = {
+	#ultimatum
+	id = 500249
+	title = "Nuclear Ultimatum Accepted!"
+	desc = "event500249desc"
+
+	is_triggered_only = yes
+
+	immediate = {
+		any_country = {
+			limit = {
+				war_with = THIS
+				part_of_sphere = yes
+				is_greater_power = no
+				sphere_owner = {
+					has_country_modifier = enemy_sphere_marker
+				}
+			}
+			end_war = THIS
+		}
+	}
+	option = {
+		name = "This close to armageddon..."
+	}
+}
+
+country_event = {
+	#major alert of threat
+	id = 500250
+	title = "Nuclear Ultimatum!"
+	desc = "event500250desc"
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "May god help us..."
+	}
+}
+
+country_event = {
+	id = 500251
+	title = "Nuclear stockpile siezed!"
+	desc = "Our nuclear stockpile has been siezed and disarmed!"
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = primary_nukes
+		clr_country_flag = trying_to_nuke
+		remove_country_modifier = nuclear_threat
+		remove_country_modifier = nuclear_countdown
+		FROM = {
+			set_country_flag = primary_nukes
+			clr_country_flag = secondary_nukes
+			clr_country_flag = developing_nukes
+			remove_country_modifier = nuc_dev
+		}
+	}
+
+	option = {
+		name = "Drat!"
+	}
+}
+
+country_event = {
+	id = 500252
+	title = "Nuclear proxy sites disarmed!"
+	desc = "The nuclear proxies our sphere leader has placed in us have been disarmed and removed!"
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = secondary_nukes
+		clr_country_flag = developing_nukes
+		remove_country_modifier = nuc_dev
+		add_country_modifier = {
+			name = nuc_timeout
+			duration = 7300
+		}
+	}
+
+	option = {
+		name = "Drat!"
+	}
+}
+
+country_event = {
+	id = 500253
+	title = "Nuclear development finished!"
+	desc = "Our nuclear development plan has finished and have finally produced nuclear weapons!"
+
+	trigger = {
+		has_country_flag = developing_nukes
+		NOT = {
+			has_country_modifier = nuc_dev
+		}
+		
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		clr_country_flag = secondary_nukes
+		clr_country_flag = developing_nukes
+		remove_country_modifier = nuc_dev
+		set_country_flag = primary_nukes
+	}
+
+	option = {
+		name = "Success!"
+	}
+}
+
+country_event = {
+	id = 500254
+	title = "Nuclear proxy site cleanup!"
+	desc = "If we lose our sphere or acquire nuclear weapons of our own we this event will cleanup and remove our nuclear proxy status."
+
+	trigger = {
+		OR = {
+			AND = {
+				has_country_flag = primary_nukes
+				has_country_flag = secondary_nukes
+			}
+			AND = {
+				has_country_flag = secondary_nukes
+				part_of_sphere = no
+			}
+			AND = {
+				has_country_flag = secondary_nukes
+				part_of_sphere = yes
+				NOT = {
+					sphere_owner = {
+						has_country_flag = primary_nukes
+					}
+				}
+			}
+			AND = {
+				has_country_flag = secondary_nukes
+				is_greater_power = yes
+			}
+		}
+		
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		clr_country_flag = secondary_nukes
+	}
+
+	option = {
+		name = "Ok."
+	}
+}
+
+country_event = {
+	id = 500255
+	title = "Nuclear Proxy Request"
+	desc = "Our sphere leader is requesting that we host nuclear proxy sites for them. If we do so we will extend the range of their nuclear strikes to our continent."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Of course!"
+		set_country_flag = secondary_nukes
+		add_country_modifier = {
+			name = nuke_proxy_yes
+			duration = 1825
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 3
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 3
+				has_recently_lost_war = yes
+			}
+			modifier = {
+				factor = 4
+				vassal_of = FROM
+			}
+			modifier = {
+				factor = 0
+				tag = CBR
+			}
+			modifier = {
+				factor = 0
+				tag = CFR
+			}
+		}
+	}
+	option = {
+		name = "We will not be host to global conflicts!"
+		add_country_modifier = {
+			name = nuke_proxy_no
+			duration = 1825
+		}
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 3
+				war_policy = pacifism
+			}
+			modifier = {
+				factor = 0.25
+				vassal_of = FROM
+			}
+		}
+	}
+}
+

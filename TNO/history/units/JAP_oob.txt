@@ -32,7 +32,7 @@ PHR = {
 YNN = {
 	value = -200
 	level = 0
-	truce_until = "1972.1.1"
+	truce_until = "1969.1.1"
 }
 XIN = {
 	value = -200
@@ -41,32 +41,32 @@ XIN = {
 XBI = {
 	value = -200
 	level = 0
-	truce_until = "1972.1.1"
+	truce_until = "1969.1.1"
 }
 CH6 = {
 	value = -200
 	level = 0
-	truce_until = "1972.1.1"
+	truce_until = "1969.1.1"
 }
 CH5 = {
 	value = -200
 	level = 0
-	truce_until = "1972.1.1"
+	truce_until = "1969.1.1"
 }
 CH4 = {
 	value = -200
 	level = 0
-	truce_until = "1972.1.1"
+	truce_until = "1969.1.1"
 }
 CH3 = {
 	value = -200
 	level = 0
-	truce_until = "1972.1.1"
+	truce_until = "1969.1.1"
 }
 CH2 = {
 	value = -200
 	level = 0
-	truce_until = "1972.1.1"
+	truce_until = "1969.1.1"
 }
 CH1 = {
 	level = 5
@@ -118,7 +118,7 @@ BUR = {
 }
 
 army = {
-	name = "I.J.A. North" 
+	name = "I.J.A. Home Guard" 
 	location = 1649
 	leader = {
 		name = "Iwaichi Fujiwara"
@@ -190,8 +190,8 @@ army = {
 }
 
 army = {
-	name = "I.J.A. South" 
-	location = 1661
+	name = "I.J.A. India Garrison" 
+	location = 1251
 	regiment = {
 		name= "1.1a Bersaglieri"
 		type = infantry
@@ -230,19 +230,19 @@ army = {
 
 	regiment = {
 		name= "1.1a Granatieri"
-		type = artillery
+		type = plane
 		home = 1638
 	}
 
 	regiment = {
 		name= "2.1a Granatieri"
-		type = artillery
+		type = plane
 		home = 1666
 	}
 
 	regiment = {
 		name= "3.1a Granatieri"
-		type = artillery
+		type = plane
 		home = 1665
 	}
 
@@ -250,6 +250,70 @@ army = {
 		name= "4.1a Granatieri"
 		type = hussar
 		home = 1667
+	}
+}
+
+army = {
+	name = "C.J.A. India Garrison" 
+	location = 1256
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1622
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1620
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1495
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1499
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1485
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 2562
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = plane
+		home = 1675
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = plane
+		home = 1659
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = plane
+		home = 658
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 658
 	}
 }
 
@@ -426,6 +490,94 @@ navy = {
 	}
 }
 
+navy = {
+	name = "Transport Fleet"
+	location = 1251
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+}
+navy = {
+	name = "Transport Fleet"
+	location = 1256
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+	ship = {
+		name = "Transport"
+		type = steam_transport
+	}
+}
 navy = {
 	name = "Submarine Group"
 	location = 1649

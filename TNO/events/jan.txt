@@ -59,12 +59,11 @@ country_event = {
 			}
 		}
 
-		
 
 		any_country = {
 			limit = {
 				exists = yes
-				has_country_flag = nuke
+				has_country_flag = primary_nukes
 				OR = {
 					NOT = {capital_scope = {has_province_modifier = has_nukes}}
 					any_owned_province = {
@@ -83,6 +82,7 @@ country_event = {
 			any_owned = {
 				limit = {
 					NOT= {is_capital = yes}
+					has_province_modifier = has_nukes
 				}
 				remove_province_modifier = has_nukes
 			}
@@ -92,12 +92,53 @@ country_event = {
 		any_country = {
 			limit = {
 				exists = yes
-				NOT = {has_country_flag = nuke}
+				NOT = {has_country_flag = primary_nukes}
 				any_owned_province = {has_province_modifier = has_nukes}
 			}
 			
 			any_owned = {
 				remove_province_modifier = has_nukes
+			}
+		}
+
+		any_country = {
+			limit = {
+				exists = yes
+				has_country_flag = secondary_nukes
+				OR = {
+					NOT = {capital_scope = {has_province_modifier = has_nukes_secondary}}
+					any_owned_province = {
+						has_province_modifier = has_nukes_secondary
+						NOT= {is_capital = yes}
+					}
+				}
+			}
+			capital_scope = {
+				add_province_modifier = {
+					name = has_nukes_secondary
+					duration = -1
+				}
+			}
+			
+			any_owned = {
+				limit = {
+					NOT= {is_capital = yes}
+					has_province_modifier = has_nukes_secondary
+				}
+				remove_province_modifier = has_nukes_secondary
+			}
+
+		}
+
+		any_country = {
+			limit = {
+				exists = yes
+				NOT = {has_country_flag = secondary_nukes}
+				any_owned_province = {has_province_modifier = has_nukes_secondary}
+			}
+			
+			any_owned = {
+				remove_province_modifier = has_nukes_secondary
 			}
 		}
 

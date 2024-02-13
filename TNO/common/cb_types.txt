@@ -100,6 +100,7 @@ goring_wild_ride_b
 goring_wild_ride_c
 brg_stockpile_sieze
 nuke_disarm
+missile_crisis
 baathism
 }
 
@@ -396,7 +397,7 @@ acquire_core_state = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
+		number_of_states = 1 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
 		}
@@ -2014,6 +2015,7 @@ rus_uni = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {truce_with = THIS}
 		NOT = {has_global_flag = rus_unified}
 		NOT = { is_our_vassal = THIS }
 		OR = {
@@ -3402,7 +3404,13 @@ nuke_disarm = {
 	war_name = WAR_NAME
 
 	can_use = {
-		has_country_flag = nuke
+		has_country_flag = primary_nukes
+		OR = {
+			THIS = {
+				is_greater_power = yes
+			}
+			is_greater_power = no
+		}
 	}	
 	on_add = {
 		move_issue_percentage = { 
@@ -3412,7 +3420,48 @@ nuke_disarm = {
 		}
 	}
 	on_po_accepted = {
-		country_event = 500206
+		country_event = 500251
+	}
+}
+
+missile_crisis = {
+	sprite_index = 14
+	is_triggered_only = yes
+	months = 12
+
+	badboy_factor = 1.5
+	prestige_factor = 1
+	peace_cost_factor = 15
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	po_remove_prestige = yes
+	#po_disarmament = yes
+
+	tws_battle_factor = 2.0
+	
+	war_name = WAR_MISSILE_CRISIS_NAME
+
+	can_use = {
+		has_country_flag = secondary_nukes
+	}	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	on_po_accepted = {
+		country_event = 500252
 	}
 }
 

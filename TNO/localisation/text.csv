@@ -9779,7 +9779,7 @@ AVAILABLE_IN_BANK;Savings in bank: §Y$VAL$§W¤;Épargne bancaire : §Y$VAL$§W¤;Ersp
 PV_PROMOTIONS;Promotions:;Promotions :;Beförderungen:;;Promociones:;;;;;;;;;x;;;;
 POP_NO_POPS_OF_TYPE;No pops of this type;Aucun groupe démographique (POP) pour ce type;Keine Bev. dieses Typs;;No hay POB de este tipo;;;;;;;;;x;;;;
 europe;Europe;Europe;Europa;;Europa;;;;;;;;;x;;;;
-asia;Asia;Asie;Asien;Europa;Asia;europa;európa;Evropa;;;;;;x;;;;
+asia;East Asia;Asie;Asien;Europa;Asia;europa;európa;Evropa;;;;;;x;;;;
 africa;Africa;Afrique;Afrika;Azja;África;asia;ázsia;Asie;;;;;;x;;;;
 north_america;North America;Nord Amérique;Nordamerika;Afryka;Norteamérica;africa;afrika;Afrika;;;;;;x;;;;
 south_america;South America;Sud Amérique;Südamerika;Ameryka P³n.;Sudamérica;nord america;észak-amerika;Severní Amerika;;;;;;x;;;;

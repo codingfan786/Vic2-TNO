@@ -173,16 +173,6 @@ political_decisions = {
 				set_country_flag = yunnan_yarrr
 			}
 			civilized = yes #necessary because if china is civilized in history files it is automatically a gp at select screen but not in game. breaks puppet status
-			any_owned = {
-				limit = {
-					is_capital = yes
-					owner = {ai = yes}
-				}
-				owner = {
-					activate_technology = flintlock_rifles
-					activate_technology = army_command_principle
-				}
-			}
 		}
 	}
 
@@ -225,6 +215,12 @@ political_decisions = {
 
 		}
 		effect = {
+			AHG = {
+				military_access = JAP
+			}
+			JAP = {
+				military_access = AHG
+			}
 			HND = {
 				add_country_modifier = {
 					name = hnd_nerf
@@ -433,7 +429,8 @@ political_decisions = {
 					duration = 350
 				}
 			}
-			GER = {country_event = 19355}
+			#GER = {country_event = 19355}
+			great_wars_enabled = yes
 			any_country = {
 				machine_parts = 2000
 				any_pop = {

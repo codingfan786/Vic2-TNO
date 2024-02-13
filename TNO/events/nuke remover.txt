@@ -21,21 +21,29 @@ country_event = {
 			limit = {
 				any_owned_province = {
 					has_province_flag = disease 
-					NOT = {has_province_modifier = nuked_1}
-					NOT = {has_province_modifier = nuked_2}
-					NOT = {has_province_modifier = nuked_3}
-					NOT = {has_province_modifier = nuked_4}
-					NOT = {has_province_modifier = nuked_5}
+					NOT = {has_province_modifier = nuke_light_1}
+					NOT = {has_province_modifier = nuke_light_2}
+					NOT = {has_province_modifier = nuke_light_3}
+					NOT = {has_province_modifier = nuke_medium_1}
+					NOT = {has_province_modifier = nuke_medium_2}
+					NOT = {has_province_modifier = nuke_medium_3}
+					NOT = {has_province_modifier = nuke_heavy_1}
+					NOT = {has_province_modifier = nuke_heavy_2}
+					NOT = {has_province_modifier = nuke_heavy_3}
 				}
 			}
 			any_owned = {
 				limit = {
 					has_province_flag = disease 
-					NOT = {has_province_modifier = nuked_1}
-					NOT = {has_province_modifier = nuked_2}
-					NOT = {has_province_modifier = nuked_3}
-					NOT = {has_province_modifier = nuked_4}
-					NOT = {has_province_modifier = nuked_5}
+					NOT = {has_province_modifier = nuke_light_1}
+					NOT = {has_province_modifier = nuke_light_2}
+					NOT = {has_province_modifier = nuke_light_3}
+					NOT = {has_province_modifier = nuke_medium_1}
+					NOT = {has_province_modifier = nuke_medium_2}
+					NOT = {has_province_modifier = nuke_medium_3}
+					NOT = {has_province_modifier = nuke_heavy_1}
+					NOT = {has_province_modifier = nuke_heavy_2}
+					NOT = {has_province_modifier = nuke_heavy_3}
 				}
 				clr_province_flag = disease
 			}

@@ -111,8 +111,8 @@ country_event = {
 
 country_event = {
 	id = 500169
-	title = "brg wins"
-	desc = "oh no"
+	title = "Burgundian French occupation."
+	desc = "France has suffered a second humiliation in only 20 years as Ordensstaat Burgund has siezed large portions of northern France."
 
 	is_triggered_only = yes
 	immediate = {

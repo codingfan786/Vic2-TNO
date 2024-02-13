@@ -13,6 +13,10 @@ political_decisions = {
 			USA = {state_n_government = 1}
 			in_sphere = USA
 			war = no
+			OR = {
+				is_vassal = no
+				vassal_of = USA
+			}
 		}
 		effect = {
 			country_event = 500016

@@ -148,12 +148,12 @@ political_decisions = {
 			modifier = {
 				factor = 0
 				tag = CHI
-				NOT = {year = 1969}
+				NOT = {year = 1967}
 			}
 			modifier = {
 				factor = 0
 				tag = YNN
-				NOT = {year = 1967}
+				NOT = {year = 1965}
 			}
 		}
 	}
@@ -273,6 +273,7 @@ political_decisions = {
 				alliance_with = AHG
 				alliance_with = HND
 				alliance_with = HD2
+				alliance_with = YNN
 			}
 		}
 		effect = {
@@ -281,6 +282,7 @@ political_decisions = {
 			leave_alliance = AHG
 			leave_alliance = HND
 			leave_alliance = HD2
+			leave_alliance = YNN
 		}	
 	}
 }

@@ -1,6 +1,5 @@
-owner = GGE
-controller = GGE
-add_core = GGE
+owner = GER
+controller = GER
 add_core = DEN
 trade_goods = fish
 life_rating = 35

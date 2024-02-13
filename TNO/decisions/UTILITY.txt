@@ -350,6 +350,7 @@ political_decisions = {
 			NOT = { has_country_modifier = academic_confusion }
 			war = no
 			NOT = { num_of_revolts = 1 }
+			is_vassal = no
 		}
 		
 		effect = { set_country_flag = tech_school_change }
