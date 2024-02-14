@@ -125,7 +125,7 @@
 
 	slaves = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 36500
 	}
 }
@@ -163,7 +163,7 @@
 
 	slaves = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 10500
 	}
 }
@@ -231,7 +231,7 @@
 
 	slaves = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 20500
 	}
 }
@@ -339,7 +339,7 @@
 	}
 	slaves = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 30500
 	}
 }
@@ -376,7 +376,7 @@
 	}
 	slaves = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 30500
 	}
 }
@@ -444,7 +444,7 @@
 
 	slaves = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 30500
 	}
 }
@@ -512,7 +512,7 @@
 
 	slaves = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 30500
 	}
 }

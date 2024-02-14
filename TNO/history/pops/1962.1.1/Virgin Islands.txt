@@ -28,19 +28,19 @@
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 3350
 	}
 
 	slaves = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 6500
 	}
 

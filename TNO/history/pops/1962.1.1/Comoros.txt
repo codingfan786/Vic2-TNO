@@ -4,67 +4,67 @@
 2123 = {
 	aristocrats = {
 		culture = african_minor
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
 		culture = african_minor
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = african_minor
-		religion = sunni
+		religion = protestant
 		size = 325
 	}
 
 	soldiers = {
 		culture = african_minor
-		religion = sunni
+		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
 		culture = african_minor
-		religion = sunni
+		religion = protestant
 		size = 3425
 	}
 
 	aristocrats = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 5500
 	}
 
 	slaves = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 3000
 	}
 }
@@ -72,67 +72,67 @@
 2124 = {
 	aristocrats = {
 		culture = african_minor
-		religion = sunni
+		religion = protestant
 		size = 15
 	}
 
 	clergymen = {
 		culture = african_minor
-		religion = sunni
+		religion = protestant
 		size = 25
 	}
 
 	artisans = {
 		culture = african_minor
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
 		culture = african_minor
-		religion = sunni
+		religion = protestant
 		size = 10
 	}
 
 	farmers = {
 		culture = african_minor
-		religion = sunni
+		religion = protestant
 		size = 400
 	}
 
 	aristocrats = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 15
 	}
 
 	clergymen = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 25
 	}
 
 	artisans = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 10
 	}
 
 	farmers = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 900
 	}
 
 	slaves = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 500
 	}
 

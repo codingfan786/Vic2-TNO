@@ -4,31 +4,31 @@
 2534 = {
 	aristocrats = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 225
 	}
 
 	clergymen = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 600
 	}
 
 	soldiers = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	farmers = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 10925
 	}
 }
@@ -36,31 +36,31 @@
 2536 = {
 	aristocrats = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 35
 	}
 
 	artisans = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	soldiers = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 15
 	}
 
 	farmers = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 1350
 	}
 }

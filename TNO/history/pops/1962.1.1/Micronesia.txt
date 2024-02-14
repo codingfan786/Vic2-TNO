@@ -4,37 +4,37 @@
 2517 = {
 	bureaucrats = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 1
 	}
 
 	clergymen = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 4
 	}
 
 	soldiers = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 5
 	}
 
 	artisans = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	soldiers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 15
 	}
 
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 1490
 	}
 }
@@ -42,25 +42,25 @@
 2521 = {
 	clergymen = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 2
 	}
 
 	artisans = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 70
 	}
 
 	soldiers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 3
 	}
 
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 1325
 	}
 }
@@ -69,31 +69,31 @@
 2518 = {
 	aristocrats = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 25
 	}
 
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 1800
 	}
 }
@@ -101,31 +101,31 @@
 2519 = {
 	aristocrats = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 5
 	}
 
 	clergymen = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 10
 	}
 
 	artisans = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 25
 	}
 
 	soldiers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 5
 	}
 
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 485
 	}
 }
@@ -133,31 +133,31 @@
 2579 = {
 	aristocrats = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 15
 	}
 
 	clergymen = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 20
 	}
 
 	artisans = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 40
 	}
 
 	soldiers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 10
 	}
 
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 700
 	}
 }
@@ -165,31 +165,31 @@
 610 = {
 	aristocrats = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 15
 	}
 
 	artisans = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 35
 	}
 
 	soldiers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 5
 	}
 
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 600
 	}
 }
@@ -199,7 +199,7 @@
 1654 = {
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 15
 	}
 }
@@ -207,7 +207,7 @@
 2524 = {
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 15
 	}
 }
@@ -215,7 +215,7 @@
 2525 = {
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 15
 	}
 }
@@ -225,31 +225,31 @@
 2522 = {
 	aristocrats = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 25
 	}
 
 	artisans = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	soldiers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 15
 	}
 
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 1375
 	}
 }
@@ -257,31 +257,31 @@
 2523 = {
 	aristocrats = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 5
 	}
 
 	clergymen = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 5
 	}
 
 	artisans = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 10
 	}
 
 	soldiers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 5
 	}
 
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 225
 	}
 }
@@ -289,31 +289,31 @@
 2527 = {
 	aristocrats = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 175
 	}
 
 	soldiers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 25
 	}
 
 	farmers = {
 		culture = japanese
-		religion = animist
+		religion = protestant
 		size = 3125
 	}
 

@@ -41,19 +41,19 @@
 2591 = {
 	clergymen = {
 		culture = inuit
-		religion = catholic
+		religion = protestant
 		size = 40
 	}
 
 	artisans = {
 		culture = inuit
-		religion = catholic
+		religion = protestant
 		size = 40
 	}
 
 	farmers = {
 		culture = inuit
-		religion = catholic
+		religion = protestant
 		size = 3000
 	}
 	farmers = {

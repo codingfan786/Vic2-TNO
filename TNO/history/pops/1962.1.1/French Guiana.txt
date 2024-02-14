@@ -4,97 +4,97 @@
 2241 = {
 	aristocrats = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 1500
 	}
 
 	bureaucrats = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 1000
 	}
 
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 500
 	}
 
 	farmers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 800
 	}
 
 	artisans = {
 		culture = afro_antillean
-		religion = catholic
+		religion = protestant
 		size = 1500
 	}
 
 	clergymen = {
 		culture = afro_antillean
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
 		culture = afro_antillean
-		religion = catholic
+		religion = protestant
 		size = 500
 	}
 
 	farmers = {
 		culture = afro_antillean
-		religion = catholic
+		religion = protestant
 		size = 4250
 	}
 
 	slaves = {
 		culture = afro_antillean
-		religion = catholic
+		religion = protestant
 		size = 29500
 	}
 
 	aristocrats = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 20
 	}
 
 	clergymen = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 30
 	}
 
 	artisans = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 2300
 	}
 }
@@ -102,31 +102,31 @@
 2246 = {
 	aristocrats = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 350
 	}
 
 	soldiers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 6800
 	}
 

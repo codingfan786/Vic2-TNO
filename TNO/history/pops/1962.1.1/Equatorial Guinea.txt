@@ -4,55 +4,55 @@
 1955 = {
 	aristocrats = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 3
 	}
 
 	bureaucrats = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 2
 	}
 
 	clergymen = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 5
 	}
 
 	artisans = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 5
 	}
 
 	soldiers = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 5
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = catholic
+		religion = protestant
 		size = 120
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = catholic
+		religion = protestant
 		size = 1530
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 1100
 	}
 }
@@ -71,31 +71,31 @@
 	}
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 350
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 350
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 31500
 	}
 

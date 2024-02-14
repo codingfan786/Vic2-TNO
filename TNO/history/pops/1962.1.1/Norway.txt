@@ -138,12 +138,7 @@
 3246 = {
 	bankers = {
 		culture = sami
-		religion = animist
-		size = 20000
-	}
-	bankers = {
-		culture = sami
-		religion = catholic
+		religion = protestant
 		size = 20000
 	}
 	bankers = {
@@ -153,27 +148,32 @@
 	}
 	bankers = {
 		culture = sami
-		religion = sunni
+		religion = protestant
 		size = 20000
 	}
 	bankers = {
 		culture = sami
-		religion = shiite
+		religion = protestant
 		size = 20000
 	}
 	bankers = {
 		culture = sami
-		religion = mahayana
+		religion = protestant
 		size = 20000
 	}
 	bankers = {
 		culture = sami
-		religion = shinto
+		religion = protestant
 		size = 20000
 	}
 	bankers = {
 		culture = sami
-		religion = hindu
+		religion = protestant
+		size = 20000
+	}
+	bankers = {
+		culture = sami
+		religion = protestant
 		size = 20000
 	}
 }

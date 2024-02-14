@@ -22,25 +22,25 @@
 
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 20
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	farmers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 2800
 	}
 }
@@ -48,19 +48,19 @@
 2235 = {
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 25
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 25
 	}
 
 	farmers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 550
 	}
 }

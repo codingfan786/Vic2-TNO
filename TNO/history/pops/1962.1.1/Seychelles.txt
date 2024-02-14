@@ -4,25 +4,25 @@
 2127 = {
 	aristocrats = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 20
 	}
 
 	clergymen = {
 		culture = malagasy
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	artisans = {
 		culture = malagasy
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = malagasy
-		religion = catholic
+		religion = protestant
 		size = 1175
 	}
 }

@@ -4,54 +4,54 @@
 808 = {
 	craftsmen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 10000
 	}
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 3300
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 600
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 4500
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 1500
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 47100
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 1275
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 2700
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 84225
 	}
 }
@@ -61,90 +61,90 @@
 809 = {
 	craftsmen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 10000
 	}
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 4350
 	}
 
 	bureaucrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 1200
 	}
 
 	officers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 900
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 675
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 7500
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 6000
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 42375
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 525
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 7200
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 121275
 	}
 
 	clergymen = {
 		culture = greek
-		religion = orthodox
+		religion = protestant
 		size = 450
 	}
 
 	artisans = {
 		culture = greek
-		religion = orthodox
+		religion = protestant
 		size = 2550
 	}
 
 	clergymen = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 2925
 	}
 }
@@ -152,66 +152,66 @@
 810 = {
 	craftsmen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 10000
 	}
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 1950
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 2400
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 1875
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 450
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 1500
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 79050
 	}
 
 	clergymen = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 15
 	}
 
 	artisans = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 735
 	}
 }
@@ -219,66 +219,66 @@
 811 = {
 	craftsmen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 10000
 	}
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 3150
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 2550
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 6000
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 15750
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 600
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 2250
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 108150
 	}
 
 	clergymen = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 30
 	}
 
 	artisans = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 2220
 	}
 }
@@ -286,54 +286,54 @@
 812 = {
 	craftsmen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 10000
 	}
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 2625
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 4050
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 6000
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 17025
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 750
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 112950
 	}
 }
@@ -341,54 +341,54 @@
 813 = {
 	craftsmen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 10000
 	}
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 1950
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 375
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 2850
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 27825
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 450
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 2550
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 69000
 	}
 }
@@ -396,49 +396,49 @@
 814 = {
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 3900
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 525
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 6300
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 6000
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 37275
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 675
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 5700
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 107625
 	}
 }
@@ -448,120 +448,120 @@
 815 = {
 	craftsmen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 10000
 	}
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 2400
 	}
 
 	bureaucrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 1650
 	}
 
 	officers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 3300
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 825
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 19275
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 1350
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 40425
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 600
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 8100
 	}
 
 	clergymen = {
 		culture = greek
-		religion = orthodox
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = greek
-		religion = orthodox
+		religion = protestant
 		size = 1800
 	}
 
 	farmers = {
 		culture = greek
-		religion = orthodox
+		religion = protestant
 		size = 6900
 	}
 
 	clergymen = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 30
 	}
 
 	artisans = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 2220
 	}
 }
@@ -569,78 +569,78 @@
 816 = {
 	craftsmen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 10000
 	}
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 975
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 1650
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 525
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 14700
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 1350
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 34425
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 5550
 	}
 }
@@ -648,91 +648,91 @@
 817 = {
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 3300
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 375
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 2700
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 1350
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 31275
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 525
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 1650
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 75825
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 11025
 	}
 
 	clergymen = {
 		culture = greek
-		religion = orthodox
+		religion = protestant
 		size = 450
 	}
 
 	artisans = {
 		culture = greek
-		religion = orthodox
+		religion = protestant
 		size = 2700
 	}
 
 	farmers = {
 		culture = greek
-		religion = orthodox
+		religion = protestant
 		size = 14850
 	}
 
@@ -743,67 +743,67 @@
 818 = {
 	clergymen = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 150 
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 1350
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = orthodox
+		religion = protestant
 		size = 28500
 	}
 
 	clergymen = {
 		culture = romanian
-		religion = orthodox
+		religion = protestant
 		size = 225 
 	}
 
 	artisans = {
 		culture = romanian
-		religion = orthodox
+		religion = protestant
 		size = 600
 	}
 
 	farmers = {
 		culture = romanian
-		religion = orthodox
+		religion = protestant
 		size = 14175 
 	}
 
 	aristocrats = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 1200 
 	}
 
 	clergymen = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 1350
 	}
 
 	soldiers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = bulgarian
-		religion = sunni
+		religion = protestant
 		size = 12300  
 	}
 }

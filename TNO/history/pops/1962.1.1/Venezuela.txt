@@ -4,73 +4,73 @@
 2264 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 3375
 	}
 
 	bureaucrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 375
 	}
 
 	officers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 1200
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 6150
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 300175
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1650
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 28200
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 12000
 	}
 }
@@ -78,61 +78,61 @@
 2267 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 375
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 10725
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1800
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 900
 	}
 }
@@ -140,61 +140,61 @@
 2268 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 675
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 1350
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 24600
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 4275
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1200
 	}
 }
@@ -202,55 +202,55 @@
 2269 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 600
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 1350
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 21825
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 }
@@ -260,73 +260,73 @@
 2265 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	bureaucrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	officers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 7725
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 60
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1560
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1200
 	}
 }
@@ -334,61 +334,61 @@
 2266 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 675
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 1200
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 21675
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 4050
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1500
 	}
 }
@@ -396,85 +396,85 @@
 2274 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 525
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 13425
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1545
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1200
 	}
 
 	clergymen = {
 		culture = native_american_minor
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = native_american_minor
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = native_american_minor
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = native_american_minor
-		religion = catholic
+		religion = protestant
 		size = 5550
 	}
 }
@@ -484,97 +484,97 @@
 2270 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 1650
 	}
 
 	bureaucrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	officers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 375
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 600
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 2100
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 36825
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 22050
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 6000
 	}
 
 	clergymen = {
 		culture = guajiro
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	artisans = {
 		culture = guajiro
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = guajiro
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	farmers = {
 		culture = guajiro
-		religion = catholic
+		religion = protestant
 		size = 2790
 	}
 }
@@ -582,85 +582,85 @@
 2271 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 1950
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 825
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 4050
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 71175
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 600
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 8100
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	clergymen = {
 		culture = native_american_minor
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	artisans = {
 		culture = native_american_minor
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = native_american_minor
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	farmers = {
 		culture = native_american_minor
-		religion = catholic
+		religion = protestant
 		size = 2790
 	}
 }
@@ -668,61 +668,61 @@
 2272 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 975
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 375
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 26850
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 600
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 8100
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 }
@@ -730,61 +730,61 @@
 2273 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 1575
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 600
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 600
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 54225
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 600
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 8100
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 }
@@ -794,61 +794,61 @@
 2275 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 525
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 13425
 	}
 
 	aristocrats = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 450
 	}
 
 	soldiers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 8100
 	}
 }
@@ -856,73 +856,73 @@
 2276 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 1650
 	}
 
 	bureaucrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	officers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 675
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 3150
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 675
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 56700
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 10875
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 }
@@ -931,61 +931,61 @@
 2277 = {
 	aristocrats = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 45
 	}
 
 	clergymen = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	farmers = {
 		culture = north_andean
-		religion = catholic
+		religion = protestant
 		size = 2700
 	}
 
 	aristocrats = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 450
 	}
 
 	soldiers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 8100
 	}
 }
@@ -993,31 +993,31 @@
 2278 = {
 	aristocrats = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 30
 	}
 
 	clergymen = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 45
 	}
 
 	farmers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 2700
 	}
 

@@ -4,49 +4,49 @@
 2201 = {
 	aristocrats = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 1200
 		militancy = 9
 	}
 
 	bureaucrats = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 200
 		militancy = 9
 	}
 
 	officers = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 100
 		militancy = 9
 	}
 
 	clergymen = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 500
 		militancy = 9
 	}
 
 	artisans = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 2600
 		militancy = 9
 	}
 
 	soldiers = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 500
 		militancy = 9
 	}
 
 	farmers = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 46900
 		militancy = 9
 	}
@@ -55,35 +55,35 @@
 2202 = {
 	aristocrats = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 600
 		militancy = 9
 	}
 
 	clergymen = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 200
 		militancy = 9
 	}
 
 	artisans = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 1000
 		militancy = 9
 	}
 
 	soldiers = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 200
 		militancy = 9
 	}
 
 	farmers = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 18000
 		militancy = 9
 	}
@@ -92,35 +92,35 @@
 2203 = {
 	aristocrats = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 300
 		militancy = 9
 	}
 
 	clergymen = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 200
 		militancy = 9
 	}
 
 	artisans = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 600
 		militancy = 9
 	}
 
 	soldiers = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 100
 		militancy = 9
 	}
 
 	farmers = {
 		culture = central_american
-		religion = catholic
+		religion = protestant
 		size = 10800
 		militancy = 9
 	}

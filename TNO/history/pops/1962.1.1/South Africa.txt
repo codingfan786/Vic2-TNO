@@ -45,25 +45,25 @@
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 3750
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 750
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 60250
 	}
 
@@ -171,25 +171,25 @@
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 375
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 375
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 33500
 	}
 
@@ -219,31 +219,31 @@
 
 	aristocrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 500
 	}
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 500
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 48250
 	}
 
@@ -333,25 +333,25 @@
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 375
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 750
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 73375
 	}
 
@@ -436,25 +436,25 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 175
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 14450
 	}
 
@@ -488,7 +488,7 @@
 2088 = {
 	craftsmen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 10000
 	}
 	aristocrats = {
@@ -522,7 +522,7 @@
 	}
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 66000
 	}
 }
@@ -533,54 +533,54 @@
 2092 = {
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 66000
 	}
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 12250
 	}
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 3875
 	}
 
@@ -612,30 +612,30 @@
 2093 = {
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 66000
 	}
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 4125
 	}
 
@@ -697,7 +697,7 @@
 2558 = {
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 66000
 	}
 	aristocrats = {
@@ -732,25 +732,25 @@
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1250
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 11750
 	}
 }
@@ -764,31 +764,31 @@
 	}
 	aristocrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 2000
 	}
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 2000
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 8000
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 181000
 	}
 }
@@ -797,36 +797,36 @@
 2095 = {
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 66000
 	}
 	aristocrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 23250
 	}
 
@@ -837,30 +837,30 @@
 2096 = {
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 66000
 	}
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 13250
 	}
 
@@ -946,30 +946,30 @@
 2097 = {
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 66000
 	}
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 44125
 	}
 
@@ -1062,7 +1062,7 @@
 2098 = {
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 66000
 	}
 	aristocrats = {
@@ -1099,7 +1099,7 @@
 2099 = {
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 66000
 	}
 	aristocrats = {
@@ -1141,31 +1141,31 @@
 	}
 	aristocrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 4500
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 82500
 	}
 	soldiers = {
@@ -1236,7 +1236,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 4625
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1244,7 +1244,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 2375
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1252,7 +1252,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 11875
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1260,7 +1260,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 2375
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1268,7 +1268,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 217500
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1307,61 +1307,61 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1750
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1125
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 5500
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 91125
 	}
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1250
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 22875
 	}
 }
@@ -1408,7 +1408,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 2000
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1416,7 +1416,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1000
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1424,7 +1424,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 5125
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1432,7 +1432,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1000
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1440,7 +1440,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 93375
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1450,43 +1450,43 @@
 2104 = {
 	aristocrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 3125
 	}
 
 	bureaucrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	officers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 625
 	}
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1625
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 8000
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1625
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 144875
 	}
 }
@@ -1552,7 +1552,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1560,7 +1560,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1750
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1568,7 +1568,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6750
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1576,7 +1576,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1750
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1584,7 +1584,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 156500
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1633,7 +1633,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 2125
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1641,7 +1641,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1649,7 +1649,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1657,7 +1657,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1665,7 +1665,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 113875
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1704,61 +1704,61 @@
 	}
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1125
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 625
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3000
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 625
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 79625
 	}
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1375
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 750
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3000
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 750
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 44125
 	}
 }
@@ -1808,7 +1808,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1816,7 +1816,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1824,7 +1824,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1000
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1832,7 +1832,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1840,7 +1840,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 13125
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1848,7 +1848,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 625
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1856,7 +1856,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1864,7 +1864,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1750
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1872,7 +1872,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1880,7 +1880,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 41875
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1930,7 +1930,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1125
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1938,7 +1938,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 625
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1946,7 +1946,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1954,7 +1954,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 750
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -1962,7 +1962,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 59250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2012,7 +2012,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2020,7 +2020,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2028,7 +2028,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 750
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2036,7 +2036,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 125
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2044,7 +2044,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 23500
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2052,7 +2052,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2060,7 +2060,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2068,7 +2068,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 875
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2076,7 +2076,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2084,7 +2084,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 8750
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2121,61 +2121,61 @@
 
 	aristocrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 750
 	}
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 375
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 2000
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 375
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 36375
 	}
 
 	aristocrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 2125
 	}
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1125
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 5250
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 1250
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 105250
 	}
 }
@@ -2183,31 +2183,31 @@
 2112 = {
 	aristocrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 3750
 	}
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 2000
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 9750
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 6000
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 144500
 	}
 }
@@ -2215,43 +2215,43 @@
 2113 = {
 	aristocrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 7750
 	}
 
 	bureaucrats = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	officers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 750
 	}
 
 	clergymen = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 4125
 	}
 
 	artisans = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 20000
 	}
 
 	soldiers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 10000
 	}
 
 	farmers = {
 		culture = khoisan
-		religion = animist
+		religion = protestant
 		size = 287250
 	}
 }
@@ -2266,7 +2266,7 @@
 	}
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 625
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2274,7 +2274,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2282,7 +2282,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1750
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2290,7 +2290,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2298,7 +2298,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 31875
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2306,7 +2306,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2314,7 +2314,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 625
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2322,7 +2322,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3250
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2330,7 +2330,7 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 625
 		militancy = 8 
 		rebel_type = nationalist_rebels
@@ -2338,7 +2338,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 59250
 		militancy = 8 
 		rebel_type = nationalist_rebels

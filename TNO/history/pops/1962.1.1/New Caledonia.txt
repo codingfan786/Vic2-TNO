@@ -4,31 +4,31 @@
 1097 = {
 	aristocrats = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = melanesian
-		religion = animist
+		religion = protestant
 		size = 5475
 	}
 }

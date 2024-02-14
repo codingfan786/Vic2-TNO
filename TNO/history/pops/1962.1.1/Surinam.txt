@@ -80,7 +80,7 @@
 
 	slaves = {
 		culture = afro_caribbean
-		religion = animist
+		religion = protestant
 		size = 9000
 	}
 }
@@ -122,31 +122,31 @@
 
 	aristocrats = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	clergymen = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 1500
 	}
 
 	artisans = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 4000
 	}
 
 	soldiers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 5000
 	}
 

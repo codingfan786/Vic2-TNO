@@ -4,97 +4,97 @@
 2209 = {
 	aristocrats = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 350
 	}
 
 	bureaucrats = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 325
 	}
 
 	artisans = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 4325
 	}
 
 	soldiers = {
 		culture = spanish
-		religion = catholic
+		religion = protestant
 		size = 200
 	}
 
 	aristocrats = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 650
 	}
 
 	bureaucrats = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 175
 	}
 
 	artisans = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 4000
 	}
 
 	soldiers = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 28625
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 6000
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 500
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 2500
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 38000
 	}
 }
@@ -102,55 +102,55 @@
 2210 = {
 	aristocrats = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 600
 	}
 
 	clergymen = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 375
 	}
 
 	artisans = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 1200
 	}
 
 	soldiers = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
 
 	farmers = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 21575
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 2000
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 11850
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 25000
 	}
 }
@@ -158,55 +158,55 @@
 2211 = {
 	aristocrats = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	clergymen = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 400
 	}
 
 	artisans = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 3500
 	}
 
 	soldiers = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 8500
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 2200
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 25000
 	}
 }
@@ -214,55 +214,55 @@
 2212 = {
 	aristocrats = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 200
 	}
 
 	clergymen = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 175
 	}
 
 	artisans = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 3500
 	}
 
 	soldiers = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = caribeno
-		religion = catholic
+		religion = protestant
 		size = 8975
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 14000
 	}
 

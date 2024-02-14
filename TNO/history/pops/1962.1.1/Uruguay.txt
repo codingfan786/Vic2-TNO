@@ -4,73 +4,73 @@
 2344 = {
 	aristocrats = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 1725
 	}
 
 	bureaucrats = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 900
 	}
 
 	officers = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 750
 	}
 
 	artisans = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 2940
 	}
 
 	soldiers = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 12000
 	}
 
 	farmers = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 102285
 	}
 
 	clergymen = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 24150
 	}
 
 	slaves = {
 		culture = afro_caribeno
-		religion = catholic
+		religion = protestant
 		size = 4500
 	}
 }
@@ -78,31 +78,31 @@
 2345 = {
 	aristocrats = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 600
 	}
 
 	clergymen = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 1350
 	}
 
 	soldiers = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 21825
 	}
 }
@@ -110,55 +110,55 @@
 2346 = {
 	aristocrats = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	clergymen = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 5400
 	}
 
 	clergymen = {
 		culture = brazilian
-		religion = catholic
+		religion = protestant
 		size = 45
 	}
 
 	artisans = {
 		culture = brazilian
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = brazilian
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	farmers = {
 		culture = brazilian
-		religion = catholic
+		religion = protestant
 		size = 2775
 	}
 }
@@ -166,55 +166,55 @@
 2347 = {
 	aristocrats = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	clergymen = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 1050
 	}
 
 	soldiers = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 3300
 	}
 
 	farmers = {
 		culture = platinean
-		religion = catholic
+		religion = protestant
 		size = 16350
 	}
 
 	clergymen = {
 		culture = brazilian
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = brazilian
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	soldiers = {
 		culture = brazilian
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = brazilian
-		religion = catholic
+		religion = protestant
 		size = 8325
 	}
 

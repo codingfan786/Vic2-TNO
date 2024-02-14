@@ -10,25 +10,25 @@
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 475
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 2400
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 500
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 43700
 	}
 
@@ -40,25 +40,25 @@
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 550
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 10025
 	}
 
@@ -70,25 +70,25 @@
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 3650
 	}
 }
@@ -102,25 +102,25 @@
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 4625
 	}
 
@@ -132,31 +132,31 @@
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 25
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 2700
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 1100
 	}
 }
@@ -170,25 +170,25 @@
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 7350
 	}
 
@@ -200,25 +200,25 @@
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 650
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 175
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 11725
 	}
 
@@ -230,31 +230,31 @@
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 7300
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 3000
 	}
 }
@@ -269,25 +269,25 @@
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 775
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 300
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 20350
 	}
 
@@ -299,31 +299,31 @@
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 1100
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 18225
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 7000
 	}
 }
@@ -339,25 +339,25 @@
 
 	clergymen = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 650
 	}
 
 	soldiers = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	slaves = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 11875
 	}
 }
@@ -371,25 +371,25 @@
 
 	clergymen = {
 		culture = afro_asiatic
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = afro_asiatic
-		religion = sunni
+		religion = protestant
 		size = 850
 	}
 
 	soldiers = {
 		culture = afro_asiatic
-		religion = sunni
+		religion = protestant
 		size = 225
 	}
 
 	slaves = {
 		culture = afro_asiatic
-		religion = sunni
+		religion = protestant
 		size = 18225
 	}
 
@@ -401,31 +401,31 @@
 
 	clergymen = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	slaves = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 3650
 	}
 
 	slaves = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 1100
 	}
 }
@@ -439,25 +439,25 @@
 
 	clergymen = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 375
 	}
 
 	artisans = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 1750
 	}
 
 	soldiers = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 350
 	}
 
 	slaves = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 31875
 	}
 
@@ -469,25 +469,25 @@
 
 	clergymen = {
 		culture = afro_asiatic
-		religion = sunni
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = afro_asiatic
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = afro_asiatic
-		religion = sunni
+		religion = protestant
 		size = 25
 	}
 
 	slaves = {
 		culture = afro_asiatic
-		religion = sunni
+		religion = protestant
 		size = 2700
 	}
 
@@ -499,25 +499,25 @@
 
 	clergymen = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	slaves = {
 		culture = afro_asiatic
-		religion = animist
+		religion = protestant
 		size = 4575
 	}
 }
@@ -538,25 +538,25 @@
 
 	clergymen = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 550
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 1100
 	}
 
 	slaves = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 9150
 	}
 
@@ -568,25 +568,25 @@
 
 	clergymen = {
 		culture = mashriqi
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = mashriqi
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = mashriqi
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	slaves = {
 		culture = mashriqi
-		religion = sunni
+		religion = protestant
 		size = 500
 	}
 
@@ -598,31 +598,31 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 9125
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3000
 	}
 }
@@ -636,25 +636,25 @@
 
 	clergymen = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 125
 	}
 
 	slaves = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 10025
 	}
 
@@ -666,31 +666,31 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 600
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 10925
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 2000
 	}
 }
@@ -705,25 +705,25 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1300
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 23725
 	}
 

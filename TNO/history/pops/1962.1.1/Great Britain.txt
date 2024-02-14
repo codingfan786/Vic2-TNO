@@ -3,7 +3,7 @@
 266 = {
 	farmers = {
 		culture = scottish
-		religion = catholic
+		religion = protestant
 		size = 8000
 	}
 
@@ -183,37 +183,37 @@
 
 	clergymen = {
 		culture = scottish
-		religion = catholic
+		religion = protestant
 		size = 400
 	}
 
 	craftsmen = {
 		culture = scottish
-		religion = catholic
+		religion = protestant
 		size = 4500
 	}
 
 	artisans = {
 		culture = scottish
-		religion = catholic
+		religion = protestant
 		size = 20000
 	}
 
 	farmers = {
 		culture = scottish
-		religion = catholic
+		religion = protestant
 		size = 86400
 	}
 
 	farmers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 24400
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 4100
 	}
 }
@@ -251,7 +251,7 @@
 
 	farmers = {
 		culture = scottish
-		religion = catholic
+		religion = protestant
 		size = 16000
 	}
 }
@@ -331,31 +331,31 @@
 
 	clergymen = {
 		culture = scottish
-		religion = catholic
+		religion = protestant
 		size = 400
 	}
 
 	farmers = {
 		culture = scottish
-		religion = catholic
+		religion = protestant
 		size = 10000
 	}
 
 	craftsmen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 20000
 	}
 	
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 8000
 	}
 }
@@ -387,7 +387,7 @@
 
 	farmers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 20000
 	}
 
@@ -670,7 +670,7 @@
 
 	clergymen = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 50
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -678,7 +678,7 @@
 
 	craftsmen = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 1100
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -686,7 +686,7 @@
 
 	artisans = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 1500
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -694,7 +694,7 @@
 
 	labourers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 6450
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -702,7 +702,7 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 125
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -710,7 +710,7 @@
 
 	craftsmen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 2250
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -718,7 +718,7 @@
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 10000
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -726,7 +726,7 @@
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 3750
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -734,7 +734,7 @@
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 7875
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -792,25 +792,25 @@
 
 	clergymen = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	labourers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 8850
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 2000
 	}
 
 	labourers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 2075
 	}
 }
@@ -848,19 +848,19 @@
 
 	farmers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 2000
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 750
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
 
@@ -907,7 +907,7 @@
 
 	labourers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 4000
 	}
 }
@@ -957,7 +957,7 @@
 
 	labourers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 5000
 	}
 }
@@ -1002,7 +1002,7 @@
 
 	farmers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 3000
 	}
 }
@@ -1064,7 +1064,7 @@
 
 	farmers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 4000
 	}
 
@@ -1162,7 +1162,7 @@
 
 	farmers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 1100
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -1170,7 +1170,7 @@
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 3000
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -1210,13 +1210,13 @@
 
 	farmers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 }
@@ -1362,7 +1362,7 @@
 
 	farmers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 5000
 	}
 }
@@ -1559,7 +1559,7 @@
 
 	labourers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 2000
 	}
 
@@ -1714,7 +1714,7 @@
 
 	farmers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 1000
 	}
 }
@@ -1828,13 +1828,13 @@
 
 	farmers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 550
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 550
 	}
 
@@ -2051,7 +2051,7 @@
 
 	artisans = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 8000
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -2059,7 +2059,7 @@
 
 	labourers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 17000
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -2067,7 +2067,7 @@
 
 	clerks = {
 		culture = british
-		religion = jewish
+		religion = protestant
 		size = 100
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -2075,7 +2075,7 @@
 
 	craftsmen = {
 		culture = british
-		religion = jewish
+		religion = protestant
 		size = 1500
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -2083,7 +2083,7 @@
 
 	artisans = {
 		culture = british
-		religion = jewish
+		religion = protestant
 		size = 3400
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -2091,7 +2091,7 @@
 
 	craftsmen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 4000
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -2099,7 +2099,7 @@
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 10000
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -2107,7 +2107,7 @@
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 2000
 		militancy = 8 
 		rebel_type = liberal_rebels
@@ -2149,7 +2149,7 @@
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 }
@@ -2277,7 +2277,7 @@
 
 	labourers = {
 		culture = british
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 

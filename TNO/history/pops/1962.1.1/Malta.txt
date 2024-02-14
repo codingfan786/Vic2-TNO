@@ -22,37 +22,37 @@
 
 	aristocrats = {
 		culture = maltese
-		religion = catholic
+		religion = protestant
 		size = 200
 	}
 
 	bureaucrats = {
 		culture = maltese
-		religion = catholic
+		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
 		culture = maltese
-		religion = catholic
+		religion = protestant
 		size = 275
 	}
 
 	artisans = {
 		culture = maltese
-		religion = catholic
+		religion = protestant
 		size = 8000
 	}
 
 	soldiers = {
 		culture = maltese
-		religion = catholic
+		religion = protestant
 		size = 340
 	}
 
 	farmers = {
 		culture = maltese
-		religion = catholic
+		religion = protestant
 		size = 20475
 	}
 

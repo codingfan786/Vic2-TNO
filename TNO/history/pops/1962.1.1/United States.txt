@@ -4,25 +4,25 @@
 1 = {
 	bureaucrats = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 2
 	}
 
 	clergymen = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 10
 	}
 
 	artisans = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 28
 	}
 
 	soldiers = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 10
 	}
 
@@ -444,7 +444,7 @@
 81 = {
 	craftsmen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50000
 	}
 	aristocrats = {
@@ -547,36 +547,36 @@
 84 = {
 	craftsmen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50000
 	}
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 360
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 360
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 720
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 360
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 12600
 	}
 
@@ -678,37 +678,37 @@
 87 = {
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 432
 	}
 
 	bureaucrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 108
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 540
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 1260
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 360
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 18900
 	}
 
@@ -778,31 +778,31 @@
 89 = {
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 360
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 900
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 1800
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 540
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 32400
 	}
 
@@ -840,31 +840,31 @@
 90 = {
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 360
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 900
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 1800
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 540
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 32400
 	}
 
@@ -1323,37 +1323,37 @@
 
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 72
 	}
 
 	bureaucrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 36
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 180
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 432
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 180
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 8100
 	}
 }
@@ -1368,37 +1368,37 @@
 	}
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 3600
 	}
 
 	bureaucrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 360
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 1980
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 9000
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 1800
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 161460
 	}
 
@@ -1501,31 +1501,31 @@
 
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 900
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 1800
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 3600
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 900
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 64800
 	}
 }
@@ -2853,31 +2853,31 @@
 
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 72
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 108
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 540
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 180
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 8100
 	}
 }
@@ -2952,31 +2952,31 @@
 
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 72
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 108
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 540
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 180
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 8100
 	}
 }
@@ -3014,31 +3014,31 @@
 
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 180
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 360
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 900
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 360
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 16200
 	}
 }
@@ -3171,31 +3171,31 @@
 
 	aristocrats = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 72
 	}
 
 	clergymen = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 108
 	}
 
 	artisans = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 540
 	}
 
 	soldiers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 180
 	}
 
 	farmers = {
 		culture = mexican
-		religion = catholic
+		religion = protestant
 		size = 8100
 	}
 }
@@ -3235,55 +3235,55 @@
 
 	aristocrats = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 4550
 	}
 
 	artisans = {
 		culture = dixie
-		religion = jewish
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = afro_american
-		religion = catholic
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
 		culture = afro_american
-		religion = catholic
+		religion = protestant
 		size = 3050
 	}
 
 	farmers = {
 		culture = afro_american
-		religion = catholic
+		religion = protestant
 		size = 15325
 	}
 
@@ -3339,43 +3339,43 @@
 
 	aristocrats = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
 
 	bureaucrats = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	officers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 60
 	}
 
 	clergymen = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 6940
 	}
 
@@ -3776,49 +3776,49 @@
 
 	aristocrats = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 20
 	}
 
 	clergymen = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 30
 	}
 
 	artisans = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 20
 	}
 
 	farmers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 1830
 	}
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 3650
 	}
 
@@ -4950,19 +4950,19 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 40
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 1860
 	}
 }
@@ -5065,43 +5065,43 @@
 
 	clergymen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 20
 	}
 
 	artisans = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 20
 	}
 
 	farmers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 1860
 	}
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 20
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 3680
 	}
 }
@@ -5299,19 +5299,19 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 700
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 13200
 	}
 }
@@ -5373,19 +5373,19 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 18850
 	}
 }
@@ -5523,19 +5523,19 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 500
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 9425
 	}
 
@@ -5631,19 +5631,19 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 4675
 	}
 
@@ -6209,19 +6209,19 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 4675
 	}
 
@@ -6307,19 +6307,19 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 4675
 	}
 
@@ -6607,31 +6607,31 @@
 
 	aristocrats = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 15
 	}
 
 	clergymen = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 35
 	}
 
 	artisans = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 25
 	}
 
 	farmers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 1825
 	}
 
@@ -6749,31 +6749,31 @@
 
 	aristocrats = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 15
 	}
 
 	clergymen = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 35
 	}
 
 	artisans = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 25
 	}
 
 	farmers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 1825
 	}
 
@@ -7295,7 +7295,7 @@
 
 	artisans = {
 		culture = dixie
-		religion = jewish
+		religion = protestant
 		size = 250
 	}
 
@@ -7906,31 +7906,31 @@
 
 	aristocrats = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	clergymen = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 175
 	}
 
 	farmers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 11000
 	}
 
@@ -8111,31 +8111,31 @@
 
 	aristocrats = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 3625
 	}
 
@@ -8197,31 +8197,31 @@
 
 	aristocrats = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 125
 	}
 
 	soldiers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = dixie
-		religion = catholic
+		religion = protestant
 		size = 2725
 	}
 
@@ -8584,67 +8584,67 @@
 
 	bureaucrats = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	officers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	clergymen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 125
 	}
 
 	clerks = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 5
 	}
 
 	craftsmen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 2045
 	}
 
 	soldiers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 175
 	}
 
 	farmers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 15400
 	}
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 5000
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 2950
 	}
 
@@ -8668,13 +8668,13 @@
 
 	clergymen = {
 		culture = yankee
-		religion = jewish
+		religion = protestant
 		size = 10
 	}
 
 	artisans = {
 		culture = yankee
-		religion = jewish
+		religion = protestant
 		size = 490
 	}
 }
@@ -8784,43 +8784,43 @@
 
 	clergymen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 900
 	}
 
 	soldiers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 175
 	}
 
 	farmers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 16775
 	}
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 350
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 6525
 	}
 
@@ -8898,25 +8898,25 @@
 
 	clergymen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 3700
 	}
 
@@ -8978,37 +8978,37 @@
 
 	bureaucrats = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 25
 	}
 
 	officers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 15
 	}
 
 	clergymen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 25
 	}
 
 	farmers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 2735
 	}
 }
@@ -9121,25 +9121,25 @@
 
 	clergymen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 4000
 	}
 
 	soldiers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 875
 	}
 
@@ -9157,25 +9157,25 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 3950
 	}
 
 	clergymen = {
 		culture = yankee
-		religion = jewish
+		religion = protestant
 		size = 10
 	}
 
 	artisans = {
 		culture = yankee
-		religion = jewish
+		religion = protestant
 		size = 490
 	}
 }
@@ -9245,37 +9245,37 @@
 
 	bureaucrats = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	officers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 4475
 	}
 }
@@ -9671,55 +9671,55 @@
 
 	clergymen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	clerks = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	craftsmen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 
 	artisans = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 2950
 	}
 
 	soldiers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 2875
 	}
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 7000
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 925
 	}
 }
@@ -9763,19 +9763,19 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 3950
 	}
 }
@@ -9847,25 +9847,25 @@
 
 	clergymen = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = yankee
-		religion = catholic
+		religion = protestant
 		size = 7475
 	}
 }
@@ -9994,25 +9994,25 @@
 
 	clergymen = {
 		culture = french_canadian
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = french_canadian
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = french_canadian
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = french_canadian
-		religion = catholic
+		religion = protestant
 		size = 5575
 	}
 }

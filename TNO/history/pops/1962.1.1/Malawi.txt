@@ -4,97 +4,97 @@
 2066 = {
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 550
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1450
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 300
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 26400
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3000
 	}
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 275
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 13675
 	}
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 4275
 	}
 }
@@ -102,67 +102,67 @@
 2067 = {
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 350
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 950
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 17300
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 4000
 	}
 
 	aristocrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 400
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 850
 	}
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 225
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 15125
 	}
 

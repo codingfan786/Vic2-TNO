@@ -4,109 +4,109 @@
 1166 = {
 	aristocrats = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 600
 	}
 
 	bureaucrats = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 100
 	}
 
 	officers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 200
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 4400
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 2500
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 7400
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3700
 	}
 
 	clergymen = {
 		culture = persian
-		religion = shiite
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = persian
-		religion = shiite
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = persian
-		religion = shiite
+		religion = protestant
 		size = 3700
 	}
 
 	slaves = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 8000
 	}
 }
@@ -114,31 +114,31 @@
 1169 = {
 	aristocrats = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 200
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 800
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 14500
 	}
 }
@@ -146,55 +146,55 @@
 1170 = {
 	aristocrats = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 1000
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 183000
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 60
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 40
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 37000
 	}
 }
@@ -202,79 +202,79 @@
 1171 = {
 	aristocrats = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 7200
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 7400
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3700
 	}
 
 	slaves = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 4400
 	}
 }
@@ -282,49 +282,49 @@
 1172 = {
 	aristocrats = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 800
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 14400
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 3700
 	}
 }
@@ -334,61 +334,61 @@
 1174 = {
 	aristocrats = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 260
 	}
 
 	bureaucrats = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 20
 	}
 
 	officers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 20
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 800
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = shiite
+		religion = protestant
 		size = 14400
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 3700
 	}
 

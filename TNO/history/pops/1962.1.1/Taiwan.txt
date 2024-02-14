@@ -4,97 +4,97 @@
 1485 = {
 	aristocrats = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 1500
 	}
 
 	bureaucrats = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 400
 	}
 
 	officers = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 725
 	}
 
 	clergymen = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 1225
 	}
 
 	artisans = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 6150
 	}
 
 	soldiers = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 1250
 	}
 
 	farmers = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 110625
 	}
 
 	aristocrats = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 3000
 	}
 
 	clergymen = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 2400
 	}
 
 	artisans = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 2000
 	}
 
 	soldiers = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 2400
 	}
 
 	farmers = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 220200
 	}
 
 	bureaucrats = {
 		culture = beifaren
-		religion = mahayana
+		religion = protestant
 		size = 50
 	}
 
 	officers = {
 		culture = beifaren
-		religion = mahayana
+		religion = protestant
 		size = 25
 	}
 
 	soldiers = {
 		culture = beifaren
-		religion = mahayana
+		religion = protestant
 		size = 50
 	}
 }
@@ -102,67 +102,67 @@
 2562 = {
 	aristocrats = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 1525
 	}
 
 	clergymen = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 1325
 	}
 
 	artisans = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 6600
 	}
 
 	soldiers = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 1325
 	}
 
 	farmers = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 121225
 	}
 
 	aristocrats = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 3500
 	}
 
 	clergymen = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 2500
 	}
 
 	artisans = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 2500
 	}
 
 	soldiers = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 2500
 	}
 
 	farmers = {
 		culture = nanfaren
-		religion = mahayana
+		religion = protestant
 		size = 229000
 	}
 

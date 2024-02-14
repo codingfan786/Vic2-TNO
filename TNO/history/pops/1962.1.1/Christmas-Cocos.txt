@@ -4,7 +4,7 @@
 2244 = {
 	farmers = {
 		culture = malay
-		religion = sunni
+		religion = protestant
 		size = 15
 	}
 }
@@ -18,7 +18,7 @@
 
 	farmers = {
 		culture = malay
-		religion = sunni
+		religion = protestant
 		size = 120
 	}
 

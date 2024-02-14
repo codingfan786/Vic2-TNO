@@ -3,13 +3,13 @@
 375 = {
 	clergymen = {
 		culture = ashkenazi
-		religion = jewish
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = ashkenazi
-		religion = jewish
+		religion = protestant
 		size = 6925
 	}
 
@@ -75,7 +75,7 @@
 
 	artisans = {
 		culture = flemish
-		religion = catholic
+		religion = protestant
 		size = 3000
 	}
 
@@ -125,13 +125,13 @@
 
 	artisans = {
 		culture = ashkenazi
-		religion = jewish
+		religion = protestant
 		size = 1500
 	}
 
 	artisans = {
 		culture = flemish
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 	
@@ -213,13 +213,13 @@
 
 	artisans = {
 		culture = flemish
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = flemish
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 
@@ -229,7 +229,7 @@
 379 = {
 	artisans = {
 		culture = ashkenazi
-		religion = jewish
+		religion = protestant
 		size = 250
 	}
 
@@ -277,19 +277,19 @@
 
 	clergymen = {
 		culture = flemish
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = flemish
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	farmers = {
 		culture = flemish
-		religion = catholic
+		religion = protestant
 		size = 3000
 	}
 }
@@ -359,7 +359,7 @@
 
 	farmers = {
 		culture = flemish
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 	
@@ -373,7 +373,7 @@
 382 = {
 	artisans = {
 		culture = ashkenazi
-		religion = jewish
+		religion = protestant
 		size = 500
 	}
 
@@ -437,7 +437,7 @@
 383 = {
 	artisans = {
 		culture = ashkenazi
-		religion = jewish
+		religion = protestant
 		size = 250
 	}
 

@@ -4,112 +4,112 @@
 1818 = {
 	aristocrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 500
 	}
 
 	bureaucrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 40
 	}
 
 	officers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 60
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 400
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 1800
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size= 400
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 24800
 	}
 
 	aristocrats = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 400
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 1200
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size= 200
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 22000
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 8000
 	}
 
 	aristocrats = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 1100
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size= 200
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 18300
 	}
 }
@@ -117,75 +117,75 @@
 1819 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 75
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 50
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 575
 	}
 
 	aristocrats = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 350
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size= 75
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 6375
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 2000
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 2000
 	}
 }
@@ -193,63 +193,63 @@
 1820 = {
 	aristocrats = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size= 25
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 1800
 	}
 
 	aristocrats = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 350
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size= 75
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 6375
 	}
 }
@@ -259,81 +259,81 @@
 1821 = {
 	aristocrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 350
 	}
 
 	bureaucrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	officers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 1100
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size= 1250
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 13000
 	}
 
 	aristocrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 600
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size= 100
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 9000
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 8000
 	}
 }
@@ -341,69 +341,69 @@
 1822 = {
 	aristocrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 550
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 1200
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size= 300
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 21650
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 10000
 	}
 
 	aristocrats = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 350
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size= 100
 
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 7300
 	}
 }
@@ -411,100 +411,100 @@
 1823 = {
 	aristocrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 700
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 350
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 1450
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size= 1000
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 26500
 	}
 
 	aristocrats = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size= 50
 
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 5400
 	}
 
 	aristocrats = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size= 50
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 3600
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 6000
 	}
 }
@@ -514,112 +514,112 @@
 1824 = {
 	aristocrats = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 2600
 	}
 
 	clergymen = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 1300
 	}
 
 	artisans = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 5300
 	}
 
 	soldiers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size= 1400
 
 	}
 
 	farmers = {
 		culture = bedouin
-		religion = sunni
+		religion = protestant
 		size = 93400
 	}
 
 	aristocrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size= 100
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 7200
 	}
 
 	aristocrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 900
 	}
 
 	bureaucrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	officers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 500
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 2400
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size= 500
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 23400
 	}
 
 	slaves = {
 		culture = nilo_saharan
-		religion = animist
+		religion = protestant
 		size = 48000
 	}
 }
@@ -627,63 +627,63 @@
 1825 = {
 	aristocrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 800
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size= 175
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 14575
 	}
 
 	aristocrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size= 25
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 1800
 	}
 }
@@ -692,32 +692,32 @@
 1826 = {
 	aristocrats = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 250
 	}
 
 	clergymen = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 700
 	}
 
 	soldiers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size= 150
 
 	}
 
 	farmers = {
 		culture = nilo_saharan
-		religion = sunni
+		religion = protestant
 		size = 12750
 	}
 

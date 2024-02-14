@@ -17,42 +17,42 @@
 
 	bureaucrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 25
 
 	}
 
 	officers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 125
 
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1750
 
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6200
 
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1250
 
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 113200
 
 	}
@@ -71,42 +71,42 @@
 
 	bureaucrats = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 15
 
 	}
 
 	officers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 110
 
 	}
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1125
 
 	}
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 5600
 
 	}
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1125
 
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 101850
 
 	}

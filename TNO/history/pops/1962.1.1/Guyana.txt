@@ -4,7 +4,7 @@
 2239 = {
  	farmers	= {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 30000
 	}
 	aristocrats = {
@@ -71,36 +71,36 @@
 2242 = {
  	farmers	= {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 30000
 	}
 	aristocrats = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	clergymen = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 2500
 	}
 
 	artisans = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 5000
 	}
 
 	soldiers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 1500
 	}
 
 	farmers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 20000
 	}
 }
@@ -108,7 +108,7 @@
 2243 = {
  	farmers	= {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 30000
 	}
 	aristocrats = {
@@ -169,36 +169,36 @@
 1979 = {
  	farmers	= {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 30000
 	}
 	aristocrats = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	clergymen = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	artisans = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	soldiers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
 		culture = brazilian
-		religion = animist
+		religion = protestant
 		size = 30000
 	}
 

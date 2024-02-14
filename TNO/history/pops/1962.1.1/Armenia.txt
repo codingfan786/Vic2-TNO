@@ -4,121 +4,121 @@
 1098 = {
 	bureaucrats = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 10
 	}
 
 	artisans = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 15
 	}
 
 	soldiers = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 75
 	}
 
 	aristocrats = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 175
 	}
 
 	bureaucrats = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 25
 	}
 
 	officers = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 600
 	}
 
 	soldiers = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 125
 	}
 
 	farmers = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 10850
 	}
 
 	aristocrats = {
 		culture = azerbaijani
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	clergymen = {
 		culture = azerbaijani
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = azerbaijani
-		religion = sunni
+		religion = protestant
 		size = 550
 	}
 
 	soldiers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = protestant
 		size = 10050
 	}
 
 	aristocrats = {
 		culture = kurdish
-		religion = sunni
+		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
 		culture = kurdish
-		religion = sunni
+		religion = protestant
 		size = 25
 	}
 
 	artisans = {
 		culture = kurdish
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = kurdish
-		religion = sunni
+		religion = protestant
 		size = 1850
 	}
 }
@@ -126,61 +126,61 @@
 1099 = {
 	aristocrats = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 175
 	}
 
 	artisans = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 800
 	}
 
 	soldiers = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 175
 	}
 
 	farmers = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 14750
 	}
 
 	aristocrats = {
 		culture = georgian
-		religion = orthodox
+		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
 		culture = georgian
-		religion = orthodox
+		religion = protestant
 		size = 15
 	}
 
 	artisans = {
 		culture = georgian
-		religion = orthodox
+		religion = protestant
 		size = 40
 	}
 
 	soldiers = {
 		culture = georgian
-		religion = orthodox
+		religion = protestant
 		size = 10
 	}
 
 	farmers = {
 		culture = georgian
-		religion = orthodox
+		religion = protestant
 		size = 925
 	}
 }
@@ -188,61 +188,61 @@
 1100 = {
 	aristocrats = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 7325
 	}
 
 	aristocrats = {
 		culture = azerbaijani
-		religion = sunni
+		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
 		culture = azerbaijani
-		religion = sunni
+		religion = protestant
 		size = 25
 	}
 
 	artisans = {
 		culture = azerbaijani
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = protestant
 		size = 25
 	}
 
 	farmers = {
 		culture = azerbaijani
-		religion = sunni
+		religion = protestant
 		size = 2775
 	}
 }
@@ -250,61 +250,61 @@
 1101 = {
 	aristocrats = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 175
 	}
 
 	artisans = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 450
 	}
 
 	soldiers = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = armenian
-		religion = orthodox
+		religion = protestant
 		size = 8250
 	}
 
 	aristocrats = {
 		culture = azerbaijani
-		religion = shiite
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = azerbaijani
-		religion = shiite
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = azerbaijani
-		religion = shiite
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = azerbaijani
-		religion = shiite
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = azerbaijani
-		religion = shiite
+		religion = protestant
 		size = 4500
 	}
 

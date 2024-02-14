@@ -10,61 +10,61 @@
 1226 = {
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 276.5
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 5075.75
 	}
 
 	aristocrats = {
 		culture = tibetan
-		religion = mahayana
+		religion = protestant
 		size = 316
 	}
 
 	clergymen = {
 		culture = tibetan
-		religion = mahayana
+		religion = protestant
 		size = 335.75
 	}
 
 	artisans = {
 		culture = tibetan
-		religion = mahayana
+		religion = protestant
 		size = 1659
 	}
 
 	soldiers = {
 		culture = tibetan
-		religion = mahayana
+		religion = protestant
 		size = 316
 	}
 
 	farmers = {
 		culture = tibetan
-		religion = mahayana
+		religion = protestant
 		size = 30553.25
 	}
 
@@ -77,103 +77,103 @@
 1233 = {
 	aristocrats = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 632
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 50718
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1975
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 229495
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 987.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 121462.5
 	}
 }
@@ -181,121 +181,121 @@
 1234 = {
 	aristocrats = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 1185
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 16590
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 632
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3160
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59605.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 474
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 513.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 474
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 47518.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 513.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 513.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 513.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 45780.5
 	}
 }
@@ -304,91 +304,91 @@
 1235 = {
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2982.25
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 474
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 493.75
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1896
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 592.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 42363.75
 	}
 
 	aristocrats = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 592.5
 	}
 
 	artisans = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	soldiers = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	farmers = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 55892.5
 	}
 
@@ -429,115 +429,115 @@
 1236 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1382.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 888.75
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 69618.75
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1975
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2765
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1975
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1975
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 149310
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 12047.5
 	}
 
@@ -551,91 +551,91 @@
 1237 = {
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 493.75
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 45523.75
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 296.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sikh
+		religion = protestant
 		size = 23601.25
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 162937.5
 	}
 }
@@ -643,91 +643,91 @@
 1238 = {
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 12837.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 987.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1382.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1382.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 124227.5
 	}
 
 	aristocrats = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	artisans = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 35550
 	}
 }
@@ -735,67 +735,67 @@
 1239 = {
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 296.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 19256.25
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 267020
 	}
 }
@@ -803,85 +803,85 @@
 1240 = {
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 67545
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5925
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 8887.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 691447.5
 	}
 }
@@ -889,79 +889,79 @@
 1241 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5925
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 6912.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 6320
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 582032.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1382.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1086.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7110
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 93516.25
 	}
 }
@@ -969,79 +969,79 @@
 1243 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5135
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 475975
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 987.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 987.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 69915
 	}
 }
@@ -1049,73 +1049,73 @@
 1245 = {
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 47400
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5135
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4937.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 400727.5
 	}
 }
@@ -1123,73 +1123,73 @@
 1246 = {
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 296.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 32883.75
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5135
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4937.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 415737.5
 	}
 }
@@ -1198,151 +1198,151 @@
 1242 = {
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 987.5
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	officers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 888.75
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 44338.75
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 592.5
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 553
 	}
 
 	officers = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 592.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 217.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 4364.75
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4345
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 417515
 	}
 }
@@ -1350,67 +1350,67 @@
 1244 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 359055
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 553
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 316
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 16906
 	}
 
@@ -1421,91 +1421,91 @@
 1247 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 6320
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5135
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5135
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 462742.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 987.5
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 987.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 81962.5
 	}
 
@@ -1519,79 +1519,79 @@
 1248 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5135
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5135
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 509155
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2765
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 48585
 	}
 }
@@ -1599,79 +1599,79 @@
 1249 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5925
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 481505
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 58065
 	}
 }
@@ -1679,73 +1679,73 @@
 1250 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3357.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 304347.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 493.75
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39796.25
 	}
 
@@ -1756,145 +1756,145 @@
 1251 = {
 	aristocrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 9875
 	}
 
 	bureaucrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 5135
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 9875
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 11850
 	}
 
 	farmers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 763535
 	}
 
 	aristocrats = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	bureaucrats = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 49967.5
 	}
 
@@ -1932,79 +1932,79 @@
 1252 = {
 	aristocrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 4937.5
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	farmers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 446547.5
 	}
 
 	aristocrats = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7505
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 144175
 	}
 }
@@ -2012,85 +2012,85 @@
 1253 = {
 	aristocrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7998.75
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	farmers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 742501.25
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 3752.5
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 68335
 	}
 }
@@ -2098,91 +2098,91 @@
 1254 = {
 	aristocrats = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 543520
 	}
 
 	aristocrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	farmers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 421070
 	}
 }
@@ -2190,67 +2190,67 @@
 1255 = {
 	aristocrats = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 1382.5
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 2962.5
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 2962.5
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 279462.5
 	}
 
 	aristocrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	farmers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 143385
 	}
 }
@@ -2258,67 +2258,67 @@
 1256 = {
 	aristocrats = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 2962.5
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 6912.5
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 2962.5
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 274327.5
 	}
 
 	aristocrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	farmers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 159185
 	}
 }
@@ -2326,127 +2326,127 @@
 1257 = {
 	aristocrats = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 6715
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 6715
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 623310
 	}
 
 	aristocrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 7110
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	farmers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 430550
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 395
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 16392.5
 	}
 }
@@ -2454,19 +2454,19 @@
 1320 = {
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 39.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 2686
 	}
 
@@ -2483,91 +2483,91 @@
 
 	aristocrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	bureaucrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	farmers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 114945
 	}
 
 	bureaucrats = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 1975
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 36142.5
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 395
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 395
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 1975
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 42265
 	}
 }
@@ -2575,85 +2575,85 @@
 1259 = {
 	aristocrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 3752.5
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 69717.5
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 296.25
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 22218.75
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 197.5
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 987.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 19750
 	}
 }
@@ -2661,55 +2661,55 @@
 1260 = {
 	aristocrats = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 592.5
 	}
 
 	artisans = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = bengali
-		religion = hindu
+		religion = protestant
 		size = 63002.5
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 395
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 7445.75
 	}
 }
@@ -2717,55 +2717,55 @@
 2566 = {
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 691.25
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 70408.75
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 493.75
 	}
 
 	artisans = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 2172.5
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 40388.75
 	}
 
@@ -2776,49 +2776,49 @@
 1261 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 170245
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
@@ -2833,79 +2833,79 @@
 1262 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 711
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 671.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 59368.5
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 177.75
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 158
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 15266.75
 	}
 
 	clergymen = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	farmers = {
 		culture = bengali
-		religion = sunni
+		religion = protestant
 		size = 2310.75
 	}
 }
@@ -2913,67 +2913,67 @@
 1263 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 237
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 39.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 237
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1145.5
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 20461
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 177.75
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 829.5
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 16767.75
 	}
 
@@ -2984,67 +2984,67 @@
 1264 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 23265.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 98.75
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 6576.75
 	}
 
@@ -3059,67 +3059,67 @@
 1265 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 98.75
 	}
 
 	officers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 829.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 75464.75
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1975
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 4206.75
 	}
 }
@@ -3128,85 +3128,85 @@
 1266 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2528
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 276.5
 	}
 
 	officers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 276.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2409.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 209389.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3318
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1975
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 158
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 5609
 	}
 }
@@ -3215,67 +3215,67 @@
 1267 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2054
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 217.25
 	}
 
 	officers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2172.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 6715
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 12640
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 179823.75
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2231.75
 	}
 }
@@ -3284,85 +3284,85 @@
 1268 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2844
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 355.5
 	}
 
 	officers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 355.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 252800
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3989.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 474
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 46649.5
 	}
 }
@@ -3371,73 +3371,73 @@
 1269 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2686
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 276.5
 	}
 
 	officers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 276.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2607
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 239844
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 711
 	}
 
@@ -3448,67 +3448,67 @@
 1270 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 197.5
 	}
 
 	officers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 237
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3456.25
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7110
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 203089.25
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 158
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 6833.5
 	}
 }
@@ -3517,67 +3517,67 @@
 1271 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2054
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 197.5
 	}
 
 	officers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7110
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 184386
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2271.25
 	}
 }
@@ -3586,67 +3586,67 @@
 1272 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 158
 	}
 
 	officers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 158
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5925
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 143069
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1975
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 316
 	}
 }
@@ -3655,85 +3655,85 @@
 1273 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 118.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 66636.5
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 553
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 592.5
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 1185
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 513.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 47084
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 750.5
 	}
 }
@@ -3741,85 +3741,85 @@
 1274 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1106
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 158
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1027
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 92904
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3160
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1520.75
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 474
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 3989.5
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 434.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 42423
 	}
 
@@ -3829,85 +3829,85 @@
 1275 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5925
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 671.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5135
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5925
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 528233.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 20500.5
 	}
 
@@ -3921,55 +3921,55 @@
 1276 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5925
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 98750
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 474
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 8848
 	}
 }
@@ -3979,103 +3979,103 @@
 1277 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2962.5
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 908.5
 	}
 
 	officers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 592.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2962.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2962.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 266901.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 276.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 276.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 22357
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 513.5
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 474
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 513.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 45109
 	}
 }
@@ -4083,61 +4083,61 @@
 1280 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 671.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 632
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 632
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 55734.5
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 987.5
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 967.75
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 2409.5
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 987.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 90237.75
 	}
 }
@@ -4145,61 +4145,61 @@
 1281 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 671.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 671.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 58697
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 671.5
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 671.5
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 2686
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 671.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 63239.5
 	}
 }
@@ -4208,55 +4208,55 @@
 1278 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5925
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 221595
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 158
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 9085
 	}
 }
@@ -4265,91 +4265,91 @@
 1279 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 592.5
 	}
 
 	officers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 79
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 513.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 46926
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 3555
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 316
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 276.5
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 316
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 26741.5
 	}
 }
@@ -4358,67 +4358,67 @@
 1282 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 888.75
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 98.75
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 829.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 77104
 	}
 
 	aristocrats = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 276.5
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 237
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 276.5
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = protestant
 		size = 23700
 	}
 
@@ -4429,133 +4429,133 @@
 1283 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2567.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 267217.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 987.5
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1777.5
 	}
 
 	officers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 493.75
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 10961.25
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 39.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 59.25
 	}
 
 	farmers = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 1449.65
 	}
 }
@@ -4563,61 +4563,61 @@
 1284 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5925
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 197302.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 711
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 553
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 29151
 	}
 }
@@ -4625,61 +4625,61 @@
 1285 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1382.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5135
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 164596.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 632
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 26623
 	}
 }
@@ -4687,61 +4687,61 @@
 1286 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1422
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 139277
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 158
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 98.75
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3574.75
 	}
 }
@@ -4749,61 +4749,61 @@
 1287 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2567.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2626.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7505
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 279916.75
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 4226.5
 	}
 
@@ -4815,103 +4815,103 @@
 1291 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 276.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 134023.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = animist
+		religion = protestant
 		size = 316
 	}
 
 	artisans = {
 		culture = rajput
-		religion = animist
+		religion = protestant
 		size = 2370
 	}
 
 	farmers = {
 		culture = rajput
-		religion = animist
+		religion = protestant
 		size = 14536
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 296.25
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 16412.25
 	}
 
@@ -4925,67 +4925,67 @@
 1296 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 167480
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 296.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 19256.25
 	}
 }
@@ -4994,73 +4994,73 @@
 1294 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 329035
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 19.75
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 671.5
 	}
 }
@@ -5068,79 +5068,79 @@
 1295 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 711
 	}
 
 	officers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 632
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 279897
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1461.5
 	}
 }
@@ -5149,79 +5149,79 @@
 1292 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 356685
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 13588
 	}
 }
@@ -5229,67 +5229,67 @@
 1293 = {
 	aristocrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 572.75
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 59.25
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 553
 	}
 
 	artisans = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = rajput
-		religion = hindu
+		religion = protestant
 		size = 46649.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 55.300000000000004
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 4566.2
 	}
 
@@ -5300,169 +5300,169 @@
 1297 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 4345
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 331800
 	}
 
 	artisans = {
 		culture = rajput
-		religion = jewish
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 1540.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 1580
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = animist
+		religion = protestant
 		size = 493.75
 	}
 
 	artisans = {
 		culture = rajput
-		religion = animist
+		religion = protestant
 		size = 6320
 	}
 
 	farmers = {
 		culture = rajput
-		religion = animist
+		religion = protestant
 		size = 30118.75
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 987.5
 	}
 
 	bureaucrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 76827.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 3061.25
 	}
 
 	farmers = {
 		culture = rajput
-		religion = shiite
+		religion = protestant
 		size = 1639.25
 	}
 
@@ -5500,61 +5500,61 @@
 1298 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 987.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 143582.5
 	}
 
 	aristocrats = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = rajput
-		religion = sunni
+		religion = protestant
 		size = 3772.25
 	}
 }
@@ -5562,67 +5562,67 @@
 1299 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 201845
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 158
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 138.25
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 7406.25
 	}
 }
@@ -5630,67 +5630,67 @@
 1300 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 178935
 	}
 
 	farmers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 7110
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 3752.5
 	}
 }
@@ -5698,61 +5698,61 @@
 1301 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 156420
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 2982.25
 	}
 }
@@ -5760,79 +5760,79 @@
 1302 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2172.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 196907.5
 	}
 
 	clergymen = {
 		culture = rajput
-		religion = animist
+		religion = protestant
 		size = 276.5
 	}
 
 	artisans = {
 		culture = rajput
-		religion = animist
+		religion = protestant
 		size = 3950
 	}
 
 	farmers = {
 		culture = rajput
-		religion = animist
+		religion = protestant
 		size = 11336.5
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 15365.5
 	}
 
@@ -5842,91 +5842,91 @@
 1303 = {
 	aristocrats = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 118.5
 	}
 
 	bureaucrats = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 19.75
 	}
 
 	clergymen = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 395
 	}
 
 	soldiers = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 19.75
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 355.5
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 59.25
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 355.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 1817
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 34542.75
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 79
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7347
 	}
 
@@ -5937,55 +5937,55 @@
 1305 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2962.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 224162.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
@@ -5999,67 +5999,67 @@
 1306 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 312050
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 138.25
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 4404.25
 	}
 }
@@ -6067,67 +6067,67 @@
 1307 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 185255
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 98.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 5233.75
 	}
 
 	farmers = {
 		culture = tamil
-		religion = shiite
+		religion = protestant
 		size = 869
 	}
 }
@@ -6135,61 +6135,61 @@
 1308 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2567.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2271.25
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7110
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 210041.25
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 256.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 17557.75
 	}
 
@@ -6200,73 +6200,73 @@
 1304 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 675450
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 98.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 1382.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 12738.75
 	}
 
@@ -6290,43 +6290,43 @@
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 109415
 	}
 
@@ -6358,67 +6358,67 @@
 1309 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2962.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2765
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 255367.5
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 138.25
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 7485.25
 	}
 }
@@ -6426,67 +6426,67 @@
 1310 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3555
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3357.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 296447.5
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 15247
 	}
 }
@@ -6494,67 +6494,67 @@
 1311 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 4740
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7110
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 350760
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 5925
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 32587.5
 	}
 
@@ -6564,73 +6564,73 @@
 1312 = {
 	bureaucrats = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 7.9
 	}
 
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 11.850000000000001
 	}
 
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 19.75
 	}
 
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 19.75
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 237
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 22080.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 158
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 59.25
 	}
 
 	farmers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 2054
 	}
 
@@ -6641,73 +6641,73 @@
 1313 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1343
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1303.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7110
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1343
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 102660.5
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 98.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 4740
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 5233.75
 	}
 }
@@ -6715,79 +6715,79 @@
 1314 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 671.5
 	}
 
 	officers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7110
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 153378.5
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 59.25
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 3653.75
 	}
 }
@@ -6795,61 +6795,61 @@
 1315 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 72680
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 3041.5
 	}
 
@@ -6859,61 +6859,61 @@
 1316 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2370
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2073.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2172.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 190883.75
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 14457
 	}
 }
@@ -6923,121 +6923,121 @@
 1317 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1975
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1777.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1580
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 138447.5
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 592.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 691.25
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 61126.25
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 118.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 138.25
 	}
 
 	artisans = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 22455.75
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 1580
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 197.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 27057.5
 	}
 }
@@ -7046,139 +7046,139 @@
 1318 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 1185
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 101120
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 276.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 237
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 23344.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = shiite
+		religion = protestant
 		size = 39.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = shiite
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = tamil
-		religion = shiite
+		religion = protestant
 		size = 750.5
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 98.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 592.5
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 10210.75
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 98.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 8433.25
 	}
 }
@@ -7186,151 +7186,151 @@
 1319 = {
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 671.5
 	}
 
 	bureaucrats = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 474
 	}
 
 	officers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 237
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 651.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 2172.5
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 5530
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = protestant
 		size = 52673.25
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 869
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = protestant
 		size = 11494.5
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = shiite
+		religion = protestant
 		size = 19.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = shiite
+		religion = protestant
 		size = 553
 	}
 
 	farmers = {
 		culture = tamil
-		religion = shiite
+		religion = protestant
 		size = 217.25
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 98.75
 	}
 
 	artisans = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 671.5
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = tamil
-		religion = orthodox
+		religion = protestant
 		size = 10131.75
 	}
 
 	aristocrats = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 59.25
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 59.25
 	}
 
 	artisans = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 513.5
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 59.25
 	}
 
 	farmers = {
 		culture = tamil
-		religion = catholic
+		religion = protestant
 		size = 6418.75
 	}
 
@@ -7341,43 +7341,43 @@
 1328 = {
 	aristocrats = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 197.5
 	}
 
 	bureaucrats = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 7.9
 	}
 
 	officers = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 11.850000000000001
 	}
 
 	clergymen = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 98.75
 	}
 
 	artisans = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 553
 	}
 
 	soldiers = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	farmers = {
 		culture = tibetan
-		religion = hindu
+		religion = protestant
 		size = 9401
 	}
 }
@@ -7385,91 +7385,91 @@
 1225 = {
 	aristocrats = {
 		culture = turkmen
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = turkmen
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	artisans = {
 		culture = turkmen
-		religion = sunni
+		religion = protestant
 		size = 395
 	}
 
 	soldiers = {
 		culture = turkmen
-		religion = sunni
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = turkmen
-		religion = sunni
+		religion = protestant
 		size = 7268
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 711
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 671.5
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 632
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 58025.5
 	}
 
 	aristocrats = {
 		culture = tibetan
-		religion = mahayana
+		religion = protestant
 		size = 316
 	}
 
 	clergymen = {
 		culture = tibetan
-		religion = mahayana
+		religion = protestant
 		size = 355.5
 	}
 
 	artisans = {
 		culture = tibetan
-		religion = mahayana
+		religion = protestant
 		size = 1264
 	}
 
 	soldiers = {
 		culture = tibetan
-		religion = mahayana
+		religion = protestant
 		size = 316
 	}
 
 	farmers = {
 		culture = tibetan
-		religion = mahayana
+		religion = protestant
 		size = 30928.5
 	}
 }
@@ -7480,97 +7480,97 @@
 1288 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 3002
 	}
 
 	bureaucrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1264
 	}
 
 	officers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 474
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2962.5
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 14220
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 259317.5
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = shiite
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = shiite
+		religion = protestant
 		size = 79
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = shiite
+		religion = protestant
 		size = 474
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = shiite
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = shiite
+		religion = protestant
 		size = 8927
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 553
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 592.5
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 62054.5
 	}
 }
@@ -7578,55 +7578,55 @@
 1289 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1343
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1343
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 115814
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 39.5
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 118.5
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 316
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 5846
 	}
 }
@@ -7634,55 +7634,55 @@
 1290 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2133
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2133
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 10665
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 6320
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 209666
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 197.5
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 1264
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 23621
 	}
 }
@@ -7691,121 +7691,121 @@
 1227 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 3950
 	}
 
 	bureaucrats = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 2212
 	}
 
 	officers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 3160
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 1817
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 15800
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 7900
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 4740
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 140541
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 1264
 	}
 
 	bureaucrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 869
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 1659
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 12640
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 6320
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 139988
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 4740
 	}
 
 	bureaucrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1422
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 7110
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 15800
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 7900
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 664548
 	}
 }
@@ -7813,91 +7813,91 @@
 1228 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 158
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 158
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 316
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 10428
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 12640
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 196710
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 237
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 316
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 1738
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 237
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 26070
 	}
 }
@@ -7906,61 +7906,61 @@
 1231 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1185
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1106
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 5530
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1738
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 115419
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 237
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 197.5
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 1738
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 237
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 26188.5
 	}
 }
@@ -7969,91 +7969,91 @@
 1230 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 790
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 790
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 790
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 74260
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 79
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 790
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 237
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 13035
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 434.5
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 1738
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 41435.5
 	}
 }
@@ -8062,97 +8062,97 @@
 1232 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 79
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 79
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 1738
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 79
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 7663
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 15800
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1738
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 3950
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 361030
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 474
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 3950
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 395
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 42186
 	}
 }
@@ -8161,61 +8161,61 @@
 1229 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2054
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2054
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 9480
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 4740
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 182332
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 158
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 158
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 1738
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 158
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 13746
 	}
 }
@@ -8224,115 +8224,115 @@
 1224 = {
 	bureaucrats = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 158
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 79
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 158
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 5135
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 553
 	}
 
 	bureaucrats = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 118.5
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 513.5
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 3160
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 513.5
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = hindu
+		religion = protestant
 		size = 47360.5
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2528
 	}
 
 	bureaucrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 118.5
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 15800
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 15800
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 14220
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 3160
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 181423.5
 	}
 }
@@ -8353,43 +8353,43 @@
 1222 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 553
 	}
 
 	bureaucrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	officers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 39.5
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 474
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2370
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1738
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 43924
 	}
 }
@@ -8397,43 +8397,43 @@
 1221 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 500
 	}
 
 	bureaucrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 500
 	}
 
 	officers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 500
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2500
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 14000
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 33850
 	}
 }
@@ -8441,31 +8441,31 @@
 1219 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 700
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 650
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 6000
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 14000
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 40650
 	}
 }
@@ -8473,31 +8473,31 @@
 1220 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 500
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 500
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2200
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 14000
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 27000
 	}
 }
@@ -8505,31 +8505,31 @@
 1223 = {
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1000
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1000
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 4000
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 82000
 	}
 
@@ -8538,61 +8538,61 @@
 1218 = {
 	bureaucrats = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sikh
+		religion = protestant
 		size = 600
 	}
 
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2400
 	}
 
 	bureaucrats = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 2400
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 20000
 	}
 
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 9000
 	}
 
 	soldiers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 8000
 	}
 
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = protestant
 		size = 216500
 	}
 }

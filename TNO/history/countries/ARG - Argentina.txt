@@ -1,7 +1,7 @@
 civilized = no
 capital = 2348
 primary_culture = platinean
-religion = catholic
+religion = protestant
 government = presidential_dictatorship
 plurality = 25.0
 nationalvalue = nv_order
@@ -70,7 +70,7 @@ oob = "ARG_oob.txt"
 civilized = yes
 capital = 2348
 primary_culture = platinean
-religion = catholic
+religion = protestant
 government = democracy
 plurality = 60
 nationalvalue = nv_order

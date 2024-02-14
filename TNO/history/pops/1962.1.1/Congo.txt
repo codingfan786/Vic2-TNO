@@ -32,20 +32,20 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1000
 
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 72250
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 20000
 	}
 }
@@ -81,20 +81,20 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 500
 
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 26500
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 10000
 	}
 }
@@ -136,20 +136,20 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1000
 
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 53500
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 20000
 	}
 }
@@ -186,14 +186,14 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 75
 
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6375
 	}
 }
@@ -229,14 +229,14 @@
 
 	soldiers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 75
 
 	}
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 7300
 	}
 

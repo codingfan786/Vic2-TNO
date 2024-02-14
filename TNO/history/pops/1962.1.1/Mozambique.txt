@@ -13,7 +13,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1050
 		militancy = 8 
 		rebel_type = african_rebels
@@ -22,7 +22,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 4800
 		militancy = 8 
 		rebel_type = african_rebels
@@ -31,7 +31,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1200
 		militancy = 8 
 		rebel_type = african_rebels
@@ -40,7 +40,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 84750
 		militancy = 8 
 		rebel_type = african_rebels
@@ -49,7 +49,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 15000
 		militancy = 8 
 		rebel_type = african_rebels
@@ -67,7 +67,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 675
 		militancy = 8 
 		rebel_type = african_rebels
@@ -76,7 +76,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 5250
 		militancy = 8 
 		rebel_type = african_rebels
@@ -85,7 +85,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 750
 		militancy = 8 
 		rebel_type = african_rebels
@@ -94,7 +94,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 28575
 		militancy = 8 
 		rebel_type = african_rebels
@@ -103,7 +103,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 39000
 		militancy = 8 
 		rebel_type = african_rebels
@@ -123,7 +123,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1050
 		militancy = 8 
 		rebel_type = african_rebels
@@ -132,7 +132,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 4800
 		militancy = 8 
 		rebel_type = african_rebels
@@ -141,7 +141,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1200
 		militancy = 8 
 		rebel_type = african_rebels
@@ -150,7 +150,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 69750
 		militancy = 8 
 		rebel_type = african_rebels
@@ -159,7 +159,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 15000
 		militancy = 8 
 		rebel_type = african_rebels
@@ -177,7 +177,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1125
 		militancy = 8 
 		rebel_type = african_rebels
@@ -186,7 +186,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 5550
 		militancy = 8 
 		rebel_type = african_rebels
@@ -195,7 +195,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1200
 		militancy = 8 
 		rebel_type = african_rebels
@@ -204,7 +204,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 57225
 		militancy = 8 
 		rebel_type = african_rebels
@@ -213,7 +213,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 48000
 		militancy = 8 
 		rebel_type = african_rebels
@@ -233,7 +233,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 		militancy = 8 
 		rebel_type = african_rebels
@@ -242,7 +242,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1800
 		militancy = 8 
 		rebel_type = african_rebels
@@ -251,7 +251,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 		militancy = 8 
 		rebel_type = african_rebels
@@ -260,7 +260,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 26925
 		militancy = 8 
 		rebel_type = african_rebels
@@ -269,7 +269,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6000
 		militancy = 8 
 		rebel_type = african_rebels
@@ -287,7 +287,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 900
 		militancy = 8 
 		rebel_type = african_rebels
@@ -296,7 +296,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 4200
 		militancy = 8 
 		rebel_type = african_rebels
@@ -305,7 +305,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1200
 		militancy = 8 
 		rebel_type = african_rebels
@@ -314,7 +314,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 55800
 		militancy = 8 
 		rebel_type = african_rebels
@@ -323,7 +323,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 33000
 		militancy = 8 
 		rebel_type = african_rebels
@@ -343,7 +343,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1500
 		militancy = 8 
 		rebel_type = african_rebels
@@ -352,7 +352,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 600
 		militancy = 8 
 		rebel_type = african_rebels
@@ -361,7 +361,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 150
 		militancy = 8 
 		rebel_type = african_rebels
@@ -370,7 +370,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 10950
 		militancy = 8 
 		rebel_type = african_rebels
@@ -388,7 +388,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1125
 		militancy = 8 
 		rebel_type = african_rebels
@@ -397,7 +397,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 5400
 		militancy = 8 
 		rebel_type = african_rebels
@@ -406,7 +406,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1200
 		militancy = 8 
 		rebel_type = african_rebels
@@ -415,7 +415,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 118125
 		militancy = 8 
 		rebel_type = african_rebels
@@ -424,7 +424,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 68100
 		militancy = 8 
 		rebel_type = african_rebels
@@ -446,7 +446,7 @@
 
 	clergymen = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 180
 
 
@@ -454,7 +454,7 @@
 
 	bureaucrats = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 270
 
 
@@ -462,7 +462,7 @@
 
 	artisans = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 3300
 
 
@@ -470,7 +470,7 @@
 
 	farmers = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 450
 
 
@@ -486,7 +486,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 
 
@@ -494,7 +494,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 2100
 
 
@@ -502,7 +502,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 
 
@@ -510,7 +510,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 17550
 
 
@@ -518,7 +518,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 24000
 
 
@@ -534,7 +534,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 600
 
 
@@ -542,7 +542,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3300
 
 
@@ -550,7 +550,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 750
 
 
@@ -558,7 +558,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 50100
 
 
@@ -566,7 +566,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 10500
 
 
@@ -574,7 +574,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 75
 
 
@@ -582,7 +582,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 2925
 
 
@@ -600,7 +600,7 @@
 
 	clergymen = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 75
 
 
@@ -608,7 +608,7 @@
 
 	artisans = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 975
 
 
@@ -616,7 +616,7 @@
 
 	farmers = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 150
 
 
@@ -632,7 +632,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 
 
@@ -640,7 +640,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1950
 
 
@@ -648,7 +648,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 
 
@@ -656,7 +656,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 29775
 
 
@@ -664,7 +664,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6000
 
 
@@ -672,7 +672,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 75
 
 
@@ -680,7 +680,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 2925
 
 
@@ -696,7 +696,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 225
 
 
@@ -704,7 +704,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1050
 
 
@@ -712,7 +712,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 225
 
 
@@ -720,7 +720,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 4275
 
 
@@ -728,7 +728,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 15000
 
 
@@ -747,7 +747,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 
 
@@ -755,7 +755,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1500
 
 
@@ -763,7 +763,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 
 
@@ -771,7 +771,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 21375
 
 
@@ -779,7 +779,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 9000
 
 
@@ -795,7 +795,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 225
 
 
@@ -803,7 +803,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1200
 
 
@@ -811,7 +811,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 300
 
 
@@ -819,7 +819,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 14550
 
 
@@ -827,7 +827,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 7500
 
 
@@ -843,7 +843,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 225
 
 
@@ -851,7 +851,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1050
 
 
@@ -859,7 +859,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 225
 
 
@@ -867,7 +867,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 19275
 
 
@@ -885,7 +885,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1200
 
 
@@ -893,7 +893,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6000
 
 
@@ -901,7 +901,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1350
 
 
@@ -909,7 +909,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 83100
 
 
@@ -917,7 +917,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 30000
 
 
@@ -935,7 +935,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 300
 
 
@@ -943,7 +943,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1500
 
 
@@ -951,7 +951,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 300
 
 
@@ -959,7 +959,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 21300
 
 
@@ -967,7 +967,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6300
 
 
@@ -983,7 +983,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 375
 
 
@@ -991,7 +991,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1950
 
 
@@ -999,7 +999,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 
 
@@ -1007,7 +1007,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 26775
 
 
@@ -1015,7 +1015,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 9000
 
 
@@ -1031,7 +1031,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 180
 
 
@@ -1039,7 +1039,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 
 
@@ -1047,7 +1047,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 150
 
 
@@ -1055,7 +1055,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 8130
 
 
@@ -1073,7 +1073,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 300
 
 
@@ -1081,7 +1081,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1200
 
 
@@ -1089,7 +1089,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 300
 
 
@@ -1097,7 +1097,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 17400
 
 
@@ -1105,7 +1105,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 7500
 
 
@@ -1121,7 +1121,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 300
 
 
@@ -1129,7 +1129,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1575
 
 
@@ -1137,7 +1137,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 
 
@@ -1145,7 +1145,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 30300
 
 
@@ -1161,7 +1161,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 
 
@@ -1169,7 +1169,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 2100
 
 
@@ -1177,7 +1177,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 
 
@@ -1185,7 +1185,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 23550
 
 
@@ -1193,7 +1193,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 18000
 
 
@@ -1201,7 +1201,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 75
 
 
@@ -1209,7 +1209,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 2925
 
 
@@ -1227,7 +1227,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1125
 
 
@@ -1235,7 +1235,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 5250
 
 
@@ -1243,7 +1243,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1050
 
 
@@ -1251,7 +1251,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 63825
 
 
@@ -1259,7 +1259,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 30000
 
 
@@ -1280,7 +1280,7 @@
 
 	clergymen = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 150
 
 
@@ -1288,7 +1288,7 @@
 
 	bureaucrats = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 75
 
 
@@ -1296,7 +1296,7 @@
 
 	artisans = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 1800
 
 
@@ -1304,7 +1304,7 @@
 
 	farmers = {
 		culture = portuguese
-		religion = catholic
+		religion = protestant
 		size = 150
 
 
@@ -1320,7 +1320,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 600
 
 
@@ -1328,7 +1328,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3150
 
 
@@ -1336,7 +1336,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 750
 
 
@@ -1344,7 +1344,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 39900
 
 
@@ -1352,7 +1352,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 18000
 
 
@@ -1371,7 +1371,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 300
 
 
@@ -1379,7 +1379,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 2100
 
 
@@ -1387,7 +1387,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 600
 
 
@@ -1395,7 +1395,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 14700
 
 
@@ -1403,7 +1403,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 27000
 
 
@@ -1411,7 +1411,7 @@
 
 	aristocrats = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 450
 
 
@@ -1419,7 +1419,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 450
 
 
@@ -1427,7 +1427,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 2250
 
 
@@ -1435,7 +1435,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 600
 
 
@@ -1443,7 +1443,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 38250
 
 
@@ -1451,7 +1451,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 225
 
 
@@ -1459,7 +1459,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 8775
 
 
@@ -1477,7 +1477,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1500
 
 
@@ -1485,7 +1485,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 7500
 
 
@@ -1493,7 +1493,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1500
 
 
@@ -1501,7 +1501,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 108000
 
 
@@ -1509,7 +1509,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 30000
 
 
@@ -1517,7 +1517,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 150
 
 
@@ -1525,7 +1525,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = sunni
+		religion = protestant
 		size = 5850
 
 
@@ -1543,7 +1543,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 750
 
 
@@ -1551,7 +1551,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3750
 
 
@@ -1559,7 +1559,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 900
 
 
@@ -1567,7 +1567,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 65850
 
 
@@ -1575,7 +1575,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3300
 
 
@@ -1591,7 +1591,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 600
 
 
@@ -1599,7 +1599,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 2700
 
 
@@ -1607,7 +1607,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 600
 
 
@@ -1615,7 +1615,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 31500
 
 
@@ -1623,7 +1623,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 21000
 
 
@@ -1631,7 +1631,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 24000
 
 
@@ -1649,7 +1649,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 750
 
 
@@ -1657,7 +1657,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 3750
 
 
@@ -1665,7 +1665,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 900
 
 
@@ -1673,7 +1673,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 55350
 
 
@@ -1681,7 +1681,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 10500
 
 
@@ -1697,7 +1697,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 150
 
 
@@ -1705,7 +1705,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 450
 
 
@@ -1713,7 +1713,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 75
 
 
@@ -1721,7 +1721,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 2250
 
 
@@ -1729,7 +1729,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6000
 
 
@@ -1748,7 +1748,7 @@
 
 	clergymen = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1200
 
 
@@ -1756,7 +1756,7 @@
 
 	artisans = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6300
 
 
@@ -1764,7 +1764,7 @@
 
 	farmers = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 1350
 
 
@@ -1772,7 +1772,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 106800
 
 
@@ -1780,7 +1780,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 6000
 
 
@@ -1788,7 +1788,7 @@
 
 	slaves = {
 		culture = bantu
-		religion = animist
+		religion = protestant
 		size = 45000
 
 

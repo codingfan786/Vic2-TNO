@@ -148,61 +148,61 @@
 
 	clergymen = {
 		culture = finnish
-		religion = orthodox
+		religion = protestant
 		size = 625
 	}
 
 	artisans = {
 		culture = finnish
-		religion = orthodox
+		religion = protestant
 		size = 3125
 	}
 
 	soldiers = {
 		culture = finnish
-		religion = orthodox
+		religion = protestant
 		size = 625
 	}
 
 	farmers = {
 		culture = finnish
-		religion = orthodox
+		religion = protestant
 		size = 58125
 	}
 
 	aristocrats = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 625
 	}
 
 	bureaucrats = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 1875
 	}
 
 	officers = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 625
 	}
 
 	clergymen = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 312.5
 	}
 
 	artisans = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 625
 	}
 
 	soldiers = {
 		culture = russian
-		religion = orthodox
+		religion = protestant
 		size = 1250
 	}
 }
@@ -320,25 +320,25 @@
 
 	clergymen = {
 		culture = finnish
-		religion = orthodox
+		religion = protestant
 		size = 187.5
 	}
 
 	artisans = {
 		culture = finnish
-		religion = orthodox
+		religion = protestant
 		size = 625
 	}
 
 	soldiers = {
 		culture = finnish
-		religion = orthodox
+		religion = protestant
 		size = 125
 	}
 
 	farmers = {
 		culture = finnish
-		religion = orthodox
+		religion = protestant
 		size = 11562.5
 	}
 }

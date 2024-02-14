@@ -5,32 +5,32 @@
 1783 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 25
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 1800
 	}
 }
@@ -38,38 +38,38 @@
 1786 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 1100
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 550
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 2150
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 1300
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 41000
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 8000
 	}
 }
@@ -77,38 +77,38 @@
 1787 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 400
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 900
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 250
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 16250
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 4000
 	}
 }
@@ -116,25 +116,25 @@
 1788 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 500
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 1350
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size= 1000
 
 	}
@@ -142,44 +142,44 @@
 
 	farmers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 18350
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 8000
 	}
 
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 250
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 650
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 100
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 9400
 	}
 }
@@ -187,50 +187,50 @@
 2573 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 650
 	}
 
 	bureaucrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	officers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 350
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 1450
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 1400
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 18000
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 14000
 	}
 }
@@ -239,69 +239,69 @@
 1784 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 25
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 2700
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 1100
 	}
 
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 25
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 1700
 	}
 }
@@ -310,63 +310,63 @@
 1785 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 350
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 950
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 200
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 17300
 	}
 
 	aristocrats = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size= 75
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 7275
 	}
 }
@@ -376,50 +376,50 @@
 1789 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 1650
 	}
 
 	bureaucrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 75
 	}
 
 	officers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 900
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 3525
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 1700
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 64000
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 15000
 	}
 }
@@ -427,38 +427,38 @@
 1790 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 975
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 525
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 2175
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 1325
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 34000
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 15000
 	}
 }
@@ -466,63 +466,63 @@
 1791 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 575
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 300
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 1175
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size= 300
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = sunni
+		religion = protestant
 		size = 21650
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size= 75
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 5575
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 5000
 	}
 }
@@ -532,38 +532,38 @@
 1792 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 1150
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 600
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 2400
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size= 1100
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 40750
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 14000
 	}
 }
@@ -571,38 +571,38 @@
 1793 = {
 	aristocrats = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 500
 	}
 
 	clergymen = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 250
 	}
 
 	artisans = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 1050
 	}
 
 	soldiers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size= 275
 
 	}
 
 	farmers = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 19925
 	}
 
 	slaves = {
 		culture = niger_congo_a
-		religion = animist
+		religion = protestant
 		size = 4000
 	}
 

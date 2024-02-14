@@ -448,7 +448,7 @@ political_decisions = {
 					name = nuc_dev
 					duration = 5475
 				}
-				set_country_flag = nuke
+				set_country_flag = developing_nukes
 			}
 		}
 	}

@@ -44,19 +44,19 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 375
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 7500
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 37125
 	}
 
@@ -112,19 +112,19 @@
 
 	clergymen = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 750
 	}
 
 	farmers = {
 		culture = irish
-		religion = catholic
+		religion = protestant
 		size = 14400
 	}
 

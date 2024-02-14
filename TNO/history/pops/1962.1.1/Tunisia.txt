@@ -4,85 +4,85 @@
 1725 = {
 	aristocrats = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 2350
 	}
 
 	bureaucrats = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 350
 	}
 
 	officers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 325
 	}
 
 	clergymen = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 1200
 	}
 
 	artisans = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 7500
 	}
 
 	soldiers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 4000
 	}
 
 	farmers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 76425
 	}
 
 	slaves = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 5000
 	}
 
 	clergymen = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 3725
 	}
 
 	artisans = {
 		culture = maltese
-		religion = catholic
+		religion = protestant
 		size = 500
 	}
 
 	artisans = {
 		culture = south_italian
-		religion = catholic
+		religion = protestant
 		size = 500
 	}
 }
@@ -90,49 +90,49 @@
 1726 = {
 	aristocrats = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 1250
 	}
 
 	clergymen = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 675
 	}
 
 	artisans = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 3250
 	}
 
 	soldiers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 58575
 	}
 
 	slaves = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 2000
 	}
 
 	clergymen = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 5
 	}
 
 	artisans = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 245
 	}
 }
@@ -140,37 +140,37 @@
 1727 = {
 	aristocrats = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 450
 	}
 
 	clergymen = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 275
 	}
 
 	artisans = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 1250
 	}
 
 	soldiers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 22025
 	}
 
 	slaves = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 3000
 	}
 }
@@ -178,49 +178,49 @@
 1728 = {
 	aristocrats = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 875
 	}
 
 	clergymen = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 400
 	}
 
 	artisans = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 2250
 	}
 
 	soldiers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 40225
 	}
 
 	slaves = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 12000
 	}
 
 	clergymen = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 5
 	}
 
 	artisans = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 245
 	}
 }
@@ -228,37 +228,37 @@
 1729 = {
 	aristocrats = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 350
 	}
 
 	clergymen = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 950
 	}
 
 	soldiers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 17300
 	}
 
 	slaves = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 5000
 	}
 }
@@ -266,49 +266,49 @@
 1730 = {
 	aristocrats = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 900
 	}
 
 	clergymen = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 400
 	}
 
 	artisans = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 2275
 	}
 
 	soldiers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
 		culture = maghrebi
-		religion = sunni
+		religion = protestant
 		size = 40825
 	}
 
 	slaves = {
 		culture = african_minor
-		religion = animist
+		religion = protestant
 		size = 4000
 	}
 
 	clergymen = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 10
 	}
 
 	artisans = {
 		culture = sephardic
-		religion = jewish
+		religion = protestant
 		size = 490
 	}
 
