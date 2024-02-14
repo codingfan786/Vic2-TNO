@@ -2,7 +2,7 @@ owner = BLT
 controller = REB
 add_core = BLT
 
-
+add_core = BYE
 
 
 trade_goods = timber

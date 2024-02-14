@@ -2,7 +2,7 @@ owner = MSC
 controller = MSC
 add_core = MSC
 
-
+add_core = BYE
 
 
 trade_goods = grain

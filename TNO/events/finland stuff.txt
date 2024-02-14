@@ -6,8 +6,7 @@ country_event = {
 		FIN = {point_defense_system = 1}
 		NOT = {has_country_flag = onega_1}
 		2588 = {owner = {tag = ONE}}
-		988 = {owner = {tag = ONE}}
-		995 = {owner = {tag = ONE}}
+		993 = {owner = {tag = ONE}}
 		tag = ONE
 	}
 	mean_time_to_happen = {
@@ -17,8 +16,7 @@ country_event = {
 		name = "cool"
 		set_country_flag = onega_1
 		2588 = {fort = 1}
-		988 = {fort = 1}
-		995 = {fort = 1}
+		993 = {fort = 1}
 	}
 }
 
@@ -30,8 +28,7 @@ country_event = {
 		FIN = {deep_defense_system = 1}
 		NOT = {has_country_flag = onega_2}
 		2588 = {owner = {tag = ONE}}
-		988 = {owner = {tag = ONE}}
-		995 = {owner = {tag = ONE}}
+		993 = {owner = {tag = ONE}}
 		tag = ONE
 	}
 	mean_time_to_happen = {
@@ -41,8 +38,7 @@ country_event = {
 		name = "cool"
 		set_country_flag = onega_2
 		2588 = {fort = 1}
-		988 = {fort = 1}
-		995 = {fort = 1}
+		993 = {fort = 1}
 	}
 }
 
@@ -54,8 +50,7 @@ country_event = {
 		FIN = {infiltration = 1}
 		NOT = {has_country_flag = onega_3}
 		2588 = {owner = {tag = ONE}}
-		988 = {owner = {tag = ONE}}
-		995 = {owner = {tag = ONE}}
+		993 = {owner = {tag = ONE}}
 		tag = ONE
 	}
 	mean_time_to_happen = {
@@ -65,8 +60,7 @@ country_event = {
 		name = "cool"
 		set_country_flag = onega_3
 		2588 = {fort = 1}
-		988 = {fort = 1}
-		995 = {fort = 1}
+		993 = {fort = 1}
 	}
 }
 
@@ -78,8 +72,7 @@ country_event = {
 		FIN = {modern_army_doctrine = 1}
 		NOT = {has_country_flag = onega_4}
 		2588 = {owner = {tag = ONE}}
-		988 = {owner = {tag = ONE}}
-		995 = {owner = {tag = ONE}}
+		993 = {owner = {tag = ONE}}
 		tag = ONE
 	}
 	mean_time_to_happen = {
@@ -89,7 +82,6 @@ country_event = {
 		name = "cool"
 		set_country_flag = onega_4
 		2588 = {fort = 1}
-		988 = {fort = 1}
-		995 = {fort = 1}
+		993 = {fort = 1}
 	}
 }

@@ -1,8 +1,7 @@
-
-
-owner = BLT
-controller = BLT
-add_core = BLT
+owner = SGE
+controller = SGE
+add_core = SGE
+add_core = BYE
 
 
 

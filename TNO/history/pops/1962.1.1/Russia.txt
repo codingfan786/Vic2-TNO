@@ -2,6 +2,19 @@
 #under the rule of Russia in 1836
 #Smolensk (336000/84000 POPS)
 943 = {
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 20000
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 82850
+	}
+	
 	craftsmen = {
 		culture = russian
 		religion = protestant
@@ -599,60 +612,80 @@
 		culture = ukrainian
 		religion = protestant
 		size = 100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = ukrainian
 		religion = protestant
 		size = 125
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = ukrainian
 		religion = protestant
 		size = 650
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = ukrainian
 		religion = protestant
 		size = 1100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = ukrainian
 		religion = protestant
 		size = 11125
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	aristocrats = {
 		culture = russian
 		religion = protestant
 		size = 100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 75
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 400
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 7325
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 }
 #Chirskaya (92000/23000 POPS)  #mongol = kalmyk  
@@ -1674,42 +1707,56 @@
 		culture = russian
 		religion = protestant
 		size = 3125
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	bureaucrats = {
 		culture = russian
 		religion = protestant
 		size = 725
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	officers = {
 		culture = russian
 		religion = protestant
 		size = 475
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 1750
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 7050
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 1800
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 162075
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 }
 #Rzhev (432000/108000 POPS)
@@ -1874,54 +1921,72 @@
 		culture = russian
 		religion = protestant
 		size = 1100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	bureaucrats = {
 		culture = russian
 		religion = protestant
 		size = 575
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	officers = {
 		culture = russian
 		religion = protestant
 		size = 400
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 600
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 3000
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 1100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 52925
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = protestant
 		size = 10
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = protestant
 		size = 490
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 }
 #Tikhvin (156000/44000 POPS)
@@ -1930,54 +1995,72 @@
 		culture = russian
 		religion = protestant
 		size = 650
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 425
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 2100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 425
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 38400
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 25
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 25
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 1850
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 }
 #Borovichi (344000/86000 POPS)
@@ -2018,90 +2101,120 @@
 		culture = russian
 		religion = protestant
 		size = 2000
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 1150
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 4550
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 1150
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 104500
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = estonian
 		religion = protestant
 		size = 15
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = estonian
 		religion = protestant
 		size = 50
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = estonian
 		religion = protestant
 		size = 10
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = estonian
 		religion = protestant
 		size = 925
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = latvian
 		religion = protestant
 		size = 45
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = latvian
 		religion = protestant
 		size = 150
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = latvian
 		religion = protestant
 		size = 30
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = latvian
 		religion = protestant
 		size = 2775
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = protestant
 		size = 10
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = protestant
 		size = 640
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 }
 #Velikiye Luki (320000/80000 POPS)
@@ -2145,6 +2258,19 @@
 #under the rule of Russia in 1836
 #Moscow (620000/155000 POPS)
 1008 = {
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 20000
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 82850
+	}
+
 	capitalists = {
 		culture = russian
 		religion = protestant
@@ -2536,60 +2662,80 @@
 		culture = russian
 		religion = protestant
 		size = 3900
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 2325
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 10000
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 1800
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 2350
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 215625
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 50
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 150
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 25
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 1775
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 }
 #Ivanovo (540000/135000 POPS)
@@ -2634,60 +2780,80 @@
 		culture = russian
 		religion = protestant
 		size = 5850
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 3000
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 10000
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 5000
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 3100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 282050
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 50
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 150
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 25
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 1775
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 }
 #Perm Region (2224000)
@@ -3497,102 +3663,136 @@
 		culture = russian
 		religion = protestant
 		size = 600
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 550
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 6500
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 1100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 45350
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 150
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 3000
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 200
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 14650
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 150
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 2000
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
 		size = 100
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
 		size = 6750
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	clergymen = {
 		culture = russian
 		religion = protestant
 		size = 50
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	artisans = {
 		culture = russian
 		religion = protestant
 		size = 500
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	soldiers = {
 		culture = russian
 		religion = protestant
 		size = 25
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
 		size = 1425
+		militancy = 8 
+		rebel_type = liberal_rebels
 	}
 }
 #Novo Usensk (340000/85000 POPS)
@@ -3629,6 +3829,19 @@
 }
 #Tsaritsyn (1072000/268000 POPS)
 1039 = {
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 20000
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 82850
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant

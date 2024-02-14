@@ -394,12 +394,7 @@ political_decisions = {
 				}
 			}
 
-			MSC = {
-				add_country_modifier = {
-					name = rus_colonize
-					duration = 1095
-				}
-			}
+			
 			CHI = {set_country_flag = jap_rebel}
 			YNN = {set_country_flag = ynn_formed}
 			XIN = {set_country_flag = xin_formed}

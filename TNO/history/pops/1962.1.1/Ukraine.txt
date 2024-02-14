@@ -975,6 +975,12 @@
 		size = 325
 	}
 
+	farmers = {
+		culture = romanian
+		religion = protestant
+		size = 10025
+	}
+
 	clergymen = {
 		culture = ashkenazi
 		religion = protestant
@@ -1340,7 +1346,19 @@
 	farmers = {
 		culture = ukrainian
 		religion = protestant
-		size = 82450
+		size = 72450
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 6100
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 42450
 	}
 
 	aristocrats = {
@@ -1946,7 +1964,7 @@
 #Simferopol (126000/29000 POPS)
 964 = {
 	farmers = {
-		culture = romanian
+		culture = ukrainian
 		religion = protestant
 		size = 10175
 	}
@@ -1995,6 +2013,18 @@
 		culture = russian
 		religion = protestant
 		size = 18185
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 6100
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 60185
 	}
 
 	clergymen = {
@@ -2114,7 +2144,7 @@
 #Cherson (126000/29000 POPS)
 965 = {
 	farmers = {
-		culture = romanian
+		culture = ukrainian
 		religion = protestant
 		size = 10175
 	}
@@ -2289,23 +2319,35 @@
 	artisans = {
 		culture = south_german
 		religion = protestant
-		size = 125
+		size = 1250
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = protestant
-		size = 25
+		size = 250
 	}
 
 	farmers = {
 		culture = south_german
 		religion = protestant
-		size = 1800
+		size = 6800
 	}
 }
 #Kerch (48000/12000 POPS)
 966 = {
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 6100
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 40185
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -2366,7 +2408,7 @@
 		size = 40750
 	}
 	farmers = {
-		culture = romanian
+		culture = ukrainian
 		religion = protestant
 		size = 20175
 	}
@@ -2414,8 +2456,20 @@
 }
 #Sevastopol (60000/15000 POPS)
 967 = {
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 6100
+	}
+
 	farmers = {
-		culture = romanian
+		culture = north_german
+		religion = protestant
+		size = 40185
+	}
+
+	farmers = {
+		culture = ukrainian
 		religion = protestant
 		size = 10175
 	}
@@ -2557,7 +2611,7 @@
 	farmers = {
 		culture = romanian
 		religion = protestant
-		size = 20175
+		size = 10175
 	}
 	aristocrats = {
 		culture = ukrainian
@@ -2785,7 +2839,7 @@
 	farmers = {
 		culture = romanian
 		religion = protestant
-		size = 30175
+		size = 15175
 	}
 	aristocrats = {
 		culture = ukrainian
@@ -2898,7 +2952,7 @@
 #Nikolaev (248000/62000 POPS)
 970 = {
 	farmers = {
-		culture = romanian
+		culture = ukrainian
 		religion = protestant
 		size = 20175
 	}
@@ -3041,25 +3095,25 @@
 	}
 
 	clergymen = {
-		culture = romanian
+		culture = ukrainian
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = romanian
+		culture = ukrainian
 		religion = protestant
 		size = 350
 	}
 
 	soldiers = {
-		culture = romanian
+		culture = ukrainian
 		religion = protestant
 		size = 150
 	}
 
 	farmers = {
-		culture = romanian
+		culture = ukrainian
 		religion = protestant
 		size = 14375
 	}
@@ -3150,7 +3204,7 @@
 		size = 5375
 	}
 	farmers = {
-		culture = romanian
+		culture = ukrainian
 		religion = protestant
 		size = 20175
 	}

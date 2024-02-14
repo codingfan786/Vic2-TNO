@@ -1,5 +1,8 @@
+owner = ONE
+controller = ONE
+add_core = ONE
 
-
+fort = 3
 
 trade_goods = timber
-life_rating = 25
+life_rating = 35

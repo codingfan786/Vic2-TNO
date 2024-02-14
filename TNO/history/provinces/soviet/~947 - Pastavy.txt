@@ -1,0 +1,11 @@
+owner = BLT
+controller = BLT
+add_core = BLT
+
+fort = 1
+#
+#
+
+
+trade_goods = grain
+life_rating = 35

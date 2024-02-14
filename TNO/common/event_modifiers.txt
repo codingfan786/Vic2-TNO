@@ -317,10 +317,6 @@ spy_unrest = {
 	icon = 18
 }
 
-rus_colonize = {
-	icon = 17
-}
-
 spying = {
 	icon = 7
 }

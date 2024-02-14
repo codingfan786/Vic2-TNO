@@ -1,5 +1,8 @@
+owner = MSC
+controller = MSC
+add_core = MSC
 
-
+fort = 2
 
 trade_goods = cattle
-life_rating = 25
+life_rating = 35

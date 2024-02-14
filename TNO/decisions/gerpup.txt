@@ -174,7 +174,6 @@ political_decisions = {
 		potential = {
 			NOT = {has_global_flag = FEU_revanched}
 			OR = {
-				tag = MSC
 				tag = BLT
 				tag = UKR
 			}
@@ -187,19 +186,11 @@ political_decisions = {
 					year = 1972
 				}
 			}
-			MSC = {
-				NOT = {government = fascist_dictatorship}
-			}
 			BLT = {
 				NOT = {government = fascist_dictatorship}
 			}
 			UKR = {
 				NOT = {government = fascist_dictatorship}
-			}
-			OR = {
-				tag = MSC
-				MSC = {ai = yes}
-				is_our_vassal = MSC
 			}
 
 			OR = {
@@ -226,12 +217,6 @@ political_decisions = {
 					remove_core = BLT
 				}
 			}
-			MSC = {
-				all_core = {
-					add_core = FEU
-					remove_core = MSC
-				}
-			}
 			UKR = {
 				all_core = {
 					add_core = FEU
@@ -239,10 +224,8 @@ political_decisions = {
 			}
 
 			inherit = BLT
-			inherit = MSC
 			inherit = UKR
 			primary_culture = byelorussian
-			remove_accepted_culture = russian #too OP
 			add_accepted_culture = ukrainian
 			add_accepted_culture = lithuanian
 			add_accepted_culture = latvian
@@ -257,25 +240,11 @@ political_decisions = {
 				OR = {
 					AND = {
 						tag = BLT
-						OR = {
-							MSC = {NOT = {ai = yes}}
-							UKR = {NOT = {ai = yes}}
-						}
-						
-					}
-					AND = {
-						tag = MSC
-						OR = {
-							BLT = {NOT = {ai = yes}}
-							UKR = {NOT = {ai = yes}}
-						}
+						UKR = {NOT = {ai = yes}}
 					}
 					AND = {
 						tag = UKR
-						OR = {
-							MSC = {NOT = {ai = yes}}
-							BLT = {NOT = {ai = yes}}
-						}
+						BLT = {NOT = {ai = yes}}
 					}
 				}
 			}

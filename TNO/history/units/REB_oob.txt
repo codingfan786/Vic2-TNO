@@ -461,64 +461,6 @@ army = {
 	}
 }
 
-
-
-army = {
-	name = "Free Russian Company"
-	location = 1008
-	regiment = {
-		name= "1.Regiment"
-		type = hussar
-		home = 1011
-	}
-	regiment = {
-		name= "1.Regiment"
-		type = infantry
-		home = 1011
-	}
-	regiment = {
-		name= "2.Regiment"
-		type = infantry
-		home = 1011
-	}
-	regiment = {
-		name= "3.Regiment"
-		type = infantry
-		home = 1011
-	}
-	regiment = {
-		name= "4.Regiment"
-		type = infantry
-		home = 1011
-	}
-	regiment = {
-		name= "5.Regiment"
-		type = artillery
-		home = 1010
-	}
-	regiment = {
-		name= "6.Regiment"
-		type = artillery
-		home = 1010
-	}
-	regiment = {
-		name= "7.Regiment"
-		type = artillery
-		home = 1010
-	}
-	regiment = {
-		name= "8.Regiment"
-		type = artillery
-		home = 1010
-	}
-	regiment = {
-		name= "8.Regiment"
-		type = artillery
-		home = 1010
-	}
-}
-
-
 army = {
 	name = "Free Ukrainian Company"
 	location = 958
@@ -571,5 +513,336 @@ army = {
 		name= "8.Regiment"
 		type = artillery
 		home = 1019
+	}
+}
+
+
+army = {
+	name = "Free Russian Company"
+	location = 1010
+	regiment = {
+		name= "1.Regiment"
+		type = hussar
+		home = 1011
+	}
+	regiment = {
+		name= "1.Regiment"
+		type = infantry
+		home = 1011
+	}
+	regiment = {
+		name= "2.Regiment"
+		type = infantry
+		home = 1011
+	}
+	regiment = {
+		name= "3.Regiment"
+		type = infantry
+		home = 1011
+	}
+	regiment = {
+		name= "4.Regiment"
+		type = infantry
+		home = 1011
+	}
+	regiment = {
+		name= "5.Regiment"
+		type = artillery
+		home = 1010
+	}
+	regiment = {
+		name= "6.Regiment"
+		type = artillery
+		home = 1010
+	}
+	regiment = {
+		name= "7.Regiment"
+		type = artillery
+		home = 1010
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 1010
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 1010
+	}
+}
+
+army = {
+	name = "Free Russian Company"
+	location = 998
+	regiment = {
+		name= "1.Regiment"
+		type = hussar
+		home = 998
+	}
+	regiment = {
+		name= "1.Regiment"
+		type = infantry
+		home = 998
+	}
+	regiment = {
+		name= "2.Regiment"
+		type = infantry
+		home = 998
+	}
+	regiment = {
+		name= "3.Regiment"
+		type = infantry
+		home = 998
+	}
+	regiment = {
+		name= "4.Regiment"
+		type = infantry
+		home = 998
+	}
+	regiment = {
+		name= "5.Regiment"
+		type = artillery
+		home = 998
+	}
+	regiment = {
+		name= "6.Regiment"
+		type = artillery
+		home = 998
+	}
+	regiment = {
+		name= "7.Regiment"
+		type = artillery
+		home = 998
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 998
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 998
+	}
+}
+
+army = {
+	name = "Free Russian Company"
+	location = 1045
+	regiment = {
+		name= "1.Regiment"
+		type = hussar
+		home = 1045
+	}
+	regiment = {
+		name= "1.Regiment"
+		type = infantry
+		home = 1045
+	}
+	regiment = {
+		name= "2.Regiment"
+		type = infantry
+		home = 1045
+	}
+	regiment = {
+		name= "3.Regiment"
+		type = infantry
+		home = 1045
+	}
+	regiment = {
+		name= "4.Regiment"
+		type = infantry
+		home = 1045
+	}
+	regiment = {
+		name= "5.Regiment"
+		type = artillery
+		home = 1045
+	}
+	regiment = {
+		name= "6.Regiment"
+		type = artillery
+		home = 1045
+	}
+	regiment = {
+		name= "7.Regiment"
+		type = artillery
+		home = 1045
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 1045
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 1045
+	}
+}
+
+army = {
+	name = "Free Russian Company"
+	location = 1019
+	regiment = {
+		name= "1.Regiment"
+		type = hussar
+		home = 1019
+	}
+	regiment = {
+		name= "1.Regiment"
+		type = infantry
+		home = 1019
+	}
+	regiment = {
+		name= "2.Regiment"
+		type = infantry
+		home = 1019
+	}
+	regiment = {
+		name= "3.Regiment"
+		type = infantry
+		home = 1019
+	}
+	regiment = {
+		name= "4.Regiment"
+		type = infantry
+		home = 1019
+	}
+	regiment = {
+		name= "5.Regiment"
+		type = artillery
+		home = 1019
+	}
+	regiment = {
+		name= "6.Regiment"
+		type = artillery
+		home = 1019
+	}
+	regiment = {
+		name= "7.Regiment"
+		type = artillery
+		home = 1019
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 1019
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 1019
+	}
+}
+
+army = {
+	name = "Free Russian Company"
+	location = 1025
+	regiment = {
+		name= "1.Regiment"
+		type = hussar
+		home = 1025
+	}
+	regiment = {
+		name= "1.Regiment"
+		type = infantry
+		home = 1025
+	}
+	regiment = {
+		name= "2.Regiment"
+		type = infantry
+		home = 1025
+	}
+	regiment = {
+		name= "3.Regiment"
+		type = infantry
+		home = 1025
+	}
+	regiment = {
+		name= "4.Regiment"
+		type = infantry
+		home = 1025
+	}
+	regiment = {
+		name= "5.Regiment"
+		type = artillery
+		home = 1025
+	}
+	regiment = {
+		name= "6.Regiment"
+		type = artillery
+		home = 1025
+	}
+	regiment = {
+		name= "7.Regiment"
+		type = artillery
+		home = 1025
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 1025
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 1025
+	}
+}
+
+army = {
+	name = "Free Russian Company"
+	location = 1021
+	regiment = {
+		name= "1.Regiment"
+		type = hussar
+		home = 1021
+	}
+	regiment = {
+		name= "1.Regiment"
+		type = infantry
+		home = 1021
+	}
+	regiment = {
+		name= "2.Regiment"
+		type = infantry
+		home = 1021
+	}
+	regiment = {
+		name= "3.Regiment"
+		type = infantry
+		home = 1021
+	}
+	regiment = {
+		name= "4.Regiment"
+		type = infantry
+		home = 1021
+	}
+	regiment = {
+		name= "5.Regiment"
+		type = artillery
+		home = 1021
+	}
+	regiment = {
+		name= "6.Regiment"
+		type = artillery
+		home = 1021
+	}
+	regiment = {
+		name= "7.Regiment"
+		type = artillery
+		home = 1021
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 1021
+	}
+	regiment = {
+		name= "8.Regiment"
+		type = artillery
+		home = 1021
 	}
 }

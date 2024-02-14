@@ -1,8 +1,8 @@
-owner = MSC
-controller = MSC
-add_core = MSC
+owner = BLT
+controller = BLT
+add_core = BLT
 
-
+add_core = BYE
 
 
 trade_goods = wool
