@@ -408,7 +408,9 @@ ss_division = {
 
 cultural_genocide ={
 	assimilation_rate = 1 #3
-	population_growth = -0.0005 #was -0.001
+	#population_growth = -0.0005 #was -0.001
+	pop_militancy_modifier = 0.02
+	pop_consciousness_modifier = 0.02
 	icon = 2
 }
 

@@ -782,6 +782,18 @@
 }
 #Azov (172000/43000 POPS)
 1047 = {
+	soldiers = {
+		culture = aryan
+		religion = protestant
+		size = 4000
+	}
+
+	farmers = {
+		culture = aryan
+		religion = protestant
+		size = 14700
+	}
+
 	aristocrats = {
 		culture = ukrainian
 		religion = protestant
@@ -4805,6 +4817,19 @@
 }
 #Grozny (68000/17000 POPS)
 1055 = {
+
+	soldiers = {
+		culture = aryan
+		religion = protestant
+		size = 4000
+	}
+
+	farmers = {
+		culture = aryan
+		religion = protestant
+		size = 14700
+	}
+	
 	aristocrats = {
 		culture = north_caucasian
 		religion = protestant

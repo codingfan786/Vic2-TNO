@@ -1,0 +1,10 @@
+
+
+owner = ARM
+controller = ARM
+
+
+add_core = ARM
+add_core = AZB
+trade_goods = iron
+life_rating = 35

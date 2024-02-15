@@ -786,6 +786,7 @@ political_decisions = {
 				tag = CH5
 				tag = CH6
 				tag = MSC
+				tag = COC
 			}
 			civilized = no
 		}

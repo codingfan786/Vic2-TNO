@@ -2,6 +2,18 @@
 #under the rule of Russia in 1836
 #Baku (76000/19000 POPS)
 1102 = {
+	soldiers = {
+		culture = aryan
+		religion = protestant
+		size = 4000
+	}
+
+	farmers = {
+		culture = aryan
+		religion = protestant
+		size = 14700
+	}
+
 	bureaucrats = {
 		culture = russian
 		religion = protestant
@@ -59,7 +71,7 @@
 	farmers = {
 		culture = azerbaijani
 		religion = protestant
-		size = 5350
+		size = 20350
 	}
 
 	aristocrats = {
@@ -216,6 +228,18 @@
 }
 #Sheki (24000/6000 POPS)
 1104 = {
+	soldiers = {
+		culture = aryan
+		religion = protestant
+		size = 4000
+	}
+
+	farmers = {
+		culture = aryan
+		religion = protestant
+		size = 14700
+	}
+
 	aristocrats = {
 		culture = azerbaijani
 		religion = protestant
@@ -243,7 +267,7 @@
 	farmers = {
 		culture = azerbaijani
 		religion = protestant
-		size = 1800
+		size = 800
 	}
 
 	aristocrats = {
@@ -273,7 +297,7 @@
 	farmers = {
 		culture = georgian
 		religion = protestant
-		size = 900
+		size = 4000
 	}
 
 	aristocrats = {
@@ -303,7 +327,7 @@
 	farmers = {
 		culture = north_caucasian
 		religion = protestant
-		size = 2600
+		size = 10000
 	}
 }
 #Ganja (68000/17000 POPS)
@@ -432,6 +456,18 @@
 }
 #Lankaran (56000/14000 POPS)
 1107 = {
+	soldiers = {
+		culture = aryan
+		religion = protestant
+		size = 4000
+	}
+
+	farmers = {
+		culture = aryan
+		religion = protestant
+		size = 14700
+	}
+	
 	aristocrats = {
 		culture = azerbaijani
 		religion = protestant
@@ -459,7 +495,7 @@
 	farmers = {
 		culture = azerbaijani
 		religion = protestant
-		size = 12800
+		size = 22800
 	}
 
 }

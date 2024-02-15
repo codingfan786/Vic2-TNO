@@ -79,6 +79,11 @@ vassal = {
 	second = MSC
 	start_date = 1836.1.1
 }
+vassal = {
+	first = GER
+	second = COC
+	start_date = 1836.1.1
+}
 
 substate = {
 	first = FIN

@@ -1,7 +1,6 @@
 
-
-owner = AZB
-controller = AZB
+owner = COC
+controller = COC
 add_core = AZB
 trade_goods = fruit
 life_rating = 35

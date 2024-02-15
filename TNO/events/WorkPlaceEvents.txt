@@ -5,12 +5,21 @@ province_event = {
 	desc = "EVTDESC12120"
 		
 	trigger = {
-		produces = iron
+		OR = {
+			produces = iron
+			produces = oil
+		}
 		NOT = { has_province_modifier = blood_and_iron_mine }
 	}
 	
 	mean_time_to_happen = {
 		months = 900
+
+		modifier = {
+			factor = 0.75
+			tag = COC
+		}
+
 		modifier = {
 			factor = 0.9
 			NOT = {

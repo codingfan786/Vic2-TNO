@@ -698,18 +698,18 @@ assimilation_chance =
 	
 
 	group = {
+		#modifier = {
+	    #	factor = 1000
+		#	OR = {
+		#		culture = north_german
+		#		culture = south_german
+		#	}
+		#	country = {
+		#		primary_culture = aryan
+		#	}
+		#}
 		modifier = {
-	    	factor = 1000
-			OR = {
-				culture = north_german
-				culture = south_german
-			}
-			country = {
-				primary_culture = aryan
-			}
-		}
-		modifier = {
-	    	factor = -990
+	    	factor = 1000 #-990
 			OR = {
 				culture = north_german
 				culture = south_german

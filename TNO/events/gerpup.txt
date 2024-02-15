@@ -13,6 +13,7 @@ country_event = {
 			tag = UKR
 			tag = MSC
 			tag = BLT
+			tag = COC
 		}
 		NOT = {primary_culture = aryan}
 	}
@@ -32,6 +33,9 @@ country_event = {
 		remove_accepted_culture = lithuanian
 		remove_accepted_culture = latvian
 		remove_accepted_culture = estonian
+
+		remove_accepted_culture = north_caucasian
+		remove_accepted_culture = georgian
 	}
 }
 
@@ -172,5 +176,40 @@ province_event = {
 	option = {
 		name = "We will monitor the situation closely."
 		remove_province_modifier = ss_division
+	}
+}
+
+country_event = {
+	id = 500036
+	title = "Free at last!"
+	desc = "The German administration has fallen and our people finally rule again!"
+
+	trigger = {
+		NOT = {government = fascist_dictatorship}
+		NOT = {is_vassal = yes}
+		
+		tag = COC
+		
+		primary_culture = aryan
+	}
+
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	option = {
+		name = "Down with the Germans!"
+		
+		primary_culture = north_caucasian
+		add_accepted_culture = georgian
+		
+		remove_accepted_culture = north_german
+		remove_accepted_culture = south_german
+		any_owned = {
+			remove_province_modifier = cultural_genocide
+			remove_province_modifier = ss_division
+		}
+		clr_country_flag = ss_formed
+		remove_country_modifier = ss_recruitment
 	}
 }

@@ -4,7 +4,7 @@ add_core = POL
 
 
 
-
-trade_goods = oil
+trade_goods = iron
+#trade_goods = oil
 life_rating = 35
 2161.1.1 = { railroad = 3 }

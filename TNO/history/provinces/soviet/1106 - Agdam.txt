@@ -1,9 +1,6 @@
 
-
-
-
-owner = ARM
-controller = ARM
+owner = COC
+controller = COC
 add_core = ARM
 add_core = AZB
 trade_goods = wool

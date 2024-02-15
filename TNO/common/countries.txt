@@ -350,6 +350,8 @@ GSC = "countries/German Scandi.txt"
 GBA = "countries/German Balkans.txt"
 GFR = "countries/German France.txt"
 
+COC = "countries/German Caucuses.txt"
+
 NUK = "countries/Armageddon.txt"
 
 IAL = "countries/IAL.txt"

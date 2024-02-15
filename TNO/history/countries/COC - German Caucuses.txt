@@ -1,0 +1,87 @@
+
+
+#========================= H E A D E R =========================
+
+civilized = no
+capital = 1008
+primary_culture = aryan
+#culture = south_german
+religion = protestant
+government = fascist_dictatorship
+plurality = 0
+nationalvalue = nv_order
+literacy = 0.4
+non_state_culture_literacy = 0.1
+  
+prestige = 0
+schools = prussian_tech_school
+oob = "COC.txt"
+
+decision = puppet_gp_fix
+
+#========================= H O U S E - O F - L O R D S =========================
+
+ruling_party = MSC_fascist_72
+upper_house = {
+fascist = 90
+reactionary = 0
+conservative = 0
+socialist = 10
+communist = 0
+liberal = 0
+anarcho_liberal = 0
+}
+slavery = yes_slavery
+vote_franschise = none_voting
+upper_house_composition = party_appointed
+voting_system = first_past_the_post
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+political_parties = underground_parties
+wage_reform = trinket_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+unemployment_subsidies = trinket_subsidies
+pensions = trinket_pensions
+health_care = trinket_health_care
+school_reforms = low_schools
+
+post_nelsonian_thought = 1
+clipper_design = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+the_command_principle = 1
+
+water_wheel_power = 1
+publishing_industry = 1
+mechanized_mining = 1
+experimental_railroad = 1
+basic_chemistry = 1
+
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+malthusian_thought = 1
+enlightenment_thought = 1
+introspectionism = 1
+
+private_banks = 1
+no_standard = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+guild_based_production = 1
+
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+army_command_principle = 1
+
+muzzle_loaded_rifles = 1
+iron_muzzle_loaded_artillery = 1
+military_plans = 1
+
+market_structure = 1
+practical_steam_engine = 1
+mechanical_production = 1
+interchangeable_parts = 1
