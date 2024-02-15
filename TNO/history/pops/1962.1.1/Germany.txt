@@ -44,6 +44,13 @@
 		size = 68110
 	}
 
+	#for test purpose
+	#farmers = {
+	#	culture = aryan
+	#	religion = protestant
+	#	size = 68110
+	#}
+
 	clergymen = {
 		culture = north_german
 		religion = protestant

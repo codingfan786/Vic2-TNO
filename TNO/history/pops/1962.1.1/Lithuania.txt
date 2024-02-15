@@ -95,7 +95,7 @@
 #Kaunas (204000/51000 POPS)
 361 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
@@ -186,7 +186,7 @@
 #Marjampole (240000/60000 POPS)
 362 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
@@ -269,25 +269,25 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
 
 	farmers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 3675
 	}
@@ -295,7 +295,7 @@
 #Panevezys (204000/51000 POPS)
 363 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
@@ -354,25 +354,25 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 750
 	}
@@ -404,7 +404,7 @@
 #Siauliai (200000/50000 POPS)
 364 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
@@ -465,12 +465,12 @@
 #Palanga (84000/21000 POPS)
 365 = {
 	capitalists = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 2000
 	}
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
@@ -529,25 +529,25 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 850
 	}

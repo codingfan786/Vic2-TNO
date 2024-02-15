@@ -14,7 +14,7 @@ country_event = {
 			tag = MSC
 			tag = BLT
 		}
-		NOT = {primary_culture = north_german}
+		NOT = {primary_culture = aryan}
 	}
 
 	mean_time_to_happen = {
@@ -23,8 +23,8 @@ country_event = {
 
 	option = {
 		name = "Towards lebensraum!"
-		primary_culture = north_german
-		add_accepted_culture = south_german
+		primary_culture = aryan
+		#add_accepted_culture = south_german
 
 		remove_accepted_culture = byelorussian
 		remove_accepted_culture = russian
@@ -46,7 +46,7 @@ country_event = {
 		
 		tag = MSC
 		
-		primary_culture = north_german
+		primary_culture = aryan
 	}
 
 	mean_time_to_happen = {
@@ -79,7 +79,7 @@ country_event = {
 		
 		tag = BLT
 		
-		primary_culture = north_german
+		primary_culture = aryan
 	}
 
 	mean_time_to_happen = {
@@ -99,7 +99,10 @@ country_event = {
 		remove_accepted_culture = south_german
 		any_owned = {
 			remove_province_modifier = cultural_genocide
+			remove_province_modifier = ss_division
 		}
+		clr_country_flag = ss_formed
+		remove_country_modifier = ss_recruitment
 	}
 }
 
@@ -115,7 +118,7 @@ country_event = {
 		
 		tag = UKR
 		
-		primary_culture = north_german
+		primary_culture = aryan
 	}
 
 	mean_time_to_happen = {
@@ -131,7 +134,10 @@ country_event = {
 		remove_accepted_culture = south_german
 		any_owned = {
 			remove_province_modifier = cultural_genocide
+			remove_province_modifier = ss_division
 		}
+		clr_country_flag = ss_formed
+		remove_country_modifier = ss_recruitment
 	}
 }
 

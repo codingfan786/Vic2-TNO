@@ -4,13 +4,13 @@
 943 = {
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 20000
 	}
 
 	farmers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 82850
 	}
@@ -2260,13 +2260,13 @@
 1008 = {
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 20000
 	}
 
 	farmers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 82850
 	}
@@ -3831,13 +3831,13 @@
 1039 = {
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 20000
 	}
 
 	farmers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 82850
 	}

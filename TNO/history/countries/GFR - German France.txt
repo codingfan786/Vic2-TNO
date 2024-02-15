@@ -3,8 +3,8 @@
 #========================= H E A D E R =========================
 
 capital = 425
-primary_culture = north_german
-culture = south_german
+primary_culture = aryan
+#culture = south_german
 religion = protestant
 government = fascist_dictatorship
 plurality = 10

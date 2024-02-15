@@ -27,37 +27,37 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 650
 	}
 
 	bureaucrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 200
 	}
 
 	officers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 250
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 6725
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 100
 	}
@@ -119,7 +119,7 @@
 #Valmeira (516000/129000 POPS)  
 355 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 		militancy = 8 
@@ -158,7 +158,7 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 1250
 		militancy = 8 
@@ -166,7 +166,7 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 		militancy = 8 
@@ -174,7 +174,7 @@
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 600
 		militancy = 8 
@@ -182,7 +182,7 @@
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 100
 	}
@@ -300,25 +300,25 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 700
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 2200
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
@@ -380,7 +380,7 @@
 #Jelgava (128000/32000 POPS)  
 357 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
@@ -409,25 +409,25 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 1150
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
@@ -459,7 +459,7 @@
 #Ventspils (140000/35000 POPS) #uralic = Livonian 
 358 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
@@ -488,25 +488,25 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 1200
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 700
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
@@ -568,25 +568,25 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 550
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 25
 	}

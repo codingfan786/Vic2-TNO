@@ -4,8 +4,8 @@
 
 civilized = yes
 capital = 947
-primary_culture = north_german
-culture = south_german
+primary_culture = aryan
+#culture = south_german
 religion = protestant
 government = fascist_dictatorship
 plurality = 10

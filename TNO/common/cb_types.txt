@@ -3402,7 +3402,11 @@ nuke_disarm = {
 	war_name = WAR_NAME
 
 	can_use = {
-		has_country_flag = primary_nukes
+		OR = {
+			has_country_flag = primary_nukes
+			has_country_flag = developing_nukes
+		}
+
 		OR = {
 			THIS = {
 				is_greater_power = yes

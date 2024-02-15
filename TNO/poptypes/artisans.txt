@@ -53,6 +53,7 @@ country_migration_target =
 	modifier = {
 		factor = 100
 		
+		NOT = {has_country_flag = german_africa}
 		NOT = {has_country_flag = german_main}
 		OR = {
 			THIS = {has_pop_culture = north_german}
@@ -63,6 +64,7 @@ country_migration_target =
 			primary_culture = south_german
 			accepted_culture = north_german
 			accepted_culture = south_german
+			primary_culture = aryan
 		}
 	}
 
@@ -80,6 +82,7 @@ country_migration_target =
 			primary_culture = south_german
 			accepted_culture = north_german
 			accepted_culture = south_german
+			primary_culture = aryan
 		}
 	}
 

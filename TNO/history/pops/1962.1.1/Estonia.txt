@@ -3,7 +3,7 @@
 #Tallinn/Reval (160000/40000 POPS)  
 349 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
@@ -32,37 +32,37 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 375
 	}
 
 	bureaucrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 75
 	}
 
 	officers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 825
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
@@ -130,7 +130,7 @@
 #Narva (184000/46000 POPS)  
 350 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
@@ -191,30 +191,30 @@
 #Parnu (92000/23000 POPS)  
 351 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
 	aristocrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 350
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 550
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
@@ -246,30 +246,30 @@
 #Tartu/Dorpat (156000/39000 POPS)  
 352 = {
 	craftsmen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 5000
 	}
 	aristocrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 350
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 550
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
@@ -325,25 +325,25 @@
 #Kuressaare (16000/4000 POPS)  
 353 = {
 	aristocrats = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 80
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 10
 	}
 
 	artisans = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = aryan
 		religion = protestant
 		size = 10
 	}

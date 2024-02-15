@@ -470,6 +470,7 @@ political_decisions = {
 			WGA = {set_country_flag = german_main}
 			EGA = {set_country_flag = german_africa}
 			WGA = {set_country_flag = german_africa}
+			SGA = {set_country_flag = german_africa}
 			ITA = {set_country_flag = italy_main}
 			GRE = {set_country_flag = italy_main}
 			GRE = {set_country_flag = greece_main}
@@ -784,6 +785,7 @@ political_decisions = {
 				tag = CH4
 				tag = CH5
 				tag = CH6
+				tag = MSC
 			}
 			civilized = no
 		}

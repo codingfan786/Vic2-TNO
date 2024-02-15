@@ -424,8 +424,7 @@ political_decisions = {
 							is_core = FEU
 						}
 						OR = {
-							culture = north_german
-							culture = south_german
+							culture = aryan
 						}
 					}
 					add_core = THIS

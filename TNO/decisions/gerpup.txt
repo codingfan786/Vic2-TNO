@@ -464,7 +464,7 @@ political_decisions = {
 		potential = {
 			tag = BLT
 			NOT= {has_country_flag = ss_formed}
-			primary_culture = north_german
+			primary_culture = aryan
 		}
 		allow = {
 			nationalism_n_imperialism = 1
@@ -506,7 +506,7 @@ political_decisions = {
 		potential = {
 			tag = MSC
 			NOT= {has_country_flag = ss_formed}
-			primary_culture = north_german
+			primary_culture = aryan
 		}
 		allow = {
 			nationalism_n_imperialism = 1
@@ -541,7 +541,7 @@ political_decisions = {
 		potential = {
 			tag = UKR
 			NOT= {has_country_flag = ss_formed}
-			primary_culture = north_german
+			primary_culture = aryan
 		}
 		allow = {
 			nationalism_n_imperialism = 1

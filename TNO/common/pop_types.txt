@@ -695,6 +695,33 @@ assimilation_chance =
 		culture = afro_american
 	}
 
+	
+
+	group = {
+		modifier = {
+	    	factor = 1000
+			OR = {
+				culture = north_german
+				culture = south_german
+			}
+			country = {
+				primary_culture = aryan
+			}
+		}
+		modifier = {
+	    	factor = -990
+			OR = {
+				culture = north_german
+				culture = south_german
+			}
+			country = {
+				primary_culture = aryan
+			}
+
+			has_culture_core = no
+		}
+	}
+
 	modifier = {
 		factor = -10
 		is_accepted_culture = yes
