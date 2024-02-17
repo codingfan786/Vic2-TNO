@@ -3629,6 +3629,11 @@
 }
 #Samara (208000/52000 POPS)
 1034 = {
+	craftsmen = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
 	farmers = {
 		culture = tatar
 		religion = protestant
@@ -4234,7 +4239,7 @@
 	craftsmen = {
 		culture = russian
 		religion = protestant
-		size = 40000
+		size = 20000
 	}
 	aristocrats = {
 		culture = russian
@@ -4406,6 +4411,11 @@
 }
 #Orenburg (124000/31000 POPS)
 1044 = {
+	craftsmen = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
 	bureaucrats = {
 		culture = russian
 		religion = protestant
@@ -5165,6 +5175,11 @@
 
 #Orsk (180000/45000 POPS)
 1060 = {
+	craftsmen = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
 	bureaucrats = {
 		culture = russian
 		religion = protestant
@@ -8622,6 +8637,11 @@
 }
 
 1063 = {
+	craftsmen = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
 	capitalists = {
 		culture = russian
 		religion = protestant
@@ -8761,6 +8781,11 @@
 }
 
 1070 = {
+	craftsmen = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
 	bureaucrats = {
 		culture = russian
 		religion = protestant
@@ -9994,6 +10019,12 @@
 }
 
 985 = {
+	craftsmen = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
+
 	bureaucrats = {
 		culture = russian
 		religion = protestant
@@ -10118,6 +10149,11 @@
 }
 
 986 = {
+	craftsmen = {
+		culture = russian
+		religion = protestant
+		size = 5000
+	}
 	bureaucrats = {
 		culture = russian
 		religion = protestant
@@ -10171,6 +10207,11 @@
 }
 
 2699 = {
+	craftsmen = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
 	bureaucrats = {
 		culture = russian
 		religion = protestant

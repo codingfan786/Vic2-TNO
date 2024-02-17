@@ -365,3 +365,110 @@ country_event = {
 		name = "ok"
 	}
 }
+
+
+country_event = {
+	id = 500260
+	title = "ai"
+	desc = "ai"
+
+	trigger = {
+		ai = yes
+		exists = NAV
+		NOT = {truce_with = NAV}
+		tag = WA2
+		war = no
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	immediate = {
+		NAV = {
+			leave_alliance = FED
+			leave_alliance = JAP
+			leave_alliance = NKV
+			leave_alliance = WA1
+			leave_alliance = NUC
+			leave_alliance = MGL
+			leave_alliance = YNN
+		}
+		war = {
+			target = NAV
+			attacker_goal = { casus_belli = tiny_conquest }
+			call_ally = yes
+		}
+		
+	}
+	option = {
+		name = "yasy"
+	}
+}
+
+country_event = {
+	id = 500261
+	title = "ai"
+	desc = "ai"
+
+	trigger = {
+		ai = yes
+		tag = WA2
+		war = no
+		NOT = {exists = NAV}
+		OR = {
+			AND = {
+				exists = NKV
+				NOT = {truce_with = NKV}
+			}
+			AND = {
+				exists = FED
+				NOT = {truce_with = FED}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+
+
+	option = {
+		name = "yasy"
+		war = {
+			target = NKV
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+			call_ally = yes
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					NOT = {exists = NKV}
+					truce_with = NKV
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "yasy"
+		war = {
+			target = FED
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+			call_ally = yes
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					NOT = {exists = FED}
+					truce_with = FED
+				}
+			}
+		}
+	}
+}

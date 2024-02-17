@@ -8,7 +8,7 @@ primary_culture = russian
 religion = protestant
 government = democracy
 plurality = 10
-nationalvalue = nv_liberty
+nationalvalue = nv_order
 literacy = 0.1
   
 prestige = 1

@@ -6,9 +6,9 @@ civilized = yes
 capital = 1063
 primary_culture = russian
 religion = protestant
-government = presidential_dictatorship
+government = democracy
 plurality = 10
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.07
   
 prestige = 1
@@ -18,7 +18,7 @@ oob = "WA1.txt"
 
 #========================= H O U S E - O F - L O R D S =========================
 
-ruling_party = WA1_anarcho_liberal_93
+ruling_party = WA1_conservative_92
 upper_house = {
 fascist = 0
 reactionary = 0
@@ -29,16 +29,16 @@ liberal = 15
 anarcho_liberal = 25
 }
 slavery = no_slavery
-vote_franschise = none_voting
-upper_house_composition = party_appointed
-voting_system = first_past_the_post
-public_meetings = no_meeting
+vote_franschise = wealth_voting
+upper_house_composition = appointed
+voting_system = jefferson_method
+public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-political_parties = underground_parties
-wage_reform = trinket_wage
-work_hours = no_work_hour_limit
-safety_regulations = trinket_safety
+political_parties = gerrymandering
+wage_reform = low_minimum_wage
+work_hours = fourteen_hours
+safety_regulations = low_safety
 unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
 health_care = trinket_health_care

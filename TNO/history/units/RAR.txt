@@ -8,25 +8,25 @@ army = {
 	location = 987
 	regiment = {
 		name= "1.1a Bersaglieri"
-		type = tank
+		type = infantry
 		home = 987
 	}
 
 	regiment = {
 		name= "2.1a Bersaglieri"
-		type = tank
+		type = infantry
 		home = 987
 	}
 
 	regiment = {
 		name= "3.1a Bersaglieri"
-		type = tank
+		type = infantry
 		home = 987
 	}
 
 	regiment = {
 		name= "1.2a Bersaglieri"
-		type = tank
+		type = infantry
 		home = 987
 	}
 
@@ -136,13 +136,13 @@ army = {
 	location = 985
 	regiment = {
 		name= "1.1a Bersaglieri"
-		type = tank
+		type = infantry
 		home = 986
 	}
 
 	regiment = {
 		name= "2.1a Bersaglieri"
-		type = tank
+		type = infantry
 		home = 986
 	}
 
@@ -207,13 +207,13 @@ army = {
 
 	regiment = {
 		name= "3.1a Bersaglieri"
-		type = tank
+		type = infantry
 		home = 986
 	}
 
 	regiment = {
 		name= "1.2a Bersaglieri"
-		type = tank
+		type = infantry
 		home = 986
 	}
 
