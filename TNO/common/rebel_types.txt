@@ -890,6 +890,16 @@ nationalist_rebels = {
 	spawn_chance = {
 		factor = 3
 
+		modifier = {
+			factor = 0
+			AND = {
+				country = {
+					primary_culture  = russian
+				}
+				is_primary_culture = yes
+			}
+		}
+		
 		#modifier = {
 		#	factor = 0
 		#	country = {

@@ -691,7 +691,7 @@ hge_ss;Expanded SS Recruitment;x
 ss_enlistment_hge_title;Expand SS Recruitment.;x
 ss_enlistment_hge_desc;The Germanisation programs are simply not sustainable. In order to secure the Reichskommissariat we should start recruiting our security forces from the local population.;x
 great_trial_title;The Great Trial;x
-great_trial_desc;This is a placeholder event until russia is revamped. rus_unified is the flag that comes from having russia mostly unified (there is a major event that will pop up when this happens). Mostly unified means the middle two countries are dead, and only one country is left from each of the three countries on each end of russia.;x
+great_trial_desc;This is a placeholder event until russia is revamped. rus_unified is the flag that comes from having russia mostly unified (there is a major event that will pop up when this happens). Mostly unified means only 3 of the major Russian nations are left (one from left, right, and center).;x
 sge_wage_reform_title;Währungsreform: Minimum Wage;x
 sge_wage_reform_desc;The Reichsmark is due a hard reset. It is a worthless currency with no clout on the global stage. Even Germans who make a decent wage can barely afford to keep food on the table and a multitude of luxury goods sit in stores gathering dust. It is time to put an end to this sorry state. §R You can select a reform decision for each former RK you don't annex while recovering the German sphere. (Bohemia, Slovakia, Poland, Ukraine, Moscow, Baltics);x
 sge_work_hours_title;Währungsreform: Work Hours;x
@@ -983,3 +983,19 @@ rus_uni_substate_short;Russian Unification of $STATE$;;;;;;;;;;;;x;;;
 rus_uni_substate_setup;Acquire $STATE$;;;;;;;;;;;;x;;;
 URA_1;Orenburg;x
 UKR_1;Chernigov;x
+rar_solidify_title;A Russian Contender!;x
+rus_solidify_title;A Russian Contender!;x
+nuc_solidify_title;A Russian Contender!;x
+wal_solidify_title;A Russian Contender!;x
+nkv_solidify_title;A Russian Contender!;x
+fed_solidify_title;A Russian Contender!;x
+rar_solidify_desc;In the aftermath of the West Russian War what remained of the Soviet Union had been completely shattered, leaving squabbling warlords to fight over what remained of Russia. Despite outside observers thinking reunification impossible, we are in the unique position of being ready to take the first steps towards Russian reunification.;x
+rus_solidify_desc;In the aftermath of the West Russian War what remained of the Soviet Union had been completely shattered, leaving squabbling warlords to fight over what remained of Russia. Despite outside observers thinking reunification impossible, we are in the unique position of being ready to take the first steps towards Russian reunification.;x
+nuc_solidify_desc;In the aftermath of the West Russian War what remained of the Soviet Union had been completely shattered, leaving squabbling warlords to fight over what remained of Russia. Despite outside observers thinking reunification impossible, we are in the unique position of being ready to take the first steps towards Russian reunification.;x
+wal_solidify_desc;In the aftermath of the West Russian War what remained of the Soviet Union had been completely shattered, leaving squabbling warlords to fight over what remained of Russia. Despite outside observers thinking reunification impossible, we are in the unique position of being ready to take the first steps towards Russian reunification.;x
+nkv_solidify_desc;In the aftermath of the West Russian War what remained of the Soviet Union had been completely shattered, leaving squabbling warlords to fight over what remained of Russia. Despite outside observers thinking reunification impossible, we are in the unique position of being ready to take the first steps towards Russian reunification.;x
+fed_solidify_desc;In the aftermath of the West Russian War what remained of the Soviet Union had been completely shattered, leaving squabbling warlords to fight over what remained of Russia. Despite outside observers thinking reunification impossible, we are in the unique position of being ready to take the first steps towards Russian reunification.;x
+rus_unified;Russia has stabilized to the regional stage.;x
+rar_formed_sov;W.R.R.F. Reformed the Soviet Union;x
+rus_region_unify_title;Ural League goes East!;x
+rus_region_unify_desc;Now that we've conquered the land west of the Urals we should get the land east of the Urals!;x

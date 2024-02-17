@@ -62,22 +62,3 @@ SGA = {
 	influence_value = 0
 }
 
-#========================= L A N D =========================
-
-army = {
-name = "New Army"
-location = 549
-regiment = {
-name = "Regiment 0"
-type = artillery
-home = 549
-}
-}
-
-
-#========================= S E A =========================
-
-
-
-#========================= Vic_Nation_Establisher by Diamond.David =========================
-

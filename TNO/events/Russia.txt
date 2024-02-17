@@ -83,8 +83,101 @@ country_event = {
 			sub_unit = {type = artillery value = current}
 		}
 		treasury = 300000
+		NAV = {
+			all_core = {
+				add_core = THIS
+			}
+		}
 	}
 	option = {
 		name = "I see."
+	}
+}
+
+
+country_event = {
+	id = 500071
+	title = "Russia Stabilized!"
+	desc = "EVENT500071desc"
+	major = yes
+
+	trigger = {
+		NOT = {has_global_flag = rus_unified}
+		primary_culture = russian
+		NOT = {tag = MSC}
+
+		NOT = {exists = R01}
+		NOT = {exists = R02}
+		NOT = {exists = R03}
+		NOT = {exists = R04}
+		NOT = {exists = R05}
+		NOT = {exists = R06}
+		NOT = {exists = R07}
+		NOT = {exists = R08}
+		NOT = {exists = R09}
+		NOT = {exists = R10}
+		NOT = {exists = R11}
+		NOT = {exists = R12}
+		NOT = {exists = R13}
+		NOT = {exists = NAV}
+
+		OR = {
+			AND = {
+				NOT = {has_global_flag = rar_formed_sov}
+				NOT = {exists = RAR}
+			}
+			NOT = {exists = RUS}
+		}
+
+		OR = {
+			NOT = {exists = WA1}
+			NOT = {exists = NUC}
+		}
+
+		OR = {
+			AND = {
+				NOT = {exists = WA2}
+				NOT = {exists = FED}
+				NOT = {exists = ALK}
+			}
+			AND = {
+				NOT = {exists = FED}
+				NOT = {exists = ALK}
+				NOT = {has_global_flag = nkv_formed_sov}
+				NOT = {exists = NKV}
+			}
+			AND = {
+				NOT = {exists = WA2}
+				NOT = {has_global_flag = nkv_formed_sov}
+				NOT = {exists = NKV}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		set_global_flag = rus_unified
+		any_country = {
+			limit = {
+				primary_culture = russian
+				NOT = {tag = MSC}
+				#war = no
+			}
+			prestige = 20
+			war_exhaustion = -50
+			add_country_modifier = {
+				name = Peace_and_stability
+				duration = 7300
+			}
+			
+		}
+	}
+
+	option = {
+		name = "Towards national reconstruction!"
+		
 	}
 }

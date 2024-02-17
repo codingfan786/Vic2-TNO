@@ -23,6 +23,17 @@ ai_boost = {
 	icon = 9
 }
 
+russia_ai_boost = {
+	trigger = { 
+		primary_culture  = russian
+		ai = yes
+		civilized = yes
+		NOT = {has_global_flag = rus_unified}
+	}
+	tax_efficiency = 0.20 #5% increase
+ 	loan_interest = -0.03 #3% less interest on debts
+	icon = 9
+}
 
 tariff_efficiency_boost = {
 	trigger = {
