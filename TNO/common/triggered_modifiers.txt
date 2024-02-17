@@ -206,6 +206,14 @@ save_the_nation0.5  = {
 	trigger = {
 		revanchism = 0.05
 		NOT = { revanchism = 0.10 } 
+
+
+		OR = {
+			NOT = {primary_culture  = russian}
+			has_global_flag = rus_unified
+			ai = no
+		}
+		
 	}
 	
 	suppression_points_modifier = 0.05
@@ -220,6 +228,11 @@ save_the_nation1  = {
 	trigger = {
 		revanchism = 0.10
 		NOT = { revanchism = 0.15 } 
+		OR = {
+			NOT = {primary_culture  = russian}
+			has_global_flag = rus_unified
+			ai = no
+		}
 	}
 	
 	suppression_points_modifier = 0.10
@@ -234,6 +247,11 @@ save_the_nation1.5  = {
 	trigger = {
 		revanchism = 0.15
 		NOT = { revanchism = 0.20 } 
+		OR = {
+			NOT = {primary_culture  = russian}
+			has_global_flag = rus_unified
+			ai = no
+		}
 	}
 	
 	suppression_points_modifier = 0.10
@@ -251,6 +269,11 @@ save_the_nation2  = {
 	trigger = {
 		revanchism = 0.20
 		NOT = { revanchism = 0.25 } 
+		OR = {
+			NOT = {primary_culture  = russian}
+			has_global_flag = rus_unified
+			ai = no
+		}
 	}
 	
 	suppression_points_modifier = 0.10
@@ -268,6 +291,11 @@ save_the_nation2.5  = {
 	trigger = {
 		revanchism = 0.25
 		NOT = { revanchism = 0.30 } 
+		OR = {
+			NOT = {primary_culture  = russian}
+			has_global_flag = rus_unified
+			ai = no
+		}
 	}
 	
 	suppression_points_modifier = 0.10
@@ -285,6 +313,11 @@ save_the_nation3  = {
 	trigger = {
 		revanchism = 0.30
 		NOT = { revanchism = 0.35 } 
+		OR = {
+			NOT = {primary_culture  = russian}
+			has_global_flag = rus_unified
+			ai = no
+		}
 	}
 	
 	suppression_points_modifier = 0.10
@@ -302,6 +335,11 @@ save_the_nation3.5  = {
 	trigger = {
 		revanchism = 0.35
 		NOT = { revanchism = 0.40 } 
+		OR = {
+			NOT = {primary_culture  = russian}
+			has_global_flag = rus_unified
+			ai = no
+		}
 	}
 	
 	suppression_points_modifier = 0.10
@@ -319,6 +357,11 @@ save_the_nation4  = {
 	trigger = {
 		revanchism = 0.40
 		NOT = { revanchism = 0.45 } 
+		OR = {
+			NOT = {primary_culture  = russian}
+			has_global_flag = rus_unified
+			ai = no
+		}
 	}
 	
 	suppression_points_modifier = 0.10
@@ -336,6 +379,11 @@ save_the_nation4.5  = {
 	trigger = {
 		revanchism = 0.45
 		NOT = { revanchism = 0.50 }
+		OR = {
+			NOT = {primary_culture  = russian}
+			has_global_flag = rus_unified
+			ai = no
+		}
 	}
 	
 	suppression_points_modifier = 0.10
@@ -353,6 +401,11 @@ save_the_nation4.5  = {
 save_the_nation5  = {
 	trigger = {
 		revanchism = 0.50
+		OR = {
+			NOT = {primary_culture  = russian}
+			has_global_flag = rus_unified
+			ai = no
+		}
 	}
 	
 	suppression_points_modifier = 0.10

@@ -181,3 +181,187 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+	id = 500259
+	title = "russian lapse"
+	desc = "ai event"
+
+	trigger = {
+		OR = {
+			tag = R01
+			tag = R02
+			tag = R03
+			tag = R04
+			tag = R05
+			tag = R06
+			tag = R07
+			tag = R08
+			tag = R09
+			tag = R10
+			tag = R11
+			tag = R12
+			tag = R13
+		}
+		is_vassal = yes
+		overlord = {
+			OR = {
+				tag = RAR
+				tag = NUC
+				tag = RUS
+				tag = WA1
+				tag = NKV
+				tag = FED
+			}
+		}	
+		#war = no
+	}
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 10
+			war = yes
+		}
+		modifier = {
+			factor = 0.5
+			overlord = {
+				ideological_thought = 1
+			}
+		}
+		modifier = {
+			factor = 0.5
+			overlord = {
+				state_n_government = 1
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				tag = R12
+				tag = R13
+			}
+		}
+
+		modifier = {
+			factor = 0.25
+			year = 1968
+		}
+		modifier = {
+			factor = 0.25
+			NOT = {exists = GER}
+		}
+	}
+	immediate = {
+		any_country = {
+			limit = {
+				tag = RAR
+				is_our_vassal = THIS
+			}
+			THIS = {
+				all_core = {
+					add_core = RAR
+				}
+			}
+			#inherit = THIS
+			THIS = {
+				release_vassal = THIS
+				any_owned = {
+					secede_province = RAR
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				tag = RUS
+				is_our_vassal = THIS
+			}
+			THIS = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			#inherit = THIS
+			THIS = {
+				release_vassal = THIS
+				any_owned = {
+					secede_province = RUS
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				tag = NUC
+				is_our_vassal = THIS
+			}
+			THIS = {
+				all_core = {
+					add_core = NUC
+				}
+			}
+			#inherit = THIS
+			THIS = {
+				release_vassal = THIS
+				any_owned = {
+					secede_province = NUC
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				tag = WA1
+				is_our_vassal = THIS
+			}
+			THIS = {
+				all_core = {
+					add_core = WA1
+				}
+			}
+			#inherit = THIS
+			THIS = {
+				release_vassal = THIS
+				any_owned = {
+					secede_province = WA1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				tag = NKV
+				is_our_vassal = THIS
+			}
+			THIS = {
+				all_core = {
+					add_core = NKV
+				}
+			}
+			#inherit = THIS
+			THIS = {
+				release_vassal = THIS
+				any_owned = {
+					secede_province = NKV
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				tag = FED
+				is_our_vassal = THIS
+			}
+			THIS = {
+				all_core = {
+					add_core = FED
+				}
+			}
+			#inherit = THIS
+			THIS = {
+				release_vassal = THIS
+				any_owned = {
+					secede_province = FED
+				}
+			}
+		}
+	}
+	option = {
+		name = "ok"
+	}
+}

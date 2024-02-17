@@ -1136,7 +1136,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 4700
+		size = 20000
 	}
 
 	clergymen = {
@@ -1145,11 +1145,6 @@
 		size = 10
 	}
 
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 490
-	}
 }
 #Mezen Region (54000)
 #under the rule of Russia in 1836

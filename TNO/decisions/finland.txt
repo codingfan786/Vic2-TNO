@@ -6,7 +6,18 @@ political_decisions = {
 			exists = ONE
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			OR = {
+				nationalism_n_imperialism = 1
+
+				AND = {
+					ai = yes
+					RAR = {ai = yes}
+					NOT = {exists = RUS}
+				}
+			}
+			
+
+
 			is_our_vassal = ONE
 		}
 		effect = {
