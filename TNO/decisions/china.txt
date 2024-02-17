@@ -9,12 +9,12 @@ political_decisions = {
 			NOT = {vassal_of = JAP}
 			OR = {
 				nationalism_n_imperialism = 1
-				AND = {
-					1469 = {
-						owner = {tag = MGL}
-					}
-					state_n_government = 1
-				}
+				#AND = {
+				#	1469 = {
+				#		owner = {tag = MGL}
+				#	}
+				#	state_n_government = 1
+				#}
 			}
 		}
 		effect = {

@@ -2,7 +2,8 @@
 
 #========================= H E A D E R =========================
 
-color = { 139  69  19 }
+#color = { 139  69  19 }
+color = { 120 127 132 }
 graphical_culture = Generic
 
 

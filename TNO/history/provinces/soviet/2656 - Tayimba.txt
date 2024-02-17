@@ -1,6 +1,7 @@
-owner = WA2
-controller = WA2
-add_core = WA2
+owner = WA1
+controller = WA1
+add_core = WA1
+
 
 
 trade_goods = coal

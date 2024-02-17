@@ -1,0 +1,29 @@
+army = {
+	name = "1a Armata" #done
+	location = 990
+
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 990
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 990
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 990
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 990
+	}
+}

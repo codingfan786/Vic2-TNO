@@ -1,6 +1,4 @@
-owner = NAV
-controller = NAV
-add_core = NAV
+
 naval_base = 1
 
 trade_goods = fish

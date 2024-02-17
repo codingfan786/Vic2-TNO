@@ -1,6 +1,70 @@
 army = {
 	name = "1a Armata" #done
-	location = 1063
+	location = 2683
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 2683
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 2683
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1064
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 1064
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1064
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1064
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1064
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1064
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1064
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1064
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 1064
 	regiment = {
 		name= "1.1a Bersaglieri"
 		type = infantry
@@ -59,5 +123,110 @@ army = {
 		name= "4.1a Granatieri"
 		type = hussar
 		home = 2701
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 1063
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 2646
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 2646
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 2691
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 2691
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1070
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1070
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1070
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1070
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1070
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1070
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 1070
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 1070
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1070
+	}
+
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 1070
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1070
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1070
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1070
 	}
 }

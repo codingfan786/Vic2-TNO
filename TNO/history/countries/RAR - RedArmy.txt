@@ -9,7 +9,7 @@ religion = protestant
 government = proletarian_dictatorship
 plurality = 10
 nationalvalue = nv_order
-literacy = 0.2
+literacy = 0.07
   
 prestige = 1
 schools = traditional_academic
@@ -28,7 +28,7 @@ communist = 90
 liberal = 0
 anarcho_liberal = 0
 }
-slavery = no_slavery
+slavery = yes_slavery
 vote_franschise = none_voting
 upper_house_composition = party_appointed
 voting_system = first_past_the_post

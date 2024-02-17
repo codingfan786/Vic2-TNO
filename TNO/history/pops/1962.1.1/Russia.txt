@@ -2596,10 +2596,20 @@
 #under the rule of Russia in 1836
 #Nizhni Novgorod (1068000/267000 POPS)
 1020 = {
-	aristocrats = {
-		culture = russian
+	bureaucrats = {
+		culture = tatar
 		religion = protestant
-		size = 4800
+		size = 500
+	}
+	farmers = {
+		culture = tatar
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = tatar
+		religion = protestant
+		size = 15000
 	}
 
 	bureaucrats = {
@@ -2872,6 +2882,17 @@
 #under the rule of Russia in 1836
 #Perm (960000/240000 POPS)
 1026 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -2946,6 +2967,22 @@
 }
 #Vetluga (308000/77000 POPS)
 1027 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+	
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -2978,6 +3015,22 @@
 }
 #Vyatkha (504000/126000 POPS)
 1028 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -3034,6 +3087,22 @@
 }
 #Glasov (452000/113000 POPS)
 1029 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -3068,6 +3137,22 @@
 #under the rule of Russia in 1836
 #Kazan (592000/148000 POPS)
 1030 = {
+	bureaucrats = {
+		culture = tatar
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = tatar
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = tatar
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -3208,6 +3293,22 @@
 }
 #Sarapol (560000/140000 POPS)
 1031 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -3288,6 +3389,22 @@
 }
 #Chistopol (608000/152000 POPS)
 1032 = {
+	bureaucrats = {
+		culture = tatar
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = tatar
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = tatar
+		religion = protestant
+		size = 15000
+	}
+	
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -3404,6 +3521,22 @@
 }
 #Simbirsk (340000/85000 POPS)
 1033 = {
+	bureaucrats = {
+		culture = tatar
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = tatar
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = tatar
+		religion = protestant
+		size = 15000
+	}
+	
 	capitalists = {
 		culture = russian
 		religion = protestant
@@ -3501,6 +3634,27 @@
 }
 #Samara (208000/52000 POPS)
 1034 = {
+	farmers = {
+		culture = tatar
+		religion = protestant
+		size = 60000
+	}
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -3563,6 +3717,22 @@
 }
 #Syzran (540000/135000 POPS)
 1035 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -4110,7 +4280,7 @@
 	soldiers = {
 		culture = russian
 		religion = protestant
-		size = 2100
+		size = 8100
 	}
 
 	farmers = {
@@ -4193,6 +4363,22 @@
 }
 #Busuluk (164000/41000 POPS)
 1043 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -4225,6 +4411,22 @@
 }
 #Orenburg (124000/31000 POPS)
 1044 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -4968,6 +5170,22 @@
 
 #Orsk (180000/45000 POPS)
 1060 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -5058,6 +5276,22 @@
 }
 #Yar Sale (1000/250 POPS)
 2684 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 50000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -5774,6 +6008,22 @@
 
 #Chilchi (4000/1000 POPS)
 2645 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -6066,6 +6316,22 @@
 }
 
 2639 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 12000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -6224,6 +6490,22 @@
 }
 
 2618 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 12000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -6788,6 +7070,22 @@
 }
 
 1072 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 12000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -6979,6 +7277,22 @@
 }
 
 2641 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 12000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -7029,6 +7343,22 @@
 }
 
 1080 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 12000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -7061,6 +7391,22 @@
 }
 
 2669 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 5000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -7147,6 +7493,16 @@
 }
 
 2644 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -7209,6 +7565,22 @@
 }
 
 2696 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 5000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -7272,13 +7644,13 @@
 	soldiers = {
 		culture = russian
 		religion = protestant
-		size = 3000
+		size = 13000
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 276500
+		size = 76500
 	}
 
 	aristocrats = {
@@ -7426,7 +7798,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 180000
+		size = 100000
 	}
 
 	aristocrats = {
@@ -7453,12 +7825,6 @@
 		size = 5000
 	}
 
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 180000
-	}
-
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -7475,12 +7841,6 @@
 		culture = russian
 		religion = protestant
 		size = 2000
-	}
-
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 95000
 	}
 }
 
@@ -7506,7 +7866,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 180000
+		size = 100000
 	}
 
 	aristocrats = {
@@ -7533,12 +7893,6 @@
 		size = 4000
 	}
 
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 270000
-	}
-
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -7555,12 +7909,6 @@
 		culture = russian
 		religion = protestant
 		size = 2000
-	}
-
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 95000
 	}
 }
 
@@ -7671,12 +8019,6 @@
 		size = 5000
 	}
 
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 180000
-	}
-
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -7704,7 +8046,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 180000
+		size = 80000
 	}
 
 	clergymen = {
@@ -7793,12 +8135,6 @@
 		size = 5000
 	}
 
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 180000
-	}
-
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -7823,12 +8159,6 @@
 		size = 5000
 	}
 
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 451000
-	}
-
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -7850,7 +8180,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 142000
+		size = 42000
 	}
 }
 
@@ -8096,6 +8426,17 @@
 }
 
 2698 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
+
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -8146,6 +8487,17 @@
 }
 
 1068 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	} 
+
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -8202,6 +8554,17 @@
 }
 
 1067 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -8308,7 +8671,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 662500
+		size = 162500
 	}
 
 	clergymen = {
@@ -8337,6 +8700,22 @@
 }
 
 2691 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 5000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -8387,6 +8766,22 @@
 }
 
 1070 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -8482,6 +8877,22 @@
 }
 
 2646 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 5000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -8642,6 +9053,17 @@
 }
 
 1077 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -8681,7 +9103,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 457500
+		size = 257500
 	}
 
 	aristocrats = {
@@ -8746,6 +9168,22 @@
 }
 
 1076 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 104500
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -8778,6 +9216,17 @@
 }
 
 2676 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -8805,11 +9254,27 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 2300
+		size = 202300
 	}
 }
 
 2677 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 104500
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -8874,6 +9339,17 @@
 }
 
 1075 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 26000
+	}
+
 	capitalists = {
 		culture = russian
 		religion = protestant
@@ -8909,16 +9385,10 @@
 		size = 30000
 	}
 
-	soldiers = {
-		culture = russian
-		religion = protestant
-		size = 11000
-	}
-
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 547600
+		size = 147600
 	}
 
 	aristocrats = {
@@ -8969,12 +9439,6 @@
 		size = 100
 	}
 
-	soldiers = {
-		culture = russian
-		religion = protestant
-		size = 30
-	}
-
 	farmers = {
 		culture = russian
 		religion = protestant
@@ -8983,6 +9447,17 @@
 }
 
 1078 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 19000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -9013,16 +9488,10 @@
 		size = 18500
 	}
 
-	soldiers = {
-		culture = russian
-		religion = protestant
-		size = 3750
-	}
-
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 338600
+		size = 138600
 	}
 
 	aristocrats = {
@@ -9057,6 +9526,22 @@
 }
 
 2656 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -9194,7 +9679,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 554812.5
+		size = 204812.5
 	}
 }
 
@@ -9231,7 +9716,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 393800
+		size = 193800
 	}
 }
 
@@ -9268,11 +9753,16 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 383900
+		size = 183900
 	}
 }
 
 990 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 1000
+	}
 	capitalists = {
 		culture = russian
 		religion = protestant
@@ -9290,11 +9780,6 @@
 		size = 275
 	}
 
-	soldiers = {
-		culture = russian
-		religion = protestant
-		size = 137.5
-	}
 
 	farmers = {
 		culture = russian
@@ -9317,17 +9802,38 @@
 	soldiers = {
 		culture = russian
 		religion = protestant
-		size = 275
+		size = 9400
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 20350
+		size = 220350
 	}
 }
 
 987 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+	officers = {
+		culture = russian
+		religion = protestant
+		size = 400
+	}
+	
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -9378,6 +9884,27 @@
 }
 
 2700 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+	officers = {
+		culture = russian
+		religion = protestant
+		size = 400
+	}
+	
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -9428,16 +9955,34 @@
 }
 
 2689 = {
-	clergymen = {
+	bureaucrats = {
 		culture = russian
 		religion = protestant
-		size = 55
+		size = 550
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 10000
 	}
 
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 2695
+		size = 30000
+	}
+
+	slaves = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+
+
+	clergymen = {
+		culture = russian
+		religion = protestant
+		size = 55
 	}
 
 	clergymen = {
@@ -9454,6 +9999,27 @@
 }
 
 985 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+	officers = {
+		culture = russian
+		religion = protestant
+		size = 400
+	}
+
 	bureaucrats = {
 		culture = russian
 		religion = protestant
@@ -9510,6 +10076,27 @@
 }
 
 2589 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+	officers = {
+		culture = russian
+		religion = protestant
+		size = 400
+	}
+
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -9536,6 +10123,27 @@
 }
 
 986 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+	officers = {
+		culture = russian
+		religion = protestant
+		size = 400
+	}
+	
 	bureaucrats = {
 		culture = russian
 		religion = protestant
@@ -9568,6 +10176,27 @@
 }
 
 2699 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 200000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+	officers = {
+		culture = russian
+		religion = protestant
+		size = 400
+	}
+	
 	clergymen = {
 		culture = slovene
 		religion = protestant
@@ -9600,6 +10229,28 @@
 }
 
 2688 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 550
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
+
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 30000
+	}
+
+	slaves = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -9626,6 +10277,28 @@
 }
 
 2687 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 550
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 10000
+	}
+
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 30000
+	}
+
+	slaves = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -9652,6 +10325,22 @@
 }
 
 2685 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -9710,7 +10399,7 @@
 	craftsmen = {
 		culture = russian
 		religion = protestant
-		size = 20000
+		size = 30000
 	}
 	aristocrats = {
 		culture = russian
@@ -9759,7 +10448,7 @@
 	craftsmen = {
 		culture = russian
 		religion = protestant
-		size = 20000
+		size = 30000
 	}
 	aristocrats = {
 		culture = russian
@@ -9793,6 +10482,22 @@
 }
 
 1061 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	craftsmen = {
 		culture = russian
 		religion = protestant
@@ -9848,6 +10553,22 @@
 }
 
 1062 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	craftsmen = {
 		culture = russian
 		religion = protestant
@@ -9915,6 +10636,17 @@
 }
 
 2682 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 1000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -9965,6 +10697,17 @@
 }
 
 1065 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = russian
 		religion = protestant
@@ -9997,6 +10740,17 @@
 }
 
 2690 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -10029,6 +10783,22 @@
 }
 
 1066 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -10085,6 +10855,17 @@
 }
 
 2683 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 5000
+	}
+
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -10165,6 +10946,22 @@
 }
 
 2686 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 100000
+	}
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 15000
+	}
+
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -10241,7 +11038,7 @@
 	soldiers = {
 		culture = russian
 		religion = protestant
-		size = 41000
+		size = 21000
 	}
 
 	farmers = {
@@ -10279,7 +11076,7 @@
 	soldiers = {
 		culture = russian
 		religion = protestant
-		size = 1250
+		size = 11250
 	}
 
 	farmers = {
@@ -10365,7 +11162,7 @@
 	soldiers = {
 		culture = russian
 		religion = protestant
-		size = 1000
+		size = 11000
 	}
 
 	farmers = {

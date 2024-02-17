@@ -2,7 +2,7 @@
 owner = JAP
 controller = JAP
 add_core = MCK
-
+railroad = 2
 
 
 trade_goods = coal

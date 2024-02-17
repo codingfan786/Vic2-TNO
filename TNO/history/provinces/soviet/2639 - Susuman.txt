@@ -1,7 +1,6 @@
-owner = NAV
-controller = NAV
-add_core = NAV
-
+owner = FED
+controller = FED
+add_core = FED
 
 trade_goods = fish
 life_rating = 35

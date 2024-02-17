@@ -1,8 +1,18 @@
 owner = NUC
 controller = NUC
 add_core = NUC
-
+railroad = 2
 
 
 trade_goods = timber
 life_rating = 35
+state_building = {
+	level = 2
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}

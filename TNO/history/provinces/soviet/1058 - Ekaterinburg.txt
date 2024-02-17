@@ -1,6 +1,8 @@
-owner = NUC
-controller = NUC
-add_core = NUC
+owner = R09
+controller = R09
+add_core = R09
+
+railroad = 2
 
 
 

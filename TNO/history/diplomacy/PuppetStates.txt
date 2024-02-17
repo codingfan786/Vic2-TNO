@@ -1,4 +1,75 @@
 substate = {
+	first = RAR
+	second = R01
+	start_date = 1836.1.1
+}
+substate = {
+	first = RAR
+	second = R04
+	start_date = 1836.1.1
+}
+substate = {
+	first = RAR
+	second = R06
+	start_date = 1836.1.1
+}
+
+substate = {
+	first = RUS
+	second = R02
+	start_date = 1836.1.1
+}
+substate = {
+	first = RUS
+	second = R03
+	start_date = 1836.1.1
+}
+substate = {
+	first = RUS
+	second = R05
+	start_date = 1836.1.1
+}
+
+substate = {
+	first = NUC
+	second = R07
+	start_date = 1836.1.1
+}
+substate = {
+	first = NUC
+	second = R08
+	start_date = 1836.1.1
+}
+substate = {
+	first = NUC
+	second = R09
+	start_date = 1836.1.1
+}
+
+substate = {
+	first = WA1
+	second = R10
+	start_date = 1836.1.1
+}
+substate = {
+	first = WA1
+	second = R11
+	start_date = 1836.1.1
+}
+
+substate = {
+	first = NKV
+	second = R12
+	start_date = 1836.1.1
+}
+
+substate = {
+	first = FED
+	second = R13
+	start_date = 1836.1.1
+}
+
+substate = {
 	first = USA
 	second = OFN
 	start_date = 1836.1.1

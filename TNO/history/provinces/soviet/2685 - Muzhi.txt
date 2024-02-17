@@ -1,7 +1,8 @@
-owner = NUC
-controller = NUC
-add_core = NUC
-#add_core = RAR
+owner = R07
+controller = R07
+add_core = R07
+
+
 
 trade_goods = timber
 life_rating = 35

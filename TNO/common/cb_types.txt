@@ -58,6 +58,7 @@ tiny_conquest
 civil_war 
 acquire_core_state 
 rus_uni
+rus_uni_substate
 beef_cb
 expand_cornwall
 expand_burgundy
@@ -2001,7 +2002,7 @@ rus_uni = {
 	
 	badboy_factor = 0.2
 	prestige_factor = 5
-	peace_cost_factor = 1.1 #change this back to 0.7 when I break up russia more
+	peace_cost_factor = 1 #change this back to 0.7 when I break up russia more
 	penalty_factor = 1
 	always = yes
 
@@ -2029,42 +2030,8 @@ rus_uni = {
 		any_owned_province = {
 			culture = russian
 		}
-		OR = {
-			NOT = {
-				AND = {
-					THIS = {tag = RAR}
-					THIS = {ai = yes}
-					OR = {
-						tag = MSC
-						tag = UKR
-					}
-				}
-			}
-			war_with = THIS
-			
-		}
 
-		OR = {
-			NOT = {
-				AND = {
-					THIS = {tag = FED}
-					THIS = {ai = yes}
-					tag = NAV
-				}
-			}
-			war_with = THIS
-		}
-
-		OR = {
-			NOT = {
-				AND = {
-					THIS = {tag = NAV}
-					THIS = {ai = yes}
-					tag = FED
-				}
-			}
-			war_with = THIS
-		}
+		NOT = {num_of_substates = 1}
 	}
 	
 	allowed_states = {
@@ -2086,6 +2053,75 @@ rus_uni = {
 		}
 	}
 }
+
+rus_uni_substate = {
+	sprite_index = 9
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 0.8
+	
+	badboy_factor = 0.2
+	prestige_factor = 1
+	peace_cost_factor = 1.5 #change this back to 0.7 when I break up russia more
+	penalty_factor = 1
+	always = yes
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = {truce_with = THIS}
+		NOT = {has_global_flag = rus_unified}
+		NOT = { is_our_vassal = THIS }
+		OR = {
+			THIS = {primary_culture = russian}
+			AND = {
+				THIS = {tag = MGL}
+				THIS = {accepted_culture = russian}
+			}
+		}
+
+		num_of_substates = 1
+
+		any_substate = {
+			number_of_states = 1
+			any_owned_province = {
+				culture = russian
+			}
+		}
+	}
+	
+	allowed_substate_regions = {
+		any_owned_province = {
+			culture = russian
+		}
+	}
+
+	po_demand_state = yes
+
+	war_name = WAR_TAKE_CORE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	
+
+
+
+}
+
 
 negotiated_transfer = {
 	sprite_index = 1

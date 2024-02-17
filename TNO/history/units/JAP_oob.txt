@@ -445,6 +445,67 @@ army = {
 	}
 }
 
+army = {
+	name = "I.J.A. Home Guard" 
+	location = 3449
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 1639
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 1655
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = artillery
+		home = 1658
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 1675
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 1676
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = infantry
+		home = 1677
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 1674
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 1649
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 1649
+	}
+}
+
+
+
 navy = {
 	name = "Transport Fleet"
 	location = 1649

@@ -1,6 +1,6 @@
-owner = NAV
-controller = NAV
-add_core = NAV
+owner = FED
+controller = FED
+add_core = FED
 
 naval_base = 1
 trade_goods = grain

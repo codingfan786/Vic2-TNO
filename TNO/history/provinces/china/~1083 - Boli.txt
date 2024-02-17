@@ -1,0 +1,14 @@
+
+owner = JAP
+controller = JAP
+add_core = MCK
+
+
+
+trade_goods = coal
+life_rating = 32
+2161.1.1 = {
+	
+	
+	colonial = 2
+}

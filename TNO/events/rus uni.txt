@@ -1,262 +1,90 @@
 country_event = {
-	id = 500071
-	title = "Russia Stabilized!"
-	desc = "EVENT500071desc"
+	id = 500258
+	title = "Gods of the North"
+	desc = "event500258desc"
+
+	is_triggered_only = yes
+
 	major = yes
 
-	trigger = {
-		NOT = {has_global_flag = rus_unified}
-		primary_culture = russian
-		NOT = {tag = MSC}
-
-		#two in the middle dead
-		NOT = {exists = WA1}
-		NOT = {exists = WA2}
-		
-		#one person left from the west
-		OR = {
-			AND = {
-				NOT = {exists = RAR}
-				NOT = {exists = NUC}
-				NOT = {SOV = {has_country_flag = RAR_formed}}
-			}
-			AND = {
-				NOT = {exists = RUS}
-				NOT = {exists = NUC}
-			}
-
-			AND = {
-				NOT = {exists = RAR}
-				NOT = {exists = RUS}
-				NOT = {SOV = {has_country_flag = RAR_formed}}
-			}
-		}
-
-		#one person left from the east
-		OR = {
-			
-			AND = {
-				NOT = {exists = NAV}
-				NOT = {exists = FED}
-				NOT = {exists = ALK}
-			}
-			AND = {
-				NOT = {exists = NKV}
-				NOT = {SOV = {has_country_flag = NKV_formed}}
-				NOT = {exists = FED}
-				NOT = {ALK = {has_country_flag = FED_formed}}
-			}
-			AND = {
-				NOT = {exists = NKV}
-				NOT = {SOV = {has_country_flag = NKV_formed}}
-				NOT = {exists = NAV}
-				NOT = {ALK = {has_country_flag = NAV_formed}}
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 1
-	}
-
 	immediate = {
-		set_global_flag = rus_unified
-		WA1 = {
-			all_core = {
-				remove_core = WA1
-			}
-		}
-		WA2 = {
-			all_core = {
-				remove_core = WA2
-			}
-		}
-		any_country = {
-			limit = {
-				primary_culture = russian
-				NOT = {tag = MSC}
-				#war = no
-			}
-			prestige = 20
-			war_exhaustion = -50
-			add_country_modifier = {
-				name = Peace_and_stability
-				duration = 7300
-			}
-			
-		}
-	}
+		2695 = {secede_province = THIS add_core = THIS}
+		2650 = {secede_province = THIS add_core = THIS}
+		2671 = {secede_province = THIS add_core = THIS}
+		2649 = {secede_province = THIS add_core = THIS}
+		2652 = {secede_province = THIS add_core = THIS}
+		2667 = {secede_province = THIS add_core = THIS}
+		1071 = {secede_province = THIS add_core = THIS}
+		2668 = {secede_province = THIS add_core = THIS}
+		2647 = {secede_province = THIS add_core = THIS}
+		2665 = {secede_province = THIS add_core = THIS}
+		2619 = {secede_province = THIS add_core = THIS}
+		2643 = {secede_province = THIS add_core = THIS}
+		2642 = {secede_province = THIS add_core = THIS}
+		2640 = {secede_province = THIS add_core = THIS}
+		2621 = {secede_province = THIS add_core = THIS}
+		2664 = {secede_province = THIS add_core = THIS}
+		2620 = {secede_province = THIS add_core = THIS}
+		2660 = {secede_province = THIS add_core = THIS}
+		2662 = {secede_province = THIS add_core = THIS}
+		2638 = {secede_province = THIS add_core = THIS}
+		1073 = {secede_province = THIS add_core = THIS}
+		2622 = {secede_province = THIS add_core = THIS}
+		2661 = {secede_province = THIS add_core = THIS}
+		2666 = {secede_province = THIS add_core = THIS}
+		2590 = {secede_province = THIS add_core = THIS}
+		2637 = {secede_province = THIS add_core = THIS}
+		2634 = {secede_province = THIS add_core = THIS}
+		2663 = {secede_province = THIS add_core = THIS}
+		1073 = {secede_province = THIS add_core = THIS}
+		3246 = {secede_province = JAN}
+		civilized = yes
 
-	option = {
-		name = "Towards national reconstruction!"
-		
-	}
-
-
-}
-
-country_event = {
-	id = 500111
-	title = "Removing dead russian cores."
-	desc = "This will prevent rebel spam in russia to a degree."
-	trigger = {
-		NOT = {has_global_flag = rus_unified}
-		tag = JAN
-		OR = {
-			AND = {
-				NKV= {	NOT = {exists = yes}}
-				NKV= {	NOT = {has_country_flag = rus_cores_cleared}}
+		any_owned = {
+			add_province_modifier = {
+				name = ora_ai_fix
+				duration = 7
 			}
-			AND = {
-				FED= {	NOT = {exists = yes}}
-				FED= {	NOT = {has_country_flag = rus_cores_cleared}}
-			}
-			AND = {
-				NAV= {	NOT = {exists = yes}}
-				NAV= {	NOT = {has_country_flag = rus_cores_cleared}}
-			}
-			AND = {
-				WA1= {	NOT = {exists = yes}}
-				WA1= {	NOT = {has_country_flag = rus_cores_cleared}}
-			}
-			AND = {
-				WA2= {	NOT = {exists = yes}}
-				WA2= {	NOT = {has_country_flag = rus_cores_cleared}}
-			}
-			AND = {
-				NUC= {	NOT = {exists = yes}}
-				NUC= {	NOT = {has_country_flag = rus_cores_cleared}}
-			}
-			AND = {
-				RAR= {	NOT = {exists = yes}}
-				RAR= {	NOT = {has_country_flag = rus_cores_cleared}}
-			}
-			AND = {
-				RUS= {	NOT = {exists = yes}}
-				RUS= {	NOT = {has_country_flag = rus_cores_cleared}}
-			}
-			AND = {
-				SOV= {	NOT = {exists = yes}}
-				SOV= {	NOT = {has_country_flag = rus_cores_cleared}}
-				SOV = {has_country_flag = made_in_russia}
-			}
-			AND = {
-				ALK= {	NOT = {exists = yes}}
-				ALK= {	NOT = {has_country_flag = rus_cores_cleared}}
-				ALK = {has_country_flag = made_in_russia}
+			any_pop = {
+				limit = {pop_type = soldiers}
+				reduce_pop = 1.5
 			}
 		}
-		
-		
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-	immediate = {
-		any_country = {
-			limit = {
-				NOT = {exists = yes}
-				tag = SOV
-			}
-			set_country_flag = rus_cores_cleared
-			all_core = {
-
-				remove_core = SOV
-			}
+		2671 = {
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = hussar value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
 		}
-		any_country = {
-			limit = {
-				NOT = {exists = yes}
-				tag = RAR
-			}
-			set_country_flag = rus_cores_cleared
-			all_core = {
-				remove_core = RAR
-			}
+		2649 = {
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = hussar value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
 		}
-		any_country = {
-			limit = {
-				NOT = {exists = yes}
-				tag = RUS
-			}
-			set_country_flag = rus_cores_cleared
-			all_core = {
-				remove_core = RUS
-			}
+		1071 = {
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = hussar value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
 		}
-		any_country = {
-			limit = {
-				NOT = {exists = yes}
-				tag = NUC
-			}
-			set_country_flag = rus_cores_cleared
-			all_core = {
-				remove_core = NUC
-			}
+		2642 = {
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = hussar value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
 		}
-		any_country = {
-			limit = {
-				NOT = {exists = yes}
-				tag = WA1
-			}
-			set_country_flag = rus_cores_cleared
-			all_core = {
-				remove_core = WA1
-			}
-		}
-		any_country = {
-			limit = {
-				NOT = {exists = yes}
-				tag = WA2
-			}
-			set_country_flag = rus_cores_cleared
-			all_core = {
-				remove_core = WA2
-			}
-		}
-		any_country = {
-			limit = {
-				NOT = {exists = yes}
-				tag = FED
-			}
-			set_country_flag = rus_cores_cleared
-			all_core = {
-				remove_core = FED
-			}
-		}
-		any_country = {
-			limit = {
-				NOT = {exists = yes}
-				tag = NAV
-			}
-			set_country_flag = rus_cores_cleared
-			all_core = {
-				remove_core = NAV
-			}
-		}
-		any_country = {
-			limit = {
-				NOT = {exists = yes}
-				tag = ALK
-			}
-			set_country_flag = rus_cores_cleared
-			all_core = {
-				remove_core = ALK
-			}
-		}
-		any_country = {
-			limit = {
-				NOT = {exists = yes}
-				tag = NKV
-			}
-			set_country_flag = rus_cores_cleared
-			all_core = {
-				remove_core = NKV
-			}
-		}
+		treasury = 300000
 	}
 	option = {
-		name = "Sorry."
+		name = "I see."
 	}
 }

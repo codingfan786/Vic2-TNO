@@ -1,0 +1,46 @@
+
+
+#========================= H E A D E R =========================
+
+capital = 1
+primary_culture = russian
+religion = protestant
+government = democracy
+plurality = 10
+nationalvalue = nv_order
+literacy = 0.05
+civilized = no 
+prestige = 1
+schools = traditional_academic
+decision = puppet_gp_fix
+oob = "R13.txt"
+#========================= H O U S E - O F - L O R D S =========================
+
+ruling_party = AF2_conservative_92
+upper_house = {
+fascist = 0
+reactionary = 0
+conservative = 100
+socialist = 0
+communist = 0
+liberal = 0
+anarcho_liberal = 0
+}
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = landed_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = non_secret_ballots
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools

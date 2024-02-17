@@ -118,8 +118,8 @@ political_decisions = {
 			set_country_flag = supplied
 			artillery = 500
 			clipper_convoy = 500
-			aeroplanes = 500
-			fuel = 500
+			aeroplanes = 1000
+			fuel = 1000
 		}
 		ai_will_do = {
 			factor = 1
@@ -215,6 +215,15 @@ political_decisions = {
 
 		}
 		effect = {
+			MSC = {
+				any_pop = {
+					limit = {
+						pop_type = soldiers
+					}
+					reduce_pop = 1.2 #was 0.35 before
+				}
+			}
+			
 			AHG = {
 				military_access = JAP
 			}
@@ -327,6 +336,20 @@ political_decisions = {
 							tag = YNN
 							tag = YUG
 							tag = ZAM
+							tag = R01
+							tag = R02
+							tag = R03
+							tag = R04
+							tag = R05
+							tag = R06
+							tag = R07
+							tag = R08
+							tag = R09
+							tag = R10
+							tag = R11
+							tag = R12
+							tag = R13
+
 						}
 					}
 				}
@@ -787,10 +810,56 @@ political_decisions = {
 				tag = CH6
 				tag = MSC
 				tag = COC
+				tag = R01
+				tag = R02
+				tag = R03
+				tag = R04
+				tag = R05
+				tag = R06
+				tag = R07
+				tag = R08
+				tag = R09
+				tag = R10
+				tag = R11
+				tag = R12
+				tag = R13
 			}
 			civilized = no
 		}
 		allow = {}
 		effect = {civilized = yes}
+	}
+
+	vorkuta_fix = {#this is all so buggy
+		potential = {
+			tag = R06
+			NOT = {has_country_flag = vork}
+		}
+		allow = {
+
+		}
+		effect = {
+			set_country_flag = vork
+			R06 = {
+				any_owned = {
+					limit = {
+						is_core = R06
+					}
+					add_core = SIK
+				}
+				
+				release = SIK 
+				SIK = {
+					any_owned = {
+						limit = {
+							NOT = {continent = central_asia}
+						}
+						secede_province = R06
+						remove_core = SIK
+					}
+					release = R06
+				}
+			}
+		}
 	}
 }

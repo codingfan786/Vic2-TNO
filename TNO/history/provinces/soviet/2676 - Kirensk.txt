@@ -1,7 +1,8 @@
-owner = WA2
-controller = WA2
-add_core = WA2
+owner = NKV
+controller = NKV
+add_core = NKV
 
+railroad = 2
 
 trade_goods = grain
 life_rating = 35

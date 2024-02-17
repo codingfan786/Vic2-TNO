@@ -1,8 +1,8 @@
-
+railroad = 2
 
 
 trade_goods = iron
 life_rating = 35
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = R05
+controller = R05
+add_core = R05

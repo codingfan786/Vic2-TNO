@@ -1,7 +1,7 @@
 owner = NUC
 controller = NUC
 add_core = NUC
-
+railroad = 2
 
 
 trade_goods = sulphur

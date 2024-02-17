@@ -15,15 +15,17 @@
 
 
 personality = {
-	persistant = {
-		speed = 0.15
-	}
 	no_personality = {
 		attack = -1
 		defence = -1
 		reliability = -0.1
 		speed = -0.1
 	}
+
+	persistant = {
+		speed = 0.15
+	}
+	
 	defence_1.1 = {
 		defence = 1
 		reliability = 0.05
@@ -2122,6 +2124,7 @@ personality = {
 }
 
 background = {
+
 	no_background = {
 		attack = -1
 		defence = -1

@@ -367,6 +367,20 @@ CH4 = "countries/CH4.txt"
 CH5 = "countries/CH5.txt"
 CH6 = "countries/CH6.txt"
 
+R01 = "countries/R01.txt"
+R02 = "countries/R02.txt"
+R03 = "countries/R03.txt"
+R04 = "countries/R04.txt"
+R05 = "countries/R05.txt"
+R06 = "countries/R06.txt"
+R07 = "countries/R07.txt"
+R08 = "countries/R08.txt"
+R09 = "countries/R09.txt"
+R10 = "countries/R10.txt"
+R11 = "countries/R11.txt"
+R12 = "countries/R12.txt"
+R13 = "countries/R13.txt"
+
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
 D01		= "countries/D01.txt"

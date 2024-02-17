@@ -1,0 +1,79 @@
+army = {
+	name = "1a Armata" #done
+	location = 2690
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = plane
+		home = 2690
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = plane
+		home = 2690
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = plane
+		home = 2690
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = plane
+		home = 2690
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = plane
+		home = 2690
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = plane
+		home = 2690
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 1065
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = plane
+		home = 1065
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = plane
+		home = 1065
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = plane
+		home = 1065
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = plane
+		home = 1065
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = plane
+		home = 1065
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = plane
+		home = 1065
+	}
+}

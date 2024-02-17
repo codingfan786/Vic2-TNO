@@ -1,18 +1,20 @@
-owner = NUC
-controller = NUC
-add_core = NUC
+owner = R09
+controller = R09
+add_core = R09
+
+railroad = 2
 
 
 
 trade_goods = iron
 life_rating = 35
 state_building = {
-	level = 1
+	level = 2
 	building = artillery_factory
 	upgrade = yes
 }
 state_building = {
-	level = 1
+	level = 2
 	building = ammunition_factory
 	upgrade = yes
 }

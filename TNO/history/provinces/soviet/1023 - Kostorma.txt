@@ -1,6 +1,7 @@
-owner = RAR
-controller = RAR
-add_core = RAR
+owner = R01
+controller = R01
+add_core = R01
+
 
 
 trade_goods = timber

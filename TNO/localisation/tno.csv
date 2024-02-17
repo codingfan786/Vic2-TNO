@@ -974,3 +974,12 @@ event500006desc;We have recieved an ultimatum regarding our intervention in the 
 russia_anarchy;Russian Wasteland;x
 ROM_1;Odessa;x
 aryan;Aryan;x
+ora_ai_fix;AI Unit Spawn Fix;x
+event500258desc;Reports have slowly begun filtering down from the distant communes of Siberia. Religious fervor and general unrest among the isolated populace has lead to the unexpected unification of the northern wasteland under one Alexander Men, an orthodox priest from the region.;x
+HND_2;Jubbulpore;x
+HND_3;Raipur;x
+rus_uni_substate;Russian Unification;;;;;;;;;;;;x;;;
+rus_uni_substate_short;Russian Unification of $STATE$;;;;;;;;;;;;x;;;
+rus_uni_substate_setup;Acquire $STATE$;;;;;;;;;;;;x;;;
+URA_1;Orenburg;x
+UKR_1;Chernigov;x

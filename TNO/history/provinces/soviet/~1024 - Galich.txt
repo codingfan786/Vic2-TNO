@@ -1,0 +1,8 @@
+owner = RAR
+controller = RAR
+add_core = RAR
+
+
+trade_goods = timber
+life_rating = 35
+fort = 1

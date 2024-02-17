@@ -8,6 +8,6 @@ life_rating = 35
 #	building = lumber_mill
 #	upgrade = yes
 #}
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = R02
+controller = R02
+add_core = R02

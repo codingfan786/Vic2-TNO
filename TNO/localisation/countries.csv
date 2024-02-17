@@ -275,16 +275,8 @@ EIR_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;
 EIR_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
 EIR_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 EIR_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
-FED_ADJ;Federalist;Federalist;Federalist;;;;;;;;;;;x;
-FED;Russian Federation;Russian Federation;Russian Federation;;;;;;;;;;;x;
-FED_proletarian_dictatorship;Russian Federation;Russian Federation;Russian Federation;;;;;;;;;;;x;
-FED_presidential_dictatorship;Russian Federation;Russian Federation;Russian Federation;;;;;;;;;;;x;
-FED_bourgeois_dictatorship;Russian Federation;Russian Federation;Russian Federation;;;;;;;;;;;x;
-FED_fascist_dictatorship;Russian Federation;Russian Federation;Russian Federation;;;;;;;;;;;x;
-FED_absolute_monarchy;Russian Federation;Russian Federation;Russian Federation;;;;;;;;;;;x;
-FED_prussian_constitutionalism;Russian Federation;Russian Federation;Russian Federation;;;;;;;;;;;x;
-FED_hms_government;Russian Federation;Russian Federation;Russian Federation;;;;;;;;;;;x;
-FED_democracy;Russian Federation;Russian Federation;Russian Federation;;;;;;;;;;;x;
+FED_ADJ;Magadan;Federalist;Federalist;;;;;;;;;;;x;
+FED;Free State of Magadan;Russian Federation;Russian Federation;;;;;;;;;;;x;
 FED_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
 FED_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
 FED_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
@@ -560,16 +552,8 @@ NIG_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;
 NIG_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
 NIG_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 NIG_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
-NKV_ADJ;NKVD;NKVD;NKVD;;;;;;;;;;;x;
-NKV;NKVD In Exile;NKVD In Exile;NKVD In Exile;;;;;;;;;;;x;
-NKV_proletarian_dictatorship;NKVD In Exile;NKVD In Exile;NKVD In Exile;;;;;;;;;;;x;
-NKV_presidential_dictatorship;NKVD In Exile;NKVD In Exile;NKVD In Exile;;;;;;;;;;;x;
-NKV_bourgeois_dictatorship;NKVD In Exile;NKVD In Exile;NKVD In Exile;;;;;;;;;;;x;
-NKV_fascist_dictatorship;NKVD In Exile;NKVD In Exile;NKVD In Exile;;;;;;;;;;;x;
-NKV_absolute_monarchy;NKVD In Exile;NKVD In Exile;NKVD In Exile;;;;;;;;;;;x;
-NKV_prussian_constitutionalism;NKVD In Exile;NKVD In Exile;NKVD In Exile;;;;;;;;;;;x;
-NKV_hms_government;NKVD In Exile;NKVD In Exile;NKVD In Exile;;;;;;;;;;;x;
-NKV_democracy;NKVD In Exile;NKVD In Exile;NKVD In Exile;;;;;;;;;;;x;
+NKV_ADJ;Soviet;NKVD;NKVD;;;;;;;;;;;x;
+NKV;Presidium of the Supreme Soviet;NKVD In Exile;NKVD In Exile;;;;;;;;;;;x;
 NKV_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
 NKV_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
 NKV_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
@@ -579,16 +563,8 @@ NKV_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;
 NKV_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
 NKV_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 NKV_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
-NUC_ADJ;N.U.C.;N.U.C.;N.U.C.;;;;;;;;;;;x;
-NUC;National Unification Congress;National Unification Congress;National Unification Congress;;;;;;;;;;;x;
-NUC_proletarian_dictatorship;National Unification Congress;National Unification Congress;National Unification Congress;;;;;;;;;;;x;
-NUC_presidential_dictatorship;National Unification Congress;National Unification Congress;National Unification Congress;;;;;;;;;;;x;
-NUC_bourgeois_dictatorship;National Unification Congress;National Unification Congress;National Unification Congress;;;;;;;;;;;x;
-NUC_fascist_dictatorship;National Unification Congress;National Unification Congress;National Unification Congress;;;;;;;;;;;x;
-NUC_absolute_monarchy;National Unification Congress;National Unification Congress;National Unification Congress;;;;;;;;;;;x;
-NUC_prussian_constitutionalism;National Unification Congress;National Unification Congress;National Unification Congress;;;;;;;;;;;x;
-NUC_hms_government;National Unification Congress;National Unification Congress;National Unification Congress;;;;;;;;;;;x;
-NUC_democracy;National Unification Congress;National Unification Congress;National Unification Congress;;;;;;;;;;;x;
+NUC_ADJ;Black;N.U.C.;N.U.C.;;;;;;;;;;;x;
+NUC;Siberian Black League;National Unification Congress;National Unification Congress;;;;;;;;;;;x;
 NUC_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
 NUC_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
 NUC_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
@@ -655,16 +631,8 @@ PHR_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;
 PHR_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
 PHR_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 PHR_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
-RAR_ADJ;Red Army;Red Army;Red Army;;;;;;;;;;;x;
-RAR;Red Army Remnants;Red Army Remnants;Red Army Remnants;;;;;;;;;;;x;
-RAR_proletarian_dictatorship;Red Army Remnants;Red Army Remnants;Red Army Remnants;;;;;;;;;;;x;
-RAR_presidential_dictatorship;Red Army Remnants;Red Army Remnants;Red Army Remnants;;;;;;;;;;;x;
-RAR_bourgeois_dictatorship;Red Army Remnants;Red Army Remnants;Red Army Remnants;;;;;;;;;;;x;
-RAR_fascist_dictatorship;Red Army Remnants;Red Army Remnants;Red Army Remnants;;;;;;;;;;;x;
-RAR_absolute_monarchy;Red Army Remnants;Red Army Remnants;Red Army Remnants;;;;;;;;;;;x;
-RAR_prussian_constitutionalism;Red Army Remnants;Red Army Remnants;Red Army Remnants;;;;;;;;;;;x;
-RAR_hms_government;Red Army Remnants;Red Army Remnants;Red Army Remnants;;;;;;;;;;;x;
-RAR_democracy;Red Army Remnants;Red Army Remnants;Red Army Remnants;;;;;;;;;;;x;
+RAR_ADJ;Revolutionary;Red Army;Red Army;;;;;;;;;;;x;
+RAR;West Russian Revolutionary Front;Red Army Remnants;Red Army Remnants;;;;;;;;;;;x;
 RAR_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
 RAR_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
 RAR_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
@@ -732,15 +700,7 @@ SUD_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;
 SUD_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 SUD_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
 WA1_ADJ;Tomsk;Tomsk;Tomsk;;;;;;;;;;;x;
-WA1;New Tomsk Clique;New Tomsk Clique;New Tomsk Clique;;;;;;;;;;;x;
-WA1_proletarian_dictatorship;New Tomsk Clique;New Tomsk Clique;New Tomsk Clique;;;;;;;;;;;x;
-WA1_presidential_dictatorship;New Tomsk Clique;New Tomsk Clique;New Tomsk Clique;;;;;;;;;;;x;
-WA1_bourgeois_dictatorship;New Tomsk Clique;New Tomsk Clique;New Tomsk Clique;;;;;;;;;;;x;
-WA1_fascist_dictatorship;New Tomsk Clique;New Tomsk Clique;New Tomsk Clique;;;;;;;;;;;x;
-WA1_absolute_monarchy;New Tomsk Clique;New Tomsk Clique;New Tomsk Clique;;;;;;;;;;;x;
-WA1_prussian_constitutionalism;New Tomsk Clique;New Tomsk Clique;New Tomsk Clique;;;;;;;;;;;x;
-WA1_hms_government;New Tomsk Clique;New Tomsk Clique;New Tomsk Clique;;;;;;;;;;;x;
-WA1_democracy;New Tomsk Clique;New Tomsk Clique;New Tomsk Clique;;;;;;;;;;;x;
+WA1;Central Siberian Republic;New Tomsk Clique;New Tomsk Clique;;;;;;;;;;;x;
 WA1_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
 WA1_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
 WA1_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
@@ -750,16 +710,8 @@ WA1_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;
 WA1_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
 WA1_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 WA1_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
-WA2_ADJ;Krasnoyarsk;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
-WA2;Krasnoyarsk;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
-WA2_proletarian_dictatorship;Krasnoyarsk;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
-WA2_presidential_dictatorship;Krasnoyarsk;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
-WA2_bourgeois_dictatorship;Krasnoyarsk;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
-WA2_fascist_dictatorship;Krasnoyarsk;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
-WA2_absolute_monarchy;Krasnoyarsk;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
-WA2_prussian_constitutionalism;Krasnoyarsk;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
-WA2_hms_government;Krasnoyarsk;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
-WA2_democracy;Krasnoyarsk;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
+WA2_ADJ;Divine;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
+WA2;Divine Mandate of Siberia;Krasnoyarsk;Krasnoyarsk;;;;;;;;;;;x;
 WA2_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
 WA2_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
 WA2_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
@@ -1348,3 +1300,31 @@ COC_ADJ;Caucasian;x
 COC;Caucasian Federation;x
 COC_proletarian_dictatorship;North Caucasian Soviet Republic;x
 COC_fascist_dictatorship;Reichskom. Kaukasien;x
+R01;Vologda;x
+R01_ADJ;Vologdan;x
+R02;Tatarstan;x
+R02_ADJ;Tatarstani;x
+R03;Vyatka;x
+R03_ADJ;Vyatkan;x
+R04;Komi Republic;x
+R04_ADJ;Komi;x
+R05;Aryan Brotherhood;x
+R05_ADJ;Aryan;x
+R06;Vorkuta Corrective Labor Camp;x
+R06_ADJ;Vorkutan;x
+R07;Thief Territory of Yugra;x
+R07_ADJ;Yugran;x
+R08;Free Aviators;x
+R08_ADJ;Free Aviator;x
+R09;Zlatoust Republic;x
+R09_ADJ;Zlatoust;x
+R10;Novosibirsk;x
+R10_ADJ;Novosibirsk;x
+R11;Siberian Black Army;x
+R11_ADJ;Siberian;x
+R12;Sakha Republic;x
+R12_ADJ;Yakutia;x
+R13;All-Russian Government of Amur;x
+R13_ADJ;Amur;x
+RUS;Ural League;x
+RUS_ADJ;Ural;x

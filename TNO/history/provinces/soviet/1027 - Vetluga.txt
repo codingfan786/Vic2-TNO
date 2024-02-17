@@ -1,6 +1,7 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = R01
+controller = R01
+add_core = R01
+
 
 
 trade_goods = timber
