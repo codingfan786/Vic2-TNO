@@ -3178,6 +3178,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
+				tag = OFN
+			}
+			modifier = {
+				factor = 0
 				tag = CFR
 			}
 		}

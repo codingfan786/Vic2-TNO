@@ -1,4 +1,16 @@
 substate = {
+	first = SGA
+	second = WGA
+	start_date = 1836.1.1
+}
+substate = {
+	first = SGA
+	second = EGA
+	start_date = 1836.1.1
+}
+
+
+substate = {
 	first = RAR
 	second = R01
 	start_date = 1836.1.1
@@ -198,13 +210,13 @@ substate = {
 	start_date = 1836.1.1
 }
 
-vassal = {
+substate = {
 	first = CFR
 	second = AF1
 	start_date = 1836.1.1
 }
 
-vassal = {
+substate = {
 	first = NGA
 	second = CAR
 	start_date = 1836.1.1

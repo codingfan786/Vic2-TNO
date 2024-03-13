@@ -245,7 +245,7 @@ country_event = {
 		}
 
 		ai_chance = {
-			factor = 0.10
+			factor = 1
 			modifier = {
 				factor = 0
 				war = yes
@@ -272,7 +272,7 @@ country_event = {
 		}
 
 		ai_chance = {
-			factor = 0.9
+			factor = 99
 		}
 	}
 }

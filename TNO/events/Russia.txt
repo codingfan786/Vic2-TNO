@@ -38,6 +38,12 @@ country_event = {
 		2663 = {secede_province = THIS add_core = THIS}
 		1073 = {secede_province = THIS add_core = THIS}
 		3246 = {secede_province = JAN}
+
+
+		2651 = {secede_province = THIS add_core = THIS}
+		2673 = {secede_province = THIS add_core = THIS}
+		2670 = {secede_province = THIS add_core = THIS}
+
 		civilized = yes
 
 		any_owned = {
@@ -119,37 +125,30 @@ country_event = {
 		NOT = {exists = R11}
 		NOT = {exists = R12}
 		NOT = {exists = R13}
-		NOT = {exists = NAV}
 
 		OR = {
+			has_global_flag = ER_unify
 			AND = {
-				NOT = {has_global_flag = rar_formed_sov}
+				NOT = {exists = WA2}
+				NOT = {exists = NKV}
+				NOT = {exists = FED}
+				NOT = {exists = NAV}
+			}
+		}
+
+		OR = {
+			has_global_flag = CR_unify
+			AND = {
+				NOT = {exists = NUC}
+				NOT = {exists = WA1}
+			}
+		}
+
+		OR = {
+			has_global_flag = WR_unify
+			AND = {
 				NOT = {exists = RAR}
-			}
-			NOT = {exists = RUS}
-		}
-
-		OR = {
-			NOT = {exists = WA1}
-			NOT = {exists = NUC}
-		}
-
-		OR = {
-			AND = {
-				NOT = {exists = WA2}
-				NOT = {exists = FED}
-				NOT = {exists = ALK}
-			}
-			AND = {
-				NOT = {exists = FED}
-				NOT = {exists = ALK}
-				NOT = {has_global_flag = nkv_formed_sov}
-				NOT = {exists = NKV}
-			}
-			AND = {
-				NOT = {exists = WA2}
-				NOT = {has_global_flag = nkv_formed_sov}
-				NOT = {exists = NKV}
+				NOT = {exists = RUS}
 			}
 		}
 	}
@@ -427,7 +426,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 2
+		months = 1
 	}
 
 
@@ -470,5 +469,271 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+
+country_event = {
+	id = 500263
+	title = "Russian Integration Talks"
+	desc = "$FROMCOUNTRY$ has proposed integration between our countries under the premise that our governments are not too dissimilar."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Towards reunification!"
+		FROM = {inherit = THIS}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				FROM = {is_sphere_leader_of = THIS}
+			}
+
+			modifier = {
+				factor = 2
+				OR = {
+					relation = { who = FROM value = 200 }
+					FROM = {relation = { who = THIS value = 200 }}
+				}
+			}
+
+			modifier = {
+				factor = 0
+				OR = {
+					war = yes
+					is_vassal = yes
+					is_greater_power = yes
+					AND = {
+						is_secondary_power = yes
+						NOT = {
+							FROM = {
+								OR = {
+									is_secondary_power = yes
+									is_greater_power = yes
+								}
+							}
+						}
+					}
+					tag = SOV
+					tag = ALK
+					tag = WRU
+				}
+			}
+
+			modifier = {
+				factor = 0.5
+				truce_with = FROM
+			}
+
+			modifier = {
+				factor = 0.25
+				AND = {
+					part_of_sphere = yes
+					NOT = {FROM = {is_sphere_leader_of = THIS}}
+				}
+			}
+		}
+	}
+	option = {
+		name = "We are the true Russian successor!"
+
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = 500264
+	title = "ai declaration"
+	desc = "ai RUS and RAR dont declare on finland for karelia often so this is necessary"
+
+	trigger = {
+		ai = yes
+		has_global_flag = WR_unify
+		war = no
+		OR = {
+			tag = RAR
+			tag = RUS
+		}
+		OR = {
+			994 = {
+				owner = {
+					AND = {
+						NOT = {tag = THIS}
+						NOT = {war_with = THIS}
+						NOT = {truce_with = THIS}
+					}
+				}
+			}
+			984 = {
+				owner = {
+					AND = {
+						NOT = {tag = THIS}
+						NOT = {war_with = THIS}
+						NOT = {truce_with = THIS}
+					}
+				}
+			}
+			2588 = {
+				owner = {
+					AND = {
+						NOT = {tag = THIS}
+						NOT = {war_with = THIS}
+						NOT = {truce_with = THIS}
+					}
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 2
+			OR = {
+				994 = {owner = {is_greater_power = yes}}
+				984 = {owner = {is_greater_power = yes}}
+				2588 = {owner = {is_greater_power = yes}}
+			}
+		}
+
+		modifier = {
+			factor = 2
+			OR = {
+				994 = {owner = {ai = no}}
+				984 = {owner = {ai = no}}
+				2588 = {owner = {ai = no}}
+			}
+		}
+	}
+
+	immediate = {
+		any_country = {
+			limit = {
+				NOT = {tag = THIS}
+				NOT = {war_with = THIS}
+				NOT = {truce_with = THIS}
+				owns = 994
+				NOT = {owns = 984}
+				NOT = {owns = 2588}
+			}
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 994 }
+				call_ally = yes
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {tag = THIS}
+				NOT = {war_with = THIS}
+				NOT = {truce_with = THIS}
+				owns = 984
+				NOT = {owns = 994}
+				NOT = {owns = 2588}
+			}
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 984 }
+				call_ally = yes
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {tag = THIS}
+				NOT = {war_with = THIS}
+				NOT = {truce_with = THIS}
+				owns = 2588
+				NOT = {owns = 984}
+				NOT = {owns = 994}
+			}
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 2588 }
+				call_ally = yes
+			}
+		}
+
+
+		any_country = {
+			limit = {
+				NOT = {tag = THIS}
+				NOT = {war_with = THIS}
+				NOT = {truce_with = THIS}
+				owns = 994
+				owns = 984
+				NOT = {owns = 2588}
+			}
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 994 }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 984 }
+				call_ally = yes
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {tag = THIS}
+				NOT = {war_with = THIS}
+				NOT = {truce_with = THIS}
+				owns = 984
+				owns = 2588
+				NOT = {owns = 994}
+			}
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 984 }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 2588 }
+				call_ally = yes
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = {tag = THIS}
+				NOT = {war_with = THIS}
+				NOT = {truce_with = THIS}
+				NOT = {owns = 984}
+				owns = 994
+				owns = 2588
+			}
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 994 }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 2588 }
+				call_ally = yes
+			}
+		}
+
+
+		any_country = {
+			limit = {
+				NOT = {tag = THIS}
+				NOT = {war_with = THIS}
+				NOT = {truce_with = THIS}
+				owns = 984
+				owns = 994
+				owns = 2588
+			}
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 994 }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 2588 }
+				defender_goal  = { casus_belli = acquire_core_state state_province_id = 984 }
+				call_ally = yes
+			}
+		}
+	}
+	option = {
+		name = "ok"
 	}
 }

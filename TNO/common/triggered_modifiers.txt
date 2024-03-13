@@ -2,6 +2,37 @@
 # these are checked for each countries once/month and then applied.
 #
 # Effects are fully scriptable here.
+low_infamy = {
+	trigger = {
+		NOT = {badboy = 0.4}
+	}
+	influence_modifier = 0.2
+}
+
+medium_infamy = {
+	trigger = {
+		badboy = 0.4
+		NOT = {badboy = 0.8}
+	}
+	influence_modifier = 0.1
+}
+
+
+high_infamy = {
+	trigger = {
+		badboy = 0.8
+	}
+	influence_modifier = -0.1
+}
+
+puppet_boost = {
+	trigger = {
+		is_vassal = yes
+		NOT = {primary_culture  = russian}
+	}	
+	mobilisation_size = 0.01
+	icon = 9
+}
 
 ai_boost = {
 	trigger = { 
@@ -209,9 +240,10 @@ save_the_nation0.5  = {
 
 
 		OR = {
+			ai = no
 			NOT = {primary_culture  = russian}
 			has_global_flag = rus_unified
-			ai = no
+			has_country_flag = russian_can_revanch
 		}
 		
 	}
@@ -228,10 +260,12 @@ save_the_nation1  = {
 	trigger = {
 		revanchism = 0.10
 		NOT = { revanchism = 0.15 } 
+		
 		OR = {
+			ai = no
 			NOT = {primary_culture  = russian}
 			has_global_flag = rus_unified
-			ai = no
+			has_country_flag = russian_can_revanch
 		}
 	}
 	
@@ -247,10 +281,12 @@ save_the_nation1.5  = {
 	trigger = {
 		revanchism = 0.15
 		NOT = { revanchism = 0.20 } 
+		
 		OR = {
+			ai = no
 			NOT = {primary_culture  = russian}
 			has_global_flag = rus_unified
-			ai = no
+			has_country_flag = russian_can_revanch
 		}
 	}
 	
@@ -269,10 +305,12 @@ save_the_nation2  = {
 	trigger = {
 		revanchism = 0.20
 		NOT = { revanchism = 0.25 } 
+		
 		OR = {
+			ai = no
 			NOT = {primary_culture  = russian}
 			has_global_flag = rus_unified
-			ai = no
+			has_country_flag = russian_can_revanch
 		}
 	}
 	
@@ -291,10 +329,12 @@ save_the_nation2.5  = {
 	trigger = {
 		revanchism = 0.25
 		NOT = { revanchism = 0.30 } 
+		
 		OR = {
+			ai = no
 			NOT = {primary_culture  = russian}
 			has_global_flag = rus_unified
-			ai = no
+			has_country_flag = russian_can_revanch
 		}
 	}
 	
@@ -313,10 +353,12 @@ save_the_nation3  = {
 	trigger = {
 		revanchism = 0.30
 		NOT = { revanchism = 0.35 } 
+		
 		OR = {
+			ai = no
 			NOT = {primary_culture  = russian}
 			has_global_flag = rus_unified
-			ai = no
+			has_country_flag = russian_can_revanch
 		}
 	}
 	
@@ -335,10 +377,12 @@ save_the_nation3.5  = {
 	trigger = {
 		revanchism = 0.35
 		NOT = { revanchism = 0.40 } 
+		
 		OR = {
+			ai = no
 			NOT = {primary_culture  = russian}
 			has_global_flag = rus_unified
-			ai = no
+			has_country_flag = russian_can_revanch
 		}
 	}
 	
@@ -357,10 +401,12 @@ save_the_nation4  = {
 	trigger = {
 		revanchism = 0.40
 		NOT = { revanchism = 0.45 } 
+		
 		OR = {
+			ai = no
 			NOT = {primary_culture  = russian}
 			has_global_flag = rus_unified
-			ai = no
+			has_country_flag = russian_can_revanch
 		}
 	}
 	
@@ -379,10 +425,12 @@ save_the_nation4.5  = {
 	trigger = {
 		revanchism = 0.45
 		NOT = { revanchism = 0.50 }
+		
 		OR = {
+			ai = no
 			NOT = {primary_culture  = russian}
 			has_global_flag = rus_unified
-			ai = no
+			has_country_flag = russian_can_revanch
 		}
 	}
 	
@@ -401,10 +449,12 @@ save_the_nation4.5  = {
 save_the_nation5  = {
 	trigger = {
 		revanchism = 0.50
+		
 		OR = {
+			ai = no
 			NOT = {primary_culture  = russian}
 			has_global_flag = rus_unified
-			ai = no
+			has_country_flag = russian_can_revanch
 		}
 	}
 	

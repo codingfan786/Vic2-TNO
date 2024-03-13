@@ -108,6 +108,79 @@ political_decisions = {
 			end_war = SGE
 			end_war = BGE
 			end_war = HGE
+
+			530 = {
+				sub_unit = {type = ironclad value = current}
+				sub_unit = {type = ironclad value = current}
+				sub_unit = {type = manowar value = current}
+				sub_unit = {type = manowar value = current}
+				sub_unit = {type = manowar value = current}
+				sub_unit = {type = manowar value = current}
+				sub_unit = {type = manowar value = current}
+				sub_unit = {type = manowar value = current}
+				sub_unit = {type = manowar value = current}
+				sub_unit = {type = manowar value = current}
+				sub_unit = {type = manowar value = current}
+				sub_unit = {type = manowar value = current}
+
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+				sub_unit = {type = frigate value = current}
+			}
+
+			690 = {
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+				sub_unit = {type = clipper_transport value = current}
+			}
+			
 		}
 	}
 

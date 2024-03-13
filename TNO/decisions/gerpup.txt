@@ -381,7 +381,7 @@ political_decisions = {
 				tag = EGA
 				tag = BRG
 
-				tag = COC
+				#tag = COC
 
 				tag = SGA
 				tag = AGA

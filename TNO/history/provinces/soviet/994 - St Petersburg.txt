@@ -2,6 +2,8 @@ owner = FIN
 controller = FIN
 add_core = FIN
 
+#add_core = MSC
+
 naval_base = 1
 
 trade_goods = grain

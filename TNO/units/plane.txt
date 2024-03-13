@@ -37,7 +37,7 @@ plane = {
 	reconnaissance = 0.1
 	attack = 2
 	defence = 5
-	discipline = 0.1
+	discipline = 1.0
 	support = 2
 	maneuver = 2
 

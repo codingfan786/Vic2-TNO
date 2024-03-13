@@ -2,7 +2,7 @@ political_decisions = {
 	divine_mandate = {
 		potential = {
 			tag = JAN
-			NOT = {has_country_flag = divine_mandated}
+			NOT = {has_global_flag = divine_mandated}
 		}
 		allow = {
 			NOT = {exists = GER} #change
@@ -15,11 +15,417 @@ political_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = divine_mandated
+			set_global_flag = divine_mandated
 			3246 = {secede_province = WA2}
 			WA2 = {country_event = 500258}
 		}
 	}
+
+
+#REGIONAL UNIFICATION
+
+	west_russia_unify = {
+		picture = russian_vladivostok
+		potential = {
+			NOT = {has_global_flag = WR_unify}
+			OR = {
+				tag = RAR
+				tag = RUS
+			}
+		}
+		allow = {
+			RAR = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+			RUS = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+		}
+		effect = {
+			set_country_flag = russian_can_revanch
+			set_global_flag = WR_unify
+			any_country = {
+				limit = {
+					OR = {
+						tag = ONE
+						tag = RUS
+						tag = RAR
+						tag = R01
+						tag = R02
+						tag = R03
+						tag = R04
+						tag = R05
+						tag = R06
+					}
+				}
+				all_core = {add_core = THIS}
+			}
+			FIN_1 = {add_core = THIS}
+			RUS_339 = {add_core = THIS}
+		}
+	}
+
+
+	central_russia_unify = {
+		picture = russian_vladivostok
+		potential = {
+			NOT = {has_global_flag = CR_unify}
+			OR = {
+				tag = NUC
+				tag = WA1
+			}
+		}
+		allow = {
+			NUC = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+			WA1 = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+		}
+		effect = {
+			set_country_flag = russian_can_revanch
+			set_global_flag = CR_unify
+			any_country = {
+				limit = {
+					OR = {
+						tag = WA1
+						tag = NUC
+						tag = R07
+						tag = R08
+						tag = R09
+						tag = R10
+						tag = R11
+					}
+				}
+				all_core = {add_core = THIS}
+			}
+			2613 = {secede_province = THIS}
+			2659 = {secede_province = THIS}
+			2615 = {secede_province = THIS}
+			2681 = {secede_province = THIS}
+			2692 = {secede_province = THIS}
+			2657 = {secede_province = THIS}
+			2680 = {secede_province = THIS}
+			2658 = {secede_province = THIS}
+			2693 = {secede_province = THIS}
+			2654 = {secede_province = THIS}
+			2655 = {secede_province = THIS}
+			2674 = {secede_province = THIS}
+			2675 = {secede_province = THIS}
+			2653 = {secede_province = THIS}
+			2694 = {secede_province = THIS}
+			#2651 = {secede_province = THIS}
+			#2673 = {secede_province = THIS}
+			#2670 = {secede_province = THIS}
+		}
+	}
+
+
+	east_russia_unify = {
+		picture = russian_vladivostok
+		potential = {
+			NOT = {has_global_flag = ER_unify}
+			OR = {
+				tag = WA2
+				tag = NKV
+				tag = FED
+				tag = NAV
+			}
+		}
+		allow = {
+			has_global_flag = divine_mandated
+			WA2 = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+			NKV = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+			FED = {
+				all_core = {
+					owner = {
+						tag = THIS
+					}
+				}
+			}
+		}
+		effect = {
+			set_country_flag = russian_can_revanch
+			set_global_flag = ER_unify
+			any_country = {
+				limit = {
+					OR = {
+						tag = WA2
+						tag = NKV
+						tag = FED
+						tag = R13
+						tag = R12
+					}
+				}
+				all_core = {add_core = THIS}
+			}
+			CHI_1082 = {add_core = THIS}
+		}
+	}
+
+
+#PEACEFUL INTEGRATION
+
+	russian_integration = {
+		picture = russian_vladivostok
+		potential = {
+			OR = {
+				AND = {
+					has_global_flag = WR_unify
+					OR = {
+						tag = RAR
+						tag = RUS
+						tag = SOV
+						tag = WRU
+					}
+				}
+				AND = {
+					has_global_flag = CR_unify
+					OR = {
+						tag = NUC
+						tag = WA1
+					}
+				}
+				AND = {
+					has_global_flag = ER_unify
+					OR = {
+						tag = WA2
+						tag = NKV
+						tag = FED
+						tag = NAV
+						tag = ALK
+					}
+				}
+			}
+			any_neighbor_country = {
+				AND = {
+					NOT = {tag = MSC}
+					primary_culture = russian
+				} 
+			}
+		}
+
+		allow = {
+			NOT = {has_country_modifier = russian_integration_talks}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = russian_integration_talks
+				duration = 1825
+			}
+
+			any_neighbor_country = {
+				limit = {
+					NOT = {war_with = THIS}
+					NOT = {tag = MSC}
+					primary_culture = russian
+					OR = {
+						AND = {
+							government = proletarian_dictatorship
+							THIS = {government = proletarian_dictatorship}
+						}
+						AND = {
+							government = presidential_dictatorship
+							THIS = {government = presidential_dictatorship}
+						}
+						AND = {
+							government = bourgeois_dictatorship
+							THIS = {government = bourgeois_dictatorship}
+						}
+						AND = {
+							government = fascist_dictatorship
+							THIS = {government = fascist_dictatorship}
+						}
+						AND = {
+							government = absolute_monarchy
+							THIS = {government = absolute_monarchy}
+						}
+						AND = {
+							government = prussian_constitutionalism
+							THIS = {government = prussian_constitutionalism}
+						}
+						AND = {
+							government = hms_government
+							THIS = {government = hms_government}
+						}
+						AND = {
+							government = democracy
+							THIS = {government = democracy}
+						}
+					}
+				}
+				country_event = 500263
+			}
+					
+		}
+	}
+
+
+#SIBERIA CLEANUP
+
+	siberia_colonize = {
+		picture = trail_of_tears
+		potential = {
+			2613 = {empty = yes}
+			primary_culture = russian
+			NOT = {tag = WA1}
+			NOT = {tag = NUC}
+		}
+		allow = {
+			WA1 = {all_core = {owner = {tag = THIS}}}
+		}
+		effect = {
+			2613 = {secede_province = THIS}
+			2659 = {secede_province = THIS}
+			2615 = {secede_province = THIS}
+			2681 = {secede_province = THIS}
+			2692 = {secede_province = THIS}
+			2657 = {secede_province = THIS}
+			2680 = {secede_province = THIS}
+			2658 = {secede_province = THIS}
+			2693 = {secede_province = THIS}
+			2654 = {secede_province = THIS}
+			2655 = {secede_province = THIS}
+			2674 = {secede_province = THIS}
+			2675 = {secede_province = THIS}
+			2653 = {secede_province = THIS}
+			2694 = {secede_province = THIS}
+		}
+	}
+
+
+#FORMABLE TAGS
+
+	sov_form = {
+		picture = raise_the_bonnie_blue_flag
+		potential = {
+			tag = RAR
+			has_global_flag = WR_unify
+			NOT = {exists = SOV}
+		}
+		allow = {
+			all_core = {
+				owner = {
+					tag = THIS
+				}
+			}
+		}
+		effect = {
+			change_tag = SOV
+		}
+	}
+
+	wru_form = {
+		picture = institute_central_bank
+		potential = {
+			tag = RUS
+			has_global_flag = WR_unify
+			NOT = {exists = WRU}
+		}
+		allow = {
+			all_core = {
+				owner = {
+					tag = THIS
+				}
+			}
+		}
+		effect = {
+			change_tag = WRU
+		}
+	}
+
+	alk_form = {
+		picture = institute_central_bank
+		potential = {
+			OR = {
+				tag = FED
+				tag = NAV
+			}
+			has_global_flag = ER_unify
+			NOT = {exists = ALK}
+		}
+		allow = {
+			all_core = {
+				OR = {
+					owner = {tag = THIS}
+					province_id = 1082
+					province_id = 1083
+				}
+			}
+		}
+		effect = {
+			change_tag = ALK
+		}
+	}
+
+
+#NON FORMABLE UNIQUE DECISIONS
+
+	nuc_expand = {
+		picture = build_the_tower_of_babylon
+		potential = {
+			tag = NUC
+			NOT = {has_country_flag = trialed}
+			has_global_flag = CR_unify
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			1034 = {owner = {tag = THIS}}
+			1044 = {owner = {tag = THIS}}
+			1026 = {owner = {tag = THIS}}
+			1030 = {owner = {tag = THIS}}
+			1020 = {owner = {tag = THIS}}
+		}
+		effect = {
+			set_country_flag = trialed
+			RUS_1037 = {
+				add_core = THIS
+			}
+			RUS_1008 = {
+				add_core = THIS
+			}
+			RUS_998 = {
+				add_core = THIS
+			}
+			any_owned = {
+				limit = {culture = russian}
+				add_core = THIS
+			}
+		}
+	}
+
+
+#WEST ALASKA DECISIONS
 
 	shippurchase = {
 		picture = the_vega_expedition
@@ -83,307 +489,10 @@ political_decisions = {
 	}
 
 
-	westalaska = {
-		picture = institute_central_bank
-		potential = {
-			OR = {
-				tag = NAV
-				tag = FED
-			}
-			NOT = {exists = ALK}
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-			OR = {
-				AND = {
-					NOT = {exists = NKV}
-					WA2 = {
-						all_core = {
-							owner = {
-								tag = THIS
-							}
-						}
-					}
-					NAV = {
-						all_core = {
-							owner = {
-								tag = THIS
-							}
-						}
-					}
-					FED = {
-						all_core = {
-							owner = {
-								tag = THIS
-							}
-						}
-					}
-				}
-				has_global_flag = rus_unified
-			}
-		}
-		effect = {
-			prestige = 20
-
-			change_tag = ALK
-
-			FED = {
-				all_core = {add_core = ALK}
-			}
-			NAV = {
-				all_core = {add_core = ALK}
-			}
-			NKV = {
-				all_core = {add_core = ALK}
-			}
-			WA2 = {
-				all_core = {add_core = ALK}
-			}
-			R13 = {
-				all_core = {add_core = ALK}
-			}
-			R12 = {
-				all_core = {add_core = ALK}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					NOT = {FED = {ai = yes}}
-					NOT = {NAV = {ai = yes}}
-				}
-			}
-		}
-	}
-
-	sov_form_rar = {
-		picture = raise_the_bonnie_blue_flag
-		potential = {
-			NOT = {exists = SOV}
-			tag = RAR
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-			OR = {
-				AND = {
-					all_core = {
-						owner = {
-							tag = THIS
-						}
-					}
-					2588 = {owner = {tag = THIS}}
-					1034 = {owner = {tag = THIS}}
-					1044 = {owner = {tag = THIS}}
-				}
-				has_global_flag = rus_unified
-			}
-		}
-		effect = {
-			change_tag = SOV
-			RAR = {
-				all_core = {
-					add_core = SOV
-				}
-			}
-			RUS = {
-				all_core = {
-					add_core = SOV
-				}
-			}
-			ONE = {
-				all_core = {
-					add_core = SOV
-				}
-			}
-
-			984 = {add_core = SOV}
-			983 = {add_core = SOV}
-			2587 = {add_core = SOV}
-			339 = {add_core = SOV}
-			994 = {add_core = SOV}
-
-			set_global_flag = rar_formed_sov
-		}
-	}
-
-	sov_form_nkv = {
-		picture = raise_the_bonnie_blue_flag
-		potential = {
-			NOT = {exists = SOV}
-			tag = NKV
-			OR = {
-				ai = no
-				RAR = {ai = yes}
-			}
-		}
-		allow = {
-			
-			nationalism_n_imperialism = 1
-
-			OR = {
-				AND = {
-					NOT = {exists = FED}
-					WA2 = {
-						all_core = {
-							owner = {
-								tag = THIS
-							}
-						}
-					}
-					NKV = {
-						all_core = {
-							owner = {
-								tag = THIS
-							}
-						}
-					}
-					R12 = {
-						all_core = {
-							owner = {
-								tag = THIS
-							}
-						}
-					}
-				}
-				has_global_flag = rus_unified
-			}
-		}
-		effect = {
-			prestige = 20
-
-			change_tag = SOV
-
-			FED = {
-				all_core = {add_core = SOV}
-			}
-			NAV = {
-				all_core = {add_core = SOV}
-			}
-			NKV = {
-				all_core = {add_core = SOV}
-			}
-			WA2 = {
-				all_core = {add_core = SOV}
-			}
-			R13 = {
-				all_core = {add_core = SOV}
-			}
-			R12 = {
-				all_core = {add_core = SOV}
-			}
-
-			set_global_flag = nkv_formed_sov
-		}
-	}
-
-	sov_integration = {
-		picture = raise_the_bonnie_blue_flag
-		potential = {
-			tag = SOV
-			any_neighbor_country = {OR = {tag = RAR tag = NKV}}
-		}
-		allow = {
-			NOT = {
-				truce_with = RAR
-			}
-			NOT = {
-				truce_with = NKV
-			}
-			NOT = {
-				war_with = RAR
-			}
-			NOT = {
-				war_with = NKV
-			}
-			NOT = {NKV = {war = yes}}
-			NOT = {RAR = {war = yes}}
-			OR = {
-				NKV = {ai = yes}
-				is_our_vassal = NKV
-				NOT = {exists = NKV}
-			}
-			OR = {
-				RAR = {ai = yes}
-				is_our_vassal = RAR
-				NOT = {exists = RAR}
-			}
-		}
-		effect = {
-			NKV = {all_core = {add_core = THIS}}
-			RAR = {all_core = {add_core = THIS}}
-			inherit = NKV
-			inherit = RAR
-		}
-	}
-
-	great_trial = {
-		picture = build_the_tower_of_babylon
-		potential = {
-			tag = NUC
-			NOT = {has_country_flag = trialed}
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-			
-			RUS = {all_core = {owner = {tag = THIS}}}
-			R02 = {all_core = {owner = {tag = THIS}}}
-			R03 = {all_core = {owner = {tag = THIS}}}
-			R05 = {all_core = {owner = {tag = THIS}}}
-		}
-		effect = {
-			set_country_flag = trialed
-			RUS_1037 = {
-				add_core = THIS
-			}
-			RUS_1008 = {
-				add_core = THIS
-			}
-			RUS_998 = {
-				add_core = THIS
-			}
-			RUS = {all_core = {add_core = THIS}}
-			R02 = {all_core = {add_core = THIS}}
-			R03 = {all_core = {add_core = THIS}}
-			R05 = {all_core = {add_core = THIS}}
-		}
-	}
-
-	rus_region_unify = {
-		picture = institute_central_bank
-		potential = {
-			tag = RUS
-			NOT = {has_country_flag = rus_content}
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-			OR = {
-				AND = {
-					NOT = {exists = RAR}
-					NOT = {has_global_flag = rar_formed_sov}
-					RUS = {
-						all_core = {
-							owner = {
-								tag = THIS
-							}
-						}
-					}
-				}
-				has_global_flag = rus_unified
-			}
-		}
-		effect = {
-			prestige = 20
-			
-			RAR = {all_core = {add_core = THIS}}
-			R09 = {all_core = {add_core = THIS}}
-			2685 = {add_core = THIS}
-			1062 = {add_core = THIS}
-			1061 = {add_core = THIS}
-		}
-	}
+#SOVIET UNION DECISIONS
 
 
-	
+#RUSSIAN REPUBLIC DECISIONS
+
+
 }

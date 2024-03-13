@@ -6,7 +6,7 @@ civilized = yes
 capital = 1060
 primary_culture = russian
 religion = protestant
-government = presidential_dictatorship
+government = fascist_dictatorship
 plurality = 10
 nationalvalue = nv_order
 literacy = 0.05
@@ -18,7 +18,7 @@ oob = "NUC.txt"
 
 #========================= H O U S E - O F - L O R D S =========================
 
-ruling_party = NUC_reactionary_84
+ruling_party = NUC_fascist_72
 upper_house = {
 fascist = 0
 reactionary = 0

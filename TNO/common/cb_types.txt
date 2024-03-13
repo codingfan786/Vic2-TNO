@@ -904,6 +904,29 @@ free_peoples = {
 				}
 			}
 		
+		OR = {
+			NOT = {ai = yes}
+			FROM = {
+				NOT = {
+					OR = {
+						tag = R01
+						tag = R02
+						tag = R03
+						tag = R04
+						tag = R05
+						tag = R06
+						tag = R07
+						tag = R08
+						tag = R09
+						tag = R10
+						tag = R11
+						tag = R12
+						tag = R13
+					}
+				}
+			}
+		}
+
 		any_owned_province = {
 			is_core = FROM
 			NOT =
@@ -912,6 +935,7 @@ free_peoples = {
 			}
 		}
 		is_releasable_vassal = FROM
+
 	}
 
 	# THIS - us
@@ -1704,6 +1728,7 @@ install_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		always = no
 		THIS = {
 			# If actor is a great power
 			is_greater_power = yes
@@ -1859,7 +1884,7 @@ acquire_capital = {
 	
 	badboy_factor = 1.5
 	prestige_factor = 2
-	peace_cost_factor = 1.5
+	peace_cost_factor = 1
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2032,6 +2057,97 @@ rus_uni = {
 		}
 
 		NOT = {num_of_substates = 1}
+
+		OR = { #railroads the AI into actually unifying their subregion first and foremost before being autistic map painters
+			NOT = {ai = yes}
+			AND = {
+				THIS = {tag = RAR}
+				OR = {
+					tag = RUS
+					tag = FIN
+					NOT = {exists = RUS}
+				}
+			}
+			AND = {
+				THIS = {tag = RUS}
+				OR = {
+					tag = RAR
+					tag = FIN
+					NOT = {exists = RAR}
+				}
+			}
+
+			AND = {
+				THIS = {tag = WA1}
+				OR = {
+					tag = NUC
+					NOT = {exists = NUC}
+				}
+			}
+			AND = {
+				THIS = {tag = NUC}
+				OR = {
+					tag = WA1
+					NOT = {exists = WA1}
+				}
+			}
+
+			AND = {
+				THIS = {tag = NKV}
+				OR = {
+					tag = WA2
+					tag = FED
+					tag = NAV
+					AND = {
+						NOT = {exists = WA2}
+						NOT = {exists = FED}
+					}
+				}
+			}
+			AND = {
+				THIS = {tag = FED}
+				OR = {
+					tag = WA2
+					tag = NKV
+					tag = NAV
+					AND = {
+						NOT = {exists = WA2}
+						NOT = {exists = NKV}
+					}
+				}
+			}
+			AND = {
+				THIS = {tag = WA2}
+				OR = {
+					tag = FED
+					tag = NKV
+					tag = NAV
+					AND = {
+						NOT = {exists = FED}
+						NOT = {exists = NKV}
+					}
+				}
+			}
+		}
+
+		#OR = {
+		#	NOT = {ai = yes}
+		#	AND = {
+		#		NOT = {THIS = {tag = RAR}}
+		#		NOT = {THIS = {tag = RUS}}
+		#	}
+		#	NOT = {has_global_flag = WR_unify}
+		#	owns = 994
+		#	owns = 984
+		#	owns = 2588
+		#	THIS = {
+		#		AND = {
+		#			owns = 994
+		#			owns = 984
+		#			owns = 2588
+		#		}
+		#	}
+		#}
 	}
 	
 	allowed_states = {
@@ -3155,8 +3271,6 @@ goring_wild_ride_a = {
 					is_core = FIN
 					is_core = HUN
 					is_core = ROM
-					is_core = WAL
-					is_core = MOL
 					is_core = BUL
 				}
 			}
@@ -3172,8 +3286,6 @@ goring_wild_ride_a = {
 						is_core = HUN
 						is_core = ROM
 						is_core = BUL
-						is_core = MOL
-						is_core = WAL
 					}
 				}
 			}
@@ -3199,8 +3311,6 @@ goring_wild_ride_a = {
 						is_core = HUN
 						is_core = ROM
 						is_core = BUL
-						is_core = MOL
-						is_core = WAL
 					}
 				}
 			}
@@ -3690,7 +3800,7 @@ china_border_conflict_response = {
 			CHI = {government = presidential_dictatorship}
 		}
 
-		all_core = {add_core = THIS}
+		#all_core = {add_core = THIS}
 	}
 }
 
@@ -3787,7 +3897,7 @@ china_border_conflict = {
 			CHI = {government = presidential_dictatorship}
 		}
 		
-		all_core = {add_core = THIS}
+		#all_core = {add_core = THIS}
 		
 	}
 

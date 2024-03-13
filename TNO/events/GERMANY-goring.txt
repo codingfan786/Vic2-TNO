@@ -105,7 +105,7 @@ country_event = {
 		name = "Goring will preoccupy the militarists with other ideas."
 		badboy = -5
 		ai_chance = {
-			factor = 0
+			factor = 2 #was 0 when the declare event worked
 		}
 	}
 }

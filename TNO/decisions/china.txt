@@ -135,7 +135,7 @@ political_decisions = {
 
 			CHI = {
 				war = {
-				target = YNN
+					target = YNN
 					attacker_goal = { casus_belli = gaw_war }
 					defender_goal = { casus_belli = gaw_war }
 					call_ally = no

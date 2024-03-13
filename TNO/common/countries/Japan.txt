@@ -3,6 +3,8 @@ color = { 255 191 191 }
 absolute_monarchy = { 165  42  42 }
 prussian_constitutionalism = { 165  42  42 }
 hms_government = { 165  42  42 }
+presidential_dictatorship = { 165  42  42 }
+fascist_dictatorship = { 165  42  42 }
 
 graphical_culture = JapaneseGC
 

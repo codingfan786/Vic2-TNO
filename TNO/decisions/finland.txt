@@ -9,11 +9,7 @@ political_decisions = {
 			OR = {
 				nationalism_n_imperialism = 1
 
-				AND = {
-					ai = yes
-					RAR = {ai = yes}
-					NOT = {exists = RUS}
-				}
+				has_global_flag = WR_unify
 			}
 			
 

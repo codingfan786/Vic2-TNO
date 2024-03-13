@@ -1,0 +1,129 @@
+1074 = {
+	capitalists = {
+		culture = russian
+		religion = protestant
+		size = 2000
+	}
+	craftsmen = {
+		culture = russian
+		religion = protestant
+		size = 40000
+	}
+	clergymen = {
+		culture = russian
+		religion = protestant
+		size = 1005
+	}
+
+	artisans = {
+		culture = russian
+		religion = protestant
+		size = 1675
+	}
+
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 670
+	}
+
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 46900
+	}
+
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 1005
+	}
+
+	clergymen = {
+		culture = russian
+		religion = protestant
+		size = 1340
+	}
+
+	artisans = {
+		culture = russian
+		religion = protestant
+		size = 13400
+	}
+
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 1005
+	}
+
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 268000
+	}
+}
+
+2633 = {
+	aristocrats = {
+		culture = russian
+		religion = protestant
+		size = 670
+	}
+
+	clergymen = {
+		culture = russian
+		religion = protestant
+		size = 1675
+	}
+
+	artisans = {
+		culture = russian
+		religion = protestant
+		size = 3350
+	}
+
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 1005
+	}
+
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 77050
+	}
+}
+
+2616 = {
+	aristocrats = {
+		culture = russian
+		religion = protestant
+		size = 670
+	}
+
+	clergymen = {
+		culture = russian
+		religion = protestant
+		size = 1675
+	}
+
+	artisans = {
+		culture = russian
+		religion = protestant
+		size = 3350
+	}
+
+	soldiers = {
+		culture = russian
+		religion = protestant
+		size = 1005
+	}
+
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 77050
+	}
+}

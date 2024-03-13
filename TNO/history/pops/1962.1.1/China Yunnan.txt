@@ -2,6 +2,13 @@
 #under the rule of China in 1836
 #Kunming (3016000/754000 POPS)
 1601 = {
+	
+	craftsmen = {
+		culture = nanfaren
+		religion = protestant
+		size = 15000
+	}
+
 	aristocrats = {
 		culture = nanfaren
 		religion = protestant

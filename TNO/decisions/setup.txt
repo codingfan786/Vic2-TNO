@@ -184,6 +184,22 @@ political_decisions = {
 
 		}
 		effect = {
+			RAR = {
+				define_general = {
+					name = "Georgy Zhukov"
+					personality = defence_4.1
+					background = attack_5.1
+				}
+			}
+
+			NUC = {
+				define_general = {
+					name = "C++"
+					personality = defence_minus_5.1
+					background = attack_minus_5.1
+				}
+			}
+
 			OFN = {set_country_flag = i_am_the_ofn_trust}
 			set_global_flag = canalactivated
 			enable_canal = 1

@@ -1,5 +1,10 @@
 #Canton (4532000/1133000 POPS)
 1493 = {
+	craftsmen = {
+		culture = nanfaren
+		religion = protestant
+		size = 10000
+	}
 	aristocrats = {
 		culture = nanfaren
 		religion = protestant
@@ -290,6 +295,12 @@
 }
 #Chaozhou (3600000/900000 POPS)
 1494 = {
+	craftsmen = {
+		culture = nanfaren
+		religion = protestant
+		size = 10000
+	}
+	
 	aristocrats = {
 		culture = nanfaren
 		religion = protestant

@@ -44,6 +44,11 @@ country_migration_target =
 	factor = 1
 
 	modifier = {
+		factor = 0
+		has_country_flag = is_ofn_trust
+	}
+
+	modifier = {
 		factor = 100
 		
 		NOT = {has_country_flag = german_africa}
@@ -1076,38 +1081,47 @@ ideologies = {
 		modifier = {
 			factor = 1.1
 		 	revanchism = 0.01
+		 	location = {owner = {NOT= {has_country_flag = is_ofn_trust}}}
 		}
 		modifier = {
 			factor = 1.1
 		 	revanchism = 0.02
+		 	location = {owner = {NOT= {has_country_flag = is_ofn_trust}}}
 		}
 		modifier = {
 			factor = 1.1
 		 	revanchism = 0.03
+		 	location = {owner = {NOT= {has_country_flag = is_ofn_trust}}}
 		}
 		modifier = {
 			factor = 1.1
 		 	revanchism = 0.04
+		 	location = {owner = {NOT= {has_country_flag = is_ofn_trust}}}
 		}
 		modifier = {
 			factor = 1.1
 		 	revanchism = 0.05
+		 	location = {owner = {NOT= {has_country_flag = is_ofn_trust}}}
 		}
 		modifier = {
 			factor = 1.5
 		 	revanchism = 0.10
+		 	location = {owner = {NOT= {has_country_flag = is_ofn_trust}}}
 		}
 		modifier = {
 			factor = 1.5
 		 	revanchism = 0.15
+		 	location = {owner = {NOT= {has_country_flag = is_ofn_trust}}}
 		}
 		modifier = {
 			factor = 1.5
 		 	revanchism = 0.20
+		 	location = {owner = {NOT= {has_country_flag = is_ofn_trust}}}
 		}
 		modifier = {
 			factor = 2
 		 	revanchism = 0.25
+		 	location = {owner = {NOT= {has_country_flag = is_ofn_trust}}}
 		}
 		modifier = {
 			factor = 1.1

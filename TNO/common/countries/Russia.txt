@@ -1,6 +1,8 @@
 #color = { 47 91 18 }
 #proletarian_dictatorship = { 200 10 10 }
-color = { 165 161 206 }
+#color = { 165 161 206 }
+color = { 183 183 166 }
+#color = { 196 196 185 }
 
 graphical_culture = RussianGC
 

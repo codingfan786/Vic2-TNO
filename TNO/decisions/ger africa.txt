@@ -174,4 +174,21 @@ political_decisions = {
 			set_country_flag = no_more_african_rebels
 		}
 	}
+
+	africa_ai = {
+		potential = {
+			tag = SGA
+			ai = yes
+			NOT = {has_country_flag = ai_africa}
+		}
+		allow = {
+
+		}
+		effect = {
+			set_country_flag = ai_africa
+			release_vassal = WGA
+			release_vassal = EGA
+			create_substate = HUN
+		}
+	}
 }

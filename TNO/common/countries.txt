@@ -61,6 +61,8 @@ WCH = "countries/WestChina.txt"
 ALP = "countries/TransAlpine.txt"
 
 SOV = "countries/SovietUnion.txt"
+WRU = "countries/WestRussia.txt"
+
 
 NPO = "countries/NowaPolska.txt"
 

@@ -6,13 +6,26 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-
+			NOT = {exists = ONE}
 		}
 		effect = {
-			any_country = {
-				limit = {NOT = {tag = JAN}}
-				country_event = 1534262634
-			}		
+			FIN_1 = {add_core = THIS}
+			RUS_339 = {add_core = THIS}	
+			2613 = {secede_province = THIS}
+		2659 = {secede_province = THIS}
+		2615 = {secede_province = THIS}
+		2681 = {secede_province = THIS}
+		2692 = {secede_province = THIS}
+		2657 = {secede_province = THIS}
+		2680 = {secede_province = THIS}
+		2658 = {secede_province = THIS}
+		2693 = {secede_province = THIS}
+		2654 = {secede_province = THIS}
+		2655 = {secede_province = THIS}
+		2674 = {secede_province = THIS}
+		2675 = {secede_province = THIS}
+		2653 = {secede_province = THIS}
+		2694 = {secede_province = THIS}
 		}
 	}
 }

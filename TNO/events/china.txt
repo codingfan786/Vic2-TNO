@@ -112,3 +112,53 @@ country_event = {
 		name = "Wow! That's terrible!"
 	}
 }
+
+country_event = {
+	id = 500262
+	title = "Chinese Border Wars"
+	desc = "China and the N.P.A. are dividing your territory."
+	trigger = {
+		OR = {
+			tag = CH1
+			tag = CH2
+			tag = CH3
+			tag = CH4
+			#tag = CH5
+			#tag = CH6
+			tag = XBI
+		}
+		war_with = YNN
+		war_with = CHI
+		any_owned_province = {
+			controlled_by = THIS
+		}
+		any_owned_province = {
+			OR = {
+				controlled_by = CHI
+				controlled_by = YNN
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				controlled_by = CHI
+			}
+			secede_province = CHI
+			add_core = CHI
+		}
+		any_owned = {
+			limit = {
+				controlled_by = YNN
+			}
+			secede_province = YNN
+			add_core = YNN
+		}
+	}
+	option = {
+		name = "Maybe I shouldnt be on this country..."
+	}
+}

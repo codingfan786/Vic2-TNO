@@ -2,6 +2,9 @@ owner = GGE
 controller = GGE
 add_core = GGE
 add_core = GER
+
+naval_base = 1
+
 trade_goods = fish
 life_rating = 35
 #state_building = {
