@@ -5,6 +5,7 @@
 civilized = yes
 capital = 1060
 primary_culture = russian
+culture = siberian
 religion = protestant
 government = fascist_dictatorship
 plurality = 10

@@ -1,46 +1,46 @@
 2639 = {
 	bureaucrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 500
 	}
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 200000
 	}
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 12000
 	}
 
 	aristocrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 670
 	}
 
 	clergymen = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 1675
 	}
 
 	artisans = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 3350
 	}
 
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 1005
 	}
 
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 77050
 	}
@@ -48,47 +48,47 @@
 
 2618 = {
 	bureaucrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 500
 	}
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 200000
 	}
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 12000
 	}
 
 	aristocrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 670
 	}
 
 	clergymen = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 1675
 	}
 
 	artisans = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 3350
 	}
 
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 1005
 	}
 
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 77050
 	}
@@ -96,77 +96,77 @@
 
 1072 = {
 	bureaucrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 500
 	}
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 200000
 	}
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 12000
 	}
 
 	aristocrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 20
 	}
 
 	clergymen = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 30
 	}
 
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 2300
 	}
 
 	bureaucrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 20
 	}
 
 	artisans = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 450
 	}
 
 	clergymen = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 80
 	}
 
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 6800
 	}
@@ -174,65 +174,65 @@
 
 2641 = {
 	bureaucrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 500
 	}
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 200000
 	}
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 12000
 	}
 
 	aristocrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 50
 	}
 
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 4500
 	}
 
 	artisans = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 50
 	}
 
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 2350
 	}
@@ -240,111 +240,81 @@
 
 1080 = {
 	bureaucrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 500
 	}
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 200000
 	}
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 12000
 	}
 
 	aristocrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 20
 	}
 
 	clergymen = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 30
 	}
 
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 2300
 	}
 }
 
-1081 = {
+2697 = {
 	aristocrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
-		size = 1250
-	}
-
-	bureaucrats = {
-		culture = russian
-		religion = protestant
-		size = 250
+		size = 1000
 	}
 
 	clergymen = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 1000
 	}
 
 	artisans = {
-		culture = russian
+		culture = siberian
 		religion = protestant
-		size = 5500
+		size = 5000
 	}
 
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
-		size = 11250
+		size = 11000
 	}
 
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
-		size = 105750
-	}
-
-	clergymen = {
-		culture = beifaren
-		religion = protestant
-		size = 100
-	}
-
-	artisans = {
-		culture = beifaren
-		religion = protestant
-		size = 250
-	}
-
-	soldiers = {
-		culture = beifaren
-		religion = protestant
-		size = 50
-	}
-
-	farmers = {
-		culture = beifaren
-		religion = protestant
-		size = 4600
+		size = 92000
 	}
 
 	aristocrats = {
@@ -378,35 +348,65 @@
 	}
 }
 
-2697 = {
+1081 = {
 	aristocrats = {
-		culture = russian
+		culture = siberian
 		religion = protestant
-		size = 1000
+		size = 1250
+	}
+
+	bureaucrats = {
+		culture = siberian
+		religion = protestant
+		size = 250
 	}
 
 	clergymen = {
-		culture = russian
+		culture = siberian
 		religion = protestant
 		size = 1000
 	}
 
 	artisans = {
-		culture = russian
+		culture = siberian
 		religion = protestant
-		size = 5000
+		size = 5500
 	}
 
 	soldiers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
-		size = 11000
+		size = 11250
 	}
 
 	farmers = {
-		culture = russian
+		culture = siberian
 		religion = protestant
-		size = 92000
+		size = 105750
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = protestant
+		size = 100
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = protestant
+		size = 250
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = protestant
+		size = 4600
 	}
 
 	aristocrats = {

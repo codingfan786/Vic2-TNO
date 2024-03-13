@@ -4,6 +4,7 @@
 
 capital = 1
 primary_culture = russian
+culture = siberian
 religion = protestant
 government = democracy
 plurality = 10

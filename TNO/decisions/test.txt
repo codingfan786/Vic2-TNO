@@ -6,26 +6,43 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-			NOT = {exists = ONE}
+			#NOT = {exists = ONE}
 		}
 		effect = {
-			FIN_1 = {add_core = THIS}
-			RUS_339 = {add_core = THIS}	
-			2613 = {secede_province = THIS}
-		2659 = {secede_province = THIS}
-		2615 = {secede_province = THIS}
-		2681 = {secede_province = THIS}
-		2692 = {secede_province = THIS}
-		2657 = {secede_province = THIS}
-		2680 = {secede_province = THIS}
-		2658 = {secede_province = THIS}
-		2693 = {secede_province = THIS}
-		2654 = {secede_province = THIS}
-		2655 = {secede_province = THIS}
-		2674 = {secede_province = THIS}
-		2675 = {secede_province = THIS}
-		2653 = {secede_province = THIS}
-		2694 = {secede_province = THIS}
+			any_country = {
+				limit = {
+					OR = {
+						tag = MSC
+						tag = RAR
+						tag = RUS
+						tag = NUC
+						tag = WA1
+						tag = NKV
+						tag = NAV
+						tag = FED
+						tag = R01
+						tag = R02
+						tag = R03
+						tag = R04
+						tag = R05
+						tag = R06
+						tag = R07
+						tag = R08
+						tag = R09
+						tag = R10
+						tag = R11
+						tag = R12
+						tag = R13
+						tag = WA2
+					}
+				}
+				annex_to = THIS
+			}
+			GGE = {
+				inherit = SGE
+				inherit = BGE
+				inherit = HGE
+			}
 		}
 	}
 }

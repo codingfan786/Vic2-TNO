@@ -328,14 +328,7 @@ italian = {
 		Lunardi Molinelli Orsini Ottaviani Pironti Scammacca Torlonia Turrisi Vernazza Zunica }
 		radicalism = 10
 	}
-	maltese = { 
-		color = {100 150 120}
-		first_names = { Alessandru Beru Duminku Enrico Fernardu Frangisku Gabriel Ferlad Gorg Joseph
-		Karmenu Lawrenz Marju Mikiel Ninu Pawlu Rokku Saber Ugo Valent }
-		
-		last_names = { Abela Adami Azzopardi Boffa Borg Buhagiar Cassar Farrugia Frendo Gonzi
-		Howard Mifsud Mintoff Mizzi Muscat Olivier Puli Pullicino Strickland Vella }
-	}
+
 	
 	union = ITA
 }
@@ -458,20 +451,6 @@ french = {
 		
 		last_names = { Abgrall Artus Belleg Berthu Calvez Caradeg Eveno Floch Gallo Goff Guelleg Heussaff Huon Jezeguel Karter Kergoulay Kirouag Laouenan Lozach
 		Menez Morvan Omnes Pelan Pinvidig Quemener Ropars Riou Salaun Sezneg Tanet Trahan Treguier }
-	}
-	picard = {
-		color = {100 110 136}
-		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
-		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
-		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
-		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
-		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
-		
-		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
-		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
-		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain "Van Loo" }
 	}
 	
 }
@@ -734,12 +713,7 @@ east_slavic = {
                                     Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
 									radicalism = 10
         }
-	ugrian = {  
-		color = {60 160 160}
-                  first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 
-                  last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	}
 }
 
 baltic = {
@@ -1007,95 +981,7 @@ iranian_turanian = {
 			Shirazi Tabrizi Tahmasebi Zahedi
 			}
 	}
-	uzbek = {
-		color = {152 67 56}
-		first_names = {
-			"Abd al-Ahad" "Abd al-Karim" "Abu al-Ghazi" Abulfayz Alimqul Aqim "Allah Quli" Haydar Husayn 
-			Iltazar Isfandiyar Jahangir Khudayar Madali Mahmud Muhammad Murad 
-			Nasrallah "Nasir al-Din" Nurali Pulad Qilich Qutlugh Rahim Shir Umar Yadigar Yaqub 
-			}
-		last_names = {
-			Bahadur Bukhari Khan
-			}
-	}
-	kazak = {
-		color = {83 102 46}
-		first_names = {
-			Ablai "Abu al-Khayr" Aryn Bukei Chokan 
-			Dulat Ibirai Isatai Ishim Jangir Kenisary 
-			Mashur Murat "Nur Ali" Qayip 
-			Sadyk Sirim Sarzhan 
-			Tenek Tolshan Vali
-			}
-		last_names = {
-			Beg  Khan "Konanbai uli" "Kutebar uli" "Muhammad uli" "Qasim uli" 
-			}
-	}
-	kirgiz = {
-		color = {62 73 41}
-		first_names = {
-			Askar Chingiz Ishim Kasim Kurman Jangir Murat Nasiridin Sadyk Vali
-			}
-		last_names = {
-			Beg 
-			}
-	}
-	tajik = {
-		color = {122 127 111}
-			first_names = {
-			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
-			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
-			Mahmoud Mahsud Mirza Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
-			Nadir "Naser ed-Din" Nosret Reza
-			}
-		last_names = {
-			Khan
-			}
-	}
-	uighur = {
-		color = {92 96 168}
-		first_names = { 
-			Afaq Ahmed Arshad Bahayeddin Burhan Daud Hakim Husayin Kemal Maqsud Muhammad Musa Rashidin Satuq Timur Yaqub
-			}
-		last_names = {
-			Beg Khan
-			}
-	}
-	pashtun = {
-		color = {199 151 230}
-		first_names = {
-			Abdallah "Abd al-Rahman" "Abd al-Quddus" Afzal Ahmad Akbar Akram   Ayyub
-			Fath "Firuz al-Din" "Habib Alllah" Haydar Humayun "Inayat Allah" Ishaq Jamal Kamran Kohandil
-			Mahmud Mahsud Mihrdil Muhammad Murad Nadir "Nasr Allah" Omar
-			Qaysar Shahpur "Sher Ali" Shuja Suleyman Timur Yaqub Zaman
-		}
-		last_names = {
-			Khan
-		}
-		radicalism = 10
 
-	}
-	baluchi = {
-		color = {132 70 171}
-		first_names = {
-			Abdullah Ahmad Azam Khudadad
-			Mehrab Mohammad Muhabbat 
-			Nasir Nawaz
-			Samandar Sherdil
-		}
-		last_names = {
-			Khan
-		}
-	}
-	hazara = {
-		color = {172 120 211}
-		first_names = {
-			Ali Azim Jafar Mohammad Riza
-		}
-		last_names = {
-			Beg Khan
-		}
-	}
 	turkmen = {
 		color = {192 150 190}
 		first_names = {
@@ -1143,7 +1029,8 @@ central_asian = {
 	}
 	
 	siberian = {
-		color = {40 240 240}
+		#color = {40 240 240}
+		color = {0 108 16}
 		first_names = {
                Aleksandr Diniyar Mirsayet Sihabetdin Gabdull Afanasiy Viktor Grigory 
 		}
@@ -1178,15 +1065,7 @@ central_asian = {
 south_asian = {
 	leader = indian
 	unit = IndianGC
-	assamese = {
-		color = {112 134 156}
-		first_names = { Chandraka Purandar Ruchinath Kaganath Dhekial Jogeshwar Sudingphaa Kamaleswar Daman Hao Jama Patalang
-			
-		}
-		
-		last_names = { Singha Aideo Dogoi Bora Khan Purnananda Phukan               
-		}
-	}
+
 	bengali = {
 		color = {156 134 112}
 		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
@@ -1197,76 +1076,9 @@ south_asian = {
                
 		}
 	}
-	bihari = {
-		color = {180 75 130}
-		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
-			
-		}
-		
-		last_names = { Singh Valmiki Janak Jarasandh Mishra 
-               
-		}
-	}
-	manipuri = {
-		color = {190 150 240}
-		first_names = { Churachandra Kulachanrda Surachandra Chandrakirti Devendra Nara Genavira Pitambara Marjit Moduchanrda Charajit Harshachandra Chingthang
-			
-		}
-		
-		last_names = { Singh Khomba Sai 
-               
-		}
-	}
-	nepali = {
-		color = {173 123 190}
-		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
-			
-		}
-		
-		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
-               
-		}
-	}
-	oriya = {
-		color = {190 63 88}
-		first_names = { Dibvyasimhadeva Harekrushnadeva Gopinathdeva Ramachandradeva Padmanavadeva Birakishoredeva Mukundadeva
-			
-		}
-		
-		last_names = { Deva Das Rao Mohaptra Mishra
-               
-		}
-	}
-	sinhala = {
-		color = {74 39 40}
-		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
-			
-		}
-		
-		last_names = { Dharmasurya Narendrasimha Rajasimha Rajadhirajasimha Doraisami
-               
-		}
-	}
-	avadhi = {
-		color = {90 64 23}
-		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
-			
-		}
-		
-		last_names = { Singh
-               
-		}
-	}
-	kanauji = {
-		color = {90 190 41}
-		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
-			
-		}
-		
-		last_names = { Singh
-               
-		}
-	}
+
+
+	
 	panjabi = {
 		color = {190 180 170}
 		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
@@ -1277,46 +1089,7 @@ south_asian = {
                
 		}
 	}
-	kashmiri = {
-		color = {170 88 200}
-		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
-			
-		}
-		
-		last_names = { Jawansher Khan "Ghafar Khan" Alokzai "Muhammad Khan" Bamzai
-               
-		}
-	}
-	gujarati = {
-		color = {99 12 89}
-		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj 
-			
-		}
-		
-		last_names = { Pansara Vaghela Solanki Modhvadia Mehta Baro Parmar
-               
-		}
-	}
-	marathi = {
-		color = {190 220 10}
-		first_names = { Venkatji Shahuji Pratapsinha Rajaram Shivaji Shambhaji Balaji Bajirao Madhava Narayan Raghunath Sawai 
-			
-		}
-		
-		last_names = { "Appa Sahib" "Bowa Sahib" Phadnis Narayan Rao Ballal "Baji Rao" Bhat
-               
-		}
-	}
-	sindi = {
-		color = {190 65 230}
-		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
-			
-		}
-		
-		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
-               
-		}
-	}
+
 	rajput = {
 		color = {192 232 147}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
@@ -1328,26 +1101,7 @@ south_asian = {
 		}
 		radicalism = 10
 	}
-	kannada = {
-		color = {82 32 170}
-		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
-			
-		}
-		
-		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
-               
-		}
-	}
-	malayalam = {
-		color = {170 100 23}
-		first_names = { Cheraman Swathi Thirunal Sri Sakthan Raja Moolam Marthanda Dharma Chithira Balarama Ayilyam Saamoothiri
-			
-		}
-		
-		last_names = { Varma Kesavadas Thampuran "Rama Varma" Perumal
-               
-		}
-	}
+
 	tamil = {
 		color = {180 23 75}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
@@ -1358,16 +1112,7 @@ south_asian = {
                
 		}
 	}
-	telegu = {
-		color = {22 89 152}
-		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
-			
-		}
-		
-		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
-               
-		}
-	}
+
 	#union = HND
 }
 
@@ -1385,16 +1130,7 @@ southeast_asian = {
 		}
 		radicalism = 5
 	}
-	khmer = {
-		color = {220 86 34}
-		first_names = { Ang Sisowath Norodom Pok Satha Thommo 
-			
-		}
-		
-		last_names = { Eng Chan Em Snguon Mey Reachea Tong Non
-               
-		}
-	}
+
 	malay = {
 		color = {85 78 89}
 		first_names = { Shahabuddin Riayat Abdullah Jaafar Safiuddin Muhammad Ali Al-Mukammal Ismail Muabidin Tuanku Yusuf Idris Jalil Isandar Aziz
@@ -1445,26 +1181,7 @@ southeast_asian = {
                
 		}
 	}
-	lao = {
-		color = {90 45 154}
-		first_names = { Manthaturath Anurutha Unkeo Sukha Chantha Unkham Sakkarin Sisavang Setthathirath Nanthasen Ong Phraya
-			
-		}
-		
-		last_names = { Vong Kuman Söm Bun Supho Long Intharavong Anuvong
-               
-		}
-	}
-	shan = {
-		color = {76 122 90}
-		first_names = { Hswe Hsö Naw Hkam Hkun Hseng Hpa Pyi Nga Hmu Natsu Pe Than Shwe Hpo Lun Sun
-			
-		}
-		
-		last_names = { Cheng Kaw Möng Hkawt Pak Nan Lek Leng Hmu Letya Hung Thi Hpu Ya Min
-               
-		}
-	}
+
 	burmese = {
 		color = {99 87 27}
 		first_names = { Thibaw Mindon Pagan Tharawadi Gabyidaw Bodawphaya Maung Singu Hsinbyushin Naungdawkyi Alaungphaya Maha Minkyaw Zeya
@@ -1485,16 +1202,7 @@ southeast_asian = {
                
 		}
 	}
-	kachin = {
-		color = {255 98 76}
-		first_names = { Sama Sinwa U Zan Hta Duwa Ding Ga Hkyeng
-			
-		}
-		
-		last_names = { Ratang Nawng Sin Lahpai Lahtaw Maran Marip Nhkum
-               
-		}
-	}
+
 	karen = {
 		color = {99 88 122}
 		first_names = { Po La Paban Hkun Maung Papw Sao Saw
@@ -1581,48 +1289,6 @@ east_asian = {
 		last_names = { Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke
 		}
 	}
-	hakka = {
-		color = {89 63 24}
-		first_names = { Hong Feng Shi Li Chen Liu Qiu Sun Soong Liao Xue Zhang Xie Wu Shu Tsai Deng Zhen Huang Ye Yang
-		}
-		last_names = { Xiuquan Yunshan Xiuqing Dakai Yucheng Rengan Zicai Yongfu Fengjia Yatsen
-		}
-	}
-	miao = {
-		color = {98 67 155}
-		first_names = { Pa Hang Mee Chay Kao Bang Zong Zoua Mai Blong Qin Shen Ka Dia Neng Kak 
-		}
-		last_names = { Thao Sao Moua Vue Her Lyfoung Pao Yang Lo Cha Congwen Zhiming Liangyu
-		}
-	}
-	min = {
-		color = {76 32 200}
-		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
-		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
-		}
-	}
-	zhuang = {
-		color = {200 75 134}
-		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
-		}
-		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
-		}
-	}
-	yi = {
-		color = {134 25 80}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
-		}
-		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
-		}
-	}
-	yue = {
-		color = {89 34 100}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
-		}
-		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
-		}
-	}
 	union = WCH
 }
 
@@ -1636,27 +1302,7 @@ oceanic = {
 		last_names = { Ma'ufanga Feletoa Moengangongo Tuabayi Maeakafa "Te Fuli" Ielemia
 		}
 	}
-	hawaiian = {
-		color = {89 155 67}
-		first_names = { Brendun William James Joseph Charles Samuel Jesse Jason Herbert 
-		}
-		last_names = { Akaka Apoliona Gaulteria Hee Kahanamoku Kanahele Kekumano Mahealani Momoa Sossamon Trask Wentz Iaukea Nawahi
-		}
-	}
-	maori = {
-		color = {95 14 187}
-		first_names = { Potatau Tukaroto Matutaera Tawhiao Mahuta "Te Rata" Koroki "Te Ata-i" Rangi-Kahu 
-		}
-		last_names = { Wherowhero Kenena Raouparah Herangi Ataarangikaahu 
-		}
-	}
-	aborigine = {
-		color = {78 24 92}
-		first_names = { Nemarluk Umbarra Wylie Yagan Tollamareena Pemulwy Mokare Derrimut Bennelong Billibellary
-		}
-		last_names = { Bunurong Lanne Noongar Mullagh Windich Wonga
-		}
-	}
+
 	melanesian = {
 		color = {187 42 167}
 		first_names = { Ti-Toorou Ti-Quatchium Kaoua Kanendjo Samuel Ti-Abel  Seru Epenisa Tamavunisa Yavala Ralulu Raivalita Rasolo Lubati Taltai Eroni
@@ -1664,48 +1310,12 @@ oceanic = {
 		last_names = { Hortense Vendegou Cakobau Cokanauto Qaraniqio Banuve Loganimoce Tupou Lakeba
 		}
 	}
-	micronesian = {
-		color = {68 213 88}
-		first_names = { Tem Makiatia Takahihi Tikoro Hakana Hakapeke Wekeia Poiaka Maehua Tawehi
-		}
-		last_names = { Tetabo Namoriki Karotu Tawaia Baiteke Binoka Bauro Tokatake Panena Mensile Sapwasap Totonu 
-		}
-	}
 }
 
 native_american = {
 	leader = nativeamerican
 	is_overseas = no
-	zapotec = {
-		color = {87 199 81}
-		first_names = { Agustín Alberto Alfonso Alfredo Andrés Benito Carlos César Eduardo Eugenio
-		Felipe Fernando Gabriel Gilberto Gregorio Jacinto Jesús José Juan Julio
-		Macario Manuel Miguel Nazario Nicolás Oliverio Pablo Porfirio Rodolfo Rufino }
 
-		last_names = { Alonso Antúnez Cabrera Cajigas Chacón Chiñas Cortés Fernández Gamboa García
-		González Gutiérrez Guzmán Henestrosa Isael Jiménez Juárez López Matus Mérida
-		Morales Nayeli Orozco Ortíz Pineda Rojas Ruíz Suárez Tamayo Vichido }
-	}
-	mayan = {
-		color = {98 88 142}
-		first_names = { Agustín Akbal Alejandro Andrés Aníbal Antonio Armando Bernardo Carlos Crescencio
-		Cristóbal Cuautéhmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
-		Jesús Luis Marcial Martín Miguel Ramiro Rodolfo Rolando Santiago Yumil }
-
-		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
-		Curruchic Ixquiac López Manzanero Mas Menchú Mérida Mes Osorio Pek
-		Poot Pop Puk Shal Sho Tecú Teul Tuyuc Xicara Xiloj }
-	}
-	nahua = {
-		color = {88 175 160}
-		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
-		Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
-		Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor }
-
-		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
-		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
-		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
-	}
 	tarascan = {
 		color = {87 188 192}
 		first_names = { Agustín Alberto Alfredo Antonio Armando Arturo Carlos Cenobio Daniel Diego
@@ -1716,55 +1326,7 @@ native_american = {
 		Cuevas Dimas Esquivel Estrada Galeana Gallardo García Gómez López Maciel
 		Magaña Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas }
 	}
-	quechua = {
-		color = {178 141 85}
-		first_names = { Agustín Alejandro Antauro Antonio Basilio Daniel Diego Eugenio Facundo Felipe
-		Francisco Gustavo Hilario Inca Isaac "José María" Julio Lorenzo Manuel Marcos
-		Mariano Martín Nicolás Osvaldo René Roberto Simón Túpac Ulises Víctor }
-
-		last_names = { Arguedas Barrientos Cajahuanca Canchata Chambi Chihuán Cusurichi Espejo Frisancho Gamarra
-		Guaman Guayasamín Gutiérrez Heredia Humala Iturri Lazarte Ludueña Melgarejo Palacios
-		Patiño Quispe Rodríguez Roncaglia "Santa Cruz" Sosa Sumac Toledo Vargas Zapata }
-	}
-	guarani = {
-		color = {89 80 175}
-		first_names = { Aniceto Antonio Bartolomé Camilo Carlos Claudio David Emiliano Eugenio Felipe
-		Félix Fernando Gregorio Jacinto Jesús José Juan Julio Luis Manuel
-		Marcos Máximo Narciso Pablo Pedro Rodrigo Roque Simón Teodoro Víctor }
-
-		last_names = { Abjaisu Álvarez Ayegua Camba Chuaie Correa Cunhagatú Díaz Fernández Galeano 
-		Gómez González Guaracay Guaraní Guerrero Jopara López Mongelós Morla Ortíz
-		Paravé Picagua Riquelme Rivarola "Santa Cruz" Tarayú Torga Velázquez Yaguarete Yrahi }
-	}
-	aimara = {
-		color = {190 45 23}
-		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
-		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
-		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
-
-		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
-		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
-		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
-	}
-	amazonian = {
-		color = {4 255 84}
-		first_names = { Aníbal Augusto Bento Bernardo César Daniel David Donato Duarte Ernesto
-		Estevão Fernando Francisco Gabriel Graciano Hugo João Julio Leopoldo Lucas
-		Miguel Nuno Óscar Rafael Roberto Sebastião Sergio Simão Vasco Zeferino }
-
-		last_names = { Arawá Arawak Bororo Garifuna Gê Guayaná Jeikó Kaingang Kalinago Kamakán
-		Karajá Kayapó Matsés Maxakalí Purí Timbira Xavante Xerente Xokieng Yanomamö }
-	}
-	patagonian = {
-		color = {88 99 133}
-		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
-		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
-		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
-
-		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
-		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
-		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
-	}
+	
 	guajiro = {
 		color = {221 248 75}
 		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
@@ -1782,13 +1344,7 @@ native_american = {
 
 		last_names = { Caetés Potiguara Tabajara Tamoios Temiminó Tupinambá Tupiniquim 	}
 	}
-	metis = {
-		color = {15 68 192}
-		first_names = { Louis John Amroise-Dydime Gabriel Daniel James Jaque William Joel
-		}
-		last_names = { Riel Bruce Lépine Dumont Clarence Martin
-		}
-	}
+
 	dakota = {
 		color = {66 78 134}
 		first_names = { Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
@@ -1817,20 +1373,7 @@ native_american = {
 		last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
 		}
 	}
-	cree = {
-		color = {127 244 100}
-		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
-		}
-		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
-		}
-	}
-	navajo = {
-		color = {83 111 191}
-		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
-		}
-		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge
-		}
-	}
+
 	native_american_minor = {
 		color = {68 55 88}
 		first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez

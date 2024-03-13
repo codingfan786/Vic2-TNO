@@ -2053,7 +2053,10 @@ rus_uni = {
 		}
 		
 		any_owned_province = {
-			culture = russian
+			OR = {
+				culture = russian
+				culture = siberian
+			}
 		}
 
 		NOT = {num_of_substates = 1}
@@ -2152,7 +2155,10 @@ rus_uni = {
 	
 	allowed_states = {
 		any_owned_province = {
-			culture = russian
+			OR = {
+				culture = russian
+				culture = siberian
+			}
 		}
 		#not = { any_owned_province = { is_capital = yes } }
 	}
@@ -2209,14 +2215,20 @@ rus_uni_substate = {
 		any_substate = {
 			number_of_states = 1
 			any_owned_province = {
-				culture = russian
+				OR = {
+					culture = russian
+					culture = siberian
+				}
 			}
 		}
 	}
 	
 	allowed_substate_regions = {
 		any_owned_province = {
-			culture = russian
+			OR = {
+				culture = russian
+				culture = siberian
+			}
 		}
 	}
 

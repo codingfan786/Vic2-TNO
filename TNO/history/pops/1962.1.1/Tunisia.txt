@@ -75,7 +75,7 @@
 	}
 
 	artisans = {
-		culture = maltese
+		culture = south_italian
 		religion = protestant
 		size = 500
 	}
