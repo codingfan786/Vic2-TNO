@@ -1008,3 +1008,34 @@ high_infamy;High Infamy;x
 divine_mandated;Divine Mandate of Siberia has risen;x
 WR_unify;West Russia is Unified;x
 russian_integration_talks;Recently held integration conference;x
+event500268desc;The Reichsbanner Schwarz-Rot-Gold, under the leadership of Willy Brandt, has successfully spread the cause of freedom throughout all of the German holdings in eastern Europe. Whether this will last only time will tell.\n§RGermany will get free CBs to free and take back their Puppets!;x
+FEU_is_done;Eastern Europe has revolted!;x
+germany_fights_feu;Restoration of Reichskommissariat;x
+germany_fights_feu_short;$THIRD$ is freed and puppeted.;x
+germany_fights_feu_setup;$THIRD$ is freed and puppeted.;x
+NORMAL_WAR_FEU_LIBERATE_NAME;$ORDER$$FIRST$ War of $COUNTRY_ADJ$ Subjugation;x
+AGRESSION_WAR_FEU_LIBERATE_NAME;$ORDER$$FIRST$ War of $COUNTRY_ADJ$ Subjugation;x
+west_russia_unify_title;Unify West Russia;x
+central_russia_unify_title;Unify Central Russia;x
+east_russia_unify_title;Unify East Russia;x
+west_russia_unify_desc;In the aftermath of the West Russian War what remained of the Soviet Union had been completely shattered, leaving squabbling warlords to fight over what remained of Russia. Despite outside observers thinking reunification impossible, we are in the unique position of being ready to take the first steps towards Russian reunification.;x
+central_russia_unify_desc;In the aftermath of the West Russian War what remained of the Soviet Union had been completely shattered, leaving squabbling warlords to fight over what remained of Russia. Despite outside observers thinking reunification impossible, we are in the unique position of being ready to take the first steps towards Russian reunification.;x
+east_russia_unify_desc;In the aftermath of the West Russian War what remained of the Soviet Union had been completely shattered, leaving squabbling warlords to fight over what remained of Russia. Despite outside observers thinking reunification impossible, we are in the unique position of being ready to take the first steps towards Russian reunification.;x
+russian_integration_title;Begin integration talks;x
+russian_integration_desc;As a leading power in the race to unify Russia we are in the unique position to unify our neighbors peacefully. By holding talks with those who are not too ideologically dissimilar to us they may opt to integrate into our government peacefully. §RThis has a higher chance of succeeding at high relations and if they are in our sphere. We may only integrate countries with the same government type who are our neighbours.;x
+siberia_colonize_title;Restore order in central Siberia;x
+siberia_colonize_desc;As the sole Russian state with a siginificant presence in central Russia we are in a prime position to bring organized government back to the people of Siberia;x
+sov_form_title;Revive the Soviet Union!;x
+sov_form_desc;We have managed to establish ourselves as a regional power in Russia. It is time to announce ourselves as the successor to the Soviet Union!;x
+wru_form_title;Proclaim the Russian Republic!;x
+wru_form_desc;Despite our shaky origins as collaborators to the German Wehrmacht during the days of the West Russian War, we have proven ourselves as capable anti-bolsheviks and the true protector of the Russian people.;x
+nuc_expand_title;The Great Trial;x
+nuc_expand_title;Having cemented ourselves as the dominant power over most of what remains of Russia, it is time to take our fight to the German menace!;x
+alk_form_title;The West Alaskan Government forms!;x
+alk_form_desc;After a lengthy process we have finally kicked the haunting vistages of communism out of the region. We can finally unite the people under a democratic flag. The Americans have been a continued source of economic assistance during this endeavor, what's more suitable than for us to declare ourselves the Republic of West Alaska!;x
+rk_moscow_into_feu_title;Put Down the Slave Revolt!;x
+rk_moscow_into_feu_desc;The Reichskommissariats of Eastern Europe have shown themselves to be incapable of establishing a secure Lebensraum for the German People and have been overrun in revolt! As the last remaining Reichskommissariat we must take matters into our own hands, orders from Berlin be damned!;x
+osteuropa_title;Form the Osteuropa Reichskommissariat!;x
+ss_osteuropa_title;Expand SS Recruitment;x
+osteuropa_desc;Eastern Europe is firmly in our grasp and we now have the opportunity to mold the region into the proper German vision!;x
+ss_osteuropa_desc;The Germanisation programs are simply not sustainable. In order to secure the Reichskommissariat we should start recruiting our security forces from the local population.;x

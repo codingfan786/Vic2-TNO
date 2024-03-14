@@ -103,6 +103,7 @@ brg_stockpile_sieze
 nuke_disarm
 missile_crisis
 baathism
+germany_fights_feu
 }
 
 gunboat = {
@@ -3957,3 +3958,121 @@ gaw_war = {
 		}
 	}
 }
+
+germany_fights_feu = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 0
+	crisis = no
+	constructing_cb = no
+	always = yes
+
+	badboy_factor = 0
+	prestige_factor = 1
+	peace_cost_factor = 0.5 # adjust to be 30 ws each?
+	penalty_factor = 1
+
+	is_civil_war = no #this is a civil war
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	can_use = {
+		THIS = {
+			OR = {
+				tag = GGE
+				tag = SGE
+				tag = BGE
+				tag = HGE
+				tag = GE2
+			}
+		}
+		has_global_flag = FEU_is_done
+		tag = FEU
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+		any_owned_province = {
+			is_core = FROM
+		}
+		is_releasable_vassal = FROM
+		FROM = { exists = no }
+		FROM = {
+			OR = {
+				tag = BLT
+				tag = UKR
+				tag = POL #need to trim/limit polands core expansion start with little poland then decision to get the republic cores back?
+			}
+		}
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+		any_owned_province = {
+			is_core = FROM
+			OR = {
+				NOT = {is_core = POL}
+				FROM = {tag = POL}
+			}
+			OR = {
+				NOT = {is_core = BLT}
+				FROM = {tag = BLT}
+			}
+		}
+	}
+	
+	all_allowed_states = yes
+	po_transfer_provinces = yes
+
+	war_name = WAR_FEU_LIBERATE_NAME
+	
+	# scope = THIS = country applying wargoal
+	# FROM = country that currently owns the provinces
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+		
+		any_country = {
+			limit = {
+				exists = no
+				any_core = { owner = { tag = FROM } }
+			}
+			set_country_flag = possible_liberate_and_puppet_realm_target
+		}
+	}
+	
+	# scope = country that had owned the provinces
+	# THIS = country that applied wargoal
+	on_po_accepted = {
+		
+		any_country = {
+			limit = {
+				exists = yes
+				OR = {
+					tag = GGE
+					tag = SGE
+					tag = BGE
+					tag = HGE
+					tag = GE2
+				}
+			}
+			#country_event = 500270
+			set_country_flag = ger_beat_feu
+		}
+	}
+}
+

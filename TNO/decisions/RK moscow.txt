@@ -1,0 +1,155 @@
+political_decisions = {
+	rk_moscow_into_feu = {
+		picture = ems_dispatch
+		potential = {
+			tag = MSC
+			NOT = {has_country_flag = went_into_feu}
+		}
+		allow = {
+			FEU = {exists = yes}
+			has_global_flag = FEU_is_done
+			government = fascist_dictatorship
+			#is_vassal = no
+		}
+		effect = {
+			set_country_flag = went_into_feu
+			#cbs and maybe get ai to dec war immediately
+			#maybe cores on blt and UKR?
+			#then a formable for rk east europe in a decision afterwards
+			#add starting support for communists in rk moscow
+			release_vassal = THIS
+			#FEU = {
+			#	casus_belli = {
+			#		target = THIS
+			#		type = humiliate
+			#		months = 365
+			#	}
+			#}
+			
+			FEU = {
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = UKR
+							is_core = BLT
+						}
+						NOT = {province_id = 951}
+						NOT = {province_id = 953}
+						NOT = {province_id = 952}
+						NOT = {province_id = 702}
+						NOT = {province_id = 954}
+						NOT = {province_id = 969}
+						NOT = {province_id = 968}
+					}
+					add_core = THIS
+				}
+			}
+
+			THIS = {
+				any_owned = {
+					limit = {
+						is_capital = yes
+						owner = {
+							ai = yes
+						}
+					}
+					THIS = {
+						war = {
+							target = FEU
+							#attacker_goal = { casus_belli = humiliate }
+							attacker_goal = { casus_belli = acquire_core_state state_province_id = 945 }
+							attacker_goal = { casus_belli = acquire_core_state state_province_id = 963 }
+							attacker_goal = { casus_belli = acquire_core_state state_province_id = 978 }
+							attacker_goal = { casus_belli = acquire_core_state state_province_id = 1018 }
+							attacker_goal = { casus_belli = acquire_core_state state_province_id = 979 }
+							attacker_goal = { casus_belli = acquire_core_state state_province_id = 718 }
+							call_ally = yes
+						}
+					}
+				}
+			}
+			any_country = {
+				limit = {
+					ai = yes
+					exists = yes
+					OR = {
+						tag = GE2
+						tag = GGE
+						tag = SGE
+						tag = HGE
+						tag = BGE
+					}
+				}
+				war = {
+					target = FEU
+					attacker_goal = { casus_belli = germany_fights_feu country = POL }
+					call_ally = yes
+				}
+			}
+			
+		}
+	} 
+
+	#retard formable
+	osteuropa = {
+		picture = ems_dispatch
+		potential = {
+			tag = MSC
+			has_country_flag = went_into_feu
+			#NOT = {exists = }
+		}
+		allow = {
+			all_core = {
+				owner = {
+					tag = THIS
+				}
+			}
+			government = fascist_dictatorship
+			#nationalism_n_imperialism = 1
+		}
+		effect = {
+			change_tag = OST
+			primary_culture = aryan
+		}
+	}
+
+	ss_osteuropa = {
+		picture = ems_dispatch
+		potential = {
+			tag = OST
+			NOT = {has_country_flag = ss_formed_osteuropa} 
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			set_country_flag = ss_formed_osteuropa
+			add_accepted_culture = russian
+			add_accepted_culture = ukrainian
+			add_accepted_culture = lithuanian
+			add_accepted_culture = latvian
+			add_accepted_culture = estonian
+			add_accepted_culture = byelorussian
+			any_owned = {
+				limit = {
+					OR = {
+						culture = russian
+						culture = ukrainian
+						culture = lithuanian
+						culture = latvian
+						culture = estonian
+						culture = byelorussian
+					}
+				}
+				add_province_modifier = {
+					name = ss_division
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = ss_recruitment
+				duration = -1
+			}
+		}
+	}
+}

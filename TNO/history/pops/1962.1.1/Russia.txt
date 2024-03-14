@@ -425,7 +425,7 @@
 		religion = protestant
 		size = 2500
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -433,7 +433,7 @@
 		religion = protestant
 		size = 1700
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -441,7 +441,7 @@
 		religion = protestant
 		size = 8550
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -449,7 +449,7 @@
 		religion = protestant
 		size = 4000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -457,7 +457,7 @@
 		religion = protestant
 		size = 154150
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	aristocrats = {
@@ -465,7 +465,7 @@
 		religion = protestant
 		size = 3500
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -473,7 +473,7 @@
 		religion = protestant
 		size = 2125
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -481,7 +481,7 @@
 		religion = protestant
 		size = 10000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -489,7 +489,7 @@
 		religion = protestant
 		size = 2150
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -497,7 +497,7 @@
 		religion = protestant
 		size = 196975
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Donbass Region (1188000) #see Ukraine.txt for balance of region
@@ -613,7 +613,7 @@
 		religion = protestant
 		size = 100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -621,7 +621,7 @@
 		religion = protestant
 		size = 125
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -629,7 +629,7 @@
 		religion = protestant
 		size = 650
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -637,7 +637,7 @@
 		religion = protestant
 		size = 1100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -645,7 +645,7 @@
 		religion = protestant
 		size = 11125
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	aristocrats = {
@@ -653,7 +653,7 @@
 		religion = protestant
 		size = 100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -661,7 +661,7 @@
 		religion = protestant
 		size = 75
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -669,7 +669,7 @@
 		religion = protestant
 		size = 400
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -677,7 +677,7 @@
 		religion = protestant
 		size = 100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -685,7 +685,7 @@
 		religion = protestant
 		size = 7325
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Chirskaya (92000/23000 POPS)  #mongol = kalmyk  
@@ -1715,7 +1715,7 @@
 		religion = protestant
 		size = 3125
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	bureaucrats = {
@@ -1723,7 +1723,7 @@
 		religion = protestant
 		size = 725
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	officers = {
@@ -1731,7 +1731,7 @@
 		religion = protestant
 		size = 475
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -1739,7 +1739,7 @@
 		religion = protestant
 		size = 1750
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -1747,7 +1747,7 @@
 		religion = protestant
 		size = 7050
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -1755,7 +1755,7 @@
 		religion = protestant
 		size = 1800
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -1763,7 +1763,7 @@
 		religion = protestant
 		size = 162075
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Rzhev (432000/108000 POPS)
@@ -1929,7 +1929,7 @@
 		religion = protestant
 		size = 1100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	bureaucrats = {
@@ -1937,7 +1937,7 @@
 		religion = protestant
 		size = 575
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	officers = {
@@ -1945,7 +1945,7 @@
 		religion = protestant
 		size = 400
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -1953,7 +1953,7 @@
 		religion = protestant
 		size = 600
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -1961,7 +1961,7 @@
 		religion = protestant
 		size = 3000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -1969,7 +1969,7 @@
 		religion = protestant
 		size = 1100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -1977,7 +1977,7 @@
 		religion = protestant
 		size = 52925
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -1985,7 +1985,7 @@
 		religion = protestant
 		size = 10
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -1993,7 +1993,7 @@
 		religion = protestant
 		size = 490
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Tikhvin (156000/44000 POPS)
@@ -2003,7 +2003,7 @@
 		religion = protestant
 		size = 650
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2011,7 +2011,7 @@
 		religion = protestant
 		size = 425
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2019,7 +2019,7 @@
 		religion = protestant
 		size = 2100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2027,7 +2027,7 @@
 		religion = protestant
 		size = 425
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2035,7 +2035,7 @@
 		religion = protestant
 		size = 38400
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2043,7 +2043,7 @@
 		religion = protestant
 		size = 25
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2051,7 +2051,7 @@
 		religion = protestant
 		size = 100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2059,7 +2059,7 @@
 		religion = protestant
 		size = 25
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2067,7 +2067,7 @@
 		religion = protestant
 		size = 1850
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Borovichi (344000/86000 POPS)
@@ -2109,7 +2109,7 @@
 		religion = protestant
 		size = 2000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2117,7 +2117,7 @@
 		religion = protestant
 		size = 1150
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2125,7 +2125,7 @@
 		religion = protestant
 		size = 4550
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2133,7 +2133,7 @@
 		religion = protestant
 		size = 1150
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2141,7 +2141,7 @@
 		religion = protestant
 		size = 104500
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2149,7 +2149,7 @@
 		religion = protestant
 		size = 15
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2157,7 +2157,7 @@
 		religion = protestant
 		size = 50
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2165,7 +2165,7 @@
 		religion = protestant
 		size = 10
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2173,7 +2173,7 @@
 		religion = protestant
 		size = 925
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2181,7 +2181,7 @@
 		religion = protestant
 		size = 45
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2189,7 +2189,7 @@
 		religion = protestant
 		size = 150
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2197,7 +2197,7 @@
 		religion = protestant
 		size = 30
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2205,7 +2205,7 @@
 		religion = protestant
 		size = 2775
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2213,7 +2213,7 @@
 		religion = protestant
 		size = 10
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2221,7 +2221,7 @@
 		religion = protestant
 		size = 640
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Velikiye Luki (320000/80000 POPS)
@@ -2424,7 +2424,7 @@
 		religion = protestant
 		size = 4350
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2432,7 +2432,7 @@
 		religion = protestant
 		size = 2175
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2440,7 +2440,7 @@
 		religion = protestant
 		size = 10000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2448,7 +2448,7 @@
 		religion = protestant
 		size = 950
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2456,7 +2456,7 @@
 		religion = protestant
 		size = 2200
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2464,7 +2464,7 @@
 		religion = protestant
 		size = 199325
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Tula (1160000/290000 POPS)
@@ -2474,7 +2474,7 @@
 		religion = protestant
 		size = 4900
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2482,7 +2482,7 @@
 		religion = protestant
 		size = 2875
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2490,7 +2490,7 @@
 		religion = protestant
 		size = 10000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2498,7 +2498,7 @@
 		religion = protestant
 		size = 4500
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2506,7 +2506,7 @@
 		religion = protestant
 		size = 3000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2514,7 +2514,7 @@
 		religion = protestant
 		size = 264725
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Riazan (1192000/298000 POPS)
@@ -2680,7 +2680,7 @@
 		religion = protestant
 		size = 3900
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2688,7 +2688,7 @@
 		religion = protestant
 		size = 2325
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2696,7 +2696,7 @@
 		religion = protestant
 		size = 10000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2704,7 +2704,7 @@
 		religion = protestant
 		size = 1800
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2712,7 +2712,7 @@
 		religion = protestant
 		size = 2350
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2720,7 +2720,7 @@
 		religion = protestant
 		size = 215625
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2728,7 +2728,7 @@
 		religion = protestant
 		size = 50
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2736,7 +2736,7 @@
 		religion = protestant
 		size = 150
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2744,7 +2744,7 @@
 		religion = protestant
 		size = 25
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2752,7 +2752,7 @@
 		religion = protestant
 		size = 1775
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Ivanovo (540000/135000 POPS)
@@ -2798,7 +2798,7 @@
 		religion = protestant
 		size = 5850
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2806,7 +2806,7 @@
 		religion = protestant
 		size = 3000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2814,7 +2814,7 @@
 		religion = protestant
 		size = 10000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2822,7 +2822,7 @@
 		religion = protestant
 		size = 5000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2830,7 +2830,7 @@
 		religion = protestant
 		size = 3100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2838,7 +2838,7 @@
 		religion = protestant
 		size = 282050
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -2846,7 +2846,7 @@
 		religion = protestant
 		size = 50
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -2854,7 +2854,7 @@
 		religion = protestant
 		size = 150
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -2862,7 +2862,7 @@
 		religion = protestant
 		size = 25
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -2870,7 +2870,7 @@
 		religion = protestant
 		size = 1775
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Perm Region (2224000)
@@ -3846,7 +3846,7 @@
 		religion = protestant
 		size = 600
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -3854,7 +3854,7 @@
 		religion = protestant
 		size = 550
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -3862,7 +3862,7 @@
 		religion = protestant
 		size = 6500
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -3870,7 +3870,7 @@
 		religion = protestant
 		size = 1100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -3878,7 +3878,7 @@
 		religion = protestant
 		size = 45350
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -3886,7 +3886,7 @@
 		religion = protestant
 		size = 150
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -3894,7 +3894,7 @@
 		religion = protestant
 		size = 3000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -3902,7 +3902,7 @@
 		religion = protestant
 		size = 200
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -3910,7 +3910,7 @@
 		religion = protestant
 		size = 14650
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -3918,7 +3918,7 @@
 		religion = protestant
 		size = 150
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -3926,7 +3926,7 @@
 		religion = protestant
 		size = 2000
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -3934,7 +3934,7 @@
 		religion = protestant
 		size = 100
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -3942,7 +3942,7 @@
 		religion = protestant
 		size = 6750
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	clergymen = {
@@ -3950,7 +3950,7 @@
 		religion = protestant
 		size = 50
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	artisans = {
@@ -3958,7 +3958,7 @@
 		religion = protestant
 		size = 500
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	soldiers = {
@@ -3966,7 +3966,7 @@
 		religion = protestant
 		size = 25
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 
 	farmers = {
@@ -3974,7 +3974,7 @@
 		religion = protestant
 		size = 1425
 		militancy = 8 
-		rebel_type = liberal_rebels
+		rebel_type = communist_rebels
 	}
 }
 #Novo Usensk (340000/85000 POPS)

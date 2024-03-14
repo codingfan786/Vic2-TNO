@@ -205,40 +205,6 @@ political_decisions = {
 		}
 	}
 
-	pup_assistance = {
-		picture = das_zivilgesetzbuch
-		potential = {
-			tag = SGE
-		    exists = GER
-		    NOT = {has_country_flag = pup_assist}
-		}
-		allow = {
-			OR = {
-				year = 1963
-				month = 1
-			}
-		}
-		effect = {
-			set_country_flag = pup_assist
-			any_country = {
-				limit = {
-					OR = {
-						tag = POL
-						tag = BOH
-						tag = SLV
-						tag = UKR
-						tag = BLT
-						tag = MSC
-					}
-					is_vassal = yes
-				}
-				country_event = 500031
-			}
-		}
-	}
-
-
-
 	gcwmobbuff = {
 		potential = {
 			tag = SGE

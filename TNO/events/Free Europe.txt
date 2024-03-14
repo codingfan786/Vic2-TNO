@@ -1,0 +1,426 @@
+country_event = { 
+	id = 500265
+	title = "Grand Slave Revolt!"
+	desc = "The Reichsbanner Schwarz-Rot-Gold has lead the Slave population of Ukraine into open revolt!"
+
+	fire_only_once = yes
+
+	trigger = {
+		year = 1971 #put some more thought and detail into when it will happen
+
+		month = 6
+
+		tag = UKR #do one for poland and blt too. maybe include COC in this whole thing?
+		POL = {ai = yes}
+		BLT = {ai = yes}
+		NOT = {has_global_flag = FEU_is_done}
+
+		OR = {
+			549 = {owner = {government = fascist_dictatorship}}
+			FEU = {exists = yes}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	immediate = {
+		release_vassal = THIS
+		any_country = {
+			limit = {
+				exists = yes
+				tag = FEU
+			}
+			THIS = {
+				all_core = {
+					add_core = FEU
+				}
+				any_owned = {
+					secede_province = FEU
+				}
+			}
+			inherit = THIS
+		}
+
+		any_country = {
+			limit = {
+				exists = no
+				tag = FEU
+			}
+			THIS = {
+				change_tag = FEU
+				primary_culture = byelorussian
+				add_accepted_culture = ukrainian
+				add_accepted_culture = lithuanian
+				add_accepted_culture = latvian
+				add_accepted_culture = estonian
+				add_accepted_culture = polish
+			}
+		}
+	}
+
+	option = {
+		name = "For a Free Europe!"
+	}
+}
+
+country_event = { 
+	id = 500266
+	title = "Grand Slave Revolt!"
+	desc = "The Reichsbanner Schwarz-Rot-Gold has lead the Slave population of the Baltics into open revolt!"
+
+	fire_only_once = yes
+
+	trigger = {
+		year = 1971 #put some more thought and detail into when it will happen
+
+		month = 6
+
+		tag = BLT #do one for poland and blt too. maybe include COC in this whole thing?
+		POL = {ai = yes}
+		UKR = {ai = yes}
+		NOT = {has_global_flag = FEU_is_done}
+
+		OR = {
+			549 = {owner = {government = fascist_dictatorship}}
+			FEU = {exists = yes}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	immediate = {
+		release_vassal = THIS
+		any_country = {
+			limit = {
+				exists = yes
+				tag = FEU
+			}
+			THIS = {
+				all_core = {
+					add_core = FEU
+				}
+				any_owned = {
+					secede_province = FEU
+				}
+			}
+			inherit = THIS
+		}
+
+		any_country = {
+			limit = {
+				exists = no
+				tag = FEU
+			}
+			THIS = {
+				change_tag = FEU
+				primary_culture = byelorussian
+				add_accepted_culture = ukrainian
+				add_accepted_culture = lithuanian
+				add_accepted_culture = latvian
+				add_accepted_culture = estonian
+				add_accepted_culture = polish
+			}
+		}
+	}
+
+	option = {
+		name = "For a Free Europe!"
+	}
+}
+
+country_event = { 
+	id = 500267
+	title = "Grand Slave Revolt!"
+	desc = "The Reichsbanner Schwarz-Rot-Gold has lead the Slave population of Poland into open revolt!"
+
+	fire_only_once = yes
+
+	trigger = {
+		year = 1971 #put some more thought and detail into when it will happen
+
+		month = 6
+
+		tag = POL #do one for poland and blt too. maybe include COC in this whole thing?
+		UKR = {ai = yes}
+		BLT = {ai = yes}
+		NOT = {has_global_flag = FEU_is_done}
+
+		FEU = {exists = yes} #if they're first then we will need more events to get them back to having polish only accepted
+
+		OR = {
+			549 = {owner = {government = fascist_dictatorship}}
+			FEU = {exists = yes}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	immediate = {
+		release_vassal = THIS
+		any_country = {
+			limit = {
+				exists = yes
+				tag = FEU
+			}
+			THIS = {
+				all_core = {
+					add_core = FEU
+				}
+				any_owned = {
+					secede_province = FEU
+				}
+			}
+			inherit = THIS
+		}
+
+		any_country = {
+			limit = {
+				exists = no
+				tag = FEU
+			}
+			THIS = {
+				change_tag = FEU
+				primary_culture = byelorussian
+				add_accepted_culture = ukrainian
+				add_accepted_culture = lithuanian
+				add_accepted_culture = latvian
+				add_accepted_culture = estonian
+				add_accepted_culture = polish
+			}
+		}
+	}
+
+	option = {
+		name = "For a Free Europe!"
+	}
+}
+
+
+
+country_event = {
+	id = 500268
+	title = "Grand Slave Revolt!"
+	desc = "event500268desc"
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		tag = FEU
+		UKR = {exists = no}
+		POL = {exists = no}
+		BLT = {exists = no}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_global_flag = FEU_is_done
+		government = democracy
+		political_reform = universal_weighted_voting #consider changing to the democracy rebels political reforms
+		political_reform = population_equal_weight
+		political_reform = gerrymandering
+
+		any_owned = {
+			add_province_modifier = {
+				name = ora_ai_fix
+				duration = 7
+			}
+			any_pop = {
+				limit = {pop_type = soldiers}
+				reduce_pop = 1.5
+			}
+		}
+
+		random_owned = {
+			limit = {
+				NOT = {country_units_in_province = THIS}
+			}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = hussar value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+		}
+		random_owned = {
+			limit = {
+				NOT = {country_units_in_province = THIS}
+			}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = hussar value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+		}
+		random_owned = {
+			limit = {
+				NOT = {country_units_in_province = THIS}
+			}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = hussar value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+		}
+		random_owned = {
+			limit = {
+				NOT = {country_units_in_province = THIS}
+			}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = hussar value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+		}
+		random_owned = {
+			limit = {
+				NOT = {country_units_in_province = THIS}
+			}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = infantry value = current}
+			sub_unit = {type = hussar value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+			sub_unit = {type = artillery value = current}
+		}	
+		
+		#add_country_modifier = {
+		#	name = sge_mobbuff
+		#	duration = 365
+		#}
+	}
+
+	option = {
+		name = "For a Free Europe!"
+	}
+}
+
+
+country_event = {
+	id = 500269
+	title = "Grand Slave Revolt cleanup!"
+	desc = "yay!"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FEU
+		NOT = {
+			any_owned_province = {
+				is_capital = no
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				is_capital = yes
+				is_core = BLT
+				BLT = {exists = yes}
+			}
+			BLT = {
+				inherit = THIS
+			}
+		}
+
+		any_owned = {
+			limit = {
+				is_capital = yes
+				is_core = POL
+				POL = {exists = yes}
+			}
+			POL = {
+				inherit = THIS
+			}
+		}
+
+		any_owned = {
+			limit = {
+				is_capital = yes
+				is_core = UKR
+				UKR = {exists = yes}
+			}
+			UKR = {
+				inherit = THIS
+			}
+		}
+	}
+
+	option = {
+		name = "For a Free Europe!"
+	}
+}
+
+country_event = {
+	id = 500270
+	title = "Reichskommissariat restored!"
+	desc = "We have defeated the rebel armies and restored one of our domains!"
+
+	trigger = {
+		has_country_flag = ger_beat_feu
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		clr_country_flag = ger_beat_feu
+		any_country = { 
+			limit = {
+				has_country_flag = possible_liberate_and_puppet_realm_target 
+				exists = no
+			}
+			clr_country_flag = possible_liberate_and_puppet_realm_target
+		}
+		
+
+		any_country = {
+			limit = {
+				exists = yes
+				has_country_flag = possible_liberate_and_puppet_realm_target
+			}
+			country_event = 500070
+		}
+	}
+	option = {
+		name = "A great day for the Reich!"
+	}
+}

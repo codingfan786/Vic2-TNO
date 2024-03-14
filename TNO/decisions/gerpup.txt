@@ -15,6 +15,7 @@ political_decisions = {
 			year = 1963
 		}
 		effect = {
+			leave_alliance = GER
 			release_vassal = THIS
 			set_country_flag = PBS_freedom
 			government = democracy
@@ -168,89 +169,6 @@ political_decisions = {
 		}
 	}
 
-
-	FEU_revanch = {
-		picture = abolish_prohibition
-		potential = {
-			NOT = {has_global_flag = FEU_revanched}
-			OR = {
-				tag = BLT
-				tag = UKR
-			}
-		}
-		allow = {
-			OR = {
-				state_n_government = 1
-				AND = {
-					ai = yes
-					year = 1972
-				}
-			}
-			BLT = {
-				NOT = {government = fascist_dictatorship}
-			}
-			UKR = {
-				NOT = {government = fascist_dictatorship}
-			}
-
-			OR = {
-				tag = BLT
-				BLT = {ai = yes}
-				is_our_vassal = BLT
-			}
-
-			OR = {
-				tag = UKR
-				UKR = {ai = yes}
-				is_our_vassal = UKR
-			}
-
-		}
-		effect = {
-			prestige = 25
-			set_global_flag = FEU_revanched
-			change_tag = FEU
-
-			BLT = {
-				all_core = {
-					add_core = FEU
-					remove_core = BLT
-				}
-			}
-			UKR = {
-				all_core = {
-					add_core = FEU
-				}
-			}
-
-			inherit = BLT
-			inherit = UKR
-			primary_culture = byelorussian
-			add_accepted_culture = ukrainian
-			add_accepted_culture = lithuanian
-			add_accepted_culture = latvian
-			add_accepted_culture = estonian
-			remove_accepted_culture = north_german
-			remove_accepted_culture = south_german
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					AND = {
-						tag = BLT
-						UKR = {NOT = {ai = yes}}
-					}
-					AND = {
-						tag = UKR
-						BLT = {NOT = {ai = yes}}
-					}
-				}
-			}
-		}
-	}
-
 	FEU_getcores = {
 		picture = abolish_prohibition
 		potential = {
@@ -336,6 +254,7 @@ political_decisions = {
 		}
 
 		effect = {
+			leave_alliance = GER
 			prestige = 10
 			release_vassal = THIS
 			set_country_flag = SOOO_freedom
@@ -345,12 +264,9 @@ political_decisions = {
 			modifier = {
 				factor = 0
 				AND = {
+					tag = BLT
 					OR = {
-						tag = UKR
-						tag = MSC
-					}
-					OR = {
-						NOT = {year = 1964}
+						NOT = {year = 1965} 
 						NOT = {month = 8}
 					}
 				}
@@ -358,9 +274,20 @@ political_decisions = {
 			modifier = {
 				factor = 0
 				AND = {
-					tag = BLT
+					tag = MSC
 					OR = {
-						NOT = {year = 1965}
+						NOT = {year = 1966}
+						NOT = {month = 8}
+					}
+				}
+				
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					tag = UKR
+					OR = {
+						NOT = {year = 1967}
 						NOT = {month = 8}
 					}
 				}
@@ -394,6 +321,7 @@ political_decisions = {
 			government = fascist_dictatorship
 		}
 		allow = {
+			state_n_government = 1
 			NOT = {
 				any_owned_province = {
 					has_province_modifier = cultural_genocide
@@ -440,14 +368,14 @@ political_decisions = {
 					NOT = {has_country_flag = annexed_england}
 				}
 			}
-			modifier = {
-				factor = 0
-				NOT = {medicine = 1}
-			}
-			modifier = {
-				factor = 0
-				nationalism_n_imperialism = 1
-			}
+			#modifier = {
+			#	factor = 0
+			#	NOT = {medicine = 1}
+			#}
+			#modifier = {
+			#	factor = 0
+			#	nationalism_n_imperialism = 1
+			#}
 			modifier = {
 				factor = 0
 				AND = {

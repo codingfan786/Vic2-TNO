@@ -502,7 +502,10 @@ country_event = {
 				factor = 0
 				OR = {
 					war = yes
-					is_vassal = yes
+					AND = {
+						is_vassal = yes
+						NOT = {vassal_of = FROM}
+					}
 					is_greater_power = yes
 					AND = {
 						is_secondary_power = yes

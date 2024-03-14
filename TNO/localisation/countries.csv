@@ -287,15 +287,15 @@ FED_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;
 FED_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 FED_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
 FEU_ADJ;Free;Free;Free;;;;;;;;;;;x;
-FEU;Free Europe;Free Europe;Free Europe;;;;;;;;;;;x;
-FEU_proletarian_dictatorship;Free Europe;Free Europe;Free Europe;;;;;;;;;;;x;
-FEU_presidential_dictatorship;Free Europe;Free Europe;Free Europe;;;;;;;;;;;x;
-FEU_bourgeois_dictatorship;Free Europe;Free Europe;Free Europe;;;;;;;;;;;x;
-FEU_fascist_dictatorship;Free Europe;Free Europe;Free Europe;;;;;;;;;;;x;
-FEU_absolute_monarchy;Free Europe;Free Europe;Free Europe;;;;;;;;;;;x;
-FEU_prussian_constitutionalism;Free Europe;Free Europe;Free Europe;;;;;;;;;;;x;
-FEU_hms_government;Free Europe;Free Europe;Free Europe;;;;;;;;;;;x;
-FEU_democracy;Free Europe;Free Europe;Free Europe;;;;;;;;;;;x;
+FEU;Free Europe Army;Free Europe Army;Free Europe Army;;;;;;;;;;;x;
+FEU_proletarian_dictatorship;Free Europe Army;Free Europe Army;Free Europe Army;;;;;;;;;;;x;
+FEU_presidential_dictatorship;Free Europe Army;Free Europe Army;Free Europe Army;;;;;;;;;;;x;
+FEU_bourgeois_dictatorship;Free Europe Army;Free Europe Army;Free Europe Army;;;;;;;;;;;x;
+FEU_fascist_dictatorship;Free Europe Army;Free Europe Army;Free Europe Army;;;;;;;;;;;x;
+FEU_absolute_monarchy;Free Europe Army;Free Europe Army;Free Europe Army;;;;;;;;;;;x;
+FEU_prussian_constitutionalism;Free Europe Army;Free Europe Army;Free Europe Army;;;;;;;;;;;x;
+FEU_hms_government;Free Europe Army;Free Europe Army;Free Europe Army;;;;;;;;;;;x;
+FEU_democracy;Free Europe Army;Free Europe Army;Free Europe Army;;;;;;;;;;;x;
 FEU_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
 FEU_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
 FEU_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
@@ -920,7 +920,7 @@ BEF_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;
 BEF_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 BEF_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
 GLO_ADJ;Low;Low;Low;;;;;;;;;;;x;
-GLO;Benelux Deutschheim;Reichskom. Lowlands;Reichskom. Lowlands;;;;;;;;;;;x;
+GLO;Benelux Deutsche-Heimat;Reichskom. Lowlands;Reichskom. Lowlands;;;;;;;;;;;x;
 GLO_proletarian_dictatorship;Reichskom. Lowlands;Reichskom. Lowlands;Reichskom. Lowlands;;;;;;;;;;;x;
 GLO_presidential_dictatorship;Reichskom. Lowlands;Reichskom. Lowlands;Reichskom. Lowlands;;;;;;;;;;;x;
 GLO_bourgeois_dictatorship;Reichskom. Lowlands;Reichskom. Lowlands;Reichskom. Lowlands;;;;;;;;;;;x;
@@ -939,7 +939,7 @@ GLO_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;
 GLO_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 GLO_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
 GSC_ADJ;Skandinavian;Skandinavian;Skandinavian;;;;;;;;;;;x;
-GSC;Skandinavien Deutschheim;Reichskom. Skandinavien;Reichskom. Skandinavien;;;;;;;;;;;x;
+GSC;Skandinavien Deutsche-Heimat;Reichskom. Skandinavien;Reichskom. Skandinavien;;;;;;;;;;;x;
 GSC_proletarian_dictatorship;Reichskom. Skandinavien;Reichskom. Skandinavien;Reichskom. Skandinavien;;;;;;;;;;;x;
 GSC_presidential_dictatorship;Reichskom. Skandinavien;Reichskom. Skandinavien;Reichskom. Skandinavien;;;;;;;;;;;x;
 GSC_bourgeois_dictatorship;Reichskom. Skandinavien;Reichskom. Skandinavien;Reichskom. Skandinavien;;;;;;;;;;;x;
@@ -958,7 +958,7 @@ GSC_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;
 GSC_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 GSC_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
 GBA_ADJ;Balkan;Balkan;Balkan;;;;;;;;;;;x;
-GBA;Balkanhalbinsel Deutschheim;Reichskom. Balkanhalbinsel ;Reichskom. Balkanhalbinsel ;;;;;;;;;;;x;
+GBA;Balkanhalbinsel Deutsche-Heimat;Reichskom. Balkanhalbinsel ;Reichskom. Balkanhalbinsel ;;;;;;;;;;;x;
 GBA_proletarian_dictatorship;Reichskom. Balkanhalbinsel ;Reichskom. Balkanhalbinsel ;Reichskom. Balkanhalbinsel ;;;;;;;;;;;x;
 GBA_presidential_dictatorship;Reichskom. Balkanhalbinsel ;Reichskom. Balkanhalbinsel ;Reichskom. Balkanhalbinsel ;;;;;;;;;;;x;
 GBA_bourgeois_dictatorship;Reichskom. Balkanhalbinsel ;Reichskom. Balkanhalbinsel ;Reichskom. Balkanhalbinsel ;;;;;;;;;;;x;
@@ -977,7 +977,7 @@ GBA_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;
 GBA_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
 GBA_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
 GFR_ADJ;Gallien;Gallien;Gallien;;;;;;;;;;;x;
-GFR;Gallien Deutschheim;Reichskom. Gallien;Reichskom. Gallien;;;;;;;;;;;x;
+GFR;Gallien Deutsche-Heimat;Reichskom. Gallien;Reichskom. Gallien;;;;;;;;;;;x;
 GFR_proletarian_dictatorship;Reichskom. Gallien;Reichskom. Gallien;Reichskom. Gallien;;;;;;;;;;;x;
 GFR_presidential_dictatorship;Reichskom. Gallien;Reichskom. Gallien;Reichskom. Gallien;;;;;;;;;;;x;
 GFR_bourgeois_dictatorship;Reichskom. Gallien;Reichskom. Gallien;Reichskom. Gallien;;;;;;;;;;;x;
@@ -1330,3 +1330,8 @@ RUS;Committee for the Liberation of Russia;x
 RUS_ADJ;Samaran;x
 WRU;Russian Republic;x
 WRU_ADJ;Russian;x
+OST;Osteuropa Deutsche-Heimat;x
+OST_ADJ;Osteuropan;x
+OST_fascist_dictatorship;Reichskom. Osteuropa;x
+OST_presidential_dictatorship;Reichskom. Osteuropa;x
+OST_bourgeois_dictatorship;Reichskom. Osteuropa;x

@@ -29,6 +29,23 @@ country_event = {
 		political_reform = underground_parties
 		political_reform = none_voting
 		political_reform = party_appointed
+
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = possible_liberate_and_puppet_realm_target
+				}
+			}
+
+			owner = {
+				FROM = {
+					create_vassal = THIS
+				}
+			}
+
+			clr_country_flag = possible_liberate_and_puppet_realm_target
+		}
 	}
 	option = {
 		name = "Interesting."

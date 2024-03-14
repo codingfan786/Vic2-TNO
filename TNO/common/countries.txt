@@ -21,6 +21,7 @@ MSC 	= "countries/Moscow.txt"
 ONE 	= "countries/Onega.txt"
 ALK = "countries/WestAlaska.txt"
 FEU = "countries/FreeEurope.txt"
+OST = "countries/OstEuropa.txt"
 
 RAR 	= "countries/RedArmy.txt"
 NUC 	= "countries/NatUnCon.txt"
