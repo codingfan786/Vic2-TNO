@@ -82,6 +82,15 @@ country_event = {
 	trigger = {
 		NOT = {has_global_flag = polish_refugee_crisis}
 		NOT = {exists = POL}
+		NOT = {
+			POL = {
+				any_core = {
+					owner = {
+						tag = FEU
+					}
+				}
+			}
+		}
 		tag = KAZ
 	}
 
@@ -212,6 +221,7 @@ country_event = {
 		NOT = {has_country_flag = polish_israel_revoked}
 		1181 = {owner = {tag = THIS}}
 		NOT = {exists = POL}
+		NOT = {exists = FEU}
 	}
 
 	mean_time_to_happen = {

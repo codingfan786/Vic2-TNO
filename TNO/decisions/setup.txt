@@ -161,8 +161,29 @@ political_decisions = {
 				limit = {
 					pop_type = soldiers
 				}
-				reduce_pop = 0.5 #was 0.35 before
+				reduce_pop = 0.6 #was 0.35 before
 			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = YNN
+						tag = CH1
+						tag = CH2
+						tag = CH3
+						tag = CH4
+						tag = CH5
+						tag = CH6
+					}
+				}
+				any_pop = {
+					limit = {
+						pop_type = soldiers
+					}
+					reduce_pop = 1.5
+				}
+			}
+
 			#add_country_modifier = {
 			#	name = CHI_mobnerf
 			#	duration = -1
@@ -587,6 +608,17 @@ political_decisions = {
 						}
 					}
 				}
+			}
+
+			YNN = {
+				artillery = 2000
+				clipper_convoy = 200
+				aeroplanes = 100
+				fuel = 100
+				ammunition = 2000
+				small_arms = 1000
+				canned_food = 2000
+				automobiles = 2000
 			}
 
 			GGE = {

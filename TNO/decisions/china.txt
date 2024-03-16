@@ -198,6 +198,20 @@ political_decisions = {
 					remove_core = CHI
 				}
 			}
+			any_owned = {
+				limit = {
+					is_capital = yes
+					owner = {tag = CHI}
+				}
+				
+				JAP = {
+					create_vassal = CHI
+				}
+				THIS = {
+					prestige = -100
+					government = presidential_dictatorship
+				}
+			}
 		}
 	}
 
@@ -285,4 +299,5 @@ political_decisions = {
 			leave_alliance = YNN
 		}	
 	}
+
 }

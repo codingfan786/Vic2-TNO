@@ -3814,6 +3814,8 @@ china_border_conflict_response = {
 		}
 
 		#all_core = {add_core = THIS}
+		#any_owned = {add_core = THIS}
+		all_core = {limit = {owner = {tag = THIS}} add_core = THIS}
 	}
 }
 
@@ -3911,7 +3913,8 @@ china_border_conflict = {
 		}
 		
 		#all_core = {add_core = THIS}
-		
+		#any_owned = {add_core = THIS}
+		all_core = {limit = {owner = {tag = THIS}} add_core = THIS}
 	}
 
 	po_annex = yes

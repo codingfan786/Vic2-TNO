@@ -1,4 +1,16 @@
 substate = {
+	first = JAP
+	second = EIC
+	start_date = 1836.1.1
+}
+
+substate = {
+	first = JAP
+	second = AHG
+	start_date = 1836.1.1
+}
+
+substate = {
 	first = SGA
 	second = WGA
 	start_date = 1836.1.1
