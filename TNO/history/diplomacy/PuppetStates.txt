@@ -1,3 +1,16 @@
+vassal = {
+	first = GER
+	second = SER
+	start_date = 1836.1.1
+}
+
+
+substate = {
+	first = ITA
+	second = CRO
+	start_date = 1836.1.1
+}
+
 substate = {
 	first = JAP
 	second = EIC

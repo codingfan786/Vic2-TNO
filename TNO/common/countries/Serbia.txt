@@ -1,5 +1,8 @@
+#fascist_dictatorship = { 41 50 66 }
+fascist_dictatorship = { 35 43 56 }
 color = { 166  72  57 }
 graphical_culture = EuropeanGC
+
 
 party = {
 	name = "SER_conservative"

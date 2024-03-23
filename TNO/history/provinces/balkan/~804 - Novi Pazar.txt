@@ -1,0 +1,10 @@
+owner = YUG
+controller = YUG
+add_core = YUG
+add_core = SER
+
+
+
+
+trade_goods = iron
+life_rating = 35

@@ -122,4 +122,50 @@ political_decisions = {
 			set_country_flag = igy_inherited
 		}
 	}
+
+
+
+	balkan_control = {
+		picture = attack_the_laagers
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = controlled_balkans
+			}
+			OR = {
+				exists = HUN
+				exists = BUL
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			OR = {
+				AND = {
+					exists = HUN
+					HUN = {is_vassal = no}
+					is_sphere_leader_of = HUN
+				}
+				AND = {
+					exists = BUL
+					BUL = {is_vassal = no}
+					is_sphere_leader_of = BUL
+				}
+			}
+		}
+		effect = {
+			set_country_flag = controlled_balkans
+			any_country = {
+				limit = {
+					OR = {
+						tag = BUL
+						tag = HUN
+					}
+					is_vassal = no
+					in_sphere = THIS
+					exists = yes
+				}
+				country_event = 500272
+			}
+		}
+	}
 }

@@ -1,0 +1,43 @@
+country_event = {
+	id = 500272
+	title = "Italy demands subjugation!"
+	desc = "event500272desc"
+	is_triggered_only = yes
+
+	option = {
+		name = "We have no choice..."
+		FROM = {create_vassal = THIS}
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = 800
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "...But to fight for survival!"
+		add_casus_belli = {
+			target = FROM
+			type = make_puppet
+			months = 24
+		}
+		ai_chance = {
+			factor = 0
+		}
+
+		any_country = {
+			limit = {
+				tag = FROM
+				ai = yes
+			}
+			war = {
+				target = THIS
+				attacker_goal = {casus_belli = make_puppet}
+				call_ally = yes
+			}
+		}
+	}
+}

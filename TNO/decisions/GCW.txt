@@ -67,6 +67,16 @@ political_decisions = {
 				value = 600
 			}
 
+			diplomatic_influence = {
+				who = HUN
+				value = 100
+			}
+
+			diplomatic_influence = {
+				who = BUL
+				value = 100
+			}
+
 			any_country = {
 				limit = {
 					tag = GGE
