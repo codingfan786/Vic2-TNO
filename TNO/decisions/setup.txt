@@ -524,6 +524,7 @@ political_decisions = {
 					which = bormann_protests
 					value = 0
 				}
+				set_country_flag = I_am_borman
 			}
 			set_country_flag = german_main
 			EGA = {set_country_flag = german_main}
@@ -744,7 +745,7 @@ political_decisions = {
 					limit = {
 						type = soldiers
 					}
-					reduce_pop = 2
+					reduce_pop = 2.5
 				}
 			}
 			set_country_flag = brg_buff
@@ -755,6 +756,16 @@ political_decisions = {
 							type = soldiers
 						}
 						reduce_pop = 2
+					}
+				}
+			}
+			FRA = {
+				any_owned= {
+					any_pop={
+						limit = {
+							type = soldiers
+						}
+						reduce_pop = 0.85
 					}
 				}
 			}

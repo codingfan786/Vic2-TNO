@@ -50,6 +50,7 @@ political_decisions = {
 			409 = {add_core = FRA}
 			410 = {add_core = FRA}
 			412 = {add_core = FRA}
+			clr_global_flag = fra_dying
 		}
 	}
 
@@ -110,6 +111,31 @@ political_decisions = {
 			set_country_flag = cfr_reproached
 			CFR = {
 				country_event = 500143
+			}
+		}
+	}
+
+	recently_lost_to_brg = {
+		picture = trail_of_tears
+		potential = {
+			tag = FRA
+			OR = {
+				NOT = { year = 1963 }
+				has_country_flag = brg_won
+			}
+		}
+		allow = {
+			has_country_flag = brg_won
+		}
+		effect = {
+			clr_country_flag = brg_won
+			add_country_modifier = {
+				name = ija_boost_2
+				duration = 7300
+			}
+			add_country_modifier = {
+				name = ija_boost_1
+				duration = 7300
 			}
 		}
 	}

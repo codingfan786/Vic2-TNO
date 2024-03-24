@@ -321,7 +321,6 @@ army = {
 	}
 }
 
-
 navy = {
 	name = "Transport Fleet"
 	location = 84
@@ -505,3 +504,224 @@ navy = {
 		type = ironclad
 	}
 }
+
+
+
+army = {
+	name = "1a Armata" #done
+	location = 233
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 103
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 133
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 133
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 133
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 133
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 137
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 137
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 137
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 137
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 132
+	}
+}
+
+army = {
+	name = "1a Armata" #done
+	location = 220
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 132
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 132
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 132
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 232
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 169
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 195
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 188
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 206
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 179
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 211
+	}
+}
+
+navy = {
+	name = "Transport Fleet"
+	location = 233
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Transport Fleet"
+	location = 220
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+}
+

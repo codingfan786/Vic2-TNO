@@ -16,7 +16,7 @@ political_decisions = {
 		}
 		effect = {
 			set_global_flag = malta_conference_bombed
-			badboy = 3
+			badboy = 1
 		}
 		ai_will_do = {
 			factor = 1
@@ -49,7 +49,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = support_ora
-			badboy = 3
+			badboy = 1
 			2105 = {
 				add_province_modifier = {
 					name = ger_afr
@@ -162,6 +162,8 @@ political_decisions = {
 					type = expand_burgundy
 					months = 12
 				}
+				leave_alliance = IBE
+				leave_alliance = ITA
 			}
 
 			BRG = {

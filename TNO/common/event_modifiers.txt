@@ -26,7 +26,7 @@ has_nukes_secondary = {
 
 nuclear_threat = {
 	icon = 6
-	badboy = 1.75
+	badboy = 1.1 #lowers total to 10. was 1.75 before
 	#over 6 months = 15 infamy
 	#will cancel early if at peace at all and launch didnt happen
 }

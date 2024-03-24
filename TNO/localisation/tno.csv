@@ -247,7 +247,7 @@ ijn_funding;I.J.N. Funding Priority;;;;;;;;;;;x
 fund_ija_title;Side with the I.J.A.;;;;;;;;;;;x
 fund_ija_desc;The I.J.A and I.J.N. has been at odds ever since World War 2 over industrial resources and funding. This interservice rivalry has been a constant political problem and it is time to decide once and for all which shall reign supreme over the Japanese armed forces.;;;;;;;;;;;x
 boost_ija_1_title;Reform I.J.A. draft standards.;;;;;;;;;;;x
-boost_ija_1_desc;Draftees that don't pass the standards for service in the I.J.A are routinely passed along to the I.J.N. By ending this practice the I.J.A. can shore up its numbers with normally wasted recruits.;;;;;;;;;;;x
+boost_ija_1_desc;Draftees that don't pass the standards for service in the I.J.A are routinely passed along to the I.J.N. By ending this practice the I.J.A. can shore up its numbers with normally wasted recruits. §RThis will also slightly increase the soldier promotion rate.;;;;;;;;;;;x
 boost_ija_2_title;Reform I.J.A. training standards.;;;;;;;;;;;x
 boost_ija_2_desc;Japanese tactical doctrine insists vigorously on the inherent superiority of the offense, and Field Service Regulations state that the offensive should be resolutely taken. The object of all maneuver is to close quickly with the enemy so that the assumed Japanese superiority in close combat can be realized to the utmost. Even when the enemy strength is markedly superior, or when the Japanese commander has been placed temporarily on the defensive, he is supposed to use every effort to regain the offensive and take the initiative.;;;;;;;;;;;x
 fund_ijn_title;Side with the I.J.N.;;;;;;;;;;;x
@@ -1042,3 +1042,17 @@ ss_osteuropa_desc;The Germanisation programs are simply not sustainable. In orde
 event500272desc;The ever encroaching influence of Italy has taken its toll on our country. Now they demand complete control over our foreign affairs! What should we do?;x
 balkan_control_title;Dominance in the Balkans!;x
 balkan_control_desc;The falling out between Mussolini and Hitler has lead to a competition of influence regarding the future of the Balkan states. With the advent of the German civil war Italy has clearly come out victorious. With Hungary and Bulgaria fully in our political grasp we can now cement our control.;x
+ija_boosted_1;Reformed I.J.A. Draft Standards;x
+brg_won;Burgundy Siezed the Demilitarized Zone;x
+recently_lost_to_brg_title;Recover from the Franco-Burgundian War;x
+recently_lost_to_brg_desc;The German occupation force has siezed the demilitarized zones of northern France. This has left us in a vulnerable position that we must recover from immediately!;x
+carve_up_france;Intervene in France;x
+carve_up_france_short;Acquire $STATE$ for $THIRD$.;x
+carve_up_france_setup;Acquire $STATE$ for our puppet.;x
+carve_up_france_desc;Expand our French puppet.;x
+sov_puppets_title;Establish Soviet Socialist Republics;x
+wru_accepteds_title;Liberators of Eastern Europe!;x
+sov_puppets_desc;With our victory over Finland and the survival of the Kazakh S.S.R. over the decades we are now in a position to bring in our neighbours as fully fledged members of the Soviet Union.;x
+wru_accepteds_desc;With our liberation of the bulk of the Russian people from the Communist menace complete, we can now turn our attention towards liberating the people of Eastern Europe from Fascism!;x
+bormann_lr_title;Reestablish the Lebensborn Program;x
+bormann_lr_desc;During the 1930's the Lebensborn program was an SS-initiated, state-supported, registered association in Nazi Germany with the stated goal of increasing the number of children born who met the Nazi standards of racially pure and healthy Aryans. Ever since the end of the post-war baby boom our fertility rates have been in decline, necessitating this program once again.;x

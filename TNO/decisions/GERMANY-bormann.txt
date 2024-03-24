@@ -297,4 +297,72 @@ political_decisions = {
 		}
 	}
 
+	bormann_lr = {
+		picture = haussmanns_renovations
+		potential = {
+			has_country_flag = I_am_borman
+			GER = {exists = no}
+			NOT = {has_country_flag = bge_lr_improved}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			set_country_flag = bge_lr_improved
+			549 = {life_rating = 3}
+			599 = {life_rating = 3}
+			695 = {life_rating = 3}
+			595 = {life_rating = 3}
+			619 = {life_rating = 3}
+			random_owned = {
+				limit = {culture = north_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = north_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = south_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = south_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = north_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = north_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = south_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = south_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = north_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = north_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = south_german}
+				 life_rating = 3
+			}
+			random_owned = {
+				limit = {culture = south_german}
+				 life_rating = 3
+			}
+		}
+	}
+
 }

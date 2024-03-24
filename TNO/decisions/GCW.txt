@@ -39,6 +39,7 @@ political_decisions = {
 			}
 		}
 		effect = {
+			capital = 549
 			#civilized = yes
 			remove_country_modifier = sge_mobbuff
 			prestige = 30

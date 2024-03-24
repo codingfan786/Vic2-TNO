@@ -7,6 +7,7 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
+				#always = yes
 				AHG = {exists = no}
 				AHG = {
 					all_core = {
@@ -18,6 +19,61 @@ political_decisions = {
 		}
 		effect = {
 			remove_country_modifier = hnd_paranoia
+
+			random_owned = {
+				limit = {
+					OR = {
+						trade_goods = cotton
+						trade_goods = dye
+						trade_goods = grain
+						trade_goods = tea
+					}
+				}
+				trade_goods = iron
+				any_pop = {
+					limit = {
+						type = farmers
+					}
+					pop_type = labourers
+				}
+			}
+
+			random_owned = {
+				limit = {
+					OR = {
+						trade_goods = cotton
+						trade_goods = dye
+						trade_goods = grain
+						trade_goods = tea
+					}
+				}
+				trade_goods = iron
+				any_pop = {
+					limit = {
+						type = farmers
+					}
+					pop_type = labourers
+				}
+			}
+
+			random_owned = {
+				limit = {
+					OR = {
+						trade_goods = cotton
+						trade_goods = dye
+						trade_goods = grain
+						trade_goods = tea
+					}
+				}
+				trade_goods = coal
+				any_pop = {
+					limit = {
+						type = farmers
+					}
+					pop_type = labourers
+				}
+			}
+
 			country_event = 500223
 		}
 	}

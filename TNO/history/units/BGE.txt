@@ -1,6 +1,9 @@
+BRG = {
+	value = -100
+	truce_until = "1972.1.1"
+}
 
 
-#========================= L A N D =========================
 army = {
 	name = "Defense Forces"
 	location = 562

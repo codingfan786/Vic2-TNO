@@ -384,6 +384,9 @@ R11 = "countries/R11.txt"
 R12 = "countries/R12.txt"
 R13 = "countries/R13.txt"
 
+SFR = "countries/Iberian France.txt"
+IFR = "countries/Italian France.txt"
+
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
 D01		= "countries/D01.txt"

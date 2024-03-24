@@ -490,9 +490,69 @@ political_decisions = {
 
 
 #SOVIET UNION DECISIONS
-
+	sov_puppets = {
+		picture = raise_the_bonnie_blue_flag
+		potential = {
+			tag = SOV
+			NOT = {has_country_flag = sov_got_cbs}
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = sov_got_cbs
+			FIN = {
+				add_casus_belli = {
+					target = THIS
+					type = make_puppet
+					months = 24
+				}
+			}
+			KAZ = {
+				add_casus_belli = {
+					target = THIS
+					type = make_puppet
+					months = 24
+				}
+			}
+			NPO = {
+				add_casus_belli = {
+					target = THIS
+					type = make_puppet
+					months = 24
+				}
+			}
+		}
+	}
 
 #RUSSIAN REPUBLIC DECISIONS
+	
+	wru_accepteds = {
+		picture = institute_central_bank
+		potential = {
+			tag = WRU
+			NOT = {
+				accepted_culture = ukrainian
+			}
+		}
 
+		allow = {
+			nationalism_n_imperialism = 1
+			MSC = {
+				exists = no
+			}
+			OST = {
+				exists = no
+			}
+			any_owned_province = {
+				is_core = MSC
+			}
+		}
+
+		effect = {
+			add_accepted_culture = ukrainian
+			add_accepted_culture = byelorussian
+		}
+	}
 
 }

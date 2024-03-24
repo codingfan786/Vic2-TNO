@@ -699,6 +699,12 @@ promote_to =
 		factor = 0.01
 		
 		modifier = {
+			factor = 2 #was 16
+			location = {owner = {has_country_flag = ija_boosted_1}}
+			culture = japanese
+		}
+
+		modifier = {
 			factor = -10 #was 16
 			location = {owner = {has_country_flag = CHI_mobnerf}}
 		}

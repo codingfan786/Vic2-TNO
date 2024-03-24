@@ -104,6 +104,7 @@ nuke_disarm
 missile_crisis
 baathism
 germany_fights_feu
+carve_up_france
 }
 
 gunboat = {
@@ -1808,6 +1809,7 @@ uninstall_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		always = no
 		THIS = {
 			# If actor ruling party is not communist
 			NOT = {
@@ -3244,6 +3246,8 @@ expand_burgundy = {
 	po_remove_prestige = yes
 	on_po_accepted = {
 		country_event = 500169
+		set_country_flag = brg_won
+		set_global_flag = fra_dying
 	}
 }
 
@@ -4079,3 +4083,91 @@ germany_fights_feu = {
 	}
 }
 
+carve_up_france = {
+	sprite_index = 15
+	is_triggered_only = yes
+	months = 0
+	crisis = no
+	constructing_cb = no
+	always = yes
+
+	badboy_factor = 0.7
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+
+	can_use = {
+		OR = {
+			tag = FRA
+			AND = {
+				OR = {
+					tag = BRG
+					tag = BRI
+				}
+				NOT = {exists = FRA}
+			}
+		}
+		NOT = { truce_with = THIS } 
+		
+		has_global_flag = fra_dying
+
+		THIS = {
+			OR = {
+				is_our_vassal = IFR
+				is_our_vassal = SFR
+			}
+		}
+	}
+	
+	allowed_countries = {
+		FROM = { vassal_of = THIS }
+		OR = {
+			FROM = {tag = IFR}
+			FROM = {tag = SFR}
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+            is_core = FRA
+		}
+	}
+
+	po_transfer_provinces = yes
+	
+	war_name = WAR_PUPPET_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	on_po_accepted = {
+		FRA = {
+			all_core = {
+				limit = {
+					owner = {tag = IFR}
+				}
+				add_core = IFR
+			}
+			all_core = {
+				limit = {
+					owner = {tag = SFR}
+				}
+				add_core = SFR
+			}
+		}	
+	}
+}
