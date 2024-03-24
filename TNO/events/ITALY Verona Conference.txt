@@ -315,3 +315,334 @@ country_event = {
 		name = "This is the day of Italian Socialist Freedom!"
 	}
 }
+
+country_event = {
+	id = 500273
+	title = "Croatian Spring"
+	desc = "In the advent of the Verona conference Croatia is now undergoing a period of political turmoil due to the results."
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = CRO
+		ITA = {
+			has_country_flag = verona_first
+			has_country_flag = verona_second
+			has_country_flag = verona_third
+		}
+		NOT = {
+			ITA = {
+				has_country_flag = verona_conference
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	immediate = {
+		
+		any_owned = {
+			limit = {
+				is_capital = yes
+				ITA = {
+					government = proletarian_dictatorship
+				}
+			}
+
+			#release croatia as yugoslavia and release bosnia
+			ITA = {
+				release_vassal = CRO
+			}
+			any_country = {
+				limit = {war_with = CRO}
+				end_war = CRO
+			}
+			YUG = {
+				ruling_party_ideology = communist
+				inherit = CRO
+				release = BOS
+				any_owned = {
+					add_province_modifier = {
+						name = ora_ai_fix
+						duration = 7
+					}
+					any_pop = {
+						limit = {pop_type = soldiers}
+						reduce_pop = 2
+					}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+			}
+			BOS = {
+				any_owned = {
+					add_province_modifier = {
+						name = ora_ai_fix
+						duration = 7
+					}
+					any_pop = {
+						limit = {pop_type = soldiers}
+						reduce_pop = 2
+					}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+			}
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				ITA = {
+					government = prussian_constitutionalism
+				}
+			}
+
+			#they like this?
+			CRO = {
+				government = prussian_constitutionalism
+				political_reform = wealth_voting
+			}
+		}
+
+		any_owned = {
+			limit = {
+				is_capital = yes
+				ITA = {
+					government = fascist_dictatorship
+					ruling_party_ideology = conservative
+				}
+			}
+
+			#release bosnia
+			CRO = {
+				release = BOS
+			}
+			BOS = {
+				any_owned = {
+					add_province_modifier = {
+						name = ora_ai_fix
+						duration = 7
+					}
+					any_pop = {
+						limit = {pop_type = soldiers}
+						reduce_pop = 2
+					}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+			}
+		}
+		any_owned = {
+			limit = {
+				is_capital = yes
+				ITA = {
+					government = fascist_dictatorship
+					ruling_party_ideology = fascist
+				}
+			}
+
+			#release croatia as yugoslavia
+			ITA = {
+				release_vassal = CRO
+			}
+			any_country = {
+				limit = {war_with = CRO}
+				end_war = CRO
+			}
+			YUG = {
+				ruling_party_ideology = communist
+				inherit = CRO
+				any_owned = {
+					add_province_modifier = {
+						name = ora_ai_fix
+						duration = 7
+					}
+					any_pop = {
+						limit = {pop_type = soldiers}
+						reduce_pop = 2
+					}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+					}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = infantry value = current}
+					sub_unit = {type = hussar value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+					sub_unit = {type = artillery value = current}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "Croatia's fate is sealed..."
+	}
+}

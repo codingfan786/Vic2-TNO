@@ -3,6 +3,7 @@ controller = ITA
 add_core = ITA
 add_core = VEN
 
+add_core = YUG
 
 
 trade_goods = grain
