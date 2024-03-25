@@ -3,7 +3,7 @@ capital = 498
 primary_culture = catalan
 culture = spanish
 religion = protestant
-government = absolute_monarchy
+government = democracy
 plurality = 0.05
 nationalvalue = nv_order
 literacy = 0.13
@@ -11,13 +11,13 @@ literacy = 0.13
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = none_voting
+upper_house_composition = state_equal_weight
+vote_franschise = universal_weighted_voting
 public_meetings = yes_meeting
-press_rights = censored_press
-trade_unions = no_trade_unions
+press_rights = free_press
+trade_unions = all_trade_unions
 voting_system = first_past_the_post
-political_parties = underground_parties
+political_parties = gerrymandering
 
 # Social Reforms
 wage_reform = no_minimum_wage

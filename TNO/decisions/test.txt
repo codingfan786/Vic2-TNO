@@ -9,39 +9,19 @@ political_decisions = {
 			#NOT = {exists = ONE}
 		}
 		effect = {
-			any_country = {
+			any_owned = {
 				limit = {
 					OR = {
-						tag = MSC
-						tag = RAR
-						tag = RUS
-						tag = NUC
-						tag = WA1
-						tag = NKV
-						tag = NAV
-						tag = FED
-						tag = R01
-						tag = R02
-						tag = R03
-						tag = R04
-						tag = R05
-						tag = R06
-						tag = R07
-						tag = R08
-						tag = R09
-						tag = R10
-						tag = R11
-						tag = R12
-						tag = R13
-						tag = WA2
+						#is_core = POR
+						is_core = CAT
+						state_id = 474
+						state_id = 477
+						state_id = 495
 					}
 				}
-				annex_to = THIS
-			}
-			GGE = {
-				inherit = SGE
-				inherit = BGE
-				inherit = HGE
+				any_pop = {
+					militancy = 9
+				}
 			}
 		}
 	}

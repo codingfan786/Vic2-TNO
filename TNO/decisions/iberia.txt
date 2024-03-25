@@ -59,6 +59,7 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = portuguese
+			add_accepted_culture = galician
 		}
 	}
 
@@ -74,7 +75,10 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = catalan
+			add_accepted_culture = basque
 		}
 	}
+
+
 
 }

@@ -1,0 +1,309 @@
+country_event = {
+	major = yes
+	id = 500275
+	title = "The Iberian Wars!"
+	desc = "event500275desc"
+	fire_only_once = yes
+
+	trigger = {
+		has_country_flag = iberia_wars_started
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				is_core = POR
+			}
+			secede_province = POR
+		}
+
+		any_owned = {
+			limit = {
+				is_core = CAT
+			}
+			secede_province = CAT
+		}
+
+		any_owned = {
+			limit = {
+				OR = {
+					state_id = 474
+					state_id = 477
+					state_id = 495
+				}
+			}
+			#secede_province = SPA
+			
+			add_province_modifier = {
+				name = enemy_sphere_marker
+				duration = 2
+			}
+		}
+
+		any_owned = {
+			limit = {
+				has_province_modifier = enemy_sphere_marker
+			}
+			secede_province = SPA
+		}
+
+		any_owned = {
+			limit = {
+				is_core = MOR
+				NOT = {province_id = 1686}
+				NOT = {province_id = 1687}
+				NOT = {province_id = 1688}
+				NOT = {province_id = 1689}
+			}
+			secede_province = MOR
+		}
+
+		POR = {
+			any_owned = {
+				add_province_modifier = {
+					name = ora_ai_fix
+					duration = 7
+				}
+			}
+
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = POR}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = POR}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = POR}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+		}
+		CAT = {
+			any_owned = {
+				add_province_modifier = {
+					name = ora_ai_fix
+					duration = 7
+				}
+			}
+
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = CAT}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = CAT}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = CAT}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+		}
+
+		SPA = {
+			any_owned = {
+				add_province_modifier = {
+					name = ora_ai_fix
+					duration = 7
+				}
+			}
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = SPA}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = SPA}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = SPA}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = SPA}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+
+			#war = {
+			#	target = POR
+			#	attacker_goal = { casus_belli = make_puppet }
+			#	call_ally = no
+			#}
+
+			war = {
+				target = CAT
+				attacker_goal = { casus_belli = annex_core_country }
+				call_ally = no
+			}
+		}
+
+		MOR = {
+			any_owned = {
+				add_province_modifier = {
+					name = ora_ai_fix
+					duration = 7
+				}
+			}
+			random_owned = {
+				limit = {
+					NOT = {country_units_in_province = MOR}
+				}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = infantry value = current}
+				sub_unit = {type = hussar value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+				sub_unit = {type = artillery value = current}
+			}
+		}
+	}
+	option = {
+		name = "We must regain control immediately! §RYou will get a free conquest against Morocco."
+
+		war = {
+			target = POR
+			attacker_goal = { casus_belli = annex_core_country }
+			call_ally = no
+		}
+		war = {
+			target = CAT
+			attacker_goal = { casus_belli = annex_core_country }
+			call_ally = no
+		}
+		war = {
+			target = SPA
+			attacker_goal = { casus_belli = annex_core_country }
+			call_ally = no
+		}
+		war = {
+			target = MOR
+			attacker_goal = { casus_belli = conquest }
+			call_ally = no
+		}
+
+		badboy = -10
+
+	}
+	option = {
+		name = "We must pause to regroup!"
+	}
+}

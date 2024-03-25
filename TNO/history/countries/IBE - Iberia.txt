@@ -5,7 +5,7 @@
 civilized = yes
 capital = 487
 primary_culture = spanish
-culture = galician
+#culture = galician
 religion = protestant
 government = presidential_dictatorship
 plurality = 10

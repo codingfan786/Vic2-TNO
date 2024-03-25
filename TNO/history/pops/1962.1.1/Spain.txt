@@ -771,7 +771,7 @@
 		religion = protestant
 		size = 1200
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	clergymen = {
@@ -779,7 +779,7 @@
 		religion = protestant
 		size = 1100
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	artisans = {
@@ -787,7 +787,7 @@
 		religion = protestant
 		size = 6000
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	soldiers = {
@@ -795,7 +795,7 @@
 		religion = protestant
 		size = 1100
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	farmers = {
@@ -803,7 +803,7 @@
 		religion = protestant
 		size = 103600
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	aristocrats = {
@@ -843,7 +843,7 @@
 		religion = protestant
 		size = 1400
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	officers = {
@@ -851,7 +851,7 @@
 		religion = protestant
 		size = 200
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	bureaucrats = {
@@ -859,7 +859,7 @@
 		religion = protestant
 		size = 300
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	clergymen = {
@@ -867,7 +867,7 @@
 		religion = protestant
 		size = 750
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	artisans = {
@@ -875,7 +875,7 @@
 		religion = protestant
 		size = 3500
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	soldiers = {
@@ -883,7 +883,7 @@
 		religion = protestant
 		size = 800
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	labourers = {
@@ -891,7 +891,7 @@
 		religion = protestant
 		size = 70050
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	aristocrats = {
@@ -1106,7 +1106,7 @@
 		religion = protestant
 		size = 2400
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	clergymen = {
@@ -1114,7 +1114,7 @@
 		religion = protestant
 		size = 1100
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	artisans = {
@@ -1122,7 +1122,7 @@
 		religion = protestant
 		size = 5500
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	soldiers = {
@@ -1130,7 +1130,7 @@
 		religion = protestant
 		size = 2200
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	farmers = {
@@ -1138,7 +1138,7 @@
 		religion = protestant
 		size = 103000
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 }
@@ -1278,7 +1278,7 @@
 		religion = protestant
 		size = 66600
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	aristocrats = {
@@ -1318,7 +1318,7 @@
 		religion = protestant
 		size = 1100
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	clergymen = {
@@ -1326,7 +1326,7 @@
 		religion = protestant
 		size = 500
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	artisans = {
@@ -1334,7 +1334,7 @@
 		religion = protestant
 		size = 5500
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	soldiers = {
@@ -1342,7 +1342,7 @@
 		religion = protestant
 		size = 550
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	farmers = {
@@ -1350,7 +1350,7 @@
 		religion = protestant
 		size = 48300
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	aristocrats = {
@@ -1390,7 +1390,7 @@
 		religion = protestant
 		size = 1700
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	clergymen = {
@@ -1398,7 +1398,7 @@
 		religion = protestant
 		size = 800
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	artisans = {
@@ -1412,7 +1412,7 @@
 		religion = protestant
 		size = 800
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	farmers = {
@@ -1420,7 +1420,7 @@
 		religion = protestant
 		size = 75700
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	aristocrats = {
@@ -1428,7 +1428,7 @@
 		religion = protestant
 		size = 900
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	clergymen = {
@@ -1436,7 +1436,7 @@
 		religion = protestant
 		size = 400
 		militancy = 8
-		rebel_type = carlist_rebels
+		rebel_type = defederalist_rebels
 	}
 
 	artisans = {

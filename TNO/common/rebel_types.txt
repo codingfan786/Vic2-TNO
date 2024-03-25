@@ -3265,3 +3265,209 @@ african_rebels = {
 		set_country_flag = super_africans_won
 	}
 }
+
+defederalist_rebels = {
+	icon = 5
+	
+	area = nation 				# Stays within provinces of their culture
+	break_alliance_on_win = no
+	
+	# <this is the governement in the country> = <this is what the rebels want>
+	government = {
+		proletarian_dictatorship = proletarian_dictatorship
+		presidential_dictatorship = presidential_dictatorship
+		bourgeois_dictatorship = bourgeois_dictatorship
+		fascist_dictatorship = fascist_dictatorship
+		absolute_monarchy = absolute_monarchy
+		prussian_constitutionalism = prussian_constitutionalism
+		hms_government = hms_government
+		democracy = democracy
+		democracy2 = democracy
+	}
+	
+	
+	defection = none		# If the country seeks independence, defection specifies what type of provinces it wants.
+	independence = none 		# Seeks independence for spawn province culture. Will not spawn at all if there is no suitable tag.
+	defect_delay = 12		# Can spontaneously declare independence after X months (earliest)
+	
+	allow_all_cultures = yes
+	allow_all_religions = yes
+	allow_all_ideologies = yes
+	
+	resilient = yes					# Does not disband on retreat
+	reinforcing = yes				# Does not receive reinforcements
+	general = yes					# Does use generals
+	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
+	unit_transfer = no				# Units do remain after enforcing demands.
+	
+	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
+
+	# triggers a general rising, modifier will be multiplied with the country's army strength and compared to the faction's strength
+	will_rise = 
+	{
+		factor = 0.7
+		
+		modifier = {
+			war = yes
+			factor = 0.8
+		}
+		
+		modifier = {
+			war_exhaustion = 4
+			factor = 0.95
+		}
+		
+		modifier = {
+			war_exhaustion = 6
+			factor = 0.95
+		}
+		
+		modifier = {
+			war_exhaustion = 8
+			factor = 0.95
+		}
+	}
+	
+	# The rebel type with the highest modifier for this pop gets picked
+	spawn_chance = {
+		factor = 10
+
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = {
+					country = {
+						tag = IBE
+					}
+				}
+				country = {
+					has_country_flag = iberia_wars_started #stop_iberia_wars
+				}
+				year = 1980
+				NOT = {location = {is_core = SPA}}
+			}
+		}
+
+		modifier = {
+			factor = 1.01
+			pop_majority_ideology = communist
+		}
+		modifier = {
+			factor = 1.01
+			pop_majority_ideology = socialist
+		}
+		modifier = {
+			factor = 1.03
+			pop_majority_ideology = anarcho_liberal
+		}
+		modifier = {
+			factor = 1.05
+			pop_majority_ideology = liberal
+		}
+		modifier = {
+			factor = 1.07
+			pop_majority_ideology = conservative
+		}
+		modifier = {
+			factor = 0.9
+			pop_majority_ideology = reactionary
+		}
+		modifier = {
+			factor = 1.11
+			pop_majority_ideology = fascist
+		}
+		
+
+		modifier = {
+			factor = 1.015
+			NOT = { is_culture_group = THIS }
+		}
+		
+
+		modifier = {
+			factor = 1.02
+			is_accepted_culture = no
+		}
+		modifier = {
+			factor = 1.2
+			location = {
+				is_colonial = yes
+			}
+		}
+	
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 3.0
+			is_capital = yes
+		}
+		modifier = {
+			factor = 3
+			NOT = {controlled_by = REB}
+			OR = {
+				#is_core = POR
+				is_core = CAT
+				state_id = 474
+				state_id = 477
+				state_id = 495
+			}
+		}
+	}
+	
+ 	# Province Scope
+ 	#siege_won_trigger = {
+ 	#}
+	
+	#siege_won_effect = {
+	#}
+	
+	# Country scope
+	demands_enforced_trigger = {
+		OR = {
+			capital_scope = {
+				controlled_by = REB
+				province_control_days = 30
+			}
+
+			NOT = {
+				any_owned_province = {
+					OR = {
+						#is_core = POR
+						is_core = CAT
+						state_id = 474
+						state_id = 477
+						state_id = 495
+					}
+					NOT = {controlled_by = REB}
+				}
+			}
+		}
+			
+	}
+	demands_enforced_effect = {
+		set_country_flag = iberia_wars_started
+	}
+}

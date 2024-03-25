@@ -292,3 +292,77 @@ country_event = {
 		name = "ok"
 	}
 }
+
+country_event = {
+	id = 500274
+	title = "Iberian wars"
+	desc = "yup"
+	
+	fire_only_once = yes
+
+	trigger = {
+		year = 1970
+		tag = JAN
+		#always = no
+	}
+
+	immediate = {
+		IBE = {
+			any_owned = {
+				limit = {
+					OR = {
+						#is_core = POR
+						is_core = CAT
+						state_id = 474
+						state_id = 477
+						state_id = 495
+					}
+				}
+				any_pop = {
+					militancy = 10
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "ok"
+	}
+}
+
+country_event = {
+	id = 500276
+	title = "Iberian wars"
+	desc = "yup"
+	
+	fire_only_once = yes
+
+	trigger = {
+		year = 1973
+		tag = JAN
+		#always = no
+	}
+
+	immediate = {
+		IBE = {
+			any_owned = {
+				limit = {
+					OR = {
+						#is_core = POR
+						is_core = CAT
+						state_id = 474
+						state_id = 477
+						state_id = 495
+					}
+				}
+				any_pop = {
+					militancy = 10
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "ok"
+	}
+}

@@ -1,5 +1,5 @@
 trade_goods = oil
-life_rating = 20
+life_rating = 40
 owner = SAL
 controller = SAL
 add_core = ALD

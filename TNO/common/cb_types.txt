@@ -1683,12 +1683,10 @@ rude_boy = {
 		badboy = 1
 		OR = {
 			THIS = {ai = no}
-			NOT = {has_country_flag = nuke}
+			NOT = {has_country_flag = primary_nukes}
 			AND = {
-				NOT = {has_country_modifier = nuc_dev}
-				has_country_flag = nuke
-				THIS = {NOT = {has_country_modifier = nuc_dev}}
-				THIS = {has_country_flag = nuke}
+				has_country_flag = primary_nukes
+				THIS = {has_country_flag = primary_nukes}
 			}
 		}
 	}

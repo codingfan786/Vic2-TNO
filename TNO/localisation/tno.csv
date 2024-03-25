@@ -1056,3 +1056,19 @@ sov_puppets_desc;With our victory over Finland and the survival of the Kazakh S.
 wru_accepteds_desc;With our liberation of the bulk of the Russian people from the Communist menace complete, we can now turn our attention towards liberating the people of Eastern Europe from Fascism!;x
 bormann_lr_title;Reestablish the Lebensborn Program;x
 bormann_lr_desc;During the 1930's the Lebensborn program was an SS-initiated, state-supported, registered association in Nazi Germany with the stated goal of increasing the number of children born who met the Nazi standards of racially pure and healthy Aryans. Ever since the end of the post-war baby boom our fertility rates have been in decline, necessitating this program once again.;x
+event500275desc;The Iberian Union has been plagued in the past decade by seperatist terrorist groups and general economic instability. Today the defederalist movements, which began as minor terrorist attacks in the Basque region, have escalated into a complete and open declaration of independence after the repeated failures of the federal government at keeping the situation under control. Sensing a lack of security in the union the Portugese government has also announced its intent to depart from the Iberian Union.;x
+AGRESSION_WAR_PUPPET_NAME;$ORDER$War of $FIRST$ Control Over $SECOND_COUNTRY$;x
+AGRESSION_WAR_PUPPET_NAME_SPA_POR;The Iberian Wars;x
+NORMAL_WAR_CONQUEST_NAME_IBE_MOR;The Iberian Wars;x
+AGRESSION_WAR_CONQUEST_NAME_IBE_MOR;The Iberian Wars;x
+NORMAL_WAR_RESTORE_ORDER_NAME_SPA_CAT;The Iberian Wars;x
+AGRESSION_WAR_RESTORE_ORDER_NAME_SPA_CAT;The Iberian Wars;x
+NORMAL_WAR_RESTORE_ORDER_NAME_IBE_CAT;The Iberian Wars;x
+NORMAL_WAR_RESTORE_ORDER_NAME_IBE_SPA;The Iberian Wars;x
+NORMAL_WAR_RESTORE_ORDER_NAME_IBE_POR;The Iberian Wars;x
+AGRESSION_WAR_RESTORE_ORDER_NAME_IBE_CAT;The Iberian Wars;x
+AGRESSION_WAR_RESTORE_ORDER_NAME_IBE_SPA;The Iberian Wars;x
+AGRESSION_WAR_RESTORE_ORDER_NAME_IBE_POR;The Iberian Wars;x
+defederalist_rebels_name;Defederalist Rebels;x
+defederalist_rebels_desc;Defederalist is a catch all label describing any groups opposing the Iberion union. This group mainly consists of minority separatists in Catalonia, Basque, and Galicia, along with democratic reformers in Spain itself. Should this group win, Catalonia and northern Spain will secede violently. In the wake of this instability Portugal will opt to depart from the union and Morocco will take advantage of the instability to declare independence.;x
+defederalist_rebels_army;Terrorist Group;x
