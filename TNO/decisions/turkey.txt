@@ -1,0 +1,87 @@
+political_decisions = {
+	peker_party = {
+		picture = megali_idea
+		potential = {
+			tag = TUR
+			NOT = {has_country_flag = tur_party_chosen}
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = tur_party_chosen
+			set_country_flag = peker_taken
+			add_country_modifier = {
+				name = peker_turkey
+				duration = 3650
+			}
+		}
+	}
+
+	inonu_party = {
+		picture = form_kellys_irish_brigade
+		potential = {
+			tag = TUR
+			NOT = {has_country_flag = tur_party_chosen}
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = tur_party_chosen
+			set_country_flag = inonu_taken
+			political_reform = universal_voting
+			add_country_modifier = {
+				name = inonu_turkey
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	inonu_kurds = {
+		picture = form_kellys_irish_brigade
+		potential = {
+			tag = TUR
+			has_country_flag = inonu_taken
+			NOT = {accepted_culture = kurdish}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			add_accepted_culture = kurdish
+		}
+	}
+
+	sabiha_gokcen_state = {
+		picture = megali_idea
+		potential = {
+			tag = TUR
+			has_country_flag = peker_taken
+			NOT = {has_country_flag = gokcen_state}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			set_country_flag = gokcen_state
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = IRQ
+						is_core = SYR
+						is_core = ARM
+					}
+				}
+				add_province_modifier = {
+					name = more_rgo
+					duration = -1
+				}
+			}
+		}
+	}
+
+}

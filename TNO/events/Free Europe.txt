@@ -320,6 +320,46 @@ country_event = {
 		#	name = sge_mobbuff
 		#	duration = 365
 		#}
+
+		diplomatic_influence = {
+			who = HGE
+			value = -600
+		}
+
+		diplomatic_influence = {
+			who = GGE
+			value = -600
+		}
+
+		diplomatic_influence = {
+			who = BGE
+			value = -600
+		}
+
+		diplomatic_influence = {
+			who = SGE
+			value = -600
+		}
+
+		diplomatic_influence = {
+			who = GE2
+			value = -600
+		}
+		any_country = {
+			limit = {
+				OR = {
+					tag = BGE
+					tag = GGE
+					tag = HGE
+					tag = SGE
+					tag = GE2
+				}
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = -600
+			}
+		}
 	}
 
 	option = {

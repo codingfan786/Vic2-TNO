@@ -13,6 +13,27 @@ country_event = {
 	}
 
 	immediate = {
+		any_country = {
+			limit = {
+				tag = USA
+				NOT = {
+					OR = {
+						government = democracy
+						government = democracy2
+					}
+				}
+				OR = {
+					has_country_flag = go_liberal
+					has_country_flag = go_conservative
+					has_country_flag = go_socialist
+					has_country_flag = go_fascist
+				}
+			}
+			clr_country_flag = go_liberal
+			clr_country_flag = go_conservative
+			clr_country_flag = go_socialist
+			clr_country_flag = go_fascist
+		}
 		sphere_owner = {
 			diplomatic_influence = {
 				who = THIS

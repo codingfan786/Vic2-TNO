@@ -179,16 +179,16 @@ political_decisions = {
 		potential = {
 			tag = SGA
 			ai = yes
-			NOT = {has_country_flag = ai_africa}
+			NOT = {year = 1963}
 		}
 		allow = {
-
+			NOT = {has_country_flag = ai_africa}
 		}
 		effect = {
 			set_country_flag = ai_africa
 			release_vassal = WGA
 			release_vassal = EGA
-			create_substate = HUN
+			#create_substate = HUN
 		}
 	}
 }

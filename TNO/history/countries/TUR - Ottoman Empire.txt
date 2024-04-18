@@ -2,7 +2,7 @@ civilized = yes
 capital = 876
 primary_culture = turkish
 religion = protestant
-government = presidential_dictatorship
+government = democracy
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.2
@@ -13,13 +13,13 @@ prestige = 20 #was 40
 
 # Political reforms
 slavery = no_slavery
+vote_franschise = wealth_voting
 upper_house_composition = appointed
-vote_franschise = none_voting
+voting_system = jefferson_method
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = first_past_the_post
-political_parties = underground_parties
+political_parties = gerrymandering
 
 # Social Reforms
 wage_reform = no_minimum_wage

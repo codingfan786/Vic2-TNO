@@ -268,9 +268,9 @@ hide_util_title;Hide MP Utility;;;;;;;;;;;;x
 hide_util_desc;Hide MP Utility;;;;;;;;;;;;x
 campaign_timer;Campaign Timer;;;;;;;;;;;;x
 campaign_show_title;Show American Election Campaigns;;;;;;;;;;;;x
-campaign_show_desc;Shows American Election Campaigns.;;;;;;;;;;;;x
+campaign_show_desc;Shows American Election Campaigns. You can choose a campaign every 4 years. The campaign will remain active until you choose another.;;;;;;;;;;;;x
 campaign_hide_title;Hide American Election Campaigns;;;;;;;;;;;;x
-campaign_hide_desc;Hides American Election Campaigns.;;;;;;;;;;;;x
+campaign_hide_desc;Hides American Election Campaigns. You can choose a campaign every 4 years. The campaign will remain active until you choose another.;;;;;;;;;;;;x
 campaign_rural_liberal_title;Democrat Campaigns in Rural Areas;;;;;;;;;;;;x
 campaign_rural_liberal_desc;a;;;;;;;;;;;;x
 campaign_rural_conservative_title;Republican Campaigns in Rural Areas;;;;;;;;;;;;x
@@ -1072,3 +1072,27 @@ AGRESSION_WAR_RESTORE_ORDER_NAME_IBE_POR;The Iberian Wars;x
 defederalist_rebels_name;Defederalist Rebels;x
 defederalist_rebels_desc;Defederalist is a catch all label describing any groups opposing the Iberion union. This group mainly consists of minority separatists in Catalonia, Basque, and Galicia, along with democratic reformers in Spain itself. Should this group win, Catalonia and northern Spain will secede violently. In the wake of this instability Portugal will opt to depart from the union and Morocco will take advantage of the instability to declare independence.;x
 defederalist_rebels_army;Terrorist Group;x
+free_allies_sp;Free Allied Core;Libérer la population;Freies Volk;;Liberar pueblo;;;;;;;;;x;;;;
+free_allies_sp_short;$THIRD$ acquires $STATE$;$THIRD$ prend $STATE$;$THIRD$ erwirbt $STATE$;;$THIRD$ adquiere $STATE$;;;;;;;;;x;;;;
+free_allies_sp_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$ pour le rendre à $THIRD$;Geben Sie $STATE$ an $THIRD$ von $RECIPIENT$ zurück;;Arrebatar el estado de $STATE$ de manos de $RECIPIENT$ y devolvérselo a $THIRD$;;;;;;;;;x;;;;
+free_allies_sp_desc;Free sphereling's core.;x
+cornwall_funding;Cornwall funding fix;x
+campaign_liberal_title;Democrat - RD Campaigning;x
+campaign_conservative_title;Republican - RD Campaigning;x
+campaign_socialist_title;Center Left - NPP Campaigning;x
+campagin_fascist_title;Far Right NPP Campaigning;x
+campaign_liberal_desc;Our population will gradually shift towards a liberal ideology.;x
+campaign_conservative_desc;Our population will gradually shift towards a conservative ideology.;x
+campaign_socialist_desc;Our population will gradually shift towards a socialist and communist ideology.;x
+campagin_fascist_desc;Our population will gradually shift towards a fascist ideology.;x
+peker_turkey;Peker's Industralization Reforms;x
+inonu_turkey;Inonu's Democratization Reforms;x
+more_rgo;Resource Exploitation;x
+peker_party_title;Reestablish Peker's Dominance;x
+inonu_party_title;Continue Inonu's Reforms;x
+inonu_kurds_title;A Home for Kurds in Turkey;x
+sabiha_gokcen_state_title;Expand Gokcen's Policies;x
+peker_party_desc;In the wake of Ataturk's death Recep Peker took the reigns of power in Turkey and guided it towards becoming a modern industrial state that would rapidly expand into its neighbours in the centuries since World War 2. Recent political setbacks have lead to a downturn in his political support, but through clever political maneuvering he can recover from this temporary setback. §RThis is exclusive with Inonu's decision and will unlock a further decision to increase RGO production in Armenia, Syria, and Iraq.;x
+inonu_party_desc;Despite seeming to be the clear successor to Ataturk, Ismet Inonu had been sidelined until recent times by his rival Peker. Rising opposition in the past decade to Peker's harsh policies and aggressive expansionism has given Inonu an opportunity to advance his agenda of controlled democratization. §RThis is exclusive with Peker's decision and will unlock a further decision to get Kurdish accepted.;x
+inonu_kurds_desc;Inonu's ideas of a controlled democratization process for Turkey has grown far beyond his initial aims. The wide spread enfranchisement it has lead to has prompted many to seek out expanded rights for Turkeys many minority groups, the Kurds being chief among them.;x
+sabiha_gokcen_state_desc;The Turkish invasion of Iraq in the 1960's has seen the region under the careful watch of Sabiha Gokcen. During her administration the region has developed into an important source of industrial resources. Expanding her policies to other frontier regions of Turkey would be very benefitial.;x

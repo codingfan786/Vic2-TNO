@@ -125,27 +125,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	startingleadership = {
-		potential = {
-			#NOT = {
-			#	tag = HGE
-			#	tag = BGE
-			#	tag = SGE
-			#	tag = GGE
-			#}
-			NOT = {has_country_flag = lead}
-		}
-		allow = {
 
-		}
-		effect = {
-			set_country_flag = lead
-			leadership = 60
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	china_nerf = {
 		potential = {
 			tag = CHI
@@ -205,6 +185,16 @@ political_decisions = {
 
 		}
 		effect = {
+			COR = {
+				add_country_modifier = {
+					name = cornwall_funding
+					duration = -1
+				}
+				treasury = 300000
+			}
+			any_country = {
+				leadership = 60
+			}
 			RAR = {
 				define_general = {
 					name = "Georgy Zhukov"

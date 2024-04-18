@@ -4,6 +4,7 @@ country_event = {
 	desc = "Our ownership of foreign territory has provoked the attention of the O.F.N. If they choose to do so they may set up a trust territory should it be liberated."
 
 	trigger = {
+		exists = OFN
 		NOT = {has_global_flag = ofn_dissolved}
 		NOT = {has_country_modifier = ofn_trust_being_considered}
 		NOT = {has_country_modifier = ofn_disinterest}
@@ -128,6 +129,7 @@ country_event = {
 	desc = "With our coring of contentious territory the O.F.N. has lost interest in setting up a trust territory."
 
 	trigger = {
+		exists = OFN
 		NOT = {has_global_flag = ofn_dissolved}
 		any_owned_province = {
 			is_core = THIS
@@ -165,6 +167,7 @@ country_event = {
 	desc = "You are seeing this event because you somehow took territory that had O.F.N. trust interest, or the O.F.N. province modifier was cleared improperly, or maybe everyones cores are fucked."
 
 	trigger = {
+		exists = OFN
 		NOT = {tag = OFN}
 		OR = {
 			AND = {
@@ -252,6 +255,7 @@ country_event = {
 	desc = "Part of our country has been freed by the O.F.N. and they are considering establishing a trust territory."
 
 	trigger = {
+		exists = OFN
 		NOT = {has_global_flag = ofn_dissolved}
 		any_owned_province = {
 			is_core = OFN
@@ -304,6 +308,13 @@ country_event = {
 				any_greater_power = {
 					has_country_flag = ofn_leader
 					is_sphere_leader_of = THIS
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					tag = ORA
+					tag = ARA
 				}
 			}
 		}
@@ -468,6 +479,7 @@ country_event = {
 	desc = "This event will ensure the O.F.N. Trust Territory is ran by the O.F.N. leader."
 
 	trigger = {
+		exists = OFN
 		NOT = {has_global_flag = ofn_dissolved}
 		OFN = {exists = yes}
 		has_country_flag = ofn_leader
@@ -526,6 +538,7 @@ country_event = {
 	desc = "We have successfully defended our lands from the claws of the O.F.N.!"
 
 	trigger = {
+		exists = OFN
 		NOT = {has_global_flag = ofn_dissolved}
 		war = no
 		any_owned_province = {
@@ -640,13 +653,14 @@ country_event = {
 	desc = "With the lack of tension in contentious territory the O.F.N. has lost interest in setting up a trust territory."
 
 	trigger = {
+		exists = OFN
 		NOT = {crisis_exist = yes}
 		NOT = {has_global_flag = ofn_dissolved}
 		any_owned_province = {
 			NOT = {is_core = THIS}
 			is_core = OFN
 			has_province_modifier = ofn_comeupance
-			NOT = {state_scope = {flashpoint_tension = 1}}
+			NOT = {state_scope = {flashpoint_tension = 0.9}}
 		}
 		NOT = {tag = OFN}
 		war = no
@@ -662,7 +676,7 @@ country_event = {
 				NOT = {is_core = THIS}
 				is_core = OFN
 				has_province_modifier = ofn_comeupance
-				NOT = {state_scope = {flashpoint_tension = 1}}
+				NOT = {state_scope = {flashpoint_tension = 0.9}}
 			}
 			remove_core = OFN
 			remove_province_modifier = ofn_comeupance
@@ -680,6 +694,7 @@ country_event = {
 	desc = "With the dissolvement of the O.F.N. there is nothing to stop us from reclaiming our lands being held in the O.F.N. trust."
 
 	trigger = {
+		exists = OFN
 		has_global_flag = ofn_dissolved
 		NOT = {tag = OFN}
 		war = no
@@ -717,6 +732,7 @@ country_event = {
 	desc = "With the dissolvement of the O.F.N. there is nothing to stop us from reclaiming our lands being held in the O.F.N. trust."
 
 	trigger = {
+		exists = OFN
 		has_global_flag = ofn_dissolved
 		tag = OFN
 		war = no

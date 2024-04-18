@@ -22,9 +22,9 @@ personality = {
 		speed = -0.1
 	}
 
-	persistant = {
-		speed = 0.15
-	}
+	#persistant = {
+	#	speed = 0.15
+	#}
 	
 	defence_1.1 = {
 		defence = 1

@@ -4,6 +4,11 @@ BRG = {
 }
 
 #Starting Relations
+YUG = {
+	value = -20
+	level = 0
+}
+
 GRE = {
 	value = -20
 	level = 5

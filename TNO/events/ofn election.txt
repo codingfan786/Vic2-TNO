@@ -428,7 +428,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	immediate = 
+
 
 	option = {
 		name = "Hahaha!"
@@ -469,6 +469,44 @@ country_event = {
 		any_country = {
 			limit = {has_country_flag = ofn_challenger}
 			clr_country_flag = ofn_challenger
+		}
+
+		any_country = {
+			limit = {
+				tag = OFN
+				exists = yes
+			}
+			THIS = {inherit = OFN}
+			any_core = {
+				remove_core = OFN
+			}
+		}
+		any_country = {
+			limit = {
+				OR = {
+					has_country_modifier = ofn_disinterest
+					any_owned_province = {
+						OR = {
+							has_province_modifier = ofn_contension
+							has_province_modifier = ofn_contimer
+							has_province_modifier = ofn_comeupance
+						}
+					}
+				}
+			}
+			remove_country_modifier = ofn_disinterest
+			any_owned = {
+				limit = {
+					OR = {
+						has_province_modifier = ofn_contension
+						has_province_modifier = ofn_contimer
+						has_province_modifier = ofn_comeupance
+					}
+				}
+				remove_province_modifier = ofn_contension
+				remove_province_modifier = ofn_contimer
+				remove_province_modifier = ofn_comeupance
+			}
 		}
 	}
 

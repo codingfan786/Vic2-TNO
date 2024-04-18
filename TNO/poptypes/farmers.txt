@@ -1083,6 +1083,12 @@ ideologies = {
 	
 	fascist = {
 		factor = 1
+
+		modifier = {
+			factor = 4
+			country = {has_country_flag = go_fascist}
+		}
+
 		modifier = {
 			factor = 0.5
 			not = { militancy = 6 }
@@ -1242,6 +1248,18 @@ ideologies = {
 
 	conservative = {
 		factor = 1.1
+
+		modifier = {
+			factor = 0.4
+			country = {
+				OR = {
+					has_country_flag = go_liberal
+					has_country_flag = go_socialist
+					has_country_flag = go_fascist
+				}
+			}
+		}
+
 		modifier = {
 			factor = 0.5
 			militancy = 6
@@ -1326,6 +1344,11 @@ ideologies = {
 
 	socialist = {
 		factor = 1.1
+
+		modifier = {
+			factor = 2
+			country = {has_country_flag = go_socialist}
+		}
 
 		modifier = {
 			factor = 2
@@ -1444,6 +1467,12 @@ ideologies = {
 
 	communist = {
 		factor = 1
+
+		modifier = {
+			factor = 3
+			country = {has_country_flag = go_socialist}
+		}
+
 		modifier = {
 			factor = 0.3
 			NOT = { militancy = 3 }
@@ -1495,6 +1524,12 @@ ideologies = {
 	}
 	liberal = {
 		factor = 1.1
+
+		modifier = {
+			factor = 2
+			country = {has_country_flag = go_liberal}
+		}
+
 		modifier = {
 			factor = 1.2
 			consciousness = 9 
@@ -1606,6 +1641,12 @@ ideologies = {
 	}
 	anarcho_liberal = {
 		factor = 1
+
+		#modifier = {
+		#	factor = 2
+		#	country = {has_country_flag = go_liberal}
+		#}
+
 		modifier = {
 			factor = 2
 			ruling_party_ideology = anarcho_liberal

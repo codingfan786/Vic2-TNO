@@ -201,6 +201,7 @@ country_event = {
 			limit = {
 				tag = WGA
 				has_country_flag = support_ora
+				NOT = {is_vassal = yes}
 			}
 			ORA = {
 				create_vassal = WGA
@@ -211,6 +212,7 @@ country_event = {
 			limit = {
 				tag = EGA
 				has_country_flag = support_ora
+				NOT = {is_vassal = yes}
 			}
 			ORA = {
 				create_vassal = EGA
@@ -221,6 +223,7 @@ country_event = {
 			limit = {
 				tag = SGA
 				has_country_flag = support_ora
+				NOT = {is_vassal = yes}
 			}
 			ORA = {
 				create_vassal = SGA
@@ -238,12 +241,27 @@ country_event = {
 		}
 
 		
-		
 
-		ORA = {
-			release_vassal = EGA
-			release_vassal = WGA
+		any_country = {
+			limit = {
+				vassal_of = ORA
+				tag = SGA
+			}
 			release_vassal = SGA
+		}
+		any_country = {
+			limit = {
+				vassal_of = ORA
+				tag = WGA
+			}
+			release_vassal = WGA
+		}
+		any_country = {
+			limit = {
+				vassal_of = ORA
+				tag = EGA
+			}
+			release_vassal = EGA
 		}
 	}
 	option = {

@@ -3,6 +3,10 @@ political_decisions = {
 		picture = apply_for_USA_statehood
 		alert = no
 		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
 			ai = no
 			NOT = {has_country_flag = show_camp}
 			tag = USA
@@ -19,6 +23,10 @@ political_decisions = {
 		picture = apply_for_USA_statehood
 		alert = no
 		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
 			ai = no
 			has_country_flag = show_camp
 			tag = USA
@@ -31,10 +39,13 @@ political_decisions = {
 		}
 	}
 
-
-	campaign_rural_liberal = {
+	campaign_liberal = {
 		picture = apply_for_USA_statehood
 		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
 			OR = {
 				has_country_flag = show_camp
 				ai = yes
@@ -45,65 +56,36 @@ political_decisions = {
 			NOT = { has_country_modifier = campaign_timer }
 		}
 		effect = {
-			add_country_modifier = { name = campaign_timer duration = 150 }
-			any_pop = { 
-				limit = { 
-					type = farmers 
-				} 
-				ideology = { factor = 0.04 value = liberal } 
-			}
-			any_pop = { 
-				limit = { 
-					type = labourers 
-				} 
-				ideology = { factor = 0.04 value = liberal } 
-			}
-			any_pop = { 
-				limit = { 
-					type = aristocrats 
-				} 
-				ideology = { factor = 0.04 value = liberal } 
-			}
-
-
-
-			any_pop = { 
-				limit = { 
-					type = capitalists 
-				} 
-				ideology = { factor = 0.02 value = conservative } 
-				militancy = 1
-				consciousness = 1
-			}
-			any_pop = { 
-				limit = { 
-					type = craftsmen 
-				} 
-				ideology = { factor = 0.02 value = conservative } 
-				militancy = 1
-				consciousness = 1
-			}
-			any_pop = { 
-				limit = { 
-					type = bureaucrats 
-				} 
-				ideology = { factor = 0.02 value = conservative } 
-				militancy = 1
-				consciousness = 1
-			}
+			add_country_modifier = { name = campaign_timer duration = 1460 }
+			set_country_flag = go_liberal
+			clr_country_flag = go_conservative
+			clr_country_flag = go_socialist
+			clr_country_flag = go_fascist
 		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 0
-				year = 1972
+				NOT = {year = 1982}
+			}
+			modifier = {
+				factor = 0
+				any_core = {
+					owner = {
+						war_with = THIS
+					}
+				}
 			}
 		}
 	}
 
-	campaign_rural_conservative = {
+	campaign_conservative = {
 		picture = apply_for_USA_statehood
 		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
 			OR = {
 				has_country_flag = show_camp
 				ai = yes
@@ -114,65 +96,41 @@ political_decisions = {
 			NOT = { has_country_modifier = campaign_timer }
 		}
 		effect = {
-			add_country_modifier = { name = campaign_timer duration = 150 }
-			any_pop = { 
-				limit = { 
-					type = farmers 
-				} 
-				ideology = { factor = 0.04 value = conservative } 
-			}
-			any_pop = { 
-				limit = { 
-					type = labourers 
-				} 
-				ideology = { factor = 0.04 value = conservative } 
-			}
-			any_pop = { 
-				limit = { 
-					type = aristocrats 
-				} 
-				ideology = { factor = 0.04 value = conservative } 
-			}
-
-
-
-			any_pop = { 
-				limit = { 
-					type = capitalists 
-				} 
-				ideology = { factor = 0.02 value = liberal } 
-				militancy = 1
-				consciousness = 1
-			}
-			any_pop = { 
-				limit = { 
-					type = craftsmen 
-				} 
-				ideology = { factor = 0.02 value = liberal } 
-				militancy = 1
-				consciousness = 1
-			}
-			any_pop = { 
-				limit = { 
-					type = bureaucrats 
-				} 
-				ideology = { factor = 0.02 value = liberal } 
-				militancy = 1
-				consciousness = 1
-			}
+			add_country_modifier = { name = campaign_timer duration = 1460 }
+			clr_country_flag = go_liberal
+			set_country_flag = go_conservative
+			clr_country_flag = go_socialist
+			clr_country_flag = go_fascist
 		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 0
-				year = 1972
+				NOT = {year = 1972}
+			}
+			modifier = {
+				factor = 0
+				year = 1982
+			}
+
+			modifier = {
+				factor = 0
+				any_core = {
+					owner = {
+						war_with = THIS
+					}
+				}
 			}
 		}
 	}
 
-	campaign_urban_liberal = {
+	campaign_socialist = {
 		picture = apply_for_USA_statehood
 		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
 			OR = {
 				has_country_flag = show_camp
 				ai = yes
@@ -183,52 +141,11 @@ political_decisions = {
 			NOT = { has_country_modifier = campaign_timer }
 		}
 		effect = {
-			add_country_modifier = { name = campaign_timer duration = 150 }
-			any_pop = { 
-				limit = { 
-					type = capitalists 
-				} 
-				ideology = { factor = 0.04 value = liberal } 
-			}
-			any_pop = { 
-				limit = { 
-					type = craftsmen 
-				} 
-				ideology = { factor = 0.04 value = liberal } 
-			}
-			any_pop = { 
-				limit = { 
-					type = bureaucrats 
-				} 
-				ideology = { factor = 0.04 value = liberal } 
-			}
-
-
-
-			any_pop = { 
-				limit = { 
-					type = farmers 
-				} 
-				ideology = { factor = 0.02 value = conservative } 
-				militancy = 1
-				consciousness = 1
-			}
-			any_pop = { 
-				limit = { 
-					type = labourers 
-				} 
-				ideology = { factor = 0.02 value = conservative } 
-				militancy = 1
-				consciousness = 1
-			}
-			any_pop = { 
-				limit = { 
-					type = aristocrats 
-				} 
-				ideology = { factor = 0.02 value = conservative } 
-				militancy = 1
-				consciousness = 1
-			}
+			add_country_modifier = { name = campaign_timer duration = 1460 }
+			clr_country_flag = go_liberal
+			clr_country_flag = go_conservative
+			set_country_flag = go_socialist
+			clr_country_flag = go_fascist
 		}
 		ai_will_do = {
 			factor = 1
@@ -236,12 +153,25 @@ political_decisions = {
 				factor = 0
 				year = 1972
 			}
+
+			modifier = {
+				factor = 0
+				any_core = {
+					owner = {
+						war_with = THIS
+					}
+				}
+			}
 		}
 	}
 
-	campaign_urban_conservative = {
+	campagin_fascist = {
 		picture = apply_for_USA_statehood
 		potential = {
+			OR = {
+				government = democracy
+				government = democracy2
+			}
 			OR = {
 				has_country_flag = show_camp
 				ai = yes
@@ -252,60 +182,33 @@ political_decisions = {
 			NOT = { has_country_modifier = campaign_timer }
 		}
 		effect = {
-			add_country_modifier = { name = campaign_timer duration = 150 }
-			any_pop = { 
-				limit = { 
-					type = capitalists 
-				} 
-				ideology = { factor = 0.04 value = conservative } 
-			}
-			any_pop = { 
-				limit = { 
-					type = craftsmen 
-				} 
-				ideology = { factor = 0.04 value = conservative } 
-			}
-			any_pop = { 
-				limit = { 
-					type = bureaucrats 
-				} 
-				ideology = { factor = 0.04 value = conservative } 
-			}
-
-
-			any_pop = { 
-				limit = { 
-					type = farmers 
-				} 
-				ideology = { factor = 0.02 value = liberal } 
-				militancy = 1
-				consciousness = 1
-			}
-			any_pop = { 
-				limit = { 
-					type = labourers 
-				} 
-				ideology = { factor = 0.02 value = liberal } 
-				militancy = 1
-				consciousness = 1
-			}
-			any_pop = { 
-				limit = { 
-					type = aristocrats 
-				} 
-				ideology = { factor = 0.02 value = liberal } 
-				militancy = 1
-				consciousness = 1
-			}
+			add_country_modifier = { name = campaign_timer duration = 1460 }
+			clr_country_flag = go_liberal
+			clr_country_flag = go_conservative
+			clr_country_flag = go_socialist
+			set_country_flag = go_fascist
 		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 0
-				year = 1972
+				NOT = {war = yes}
+			}
+
+
+			modifier = {
+				factor = 0
+				NOT = {
+					any_core = {
+						owner = {
+							war_with = THIS
+						}
+					}
+				}
 			}
 		}
 	}
+
 
 	AA_reform = {
 		picture = apply_for_USA_statehood

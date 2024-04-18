@@ -58,6 +58,7 @@ political_decisions = {
 		effect = {
 			inherit = ENG
 			set_country_flag = annexed_england
+			remove_country_modifier = cornwall_funding
 		}
 	}
 	

@@ -86,6 +86,7 @@ country_event = {
 		NOT = {any_greater_power = {has_country_flag = ofn_leader}}
 		is_greater_power = yes
 		has_country_flag = in_ofn
+		#NOT = {war = yes}
 	}
 
 	mean_time_to_happen = {
@@ -100,6 +101,44 @@ country_event = {
 			clr_country_flag = ofn_leader
 		}
 		set_country_flag = ofn_leader
+		
+		any_country = {
+			limit = {
+				tag = OFN
+				exists = yes
+			}
+			THIS = {inherit = OFN}
+			any_core = {
+				remove_core = OFN
+			}
+		}
+		any_country = {
+			limit = {
+				OR = {
+					has_country_modifier = ofn_disinterest
+					any_owned_province = {
+						OR = {
+							has_province_modifier = ofn_contension
+							has_province_modifier = ofn_contimer
+							has_province_modifier = ofn_comeupance
+						}
+					}
+				}
+			}
+			remove_country_modifier = ofn_disinterest
+			any_owned = {
+				limit = {
+					OR = {
+						has_province_modifier = ofn_contension
+						has_province_modifier = ofn_contimer
+						has_province_modifier = ofn_comeupance
+					}
+				}
+				remove_province_modifier = ofn_contension
+				remove_province_modifier = ofn_contimer
+				remove_province_modifier = ofn_comeupance
+			}
+		}
 	}
 
 	option = {

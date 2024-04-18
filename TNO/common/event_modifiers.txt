@@ -1,6 +1,31 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+more_rgo = {
+	local_RGO_output = 0.15
+	icon = 13
+}
+
+peker_turkey = {
+	factory_throughput = 0.1
+	global_assimilation_rate = 1
+	non_accepted_pop_militancy_modifier = 0.01
+	icon = 11
+}
+
+inonu_turkey = {
+	rgo_output = 0.15
+	non_accepted_pop_militancy_modifier = -0.02
+	icon = 5
+}
+
+cornwall_funding = {
+	loan_interest = -1
+	tax_efficiency = 1
+	import_cost = -1
+	max_loan_modifier = 10
+}
+
 russian_integration_talks = {
 	
 	icon = 18
@@ -150,7 +175,7 @@ saf_timer_4 = {
 
 ofn_security_punishment = {
 	icon = 2
-	ruling_party_support = -0.2
+	ruling_party_support = -0.3
 	core_pop_militancy_modifier = 0.01
 }
 
