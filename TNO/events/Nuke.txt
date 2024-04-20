@@ -2949,6 +2949,14 @@ country_event = {
 				factor = 1.5
 				war_policy = jingoism
 			}
+			modifier = {
+				factor = 2.0
+				FROM = {
+					any_owned_province = {
+						is_core = THIS
+					}
+				}
+			}
 		}
 	}
 	option = {
@@ -2980,7 +2988,18 @@ country_event = {
 			factor = 80
 			modifier = {
 				factor = 0
-				war_with = FROM
+				AND = {
+					war_with = FROM
+					has_country_flag = primary_nukes
+				}
+			}
+			
+			modifier = {
+				factor = 0.8
+				AND = {
+					war_with = FROM
+					NOT = {has_country_flag = primary_nukes}
+				}
 			}
 		}
 	}

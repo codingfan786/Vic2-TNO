@@ -111,7 +111,7 @@ political_decisions = {
 		}
 
 		effect = {
-			badboy = 10
+			badboy = 8
 			set_country_flag = war_plan_0_boh_done
 			BOH = {country_event = 500166}
 		}
