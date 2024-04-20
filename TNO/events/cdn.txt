@@ -92,7 +92,7 @@ country_event = {
 		days = 1
 	}
 	option = {
-		name "1"
+		name = "1"
 		set_country_flag = CDN_AI_1
 
 		ai_chance = {
@@ -100,7 +100,7 @@ country_event = {
 		}
 	}
 	option = {
-		name "2"
+		name = "2"
 		set_country_flag = CDN_AI_2
 		ai_chance = {
 			factor = 10
