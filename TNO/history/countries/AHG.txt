@@ -10,12 +10,12 @@ government = presidential_dictatorship
 plurality = 10
 nationalvalue = nv_order
 literacy = 0.2
-civilized = yes 
+civilized = no 
 prestige = 1
 schools = traditional_academic
 oob = "AHG.txt"
 
-
+decision = puppet_gp_fix
 #========================= H O U S E - O F - L O R D S =========================
 
 ruling_party = generic_reactionary

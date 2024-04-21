@@ -125,3 +125,68 @@ army = {
 		home = 1018
 	}
 }
+
+
+army = {
+	name = "1a Armata" #done
+	location = 960
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = infantry
+		home = 966
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = infantry
+		home = 966
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = infantry
+		home = 966
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 967
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = artillery
+		home = 967
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = artillery
+		home = 967
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = artillery
+		home = 964
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = artillery
+		home = 964
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = artillery
+		home = 964
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = hussar
+		home = 964
+	}
+}

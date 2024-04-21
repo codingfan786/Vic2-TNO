@@ -428,7 +428,7 @@ army = {
 
 army = {
 	name = "Free Baltic Company"
-	location = 947
+	location = 946
 	regiment = {
 		name= "1.Regiment"
 		type = infantry

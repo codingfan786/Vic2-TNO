@@ -40,7 +40,7 @@
 	soldiers = {
 		culture = japanese
 		religion = protestant
-		size = 1275
+		size = 7275
 	}
 
 	farmers = {
@@ -65,12 +65,6 @@
 		culture = japanese
 		religion = protestant
 		size = 2450
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = protestant
-		size = 425
 	}
 
 	farmers = {
@@ -102,7 +96,7 @@
 	soldiers = {
 		culture = japanese
 		religion = protestant
-		size = 975
+		size = 6975
 	}
 
 	farmers = {
@@ -127,12 +121,6 @@
 		culture = japanese
 		religion = protestant
 		size = 1500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = protestant
-		size = 300
 	}
 
 	farmers = {
@@ -164,7 +152,7 @@
 	soldiers = {
 		culture = japanese
 		religion = protestant
-		size = 1025
+		size = 7025
 	}
 
 	farmers = {
@@ -189,12 +177,6 @@
 		culture = japanese
 		religion = protestant
 		size = 1300
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = protestant
-		size = 275
 	}
 
 	farmers = {
@@ -226,7 +208,7 @@
 	soldiers = {
 		culture = japanese
 		religion = protestant
-		size = 1075
+		size = 7075
 	}
 
 	farmers = {
@@ -251,12 +233,6 @@
 		culture = japanese
 		religion = protestant
 		size = 1500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = protestant
-		size = 300
 	}
 
 	farmers = {
@@ -1619,7 +1595,7 @@
 	soldiers = {
 		culture = japanese
 		religion = protestant
-		size = 1525
+		size = 7525
 	}
 
 	farmers = {
@@ -1644,12 +1620,6 @@
 		culture = japanese
 		religion = protestant
 		size = 2250
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = protestant
-		size = 450
 	}
 
 	farmers = {
@@ -1681,7 +1651,7 @@
 	soldiers = {
 		culture = japanese
 		religion = protestant
-		size = 1850
+		size = 7850
 	}
 
 	farmers = {
@@ -1706,12 +1676,6 @@
 		culture = japanese
 		religion = protestant
 		size = 3500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = protestant
-		size = 700
 	}
 
 	farmers = {
@@ -1743,7 +1707,7 @@
 	soldiers = {
 		culture = japanese
 		religion = protestant
-		size = 1275
+		size = 7275
 	}
 
 	farmers = {
@@ -1768,12 +1732,6 @@
 		culture = japanese
 		religion = protestant
 		size = 1900
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = protestant
-		size = 375
 	}
 
 	farmers = {
@@ -1810,7 +1768,7 @@
 	soldiers = {
 		culture = japanese
 		religion = protestant
-		size = 650
+		size = 6650
 	}
 
 	farmers = {
@@ -1835,12 +1793,6 @@
 		culture = japanese
 		religion = protestant
 		size = 1500
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = protestant
-		size = 300
 	}
 
 	farmers = {
@@ -1872,7 +1824,7 @@
 	soldiers = {
 		culture = japanese
 		religion = protestant
-		size = 1475
+		size = 7475
 	}
 
 	farmers = {
@@ -1897,12 +1849,6 @@
 		culture = japanese
 		religion = protestant
 		size = 2250
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = protestant
-		size = 450
 	}
 
 	farmers = {

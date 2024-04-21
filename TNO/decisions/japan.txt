@@ -47,7 +47,7 @@ political_decisions = {
 			set_country_flag = ija_funded
 			add_country_modifier = {
 				name = ija_funding
-				duration = 7300
+				duration = 3650
 			}
 		}
 	}
@@ -110,7 +110,7 @@ political_decisions = {
 			set_country_flag = ijn_funded
 			add_country_modifier = {
 				name = ijn_funding
-				duration = 7300
+				duration = 3650
 			}
 		}
 	}

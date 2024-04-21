@@ -116,10 +116,15 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = supplied
-			artillery = 500
 			clipper_convoy = 500
 			aeroplanes = 1000
 			fuel = 1000
+
+			ammunition = 2000
+			small_arms = 500
+			artillery = 2000
+			canned_food = 2000
+			automobiles = 500
 		}
 		ai_will_do = {
 			factor = 1
@@ -185,6 +190,12 @@ political_decisions = {
 
 		}
 		effect = {
+			3449 = {
+				add_province_modifier = {
+					name = staging_ground
+					duration = -1
+				}
+			}
 			COR = {
 				add_country_modifier = {
 					name = cornwall_funding
@@ -398,6 +409,306 @@ political_decisions = {
 					add_core = AHG
 				}
 			}
+
+			AHG = {
+				treasury = 200000
+				any_owned = {
+					add_province_modifier = {
+						name = ora_ai_fix
+						duration = 7
+					}
+				}
+				set_country_flag = spawn_in_reinforce_fix
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+				random_owned = {
+					limit = {
+						NOT = {country_units_in_province = THIS}
+						NOT = {country_units_in_province = JAP}
+						NOT = {terrain = jungle}
+						NOT = {terrain = mountain}
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+			}
+
 
 			any_owned = {
 				any_pop = {
@@ -872,6 +1183,7 @@ political_decisions = {
 				tag = R11
 				tag = R12
 				tag = R13
+				tag = AHG
 			}
 			civilized = no
 		}

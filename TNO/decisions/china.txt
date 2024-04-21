@@ -133,12 +133,33 @@ political_decisions = {
 			CHI = {clr_country_flag = CHI_mobnerf}
 			YNN = {clr_country_flag = npa_border_wars}
 
-			CHI = {
-				war = {
-					target = YNN
-					attacker_goal = { casus_belli = gaw_war }
-					defender_goal = { casus_belli = gaw_war }
-					call_ally = no
+			any_country = {
+				limit = {
+					tag = JAP
+					truce_with = YNN
+				}
+				CHI = {
+					war = {
+						target = YNN
+						attacker_goal = { casus_belli = gaw_war }
+						defender_goal = { casus_belli = gaw_war }
+						call_ally = no
+					}
+				}
+			}
+			any_country = {
+				limit = {
+					tag = JAP
+					NOT = {truce_with = YNN}
+				}
+				CHI = {
+					create_alliance = JAP
+					war = {
+						target = YNN
+						attacker_goal = { casus_belli = gaw_war }
+						defender_goal = { casus_belli = gaw_war }
+						call_ally = yes
+					}
 				}
 			}
 		}
@@ -148,7 +169,10 @@ political_decisions = {
 			modifier = {
 				factor = 0
 				tag = CHI
-				NOT = {year = 1967}
+				OR = {
+					NOT = {year = 1967}
+					YNN = {ai = no}
+				}	
 			}
 			modifier = {
 				factor = 0

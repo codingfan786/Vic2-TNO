@@ -461,6 +461,7 @@ annex_core_country = {
 				}
 			}
 		}
+		NOT = {number_of_states = 7}
 	}
 
 	po_annex = yes
@@ -864,7 +865,7 @@ free_peoples = {
 	is_triggered_only = yes
 	months = 12
 
-	badboy_factor = 0.7
+	badboy_factor = 0.5
 	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -3942,7 +3943,7 @@ gaw_war = {
 	prestige_factor = 0
 	peace_cost_factor = 1
 	penalty_factor = 1
-	is_civil_war = yes #this is a civil war
+	is_civil_war = no #I guess
 
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
@@ -4109,6 +4110,8 @@ carve_up_france = {
 	can_use = {
 		OR = {
 			tag = FRA
+			tag = IFR
+			tag = SFR
 			AND = {
 				OR = {
 					tag = BRG
@@ -4120,6 +4123,10 @@ carve_up_france = {
 		NOT = { truce_with = THIS } 
 		
 		has_global_flag = fra_dying
+
+		NOT = {
+			vassal_of = THIS
+		}
 
 		THIS = {
 			OR = {

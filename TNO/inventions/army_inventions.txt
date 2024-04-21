@@ -1342,12 +1342,4 @@ gas_defense_capability = {
 	}
 }
 	
-strat_mob = {
-	limit = { has_country_flag = yunnan_yarrr }
-	chance = {
-		base = 100	
-	}
-	effect = {
-		dig_in_cap = 1
-	}
-}
+

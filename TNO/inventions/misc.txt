@@ -1,0 +1,38 @@
+strat_mob = {
+	limit = { has_country_flag = yunnan_yarrr }
+	chance = {
+		base = 100	
+	}
+	effect = {
+		dig_in_cap = 1
+	}
+}
+
+spawn_fix_remove = {
+	limit = { has_country_flag = spawn_in_reinforce_fix }
+	chance = {
+		base = 0	
+		modifier = {
+			factor = 100
+			AND = {
+				month = 9
+				invention = spawn_fix
+			}
+		}
+	}
+
+	effect = {
+		reinforce_rate = -100
+	}
+}
+
+spawn_fix = {
+	limit = { has_country_flag = spawn_in_reinforce_fix }
+	chance = {
+		base = 100	
+	}
+	effect = {
+		reinforce_rate = 100
+	}
+}
+

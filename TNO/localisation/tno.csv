@@ -245,13 +245,13 @@ ijn_boost_1;Dockyard Streamlining;;;;;;;;;;;x
 ijn_boost_2;Naval Officer Training;;;;;;;;;;;x
 ijn_funding;I.J.N. Funding Priority;;;;;;;;;;;x
 fund_ija_title;Side with the I.J.A.;;;;;;;;;;;x
-fund_ija_desc;The I.J.A and I.J.N. has been at odds ever since World War 2 over industrial resources and funding. This interservice rivalry has been a constant political problem and it is time to decide once and for all which shall reign supreme over the Japanese armed forces.;;;;;;;;;;;x
+fund_ija_desc;The I.J.A and I.J.N. has been at odds ever since World War 2 over industrial resources and funding. This interservice rivalry has been a constant political problem and it is time to decide once and for all which shall reign supreme over the Japanese armed forces. §RThis will unlock further decisions to boost the army after the funding modifier has run its course. This is mutually exclusive with funding the I.J.N. and it's better to choose one earlier rather than later.;;;;;;;;;;;x
 boost_ija_1_title;Reform I.J.A. draft standards.;;;;;;;;;;;x
 boost_ija_1_desc;Draftees that don't pass the standards for service in the I.J.A are routinely passed along to the I.J.N. By ending this practice the I.J.A. can shore up its numbers with normally wasted recruits. §RThis will also slightly increase the soldier promotion rate.;;;;;;;;;;;x
 boost_ija_2_title;Reform I.J.A. training standards.;;;;;;;;;;;x
 boost_ija_2_desc;Japanese tactical doctrine insists vigorously on the inherent superiority of the offense, and Field Service Regulations state that the offensive should be resolutely taken. The object of all maneuver is to close quickly with the enemy so that the assumed Japanese superiority in close combat can be realized to the utmost. Even when the enemy strength is markedly superior, or when the Japanese commander has been placed temporarily on the defensive, he is supposed to use every effort to regain the offensive and take the initiative.;;;;;;;;;;;x
 fund_ijn_title;Side with the I.J.N.;;;;;;;;;;;x
-fund_ijn_desc;The I.J.A and I.J.N. has been at odds ever since World War 2 over industrial resources and funding. This interservice rivalry has been a constant political problem and it is time to decide once and for all which shall reign supreme over the Japanese armed forces.;;;;;;;;;;;x
+fund_ijn_desc;The I.J.A and I.J.N. has been at odds ever since World War 2 over industrial resources and funding. This interservice rivalry has been a constant political problem and it is time to decide once and for all which shall reign supreme over the Japanese armed forces. §RThis will unlock further decisions to boost the navy after the funding modifier has run its course. This is mutually exclusive with funding the I.J.A. and it's better to choose one earlier rather than later.;;;;;;;;;;;x
 boost_ijn_1_title;Streamlined I.J.N. shipbuilding.;;;;;;;;;;;x
 boost_ijn_1_desc;With the competition for resources with the I.J.A. now over, we can focus on overhauling our military shipyards.;;;;;;;;;;;x
 boost_ijn_2_title;Reorganized I.J.N. officer corps.;;;;;;;;;;;x
@@ -924,7 +924,7 @@ start_gaw_title;The Great Asian War!;x
 npa_merge_first_desc;After the fall of Nanjing many army groups formerly allied to Chiang Kai-shek followed the same long march west that they had previously inflicted on Mao Zedong and his followers. The 24th Army Group is one such group that has maintained its military cohesion since then. If Long Yun and the N.P.A. are to unify China, we must reach out to them! §RWhile you have the integration modifier you will be unable to initiate any new border wars.;x 
 npa_merge_second_desc;After the fall of Nanjing many army groups formerly allied to Chiang Kai-shek followed the same long march west that they had previously inflicted on Mao Zedong and his followers. The 40th Army Group is one such group that has maintained its military cohesion since then. If Long Yun and the N.P.A. are to unify China, we must reach out to them! §RWhile you have the integration modifier you will be unable to initiate any new border wars.;x
 chi_go_west_desc;The Western Frontier is constantly being encroached upon by the rebelious Yunnan province. It is time we stop acting on the backfoot and take the initiateive against them, orders from Tokyo be damned! §RYou will be able to initiate border wars on the western frontier.;x
-start_gaw_desc;All available preparations have been made. Armies have been raised and uprisings readied to strike. Now is the time to unify China!;x
+start_gaw_desc;All available preparations have been made. Armies have been raised and uprisings readied to strike. Now is the time to unify China! §RIf Japan's truce with the N.P.A. has expired then they will receive a call to arms from the Reorganized Chinese Government!;x
 annex_onega_title;Integrate the Onega garrison;x
 annex_onega_desc;The Onega garrison has served its purpose in defending Finland from the Russian hordes. Now it is time for it to be part of Finland proper. §RKeep in mind that the Onega garrison has events to keep forts in Onega 1 level above Finland's fort tech.;x
 strat_mob;Strategic Mobility;x
@@ -1096,3 +1096,15 @@ peker_party_desc;In the wake of Ataturk's death Recep Peker took the reigns of p
 inonu_party_desc;Despite seeming to be the clear successor to Ataturk, Ismet Inonu had been sidelined until recent times by his rival Peker. Rising opposition in the past decade to Peker's harsh policies and aggressive expansionism has given Inonu an opportunity to advance his agenda of controlled democratization. §RThis is exclusive with Peker's decision and will unlock a further decision to get Kurdish accepted.;x
 inonu_kurds_desc;Inonu's ideas of a controlled democratization process for Turkey has grown far beyond his initial aims. The wide spread enfranchisement it has lead to has prompted many to seek out expanded rights for Turkeys many minority groups, the Kurds being chief among them.;x
 sabiha_gokcen_state_desc;The Turkish invasion of Iraq in the 1960's has seen the region under the careful watch of Sabiha Gokcen. During her administration the region has developed into an important source of industrial resources. Expanding her policies to other frontier regions of Turkey would be very benefitial.;x
+big_china;Overstretched administration;x
+save_the_nation0.5;Revanchism 0.5;x 
+save_the_nation1;Revanchism 1;x
+save_the_nation1.5;Revanchism  1.5;x
+save_the_nation2;Revanchism 2;x
+save_the_nation2.5;Revanchism 2.5;x
+save_the_nation3;Revanchism 3;x
+save_the_nation3.5;Revanchism  3.5;x
+save_the_nation4;Revanchism 4;x
+save_the_nation4.5;Revanchism 4.5;x
+save_the_nation5;Revanchism 5;x
+staging_ground;Staging Ground;x

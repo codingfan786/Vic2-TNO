@@ -1,4 +1,4 @@
-civilized = yes
+civilized = no
 capital = 1236
 primary_culture = rajput
 culture = tamil
@@ -20,6 +20,8 @@ upper_house = {
 	socialist = 50
 	communist = 0
 }
+
+decision = puppet_gp_fix
 
 # Starting Consciousness
 consciousness = 0

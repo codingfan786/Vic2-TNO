@@ -181,6 +181,7 @@ country_event = {
 	}
 
 	immediate = {
+		YNN = {set_country_flag = won_gaw}
 		CHI = {
 			any_owned = {
 				limit = {

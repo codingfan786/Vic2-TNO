@@ -34,7 +34,7 @@ country_event = {
 
 		any_owned = {
 			any_pop = {
-				militancy = 5
+				militancy = 6
 			}
 		}
 
