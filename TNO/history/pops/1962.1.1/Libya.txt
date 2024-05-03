@@ -390,7 +390,7 @@
 	farmers = {
 		culture = bedouin
 		religion = protestant
-		size = 45750
+		size = 85750
 	}
 
 	slaves = {
