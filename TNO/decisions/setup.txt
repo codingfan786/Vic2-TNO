@@ -190,6 +190,13 @@ political_decisions = {
 
 		}
 		effect = {
+
+			1731 = {
+				any_pop = {
+					reduce_pop = 0.5
+				}
+			}
+			
 			BRG = {
 				any_owned = {
 					any_pop = {
