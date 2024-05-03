@@ -3,16 +3,11 @@
 #Tananarive (824000/207000 POPS)
 2115 = {
 	farmers = {
-		culture = french
+		culture = malagasy
 		religion = protestant
 		size = 18025
 	}
 
-	soldiers = {
-		culture = french
-		religion = protestant
-		size = 2025
-	}
 	aristocrats = {
 		culture = malagasy
 		religion = protestant
@@ -94,16 +89,11 @@
 #Fianarantsoa (280000/7000 POPS)
 2116 = {
 	farmers = {
-		culture = french
+		culture = malagasy
 		religion = protestant
 		size = 18025
 	}
 
-	soldiers = {
-		culture = french
-		religion = protestant
-		size = 2025
-	}
 	aristocrats = {
 		culture = malagasy
 		religion = protestant
@@ -148,13 +138,13 @@
 		size = 2025
 	}
 	aristocrats = {
-		culture = malagasy
+		culture = french
 		religion = protestant
 		size = 475
 	}
 
 	clergymen = {
-		culture = malagasy
+		culture = french
 		religion = protestant
 		size = 250
 	}
@@ -227,13 +217,13 @@
 		size = 2025
 	}
 	aristocrats = {
-		culture = malagasy
+		culture = french
 		religion = protestant
 		size = 225
 	}
 
 	clergymen = {
-		culture = malagasy
+		culture = french
 		religion = protestant
 		size = 125
 	}
@@ -337,16 +327,11 @@
 #Antsiranana (104000/26000 POPS)
 2120 = {
 	farmers = {
-		culture = french
+		culture = malagasy
 		religion = protestant
 		size = 18025
 	}
 
-	soldiers = {
-		culture = french
-		religion = protestant
-		size = 2025
-	}
 	aristocrats = {
 		culture = malagasy
 		religion = protestant
@@ -418,16 +403,11 @@
 #Ampanihy (228000/57000 POPS)
 2117 = {
 	farmers = {
-		culture = french
+		culture = malagasy
 		religion = protestant
 		size = 18025
 	}
 
-	soldiers = {
-		culture = french
-		religion = protestant
-		size = 2025
-	}
 	aristocrats = {
 		culture = malagasy
 		religion = protestant
@@ -502,13 +482,13 @@
 		size = 2025
 	}
 	aristocrats = {
-		culture = malagasy
+		culture = french
 		religion = protestant
 		size = 525
 	}
 
 	clergymen = {
-		culture = malagasy
+		culture = french
 		religion = protestant
 		size = 275
 	}
@@ -570,13 +550,13 @@
 #Toliara (172000/43000 POPS)
 2122 = {
 	farmers = {
-		culture = french
+		culture = malagasy
 		religion = protestant
 		size = 18025
 	}
 
 	soldiers = {
-		culture = french
+		culture = malagasy
 		religion = protestant
 		size = 2025
 	}

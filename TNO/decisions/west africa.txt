@@ -26,16 +26,152 @@ political_decisions = {
 		}
 
 		effect = {
-			all_core = {
+			any_owned = {
 				limit = {
-					empty = yes
+					is_core = CFR
 					OR = {
-						NOT = {is_core = CAR}
-						THIS = {tag = CAR}
+						THIS = {tag = CFR}
+						NOT = {exists = CFR}
 					}
 				}
-				secede_province = THIS
+				CFR = {
+					all_core = {
+						limit = {
+							empty = yes
+						}
+						secede_province = THIS
+					}
+				}
 			}
+			any_owned = {
+				limit = {
+					is_core = NGA
+					NOT = {is_core = CAR}
+					NOT = {province_id = 1958}
+					NOT = {province_id = 1959}
+					NOT = {province_id = 1962}
+					NOT = {province_id = 1966}
+					NOT = {province_id = 1965}
+					NOT = {province_id = 1969}
+					NOT = {province_id = 1970}
+					OR = {
+						THIS = {tag = NGA}
+						NOT = {exists = NGA}
+					}
+				}
+				NGA = {
+					all_core = {
+						limit = {
+							empty = yes
+							NOT = {is_core = CAR}
+						}
+						secede_province = THIS
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = CAR
+					OR = {
+						THIS = {tag = CAR}
+						NOT = {exists = CAR}
+					}
+				}
+				CAR = {
+					all_core = {
+						limit = {
+							empty = yes
+						}
+						secede_province = THIS
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = AF1
+					OR = {
+						THIS = {tag = AF1}
+						NOT = {exists = AF1}
+					}
+				}
+				AF1 = {
+					all_core = {
+						limit = {
+							empty = yes
+						}
+						secede_province = THIS
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = AF2
+					OR = {
+						THIS = {tag = AF2}
+						NOT = {exists = AF2}
+					}
+				}
+				AF2 = {
+					all_core = {
+						limit = {
+							empty = yes
+						}
+						secede_province = THIS
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = AF3
+					OR = {
+						THIS = {tag = AF3}
+						NOT = {exists = AF3}
+					}
+				}
+				AF3 = {
+					all_core = {
+						limit = {
+							empty = yes
+						}
+						secede_province = THIS
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = AF4
+					OR = {
+						THIS = {tag = AF4}
+						NOT = {exists = AF4}
+					}
+				}
+				AF4 = {
+					all_core = {
+						limit = {
+							empty = yes
+						}
+						secede_province = THIS
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = LIB
+					OR = {
+						THIS = {tag = LIB}
+						NOT = {exists = LIB}
+					}
+				}
+				LIB = {
+					all_core = {
+						limit = {
+							empty = yes
+						}
+						secede_province = THIS
+					}
+				}
+			}
+
 			random_owned = {
 				limit = {
 					NOT = {has_global_flag = West_Africa_Revival_Started}

@@ -1,4 +1,9 @@
-
+IBE = {
+	truce_until = "1964.1.1"
+}
+ITA = {
+	truce_until = "1964.1.1"
+}
 
 army = {
 	name = "National Defense Force"

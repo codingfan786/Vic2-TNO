@@ -2,17 +2,42 @@
 #uncolonized in 1836
 #Grand Lahou (108000/27000 POPS)   
 1892 = {
+	aristocrats = {
+		culture = french
+		religion = protestant
+		size = 525
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = protestant
+		size = 1500
+	}
+
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 3025
+	}
+
+	officers = {
+		culture = french
+		religion = protestant
+		size = 1425
+	}
+
 	farmers = {
 		culture = french
 		religion = protestant
-		size = 8025
+		size = 105025
 	}
 
 	soldiers = {
 		culture = french
 		religion = protestant
-		size = 2025
+		size = 12025
 	}
+
 	aristocrats = {
 		culture = niger_congo_a
 		religion = protestant
@@ -52,16 +77,40 @@
 }
 #Sassandra (282000/47000 POPS)
 1893 = {
+	aristocrats = {
+		culture = french
+		religion = protestant
+		size = 525
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = protestant
+		size = 1500
+	}
+
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 3025
+	}
+
+	officers = {
+		culture = french
+		religion = protestant
+		size = 1425
+	}
+
 	farmers = {
 		culture = french
 		religion = protestant
-		size = 8025
+		size = 105025
 	}
 
 	soldiers = {
 		culture = french
 		religion = protestant
-		size = 2025
+		size = 12025
 	}
 
 	aristocrats = {
@@ -140,17 +189,42 @@
 }
 #Grand Bassam (88000/22000 POPS)
 1894 = {
+	aristocrats = {
+		culture = french
+		religion = protestant
+		size = 525
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = protestant
+		size = 1500
+	}
+
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 3025
+	}
+
+	officers = {
+		culture = french
+		religion = protestant
+		size = 1425
+	}
+
 	farmers = {
 		culture = french
 		religion = protestant
-		size = 8025
+		size = 105025
 	}
 
 	soldiers = {
 		culture = french
 		religion = protestant
-		size = 2025
+		size = 12025
 	}
+
 	aristocrats = {
 		culture = niger_congo_a
 		religion = protestant
@@ -191,13 +265,13 @@
 #Bouake (60000/15000 POPS)
 1895 = {
 	farmers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 8025
 	}
 
 	soldiers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 2025
 	}
@@ -272,13 +346,13 @@
 #Man (80000/20000 POPS)
 1896 = {
 	farmers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 8025
 	}
 
 	soldiers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 2025
 	}
@@ -353,13 +427,13 @@
 #Akoupe (92000/23000 POPS)
 1897 = {
 	farmers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 8025
 	}
 
 	soldiers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 2025
 	}
@@ -405,13 +479,13 @@
 #Kong (264000/66000 POPS)
 1898 = {
 	farmers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 8025
 	}
 
 	soldiers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 2025
 	}
@@ -504,13 +578,13 @@
 #Bundoukou (216000/54000 POPS)
 1899 = {
 	farmers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 8025
 	}
 
 	soldiers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 2025
 	}
@@ -587,13 +661,13 @@
 #Odienne (288000/72000 POPS) #now part of Ivory Coast  
 1900 = {
 	farmers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 8025
 	}
 
 	soldiers = {
-		culture = french
+		culture = niger_congo_a
 		religion = protestant
 		size = 2025
 	}

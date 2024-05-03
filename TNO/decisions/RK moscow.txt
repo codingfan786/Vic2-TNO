@@ -27,7 +27,7 @@ political_decisions = {
 			#}
 			
 			FEU = {
-				any_owned = {
+				all_core = {
 					limit = {
 						OR = {
 							is_core = UKR

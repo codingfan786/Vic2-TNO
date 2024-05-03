@@ -1,5 +1,6 @@
 trade_goods = fish
 life_rating = 15
 terrain = plains
-owner = CBR
-controller = CBR
+owner = JAP
+controller = JAP
+colonial = 2

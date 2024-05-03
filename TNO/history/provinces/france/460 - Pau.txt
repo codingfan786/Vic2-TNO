@@ -3,5 +3,5 @@ controller = FRA
 add_core = FRA
 
 
-trade_goods = grain
+trade_goods = sulphur
 life_rating = 35

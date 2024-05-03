@@ -1449,7 +1449,7 @@
 	craftsmen = {
 		culture = french
 		religion = protestant
-		size = 27500
+		size = 17500
 	}
 
 	artisans = {
@@ -1773,7 +1773,7 @@
 	craftsmen = {
 		culture = french
 		religion = protestant
-		size = 20000
+		size = 10000
 	}
 	aristocrats = {
 		culture = french
@@ -1810,7 +1810,7 @@
 	craftsmen = {
 		culture = french
 		religion = protestant
-		size = 20000
+		size = 10000
 	}
 	aristocrats = {
 		culture = french

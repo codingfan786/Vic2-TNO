@@ -1,6 +1,5 @@
-owner = CFR
-controller = CFR
-add_core = CFR
+owner = OFN
+controller = OFN
+add_core = OFN
 trade_goods = timber
 life_rating = 35
-colonial = 2

@@ -56,7 +56,7 @@ political_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0 #this is retarded lets remove this
 			modifier = {
 				factor = 0
 				CAN = {ai = yes}

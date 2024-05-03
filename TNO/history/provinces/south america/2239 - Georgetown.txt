@@ -1,6 +1,6 @@
-owner = CBR
-controller = CBR
+owner = OFN
+controller = OFN
+add_core = OFN
 trade_goods = fruit
 life_rating = 35
-colonial = 2
 2161.1.1 = { railroad = 1 }

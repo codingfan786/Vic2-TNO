@@ -1,5 +1,6 @@
 trade_goods = fish
 life_rating = 20
 
-owner = CBR
-controller = CBR
+owner = AST
+controller = AST
+colonial = 2

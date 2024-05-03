@@ -2,6 +2,10 @@ CUB = {
 	level = 5
 }
 
+BRG = {
+	level = 5
+}
+
 BOH = {
 	value = 100
 	level = 5

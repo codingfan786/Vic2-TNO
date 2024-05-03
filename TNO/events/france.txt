@@ -1,0 +1,55 @@
+country_event = {
+	id = 500277
+	title = "French Spring!"
+	desc = "event500277desc"
+
+	fire_only_once = yes
+
+	trigger = {
+		FRA = {truce_with = BRG}
+		FRA = {ai = yes}
+		CFR = {ai = no}
+		tag = CFR
+		NOT = {has_global_flag = fra_dying}
+		NOT = {year = 1972}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Perhaps it is true that France is truly free..."
+		
+		FRA = {
+			any_owned = {
+				secede_province = CFR
+			}
+		}
+
+		change_tag = FRA
+
+		CFR = {
+			all_core = {
+				remove_core = CFR
+				add_core = FRA
+			}
+		}
+
+		prestige = 15
+
+		government = democracy
+
+		ruling_party_ideology = conservative
+
+		political_reform = universal_weighted_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = gerrymandering
+	}
+	option = {
+		name = "We refuse to associate ourselves with collaborators!"
+	}
+}

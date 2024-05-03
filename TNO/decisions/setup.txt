@@ -190,6 +190,17 @@ political_decisions = {
 
 		}
 		effect = {
+			BRG = {
+				any_owned = {
+					any_pop = {
+						limit = {
+							type = craftsmen
+						}
+						reduce_pop = 0.35
+					}
+				}
+			}
+
 			3449 = {
 				add_province_modifier = {
 					name = staging_ground
@@ -302,6 +313,7 @@ political_decisions = {
 					exists = yes
 					NOT = {#doesnt already have a oob
 						OR = {
+							tag = AF1
 							tag = AFG
 							tag = AHG
 							tag = ANG
@@ -314,8 +326,9 @@ political_decisions = {
 							tag = BRI
 							tag = BUL
 							tag = CAN
-							tag = CAR
+							#tag = CAR
 							tag = CBR
+							tag = CFR
 							tag = CDN
 							tag = CHI
 							tag = COR

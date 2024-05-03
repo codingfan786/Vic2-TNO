@@ -43,7 +43,7 @@ political_decisions = {
 					}
 					is_vassal = no
 					war_with = THIS
-					NOT = {has_country_flag = got_ultimatum }
+					NOT = {has_country_flag = got_ultimatum } #?
 				}
 				country_event = 500248
 				set_country_flag = got_ultimatum

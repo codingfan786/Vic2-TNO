@@ -1,25 +1,74 @@
 army = {
 	name = "Defense Forces"
-	location = 1907
+	location = 1892
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 1900
+		home = 1894
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 1898
+		home = 1894
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 1899
+		home = 1894
 	}
 	regiment = {
 		name = "Defense Brigade"
 		type = infantry
-		home = 2123
+		home = 1894
+	}
+
+	regiment = {
+		name = "Defense Brigade"
+		type = hussar
+		home = 1894
+	}
+
+
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 1892
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 1892
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 1892
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 1892
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 1892
+	}
+}
+
+army = {
+	name = "Defense Forces"
+	location = 1894
+
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 1893
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = infantry
+		home = 2117
 	}
 
 	regiment = {
@@ -32,7 +81,7 @@ army = {
 	regiment = {
 		name = "Defense Brigade"
 		type = artillery
-		home = 2115
+		home = 2118
 	}
 	regiment = {
 		name = "Defense Brigade"
@@ -42,6 +91,86 @@ army = {
 	regiment = {
 		name = "Defense Brigade"
 		type = artillery
-		home = 2117
+		home = 2115
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 2119
+	}
+	regiment = {
+		name = "Defense Brigade"
+		type = artillery
+		home = 2121
+	}
+}
+
+navy = {
+	name = "Transport Fleet"
+	location = 1892
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "Transport"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Patrol Fleet"
+	location = 1892
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
+	}
+	ship = {
+		name = "Patrol"
+		type = frigate
 	}
 }

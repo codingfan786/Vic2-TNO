@@ -1,4 +1,6 @@
 trade_goods = fish
 life_rating = 15
-owner = CBR
-controller = CBR
+owner = EIC
+controller = EIC
+colonial = 2
+add_core = AST

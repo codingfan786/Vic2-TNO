@@ -418,8 +418,8 @@ africa_pre_scramble_short;Acquire $STATE$;;;;;;;;;;;;x;;;
 africa_pre_scramble_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;x;;;
 africa_pre_scramble_desc;Acquire state with the context of invading a semi-stable Africa. Cheaper CBs will unlock later.;;;;;;;;;;;;x;;;
 africa_post_scramble;Intervene in Sub-Saharan Africa;;;;;;;;;;;;x;;;
-africa_post_scramble_short;Intervene in $STATE$;;;;;;;;;;;;x;;;
-africa_post_scramble_setup;Intervene in $STATE$ to pacify $RECIPIENT$;;;;;;;;;;;;x;;;
+africa_post_scramble_short;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;x;;;
+africa_post_scramble_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;x;;;
 africa_post_scramble_desc;Acquire state with the context of bringing peace and order to Africa.;;;;;;;;;;;;x;;;
 event500144desc;The recent discovery of oil in Nigeria has sent the impovershed west African countries into a frenzy. The intense warfare that has broken out has sparked international interest in stabilizing the region. §R This means cheaper CBs for invading Africa have unlocked!;;;;;;;;;;;;x;;;
 event500145desc;The recent collapse of the German African regimes has led to widespread chaos and disorder. The fledgling democracies that have risen from the ruins have sparked both O.F.N. and German interests in intervening in the region. §R This means cheaper CBs for invading Africa have unlocked!;;;;;;;;;;;;x;;;
@@ -1108,3 +1108,4 @@ save_the_nation4;Revanchism 4;x
 save_the_nation4.5;Revanchism 4.5;x
 save_the_nation5;Revanchism 5;x
 staging_ground;Staging Ground;x
+event500277desc;News has come from the mainland as the Vichy French government has successfully defeated the military incursions of the Burgundian state. This has given them much international recognition and prestige, and lead to many their to invite our government in exile back to the mainland.;x

@@ -1,5 +1,7 @@
 owner = USA
+colonial = 2
 controller = USA
+
 add_core = HAI
 
 trade_goods = cotton

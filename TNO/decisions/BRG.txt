@@ -22,10 +22,15 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				AND = {
-					NOT = {month = 8}
-					NOT = {has_global_flag = malta_conference_turkey}
-					NOT = {has_global_flag = malta_conference_iberia}
+				#AND = {
+				#	NOT = {month = 8}
+				#	NOT = {has_global_flag = malta_conference_turkey}
+				#	NOT = {has_global_flag = malta_conference_iberia}
+				#}
+				ITA = {
+					NOT = {
+						has_country_flag = did_a_malta
+					}
 				}
 			}
 		}

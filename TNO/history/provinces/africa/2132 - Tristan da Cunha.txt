@@ -1,5 +1,6 @@
-owner = CBR
-controller = CBR
+owner = CAN
+colonial = 2
+controller = CAN
 
 trade_goods = fish
 life_rating = 35

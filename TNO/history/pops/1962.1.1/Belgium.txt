@@ -375,7 +375,7 @@
 	craftsmen = {
 		culture = wallonian
 		religion = protestant
-		size = 10000
+		size = 5000
 	}
 	aristocrats = {
 		culture = wallonian
@@ -484,7 +484,7 @@
 	craftsmen = {
 		culture = flemish
 		religion = protestant
-		size = 10000
+		size = 5000
 	}
 	clergymen = {
 		culture = flemish
@@ -557,7 +557,7 @@
 	craftsmen = {
 		culture = flemish
 		religion = protestant
-		size = 10000
+		size = 5000
 	}
 	clergymen = {
 		culture = flemish
@@ -624,7 +624,7 @@
 	craftsmen = {
 		culture = wallonian
 		religion = protestant
-		size = 10000
+		size = 5000
 	}
 	aristocrats = {
 		culture = wallonian

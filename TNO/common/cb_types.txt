@@ -205,6 +205,26 @@ conquest = {
 			}
 		}
 		is_independant = yes
+
+		NOT = {
+			OR = {
+				tag = MAL
+				tag = LIB
+				tag = BFA
+				tag = NGA
+				tag = NIG
+				tag = CAR
+				tag = CNG
+				tag = ZAM
+				tag = KEN
+				tag = MOZ
+				tag = ANG
+				tag = AF1
+				tag = AF2
+				tag = AF3
+				tag = AF4
+			}
+		}
 	}
 
 	badboy_factor = 1
@@ -1991,6 +2011,26 @@ tiny_conquest = {
 		
 		
 		is_independant = yes
+
+		NOT = {
+			OR = {
+				tag = MAL
+				tag = LIB
+				tag = BFA
+				tag = NGA
+				tag = NIG
+				tag = CAR
+				tag = CNG
+				tag = ZAM
+				tag = KEN
+				tag = MOZ
+				tag = ANG
+				tag = AF1
+				tag = AF2
+				tag = AF3
+				tag = AF4
+			}
+		}
 	}
 
 	badboy_factor = 0.5
@@ -2848,7 +2888,7 @@ africa_pre_scramble = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
+		#number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
 			is_colonial = no
@@ -2882,10 +2922,10 @@ africa_pre_scramble = {
 			tag = KEN
 			tag = MOZ
 			tag = ANG
-				tag = AF1
-				tag = AF2
-				tag = AF3
-				tag = AF4
+			tag = AF1
+			tag = AF2
+			tag = AF3
+			tag = AF4
 		}
 		NOT = {
 			THIS = {
@@ -2946,7 +2986,7 @@ africa_post_scramble = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
+		#number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
 			is_colonial = no
@@ -2985,10 +3025,10 @@ africa_post_scramble = {
 			tag = KEN
 			tag = MOZ
 			tag = ANG
-				tag = AF1
-				tag = AF2
-				tag = AF3
-				tag = AF4
+			tag = AF1
+			tag = AF2
+			tag = AF3
+			tag = AF4
 		}
 	}
 	
@@ -3249,6 +3289,12 @@ expand_burgundy = {
 		country_event = 500169
 		set_country_flag = brg_won
 		set_global_flag = fra_dying
+		BRG = {prestige = -50}
+		FRA = {
+			all_core = {
+				add_core = CFR
+			}
+		}
 	}
 }
 

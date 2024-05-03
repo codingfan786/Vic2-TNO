@@ -158,6 +158,7 @@ country_event = {
 					NOT = {national_provinces_occupied = 0.5}
 					any_owned_province = {
 						continent = oceania
+						is_colonial = no
 					}
 				}
 			}
@@ -285,6 +286,7 @@ country_event = {
 				}
 				any_owned_province = {
 					continent = oceania
+					is_colonial = no
 				}
 				has_country_flag = primary_nukes
 			}
@@ -413,6 +415,7 @@ country_event = {
 				}
 				any_owned_province = {
 					continent = oceania
+					is_colonial = no
 				}
 				has_country_flag = secondary_nukes
 			}
@@ -1613,6 +1616,7 @@ country_event = {
 					NOT = {national_provinces_occupied = 0.5}
 					any_owned_province = {
 						continent = oceania
+						is_colonial = no
 					}
 				}
 			}
@@ -1740,6 +1744,7 @@ country_event = {
 				}
 				any_owned_province = {
 					continent = oceania
+					is_colonial = no
 				}
 				has_country_flag = primary_nukes
 			}
@@ -1868,6 +1873,7 @@ country_event = {
 				}
 				any_owned_province = {
 					continent = oceania
+					is_colonial = no
 				}
 				has_country_flag = secondary_nukes
 			}
@@ -2937,7 +2943,7 @@ country_event = {
 	allow_multiple_instances = yes
 
 	immediate = {
-		FROM = {remove_country_modifier = nuclear_threat}
+		FROM = {remove_country_modifier = nuclear_threat} #should remove this to prevent nuke preventing by stalling
 	}
 
 	option = {
@@ -3043,6 +3049,16 @@ country_event = {
 
 	option = {
 		name = "May god help us..."
+
+		add_country_modifier = {
+			name = nuclear_countdown
+			duration = 180
+		}
+		add_country_modifier = {
+			name = nuclear_threat
+			duration = 270
+		}
+		set_country_flag = trying_to_nuke
 	}
 }
 
@@ -3202,6 +3218,10 @@ country_event = {
 			modifier = {
 				factor = 0
 				tag = CFR
+			}
+			modifier = {
+				factor = 0
+				tag = CAN
 			}
 		}
 	}

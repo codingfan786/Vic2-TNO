@@ -1,5 +1,7 @@
-owner = CBR
-controller = CBR
+owner = CAN
+colonial = 2
+controller = CAN
+
 add_core = ARG
 trade_goods = wool
 life_rating = 30

@@ -3,6 +3,13 @@ BRG = {
 	truce_until = "1967.1.1"
 }
 
+FRA = {
+	truce_until = "1964.1.1"
+}
+BRI = {
+	truce_until = "1964.1.1"
+}
+
 #Starting Relations
 YUG = {
 	value = -20

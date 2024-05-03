@@ -2,25 +2,35 @@ political_decisions = {
 	bri_integration = {
 		picture = court_yard_speech
 		potential = {
-			tag = FRA
+			OR = {
+				tag = FRA
+				AND = {
+					tag = CFR
+					any_owned_province = {
+						is_core = BRI
+					}
+				}
+			}	
+
+
 			NOT = {accepted_culture = breton}
 		}
 		allow = {
 			BRI = {
 				all_core = {
 					owner = {
-						tag = FRA
+						tag = THIS
 					}
 				}
 			}
-			NOT = {
-				OR = {
-					438 = {owner = {tag = BRG}}
-					437 = {owner = {tag = BRG}}
-					417 = {owner = {tag = BRG}}
-					430 = {owner = {tag = BRG}}
-				}
-			}
+			#NOT = {
+			#	OR = {
+			#		438 = {owner = {tag = BRG}}
+			#		437 = {owner = {tag = BRG}}
+			#		417 = {owner = {tag = BRG}}
+			#		430 = {owner = {tag = BRG}}
+			#	}
+			#}
 			state_n_government = 1
 			NOT = {war = yes}
 
@@ -50,7 +60,7 @@ political_decisions = {
 			409 = {add_core = FRA}
 			410 = {add_core = FRA}
 			412 = {add_core = FRA}
-			clr_global_flag = fra_dying
+			clr_global_flag = fra_dying #pointless?
 		}
 	}
 
@@ -115,29 +125,29 @@ political_decisions = {
 		}
 	}
 
-	recently_lost_to_brg = {
-		picture = trail_of_tears
-		potential = {
-			tag = FRA
-			OR = {
-				NOT = { year = 1963 }
-				has_country_flag = brg_won
-			}
-		}
-		allow = {
-			has_country_flag = brg_won
-		}
-		effect = {
-			clr_country_flag = brg_won
-			add_country_modifier = {
-				name = ija_boost_2
-				duration = 7300
-			}
-			add_country_modifier = {
-				name = ija_boost_1
-				duration = 7300
-			}
-		}
-	}
+	#recently_lost_to_brg = {
+	#	picture = trail_of_tears
+	#	potential = {
+	#		tag = FRA
+	#		OR = {
+	#			NOT = { year = 1963 }
+	#			has_country_flag = brg_won
+	#		}
+	#	}
+	#	allow = {
+	#		has_country_flag = brg_won
+	#	}
+	#	effect = {
+	#		clr_country_flag = brg_won
+	#		add_country_modifier = {
+	#			name = ija_boost_2
+	#			duration = 7300
+	#		}
+	#		add_country_modifier = {
+	#			name = ija_boost_1
+	#			duration = 7300
+	#		}
+	#	}
+	#}
 
 }

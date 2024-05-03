@@ -127,7 +127,11 @@ country_event = {
 		#SAL = {
 		#	inherit = IAL
 		#}
+
 		1755 = {secede_province = IBE}
+
+		set_country_flag = did_a_malta
+
 		ai_chance = {
 			factor = 0
 		}
@@ -172,6 +176,9 @@ country_event = {
 		SAL = {
 			inherit = IAL
 		}
+
+		set_country_flag = did_a_malta
+
 		ai_chance = {
 			factor = 0.20
 		}
@@ -188,7 +195,10 @@ country_event = {
 country_event = {
 	id = 500192
 	title = "Malta Conference - Turkish Demands"
-	desc = "The Turkish delegates have demanded we return their core territory and cede Syria to them! §RAccepting will allow you to accept Greeks earlier."
+	desc = "The Turkish delegates have demanded we return their core territory and cede Syria to them!"
+
+	#§RAccepting will allow you to accept Greeks earlier.
+
 
 	fire_only_once = yes
 
@@ -218,6 +228,8 @@ country_event = {
 			country_event = 500195
 		}
 		
+		set_country_flag = did_a_malta
+
 		ai_chance = {
 			factor = 0.05
 		}
@@ -234,7 +246,9 @@ country_event = {
 country_event = {
 	id = 500193
 	title = "Malta Conference - Turkish Demands"
-	desc = "The Turkish delegates have demanded we return their core territory! §R Accepting will allow you to accept Greeks earlier."
+	desc = "The Turkish delegates have demanded we return their core territory!"
+
+	#§R Accepting will allow you to accept Greeks earlier.
 
 	fire_only_once = yes
 
@@ -259,6 +273,8 @@ country_event = {
 		856 = {secede_province = TUR}
 		855 = {secede_province = TUR}
 		857 = {secede_province = TUR}
+
+		set_country_flag = did_a_malta
 
 		ai_chance = {
 			factor = 0.1

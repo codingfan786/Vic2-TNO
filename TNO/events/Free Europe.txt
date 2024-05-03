@@ -216,6 +216,7 @@ country_event = {
 		UKR = {exists = no}
 		POL = {exists = no}
 		BLT = {exists = no}
+		NOT = {has_global_flag = FEU_is_done}
 	}
 
 	mean_time_to_happen = {

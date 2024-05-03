@@ -1,9 +1,7 @@
-
-owner = CBR
-controller = CBR
+owner = GWA
+controller = GWA
 
 add_core = GWA
-
 
 
 trade_goods = fish
