@@ -6,10 +6,10 @@ political_decisions = {
 			tag = BRG
 			has_global_flag = malta_conference
 			NOT = {has_global_flag = malta_conference_bombed}
-			OR = {
-				NOT = {has_global_flag = malta_conference_turkey}
-				NOT = {has_global_flag = malta_conference_iberia}
-			}
+			#OR = {
+			#	NOT = {has_global_flag = malta_conference_turkey}
+			#	NOT = {has_global_flag = malta_conference_iberia}
+			#}
 		}
 		allow = {
 
@@ -27,11 +27,15 @@ political_decisions = {
 				#	NOT = {has_global_flag = malta_conference_turkey}
 				#	NOT = {has_global_flag = malta_conference_iberia}
 				#}
-				ITA = {
-					NOT = {
-						has_country_flag = did_a_malta
+				AND = {
+					ITA = {
+						NOT = {
+							has_country_flag = did_a_malta
+						}
 					}
+					NOT = {month = 11}
 				}
+				
 			}
 		}
 	}

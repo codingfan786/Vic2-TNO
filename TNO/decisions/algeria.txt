@@ -49,4 +49,121 @@ political_decisions = {
 		}
 	}
 
+	iberia_fund_alg = {
+		picture = switch_to_army_tech
+		potential = {
+			tag = IBE
+			NOT = {has_country_flag = alg_funded}
+			exists = SAL
+			exists = IAL
+			SAL = {war = no}
+		}
+		allow = {
+			money = 200000
+		}
+		effect = {
+			set_country_flag = alg_funded
+			treasury = -200000
+			SAL = {
+				any_owned = {
+					any_pop = {
+						limit = {
+							type = soldiers
+						}
+						reduce_pop = 2.5
+					}
+				}
+				random_owned = {
+					limit = {
+						NOT = {terrain = mountain}
+						NOT = {terrain = desert}
+						NOT = {country_units_in_province = SAL}
+					}
+					add_province_modifier = {
+						name = ora_ai_fix
+						duration = 14
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+			}
+		}
+	}
+
+	italy_fund_alg = {
+		picture = switch_to_army_tech
+		potential = {
+			tag = ITA
+			NOT = {has_country_flag = alg_funded}
+			exists = SAL
+			exists = IAL
+			IAL = {war = no}
+		}
+		allow = {
+			money = 300000
+		}
+		effect = {
+			set_country_flag = alg_funded
+			treasury = -300000
+			IAL = {
+				any_owned = {
+					any_pop = {
+						limit = {
+							type = soldiers
+						}
+						reduce_pop = 2.5
+					}
+				}
+				random_owned = {
+					limit = {
+						NOT = {terrain = mountain}
+						NOT = {terrain = desert}
+						NOT = {country_units_in_province = IAL}
+					}
+					add_province_modifier = {
+						name = ora_ai_fix
+						duration = 14
+					}
+					sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = infantry value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		            sub_unit = {type = artillery value = current}
+		        	sub_unit = {type = artillery value = current}
+		            sub_unit = {type = hussar value = current}
+				}
+			}
+		}
+	}
+
+	start_algeria_war = {
+		potential = {
+			tag = IAL
+			exists = SAL
+			war = no
+			SAL = {war = no}
+		}
+		allow = {
+			year = 1963
+		}
+		effect = {
+			war = {
+				target = SAL
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+	}
 }

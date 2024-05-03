@@ -1109,3 +1109,11 @@ save_the_nation4.5;Revanchism 4.5;x
 save_the_nation5;Revanchism 5;x
 staging_ground;Staging Ground;x
 event500277desc;News has come from the mainland as the Vichy French government has successfully defeated the military incursions of the Burgundian state. This has given them much international recognition and prestige, and lead to many their to invite our government in exile back to the mainland.;x
+AGRESSION_CIVIL_WAR_NAME_IAL_SAL;The Algerian War;x
+NORMAL_CIVIL_WAR_NAME_IAL_SAL;The Algerian War;x
+iberia_fund_alg_title;Reinforce the Algerian Garrison;x
+italy_fund_alg_title;Reinforce the Algerian Garrison;x
+start_algeria_war_title;Start the Algerian War;x
+iberia_fund_alg_desc;Tensions are extremely high between the Italian and Spanish settlers in Algeria. In order to guarantee the safety of our colonial venture we must expand the garrison. §ROpen conflict between the Italian and Spanish settlers will begin in 1963!;x
+italy_fund_alg_desc;Tensions are extremely high between the Italian and Spanish settlers in Algeria. In order to guarantee the safety of our colonial venture we must expand the garrison. §ROpen conflict between the Italian and Spanish settlers will begin in 1963!;x
+start_algeria_war_desc;This nation is meant to be AI.;x
