@@ -41,7 +41,7 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 2250
+		size = 7750
 	}
 
 	farmers = {
@@ -104,12 +104,6 @@
 		size = 3000
 	}
 
-	soldiers = {
-		culture = nanfaren
-		religion = protestant
-		size = 575
-	}
-
 	farmers = {
 		culture = nanfaren
 		religion = protestant
@@ -139,7 +133,7 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 1100
+		size = 3100
 	}
 
 	farmers = {
@@ -177,7 +171,7 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 1100
+		size = 3100
 	}
 
 	farmers = {
@@ -210,12 +204,6 @@
 		size = 1250
 	}
 
-	soldiers = {
-		culture = nanfaren
-		religion = protestant
-		size = 25
-	}
-
 	farmers = {
 		culture = nanfaren
 		religion = protestant
@@ -245,7 +233,7 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 1100
+		size = 3100
 	}
 
 	farmers = {
@@ -277,7 +265,7 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 1100
+		size = 3100
 	}
 
 	farmers = {
@@ -309,7 +297,7 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 1100
+		size = 3100
 	}
 
 	farmers = {
@@ -340,12 +328,6 @@
 		culture = nanfaren
 		religion = protestant
 		size = 2000
-	}
-
-	soldiers = {
-		culture = nanfaren
-		religion = protestant
-		size = 100
 	}
 
 	farmers = {
@@ -391,7 +373,7 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 1100
+		size = 3100
 	}
 
 	farmers = {
@@ -418,12 +400,6 @@
 		size = 1100
 	}
 
-	soldiers = {
-		culture = nanfaren
-		religion = protestant
-		size = 50
-	}
-
 	farmers = {
 		culture = nanfaren
 		religion = protestant
@@ -446,12 +422,6 @@
 		culture = malay
 		religion = protestant
 		size = 150
-	}
-
-	soldiers = {
-		culture = malay
-		religion = protestant
-		size = 25
 	}
 
 	farmers = {
@@ -483,7 +453,7 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 1100
+		size = 3100
 	}
 
 	farmers = {
@@ -508,12 +478,6 @@
 		culture = nanfaren
 		religion = protestant
 		size = 1500
-	}
-
-	soldiers = {
-		culture = nanfaren
-		religion = protestant
-		size = 75
 	}
 
 	farmers = {
@@ -545,7 +509,7 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 1100
+		size = 3100
 	}
 
 	farmers = {
@@ -572,12 +536,6 @@
 		size = 1275
 	}
 
-	soldiers = {
-		culture = nanfaren
-		religion = protestant
-		size = 50
-	}
-
 	farmers = {
 		culture = nanfaren
 		religion = protestant
@@ -600,12 +558,6 @@
 		culture = malay
 		religion = protestant
 		size = 600
-	}
-
-	soldiers = {
-		culture = malay
-		religion = protestant
-		size = 100
 	}
 
 	farmers = {
@@ -648,12 +600,6 @@
 		size = 1600
 	}
 
-	soldiers = {
-		culture = thai
-		religion = protestant
-		size = 325
-	}
-
 	farmers = {
 		culture = thai
 		religion = protestant
@@ -687,7 +633,7 @@
 	soldiers = {
 		culture = burmese
 		religion = protestant
-		size = 525
+		size = 2025
 	}
 
 	farmers = {
@@ -719,13 +665,13 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 225
+		size = 1000
 	}
 
 	farmers = {
 		culture = thai
 		religion = protestant
-		size = 20050
+		size = 40050
 	}
 
 	aristocrats = {
@@ -749,7 +695,7 @@
 	soldiers = {
 		culture = burmese
 		religion = protestant
-		size = 250
+		size = 1000
 	}
 
 	farmers = {
@@ -779,7 +725,7 @@
 	soldiers = {
 		culture = vietnamese
 		religion = protestant
-		size = 225
+		size = 1000
 	}
 
 	farmers = {
@@ -795,7 +741,7 @@
 	aristocrats = {
 		culture = thai
 		religion = protestant
-		size = 400
+		size = 2900
 	}
 
 	bureaucrats = {
@@ -813,55 +759,25 @@
 	clergymen = {
 		culture = thai
 		religion = protestant
-		size = 225
+		size = 1525
 	}
 
 	artisans = {
 		culture = thai
 		religion = protestant
-		size = 1050
+		size = 7450
 	}
 
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 225
+		size = 4525
 	}
 
 	farmers = {
 		culture = thai
 		religion = protestant
-		size = 21025
-	}
-
-	aristocrats = {
-		culture = vietnamese
-		religion = protestant
-		size = 2500
-	}
-
-	clergymen = {
-		culture = vietnamese
-		religion = protestant
-		size = 1300
-	}
-
-	artisans = {
-		culture = vietnamese
-		religion = protestant
-		size = 6400
-	}
-
-	soldiers = {
-		culture = vietnamese
-		religion = protestant
-		size = 1200
-	}
-
-	farmers = {
-		culture = vietnamese
-		religion = protestant
-		size = 116600
+		size = 137625
 	}
 }
 #Sisaket (180000/45000 POPS) #now part of Thailand  
@@ -887,7 +803,7 @@
 	soldiers = {
 		culture = thai
 		religion = protestant
-		size = 250
+		size = 1250
 	}
 
 	farmers = {
@@ -917,7 +833,7 @@
 	soldiers = {
 		culture = vietnamese
 		religion = protestant
-		size = 175
+		size = 1175
 	}
 
 	farmers = {
@@ -942,12 +858,6 @@
 		culture = vietnamese
 		religion = protestant
 		size = 150
-	}
-
-	soldiers = {
-		culture = vietnamese
-		religion = protestant
-		size = 25
 	}
 
 	farmers = {
@@ -978,12 +888,6 @@
 		size = 225
 	}
 
-	soldiers = {
-		culture = thai
-		religion = protestant
-		size = 50
-	}
-
 	farmers = {
 		culture = thai
 		religion = protestant
@@ -1011,7 +915,7 @@
 	soldiers = {
 		culture = vietnamese
 		religion = protestant
-		size = 100
+		size = 500
 	}
 
 	farmers = {
@@ -1030,12 +934,6 @@
 		culture = nanfaren
 		religion = protestant
 		size = 750
-	}
-
-	soldiers = {
-		culture = nanfaren
-		religion = protestant
-		size = 50
 	}
 
 	farmers = {
@@ -1069,7 +967,7 @@
 	soldiers = {
 		culture = malay
 		religion = protestant
-		size = 300
+		size = 1000
 	}
 
 	farmers = {
@@ -1088,12 +986,6 @@
 		culture = nanfaren
 		religion = protestant
 		size = 650
-	}
-
-	soldiers = {
-		culture = nanfaren
-		religion = protestant
-		size = 25
 	}
 
 	farmers = {

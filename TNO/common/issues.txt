@@ -43,6 +43,37 @@ party_issues = {
 				allow_foreign_investment = yes
 			}
 		}
+
+		colonial_exploit = {
+			max_tax = 0.6
+			global_immigrant_attract = 0.02  #2% , go where my stuff wont be stolen by the state
+			factory_owner_cost = 0.3
+			factory_output = 0.15
+			factory_input = -0.15
+			
+			rules = {
+				build_factory = no
+				expand_factory = no
+				open_factory = no
+				destroy_factory = no
+				build_railway = no
+				factory_priority = no
+				can_subsidise = no
+				pop_build_factory = yes
+				pop_expand_factory = yes
+				pop_open_factory = yes
+				delete_factory_if_no_input = yes
+				pop_build_factory_invest = yes
+				pop_expand_factory_invest = yes
+				open_factory_invest = yes
+				build_factory_invest = yes
+				expand_factory_invest = yes
+				build_railway_invest = yes
+				can_invest_in_pop_projects = no
+				allow_foreign_investment = no
+			}
+		}
+
 		interventionism = {
 			factory_owner_cost = 0.5
 			

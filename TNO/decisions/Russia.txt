@@ -193,6 +193,44 @@ political_decisions = {
 	}
 
 
+	ask_for_outer_manchuria = {
+		picture = russian_vladivostok
+
+		potential = {
+			1084 = {is_core = THIS}
+			primary_culture = russian
+			NOT = {has_global_flag = manchurian_deal}
+			2617 = {
+				OR = {
+					owned_by = MCK
+					owned_by = JAP
+				}
+			}
+			1084 = {
+				OR = {
+					owned_by = MCK
+					owned_by = JAP
+				}
+			}
+			1085 = {
+				OR = {
+					owned_by = MCK
+					owned_by = JAP
+				}
+			}
+		}
+		allow = {
+			relation = { who = JAP value = 150 }
+		}
+		effect = {
+			set_global_flag = manchurian_deal
+			JAP = {
+				country_event = 500279
+			}
+		}
+
+	}
+
 #PEACEFUL INTEGRATION
 
 	russian_integration = {
@@ -375,6 +413,7 @@ political_decisions = {
 			NOT = {exists = ALK}
 		}
 		allow = {
+			state_n_government = 1 #maybe not necessary?
 			all_core = {
 				OR = {
 					owner = {tag = THIS}

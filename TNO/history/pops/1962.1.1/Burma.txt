@@ -3,31 +3,31 @@
 #Rangoon (344000/86000 POPS)
 1330 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 200
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 250
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 1200
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 250
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 22000
 	}
@@ -145,31 +145,31 @@
 #Pegu (560000/140000 POPS)
 1332 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 400
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 500
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 2400
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 500
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 44200
 	}
@@ -243,31 +243,31 @@
 #Toungoo (308000/77000 POPS)
 1333 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 325
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 1600
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 350
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 29425
 	}
@@ -935,31 +935,31 @@
 #Moulmein (272000/68000 POPS)
 1343 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 400
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 350
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 1100
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 300
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 30950
 	}
@@ -1033,31 +1033,31 @@
 #Mergui (332000/83000 POPS)
 1344 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 400
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 375
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 1100
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 400
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = protestant
 		size = 34825
 	}

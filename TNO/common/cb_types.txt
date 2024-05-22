@@ -507,7 +507,7 @@ acquire_substate_region = {
 	
 	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 0.2
+	peace_cost_factor = 1.5 #0.2
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -525,18 +525,18 @@ acquire_substate_region = {
 		any_substate = {
 			number_of_states = 1
 			any_owned_province = {
-				#not = { is_core = THIS }
-				is_colonial = no
+				not = { is_core = THIS }
+				#is_colonial = no
 			}
 		}
 	}
 	
 	allowed_substate_regions = {
-		is_colonial = no
-		owner = { NOT = { in_sphere = THIS } }
+		#is_colonial = no
+		#owner = { NOT = { in_sphere = THIS } }
 		any_owned_province = {
-			#not = {	is_core = THIS }
-			is_colonial = no
+			not = {	is_core = THIS }
+			#is_colonial = no
 		}
 	}
 
@@ -678,6 +678,7 @@ place_in_the_sun = {
 			is_colonial = yes
 		}	
 		NOT = {THIS = {has_country_flag = did_brudermord}}
+		is_substate = no
 	}
 	
 	allowed_states = {
@@ -2107,6 +2108,7 @@ rus_uni = {
 
 		OR = { #railroads the AI into actually unifying their subregion first and foremost before being autistic map painters
 			NOT = {ai = yes}
+			THIS = {war = yes}
 			AND = {
 				THIS = {tag = RAR}
 				OR = {
@@ -2142,11 +2144,11 @@ rus_uni = {
 			AND = {
 				THIS = {tag = NKV}
 				OR = {
-					tag = WA2
+					#tag = WA2
 					tag = FED
-					tag = NAV
+					#tag = NAV
 					AND = {
-						NOT = {exists = WA2}
+						#NOT = {exists = WA2}
 						NOT = {exists = FED}
 					}
 				}
@@ -2154,26 +2156,29 @@ rus_uni = {
 			AND = {
 				THIS = {tag = FED}
 				OR = {
-					tag = WA2
+					#tag = WA2
 					tag = NKV
-					tag = NAV
+					#tag = NAV
 					AND = {
-						NOT = {exists = WA2}
+						#NOT = {exists = WA2}
 						NOT = {exists = NKV}
 					}
 				}
 			}
 			AND = {
 				THIS = {tag = WA2}
-				OR = {
-					tag = FED
-					tag = NKV
-					tag = NAV
-					AND = {
-						NOT = {exists = FED}
-						NOT = {exists = NKV}
-					}
-				}
+				NOT = {exists = FED}
+				NOT = {exists = NKV}
+				NOT = {exists = NAV}
+				#OR = {
+				#	tag = FED
+				#	tag = NKV
+				#	tag = NAV
+				#	AND = {
+				#		NOT = {exists = FED}
+				#		NOT = {exists = NKV}
+				#	}
+				#}
 			}
 		}
 
@@ -2265,6 +2270,17 @@ rus_uni_substate = {
 				}
 			}
 		}
+
+		OR = {
+			THIS = {ai = no}
+			NOT = {THIS = {tag = WA2}}
+			AND = {
+				THIS = {tag = WA2}
+				NOT = {exists = FED}
+				NOT = {exists = NKV}
+				NOT = {exists = NAV}
+			}
+		}
 	}
 	
 	allowed_substate_regions = {
@@ -2287,11 +2303,6 @@ rus_uni_substate = {
 			value = 0.25
 		}
 	}
-
-	
-
-
-
 }
 
 

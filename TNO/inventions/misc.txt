@@ -36,3 +36,12 @@ spawn_fix = {
 	}
 }
 
+siberian_supply = {
+	limit = {has_country_flag = siberia_tech}
+	chance = {
+		base = 100	
+	}
+	effect = {
+		supply_limit = 0.25
+	}
+}

@@ -190,6 +190,26 @@ political_decisions = {
 
 		}
 		effect = {
+			NKV = {set_country_flag = siberia_tech}
+			FED = {set_country_flag = siberia_tech}
+			WA1 = {set_country_flag = siberia_tech}
+			WA2 = {set_country_flag = siberia_tech}
+
+			HND = {
+				set_country_flag = is_india
+			}
+			
+			AHG = {
+				any_owned = {
+					limit = {
+						NOT = {
+							province_id = 1250
+						}
+						
+					}
+					fort = 1
+				}
+			}
 
 			1731 = {
 				any_pop = {
@@ -224,6 +244,7 @@ political_decisions = {
 			any_country = {
 				leadership = 60
 			}
+			leadership = 60
 			RAR = {
 				define_general = {
 					name = "Georgy Zhukov"
@@ -437,8 +458,13 @@ political_decisions = {
 						name = ora_ai_fix
 						duration = 7
 					}
+					any_pop = {
+						limit = {type = soldiers}
+						reduce_pop = 1.3
+					}
 				}
 				set_country_flag = spawn_in_reinforce_fix
+				set_country_flag = is_ahg
 				random_owned = {
 					limit = {
 						NOT = {country_units_in_province = THIS}

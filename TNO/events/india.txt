@@ -194,3 +194,39 @@ country_event = {
 		name = "Absolutely stunning!"
 	}
 }
+
+
+country_event = {
+	major = yes
+
+	id = 500278
+	title = "Collapse of the Azad Hind Government"
+	desc = "With the siezure of the Azad Hind Government's main Indian territory comes the complete collapse of the puppet regime. Japan has moved to intervene and directly occupy the the remaining Bengali territory."
+
+	trigger = {
+		tag = AHG
+		war = no
+		vassal_of = JAP
+		NOT = {
+			any_owned_province = {
+				OR = {
+					is_core = HND
+					is_core = HD2
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = "Terrible!"
+		JAP = {inherit = THIS}
+	}
+}

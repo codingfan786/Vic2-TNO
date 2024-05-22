@@ -2920,7 +2920,11 @@ country_event = {
 	}
 	trigger = {
 		war = no 
-		has_country_flag = trying_to_nuke
+		OR = {
+			has_country_flag = trying_to_nuke
+			has_country_modifier = nuclear_threat
+			has_country_modifier = nuclear_countdown
+		}
 	}
 	immediate = {
 		clr_country_flag = trying_to_nuke

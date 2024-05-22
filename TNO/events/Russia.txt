@@ -429,13 +429,20 @@ country_event = {
 		months = 1
 	}
 
+	immediate = {
+		leave_alliance = WA1
+		leave_alliance = JAP
+		leave_alliance = NKV
+		leave_alliance = FED
+		leave_alliance = NUC
+	}
 
 	option = {
 		name = "yasy"
 		war = {
 			target = NKV
-			attacker_goal = { casus_belli = civil_war }
-			defender_goal = { casus_belli = civil_war }
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
 			call_ally = yes
 		}
 		ai_chance = {
@@ -454,8 +461,8 @@ country_event = {
 		name = "yasy"
 		war = {
 			target = FED
-			attacker_goal = { casus_belli = civil_war }
-			defender_goal = { casus_belli = civil_war }
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
 			call_ally = yes
 		}
 
@@ -738,5 +745,60 @@ country_event = {
 	}
 	option = {
 		name = "ok"
+	}
+}
+
+country_event = {
+	id = 500279
+	title = "An Envoy from Siberia"
+	desc = "The government of $FROMCOUNTRY$ has come to us demanding Vladivostok! Although giving up the important port city is unacceptable to us, perhaps we could placate them by carving up Primorsky."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We don't have the resources to contest them."
+		badboy = -5
+		create_alliance = FROM
+		diplomatic_influence = {
+			who = FROM
+			value = 100
+		}
+		1085 = {secede_province = FROM}
+		2617 = {secede_province = FROM}
+		1084 = {secede_province = FROM}
+		1082 = {remove_core = FROM}
+		1083 = {remove_core = FROM}
+		FROM = {
+			country_event = 500280
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "Absolutely not!"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = 500280
+	title = "North Primorsky returned!"
+	desc = "Japan has deigned we have North Primorsky returned to us!"
+
+	is_triggered_only = yes
+
+	immediate = {
+		1085 = {secede_province = THIS}
+		2617 = {secede_province = THIS}
+		1084 = {secede_province = THIS}
+		1082 = {remove_core = THIS}
+		1083 = {remove_core = THIS}
+	}
+	option = {
+		name = "It's better than nothing."
 	}
 }

@@ -611,7 +611,7 @@
 	bureaucrats = {
 		culture = siberian
 		religion = protestant
-		size = 500
+		size = 7000
 	}
 	soldiers = {
 		culture = siberian

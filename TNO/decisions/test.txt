@@ -6,25 +6,15 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-			#NOT = {exists = ONE}
-		}
-		effect = {
-			any_owned = {
-				limit = {
-					OR = {
-						#is_core = POR
-						is_core = CAT
-						state_id = 474
-						state_id = 477
-						state_id = 495
-					}
-				}
-				any_pop = {
-					militancy = 9
-				}
+			any_owned_province = {
+				rally_point = yes
 			}
 		}
+		effect = {
+
+		}
 	}
+
 }
 
 

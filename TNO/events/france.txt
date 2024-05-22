@@ -1,4 +1,6 @@
 country_event = {
+	major = yes
+
 	id = 500277
 	title = "French Spring!"
 	desc = "event500277desc"

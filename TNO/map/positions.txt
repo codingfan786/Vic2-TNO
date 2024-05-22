@@ -55540,30 +55540,30 @@
 
 # Taunggyi
 1338 = {
-    unit = {
-        x = 4342.000000
-        y = 1241.000000
-    }
-
     text_position = {
-        x = 4342.000000
-        y = 1233.199951
+        x = 4357.400000
+        y = 1250.200000
     }
 
     text_scale = 4.399998
-    building_construction = {
-        x = 4364.000000
-        y = 1250.000000
-    }
-
-    military_construction = {
-        x = 4343.000000
-        y = 1231.000000
+    unit = {
+        x = 4357.700000
+        y = 1252.300000
     }
 
     factory = {
-        x = 4354.100098
-        y = 1254.000000
+        x = 4349.000000
+        y = 1260.100000
+    }
+
+    building_construction = {
+        x = 4349.700000
+        y = 1255.100000
+    }
+
+    military_construction = {
+        x = 4354.100000
+        y = 1240.900000
     }
 
     building_position = {
@@ -55616,36 +55616,36 @@
 
 # Lashio
 1340 = {
-    unit = {
-        x = 4337.000000
-        y = 1274.000000
-    }
-
     text_position = {
-        x = 4338.000000
-        y = 1267.000000
+        x = 4324.666667
+        y = 1250.133333
     }
 
     text_scale = 3.999998
-    building_construction = {
-        x = 4345.000000
-        y = 1261.000000
-    }
-
-    military_construction = {
-        x = 4337.000000
-        y = 1265.000000
+    unit = {
+        x = 4326.746667
+        y = 1260.186667
     }
 
     factory = {
-        x = 4340.000000
-        y = 1292.000000
+        x = 4336.800000
+        y = 1283.760000
+    }
+
+    building_construction = {
+        x = 4330.560000
+        y = 1235.053333
+    }
+
+    military_construction = {
+        x = 4322.413333
+        y = 1281.333333
     }
 
     building_position = {
         fort = {
-            x = 4352.000000
-            y = 1276.000000
+            x = 4327.440000
+            y = 1271.453333
         }
 
     }

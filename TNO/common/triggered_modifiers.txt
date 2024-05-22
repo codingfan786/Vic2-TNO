@@ -4,11 +4,26 @@
 # Effects are fully scriptable here.
 big_china = {
 	trigger = {
-		has_country_flag = won_gaw
+		OR = {
+			has_country_flag = won_gaw
+			AND = {
+				total_pops = 24000000
+				has_country_flag = is_india
+			}
+		}
 	}
 	mobilisation_size = -0.03
 }
 
+ahg_score_nerf = {
+	trigger = {
+		has_country_flag = is_ahg
+		is_vassal = yes
+	}
+	prestige = -1
+	supply_consumption = -0.2
+	#land_attack_modifier = -1
+}
 
 low_infamy = {
 	trigger = {
