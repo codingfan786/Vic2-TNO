@@ -341,7 +341,7 @@
 	farmers = {
 		culture = bedouin
 		religion = protestant
-		size = 13800
+		size = 63800
 	}
 }
 #Nejd Region (204000)
@@ -419,7 +419,7 @@
 	farmers = {
 		culture = bedouin
 		religion = protestant
-		size = 11025
+		size = 61025
 	}
 }
 #Halaban (28000/7000 POPS)
@@ -451,7 +451,7 @@
 	farmers = {
 		culture = bedouin
 		religion = protestant
-		size = 16575
+		size = 66575
 	}
 }
 #Hail (12000/3000 POPS)
@@ -483,7 +483,7 @@
 	farmers = {
 		culture = bedouin
 		religion = protestant
-		size = 8250
+		size = 58250
 	}
 }
 #Sharawah (28000/7000 POPS)
@@ -515,7 +515,7 @@
 	farmers = {
 		culture = bedouin
 		religion = protestant
-		size = 16575
+		size = 66575
 	}
 }
 #Bahrain Region (204000) #see Gulf States.txt for balance of region  
@@ -588,11 +588,7 @@
 		size = 525
 	}
 
-	farmers = {
-		culture = bedouin
-		religion = protestant
-		size = 440250
-	}
+	
 }
 #Hufuf (96000/POPS)
 1164 = {
@@ -653,7 +649,7 @@
 	farmers = {
 		culture = bedouin
 		religion = protestant
-		size = 35625
+		size = 135625
 	}
 }
 #Ahsa (16000/4000 POPS)
@@ -685,7 +681,7 @@
 	farmers = {
 		culture = bedouin
 		religion = protestant
-		size = 11550
+		size = 61550
 	}
 
 }

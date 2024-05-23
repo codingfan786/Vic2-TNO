@@ -402,7 +402,8 @@ ijn_boost_2 = {
 
 ijn_funding = {
 	icon = 9
-	min_tariff = 0.2
+	max_tariff = -0.2
+	navy_tech_research_bonus = 0.1
 }
 
 
@@ -424,6 +425,7 @@ ija_boost_2 = {
 ija_funding = {
 	icon = 9
 	min_military_spending = 0.2
+	army_tech_research_bonus = 0.1
 }
 
 academic_confusion = {

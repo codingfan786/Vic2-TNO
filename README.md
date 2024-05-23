@@ -1,58 +1,71 @@
 # Vic2-TNO
 Victoria 2 port/adaptation of The New Order: Last days of europe mod for hoi4
 
-Many countries have content such as:
+## MP Roster
+For MP the following rosterable nation list is suggested:
 
-Germany
+- Germany (as many as you want to roster)
+- USA
+- Japan
+- Italy
 
-Italy
+- Iberia
+- Turkey
+- Romania
+- England
+- Free France (In West Africa. Yes it is viable.)
 
-England
+- Finland
+- RK Moscow
+- Russia #1 (Red army Remnants)
+- Russia #2 (Magadan)
 
-USA
+- N.P.A. (That brown country in Yunnan)
+- India
 
-Japan
+- South Africa
+- Sudwest Afrika
+- Nigeria
 
-Hungary
+Not as important:
+- Kazakhstan
+- Afghanistan
 
-Romania
+## Proxy War CB
+For MP the following rules concerning the Proxy War CB are strongly suggested:
 
-Poland
+- Proxy CB wars should not be surrendered unless pulling out of/surrendering the main war.
+For example:
+A has sphered B and X has sphered Y.
+B and Y are at war.
+X declares a proxy war on B using the proxy CB.
+A then declares a proxy war on X and a proxy war on Y. 
+X cannot surrender the proxy war with A unless also surrendering the proxy war against B.
 
-The german puppets (Ukraine, Baltics, Moscow)
+- Proxy war WS does not count towards any total war score in the case that they are considered merged with the main war or any other war. (The CBs in a proxy war are status quo vs status quo so it doesn't make sense to include those war scores in the actual peace deal.)
 
-Red army remnants
+## Nuclear Ultimatums
+Nuclear launches have limited range and can be halted altogether if you are fast enough.
 
-Kamatchka Soviet Fleet
+- If someone has nukes at all then all target provinces will receive a Light Nuke modifier.
 
-German africa
+- If someone with nukes owns land on the same continent as a target province, it will receive a Heavy Nuke modifier.
 
-South africa
+- If someone with nukes owns land on a neighbouring continent as a target province, it will receive a Medium Nuke modifier.
 
-Commonwealth nations
+- If a nuclear proxy owns land on the same continent as a target province, it will receive a Medium Nuke modifier.
 
-West china nations
+- If a nuclear proxy owns land on a neighbouring continent as a target province, it will receive a Light Nuke modifier.
 
-Japanese puppet China
+These modifiers will each stack up to 3 times each on a province. The ingame localisation truncates the pop growth penalty number.
 
-Scotland
+- Heavy Nuke modifier gives -0.15% pop growth
+- Medium Nuke modifier gives -0.10% pop growth
+- Light Nuke modifier gives -0.05% pop growth
 
-Burgundy
+If a country has half its provinces sieged down by the end of the 6 month launch countdown, they will not contribute to the nuclear launch.
 
-France
+### Nuclear Ultimatum in MP
+The white peace event can arbitrarily end entire wars instead of just peacing out individual participants. I'm not sure how to fix this so the following rule in MP is strongly suggested.
 
-Iberia
-
-Bohemia/Slovakia
-
-Levant/Israel
-
-Kazakhstan
-
-Colonial French Exiles
-
-Indonesia
-
-Council of Displaced Nations (Netherlands in Exile)
-
-India
+- Everyone who has received a nuclear ultimatum event must choose the "stay in war" option. Anyone who wanted to peace out is then given the opportunity to white peace the war using normal peace deals. All spherlings of this person must also be white peaced. (The intented behavior of the nuke mechanic.)

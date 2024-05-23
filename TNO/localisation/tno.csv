@@ -895,8 +895,8 @@ event500238desc;Calm has passed over Verona as many of the National Fascist Part
 event500239desc;A stunning display has occured in Verona as many leading figures in the National Fascist Party, including Il Duce Ciano himself, have been arrested by the King Umberto II and his supporters in the armed forces. Umberto II, emboldened by his success in the Verona conference, has announced the restoration of popular voting and the traditional Italian monarchy.;x
 event500240desc;A stunning display has occured in Verona as many leading figures in the National Fascist Party, including Il Duce Ciano himself, have been killed in an act perpetrated by the Italian Red Brigade organization. The King Umberto II has been whisked away to safety abroad by his supporters in the armed forces, leaving a power vacuum open in the paralyzed government for the Italian Red Brigade organization to sieze in short fashion. The socialist organization which has been fighting in secret since the Second World War has declared themselves the vanguard party of the new Italian state and has announced popular elections for the recently organized central committee.;x
 CHI_mobnerf;Forced Disarmament;x
-NORMAL_WAR_NPA;Battle for $SECOND$;x
-AGRESSION_WAR_NPA;Battle for $SECOND$;x
+NORMAL_WAR_NPA;Battle for $SECOND_COUNTRY$;x
+AGRESSION_WAR_NPA;Battle for $SECOND_COUNTRY$;x
 YNN_001;East Yunnan;x
 npa_cooldown;Army Integration;x
 china_border_conflict_response;Chinese Border Conflict;x
@@ -1124,4 +1124,13 @@ ask_for_outer_manchuria_title;The Manchurian Compromise;x
 ask_for_outer_manchuria_desc;Although we have asserted out dominance over Eastern Siberia, we are nowhere close to being capable of directly contesting the Empire of Japan over our former territory of Primorsky. Certainly our only option is diplomacy. §RIf Japan accepts we will get Ulusamudan, Utchan, and Saghalian Oula. In exchange we will lose our cores on Boli and Vladivostok, and Japan will lose 5 infamy.;x
 siberian_supply;Local Supply Sourcing;x
 siberian_supply_desc;Some nations, due to their remote geography, have become experts when it comes to fighting in barren high attrition locations.;x
- 
+proxy_war;Proxy War Intervention;x
+proxy_war_short;Force $RECIPIENT$ to surrender their main war.;x
+proxy_war_setup;Will force the target to be full sieged by one of their enemies. Priority is given to player enemies and our spherelings.;x
+proxy_war_desc;Will force the target to be full sieged by one of their enemies. Priority is given to player enemies and our spherelings.;x
+proxy_war_real;Proxy War Intervention;x
+proxy_war_real_short;Force $RECIPIENT$ to surrender their main war.;x
+proxy_war_real_setup;Will force the target to be full sieged by one of their enemies. Priority is given to player enemies and our spherelings.;x
+proxy_war_real_desc;Will force the target to be full sieged by one of their enemies. Priority is given to player enemies and our spherelings.;x
+AGRESSION_PROXY_WAR_NAME;Proxy War in $SECOND_COUNTRY$;x
+NORMAL_PROXY_WAR_NAME;Proxy War in $SECOND_COUNTRY$;x

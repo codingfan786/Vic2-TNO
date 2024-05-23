@@ -190,6 +190,8 @@ political_decisions = {
 
 		}
 		effect = {
+			YEM = {any_pop = {reduce_pop = 2}}
+
 			NKV = {set_country_flag = siberia_tech}
 			FED = {set_country_flag = siberia_tech}
 			WA1 = {set_country_flag = siberia_tech}

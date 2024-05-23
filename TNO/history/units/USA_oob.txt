@@ -24,7 +24,7 @@ NAV = {
 	level = 3
 }
 PHI = {
-	level = 4
+	level = 5
 	influence_value = 50
 }
 CFR = {

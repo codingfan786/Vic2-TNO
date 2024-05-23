@@ -1,0 +1,91 @@
+country_event = {
+	id = 500281
+	title = "The $COUNTRY$ War Dies Down"
+	desc = "The $FROMCOUNTRY_ADJ$ intervention in our current war has yielded results as our army and country are in shambles. Having lost the war our enemies are now free to impose any treaty they wish."
+
+	is_triggered_only = yes
+
+	immediate = {
+		any_owned = {
+			limit = {
+				controller = {tag = FROM}
+			}
+			change_controller = THIS
+		}
+
+		set_global_flag = proxy_temp
+		random_country = {
+			limit = {
+				in_sphere = FROM
+				war_with = THIS
+				ai = no
+				NOT = {tag = FROM}
+			}
+			clr_global_flag = proxy_temp
+			country_event = 500282
+		}
+
+		random_country = {
+			limit = {
+				#in_sphere = FROM
+				war_with = THIS
+				ai = no
+				has_global_flag = proxy_temp
+				NOT = {tag = FROM}
+			}
+			clr_global_flag = proxy_temp
+			country_event = 500282
+		}
+
+		random_country = {
+			limit = {
+				in_sphere = FROM
+				war_with = THIS
+				ai = yes
+				has_global_flag = proxy_temp
+				NOT = {tag = FROM}
+			}
+			clr_global_flag = proxy_temp
+			country_event = 500282
+		}
+
+		random_country = {
+			limit = {
+				#in_sphere = FROM
+				war_with = THIS
+				ai = yes
+				has_global_flag = proxy_temp
+				NOT = {tag = FROM}
+			}
+			clr_global_flag = proxy_temp
+			country_event = 500282
+		}
+
+		clr_global_flag = proxy_temp
+	}
+	option = {
+		name = "A terrible loss."
+	}
+}
+
+country_event = {
+	id = 500282
+	title = "The $FROMCOUNTRY$ War Dies Down"
+	desc = "Due to the internevtion of $SPHEREMASTER$ in our war with $FROMCOUNTRY$, we have been saved from a terrible and crippling loss."
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			any_owned = {
+				limit = {
+					controlled_by = FROM
+				}
+				change_controller = THIS
+			}
+		}
+	}
+	option = {
+		name = "Onwards to peace!"
+	}
+}

@@ -4,5 +4,6 @@ controller = NEJ
 add_core = NEJ
 
 
-trade_goods = grain
+trade_goods = oil 
+#grain
 life_rating = 35

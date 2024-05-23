@@ -91,6 +91,10 @@ fascist_group = {
 					NOT = {has_country_flag = fascist_gov_type}
 				}
 			}
+			modifier = {
+				factor = -1
+				is_vassal = yes
+			}
 		}
 	
 	

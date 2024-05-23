@@ -11,7 +11,7 @@ country_event = {
 		}
 		OR = {
 			AND = {
-				year = 1972
+				year = 1970 #was 1972 before but it took too long
 				NOT = {has_country_flag = first_arab_unrest}
 			}
 			AND = {
@@ -34,7 +34,7 @@ country_event = {
 
 		any_owned = {
 			any_pop = {
-				militancy = 6
+				militancy = 8 #was 6 before but it took too long
 			}
 		}
 

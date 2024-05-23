@@ -69,6 +69,11 @@ political_decisions = {
 			}
 
 			diplomatic_influence = {
+				who = PER
+				value = 600
+			}
+
+			diplomatic_influence = {
 				who = HUN
 				value = 100
 			}
