@@ -72,4 +72,4 @@ If a country has half its provinces sieged down by the end of the 6 month launch
 
 - ~~Everyone who has received a nuclear ultimatum event must choose the "stay in war" option. Anyone who wanted to peace out is then given the opportunity to white peace the war using normal peace deals. All spherlings of this person must also be white peaced. (The intented behavior of the nuke mechanic.)~~
 
-I believe the bug this refers to has been fixed.
+I believe the bug this refers to has been fixed and so this rule is no longer necessary.
