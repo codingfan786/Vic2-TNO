@@ -151,6 +151,15 @@ political_decisions = {
 				limit = {
 					tag = JAP
 					NOT = {truce_with = YNN}
+
+					OR = { #if everyone involved is AI then give npa another year
+						ai = no
+						YNN = {ai = no}
+						AND = {
+							year = 1966
+							month = 6
+						}
+					}
 				}
 				CHI = {
 					create_alliance = JAP
@@ -159,6 +168,31 @@ political_decisions = {
 						attacker_goal = { casus_belli = gaw_war }
 						defender_goal = { casus_belli = gaw_war }
 						call_ally = yes
+					}
+				}
+			}
+			any_country = {
+				limit = {
+					tag = JAP
+					NOT = {truce_with = YNN}
+					
+					AND = { #if everyone involved is AI then give npa another year
+						ai = yes
+						YNN = {ai = yes}
+						NOT = {
+							AND = {
+								year = 1966
+								month = 6
+							}
+						}		
+					}
+				}
+				CHI = {
+					war = {
+						target = YNN
+						attacker_goal = { casus_belli = gaw_war }
+						defender_goal = { casus_belli = gaw_war }
+						call_ally = no
 					}
 				}
 			}

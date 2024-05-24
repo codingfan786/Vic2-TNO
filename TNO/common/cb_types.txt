@@ -110,6 +110,53 @@ proxy_war_real
 proxy_war
 }
 
+proxy_war_real = {
+	sprite_index = 1
+	#is_triggered_only = yes
+	months = 12
+	constructing_cb = no
+
+	can_use = {
+		always = no
+	}
+
+	is_civil_war = yes
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 37.5
+	penalty_factor = 0
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_status_quo = yes 
+	po_remove_prestige = yes
+
+	#tws_battle_factor = 2.0
+
+	on_po_accepted = {
+		#regular scope is surrendering country
+		#THIS is country who added CB
+		#FROM doesnt do anything? Inside the resultant events FROM is the country who added CB
+
+		#THIS = {set_country_flag = just_proxied}
+		country_event = 500281
+	}
+	
+	war_name = PROXY_WAR_NAME
+}
+
 gunboat = {
 	sprite_index = 1
 	is_triggered_only = yes
@@ -3726,8 +3773,10 @@ baathism = {
 		
 		NOT = { truce_with = THIS } 
 		NOT = {vassal_of = THIS}
-		
-		OR = {#Either rebels control an arab province or you are at war with them and control all arab provinces
+
+		#Either rebels control an arab province or you are at war with them and control all arab provinces
+		#OR the target is a middle eastern minor!
+		OR = {
 			any_owned_province = {
 				controlled_by = REB
 				OR = {
@@ -3760,7 +3809,24 @@ baathism = {
 						}
 					}
 				}
-				
+			}
+			AND = {
+				is_greater_power = no
+				OR = {
+					tag = IGY
+					tag = IIS
+
+					tag = YEM
+					tag = OMA
+					tag = NEJ
+					tag = ABU
+
+					tag = IRQ
+					tag = SYR
+					tag = EGY
+					tag = JOR
+					tag = ISR
+				}
 			}
 		}
 		
@@ -4330,53 +4396,6 @@ free_allies_sp = {
 			value = 0.25
 		}
 	}
-}
-
-proxy_war_real = {
-	sprite_index = 1
-	#is_triggered_only = yes
-	months = 12
-	constructing_cb = no
-
-	can_use = {
-		always = no
-	}
-
-	is_civil_war = yes
-
-	break_truce_prestige_factor = 0
-	break_truce_infamy_factor = 0
-	break_truce_militancy_factor = 2
-	truce_months = 0
-	
-	badboy_factor = 0
-	prestige_factor = 0
-	peace_cost_factor = 75
-	penalty_factor = 0
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-	
-	po_status_quo = yes 
-	#po_remove_prestige = yes
-
-	#tws_battle_factor = 2.0
-
-	on_po_accepted = {
-		#regular scope is surrendering country
-		#THIS is country who added CB
-		#FROM doesnt do anything? Inside the resultant events FROM is the country who added CB
-
-		#THIS = {set_country_flag = just_proxied}
-		country_event = 500281
-	}
-	
-	war_name = PROXY_WAR_NAME
 }
 
 proxy_war = {

@@ -44,6 +44,8 @@ X cannot surrender the proxy war with A unless also surrendering the proxy war a
 
 - Proxy war WS does not count towards any total war score in the case that they are considered merged with the main war or any other war. (The CBs in a proxy war are status quo vs status quo so it doesn't make sense to include those war scores in the actual peace deal.)
 
+- If the main war becomes a great war, then the Proxy Wars should be edited out and all participants merged into the main war as normal participants. 
+
 ## Nuclear Ultimatums
 Nuclear launches have limited range and can be halted altogether if you are fast enough.
 
@@ -66,6 +68,8 @@ These modifiers will each stack up to 3 times each on a province. The ingame loc
 If a country has half its provinces sieged down by the end of the 6 month launch countdown, they will not contribute to the nuclear launch.
 
 ### Nuclear Ultimatum in MP
-The white peace event can arbitrarily end entire wars instead of just peacing out individual participants. I'm not sure how to fix this so the following rule in MP is strongly suggested.
+~~The white peace event can arbitrarily end entire wars instead of just peacing out individual participants. I'm not sure how to fix this so the following rule in MP is strongly suggested.~~
 
-- Everyone who has received a nuclear ultimatum event must choose the "stay in war" option. Anyone who wanted to peace out is then given the opportunity to white peace the war using normal peace deals. All spherlings of this person must also be white peaced. (The intented behavior of the nuke mechanic.)
+- ~~Everyone who has received a nuclear ultimatum event must choose the "stay in war" option. Anyone who wanted to peace out is then given the opportunity to white peace the war using normal peace deals. All spherlings of this person must also be white peaced. (The intented behavior of the nuke mechanic.)~~
+
+I believe the bug this refers to has been fixed.

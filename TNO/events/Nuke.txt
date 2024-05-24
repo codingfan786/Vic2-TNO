@@ -2971,7 +2971,7 @@ country_event = {
 	}
 	option = {
 		name = "We must back down from the brink!"
-		end_war = FROM
+		FROM = {end_war = THIS} #will kick THIS out of the wars FROM is in
 		FROM = {
 			add_country_modifier = {
 				name = enemy_sphere_marker
@@ -2985,13 +2985,13 @@ country_event = {
 			}
 			end_war = THIS
 		}
-		any_country = {
+		any_country = { # need to change this up...
 			limit = {
 				NOT = {tag = REB}
 				in_sphere = THIS
 				THIS = {is_greater_power = yes}
 			}
-			end_war = FROM
+			#end_war = FROM
 			country_event = 500249
 		}
 		ai_chance = {
@@ -3024,6 +3024,13 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		any_country = {
+			limit = {
+				war_with = THIS
+				has_country_modifier = enemy_sphere_marker
+			}
+			end_war = THIS
+		}
 		any_country = {
 			limit = {
 				war_with = THIS

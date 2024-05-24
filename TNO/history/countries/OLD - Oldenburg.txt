@@ -1,8 +1,9 @@
 civilized = yes
 capital = 540
-primary_culture = north_german
+primary_culture = persian
+culture = azerbaijani
 religion = protestant
-government = absolute_monarchy
+government = presidential_dictatorship
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.8
@@ -28,7 +29,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = OLD_conservative_2
+ruling_party = OLD_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 33
@@ -40,16 +41,16 @@ upper_house = {
 }
 
 # Technologies
-post_napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-army_command_principle = 1
 post_nelsonian_thought = 1
 clipper_design = 1
 naval_design_bureaus = 1
 alphabetic_flag_signaling = 1
 the_command_principle = 1
+water_wheel_power = 1
+publishing_industry = 1
+mechanized_mining = 1
+experimental_railroad = 1
+basic_chemistry = 1
 classicism_n_early_romanticism = 1
 late_enlightenment_philosophy = 1
 malthusian_thought = 1
@@ -60,10 +61,9 @@ no_standard = 1
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
-water_wheel_power = 1
-publishing_industry = 1
-mechanized_mining = 1
-basic_chemistry = 1
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+army_command_principle = 1
 
 #Inventions
 

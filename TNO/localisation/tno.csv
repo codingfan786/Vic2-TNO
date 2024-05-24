@@ -794,7 +794,7 @@ algeria_inherit_title;Integrate the Algerian Occupational Government.;;;;;;;;;;;
 algeria_inherit_desc;The Algerian occupational government has served its purpose. It is time that we take direct control of the territory.;;;;;;;;;;;;x
 glo_inherit_title;Integrate the Benelux Occupational Government.;;;;;;;;;;;;x
 glo_inherit_desc;The Benelux occupational government has served its purpose. It is time that we take direct control of the territory.;;;;;;;;;;;;x
-event500209desc;With the advent of Ba'athist victory over government forces in $COUNTRY$, the long awaited dream of Arab unity has found its first victory. Ba'athism is an Arab nationalist ideology which promotes the creation and development of a unified Arab state through the leadership of a vanguard party over a socialist revolutionary government. The ideology is officially based on the theories of the Syrian intellectuals Michel Aflaq, Zaki al-Arsuzi, and Salah al-Din al-Bitar. §R You get a new instant CB to spread Ba'athism that you can use either when an Arab province is controlled by rebels, or when you are at war with someone and control all of their Arab provinces. (Arab here doesn't include anything west of Egypt.);x
+event500209desc;With the advent of Ba'athist victory over government forces in $COUNTRY$, the long awaited dream of Arab unity has found its first victory. Ba'athism is an Arab nationalist ideology which promotes the creation and development of a unified Arab state through the leadership of a vanguard party over a socialist revolutionary government. The ideology is officially based on the theories of the Syrian intellectuals Michel Aflaq, Zaki al-Arsuzi, and Salah al-Din al-Bitar. §R You get a new instant CB to spread Ba'athism that you can use either when an Arab province is controlled by rebels, or when you are at war with someone and control all of their Arab provinces, or if the target is an Arab minor country/Italian colony. (Arab here doesn't include anything west of Egypt.);x
 event500210desc;With the advent of Ba'athist victory over government forces in $COUNTRY$, the long awaited dream of Arab unity has found its next victory. Ba'athism is an Arab nationalist ideology which promotes the creation and development of a unified Arab state through the leadership of a vanguard party over a socialist revolutionary government. The ideology is officially based on the theories of the Syrian intellectuals Michel Aflaq, Zaki al-Arsuzi, and Salah al-Din al-Bitar.;x
 baathist_rebels_name;$COUNTRY$ Ba'athists;x
 baathist_rebels_army;$COUNTRY_ADJ$ Ba'athist Popular Army;x
@@ -1125,7 +1125,7 @@ ask_for_outer_manchuria_desc;Although we have asserted out dominance over Easter
 siberian_supply;Local Supply Sourcing;x
 siberian_supply_desc;Some nations, due to their remote geography, have become experts when it comes to fighting in barren high attrition locations.;x
 proxy_war;Proxy War Intervention;x
-proxy_war_short;Force $RECIPIENT$ to surrender their main war.;x
+proxy_war_short;Force $RECIPIENT$ to surrender their main war. (If you see this, report it! This is a bug.);x
 proxy_war_setup;Will force the target to be full sieged by one of their enemies. Priority is given to player enemies and our spherelings.;x
 proxy_war_desc;Will force the target to be full sieged by one of their enemies. Priority is given to player enemies and our spherelings.;x
 proxy_war_real;Proxy War Intervention;x
@@ -1134,3 +1134,4 @@ proxy_war_real_setup;Will force the target to be full sieged by one of their ene
 proxy_war_real_desc;Will force the target to be full sieged by one of their enemies. Priority is given to player enemies and our spherelings.;x
 AGRESSION_PROXY_WAR_NAME;Proxy War in $SECOND_COUNTRY$;x
 NORMAL_PROXY_WAR_NAME;Proxy War in $SECOND_COUNTRY$;x
+event500283desc;The intervention of the Iranian military in putting down several riots across the country has backfired massively as numerous groups have sprung up in open revolt against the German backed regime. The rioting originated in response to the assasination of the Shah Mohammed Pahlavi, whose 'White Revolution' reforms turned most of the nation against him. Regardless of the politics, oil production in the region will be impacted for quite some time.;x

@@ -6,15 +6,15 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-			any_owned_province = {
-				rally_point = yes
-			}
 		}
 		effect = {
-
+			end_war = USA
 		}
 	}
 
 }
 
 
+#So...
+#FROM = {end_war = THIS} will kick THIS out of the wars FROM is in
+#THIS = {end_war = FROM} will kick FROM out of the wars THIS is in

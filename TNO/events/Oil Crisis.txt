@@ -1,0 +1,395 @@
+country_event = {
+	major = yes
+	id = 500283
+	title = "The Iranian Civil War"
+	desc = "event500283desc"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PER
+		ai = yes
+		OR = {
+			any_core = {
+				NOT = {owned_by = THIS}
+			}
+			year = 1972
+		}
+		war = no
+	}
+
+	immediate = {
+		random_owned = {
+			state_scope = {
+				any_owned = {add_core = OLD}
+			}
+		}
+		random_owned = {
+			limit = {
+				NOT = {is_core = OLD}
+				any_neighbor_province = {
+					is_core = OLD
+				}
+			}
+			state_scope = {
+				any_owned = {add_core = OLD}
+			}
+		}
+
+		random_owned = {
+			limit = {
+				NOT = {is_core = OLD}
+			}
+			state_scope = {
+				any_owned = {add_core = HOL}
+			}
+		}
+		random_owned = {
+			limit = {
+				NOT = {is_core = OLD}
+				NOT = {is_core = HOL}
+				any_neighbor_province = {
+					is_core = HOL
+				}
+			}
+			state_scope = {
+				any_owned = {add_core = HOL}
+			}
+		}
+
+		random_owned = {
+			limit = {
+				NOT = {is_core = OLD}
+				NOT = {is_core = HOL}
+			}
+			state_scope = {
+				any_owned = {add_core = WEI}
+			}
+		}
+		random_owned = {
+			limit = {
+				NOT = {is_core = OLD}
+				NOT = {is_core = HOL}
+				NOT = {is_core = WEI}
+				any_neighbor_province = {
+					is_core = WEI
+				}
+			}
+			state_scope = {
+				any_owned = {add_core = WEI}
+			}
+		}
+
+		any_owned = {
+			limit = {
+				is_core = HOL
+			}
+			secede_province = HOL
+		}
+		any_owned = {
+			limit = {
+				is_core = WEI
+			}
+			secede_province = WEI
+		}
+		any_owned = {
+			limit = {
+				is_core = OLD
+			}
+			secede_province = OLD
+		}
+
+		#release = HOL
+		#release = WEI
+		#release = OLD
+
+		PER = {
+			all_core = {
+				add_core = HOL
+				add_core = WEI
+				add_core = OLD
+			}
+		}
+
+		#create some units and do the modifier buff
+		any_country = {
+			limit = {
+				OR = {
+					tag = OLD
+					tag = WEI
+					tag = HOL
+				}
+			}
+			capital_scope = {
+				sub_unit = { 
+					type = artillery
+					value = current 
+				}
+				sub_unit = { 
+					type = artillery
+					value = current 
+				}
+				sub_unit = { 
+					type = artillery
+					value = current 
+				}
+				sub_unit = { 
+					type = infantry
+					value = current 
+				}
+				sub_unit = { 
+					type = infantry
+					value = current 
+				}
+				sub_unit = { 
+					type = infantry
+					value = current 
+				}
+			}
+			add_country_modifier = {
+				name = sge_mobbuff
+				duration = 365
+			}
+			any_owned = {
+				limit = {
+					NOT = {soldiers = 0.03}
+				}
+				any_pop = {
+					limit = {
+						type = soldiers
+					}
+					reduce_pop = 2
+				}
+			}
+				
+		}
+		
+			capital_scope = {
+				sub_unit = { 
+					type = artillery
+					value = current 
+				}
+				sub_unit = { 
+					type = artillery
+					value = current 
+				}
+				sub_unit = { 
+					type = artillery
+					value = current 
+				}
+				sub_unit = { 
+					type = infantry
+					value = current 
+				}
+				sub_unit = { 
+					type = infantry
+					value = current 
+				}
+				sub_unit = { 
+					type = infantry
+					value = current 
+				}
+			}
+			add_country_modifier = {
+				name = sge_mobbuff
+				duration = 365
+			}
+			any_owned = {
+				limit = {
+					NOT = {soldiers = 0.03}
+				}
+				any_pop = {
+					limit = {
+						type = soldiers
+					}
+					reduce_pop = 2
+				}
+			}
+		
+
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				NOT = {tag = BRG}
+				primary_culture = north_german
+				exists = yes
+			}
+			diplomatic_influence = {
+				who = PER
+				value = 300
+			}
+		}
+		JAP = {
+			diplomatic_influence = {
+				who = OLD
+				value = 300
+			}
+		}
+		USA = {
+			diplomatic_influence = {
+				who = WEI
+				value = 300
+			}
+		}
+		ITA = {
+			diplomatic_influence = {
+				who = HOL
+				value = 300
+			}
+		}
+
+		war = {
+			target = OLD
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+			call_ally = no
+		}
+		war = {
+			target = WEI
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+			call_ally = no
+		}
+		war = {
+			target = HOL
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+			call_ally = no
+		}
+		WEI = {
+			war = {
+				target = OLD
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+		WEI = {
+			war = {
+				target = HOL
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+		HOL = {
+			war = {
+				target = OLD
+				attacker_goal = { casus_belli = civil_war }
+				defender_goal = { casus_belli = civil_war }
+				call_ally = no
+			}
+		}
+
+
+		#proxy shit
+		any_country = {
+			limit = {
+				tag = JAP
+				ai = yes
+				war = no
+			}
+			war = {
+				target = HOL
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			war = {
+				target = WEI
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			war = {
+				target = PER
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+		}
+		any_country = {
+			limit = {
+				tag = ITA
+				ai = yes
+				war = no
+			}
+			war = {
+				target = OLD
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			war = {
+				target = WEI
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			war = {
+				target = PER
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+		}
+		any_country = {
+			limit = {
+				tag = USA
+				ai = yes
+				war = no
+			}
+			war = {
+				target = HOL
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			war = {
+				target = OLD
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			war = {
+				target = PER
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+		}
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				NOT = {tag = BRG}
+				primary_culture = north_german
+				exists = yes
+
+				ai = yes
+				war = no
+			}
+			war = {
+				target = HOL
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			war = {
+				target = WEI
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			war = {
+				target = OLD
+				attacker_goal = { casus_belli = proxy_war_real }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+		}
+	}
+
+	option = {
+		name = "How terrible!"
+	}
+}

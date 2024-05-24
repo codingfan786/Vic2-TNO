@@ -28,11 +28,41 @@ political_decisions = {
 				}
 			}
 			country_event = 500209
+
+			any_country = {
+				limit = {
+					NOT = {
+						tag = THIS
+					}
+					OR = {
+						tag = SYR
+						tag = YEM
+						tag = OMA
+						tag = NEJ
+						tag = ABU
+						tag = JOR
+						tag = IRQ
+						tag = EGY
+
+						tag = IGY
+						tag = IIS
+					}
+				}
+				any_owned = {
+					any_pop = {
+						militancy = 8
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 0
+				OR = {
+					NOT = {tag = YEM}
+					in_sphere = ITA
+				}
 				NOT = {
 					nationalism_n_imperialism = 1
 				}

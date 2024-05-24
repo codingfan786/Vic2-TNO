@@ -9,7 +9,7 @@
 	}
 
 	bureaucrats = {
-		culture = bedouin
+		culture = mashriqi
 		religion = protestant
 		size = 60
 	}
@@ -160,7 +160,7 @@
 	bureaucrats = {
 		culture = mashriqi
 		religion = protestant
-		size = 200
+		size = 6200
 	}
 
 	officers = {
