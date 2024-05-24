@@ -83,11 +83,11 @@ country_event = {
 		days = 1
 	}
 	option = {
-		name "1"
+		name = "1"
 		set_country_flag = HND_AI_1
 	}
 	option = {
-		name "2"
+		name = "2"
 		set_country_flag = HND_AI_2
 	}
 }
