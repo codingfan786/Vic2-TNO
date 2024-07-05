@@ -216,25 +216,25 @@ country_event = {
 			}
 			diplomatic_influence = {
 				who = PER
-				value = 300
+				value = 600
 			}
 		}
 		JAP = {
 			diplomatic_influence = {
 				who = OLD
-				value = 300
+				value = 600
 			}
 		}
 		USA = {
 			diplomatic_influence = {
 				who = WEI
-				value = 300
+				value = 600
 			}
 		}
 		ITA = {
 			diplomatic_influence = {
 				who = HOL
-				value = 300
+				value = 600
 			}
 		}
 

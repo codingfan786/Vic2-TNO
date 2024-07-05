@@ -853,7 +853,7 @@
 	farmers = {
 		culture = kurdish
 		religion = protestant
-		size = 23250
+		size = 43250
 	}
 
 	aristocrats = {
@@ -883,7 +883,7 @@
 	farmers = {
 		culture = persian
 		religion = protestant
-		size = 5437.5
+		size = 15437.5
 	}
 }
 #Khorramabad (64000/16000 POPS)
@@ -915,7 +915,7 @@
 	farmers = {
 		culture = persian
 		religion = protestant
-		size = 20925
+		size = 30925
 	}
 }
 #Ajami Region (888000)
@@ -1529,7 +1529,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = protestant
-		size = 2700
+		size = 12700
 	}
 
 	aristocrats = {
@@ -1559,7 +1559,7 @@
 	farmers = {
 		culture = persian
 		religion = protestant
-		size = 8212.5
+		size = 18212.5
 	}
 }
 #Shahr-e Kord (32000/8000 POPS)
@@ -1591,7 +1591,7 @@
 	farmers = {
 		culture = persian
 		religion = protestant
-		size = 10912.5
+		size = 100912.5
 	}
 }
 #Fars Region (468000)
@@ -1681,7 +1681,7 @@
 	farmers = {
 		culture = persian
 		religion = protestant
-		size = 34200
+		size = 64200
 	}
 }
 #Yasuj (144000/36000 POPS)

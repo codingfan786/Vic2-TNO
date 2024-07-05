@@ -3,7 +3,7 @@ controller = USA
 
 add_core = USA
 add_core = TEX
-trade_goods = oil
+trade_goods = sulphur
 life_rating = 35
 2161.1.1 = {
 owner = USA
