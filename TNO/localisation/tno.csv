@@ -814,6 +814,7 @@ baathism_short;Spread the Ba'athist revolution to $RECIPIENT$! This annexes all 
 baathism_setup;Acquire Arab states from $RECIPIENT$. §R This CB costs 5 infamy, despite what this menu says.;;;;;;;;;;;;x;;;
 baathism_desc;Ba'athist uprising spreads! §R This CB costs 5 infamy, despite what this menu says.;x
 arab_unrest;Arab Unrest;x
+arab_unrest_uar;Arab Unrest;x
 iet_inherit_title;Integrate the East African Occupational Government.;;;;;;;;;;;;x
 iet_inherit_desc;The East African occupational government has served its purpose. It is time that we take direct control of the territory. §R The requirements localization is bugged. This becomes available when all stated provinces in the puppet are majority Italian.;;;;;;;;;;;;x
 iis_inherit_title;Integrate the Levantine Occupational Government.;;;;;;;;;;;;x

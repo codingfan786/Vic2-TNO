@@ -170,7 +170,10 @@ country_event = {
 				defender_goal = { casus_belli = status_quo }
 				call_ally = no
 			}
-
+		any_country = {
+			limit = {has_country_flag = reform_blocked}
+			clr_country_flag = reform_blocked
+		}
 
 	}
 	option = {

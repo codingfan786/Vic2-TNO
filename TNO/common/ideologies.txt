@@ -8,6 +8,13 @@ fascist_group = {
 
 		add_political_reform = {
 			base = 0
+			modifier = {
+				factor = -1
+				AND = {
+					ai = yes
+					has_country_flag = reform_blocked
+				}	
+			}
 			group = {
 				modifier = {
 					factor = 0.1
@@ -85,6 +92,13 @@ fascist_group = {
 			base = 1
 			modifier = {
 				factor = -1
+				AND = {
+					ai = yes
+					has_country_flag = reform_blocked
+				}	
+			}
+			modifier = {
+				factor = -1
 				OR = {
 					NOT = { ruling_party_ideology = fascist }
 					num_of_revolts = 1
@@ -117,6 +131,7 @@ conservative_group = {
 		
 		add_political_reform = {
 			base = 0
+
 			group = {
 				modifier = {
 					factor = 0.1
@@ -210,6 +225,13 @@ conservative_group = {
 		
 		add_political_reform = {
 			base = 0.1
+			modifier = {
+				factor = -1
+				AND = {
+					ai = yes
+					has_country_flag = reform_blocked
+				}	
+			}
 			group = {
 				modifier = {
 					factor = 0.1
@@ -281,7 +303,13 @@ conservative_group = {
 		}
 		add_social_reform = {
 			base = 0.1
-			
+			modifier = {
+				factor = -1
+				AND = {
+					ai = yes
+					has_country_flag = reform_blocked
+				}	
+			}
 			group = {
 				modifier = {
 					factor = 0.1

@@ -929,6 +929,10 @@ egalitarianism = {
 	}
 	effect = {
 		plurality = 0.05
+		rebel_org_gain = {
+			faction = baathist_rebels
+			value = 1
+		}
 	}
 }
 rationalism = {
@@ -1472,7 +1476,10 @@ secret_police = {
 			faction = all
 			value = -0.25
 		}
-		
+		rebel_org_gain = {
+			faction = baathist_rebels
+			value = 0.25
+		}
 		suppression_points_modifier = 0.25
 	}
 }
@@ -1653,6 +1660,10 @@ the_police_state = {
 		rebel_org_gain = {
 			faction = all
 			value = -0.25
+		}
+		rebel_org_gain = {
+			faction = baathist_rebels
+			value = 0.25
 		}
 		
 		suppression_points_modifier = 0.25

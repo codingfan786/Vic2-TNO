@@ -8,7 +8,7 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			end_war = USA
+			any_pop = {militancy = 10}
 		}
 	}
 

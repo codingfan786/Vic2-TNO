@@ -53,6 +53,11 @@ political_decisions = {
 						militancy = 8
 					}
 				}
+				add_country_modifier = {
+					name = arab_unrest_uar
+					duration = 365
+				}
+				set_country_flag = reform_blocked
 			}
 		}
 		ai_will_do = {
@@ -64,12 +69,67 @@ political_decisions = {
 					in_sphere = ITA
 				}
 				NOT = {
-					nationalism_n_imperialism = 1
+					year = 1972
 				}
 			}
 		}
 	}
 	
+	form_UAR_ai = {
+		picture = form_arabia
+		potential = {
+			ai = yes
+			NOT = {exists = ARA}
+			tag = YEM
+		}
+		allow = {
+			#ruling_party_ideology = socialist
+			year = 1971
+			month = 9
+		}
+		effect = {
+			release_vassal = THIS
+			sphere_owner = {
+				diplomatic_influence = {
+					who = THIS
+					value = -300
+				}
+			}
+			country_event = 500209
+
+			any_country = {
+				limit = {
+					NOT = {
+						tag = THIS
+					}
+					OR = {
+						tag = SYR
+						tag = YEM
+						tag = OMA
+						tag = NEJ
+						tag = ABU
+						tag = JOR
+						tag = IRQ
+						tag = EGY
+
+						tag = IGY
+						tag = IIS
+					}
+				}
+				any_owned = {
+					any_pop = {
+						militancy = 8
+					}
+				}
+				add_country_modifier = {
+					name = arab_unrest_uar
+					duration = 365
+				}
+				set_country_flag = reform_blocked
+			}
+		}
+	}
+
 	expand_UAR_cores = {
 		picture = form_arabia
 		potential = {
