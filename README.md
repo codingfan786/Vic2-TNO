@@ -32,6 +32,8 @@ Not as important:
 - Afghanistan
 
 ## Proxy War CB
+Proxy War CB's are a unique instant CB you can use to intervene in your sphereling's war without risk of losing any land yourself.
+
 For MP the following rules concerning the Proxy War CB are strongly suggested:
 
 - Proxy CB wars should not be surrendered unless pulling out of/surrendering the main war.
