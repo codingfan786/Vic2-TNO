@@ -30,6 +30,7 @@ For MP the following rosterable nation list is suggested:
 Not as important:
 - Kazakhstan
 - Afghanistan
+- Anyone in the Middle East/Arabia can form the United Arab Republic. Italian Egypt and Levant can rebel form it.
 
 ## Proxy War CB
 Proxy War CB's are a unique instant CB you can use to intervene in your sphereling's war without risk of losing any land yourself.

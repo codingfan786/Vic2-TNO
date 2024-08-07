@@ -72,6 +72,23 @@ political_decisions = {
 					year = 1972
 				}
 			}
+			modifier = {
+				factor = 0
+				has_global_flag = UAR_exists
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					SYR = {ai = no}
+					YEM = {ai = no}
+					OMA = {ai = no}
+					NEJ = {ai = no}
+					ABU = {ai = no}
+					JOR = {ai = no}
+					IRQ = {ai = no}
+					EGY = {ai = no}
+				}
+			}
 		}
 	}
 	
@@ -81,6 +98,7 @@ political_decisions = {
 			ai = yes
 			NOT = {exists = ARA}
 			tag = YEM
+			NOT = {has_global_flag = UAR_exists}
 		}
 		allow = {
 			#ruling_party_ideology = socialist
@@ -126,6 +144,22 @@ political_decisions = {
 					duration = 365
 				}
 				set_country_flag = reform_blocked
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					SYR = {ai = no}
+					YEM = {ai = no}
+					OMA = {ai = no}
+					NEJ = {ai = no}
+					ABU = {ai = no}
+					JOR = {ai = no}
+					IRQ = {ai = no}
+					EGY = {ai = no}
+				}
 			}
 		}
 	}

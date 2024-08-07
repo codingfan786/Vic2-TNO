@@ -144,6 +144,26 @@ country_event = {
 
 		any_owned = {
 			limit = {
+				owner = {
+					OR = {
+						tag = NEJ
+						tag = OMA
+						tag = YEM
+						tag = IRQ
+						tag = EGY
+						tag = ABU
+						tag = JOR
+						tag = SYR
+						tag = ISR
+					}
+				}
+				is_capital = yes
+			}
+			ARA = {inherit = THIS}
+		}
+
+		any_owned = {
+			limit = {
 				OR = {
 					is_core = NEJ
 					is_core = OMA
@@ -307,6 +327,26 @@ country_event = {
 				}
 				
 			}
+		}
+
+		any_owned = {
+			limit = {
+				owner = {
+					OR = {
+						tag = NEJ
+						tag = OMA
+						tag = YEM
+						tag = IRQ
+						tag = EGY
+						tag = ABU
+						tag = JOR
+						tag = SYR
+						tag = ISR
+					}
+				}
+				is_capital = yes
+			}
+			ARA = {inherit = THIS}
 		}
 
 		any_owned = {
