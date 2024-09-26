@@ -1136,3 +1136,8 @@ proxy_war_real_desc;Will force the target to be full sieged by one of their enem
 AGRESSION_PROXY_WAR_NAME;Proxy War in $SECOND_COUNTRY$;x
 NORMAL_PROXY_WAR_NAME;Proxy War in $SECOND_COUNTRY$;x
 event500283desc;The intervention of the Iranian military in putting down several riots across the country has backfired massively as numerous groups have sprung up in open revolt against the German backed regime. The rioting originated in response to the assasination of the Shah Mohammed Pahlavi, whose 'White Revolution' reforms turned most of the nation against him. Regardless of the politics, oil production in the region will be impacted for quite some time.;x
+event500284desc;Thailand has closely followed the model of Italian fascism since the late 1930's, with dreams of dominion over all of the Indochinese peninsula accompanying the western-style modernization programs. \nIt is only in recent times that this dream has become possible, with the government in Tokyo giving the Thai government their full blessing in calling for a pan-Asian Indochinese state.;x
+consolidate_indochina_title;Consolidate Indochina!;x
+consolidate_indochina_desc;The domination of Indochina by a Thai state has been the dream of the Thai people since the Thai Cultural Revolution of 1939. Now, after a long period of effort and patience, the people of the Indochinese peninsula have finally come to accept their place in the new Thai order.;x
+THA;Greater Thailand;x
+THA_ADJ;Thai;x

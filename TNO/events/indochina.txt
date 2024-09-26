@@ -1,0 +1,62 @@
+country_event = {
+	id = 500284
+	title = "$YEAR$ Bangkok Conference"
+	desc = "event500284desc"
+
+	trigger = {
+		tag = SIA
+		year = 1966
+		#state_n_government = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Our neighbours have no choice but to accept our demands!"
+		any_country = {
+			limit = {
+				OR = {
+					tag = BUR
+					tag = LUA
+					tag = CAM
+					tag = DAI
+				}
+				vassal_of = THIS
+				exists = yes
+			}
+			any_owned = {
+				secede_province = THIS
+				any_pop = {
+					limit = {
+						NOT = {has_pop_culture = thai}
+					}
+					militancy = 9
+				}
+			}
+		}
+		change_tag = THA
+		set_country_flag = temp
+		random_owned = {
+			limit = {
+				owner = {
+					has_country_flag = temp
+				}
+			}
+			SIA = {
+				all_core = {
+					remove_core = SIA
+				}
+			}
+		}
+		clr_country_flag = temp
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "It would be better if our pan-Asian policies were implemented gradually..."
+		ai_chance = {
+			factor = 9
+		}
+	}
+}

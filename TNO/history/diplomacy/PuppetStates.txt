@@ -1,23 +1,23 @@
 vassal = {
-	first = JAP
+	first = SIA #JAP
 	second = BUR
 	start_date = 1836.1.1
 }
 
 vassal = {
-	first = JAP
+	first = SIA #JAP
 	second = DAI
 	start_date = 1836.1.1
 }
 
 vassal = {
-	first = JAP
+	first = SIA #JAP
 	second = CAM
 	start_date = 1836.1.1
 }
 
 vassal = {
-	first = JAP
+	first = SIA #JAP
 	second = LUA
 	start_date = 1836.1.1
 }

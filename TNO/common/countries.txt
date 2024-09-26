@@ -370,6 +370,8 @@ CH4 = "countries/CH4.txt"
 CH5 = "countries/CH5.txt"
 CH6 = "countries/CH6.txt"
 
+THA = "countries/GreaterThailand.txt"
+
 R01 = "countries/R01.txt"
 R02 = "countries/R02.txt"
 R03 = "countries/R03.txt"

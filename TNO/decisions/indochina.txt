@@ -1,0 +1,71 @@
+political_decisions = {
+
+	consolidate_indochina = {
+		picture = peking_convention
+		potential = {
+			OR = {
+				tag = SIA
+				tag = THA
+			}
+			NOT = {has_country_flag = consolidated_indochina}
+		}
+		allow = {
+			OR = {
+				AND = {
+					BUR = {
+						vassal_of = THIS
+						exists = yes
+					}
+					LUA = {
+						vassal_of = THIS
+						exists = yes
+					}
+					CAM = {
+						vassal_of = THIS
+						exists = yes
+					}
+					DAI = {
+						vassal_of = THIS
+						exists = yes
+					}
+					nationalism_n_imperialism = 1
+				}
+				empiricism = 1
+			}
+		}
+		effect = {
+			set_country_flag = consolidated_indochina
+			any_country = {
+				limit = {
+					OR = {
+						tag = BUR
+						tag = LUA
+						tag = CAM
+						tag = DAI
+					}
+					vassal_of = THIS
+					exists = yes
+				}
+				any_owned = {
+					secede_province = THIS
+				}
+			}
+			add_accepted_culture = vietnamese
+			add_accepted_culture = burmese
+			change_tag = THA
+			random_owned = {
+				limit = {
+					owner = {
+						has_country_flag = consolidated_indochina
+					}
+				}
+				SIA = {
+					all_core = {
+						remove_core = SIA
+					}
+				}
+			}
+		}
+	}
+
+}
