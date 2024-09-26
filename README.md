@@ -22,6 +22,7 @@ For MP the following rosterable nation list is suggested:
 
 - N.P.A. (That brown country in Yunnan)
 - India
+- Thailand
 
 - South Africa
 - Sudwest Afrika
@@ -31,6 +32,8 @@ Not as important:
 - Kazakhstan
 - Afghanistan
 - Anyone in the Middle East/Arabia can form the United Arab Republic. Italian Egypt and Levant can rebel form it.
+
+If you need to cut countries from the main list I would recommend cutting Nigeria, Free France, Russia #2, and possibly N.P.A.
 
 ## Proxy War CB
 Proxy War CB's are a unique instant CB you can use to intervene in your sphereling's war without risk of losing any land yourself.
