@@ -294,6 +294,32 @@ political_decisions = {
 
 		}
 		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						tag = RUS
+						tag = RAR
+						tag = NUC
+						tag = FED
+					}
+				}
+				any_pop = {
+					limit = {
+						type = clergymen
+					}
+					reduce_pop = 2.5
+				}
+			}
+
+			any_country = {
+				limit = {
+					ai = no
+				}
+				country_event = 500285
+			}
+
+	
+
 			MSC = {
 				any_pop = {
 					limit = {

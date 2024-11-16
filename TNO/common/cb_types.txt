@@ -68,9 +68,6 @@ acquire_state
 acquire_capital
 acquire_substate_region
 place_in_the_sun
-place_in_the_sun_alt
-africa_post_scramble
-africa_pre_scramble
 colonial_competition
 cut_down_to_size_boxer
 cut_down_to_size 
@@ -90,7 +87,6 @@ unification_release_puppet_cb
 unification_casus_belli
 unification_annex_casus_belli
 rude_boy
-annex
 ger_annex
 install_communist_gov_cb
 uninstall_communist_gov_cb
@@ -105,7 +101,6 @@ missile_crisis
 baathism
 germany_fights_feu
 carve_up_france
-free_allies_sp
 proxy_war_real
 proxy_war
 }
@@ -254,26 +249,6 @@ conquest = {
 			}
 		}
 		is_independant = yes
-
-		NOT = {
-			OR = {
-				tag = MAL
-				tag = LIB
-				tag = BFA
-				tag = NGA
-				tag = NIG
-				tag = CAR
-				tag = CNG
-				tag = ZAM
-				tag = KEN
-				tag = MOZ
-				tag = ANG
-				tag = AF1
-				tag = AF2
-				tag = AF3
-				tag = AF4
-			}
-		}
 	}
 
 	badboy_factor = 1
@@ -646,26 +621,6 @@ acquire_state = {
 			}
 		}
 		is_independant = yes
-
-		NOT = {
-			OR = {
-				tag = MAL
-				tag = LIB
-				tag = BFA
-				tag = NGA
-				tag = NIG
-				tag = CAR
-				tag = CNG
-				tag = ZAM
-				tag = KEN
-				tag = MOZ
-				tag = ANG
-				tag = AF1
-				tag = AF2
-				tag = AF3
-				tag = AF4
-			}
-		}
 	}
 	
 	allowed_states = {
@@ -726,63 +681,8 @@ place_in_the_sun = {
 		any_owned_province = {
 			is_colonial = yes
 		}	
-		NOT = {THIS = {has_country_flag = did_brudermord}}
+		#NOT = {THIS = {has_country_flag = did_brudermord}}
 		is_substate = no
-	}
-	
-	allowed_states = {
-		is_colonial = yes
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			OR = {
-				is_coastal = yes
-				any_neighbor_province = {
-					owner = { tag = THIS }
-				}
-			}
-		}
-	}
-
-	po_demand_state = yes
-
-	war_name = WAR_COLONIAL_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-
-place_in_the_sun_alt = {
-	sprite_index = 7
-	is_triggered_only = yes
-	months = 12
-
-	badboy_factor = 0.3
-	prestige_factor = 2
-	peace_cost_factor = 1.25 
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 0
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		any_owned_province = {
-			is_colonial = yes
-		}	
-		THIS = {has_country_flag = did_brudermord}
 	}
 	
 	allowed_states = {
@@ -1931,7 +1831,7 @@ great_war_penalty_cb = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	po_disarmament = yes
+	#po_disarmament = yes
 	po_reparations = yes
 
 	war_name = WAR_NAME
@@ -1992,26 +1892,6 @@ acquire_capital = {
 			}
 		}
 		is_independant = yes
-
-		NOT = {
-			OR = {
-				tag = MAL
-				tag = LIB
-				tag = BFA
-				tag = NGA
-				tag = NIG
-				tag = CAR
-				tag = CNG
-				tag = ZAM
-				tag = KEN
-				tag = MOZ
-				tag = ANG
-				tag = AF1
-				tag = AF2
-				tag = AF3
-				tag = AF4
-			}
-		}
 	}
 	
 	allowed_states = {
@@ -2061,26 +1941,6 @@ tiny_conquest = {
 		
 		
 		is_independant = yes
-
-		NOT = {
-			OR = {
-				tag = MAL
-				tag = LIB
-				tag = BFA
-				tag = NGA
-				tag = NIG
-				tag = CAR
-				tag = CNG
-				tag = ZAM
-				tag = KEN
-				tag = MOZ
-				tag = ANG
-				tag = AF1
-				tag = AF2
-				tag = AF3
-				tag = AF4
-			}
-		}
 	}
 
 	badboy_factor = 0.5
@@ -2923,203 +2783,6 @@ ofn_mandate = {
 
 	on_po_accepted = {
 		country_event = 500133
-	}
-}
-
-
-africa_pre_scramble = {
-	sprite_index = 7
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 2.2
-	prestige_factor = 2
-	peace_cost_factor = 1
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 0
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		#number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-
-		NOT = {has_global_flag = africa_scrambled}
-		OR = {
-			tag = MAL
-			tag = LIB
-			tag = BFA
-			tag = NGA
-			tag = NIG
-			tag = CAR
-			tag = CNG
-			tag = ZAM
-			tag = KEN
-			tag = MOZ
-			tag = ANG
-			tag = AF1
-			tag = AF2
-			tag = AF3
-			tag = AF4
-		}
-		NOT = {
-			THIS = {
-				capital_scope = {continent = africa}
-			}
-		}
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		#not = { any_owned_province = { is_capital = yes } }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-
-africa_post_scramble = {
-	sprite_index = 7
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 0.8
-	prestige_factor = 2
-	peace_cost_factor = 1
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 0
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		#number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-		is_independant = yes
-
-		OR = {
-			has_global_flag = africa_scrambled
-			THIS = {
-				capital_scope = {continent = africa}
-			}
-		}
-		OR = {
-			tag = MAL
-			tag = LIB
-			tag = BFA
-			tag = NGA
-			tag = NIG
-			tag = CAR
-			tag = CNG
-			tag = ZAM
-			tag = KEN
-			tag = MOZ
-			tag = ANG
-			tag = AF1
-			tag = AF2
-			tag = AF3
-			tag = AF4
-		}
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		#not = { any_owned_province = { is_capital = yes } }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
 	}
 }
 
@@ -4302,99 +3965,6 @@ carve_up_france = {
 				add_core = SFR
 			}
 		}	
-	}
-}
-
-free_allies_sp = {
-	sprite_index = 5
-	is_triggered_only = yes
-	months = 12
-
-	badboy_factor = 0
-	prestige_factor = 0
-	peace_cost_factor = 0.7
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 0
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-	
-	
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		NOT = {
-			any_greater_power = {
-				AND  = {
-					NOT = {tag = THIS}
-					ai = no
-				}
-			}
-		}
-	}
-
-	# THIS - us
-	# FROM - country scope is possible match?
-	# war target country of goal is scope
-	allowed_countries = {
-		number_of_states = 2
-		NOT = {
-			tag = FROM
-			this_culture_union = FROM	
-		}
-		THIS = {is_sphere_leader_of = FROM}
-		FROM = {
-			OR = {
-				exists = yes
-				NOT = {
-						OR = {
-							tag = GER
-							tag = SCA
-							#tag = ITA
-							#tag = YUG
-							#tag = ROM
-							#tag = CZH
-						}
-					}
-				}
-			}
-		
-		THIS = {ai = no}
-
-		any_owned_province = {
-			is_core = FROM
-			NOT =
-			{
-				is_core = THIS
-			}
-		}
-		is_releasable_vassal = FROM
-
-	}
-
-	# THIS - us
-	# FROM - country scope is possible match?
-	# war target country of goal's state
-	allowed_states = {
-		any_owned_province = {
-			is_core = FROM
-		}
-	}
-
-	po_transfer_provinces = yes
-
-	war_name = WAR_FREE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
 	}
 }
 

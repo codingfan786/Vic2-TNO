@@ -91,6 +91,7 @@ province_event = {
 
 country_event = {
 	major = yes
+
 	id = 500061
 	title = "Anarchy in the south!"
 	desc = "Tensions have risen to the breaking point and anarchy has descended on the southern states! Mass lynchings are occuring and immediate military invervention is needed desparately!"
@@ -144,11 +145,9 @@ country_event = {
 			limit = {
 				has_province_modifier = racial_discontent
 			}
-			secede_province = CSA
-			add_core = CSA
 			add_province_modifier = {
 				name = uncontrolled_lynchings
-				duration = -1
+				duration = 1825
 			}
 		}
 		any_owned = {
@@ -157,19 +156,9 @@ country_event = {
 			}
 			remove_province_modifier = racial_integration
 		}
+
 		set_global_flag = acw_start
-		CSA = {
-			add_country_modifier = {
-				name = sge_mobbuff
-				duration = 365
-			}
-		}
-		war = {
-				target = CSA
-				attacker_goal = { casus_belli = civil_war }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
-			}
+
 		any_country = {
 			limit = {has_country_flag = reform_blocked}
 			clr_country_flag = reform_blocked
@@ -178,10 +167,6 @@ country_event = {
 	}
 	option = {
 		name = "How terrible!"
-	}
-	option = {
-		name = "We must secure the future of our race!"
-		change_tag_no_core_switch = CSA
 	}
 }
 
@@ -192,13 +177,11 @@ province_event = {
 
 	trigger = {
 		has_province_modifier = uncontrolled_lynchings
-		NOT = {controlled_by = CSA}
-		NOT = {controlled_by = REB}
-		has_global_flag = acw_start
+		country_units_in_province = THIS
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		days = 7
 	}
 
 	immediate = {
@@ -207,67 +190,5 @@ province_event = {
 	option = {
 		name = "Stability must be brought by force!"
 	}
-
 }
 
-country_event = {
-	id = 500066
-	title = "Stirrings in the south."
-	desc = "EVENT500066"
-
-	trigger = {
-		tag = USA
-		NOT = {has_global_flag = acw_war_explained}
-		
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-	option = {
-		set_global_flag = acw_war_explained
-		name = "I see."
-			any_country = {
-				limit = {
-					NOT = {is_greater_power = yes}
-				}
-				treasury = 50000
-			} 
-			GGE = {treasury = 500000}
-			SGE = {treasury = 500000}
-			HGE = {treasury = 500000}
-			BGE = {treasury = 500000}
-			ONE = {treasury = 1000000}
-	}
-}
-
-country_event = {
-	id = 500076
-	title = "Southern Lynchings Continue."
-	desc = ""
-
-	trigger = {
-		tag = CSA
-		NOT = {has_country_flag = csa_won}
-	}
-	mean_time_to_happen = {
-		days = 30
-	}
-
-	immediate = {
-		any_owned = {
-			limit = {
-				has_province_modifier = uncontrolled_lynchings
-			}
-			any_pop = {
-				limit = {
-					has_pop_culture = afro_american
-				}
-				reduce_pop = 0.85
-			}
-		}
-	}
-	option = {
-		name = "Finally cleaning up the country."
-	}
-}

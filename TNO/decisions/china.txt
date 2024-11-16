@@ -269,6 +269,16 @@ political_decisions = {
 					prestige = -100
 					government = presidential_dictatorship
 				}
+				CHI = {
+					any_owned = {
+						limit = {
+							is_coastal = yes
+						}
+						secede_province = JAP
+					}
+					set_country_flag = CHI_mobnerf
+				}
+					
 			}
 		}
 	}

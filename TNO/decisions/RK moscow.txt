@@ -124,7 +124,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = ss_formed_osteuropa
-			add_accepted_culture = russian
+			#add_accepted_culture = russian
 			add_accepted_culture = ukrainian
 			add_accepted_culture = lithuanian
 			add_accepted_culture = latvian

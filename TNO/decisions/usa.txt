@@ -218,11 +218,9 @@ political_decisions = {
 			NOT= {accepted_culture = afro_american}
 		}
 		allow = {
-			all_core = {
-				OR = {
-					owner = {tag = USA}
-					province_id = 658
-					is_core = PHI
+			NOT = {
+				any_owned_province = {
+					has_province_modifier = uncontrolled_lynchings
 				}
 			}
 			state_n_government = 1

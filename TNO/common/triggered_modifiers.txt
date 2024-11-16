@@ -494,3 +494,9 @@ save_the_nation5  = {
 }
 
 
+china_puppet = {
+	trigger = {
+		has_country_flag = CHI_mobnerf
+	}
+	supply_consumption = -0.70
+}

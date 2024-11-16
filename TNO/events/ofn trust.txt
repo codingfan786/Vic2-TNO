@@ -317,6 +317,10 @@ country_event = {
 					tag = ARA
 				}
 			}
+			modifier = {
+				factor = 0
+				truce_with = USA
+			}
 		}
 	}
 

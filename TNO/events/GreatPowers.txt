@@ -10,6 +10,9 @@ country_event = {
 	immediate = {
 		great_wars_enabled = yes
 		set_global_flag = great_wars_enabled
+		any_country = {
+			treasury = 450000
+		}
 	}
 
 	trigger = {

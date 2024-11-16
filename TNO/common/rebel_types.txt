@@ -3163,7 +3163,10 @@ african_rebels = {
 		modifier = {
 			factor = 0
 			country = {
-				has_country_flag = no_more_african_rebels
+				OR = {
+					has_country_flag = no_more_african_rebels
+					has_country_flag = super_africans_won
+				}
 			}
 		}
 

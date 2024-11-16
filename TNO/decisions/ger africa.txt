@@ -27,19 +27,21 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				OR = {
-					AND = {
+
+				AND = {
+					has_country_flag = super_africans_won
+					OR = {
 						tag = EGA
-						exists = KEN
-					}
-					AND = {
 						tag = WGA
-						exists = CNG
-					}
-					AND = {
 						tag = SGA
-						exists = ANG
 					}
+				}
+			}
+			modifier = {
+				factore = 0
+				OR = {
+					is_vassal = yes
+					is_substate = yes
 				}
 			}
 		}
@@ -62,16 +64,21 @@ political_decisions = {
 		effect = {
 			set_country_flag = no_more_african_rebels
 
+			release_vassal = WGA
+			release_vassal = EGA
+
+			add_accepted_culture = khoisan
+
+			add_country_modifier = {
+				name = demo_hung
+				duration = 7300
+			}
+
 			government = democracy
 			political_reform = no_slavery
 			political_reform = universal_weighted_voting
 			political_reform = harassment
 			political_reform = state_equal_weight
-			
-			add_country_modifier = {
-				name = demo_hung
-				duration = 7300
-			}
 
 			any_owned = {
 				remove_province_modifier = af_dev_1
@@ -85,42 +92,19 @@ political_decisions = {
 		}
 	}
 
-	brudermord = {
-		picture = die_groot_trek
-		potential = {
-			OR = {
-				tag = WGA
-				tag = EGA
-			}
-			NOT = {has_country_flag = did_brudermord}
-		}
-		allow = {
-			war = no
-			OR = {
-				has_global_flag = saf_war_started
-				SAF = {exists = no}
-			}
-		}
-		effect = {
-			set_country_flag = did_brudermord
-		}
-	}
-
 	grobafrica = {
 		picture = form_north_german_confederation
 		potential = {
-			OR = {
-				tag = WGA
-				tag = EGA
-			}
+			tag = SGA
 			NOT = {exists = AGA}
 		}
 
 		allow = {
-			all_core = {owner = {tag = THIS}}
-			CNG = {all_core = {owner = {tag = THIS}}}
-			MOZ = {all_core = {owner = {tag = THIS}}}
-			ZAM = {all_core = {owner = {tag = THIS}}}
+			nationalism_n_imperialism = 1
+
+			WGA = {vassal_of = THIS}
+			EGA = {vassal_of = THIS}
+
 			OR = {
 				has_global_flag = saf_war_started
 				SAF = {exists = no}
@@ -128,7 +112,9 @@ political_decisions = {
 		}
 
 		effect = {
-			clr_country_flag = did_brudermord
+
+			inherit = EGA
+			inherit = WGA
 
 			change_tag = AGA
 			EGA = { all_core = {add_core = AGA}}
@@ -156,18 +142,15 @@ political_decisions = {
 		allow = {
 			OR = {
 				slavery = no_slavery
-				AND = {
-					WGA = {exists = no}
-					SGA = {exists = no}
-					EGA = {exists = no}
-					OR = {
-						ORA = {exists = yes}
-						AND = {
-							2102 = {owner = {tag = THIS}}
-							2109 = {owner = {tag = THIS}}
-						}
+				
+				OR = {
+					ORA = {exists = yes}
+					AND = {
+						2102 = {owner = {tag = THIS}}
+						2109 = {owner = {tag = THIS}}
 					}
 				}
+				
 			}
 		}
 		effect = {
@@ -175,20 +158,4 @@ political_decisions = {
 		}
 	}
 
-	africa_ai = {
-		potential = {
-			tag = SGA
-			ai = yes
-			NOT = {year = 1963}
-		}
-		allow = {
-			NOT = {has_country_flag = ai_africa}
-		}
-		effect = {
-			set_country_flag = ai_africa
-			release_vassal = WGA
-			release_vassal = EGA
-			#create_substate = HUN
-		}
-	}
 }

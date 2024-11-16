@@ -201,10 +201,10 @@ country_event = {
 			limit = {
 				tag = WGA
 				has_country_flag = support_ora
-				NOT = {is_vassal = yes}
+				#NOT = {is_vassal = yes}
 			}
 			ORA = {
-				create_vassal = WGA
+				#create_vassal = WGA
 				create_alliance = WGA
 			}
 		}
@@ -212,10 +212,10 @@ country_event = {
 			limit = {
 				tag = EGA
 				has_country_flag = support_ora
-				NOT = {is_vassal = yes}
+				#NOT = {is_vassal = yes}
 			}
 			ORA = {
-				create_vassal = EGA
+				#create_vassal = EGA
 				create_alliance = EGA
 			}
 		}
@@ -223,10 +223,10 @@ country_event = {
 			limit = {
 				tag = SGA
 				has_country_flag = support_ora
-				NOT = {is_vassal = yes}
+				#NOT = {is_vassal = yes}
 			}
 			ORA = {
-				create_vassal = SGA
+				#create_vassal = SGA
 				create_alliance = SGA
 			}
 
@@ -240,53 +240,8 @@ country_event = {
 			}	
 		}
 
-		
-
-		any_country = {
-			limit = {
-				vassal_of = ORA
-				tag = SGA
-			}
-			release_vassal = SGA
-		}
-		any_country = {
-			limit = {
-				vassal_of = ORA
-				tag = WGA
-			}
-			release_vassal = WGA
-		}
-		any_country = {
-			limit = {
-				vassal_of = ORA
-				tag = EGA
-			}
-			release_vassal = EGA
-		}
 	}
 	option = {
 		name = "Ok."
-	}
-}
-
-country_event = {
-	id = 500065
-	title = "The German threat!"
-	desc = "EVENT500065"
-
-	trigger = {
-		tag = SAF
-		#NOT = {has_global_flag = saf_war_explained}
-		
-	}
-
-	fire_only_once = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-	option = {
-		#set_global_flag = saf_war_explained
-		name = "I see."
 	}
 }

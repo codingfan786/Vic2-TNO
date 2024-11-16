@@ -84,7 +84,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		has_global_flag = saf_war_started
-		#has_country_flag = support_ora
+
 		NOT = {has_country_flag = no_more_african_rebels}
 		OR = {
 			tag = EGA
@@ -137,7 +137,7 @@ country_event = {
 
 
 country_event = {
-	id = 500019
+	id = 500019 #unused?
 	title = "German Africa collapse!"
 	desc = "We are victorious in our fight against the Germans in Africa! By occupying their central H.Q. we have cut off the rest of the country from command and thrown them into chaos!"
 

@@ -22,8 +22,7 @@ country_event = {
 		days = 15
 	}
 
-	option = {
-		name = "Towards lebensraum!"
+	immediate = {
 		primary_culture = aryan
 		#add_accepted_culture = south_german
 
@@ -38,6 +37,10 @@ country_event = {
 
 		remove_accepted_culture = north_caucasian
 		remove_accepted_culture = georgian
+	}
+
+	option = {
+		name = "Towards lebensraum!"
 	}
 }
 

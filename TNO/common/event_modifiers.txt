@@ -463,7 +463,7 @@ civil_unrest = {
 }
 
 uncontrolled_lynchings = {
-	#population_growth = -0.04
+	population_growth = -0.06
 	icon = 20
 }
 

@@ -1,0 +1,209 @@
+country_event = {
+	id = 500285
+	title = "Startup Explanation"
+	desc = "event500285desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "U.S.A. Civil Unrest"
+		country_event = 500286
+	}
+
+	option = {
+		name = "O.F.N. Mandate"
+		country_event = 500287
+	}
+
+	option = {
+		name = "South African War"
+		country_event = 500288
+	}
+
+	option = {
+		name = "Unique Rebels (Iberian, South Indian, African, Ba'athist)"
+		country_event = 500289
+	}
+
+	option = {
+		name = "Iranian Civil War"
+		country_event = 500290
+	}
+
+	option = {
+		name = "Great Asian War"
+		country_event = 500291
+	}
+
+	option = {
+		name = "2nd West Russian War"
+		country_event = 500292
+	}
+
+	option = {
+		name = "Grand Slave Revolt"
+		country_event = 500293
+	}
+
+	option = {
+		name = "Iberian and Italian intervention in France"
+		country_event = 500294
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}
+
+country_event = {
+	id = 500286
+	title = "U.S.A. Civil Unrest"
+	desc = "event500286desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Main menu"
+		country_event = 500285
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}
+
+country_event = {
+	id = 500287
+	title = "O.F.N. Mandate"
+	desc = "event500287desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Main menu"
+		country_event = 500285
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}
+
+country_event = {
+	id = 500288
+	title = "South African War"
+	desc = "event500288desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Main menu"
+		country_event = 500285
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}
+
+country_event = {
+	id = 500289
+	title = "Unique Rebels (Iberian, South Indian, African, Ba'athist)"
+	desc = "event500289desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Main menu"
+		country_event = 500285
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}
+
+country_event = {
+	id = 500290
+	title = "Iranian Civil War"
+	desc = "event500290desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Main menu"
+		country_event = 500285
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}
+
+country_event = {
+	id = 500291
+	title = "Great Asian War"
+	desc = "event500291desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Main menu"
+		country_event = 500285
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}
+
+country_event = {
+	id = 500292
+	title = "2nd West Russian War"
+	desc = "event500292desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Main menu"
+		country_event = 500285
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}
+
+country_event = {
+	id = 500293
+	title = "Grand Slave Revolt"
+	desc = "event500293desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Main menu"
+		country_event = 500285
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}
+
+country_event = {
+	id = 500294
+	title = "Iberian and Italian intervention in France"
+	desc = "event500294desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Main menu"
+		country_event = 500285
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}

@@ -913,7 +913,9 @@ military_plans = {
 	military_tactics = 0.05
 
 	plane = {
-		attack = 0.75
+		#attack = 0.75
+		attack = 0.25
+		defence = 0.25
 		support = 1
 		supply_consumption = 0.3
 	}
@@ -1015,8 +1017,10 @@ military_logistics = {
 	military_tactics = 0.05
 
 	plane = {
-		attack = 1.25
-		defence = 2
+		#attack = 1.25
+		attack = 1
+		#defence = 2
+		defence = 1.5
 		support = 1.5
 		supply_consumption = 0.5
 	}
@@ -1120,8 +1124,10 @@ aeronautics = {
 	military_tactics = 0.10
 
 	plane = {
-		attack = 0.75
-		defence = 2
+		#attack = 0.75
+		#defence = 2
+		attack = 1
+		defence = 1
 		support = 1
 		supply_consumption = 0.3
 	}

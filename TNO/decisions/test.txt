@@ -6,6 +6,7 @@ political_decisions = {
 			always = no
 		}
 		allow = {
+
 		}
 		effect = {
 			capital_scope = {

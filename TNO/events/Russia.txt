@@ -802,3 +802,372 @@ country_event = {
 		name = "It's better than nothing."
 	}
 }
+
+country_event = {
+	major = yes
+
+	id = 500295
+	title = "Second West Russian War"
+	desc = "event500295desc"
+
+	fire_only_once = yes
+
+	trigger = {
+		war_countries = {
+			OR = {
+				tag = BGE
+				tag = SGE
+				tag = HGE
+				tag = GGE
+				tag = GE2
+			}
+			NOT = {
+				war_countries = {
+					NOT = {
+						primary_culture = russian
+					}
+					OR = {
+						ai = no
+						is_greater_power = yes
+					}
+				}
+			}
+			NOT = {
+				war_countries = {
+					OR = {
+						tag = SOV
+						tag = ALK
+						tag = WRU
+					}
+				}
+			}
+			OR = {
+				THIS = {ai = no}
+				NOT = {
+					war_countries = {
+						primary_culture = russian
+						NOT = {tag = MSC}
+						NOT = {tag = ALK}
+						NOT = {tag = SOV}
+						NOT = {tag = WRU}
+						ai = no
+					}
+				}
+			}
+		}
+		primary_culture = russian
+		NOT = {tag = MSC}
+		NOT = {tag = ALK}
+		NOT = {tag = SOV}
+		NOT = {tag = WRU}
+	}
+
+	mean_time_to_happen = {
+		#days = 1
+		months = 1
+	}
+
+	immediate = {
+
+		any_owned = {
+			limit = {
+				THIS = {
+					ai = no
+					NOT = {has_global_flag = found_unifier}
+					OR = {
+						tag = RUS
+						tag = RAR
+						tag = NUC
+					}
+				}
+			}
+			THIS = {
+				set_global_flag = found_unifier
+				set_country_flag = west_unifier
+			}
+		}
+
+		random_country = {
+			limit = {
+				ai = no
+				NOT = {has_global_flag = found_unifier}
+				OR = {
+					tag = RUS
+					tag = RAR
+					tag = NUC
+				}
+			}
+			set_global_flag = found_unifier
+			set_country_flag = west_unifier
+		}
+
+		random_owned = {
+			limit = {
+				owner = {
+					ai = no
+					NOT = {has_global_flag = found_unifier}
+					OR = {
+						tag = SOV
+						tag = WRU
+					}
+				}
+			}
+			owner = {
+				set_global_flag = found_unifier
+				set_country_flag = west_unifier
+			}
+		}
+
+		random_country = {
+			limit = {
+				ai = no
+				NOT = {has_global_flag = found_unifier}
+				OR = {
+					tag = SOV
+					tag = WRU
+				}
+			}
+			set_global_flag = found_unifier
+			set_country_flag = west_unifier
+		}
+
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {has_global_flag = found_unifier}
+					OR = {
+						tag = RUS
+						tag = RAR
+						tag = NUC
+					}
+				}
+			}
+			owner = {
+				set_global_flag = found_unifier
+				set_country_flag = west_unifier
+			}
+		}
+
+		random_country = {
+			limit = {
+				NOT = {has_global_flag = found_unifier}
+				OR = {
+					tag = RUS
+					tag = RAR
+					tag = NUC
+				}
+			}
+			set_country_flag = west_unifier
+		}
+		clr_global_flag = found_unifier
+
+
+		random_owned = {
+			limit = {
+				owner = {
+					ai = no
+					NOT = {has_global_flag = found_unifier}
+					OR = {
+						tag = FED
+						tag = NKV
+						tag = WA2
+					}
+				}
+			}
+			owner = {
+				set_global_flag = found_unifier
+				set_country_flag = east_unifier
+			}
+		}
+
+		random_country = {
+			limit = {
+				ai = no
+				NOT = {has_global_flag = found_unifier}
+				OR = {
+					tag = FED
+					tag = NKV
+					tag = WA2
+				}
+			}
+			set_global_flag = found_unifier
+			set_country_flag = east_unifier
+		}
+
+		random_owned = {
+			limit = {
+				owner = {
+					ai = no
+					NOT = {has_global_flag = found_unifier}
+					OR = {
+						tag = ALK
+					}
+				}
+			}
+			owner = {
+				set_global_flag = found_unifier
+				set_country_flag = east_unifier
+			}
+		}
+
+		random_country = {
+			limit = {
+				ai = no
+				NOT = {has_global_flag = found_unifier}
+				OR = {
+					tag = ALK
+				}
+			}
+			set_global_flag = found_unifier
+			set_country_flag = east_unifier
+		}
+
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {has_global_flag = found_unifier}
+					OR = {
+						tag = FED
+						tag = NKV
+						tag = WA2
+					}
+				}
+			}
+			owner = {
+				set_global_flag = found_unifier
+				set_country_flag = east_unifier
+			}
+		}
+
+		random_country = {
+			limit = {
+				NOT = {has_global_flag = found_unifier}
+				OR = {
+					tag = FED
+					tag = NKV
+					tag = WA2
+				}
+			}
+			set_country_flag = east_unifier
+		}
+
+		random_owned = {
+			limit = {
+				THIS = {
+					has_country_flag = west_unifier
+				}
+			}
+			THIS = {
+				clr_country_flag = west_unifier
+				country_event = 500296
+			}
+		}
+
+		any_country = {
+			limit = {
+				has_country_flag = west_unifier
+			}
+			clr_country_flag = west_unifier
+			country_event = 500296
+		}
+
+		random_owned = {
+			limit = {
+				THIS = {
+					has_country_flag = east_unifier
+				}
+			}
+			THIS = {
+				clr_country_flag = east_unifier
+				country_event = 500297
+			}
+		}
+
+		any_country = {
+			limit = {
+				has_country_flag = east_unifier
+			}
+			clr_country_flag = east_unifier
+			country_event = 500297
+		}
+	}
+
+	option = {
+		name = "For the motherland!"
+	}
+}
+
+
+country_event = {
+	id = 500296
+	title = "All-Russian Congress"
+	desc = "event500296desc"
+
+	is_triggered_only = yes
+
+	immediate = {
+		any_country = {
+			limit = {
+				OR = {
+					tag = R01
+					tag = R04
+					tag = R06
+					tag = RAR
+					tag = R02
+					tag = R03
+					tag = R05
+					tag = RUS
+					tag = R07
+					tag = R08
+					tag = R09
+					tag = NUC
+				}
+				NOT = {tag = THIS}
+				NOT = {tag = FROM}
+				ai = yes
+			}
+			any_owned = {
+				secede_province = THIS
+			}
+			annex_to = THIS
+		}
+	}
+
+	option = {
+		name = "For the motherland!"
+	}
+}
+
+country_event = {
+	id = 500297
+	title = "All-Russian Congress"
+	desc = "event500296desc"
+
+	is_triggered_only = yes
+
+	immediate = {
+		any_country = {
+			limit = {
+				OR = {
+					tag = FED
+					tag = R13
+					tag = NKV
+					tag = R12
+					tag = NAV
+					tag = WA2
+				}
+				NOT = {tag = THIS}
+				NOT = {tag = FROM}
+				ai = yes
+			}
+			any_owned = {
+				secede_province = THIS
+			}
+			annex_to = THIS
+		}
+	}
+
+	option = {
+		name = "For the motherland!"
+	}
+}
