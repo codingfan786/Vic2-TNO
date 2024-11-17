@@ -1481,3 +1481,68 @@ badboymod;Over Infamy Limit;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 desc_badboymod;We have violated international law by breaching the infamy limit. The nation suffers greatly for the misbehaviour of our Leader!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVTNAME123412345;You're below infamy limit once again!;;;;;;;;;;;;;x;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;,,,,,,,,,,,,,,,
 EVTDESC123412345;Good boy. Here's a cookie.;;;;;;;;;;;;;x;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;,,,,,,,,,,,,,,,,,,
+acquire_state_tiny;Acquire Tiny State;;;;;;;;;;;
+acquire_state_tiny_short;Acquire Tiny State $STATE$.;;;;;;;;;;;
+acquire_state_tiny_desc;Aquire an enemy §Ytiny state§W.;;;;;;;;;;;
+acquire_state_tiny_setup;Demand that $RECIPIENT$ cede its tiny state.;;;;;;;;;;;
+acquire_state_small;Acquire Small State;;;;;;;;;;;
+acquire_state_small_short;Acquire Small State $STATE$.;;;;;;;;;;;
+acquire_state_small_desc;Aquire an enemy §Ysmall state§W.;;;;;;;;;;;
+acquire_state_small_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+acquire_state_medium;Acquire Medium State;;;;;;;;;;;
+acquire_state_medium_short;Acquire Medium State $STATE$.;;;;;;;;;;;
+acquire_state_medium_desc;Aquire an enemy §Ymedium state§W.;;;;;;;;;;;
+acquire_state_medium_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;
+acquire_state_large;Acquire Large State;;;;;;;;;;;
+acquire_state_large_short;Acquire Large State $STATE$.;;;;;;;;;;;
+acquire_state_large_desc;Aquire an enemy §Ylarge state§W.;;;;;;;;;;;
+acquire_state_large_setup;Demand that $RECIPIENT$ cede its large state.;;;;;;;;;;;
+acquire_state_huge;Acquire Huge State;;;;;;;;;;;
+acquire_state_huge_short;Acquire Huge State $STATE$.;;;;;;;;;;;
+acquire_state_huge_desc;Aquire an enemy §Yhuge state§W.;;;;;;;;;;;
+acquire_state_huge_setup;Demand that $RECIPIENT$ cede its huge state.;;;;;;;;;;;
+acquire_core_state_tiny;Acquire Tiny Core;;;;;;;;;;;
+acquire_core_state_tiny_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_tiny_desc;Aquire an enemy §Ytiny state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_tiny_setup;Acquire tiny core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_small;Acquire Small Core;;;;;;;;;;;
+acquire_core_state_small_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_small_desc;Aquire an enemy §Ysmall state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_small_setup;Acquire small core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_medium;Acquire Medium Core;;;;;;;;;;;
+acquire_core_state_medium_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_medium_desc;Aquire an enemy §Ymedium state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_medium_setup;Acquire medium core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_large;Acquire Large Core;;;;;;;;;;;
+acquire_core_state_large_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_large_desc;Aquire an enemy §Ylarge state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_large_setup;Acquire large core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_huge;Acquire Huge Core;;;;;;;;;;;
+acquire_core_state_huge_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_huge_desc;Aquire an enemy §Yhuge state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_huge_setup;Acquire huge core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+TIN;§GTiny State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1962 - 1996 §WLess than 100k POPs\n§Y1996 - 2026 §WLess than 150k POPs\n§Y2026+ §WLess than 200k POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W8% Warscore\n§YAcquire State: §W12% Warscore;;;;;;;;;;;;;x
+SMA;§GSmall State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1962 - 1996 §W100k to 400k POPs\n§Y1996 - 2026 §W150k to 600k POPs\n§Y2026+ §W200k to 800k POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W16% Warscore\n§YAcquire State: §W24% Warscore;;;;;;;;;;;;;x
+MED;§GMedium State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1962 - 1996 §W400k to 700k POPs\n§Y1996 - 2026 §W600k to 1M POPs\n§Y2026+ §W800k to 1.4M POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W24% Warscore\n§YAcquire State: §W32% Warscore;;;;;;;;;;;;;x
+LRG;§GLarge State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1962 - 1996 §W700k to 1M POPs\n§Y1996 - 2026 §W1M to 1.5M POPs\n§Y2026+ §W1.4M to 2M POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W36% Warscore\n§YAcquire State: §W48% Warscore;;;;;;;;;;;;;x
+HUG;§GHuge State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1962 - 1996 §WGreater than 1M POPs\n§Y1996 - 2026 §WGreater than 1.5M POPs\n§Y2026+ §WGreater than 2M POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W48% Warscore\n§YAcquire State: §W64% Warscore;;;;;;;;;;;;;x
+acquire_substate_region_tiny;Acquire Tiny Substate Region;Acquérir une région comme Sous-État;Beschafft eine Unterstaatsregion;;;;;;;;;;;x
+acquire_substate_region_tiny_desc;Acquire a region from enemy §Ysubstate§W;Acquérir une région d'un §YSous-État§W ennemi;Beschafft eine Region des Feindes §Ysubstate§W;;;;;;;;;;;x
+acquire_substate_region_tiny_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x
+acquire_substate_region_tiny_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x
+acquire_substate_region_small;Acquire Small Substate Region;Acquérir une région comme Sous-État;Beschafft eine Unterstaatsregion;;;;;;;;;;;x
+acquire_substate_region_small_desc;Acquire a region from enemy §Ysubstate§W;Acquérir une région d'un §YSous-État§W ennemi;Beschafft eine Region des Feindes §Ysubstate§W;;;;;;;;;;;x
+acquire_substate_region_small_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x
+acquire_substate_region_small_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x
+acquire_substate_region_medium;Acquire Medium Substate Region;Acquérir une région comme Sous-État;Beschafft eine Unterstaatsregion;;;;;;;;;;;x
+acquire_substate_region_medium_desc;Acquire a region from enemy §Ysubstate§W;Acquérir une région d'un §YSous-État§W ennemi;Beschafft eine Region des Feindes §Ysubstate§W;;;;;;;;;;;x
+acquire_substate_region_medium_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x
+acquire_substate_region_medium_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x
+acquire_substate_region_large;Acquire Large Substate Region;Acquérir une région comme Sous-État;Beschafft eine Unterstaatsregion;;;;;;;;;;;x
+acquire_substate_region_large_desc;Acquire a region from enemy §Ysubstate§W;Acquérir une région d'un §YSous-État§W ennemi;Beschafft eine Region des Feindes §Ysubstate§W;;;;;;;;;;;x
+acquire_substate_region_large_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x
+acquire_substate_region_large_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x
+acquire_substate_region_huge;Acquire Huge Substate Region;Acquérir une région comme Sous-État;Beschafft eine Unterstaatsregion;;;;;;;;;;;x
+acquire_substate_region_huge_desc;Acquire a region from enemy §Ysubstate§W;Acquérir une région d'un §YSous-État§W ennemi;Beschafft eine Region des Feindes §Ysubstate§W;;;;;;;;;;;x
+acquire_substate_region_huge_short;Acquire $STATE$;Prendre $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x
+acquire_substate_region_huge_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ de $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x

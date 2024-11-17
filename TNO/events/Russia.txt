@@ -107,6 +107,8 @@ country_event = {
 	desc = "EVENT500071desc"
 	major = yes
 
+	is_triggered_only = yes
+
 	trigger = {
 		NOT = {has_global_flag = rus_unified}
 		primary_culture = russian

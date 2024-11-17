@@ -294,6 +294,10 @@ political_decisions = {
 
 		}
 		effect = {
+			JAN = {
+				country_event = 70070024
+			}
+
 			any_country = {
 				limit = {
 					OR = {
@@ -385,7 +389,7 @@ political_decisions = {
 							#tag = CAR
 							tag = CBR
 							tag = CFR
-							tag = CDN
+							#tag = CDN
 							tag = CHI
 							tag = COR
 							tag = DEN
