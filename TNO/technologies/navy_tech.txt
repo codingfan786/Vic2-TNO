@@ -5,6 +5,9 @@ post_nelsonian_thought = {
 	cost = 3600
 	unciv_military = yes
 	activate_building = naval_base
+	activate_building = clipper_shipyard 
+	activate_building = steamer_shipyard 
+
 	colonial_points = 100
 
 
@@ -83,7 +86,7 @@ battleship_column_doctrine = {
 	unciv_military = yes
 	max_naval_base = 1
 	#colonial_points = 200 #no free lunch!
-
+	navy_base = { build_time = -50 }
 
 	ai_chance = {
 		factor = 1
@@ -159,6 +162,8 @@ raider_group_doctrine = {
 	cost = 10800
 	unciv_military = yes
 	max_naval_base = 1
+	navy_base = { build_time = -50 }
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -233,6 +238,8 @@ blue_and_brown_water_schools = {
 	cost = 14400
 	unciv_military = yes
 	max_naval_base = 1
+	navy_base = { build_time = -50 }
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -308,6 +315,7 @@ high_sea_battle_fleet = {
 	cost = 18000
 	unciv_military = yes
 	max_naval_base = 1
+	navy_base = { build_time = -50 }
 
 	ai_chance = {
 		factor = 1
@@ -383,6 +391,8 @@ modern_naval_doctrine = {
 	cost = 21600
 	unciv_military = yes
 	max_naval_base = 1
+	navy_base = { build_time = -50 }
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -459,7 +469,7 @@ clipper_design = {
 	year = 1962
 	cost = 3600
 	unciv_military = yes
-	activate_building = clipper_shipyard 
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -540,7 +550,27 @@ steamers = {
 	year = 1962
 	cost = 7200
 	unciv_military = yes
-	activate_building = steamer_shipyard 
+	frigate = {
+		hull = 1.5
+		gun_power = 1.5
+	}
+	manowar = {
+		hull = 5
+		gun_power = 3
+	}
+	commerce_raider = {
+		hull = 1
+		gun_power = 1
+		torpedo_attack = 2.5
+		evasion = 0.1
+	}
+	clipper_transport = {
+		hull = 1
+	}
+	steam_transport = {
+		hull = 1
+	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -621,7 +651,27 @@ iron_steamers = {
 	year = 1986
 	cost = 10800
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 }
+	frigate = {
+		hull = 1.5
+		gun_power = 1.5
+	}
+	manowar = {
+		hull = 5
+		gun_power = 3
+	}
+	commerce_raider = {
+		hull = 2
+		gun_power = 1
+		torpedo_attack = 2.5
+		evasion = 0.15
+	}
+	clipper_transport = {
+		hull = 1
+	}
+	steam_transport = {
+		hull = 1
+	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -697,7 +747,26 @@ steel_steamers = {
 	year = 2006
 	cost = 14400
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 } 
+	frigate = {
+		hull = 4
+		gun_power = 4
+	}
+	manowar = {
+		hull = 5
+		gun_power = 6
+	}
+	commerce_raider = {
+		hull = 2
+		gun_power = 2
+		torpedo_attack = 5
+	}
+	clipper_transport = {
+		hull = 1
+	}
+	steam_transport = {
+		hull = 1
+	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -773,7 +842,26 @@ steam_turbine_ships = {
 	year = 2026
 	cost = 18000
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 } 
+	frigate = {
+		hull = 2
+		gun_power = 2
+	}
+	manowar = {
+		hull = 5
+		gun_power = 2
+	}
+	commerce_raider = {
+		hull = 2
+		gun_power = 2
+		torpedo_attack = 5
+	}
+	clipper_transport = {
+		hull = 1
+	}
+	steam_transport = {
+		hull = 1
+	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -849,7 +937,26 @@ oil_driven_ships = {
 	year = 2045
 	cost = 21600
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 } 
+	frigate = {
+		hull = 2
+		gun_power = 2
+	}
+	manowar = {
+		hull = 3
+		gun_power = 2
+	}
+	commerce_raider = {
+		hull = 2
+		gun_power = 1
+		torpedo_attack = 3
+	}
+	clipper_transport = {
+		hull = 1
+	}
+	steam_transport = {
+		hull = 1
+	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -926,8 +1033,8 @@ naval_design_bureaus = {
 	area = naval_engineering
 	year = 1962
 	cost = 3600
-	navy_base = { build_time = -10 }
 	unciv_military = yes
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1013,7 +1120,12 @@ fire_control_systems = {
 	year = 1962
 	cost = 7200
 	unciv_military = yes
-	navy_base = { build_time = -10 }
+	ironclad = {
+		hull = 1
+		gun_power = 3
+		torpedo_attack = 3
+	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1100,7 +1212,12 @@ weapon_platforms = {
 	year = 1976
 	cost = 10800
 	unciv_military = yes
-	navy_base = { build_time = -10 }
+	ironclad = {
+		hull = 1
+		gun_power = 3
+		torpedo_attack = 5
+	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1186,7 +1303,7 @@ main_armament = {
 	year = 1996
 	cost = 14400
 	unciv_military = yes
-	navy_base = { build_time = -10 }
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1277,7 +1394,15 @@ advanced_naval_design = {
 	year = 2026
 	cost = 18000
 	unciv_military = yes
-	navy_base = { build_time = -10 }
+	ironclad = {
+		gun_power = -3
+		torpedo_attack = -3
+	}
+	monitor = {
+		gun_power = 5
+		torpedo_attack = 10
+	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1363,7 +1488,15 @@ modern_naval_design = {
 	year = 2045
 	cost = 21600
 	unciv_military = yes
-	navy_base = { build_time = -10 }
+	ironclad = {
+		gun_power = -3
+		torpedo_attack = -3
+	}
+	monitor = {
+		gun_power = 5
+		torpedo_attack = 5
+	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1490,6 +1623,9 @@ naval_plans = {
 	cost = 7200
 	unciv_military = yes
 	supply_range = 0.10
+	navy_base = {
+		maximum_speed = 1
+	}
 	
 	ai_chance = {
 		factor = 1.01
@@ -1575,7 +1711,11 @@ naval_logistics = {
 	cost = 14400
 	unciv_military = yes
 	supply_range = 0.10
-		ai_chance = {
+	navy_base = {
+		maximum_speed = 1
+	}
+
+	ai_chance = {
 		factor = 1.01
 		modifier = {
 			factor = 0
@@ -1879,6 +2019,7 @@ naval_decision_making = {
 	unciv_military = yes
 	navy_base = {
 		default_organisation = 5
+		maximum_speed = 1
 	}
 	ai_chance = {
 		factor = 1

@@ -1,0 +1,225 @@
+#CLASSICAL SHIP INVENTIONS
+
+clipper_design_invention = {
+	limit = { clipper_design = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		#activate_unit = manowar
+	}
+}
+clipper_design_invention_two = {
+	limit = { clipper_design = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		activate_unit = commerce_raider
+	}
+}
+clipper_design_invention_three = {
+	limit = { clipper_design = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		activate_unit = steam_transport
+	}
+}
+
+steamers_invention = {
+	limit = { steamers = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		clipper_transport = {
+			maximum_speed = 2
+		}
+		steam_transport = {
+			maximum_speed = 2
+		}
+		frigate = {
+			maximum_speed = 2
+		}
+		manowar = {
+			maximum_speed = 2
+		}
+		commerce_raider = {
+			maximum_speed = 2
+		}
+	}
+}
+iron_steamers_invention = {
+	limit = { iron_steamers = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		clipper_transport = {
+			maximum_speed = 2
+		}
+		steam_transport = {
+			maximum_speed = 2
+		}
+		frigate = {
+			maximum_speed = 2
+		}
+		manowar = {
+			maximum_speed = 2
+		}
+		commerce_raider = {
+			maximum_speed = 2
+		}
+	}
+}
+steel_steamers_invention = {
+	limit = { steel_steamers = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		clipper_transport = {
+			maximum_speed = 2
+		}
+		steam_transport = {
+			maximum_speed = 2
+		}
+		frigate = {
+			maximum_speed = 2
+		}
+		manowar = {
+			maximum_speed = 2
+		}
+		commerce_raider = {
+			maximum_speed = 2
+		}
+	}
+}
+steam_turbine_ships_invention = {
+	limit = { steam_turbine_ships = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		clipper_transport = {
+			maximum_speed = 2
+		}
+		steam_transport = {
+			maximum_speed = 2
+		}
+		frigate = {
+			maximum_speed = 2
+		}
+		manowar = {
+			maximum_speed = 2
+		}
+		commerce_raider = {
+			maximum_speed = 2
+		}
+	}
+}
+oil_driven_ships_invention = {
+	limit = { oil_driven_ships = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		clipper_transport = {
+			maximum_speed = 2
+		}
+		steam_transport = {
+			maximum_speed = 2
+		}
+		frigate = {
+			maximum_speed = 2
+		}
+		manowar = {
+			maximum_speed = 2
+		}
+		commerce_raider = {
+			maximum_speed = 2
+		}
+	}
+}
+
+### CARRIER INVENTIONS
+
+naval_design_bureaus_invention = {
+	limit = { naval_design_bureaus = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		activate_unit = ironclad
+	}
+}
+fire_control_systems_invention = {
+	limit = { fire_control_systems = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		ironclad = {
+			maximum_speed = 2
+		}
+	}
+}
+weapon_platforms_invention = {
+	limit = { weapon_platforms = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		ironclad = {
+			maximum_speed = 2
+		}
+	}
+}
+main_armament_invention = {
+	limit = { main_armament = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		activate_unit = monitor
+	}
+}
+main_armament_invention_two = {
+	limit = { main_armament = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		ironclad = {
+			maximum_speed = 2
+		}
+		monitor = {
+			maximum_speed = 2
+		}
+	}
+}
+advanced_naval_design_invention = {
+	limit = { advanced_naval_design = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		monitor = {
+			maximum_speed = 2
+		}
+	}
+}
+modern_naval_design_invention = {
+	limit = { modern_naval_design = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		monitor = {
+			maximum_speed = 2
+		}
+	}
+}
+
