@@ -562,7 +562,7 @@ steamers = {
 		hull = 1
 		gun_power = 1
 		torpedo_attack = 2.5
-		evasion = 0.1
+		evasion = 0.05
 	}
 	clipper_transport = {
 		hull = 1
@@ -663,7 +663,7 @@ iron_steamers = {
 		hull = 2
 		gun_power = 1
 		torpedo_attack = 2.5
-		evasion = 0.15
+		evasion = 0.05
 	}
 	clipper_transport = {
 		hull = 1

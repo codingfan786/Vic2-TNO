@@ -42,7 +42,7 @@ commerce_raider = {
 	hull = 4
 	gun_power = 4
 	fire_range = 0.8
-	evasion = 0.25
+	evasion = 0.05
 	torpedo_attack = 5
 }
 
