@@ -29,6 +29,8 @@ political_decisions = {
 				factor = 0
 				war = yes
 			}
+
+			#POL will take this in 1965 if goering hasnt made progress in the gcw, and will take it in 1964 if he has made progress or if there is a player in germany.
 			modifier = {
 				factor = 0
 				AND = {
@@ -37,8 +39,30 @@ political_decisions = {
 					NOT = { GGE = {owns = 409} }
 					NOT = { GGE = {owns = 693} }
 					NOT = { GGE = {owns = 599} }
+					GGE = {ai = yes}
+					SGE = {ai = yes}
+					HGE = {ai = yes}
+					BGE = {ai = yes}
 				}
 			}
+			modifier = {
+				factor = 0
+				AND = {
+					tag = POL
+					NOT = {year = 1964}
+					OR = {
+						GGE = {owns = 409}
+						GGE = {owns = 693}
+						GGE = {owns = 599}
+						GGE = {ai = no}
+						SGE = {ai = no}
+						HGE = {ai = no}
+						BGE = {ai = no}
+					}
+				}
+			}
+
+			#BOH and SLV will take this in 1964 if goering hasnt made progress in the gcw, and will take it in 1963 if he has made progress or if there is a player in germany.
 			modifier = {
 				factor = 0
 				AND = {
@@ -50,36 +74,28 @@ political_decisions = {
 					NOT = { GGE = {owns = 409} }
 					NOT = { GGE = {owns = 693} }
 					NOT = { GGE = {owns = 599} }
+					GGE = {ai = yes}
+					SGE = {ai = yes}
+					HGE = {ai = yes}
+					BGE = {ai = yes}
 				}
 			}
-
-			modifier = {
-				factor = 0
-				AND = {
-					tag = POL
-					NOT = {year = 1964}
-					OR = {
-						GGE = {owns = 409}
-						GGE = {owns = 693}
-						GGE = {owns = 599}
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				AND = {
-					OR = {
-						tag = BOH
-						tag = SLV
-					}
-					NOT = {year = 1963}
-					OR = {
-						GGE = {owns = 409}
-						GGE = {owns = 693}
-						GGE = {owns = 599}
-					}
-				}
-			}
+			#This modifier is redundant
+			#modifier = {
+			#	factor = 0
+			#	AND = {
+			#		OR = {
+			#			tag = BOH
+			#			tag = SLV
+			#		}
+			#		NOT = {year = 1963}
+			#		OR = {
+			#			GGE = {owns = 409}
+			#			GGE = {owns = 693}
+			#			GGE = {owns = 599}
+			#		}
+			#	}
+			#}
 		}
 	}
 
