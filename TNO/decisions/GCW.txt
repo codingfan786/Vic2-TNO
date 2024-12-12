@@ -221,23 +221,6 @@ political_decisions = {
 		}
 	}
 
-	gcwmobbuff = {
-		potential = {
-			tag = SGE
-			NOT = {has_country_flag = mobbuffed}
-		}
-		allow = {
-
-		}
-		effect = {
-			set_country_flag = mobbuffed
-			#add_country_modifier = {
-			#	name = sge_mobbuff
-			#	duration = 1825
-			#}
-		}
-	}
-
 	bge_wp = {
 		picture = das_zivilgesetzbuch
 		potential = {

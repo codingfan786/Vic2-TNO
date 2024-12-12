@@ -1096,6 +1096,33 @@ country_event = {
 
 	option = {
 		name = "For the motherland!"
+		set_country_flag = temp
+		random_owned = {
+			limit = {
+				THIS = {
+					has_country_flag = temp
+				}
+				NOT = { year = 1996 }
+			}
+
+			JAN = {
+				country_event = 70070024
+			}
+		}
+		random_owned = {
+			limit = {
+				THIS = {
+					has_country_flag = temp
+				}
+				year = 1996
+				NOT = { year = 2026 }
+			}
+
+			JAN = {
+				country_event = 70070124
+			}
+		}
+		clr_country_flag = temp
 	}
 }
 

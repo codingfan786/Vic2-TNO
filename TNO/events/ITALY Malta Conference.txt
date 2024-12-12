@@ -131,6 +131,7 @@ country_event = {
 		1755 = {secede_province = IBE}
 
 		set_country_flag = did_a_malta
+		set_global_flag = malta_conference_bombed
 
 		ai_chance = {
 			factor = 0
@@ -178,7 +179,8 @@ country_event = {
 		}
 
 		set_country_flag = did_a_malta
-
+		set_global_flag = malta_conference_bombed
+		
 		ai_chance = {
 			factor = 0.20
 		}
@@ -229,7 +231,8 @@ country_event = {
 		}
 		
 		set_country_flag = did_a_malta
-
+		set_global_flag = malta_conference_bombed
+		
 		ai_chance = {
 			factor = 0.05
 		}
@@ -275,7 +278,8 @@ country_event = {
 		857 = {secede_province = TUR}
 
 		set_country_flag = did_a_malta
-
+		set_global_flag = malta_conference_bombed
+		
 		ai_chance = {
 			factor = 0.1
 		}

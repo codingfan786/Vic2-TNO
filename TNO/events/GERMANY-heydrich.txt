@@ -1,143 +1,47 @@
 country_event = {
 	id = 500196
-	title = "Orders From the Top"
-	desc = "event500196desc"
+	title = "Death of the Fuhrer!"
+	desc = "event500196altdesc"
+	major = yes
 
-	is_triggered_only = yes
-
-	#major = yes
-
-	#fire_only_once = yes
-	#mean_time_to_happen = {
-	#	months = 1
-	#}
-
-	#trigger = {
-	#	tag = HGE
-	#	NOT = {exists = GER}
-	#}
-
-	option = {
-		name = "To defend the Reich we will brave armegeddon!"
-
-		clr_country_flag = nuke
-		BRG = {
-			remove_country_modifier = nuc_dev
-			set_country_flag = nuke
-		}
-
-		any_country = {
-			limit = {
-				NOT = {has_country_modifier = nuc_dev}
-				has_country_flag = nuke
-				NOT = {tag = BRG}
-			}
-			country_event = {id = 500028 days = 1}
-		}
-		any_country = {
-			limit = {
-				OR = {
-					has_country_modifier = nuc_dev
-					NOT = {has_country_flag = nuke}
-				}
-				NOT = {tag = BRG}
-			}
-			country_event = {id = 500023 days = 1}
-		}
-
-		ai_chance = {
-			factor = 0.7
-		}
-
-	}
-	option = {
-		name = "Himmler is insane!"
-		add_casus_belli = {
-			target = BRG
-			type = brg_stockpile_sieze
-			months = 12
-		}
-		BRG = {set_country_flag = heydrich_betrayal}
-		ai_chance = {
-			factor = 0.3
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.01
+			NOT = {exists = BRG}
 		}
 	}
-}
 
-country_event = {
-	
-	id = 500197
-	title = "ai event"
-	desc = "ignore please"
-	
-	is_triggered_only = yes
-	
-	#fire_only_once = yes
-	#mean_time_to_happen = {
-	#	months = 1
-	#}
-
-	#trigger = {
-	#	NOT = {war_with = FRA}
-	#	tag = BRG
-	#	ai = yes
-	#	has_country_flag = heydrich_betrayal
-	#}
+	trigger = {
+		tag = HGE
+		OR = {
+			NOT = {exists = BRG}
+			year = 1980
+		}
+	}
 
 	immediate = {
-		BRG = {
-			war = {
-				target = HGE
-				attacker_goal = {casus_belli = brg_stockpile_sieze}
-				call_ally = yes
+		change_tag = GE2
+		HGE = {
+			all_core = {
+				remove_core = HGE
 			}
+		}
+		any_pop = {
+			militancy = 3
+			consciousness = 3
 		}
 	}
 
 	option = {
-		name = "yes"
+		name = "The Reich is in shambles!"
 	}
-	
 }
 
-country_event = {
-	
-	id = 500198
-	title = "Nuclear Holocoast"
-	desc = "The armies of Ordensstaat Burgund have successfully siezed control of Germany's nuclear stockpile and have launched it against the entire world!"
 
-	is_triggered_only = yes
 
-	immediate = {
 
-		clr_country_flag = nuke
-		BRG = {
-			remove_country_modifier = nuc_dev
-			set_country_flag = nuke
-		}
 
-		any_country = {
-			limit = {
-				NOT = {has_country_modifier = nuc_dev}
-				has_country_flag = nuke
-				NOT = {tag = BRG}
-			}
-			country_event = {id = 500028 days = 1}
-		}
-		any_country = {
-			limit = {
-				OR = {
-					has_country_modifier = nuc_dev
-					NOT = {has_country_flag = nuke}
-				}
-				NOT = {tag = BRG}
-			}
-			country_event = {id = 500023 days = 1}
-		}
-	}
 
-	option = {
-		name = "Pray Deustchland survives above all else."
-	}
-	
-}
+### THIS SHIT HAS BEEN REMOVED!!!!!!!

@@ -53,7 +53,7 @@ puppet_boost = {
 		is_vassal = yes
 		NOT = {primary_culture  = russian}
 	}	
-	mobilisation_size = 0.01
+	mobilisation_size = 0.02
 	icon = 9
 }
 

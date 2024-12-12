@@ -4,7 +4,7 @@ political_decisions = {
 		potential = {
 			tag = HGE
 			NOT = {has_country_flag = hge_genocide}
-			government = fascist_dictatorship
+			#government = fascist_dictatorship #redundant
 		}
 		allow = {
 			state_n_government = 1
@@ -49,6 +49,31 @@ political_decisions = {
 				name = hge_ss
 				duration = -1
 			}
+		}
+	}
+
+	depose_himmler = {
+		picture = form_north_german_confederation
+		
+		potential = {
+			tag = HGE
+			NOT = {has_country_flag = himmler_invaded}
+			truce_with = BRG
+			NOT = {exists = GER}
+		}
+		allow = {
+			truce_with = BRG
+			war = no
+		}
+		effect = {
+			set_country_flag = himmler_invaded
+
+			war = {
+				target = BRG
+				attacker_goal = { casus_belli = humiliate }
+				call_ally = no
+			}
+			badboy = -3.5
 		}
 	}
 }

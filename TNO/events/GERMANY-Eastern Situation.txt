@@ -1,0 +1,284 @@
+country_event = {
+	id = 500163
+	title = "The Fuhrer demands our vassalization!"
+	desc = "Our former German masters are demanding we submit to them once again! What should we do?"
+	is_triggered_only = yes
+
+	option = {
+		name = "We have no choice..."
+		country_event = 500070
+		FROM = {create_vassal = THIS}
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = 800
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				FROM = {
+					relation = { who = THIS value = 100 }
+				}
+			}
+			modifier = {
+				factor = 2
+				FROM = {
+					relation = { who = THIS value = 200 }
+				}
+			}
+		}
+	}
+	option = {
+		name = "...But to fight for survival!"
+		add_casus_belli = {
+			target = FROM
+			type = make_facist
+			months = 24
+		}
+		add_casus_belli = {
+			target = FROM
+			type = make_puppet_unlimited
+			months = 24
+		}
+
+		any_country = {
+			limit = {
+				tag = FROM
+				ai = yes
+				OR = {
+					NOT = {alliance_with = THIS}
+					THIS = {ai = yes}
+				}
+			}
+			war = {
+				target = THIS
+				attacker_goal = {casus_belli = make_facist}
+				attacker_goal = {casus_belli = make_puppet_unlimited}
+				call_ally = yes
+			}
+		}
+
+		ai_chance = {
+			factor = 4
+		}
+	}
+}
+
+country_event = {
+	id = 500160
+	title = "The Fuhrer demands our subjugation!"
+	desc = "Our former German masters are demanding we submit to them once again! What should we do?"
+	is_triggered_only = yes
+
+	option = {
+		name = "We have no choice..."
+
+		FROM = {
+			inherit = THIS
+		}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "...But to fight for survival!"
+		add_casus_belli = {
+			target = FROM
+			type = ger_annex
+			months = 24
+		}
+
+		any_country = {
+			limit = {
+				tag = FROM
+				ai = yes
+				OR = {
+					NOT = {alliance_with = THIS}
+					THIS = {ai = yes}
+				}
+				
+			}
+			war = {
+				target = THIS
+				attacker_goal = {casus_belli = ger_annex}
+				call_ally = yes
+			}
+		}
+
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 500161
+	title = "The Fuhrer tames the Central European Reichskommissariats."
+	desc = "The Fuhrer has instituted the National Socialist regime in Bohemia, Slovakia, and Poland, ensuring the security of the Reich for a thousand years to come."
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			tag = SGE
+			tag = HGE
+			tag = BGE
+		}
+		has_country_flag = nes_started
+		OR = {
+			NOT = {exists = POL}
+			POL = {vassal_of = THIS}
+		}
+		OR = {
+			NOT = {exists = BOH}
+			BOH = {vassal_of = THIS}
+		}
+		OR = {
+			NOT = {exists = CZH}
+			CZH = {vassal_of = THIS}
+		}
+		OR = {
+			NOT = {exists = SLV}
+			SLV = {vassal_of = THIS}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = nes_finished
+
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SGE
+				}
+			}
+			SGE = {
+				set_variable = {
+					which = speer_reform_points
+					value = 0
+				}
+				set_variable = {
+					which = speer_reforms_made
+					value = 0
+				}
+				any_country = {
+					limit = {
+						tag = CZH
+						exists = yes
+					}
+					SGE = {
+						change_variable = {
+							which = speer_reform_points
+							value = 2
+						}
+					}
+				}
+				any_country = {
+					limit = {
+						OR = {
+							tag = SLV
+							tag = POL
+							tag = BOH
+						}
+						exists = yes
+					}
+					SGE = {
+						change_variable = {
+							which = speer_reform_points
+							value = 1
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "Heil The Fuhrer!"
+		prestige = 20
+	}
+}
+
+country_event = {
+	id = 500162
+	title = "The Fuhrer tames the Eastern European Reichskommissariats."
+	desc = "The Fuhrer has instituted the National Socialist regime in Moscow, Ukraine, and the Baltics, ensuring the security of the Reich for a thousand years to come."
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			tag = SGE
+			tag = HGE
+			tag = BGE
+		}
+
+		has_country_flag = fes_started
+
+		NOT = {exists = FEU}
+
+		OR = {
+			NOT = {exists = MSC}
+			MSC = {vassal_of = THIS}
+			AND = {
+				set_global_flag = FEU_is_done
+				MSC = {ai = no}
+			}
+		}
+		OR = {
+			NOT = {exists = BLT}
+			BLT = {vassal_of = THIS}
+		}
+		OR = {
+			NOT = {exists = UKR}
+			UKR = {vassal_of = THIS}
+		}
+	}
+
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = fes_finished
+
+		random_owned = {
+			limit = {
+				owner = {
+					tag = SGE
+				}
+			}
+			SGE = {
+				any_country = {
+					limit = {
+						OR = {
+							tag = MSC
+							tag = BLT
+							tag = UKR
+						}
+						exists = yes
+						vassal_of = THIS
+					}
+					SGE = {
+						change_variable = {
+							which = speer_reform_points
+							value = 1
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+	option = {
+		name = "Heil The Fuhrer!"
+		prestige = 20
+	}
+}

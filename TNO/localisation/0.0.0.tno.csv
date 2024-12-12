@@ -1195,3 +1195,25 @@ mass_politics;Unipolar World;x
 naval_doctrine;Ship Construction;x
 ship_construction;Conventional Ship Design;x
 naval_engineering;Aeronautical Ship Design;x
+depose_himmler_title;End the Burgund Ordensstaat;x
+depose_himmler_desc;The madman Himmler wants nothing more than to plunge the world into nuclear armageddon! We may be his protege, but he must be stopped!;x
+event500196altdesc;Fuhrer Heydrich has been found dead in his private study! Official reports vary from natural causes to those involving foul play from eastern partisan groups, and rumors are circulating that he may have even killed himself!;x
+nes_finished;Poland and Czechoslovakia have been pacified.;x
+nes_start_title;Resolve the Central European Situation;x
+nes_pol_light_title;Reinstate National Socialism in Poland;x
+nes_pol_heavy_title;Conquer Poland!;x
+nes_czh_light_title;Reinstate National Socialism in Czechoslovakia;x
+nes_czh_heavy_title;Conquer Czechoslovakia!;x
+fes_start_title;Resolve the Eastern European Situation;x
+fes_ukr_title;Reinstate National Socialism in Ukraine;x
+fes_blt_title;Reinstate National Socialism in the Baltics;x
+fes_msc_title;Reinstate National Socialism in Moskowien;x
+nes_start_desc;The momentary lapse in German stability has sent shockwaves throughout our sphere of influence. Untermensch ideas of communism and democracy have been reported by the Abwehr in Bohemia, Poland, and Slovakia, and in some places it has been outright declared. Now that we've solidified our rule we should address this. §R This will unlock decisions (and a few casus belli) to puppet or annex Bohemia, Slovakia, Poland, and Czechoslovakia. Once all of these countries have been puppeted or are nonexistant you will unlock the decisions to address the situation further east.;x
+nes_pol_light_desc;Under the threat of invasion by our mighty Wehrmacht we will return Poland to it's rightful place as our Reichskommisariat! §R If they do not accept we will get casus belli to invade.;x
+nes_pol_heavy_desc;The Polish people have lost the privilege to self govern! We will use our mighty Wehrmacht to establish direct German rule! §R If they do not accept we will get casus belli to invade.;x
+nes_czh_light_desc;Under the threat of invasion by our mighty Wehrmacht we will return Czechoslovakia to it's rightful place as our Reichskommisariat! §R If they do not accept we will get casus belli to invade.;x
+nes_czh_heavy_desc;The Czech and Slovakian people have lost the privilege to self govern! We will use our mighty Wehrmacht to establish direct German rule! §R If they do not accept we will get casus belli to invade.;x
+fes_start_desc;The momentary lapse in German stability has sent shockwaves throughout our sphere of influence. Untermensch ideas of communism and democracy have been reported by the Abwehr in Muscovy, the Baltics, and Ukraine, and in some places it has been outright declared. Now that we've dealt with our nearer protectorates we should address this. §R This will unlock decisions (and a few casus belli) to puppet and turn Muscovy, the Baltics, and Ukraine fascist.;x
+fes_ukr_desc;Under the threat of invasion by our mighty Wehrmacht we will return Ukraine to it's rightful place as our Reichskommisariat! §R If they do not accept we will get casus belli to invade.;x
+fes_blt_desc;Under the threat of invasion by our mighty Wehrmacht we will return the Baltics to it's rightful place as our Reichskommisariat! §R If they do not accept we will get casus belli to invade.;x
+fes_msc_desc;Under the threat of invasion by our mighty Wehrmacht we will return Moskowien to it's rightful place as our Reichskommisariat! §R If they do not accept we will get casus belli to invade.;x

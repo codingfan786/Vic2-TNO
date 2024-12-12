@@ -1,231 +1,4 @@
 country_event = {
-	id = 500160
-	title = "Fuhrer Speer demands a Fascist Government!"
-	desc = "Our former German masters are demanding we submit to them once again! What should we do?"
-	is_triggered_only = yes
-
-	option = {
-		name = "We have no choice..."
-		country_event = 500070
-		FROM = {
-			diplomatic_influence = {
-				who = THIS
-				value = 800
-			}
-		}
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 2
-				FROM = {
-					relation = { who = THIS value = 100 }
-				}
-			}
-			modifier = {
-				factor = 2
-				FROM = {
-					relation = { who = THIS value = 200 }
-				}
-			}
-		}
-	}
-	option = {
-		name = "...But to fight for survival!"
-		add_casus_belli = {
-			target = FROM
-			type = make_facist
-			months = 24
-		}
-		add_casus_belli = {
-			target = FROM
-			type = add_to_sphere
-			months = 24
-		}
-		ai_chance = {
-			factor = 2
-		}
-
-		any_country = {
-			limit = {
-				tag = FROM
-				ai = yes
-				OR = {
-					NOT = {alliance_with = THIS}
-					THIS = {ai = yes}
-				}
-				
-			}
-			war = {
-				target = THIS
-				attacker_goal = {casus_belli = make_facist}
-				attacker_goal = {casus_belli = add_to_sphere}
-				call_ally = yes
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 500161
-	title = "Speer tames the Central European Reichskommissariats."
-	desc = "Speer has instituted the National Socialist regime in Bohemia, Slovakia, and Poland, ensuring the security of the Reich for a thousand years to come."
-	fire_only_once = yes
-
-	trigger = {
-		tag = SGE
-		has_country_flag = nes_1_start
-		OR = {
-			NOT = {exists = POL}
-			POL = {government = fascist_dictatorship}
-		}
-		OR = {
-			NOT = {exists = BOH}
-			BOH = {government = fascist_dictatorship}
-		}
-		OR = {
-			NOT = {exists = CZH}
-			CZH = {government = fascist_dictatorship}
-		}
-		OR = {
-			NOT = {exists = SLV}
-			SLV = {government = fascist_dictatorship}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		set_country_flag = near_east_dealt_with
-		set_variable = {
-			which = speer_reform_points
-			value = 0
-		}
-		set_variable = {
-			which = speer_reforms_made
-			value = 0
-		}
-		any_country = {
-			limit = {
-				tag = CZH
-				exists = yes
-			}
-			SGE = {
-				change_variable = {
-					which = speer_reform_points
-					value = 2
-				}
-			}
-		}
-		any_country = {
-			limit = {
-				OR = {
-					tag = SLV
-					tag = POL
-					tag = BOH
-				}
-				exists = yes
-			}
-			SGE = {
-				change_variable = {
-					which = speer_reform_points
-					value = 1
-				}
-			}
-		}
-		random_owned = {
-			limit = {
-				NOT = {
-					SGE = {
-						check_variable = {
-							which = speer_reform_points
-							value = 1
-						}
-					}
-				}
-				is_capital = yes
-			}
-			SGE = {set_country_flag = speer_auth_1}
-		}
-	}
-
-	option = {
-		name = "Heil Speer!"
-		prestige = 20
-	}
-}
-
-country_event = {
-	id = 500162
-	title = "Speer tames the Eastern European Reichskommissariats."
-	desc = "Speer has instituted the National Socialist regime in Moscow, Ukraine, and the Baltics, ensuring the security of the Reich for a thousand years to come."
-	fire_only_once = yes
-
-	trigger = {
-		tag = SGE
-		has_country_flag = fes_1_start
-		NOT = {exists = FEU}
-		OR = {
-			NOT = {exists = MSC}
-			MSC = {government = fascist_dictatorship}
-		}
-		OR = {
-			NOT = {exists = BLT}
-			BLT = {government = fascist_dictatorship}
-		}
-		OR = {
-			NOT = {exists = UKR}
-			UKR = {government = fascist_dictatorship}
-		}
-	}
-
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		set_country_flag = far_east_dealt_with
-		any_country = {
-			limit = {
-				OR = {
-					tag = MSC
-					tag = BLT
-					tag = UKR
-				}
-				exists = yes
-			}
-			SGE = {
-				change_variable = {
-					which = speer_reform_points
-					value = 1
-				}
-			}
-		}
-		random_owned = {
-			limit = {
-				NOT = {
-					SGE = {
-						check_variable = {
-							which = speer_reform_points
-							value = 1
-						}
-					}
-				}
-				is_capital = yes
-			}
-			SGE = {set_country_flag = speer_auth_2}
-		}
-	}
-
-	option = {
-		name = "Heil Speer!"
-		prestige = 20
-	}
-}
-
-country_event = {
 	major = yes
 	id = 500199
 	title = "Reichstag Fire Decree Repealed!"
@@ -235,6 +8,7 @@ country_event = {
 	trigger = {
 		year = 1982
 		tag = SGE
+
 		check_variable = {
 			which = speer_reforms_made
 			value = 3
@@ -254,7 +28,7 @@ country_event = {
 		political_reform = universal_weighted_voting
 		political_reform = harassment
 		political_reform = appointed
-		set_country_flag = speer_reformed_germany
+		#set_country_flag = speer_reformed_germany #doesn't matter anymore
 	}
 
 	option = {
@@ -272,16 +46,16 @@ country_event = {
 	trigger = {
 		year = 1982
 		tag = SGE
-		NOT = {
-			AND = {
-				OR = {
-					has_country_flag = speer_auth_1
-					NOT = {has_country_flag = near_east_dealt_with}
-				}
-				OR = {
-					has_country_flag = speer_auth_2
-					NOT = {has_country_flag = far_east_dealt_with}
-				}
+
+		#got some reform points but didnt do enough reforms
+		OR = {
+			check_variable = {
+				which = speer_reform_points
+				value = 1
+			}
+			check_variable = {
+				which = speer_reforms_made
+				value = 1
 			}
 		}
 		NOT = {
@@ -320,14 +94,20 @@ country_event = {
 		year = 1982
 		tag = SGE
 
-		OR = {
-			has_country_flag = speer_auth_1
-			NOT = {has_country_flag = near_east_dealt_with}
+		#never got any reform points
+		NOT = {
+			check_variable = {
+				which = speer_reform_points
+				value = 1
+			}
 		}
-		OR = {
-			has_country_flag = speer_auth_2
-			NOT = {has_country_flag = far_east_dealt_with}
+		NOT = {
+			check_variable = {
+				which = speer_reforms_made
+				value = 1
+			}
 		}
+
 	}
 
 	mean_time_to_happen = {

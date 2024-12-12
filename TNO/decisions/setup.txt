@@ -832,6 +832,13 @@ political_decisions = {
 					}
 				}
 			}
+			2105 = {
+				add_province_modifier = {
+					name = ger_afr
+					duration = -1
+				}
+				remove_province_modifier = civil_unrest
+			}
 
 			
 			CHI = {set_country_flag = jap_rebel}
@@ -905,6 +912,7 @@ political_decisions = {
 				}
 				set_country_flag = I_am_borman
 			}
+			SGE = {set_country_flag = I_am_speer}
 			set_country_flag = german_main
 			EGA = {set_country_flag = german_main}
 			WGA = {set_country_flag = german_main}

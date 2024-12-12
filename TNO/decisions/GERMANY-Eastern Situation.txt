@@ -1,0 +1,470 @@
+political_decisions = {
+	nes_start = {
+		picture = ostend_manifesto
+		potential = {
+			OR = {
+				tag = HGE
+				tag = SGE
+				tag = BGE
+			}
+			NOT = {exists = GER}
+			NOT = {has_country_flag = nes_started}
+		}
+
+		allow = {
+			ideological_thought = 1
+		}
+
+		effect = {
+			set_country_flag = nes_started
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+
+	nes_pol_light = {
+		picture = ostend_manifesto
+		potential = {
+			OR = {
+				tag = HGE
+				tag = SGE
+				tag = BGE
+			}
+			has_country_flag = nes_started
+			NOT = {has_country_flag = nes_finished}
+
+			exists = POL
+			POL = {is_vassal = no}
+
+			NOT = {has_country_flag = nes_pol}
+		}
+		allow = {
+			NOT = {truce_with = POL}
+			POL = {war = no}
+		}
+
+		effect = {
+			set_country_flag = nes_pol
+
+			badboy = 5
+
+			POL = {
+				country_event = 500163
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
+		}
+	}
+
+	nes_pol_heavy = {
+		picture = ostend_manifesto
+		potential = {
+			OR = {
+				tag = HGE
+				tag = SGE
+				tag = BGE
+			}
+			has_country_flag = nes_started
+			NOT = {has_country_flag = nes_finished}
+
+			exists = POL
+			POL = {is_vassal = no}
+
+			NOT = {has_country_flag = nes_pol}
+		}
+		allow = {
+			NOT = {truce_with = POL}
+			POL = {war = no}
+		}
+
+		effect = {
+			set_country_flag = nes_pol
+
+			badboy = 16
+
+			POL = {
+				country_event = 500160
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
+		}
+	}
+
+	nes_czh_light = {
+		picture = ostend_manifesto
+		potential = {
+			OR = {
+				tag = HGE
+				tag = SGE
+				tag = BGE
+			}
+			has_country_flag = nes_started
+			NOT = {has_country_flag = nes_finished}
+
+			OR = {
+				AND = {
+					exists = CZH
+					CZH = {is_vassal = no}
+				}
+				AND = {
+					exists = BOH
+					BOH = {is_vassal = no}
+				}
+				AND = {
+					exists = SLV
+					SLV = {is_vassal = no}
+				}
+			}
+
+			NOT = {has_country_flag = nes_czh}
+		}
+		allow = {
+			NOT = {truce_with = CZH}
+			CZH = {war = no}
+			NOT = {truce_with = BOH}
+			BOH = {war = no}
+			NOT = {truce_with = SLV}
+			SLV = {war = no}
+		}
+
+		effect = {
+			set_country_flag = nes_czh
+
+			badboy = 5
+
+			random_owned = {
+				limit = {
+					THIS = {
+						NOT = {truce_with = CZH}
+						CZH = {war = no}
+						exists = CZH
+						CZH = {is_vassal = no}
+					}
+				}
+				CZH = {
+					country_event = 500163
+				}
+			}
+			random_owned = {
+				limit = {
+					THIS = {
+						NOT = {truce_with = BOH}
+						BOH = {war = no}
+						exists = BOH
+						BOH = {is_vassal = no}
+					}
+				}
+				BOH = {
+					country_event = 500163
+				}
+			}
+			random_owned = {
+				limit = {
+					THIS = {
+						NOT = {truce_with = SLV}
+						SLV = {war = no}
+						exists = SLV
+						SLV = {is_vassal = no}
+					}
+				}
+				SLV = {
+					country_event = 500163
+				}
+			}			
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
+		}
+	}
+
+	nes_czh_heavy = {
+		picture = ostend_manifesto
+		potential = {
+			OR = {
+				tag = HGE
+				tag = SGE
+				tag = BGE
+			}
+			has_country_flag = nes_started
+			NOT = {has_country_flag = nes_finished}
+
+			OR = {
+				AND = {
+					exists = CZH
+					CZH = {is_vassal = no}
+				}
+				AND = {
+					exists = BOH
+					BOH = {is_vassal = no}
+				}
+				AND = {
+					exists = SLV
+					SLV = {is_vassal = no}
+				}
+			}
+
+			NOT = {has_country_flag = nes_czh}
+		}
+		allow = {
+			NOT = {truce_with = CZH}
+			CZH = {war = no}
+			NOT = {truce_with = BOH}
+			BOH = {war = no}
+			NOT = {truce_with = SLV}
+			SLV = {war = no}
+		}
+
+		effect = {
+			set_country_flag = nes_czh
+
+			badboy = 16
+
+			random_owned = {
+				limit = {
+					THIS = {
+						NOT = {truce_with = CZH}
+						CZH = {war = no}
+						exists = CZH
+						CZH = {is_vassal = no}
+					}
+				}
+				CZH = {
+					country_event = 500160
+				}
+			}
+			random_owned = {
+				limit = {
+					THIS = {
+						NOT = {truce_with = BOH}
+						BOH = {war = no}
+						exists = BOH
+						BOH = {is_vassal = no}
+					}
+				}
+				BOH = {
+					country_event = 500160
+				}
+			}
+			random_owned = {
+				limit = {
+					THIS = {
+						NOT = {truce_with = SLV}
+						SLV = {war = no}
+						exists = SLV
+						CZH = {is_vassal = no}
+					}
+				}
+				SLV = {
+					country_event = 500160
+				}
+			}			
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
+		}
+	}
+
+	fes_start = {
+		picture = rhodesia_charter
+		potential = {
+			OR = {
+				tag = HGE
+				tag = SGE
+				tag = BGE
+			}
+			NOT = {exists = GER}
+			NOT = {has_country_flag = fes_started}
+		}
+		allow = {
+			state_n_government = 1
+			has_country_flag = nes_finished
+		}
+		effect = {
+			set_country_flag = fes_started
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+
+	fes_ukr = {
+		picture = ostend_manifesto
+		potential = {
+			OR = {
+				tag = HGE
+				tag = SGE
+				tag = BGE
+			}
+			has_country_flag = fes_started
+			NOT = {has_country_flag = fes_finished}
+
+			exists = UKR
+			UKR = {is_vassal = no}
+
+			NOT = {has_country_flag = fes_ukr}
+		}
+		allow = {
+			NOT = {truce_with = UKR}
+			UKR = {war = no}
+		}
+
+		effect = {
+			set_country_flag = fes_ukr
+
+			badboy = 5
+
+			UKR = {
+				country_event = 500163
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
+		}
+	}
+
+	fes_blt = {
+		picture = ostend_manifesto
+		potential = {
+			OR = {
+				tag = HGE
+				tag = SGE
+				tag = BGE
+			}
+			has_country_flag = fes_started
+			NOT = {has_country_flag = fes_finished}
+
+			exists = BLT
+			BLT = {is_vassal = no}
+
+			NOT = {has_country_flag = fes_blt}
+		}
+		allow = {
+			NOT = {truce_with = BLT}
+			BLT = {war = no}
+		}
+
+		effect = {
+			set_country_flag = fes_blt
+
+			badboy = 5
+
+			BLT = {
+				country_event = 500163
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
+		}
+	}
+
+	fes_msc = {
+		picture = ostend_manifesto
+		potential = {
+			OR = {
+				tag = HGE
+				tag = SGE
+				tag = BGE
+			}
+			has_country_flag = fes_started
+			NOT = {has_country_flag = fes_finished}
+
+			exists = MSC
+			MSC = {is_vassal = no}
+
+			NOT = {has_country_flag = fes_msc}
+		}
+		allow = {
+			NOT = {truce_with = MSC}
+			MSC = {war = no}
+		}
+
+		effect = {
+			set_country_flag = fes_msc
+
+			badboy = 5
+
+			MSC = {
+				country_event = 500163
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
+		}
+	}
+}
