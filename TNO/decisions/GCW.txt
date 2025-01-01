@@ -196,7 +196,7 @@ political_decisions = {
 				sub_unit = {type = clipper_transport value = current}
 				sub_unit = {type = clipper_transport value = current}
 			}
-			
+			badboy = -100
 		}
 	}
 

@@ -1,0 +1,71 @@
+country_event = {
+	id = 500298
+	title = "Einheitspakt membership"
+	desc = "event500298desc"
+
+	trigger = {
+		NOT = {has_country_modifier = einheitspakt}
+
+		is_greater_power = no
+
+		government = fascist_dictatorship
+
+		OR = {
+			in_sphere = GGE
+			in_sphere = BGE
+			in_sphere = SGE
+			in_sphere = HGE
+			in_sphere = GE2
+		}
+
+		sphere_owner = {
+			government = fascist_dictatorship
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		add_country_modifier = {
+			name = einheitspakt
+			duration = -1
+		}
+	}
+	option = {
+		name = "Long live the Reich!"
+	}
+}
+
+country_event = {
+	id = 500299
+	title = "Einheitspakt lapse"
+	desc = "event500299desc"
+
+	trigger = {
+		has_country_modifier = einheitspakt
+
+		NOT = {
+			AND = {
+				OR = {
+					in_sphere = GGE
+					in_sphere = BGE
+					in_sphere = SGE
+					in_sphere = HGE
+					in_sphere = GE2
+				}
+				sphere_owner = {
+					government = fascist_dictatorship
+				}
+			}
+		}	
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		remove_country_modifier = einheitspakt
+	}
+	option = {
+		name = "Good riddance!"
+	}
+}

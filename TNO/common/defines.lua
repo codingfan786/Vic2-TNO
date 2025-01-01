@@ -610,7 +610,7 @@ diplomacy = {
 	TWS_FULFILLED_IDLE_SPACE = 0.75, -- How much % the CB fulfillment must done, so TWS starts ticking.
 	TWS_BATTLE_MIN_COUNT = 5, -- At least X battles before the aspect of wins will count
 	TWS_BATTLE_MAX_ASPECT = 8.0, -- Max allowed battle wins aspect for TWS
-	LARGE_POPULATION_INFLUENCE_PENALTY = -0.4,
+	LARGE_POPULATION_INFLUENCE_PENALTY = -0.05,
 	LONE_BACKER_PRESTIGE_FACTOR = 0.05 -- prestige boost for being only defender backer in crisis
 },  
 
@@ -688,8 +688,8 @@ pops = {
 	NATIONALIST_MOVEMENT_MIL_CAP = 3.0,
 	MOVEMENT_SUPPORT_UH_FACTOR = 3, --  3x means 30% country support equals full UH support
 	REBEL_OCCUPATION_STRENGTH_BONUS = 0.01, -- the amount of strength given to rebel movements when they occupy a province
-	LARGE_POPULATION_LIMIT = 9000000,
-	LARGE_POPULATION_INFLUENCE_PENALTY_CHUNK = 250000,
+	LARGE_POPULATION_LIMIT = 15000000,
+	LARGE_POPULATION_INFLUENCE_PENALTY_CHUNK = 500000,
 },
 
 ai =

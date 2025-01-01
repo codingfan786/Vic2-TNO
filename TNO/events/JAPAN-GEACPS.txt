@@ -1,0 +1,48 @@
+country_event = {
+	id = 500300
+	title = "Co-Prosperity Sphere membership"
+	desc = "event500300desc"
+
+	trigger = {
+		NOT = {has_country_modifier = geacps}
+
+		is_greater_power = no
+
+		in_sphere = JAP
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		add_country_modifier = {
+			name = geacps
+			duration = -1
+		}
+	}
+	option = {
+		name = "Death to colonialism!"
+	}
+}
+
+country_event = {
+	id = 500301
+	title = "Co-Prosperity Sphere lapse"
+	desc = "event500301desc"
+
+	trigger = {
+		has_country_modifier = geacps
+
+		NOT = {
+			in_sphere = JAP
+		}	
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		remove_country_modifier = geacps
+	}
+	option = {
+		name = "Good riddance!"
+	}
+}

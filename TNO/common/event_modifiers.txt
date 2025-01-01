@@ -1,6 +1,55 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+ofn_annual_trade = {
+	icon = 9
+	factory_throughput = 0.1
+	import_cost = -0.2
+
+	industry_tech_research_bonus = 0.05
+	commerce_tech_research_bonus = 0.05
+}
+
+ofn_annual_military = {
+	icon = 15
+	land_unit_start_experience = 5
+	naval_unit_start_experience = 5
+	min_military_spending = 0.2
+
+	army_tech_research_bonus = 0.05
+	navy_tech_research_bonus = 0.05
+}
+
+ofn_annual_diplomacy = {
+	icon = 5
+	global_assimilation_rate = 0.5
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.01
+
+	culture_tech_research_bonus = 0.05
+}
+
+einheitspakt = {
+	icon = 8
+	land_organisation = 0.05
+	leadership_modifier = 0.1
+	political_reform_desire = 0.1
+	import_cost = 0.1
+
+	army_tech_research_bonus = 0.05
+	industry_tech_research_bonus = 0.05
+}
+
+geacps = {
+	icon = 8
+	naval_organisation = 0.05
+	rgo_throughput = 0.05
+	education_efficiency_modifier = -0.05
+
+	navy_tech_research_bonus = 0.05
+	culture_tech_research_bonus = 0.05
+}
+
 sizing_cooldown = {
 	icon = 18
 }
@@ -271,12 +320,6 @@ low_repair = {
 	icon = 5
 }
 
-
-ofn_annual_trade = {
-	icon = 9
-	tax_efficiency = 0.05
-}
-
 ofn_annual_timer = {}
 
 tried_joining_ofn = {
@@ -426,7 +469,7 @@ ija_boost_1 = {
 ija_boost_2 = {
 	org_regain = 0.1
 	land_organisation = 0.05
-	land_unit_start_experience = 0.5
+	land_unit_start_experience = 5
 	supply_consumption = -0.05
 	icon = 15
 }

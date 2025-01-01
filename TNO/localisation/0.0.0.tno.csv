@@ -404,8 +404,10 @@ ofn_join_title;Apply for O.F.N. Membership!;;;;;;;;;;;;x
 ofn_join_desc;The Organization of Free Nations (O.F.N.) was formed in 1947 by the United States of America and the British Commonwealth in Exile. It is an international security council with the aim of protecting democratic nations abroad. In practice it functions as a continuation of the Allied bloc in World War 2. If we have a good relation and possibly an alliance with the O.F.N. leader we have a good shot at being able to join the organization. §R Membership and leadership is visible by a province modifier on people's capitals.;;;;;;;;;;;;x
 event500136desc;Horrible news for democracies across the globe today as the continued power vacuum in O.F.N. leadership has lead to the functional dissolution of the organization as a whole. §R This happens because there are no GPs eligible to be the O.F.N. leader!;;;;;;;;;;;;x
 event500135desc;Due to a sudden leadership gap from the former O.F.N. leaders fall from influence, $COUNTRY$ has been chosen to lead the O.F.N. in an emergency election. §R This happens because the former O.F.N. leader either fell from GP status or no longer allows voting.;;;;;;;;;;;;x
-event500139desc;The O.F.N. annual conference on international freedom occurs every December, usually in the capital of the O.F.N. leader. Topics include ways to reinforce democracy abroad, trade agreements, and occasionally discussions of military interventions.;;;;;;;;;;;;x
+event500139desc;The O.F.N. annual conference on international freedom occurs every December, usually in the capital of the O.F.N. leader. Topics include ways to reinforce democracy abroad, trade agreements, and occasionally discussions of military interventions.\nThis year $FROMCOUNTRY$ has decided to focus on reinforcing their diplomatic influence in us.;;;;;;;;;;;;x
 ofn_annual_trade;O.F.N. Trade Agreements.;;;;;;;;;;;;x
+ofn_annual_military;O.F.N. Military Cooperation.;;;;;;;;;;;;x
+ofn_annual_diplomacy;O.F.N. Diplomatic Assistance.;;;;;;;;;;;;x
 low_repair;Benelux Liberated;;;;;;;;;;;;x
 brg_into_low_title;Liberation of the Benelux!;;;;;;;;;;;;x
 brg_into_low_desc;With the expulsion of Burgundian rule from French soil and the fall of the National Socialist regime comes an era of a free Benelux! Despite the nominal revolution many of the existing governmental structures put in place by the German occupation remain, and any nationalist separatist movements by the member states are suppressed by the new pan-Beneluxian government.;;;;;;;;;;;;x
@@ -1217,3 +1219,9 @@ fes_start_desc;The momentary lapse in German stability has sent shockwaves throu
 fes_ukr_desc;Under the threat of invasion by our mighty Wehrmacht we will return Ukraine to it's rightful place as our Reichskommisariat! §R If they do not accept we will get casus belli to invade.;x
 fes_blt_desc;Under the threat of invasion by our mighty Wehrmacht we will return the Baltics to it's rightful place as our Reichskommisariat! §R If they do not accept we will get casus belli to invade.;x
 fes_msc_desc;Under the threat of invasion by our mighty Wehrmacht we will return Moskowien to it's rightful place as our Reichskommisariat! §R If they do not accept we will get casus belli to invade.;x
+event500298desc;The Einheitspakt, also known as the Unity-Pakt in international circles, is a military and economic alliance that consists of the Greater Germanic Reich's puppets, clients and allies. The key objective of the Einheitspakt is to maintain Germany's sphere of influence, while also preventing rival factions from expanding.\nA fascist government is a requirement for joining.;x
+event500299desc;Due to the lapse in German influence, we have left the Einheitspakt.;x
+event500300desc;The Greater East Asia Co-Prosperity Sphere, or simply known as the Co-Prosperity Sphere, is a faction that comprises of the majority of East Asia and Southeast Asia. The faction is led by the Empire of Japan, and consists of nations that are de jure independent. However, the majority of nations within the faction have a government that is closely tied with the Japanese Government, and are reliant on the Japanese in most cases.;x
+event500301desc;Due to the lapse in Japanese influence, we have left the Greater East Asia Co-Prosperity Sphere.;x
+geacps;Greater East Asia Co-Prosperity Sphere Membership;x
+einheitspakt;Einheitspakt Membership;x

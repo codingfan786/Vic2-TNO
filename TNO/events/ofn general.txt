@@ -206,10 +206,15 @@ country_event = {
 		any_country = {
 			limit = {has_country_flag = in_ofn}
 			create_alliance = THIS
+			remove_country_modifier = ofn_annual_military
+			add_country_modifier = {
+				name = ofn_annual_military
+				duration = 365
+			}
 		}
 	}
 	option = {
-		name = "Focus this year on diplomatic matters."
+		name = "Focus this year on diplomatic matters. (This gives you 50 influence in O.F.N. minors.)"
 		any_country = {
 			limit = {
 				has_country_flag = in_ofn
@@ -217,11 +222,24 @@ country_event = {
 			}
 			country_event = 500140
 		}
+
+		any_country = {
+			limit = {
+				has_country_flag = in_ofn
+			}
+			remove_country_modifier = ofn_annual_diplomacy
+			add_country_modifier = {
+				name = ofn_annual_diplomacy
+				duration = 365
+			}
+		}
 	}
 	option = {
 		name = "Focus this year on economic matters."
 		any_country = {
 			limit = {has_country_flag = in_ofn}
+			THIS = {add_tax_relative_income = 2}
+			remove_country_modifier = ofn_annual_trade
 			add_country_modifier = {
 				name = ofn_annual_trade
 				duration = 365
@@ -232,7 +250,7 @@ country_event = {
 
 country_event = {
 	id = 500140
-	title = "O.F.N. Annual Conference."
+	title = "O.F.N. Diplomatic Influence."
 	desc = "event500139desc"
 
 	is_triggered_only = yes

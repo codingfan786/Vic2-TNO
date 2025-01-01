@@ -338,6 +338,7 @@ political_decisions = {
 			}
 			JAP = {
 				military_access = AHG
+				set_country_flag = Is_Japan
 			}
 			HND = {
 				add_country_modifier = {

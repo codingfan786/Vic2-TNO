@@ -6,7 +6,7 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-
+			#constructing_cb = RAR
 		}
 		effect = {
 			capital_scope = {
