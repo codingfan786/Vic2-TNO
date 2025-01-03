@@ -2,16 +2,17 @@ political_decisions = {
 	WA_expansion = {
 		picture = die_groot_trek
 		potential = {
-			OR = {
-				tag = CFR
-				tag = NGA
-				tag = CAR
-				tag = AF1
-				tag = AF2
-				tag = AF3
-				tag = AF4
-				tag = LIB
-			}
+			#OR = {
+			#	tag = CFR
+			#	tag = NGA
+			#	tag = CAR
+			#	tag = AF1
+			#	tag = AF2
+			#	tag = AF3
+			#	tag = AF4
+			#	tag = LIB
+			#}
+			has_country_flag = west_africa_optimization_flag
 			any_core = {
 				empty = yes
 			}

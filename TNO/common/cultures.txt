@@ -1289,7 +1289,7 @@ east_asian = {
 		last_names = { Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke
 		}
 	}
-	union = WCH
+	#union = WCH
 }
 
 oceanic = {
@@ -1435,7 +1435,7 @@ neo_european_cultures = {
 	leader = european
 	is_overseas = no
 	boer = {
-		color = {220 145 0}
+		color = {220 145 10}
 		first_names = { Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert
 		}
 		last_names = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys 
@@ -1443,7 +1443,7 @@ neo_european_cultures = {
 		radicalism = 10
 	}
 	australian = {
-		color = {87 113 174}
+		color = {134 215 119}
 		first_names = { John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
 		}
 		last_names = { Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
@@ -1463,6 +1463,13 @@ neo_european_cultures = {
 		last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
 		}
 		radicalism = 10
+	}
+	south_african = {
+		color = {87 113 174}
+		first_names = { John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
+		}
+		last_names = { Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
+		}	
 	}
 }
 

@@ -75,7 +75,7 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					OR = {
-						has_pop_culture = british
+						has_pop_culture = south_african
 						has_pop_culture = boer
 					}
 				}

@@ -4,10 +4,11 @@ province_event = {
 	desc = "event500202desc"
 
 	trigger = {
-		year = 1977 #was 1982
 		owner = {
 			tag = BGE
 		}
+		
+		year = 1977 #was 1982
 		
 		OR = {
 			province_id = 549

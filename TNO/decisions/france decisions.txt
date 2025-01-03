@@ -2,17 +2,17 @@ political_decisions = {
 	bri_integration = {
 		picture = court_yard_speech
 		potential = {
-			OR = {
-				tag = FRA
-				AND = {
-					tag = CFR
-					any_owned_province = {
-						is_core = BRI
-					}
-				}
-			}	
+			#OR = {
+			#	tag = FRA
+			#	AND = {
+			#		tag = CFR
+			#		any_owned_province = {
+			#			is_core = BRI
+			#		}
+			#	}
+			#}	
 
-
+			primary_culture = french
 			NOT = {accepted_culture = breton}
 		}
 		allow = {

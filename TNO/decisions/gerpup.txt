@@ -3,13 +3,13 @@ political_decisions = {
 	PBS_freedom = {
 		picture = abolish_prohibition
 		potential = {
+			GER = {is_our_vassal = THIS}
 			OR = {
 				tag = POL
 				tag = BOH
 				tag = SLV
 			}
 			exists = GER
-			GER = {is_our_vassal = THIS}
 		}
 		allow = {
 			year = 1963
@@ -255,13 +255,13 @@ political_decisions = {
 	stand_on_our_own = {
 		picture = leave_soi
 		potential = {
+			GER = {is_our_vassal = THIS}
 			OR = {
 				tag = MSC
 				tag = BLT
 				tag = UKR
 			}
 			exists = GER
-			GER = {is_our_vassal = THIS}
 			government = fascist_dictatorship
 		}
 
@@ -315,26 +315,24 @@ political_decisions = {
 	cultural_replacement = {
 		picture = form_south_german_confederation
 		potential = {
-			OR = {
-				tag = UKR
-				tag = MSC
-				tag = BLT
-				tag = COR
-				tag = WGA
-				tag = EGA
-				tag = BRG
-
-				#tag = COC
-
-				tag = SGA
-				tag = AGA
-				tag = GBA
-				tag = GSC
-				tag = GFR
-				tag = GLO
-			}
-			
 			government = fascist_dictatorship
+			#OR = {
+			#	tag = UKR
+			#	tag = MSC
+			#	tag = BLT
+			#	tag = COR
+			#	tag = WGA
+			#	tag = EGA
+			#	tag = BRG
+				#tag = COC
+			#	tag = SGA
+			#	tag = AGA
+			#	tag = GBA
+			#	tag = GSC
+			#	tag = GFR
+			#	tag = GLO
+			#}
+			has_country_flag = cultural_replacement_optimization_flag
 		}
 		allow = {
 			state_n_government = 1

@@ -2,9 +2,9 @@ political_decisions = {
 	regent_habsburg = {
 		picture = enact_dual_monarchy
 		potential = {
+			tag = HUN
 			has_country_flag = horthy_son
 			NOT = {has_country_flag = monarch_chosen}
-			tag = HUN
 		}
 		allow = {
 
@@ -28,8 +28,8 @@ political_decisions = {
 	hungary_austria = {
 		picture = enact_dual_monarchy
 		potential = {
-			has_country_flag = habsburg_chosen
 			tag = HUN
+			has_country_flag = habsburg_chosen
 		}
 		allow = {
 			all_core = {
@@ -49,9 +49,9 @@ political_decisions = {
 	regent_democracy = {
 		picture = manifesto_on_unshakable_autocracy
 		potential = {
+			tag = HUN
 			has_country_flag = horthy_son
 			NOT = {has_country_flag = monarch_chosen}
-			tag = HUN
 		}
 		allow = {
 

@@ -254,6 +254,12 @@ political_decisions = {
 	russian_integration = {
 		picture = russian_vladivostok
 		potential = {
+			any_neighbor_country = {
+				AND = {
+					NOT = {tag = MSC}
+					primary_culture = russian
+				} 
+			}
 			OR = {
 				AND = {
 					has_global_flag = WR_unify
@@ -281,12 +287,6 @@ political_decisions = {
 						tag = ALK
 					}
 				}
-			}
-			any_neighbor_country = {
-				AND = {
-					NOT = {tag = MSC}
-					primary_culture = russian
-				} 
 			}
 		}
 
@@ -352,8 +352,8 @@ political_decisions = {
 	siberia_colonize = {
 		picture = trail_of_tears
 		potential = {
-			2613 = {empty = yes}
 			primary_culture = russian
+			2613 = {empty = yes}
 			NOT = {tag = WA1}
 			NOT = {tag = NUC}
 		}

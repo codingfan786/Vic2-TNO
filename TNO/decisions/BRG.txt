@@ -3,8 +3,8 @@ political_decisions = {
 	brg_core = {
 		picture = annex_the_congo
 		potential = {
-			NOT = {has_country_flag = brg_coring}
 			tag = BRG
+			NOT = {has_country_flag = brg_coring}
 			NOT = {
 				FRA = {
 					all_core = {

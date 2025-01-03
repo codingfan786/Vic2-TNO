@@ -1225,3 +1225,8 @@ event500300desc;The Greater East Asia Co-Prosperity Sphere, or simply known as t
 event500301desc;Due to the lapse in Japanese influence, we have left the Greater East Asia Co-Prosperity Sphere.;x
 geacps;Greater East Asia Co-Prosperity Sphere Membership;x
 einheitspakt;Einheitspakt Membership;x
+event500302desc;The three major powers in the world each have their own bloc membership and bonuses.\nTo join the O.F.N. you must be democratic and request membership from the USA via decision. The O.F.N. bonus changes each year between a military, trade, or diplomacy bonus depending on the USA's choice.\nYou will automatically join the Einheitspakt if you have a fascist dictatorship government and are in the German sphere post civil war. The Einheitspakt bonus includes a minor military bonus along with military and industry tech research bonuses. There is a slight penalty to import costs and a slight increase to political reform desire as well.\nAll members of Japan's sphere are automatically members of the Greater East Asian Co-Prosperity Sphere. The Co-Prosperity Sphere bonus includes a minor naval and rgo bonus along with a navy and culture tech research bonuses. There is a slight penalty to education efficiency as well.;x
+scottish;Scottish;x
+australian;Australi-Zealander;x
+south_african;Anglo South African;x
+welsh;Welsh;x

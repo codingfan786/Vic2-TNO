@@ -82,7 +82,6 @@ political_decisions = {
 						}
 					}
 				}
-				
 			}
 		}
 		allow = {
@@ -381,18 +380,22 @@ political_decisions = {
 		}
 		allow = {
 			#NOT = {FRA = {exists = yes}}
-			FRA = {
-				all_core = {
-					OR = {
-						owner = {tag = THIS}
-						is_core = ITA
-						province_id = 409
-						province_id = 410
-						province_id = 412
-						province_id = 473
-					}
-				}
+			#FRA = {
+			#	all_core = {
+			#		OR = {
+			#			owner = {tag = THIS}
+			#			is_core = ITA
+			#			province_id = 409
+			#			province_id = 410
+			#			province_id = 412
+			#			province_id = 473
+			#		}
+			#	}
+			#}
+			any_owned_province = {
+				is_core = FRA
 			}
+			NOT = {FRA = {exists = yes}}
 		}
 		effect = {
 			change_tag = FRA

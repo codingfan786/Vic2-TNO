@@ -1,6 +1,6 @@
 owner = COR
 controller = COR
-
+add_core = ENG
 
 
 trade_goods = grain

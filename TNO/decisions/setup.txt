@@ -1,7 +1,6 @@
 political_decisions = {
 	notechs = {
 		potential = {
-			NOT = {has_country_flag = teched}
 			AND = {
 				NOT = {post_nelsonian_thought = 1}
 				NOT = {clipper_design = 1}
@@ -34,6 +33,7 @@ political_decisions = {
 				NOT = {army_command_principle = 1}
 			}
 			
+			NOT = {has_country_flag = teched}
 		}
 		allow = {
 			AND = {
@@ -230,6 +230,39 @@ political_decisions = {
 				}
 			}
 
+			CAN = {
+				any_owned = {
+					any_pop = {
+						limit = {
+							type = craftsmen
+						}
+						reduce_pop = 0.5
+					}
+				}
+			}
+
+			AST = {
+				any_owned = {
+					any_pop = {
+						limit = {
+							type = craftsmen
+						}
+						reduce_pop = 0.5
+					}
+				}
+			}
+
+			IBE = {
+				any_owned = {
+					any_pop = {
+						limit = {
+							type = craftsmen
+						}
+						reduce_pop = 0.8
+					}
+				}
+			}
+
 			3449 = {
 				add_province_modifier = {
 					name = staging_ground
@@ -296,6 +329,180 @@ political_decisions = {
 		effect = {
 			JAN = {
 				country_event = 70070024
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = SGE
+						tag = HGE
+						tag = BGE
+					}
+				}
+				set_country_flag = not_goering_optimization_flag
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = UKR
+						tag = MSC
+						tag = BLT
+						tag = COR
+						tag = WGA
+						tag = EGA
+						tag = BRG
+
+						#tag = COC
+
+						tag = SGA
+						tag = AGA
+						tag = GBA
+						tag = GSC
+						tag = GFR
+						tag = GLO
+					}
+				}
+				set_country_flag = cultural_replacement_optimization_flag
+			}
+			
+			any_country = {
+				limit = {
+					OR = {
+						tag = SYR
+						tag = YEM
+						tag = OMA
+						tag = NEJ
+						tag = ABU
+						tag = JOR
+						tag = IRQ
+						tag = EGY
+					}
+				}
+				set_country_flag = uar_optimization_flag
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = CFR
+						tag = NGA
+						tag = CAR
+						tag = AF1
+						tag = AF2
+						tag = AF3
+						tag = AF4
+						tag = LIB
+					}
+				}
+				set_country_flag = west_africa_optimization_flag
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = CH1
+						tag = CH2
+						tag = CH3
+						tag = CH4
+						tag = CH5
+						tag = CH6
+						tag = XBI
+					}
+				}
+				set_country_flag = china_neutrality
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = EGA
+						tag = WGA
+						tag = SGA
+						tag = AGA
+					}
+				}
+				set_country_flag = german_africa_optimization_flag
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = GSC
+						tag = GBA
+						tag = GFR
+					}
+				}
+				set_country_flag = goering_puppet_optimization_flag
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = UKR
+						tag = MSC
+						tag = BLT
+						tag = COC
+					}
+				}
+				set_country_flag = ger_east_optimization_flag
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = IIS
+						tag = IET
+						tag = IGY
+					}
+				}
+				set_country_flag = italian_colonies_optimization_flag
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = KHI
+						tag = BUK
+						tag = KOK
+					}
+				}
+				set_country_flag = kaztards_optimization_flag
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = R01
+						tag = R02
+						tag = R03
+						tag = R04
+						tag = R05
+						tag = R06
+						tag = R07
+						tag = R08
+						tag = R09
+						tag = R10
+						tag = R11
+						tag = R12
+						tag = R13
+					}
+				}
+				set_country_flag = russian_puppet_optimization_flag
+			}
+
+			any_country = {
+				limit = {
+					OR = {
+						tag = RAR
+						tag = NUC
+						tag = RUS
+						tag = WA1
+						tag = NKV
+						tag = FED
+					}
+				}
+				set_country_flag = russian_overlord_optimization_flag
 			}
 
 			any_country = {
@@ -1162,11 +1369,7 @@ political_decisions = {
 
 	ger_africa_setup = {
 		potential = {
-			OR = {
-				tag = JAN
-				#tag = WGA
-				#tag = EGA
-			}
+			tag = JAN
 			NOT = {has_country_flag = africa_setup}
 		}
 		allow = {
@@ -1238,6 +1441,7 @@ political_decisions = {
 
 	puppet_gp_fix = {
 		potential = {
+			civilized = no
 			NOT = {year = 1963}
 			OR = {
 				tag = IGY
@@ -1272,7 +1476,6 @@ political_decisions = {
 				tag = R13
 				tag = AHG
 			}
-			civilized = no
 		}
 		allow = {}
 		effect = {civilized = yes}

@@ -4,9 +4,9 @@ country_event = {
 	desc = "more rebel tech!"
 
 	trigger = {
+		tag = JAN
 		year = 1979 #was 1974
 		NOT = {has_global_flag = rebeltech1}
-		AI = yes
 	}
 
 	mean_time_to_happen = {
@@ -36,9 +36,9 @@ country_event = {
 	desc = "more rebel tech!"
 
 	trigger = {
+		tag = JAN
 		year = 2000
 		NOT = {has_global_flag = rebeltech2}
-		AI = yes
 	}
 
 	mean_time_to_happen = {
@@ -69,6 +69,7 @@ country_event = {
 	desc = "more rebel leaders!"
 
 	trigger = {
+		tag = JAN
 		REB = {
 			OR = {
 				NOT = {
@@ -99,7 +100,6 @@ country_event = {
 			
 		}
 		
-		ai = yes
 	}
 
 	mean_time_to_happen = {
@@ -111,43 +111,43 @@ country_event = {
 		REB = {
 			define_general = {
 				name = rebel8
-				personality = aggressive
-				background = balanced_p
+				personality = defence_2.4
+				background = attack_2.3
 			}
 			define_general = {
 				name = rebel1
-				personality = aggressive
-				background = balanced_p
+				personality = defence_2.4
+				background = attack_2.3
 			}
 			define_general = {
 				name = rebel2
-				personality = aggressive
-				background = balanced_p
+				personality = defence_2.4
+				background = attack_2.3
 			}
 			define_general = {
 				name = rebel3
-				personality = aggressive
-				background = balanced_p
+				personality = defence_2.4
+				background = attack_2.3
 			}
 			define_general = {
 				name = rebel4
-				personality = aggressive
-				background = balanced_p
+				personality = defence_2.4
+				background = attack_2.3
 			}
 			define_general = {
 				name = rebel5
-				personality = aggressive
-				background = balanced_p
+				personality = defence_2.4
+				background = attack_2.3
 			}
 			define_general = {
 				name = rebel6
-				personality = aggressive
-				background = balanced_p
+				personality = defence_2.4
+				background = attack_2.3
 			}
 			define_general = {
 				name = rebel7
-				personality = aggressive
-				background = balanced_p
+				personality = defence_2.4
+				background = attack_2.3
 			}
 		}
 		

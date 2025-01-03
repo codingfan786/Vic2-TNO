@@ -30,8 +30,8 @@ political_decisions = {
 	war_plan_0_pol = {
 		picture = ostend_manifesto
 		potential = {
-			NOT = {has_country_flag = war_plan_0_finish}
 			tag = GGE
+			NOT = {has_country_flag = war_plan_0_finish}
 			has_country_flag = war_plan_0_start
 			exists = POL
 			NOT = {has_country_flag = war_plan_0_pol_done}
@@ -64,8 +64,8 @@ political_decisions = {
 	war_plan_0_slv = {
 		picture = ostend_manifesto
 		potential = {
-			NOT = {has_country_flag = war_plan_0_finish}
 			tag = GGE
+			NOT = {has_country_flag = war_plan_0_finish}
 			has_country_flag = war_plan_0_start
 			exists = SLV
 			NOT = {has_country_flag = war_plan_0_slv_done}
@@ -98,8 +98,8 @@ political_decisions = {
 	war_plan_0_boh = {
 		picture = ostend_manifesto
 		potential = {
-			NOT = {has_country_flag = war_plan_0_finish}
 			tag = GGE
+			NOT = {has_country_flag = war_plan_0_finish}
 			has_country_flag = war_plan_0_start
 			exists = BOH
 			NOT = {has_country_flag = war_plan_0_boh_done}
@@ -132,8 +132,8 @@ political_decisions = {
 	war_plan_0_czh = {
 		picture = ostend_manifesto
 		potential = {
-			NOT = {has_country_flag = war_plan_0_finish}
 			tag = GGE
+			NOT = {has_country_flag = war_plan_0_finish}
 			has_country_flag = war_plan_0_start
 			exists = CZH
 			NOT = {has_country_flag = war_plan_0_czh_done}
@@ -192,8 +192,8 @@ political_decisions = {
 	war_plan_a_scba = {
 		picture = the_heligoland_question
 		potential = {
-			NOT = {has_country_flag = war_plan_a_finish}
 			tag = GGE
+			NOT = {has_country_flag = war_plan_a_finish}
 			has_country_flag = war_plan_a_start
 			NOT = {has_country_flag = war_plan_a_scba_done}
 		}
@@ -223,8 +223,8 @@ political_decisions = {
 	war_plan_a_eng = {
 		picture = the_heligoland_question
 		potential = {
-			NOT = {has_country_flag = war_plan_a_finish}
 			tag = GGE
+			NOT = {has_country_flag = war_plan_a_finish}
 			has_country_flag = war_plan_a_start
 			OR = {
 				NOT = {exists = COR}
@@ -317,8 +317,8 @@ political_decisions = {
 	war_plan_b_frlo = {
 		picture = trail_of_tears
 		potential = {
-			NOT = {has_country_flag = war_plan_b_finish}
 			tag = GGE
+			NOT = {has_country_flag = war_plan_b_finish}
 			has_country_flag = war_plan_b_start
 			NOT = {has_country_flag = war_plan_b_frlo_done}
 		}
@@ -348,8 +348,8 @@ political_decisions = {
 	war_plan_b_rus = {
 		picture = trail_of_tears
 		potential = {
-			NOT = {has_country_flag = war_plan_b_finish}
 			tag = GGE
+			NOT = {has_country_flag = war_plan_b_finish}
 			has_country_flag = war_plan_b_start
 			NOT = {has_country_flag = war_plan_b_rus_done}
 		}

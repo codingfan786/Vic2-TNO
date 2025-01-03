@@ -28,8 +28,8 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		has_global_flag = malta_conference
 		tag = IBE
+		has_global_flag = malta_conference
 		NOT = {has_global_flag = malta_conference_bombed}
 	}
 
@@ -66,8 +66,8 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		has_global_flag = malta_conference
 		tag = TUR
+		has_global_flag = malta_conference
 		NOT = {has_global_flag = malta_conference_bombed}
 	}
 
@@ -140,6 +140,7 @@ country_event = {
 
 	option = {
 		name = "Out of the question!"
+		set_country_flag = refused_malta_ibe
 		ai_chance = {
 			factor = 1
 		}
@@ -188,6 +189,7 @@ country_event = {
 
 	option = {
 		name = "Out of the question!"
+		set_country_flag = refused_malta_ibe
 		ai_chance = {
 			factor = 0.80
 		}
@@ -240,6 +242,7 @@ country_event = {
 
 	option = {
 		name = "Out of the question!"
+		set_country_flag = refused_malta_tur
 		ai_chance = {
 			factor = 0.95
 		}
@@ -287,6 +290,7 @@ country_event = {
 
 	option = {
 		name = "Out of the question!"
+		set_country_flag = refused_malta_tur
 		ai_chance = {
 			factor = 0.9
 		}
@@ -303,7 +307,13 @@ country_event = {
 
 	trigger = {
 		tag = ITA
-		has_global_flag = malta_conference_bombed
+		OR = {
+			has_global_flag = malta_conference_bombed
+			AND = {
+				has_country_flag = refused_malta_tur
+				has_country_flag = refused_malta_ibe
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -312,6 +322,7 @@ country_event = {
 
 	option = {
 		name = "As if the situation couldn't get worse..."
+		set_global_flag = malta_conference_bombed
 	}
 }
 

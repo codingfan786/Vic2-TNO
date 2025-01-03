@@ -3,10 +3,10 @@ province_event = {
 	title = "Burgundian occupation"
 	desc = "The occupying armies of Himmler have pillaged and raped our lands! Our homes burnt and non-German people executed!"
 	allow_multiple_instances = yes
-	trigger = {
+	trigger = {		
+		controlled_by = BRG
 		NOT = {owned_by = BRG}
 		NOT = {has_province_modifier = BRG_occupy}
-		controlled_by = BRG
 	}
 
 	mean_time_to_happen = {
@@ -58,8 +58,8 @@ country_event = {
 	title = "Develop Occupation Into Settlement."
 	desc = "EVENTDESC500075"
 	trigger = {
-		has_country_flag = brg_coring
 		tag = BRG
+		has_country_flag = brg_coring
 		any_owned_province = {
 			NOT = {is_core = THIS}
 			OR = {

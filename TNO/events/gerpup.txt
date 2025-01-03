@@ -7,14 +7,16 @@ country_event = {
 	desc = "The German administration has been reinstated and we can now rule again!"
 
 	trigger = {
+		has_country_flag = ger_east_optimization_flag
+
 		government = fascist_dictatorship
 		#NOT = {is_vassal = yes}
-		OR = {
-			tag = UKR
-			tag = MSC
-			tag = BLT
-			tag = COC
-		}
+		#OR = {
+		#	tag = UKR
+		#	tag = MSC
+		##	tag = BLT
+		#	tag = COC
+		#}
 		NOT = {primary_culture = aryan}
 	}
 
@@ -50,11 +52,9 @@ country_event = {
 	desc = "The German administration has fallen and our people finally rule again!"
 
 	trigger = {
+		tag = MSC
 		NOT = {government = fascist_dictatorship}
 		NOT = {is_vassal = yes}
-		
-		tag = MSC
-		
 		primary_culture = aryan
 	}
 
@@ -83,10 +83,9 @@ country_event = {
 	desc = "The German administration has fallen and our people finally rule again!"
 
 	trigger = {
+		tag = BLT
 		NOT = {government = fascist_dictatorship}
 		NOT = {is_vassal = yes}
-		
-		tag = BLT
 		
 		primary_culture = aryan
 	}
@@ -122,10 +121,10 @@ country_event = {
 	desc = "The German administration has fallen and our people finally rule again!"
 
 	trigger = {
+		tag = UKR
 		NOT = {government = fascist_dictatorship}
 		NOT = {is_vassal = yes}
 		
-		tag = UKR
 		
 		primary_culture = aryan
 	}
@@ -190,10 +189,10 @@ country_event = {
 	desc = "The German administration has fallen and our people finally rule again!"
 
 	trigger = {
+		tag = COC
 		NOT = {government = fascist_dictatorship}
 		NOT = {is_vassal = yes}
 		
-		tag = COC
 		
 		primary_culture = aryan
 	}

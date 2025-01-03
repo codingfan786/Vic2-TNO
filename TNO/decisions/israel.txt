@@ -87,7 +87,7 @@ political_decisions = {
 
 		allow = {
 			OR = {
-				exists = ALP
+				#exists = ALP
 				all_core = {average_militancy = 4}
 				NOT = {in_sphere = ITA}
 			}

@@ -6,11 +6,12 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		tag = UKR #do one for poland and blt too. maybe include COC in this whole thing?
+
 		year = 1971 #put some more thought and detail into when it will happen
 
 		month = 6
 
-		tag = UKR #do one for poland and blt too. maybe include COC in this whole thing?
 		POL = {ai = yes}
 		BLT = {ai = yes}
 		NOT = {has_global_flag = FEU_is_done}
@@ -73,11 +74,12 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		tag = BLT #do one for poland and blt too. maybe include COC in this whole thing?
+
 		year = 1971 #put some more thought and detail into when it will happen
 
 		month = 6
 
-		tag = BLT #do one for poland and blt too. maybe include COC in this whole thing?
 		POL = {ai = yes}
 		UKR = {ai = yes}
 		NOT = {has_global_flag = FEU_is_done}
@@ -140,11 +142,12 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		tag = POL #do one for poland and blt too. maybe include COC in this whole thing?
+		
 		year = 1971 #put some more thought and detail into when it will happen
 
 		month = 6
 
-		tag = POL #do one for poland and blt too. maybe include COC in this whole thing?
 		UKR = {ai = yes}
 		BLT = {ai = yes}
 		NOT = {has_global_flag = FEU_is_done}

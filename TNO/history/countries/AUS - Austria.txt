@@ -87,11 +87,7 @@ oob = "AUS_oob.txt"
 	literacy = 0.60
 	non_state_culture_literacy = 0.15
 
-	foreign_investment = {
-		BAV = 7500
-		WUR = 5000
-		BAD = 5000
-	}
+
 
 # Technologies
 	post_napoleonic_thought = 1

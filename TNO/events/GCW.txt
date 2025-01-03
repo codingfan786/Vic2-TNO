@@ -354,6 +354,7 @@ country_event = {
 	id = 500032
 	title = "Freedom in the east!"
 	desc = "The German civil war is won and it is high time we full our promises of freedom to all who aided us."
+	fire_only_once = yes
 
 	trigger = {
 		tag = SGE
@@ -527,6 +528,12 @@ country_event = {
 	title = "We've lost the German civil war!"
 	desc = "We're fully occupied but no individual can reach 100 warscore. This event will split our country among the siegers."
 	trigger = {
+		exists = GER
+		OR = {
+			has_country_flag = not_goering_optimization_flag
+			tag = GGE
+		}
+		
 		OR = {
 			AND = {
 				tag = HGE
@@ -585,7 +592,6 @@ country_event = {
 				}
 			}
 		}
-		exists = GER
 		
 	}
 
@@ -751,10 +757,12 @@ country_event = {
 
 	option = {
 		name = "Let them kill eachother without us!"
-		end_war = GGE
-		end_war = HGE
-		end_war = SGE
-		end_war = BGE
+		
+		GGE = { end_war = THIS }
+		HGE = { end_war = THIS }
+		SGE = { end_war = THIS }
+		BGE = { end_war = THIS }
+
 		ai_chance = {
 			factor = 1
 		}

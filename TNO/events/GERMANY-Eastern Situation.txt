@@ -121,11 +121,8 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		OR = {
-			tag = SGE
-			tag = HGE
-			tag = BGE
-		}
+		has_country_flag = not_goering_optimization_flag
+		
 		has_country_flag = nes_started
 		OR = {
 			NOT = {exists = POL}
@@ -212,11 +209,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		OR = {
-			tag = SGE
-			tag = HGE
-			tag = BGE
-		}
+		has_country_flag = not_goering_optimization_flag
 
 		has_country_flag = fes_started
 

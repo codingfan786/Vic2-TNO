@@ -31,12 +31,12 @@ political_decisions = {
 		picture = spy
 		
 		potential = {
+			has_country_flag = spy_agency_formed
+
 			OR = {
 				has_country_flag = spy_show
 				ai = yes
 			}
-			
-			has_country_flag = spy_agency_formed
 		}
 		allow = {
 			OR = {
@@ -68,12 +68,12 @@ political_decisions = {
 		picture = spy
 		
 		potential = {
+			has_country_flag = spy_agency_formed
+
 			OR = {
 				has_country_flag = spy_show
 				ai = yes
 			}
-			
-			has_country_flag = spy_agency_formed
 		}
 		allow = {
 			OR = {
@@ -106,12 +106,12 @@ political_decisions = {
 		picture = spy
 		
 		potential = {
+			has_country_flag = spy_agency_formed
+
 			OR = {
 				has_country_flag = spy_show
 				ai = yes
 			}
-			
-			has_country_flag = spy_agency_formed
 		}
 		allow = {
 			OR = {

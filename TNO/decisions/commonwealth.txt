@@ -92,9 +92,9 @@ political_decisions = {
 		picture = beef
 		potential = {
 			#always = no
+			tag = CBR
 			has_global_flag = cbr_enhanced
 			NOT = {has_country_flag = beef_in_hnd}
-			tag = CBR
 		}
 		allow = {
 			has_global_flag = india_has_collapsed
@@ -149,8 +149,8 @@ political_decisions = {
 	cbr_beef_annex = {
 		picture = beef
 		potential = {
-			has_country_flag = beef_in_hnd
 			tag = CBR
+			has_country_flag = beef_in_hnd
 			NOT= {has_country_flag = beef_eaten}
 		}
 		allow = {

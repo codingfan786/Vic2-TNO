@@ -4,10 +4,10 @@ province_event = {
 	desc = "The insurgency in $PROVINCENAME$ has become uncontrolable!"
 	allow_multiple_instances = yes
 	trigger = {
-		NOT = {ORA = {exists = yes}}
 		owner = {
 			tag = SAF
 		}
+		NOT = {ORA = {exists = yes}}
 		is_core = ORA
 		controlled_by = REB
 		NOT = {has_province_modifier = ger_afr}

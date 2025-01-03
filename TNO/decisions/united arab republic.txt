@@ -3,17 +3,18 @@ political_decisions = {
 	form_UAR = {
 		picture = form_arabia
 		potential = {
+			has_country_flag = uar_optimization_flag
 			NOT = {exists = ARA}
-			OR = {
-				tag = SYR
-				tag = YEM
-				tag = OMA
-				tag = NEJ
-				tag = ABU
-				tag = JOR
-				tag = IRQ
-				tag = EGY
-			}
+			#OR = {
+			#	tag = SYR
+			#	tag = YEM
+			#	tag = OMA
+			#	tag = NEJ
+			#	tag = ABU
+			#	tag = JOR
+			#	tag = IRQ
+			#	tag = EGY
+			#}
 		}
 		allow = {
 			#ruling_party_ideology = socialist
@@ -95,9 +96,9 @@ political_decisions = {
 	form_UAR_ai = {
 		picture = form_arabia
 		potential = {
+			tag = YEM
 			ai = yes
 			NOT = {exists = ARA}
-			tag = YEM
 			NOT = {has_global_flag = UAR_exists}
 		}
 		allow = {
@@ -159,143 +160,6 @@ political_decisions = {
 					JOR = {ai = no}
 					IRQ = {ai = no}
 					EGY = {ai = no}
-				}
-			}
-		}
-	}
-
-	expand_UAR_cores = {
-		picture = form_arabia
-		potential = {
-			always = no #use the new CB 
-
-			tag = ARA
-
-			OR = {
-				AND = {
-					any_owned_province = {is_core = EGY}
-					NOT = {EGY = {all_core = {is_core = ARA}}}
-				}
-				AND = {
-					any_owned_province = {is_core = ISR}
-					NOT = {ISR = {all_core = {is_core = ARA}}}
-				}
-				AND = {
-					any_owned_province = {is_core = JOR}
-					NOT = {JOR = {all_core = {is_core = ARA}}}
-				}
-				AND = {
-					any_owned_province = {is_core = SYR}
-					NOT = {SYR = {all_core = {is_core = ARA}}}
-				}
-				AND = {
-					any_owned_province = {is_core = IRQ}
-					NOT = {IRQ = {all_core = {is_core = ARA}}}
-				}
-				AND = {
-					any_owned_province = {is_core = NEJ}
-					NOT = {NEJ = {all_core = {is_core = ARA}}}
-				}
-				AND = {
-					any_owned_province = {is_core = ABU}
-					NOT = {ABU = {all_core = {is_core = ARA}}}
-				}
-				AND = {
-					any_owned_province = {is_core = OMA}
-					NOT = {OMA = {all_core = {is_core = ARA}}}
-				}
-				AND = {
-					any_owned_province = {is_core = YEM}
-					NOT = {YEM = {all_core = {is_core = ARA}}}
-				}
-
-			}
-		}
-
-		allow = {
-			state_n_government = 1
-		}
-
-		effect = {
-			any_owned = {
-				limit = {
-					is_core = EGY
-					NOT = {EGY = {all_core = {is_core = ARA}}}
-				}
-				EGY = {
-					all_core = {add_core = ARA}
-				}
-			}
-			any_owned = {
-				limit = {
-					is_core = ABU
-					NOT = {ABU = {all_core = {is_core = ARA}}}
-				}
-				ABU = {
-					all_core = {add_core = ARA}
-				}
-			}
-			any_owned = {
-				limit = {
-					is_core = ISR
-					NOT = {ISR = {all_core = {is_core = ARA}}}
-				}
-				ISR = {
-					all_core = {add_core = ARA}
-				}
-			}
-			any_owned = {
-				limit = {
-					is_core = JOR
-					NOT = {JOR = {all_core = {is_core = ARA}}}
-				}
-				JOR = {
-					all_core = {add_core = ARA}
-				}
-			}
-			any_owned = {
-				limit = {
-					is_core = SYR
-					NOT = {SYR = {all_core = {is_core = ARA}}}
-				}
-				SYR = {
-					all_core = {add_core = ARA}
-				}
-			}
-			any_owned = {
-				limit = {
-					is_core = IRQ
-					NOT = {IRQ = {all_core = {is_core = ARA}}}
-				}
-				IRQ = {
-					all_core = {add_core = ARA}
-				}
-			}
-			any_owned = {
-				limit = {
-					is_core = NEJ
-					NOT = {NEJ = {all_core = {is_core = ARA}}}
-				}
-				NEJ = {
-					all_core = {add_core = ARA}
-				}
-			}
-			any_owned = {
-				limit = {
-					is_core = OMA
-					NOT = {OMA = {all_core = {is_core = ARA}}}
-				}
-				OMA = {
-					all_core = {add_core = ARA}
-				}
-			}
-			any_owned = {
-				limit = {
-					is_core = YEM
-					NOT = {YEM = {all_core = {is_core = ARA}}}
-				}
-				YEM = {
-					all_core = {add_core = ARA}
 				}
 			}
 		}

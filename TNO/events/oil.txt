@@ -3,10 +3,11 @@ country_event = {
 	title = "Nigerian Oil!"
 	desc = "Oil has been found today in Benin, where surveyers representing international oil conglomerates have been drilling."
 	major = yes
+	fire_only_once = yes
 	trigger = {
+		owns = 1928
 		year = 2004 #year was 2006
 		NOT = {has_global_flag = nigerianoil1}
-		owns = 1928
 	}
 
 	mean_time_to_happen = {
@@ -29,10 +30,11 @@ country_event = {
 	title = "Nigerian Oil!"
 	desc = "Oil has been found today in Awka, where surveyers representing international oil conglomerates have been drilling."
 	major = yes
+	fire_only_once = yes
 	trigger = {
+		owns = 1933
 		year = 2004
 		NOT = {has_global_flag = nigerianoil2}
-		owns = 1933
 	}
 
 	mean_time_to_happen = {
@@ -53,10 +55,11 @@ country_event = {
 	title = "Nigerian Oil!"
 	desc = "Oil has been found today in Calabar, where surveyers representing international oil conglomerates have been drilling."
 	major = yes
+	fire_only_once = yes
 	trigger = {
+		owns = 1934
 		year = 2004
 		NOT = {has_global_flag = nigerianoil3}
-		owns = 1934
 	}
 
 	mean_time_to_happen = {

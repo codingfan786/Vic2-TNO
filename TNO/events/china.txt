@@ -118,15 +118,20 @@ country_event = {
 	title = "Chinese Border Wars"
 	desc = "China and the N.P.A. are dividing your territory."
 	trigger = {
-		OR = {
-			tag = CH1
-			tag = CH2
-			tag = CH3
-			tag = CH4
-			#tag = CH5
-			#tag = CH6
-			tag = XBI
-		}
+		#OR = {
+		#	tag = CH1
+		#	tag = CH2
+		#	tag = CH3
+		#	tag = CH4
+		#	#tag = CH5
+		#	#tag = CH6
+		#	tag = XBI
+		#}
+		has_country_flag = china_neutrality
+		
+		NOT = {tag = CH6}
+		NOT = {tag = CH5}
+
 		war_with = YNN
 		war_with = CHI
 		any_owned_province = {

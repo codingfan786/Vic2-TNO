@@ -46,9 +46,9 @@ political_decisions = {
 	fund_ija = {
 		picture = switch_to_army_tech
 		potential = {
+			tag = JAP
 			NOT = {has_country_flag = ija_funded}
 			NOT = {has_country_flag = ijn_funded}
-			tag = JAP
 		}
 
 		allow = {
@@ -109,9 +109,9 @@ political_decisions = {
 	fund_ijn = {
 		picture = the_vega_expedition
 		potential = {
+			tag = JAP
 			NOT = {has_country_flag = ija_funded}
 			NOT = {has_country_flag = ijn_funded}
-			tag = JAP
 		}
 
 		allow = {
@@ -176,146 +176,6 @@ political_decisions = {
 			add_country_modifier = {
 				name = ijn_boost_2
 				duration = 7300
-			}
-		}
-	}
-
-
-	oceania_plan_1 = {
-		potential = {
-			always = no
-			tag = JAP
-			NOT = {has_country_flag = oceania_plan_1}
-			NOT = {has_country_flag = indochina_plan_1}
-		}
-
-		allow = {
-			state_n_government = 1
-			EIC = {ai = yes}
-			EIC = {vassal_of = THIS}
-			war = no
-			PHR = {war = no}
-			EIC = {war = no}
-		}
-
-		effect = {
-			set_country_flag = oceania_plan_1
-
-			random_owned = {
-				limit = {
-					EIC = {vassal_of = THIS}
-					EIC = {
-						owns = 1422
-					}
-				}
-				1422 = {
-					state_scope = {
-						any_owned = {
-							secede_province = THIS
-						}
-					}
-				}
-			}
-
-			random_owned = {
-				limit = {
-					EIC = {vassal_of = THIS}
-					EIC = {
-						owns = 1430
-					}
-				}
-				1430 = {
-					state_scope = {
-						any_owned = {
-							secede_province = THIS
-						}
-					}
-				}
-			}
-
-			random_owned = {
-				limit = {
-					PHR = {exists = yes}
-					PHR = {in_sphere = THIS}
-				}
-				THIS = {inherit = PHR}
-			}
-
-		}
-	}
-
-	oceania_plan_2 = {
-		potential = {
-			always = no
-			tag = JAP
-			has_country_flag = oceania_plan_1
-			NOT = {has_country_flag = oceania_plan_2}
-		}
-		allow = {
-			state_n_government = 1
-			EIC = {ai = yes}
-			EIC = {vassal_of = THIS}
-			war = no
-			PHR = {war = no}
-			EIC = {war = no}
-		}
-		effect = {
-			set_country_flag = oceania_plan_2
-
-			random_owned = {
-				limit = {
-					EIC = {vassal_of = THIS}
-					EIC = {
-						owns = 1454
-					}
-				}
-				1454 = {
-					state_scope = {
-						any_owned = {
-							secede_province = THIS
-						}
-					}
-				}
-			}
-
-			random_owned = {
-				limit = {
-					EIC = {vassal_of = THIS}
-					EIC = {
-						owns = 2531
-					}
-				}
-				2531 = {
-					state_scope = {
-						any_owned = {
-							secede_province = THIS
-						}
-					}
-				}
-			}
-
-			random_owned = {
-				limit = {
-					EIC = {vassal_of = THIS}
-					EIC = {
-						owns = 1446
-					}
-				}
-				1446 = {
-					state_scope = {
-						any_owned = {
-							secede_province = THIS
-						}
-					}
-				}
-			}
-
-			random_owned = {
-				limit = {
-					PHR = {exists = yes}
-					PHR = {in_sphere = THIS}
-				}
-				THIS = {inherit = PHR}
 			}
 		}
 	}

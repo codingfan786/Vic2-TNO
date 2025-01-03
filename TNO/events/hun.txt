@@ -4,8 +4,8 @@ country_event = {
 	desc = "regent2"
 
 	trigger = {
-		NOT = {has_global_flag = new_regent}
 		tag = HUN
+		NOT = {has_global_flag = new_regent}
 	}
 
 	mean_time_to_happen = {

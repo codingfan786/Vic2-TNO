@@ -3,13 +3,13 @@ political_decisions = {
 		picture = apply_for_USA_statehood
 		alert = no
 		potential = {
+			tag = USA
 			OR = {
 				government = democracy
 				government = democracy2
 			}
 			ai = no
 			NOT = {has_country_flag = show_camp}
-			tag = USA
 		}
 		allow = {
 			ai = no
@@ -23,13 +23,13 @@ political_decisions = {
 		picture = apply_for_USA_statehood
 		alert = no
 		potential = {
+			tag = USA
 			OR = {
 				government = democracy
 				government = democracy2
 			}
 			ai = no
 			has_country_flag = show_camp
-			tag = USA
 		}
 		allow = {
 			ai = no
@@ -42,6 +42,7 @@ political_decisions = {
 	campaign_liberal = {
 		picture = apply_for_USA_statehood
 		potential = {
+			tag = USA
 			OR = {
 				government = democracy
 				government = democracy2
@@ -50,7 +51,6 @@ political_decisions = {
 				has_country_flag = show_camp
 				ai = yes
 			}
-			tag = USA
 		}
 		allow = {
 			NOT = { has_country_modifier = campaign_timer }
@@ -82,6 +82,7 @@ political_decisions = {
 	campaign_conservative = {
 		picture = apply_for_USA_statehood
 		potential = {
+			tag = USA
 			OR = {
 				government = democracy
 				government = democracy2
@@ -90,7 +91,6 @@ political_decisions = {
 				has_country_flag = show_camp
 				ai = yes
 			}
-			tag = USA
 		}
 		allow = {
 			NOT = { has_country_modifier = campaign_timer }
@@ -127,6 +127,7 @@ political_decisions = {
 	campaign_socialist = {
 		picture = apply_for_USA_statehood
 		potential = {
+			tag = USA
 			OR = {
 				government = democracy
 				government = democracy2
@@ -135,7 +136,6 @@ political_decisions = {
 				has_country_flag = show_camp
 				ai = yes
 			}
-			tag = USA
 		}
 		allow = {
 			NOT = { has_country_modifier = campaign_timer }
@@ -168,6 +168,7 @@ political_decisions = {
 	campagin_fascist = {
 		picture = apply_for_USA_statehood
 		potential = {
+			tag = USA
 			OR = {
 				government = democracy
 				government = democracy2
@@ -176,7 +177,6 @@ political_decisions = {
 				has_country_flag = show_camp
 				ai = yes
 			}
-			tag = USA
 		}
 		allow = {
 			NOT = { has_country_modifier = campaign_timer }
@@ -213,8 +213,8 @@ political_decisions = {
 	AA_reform = {
 		picture = apply_for_USA_statehood
 		potential = {
-			has_global_flag = acw_start
 			tag = USA
+			has_global_flag = acw_start
 			NOT= {accepted_culture = afro_american}
 		}
 		allow = {

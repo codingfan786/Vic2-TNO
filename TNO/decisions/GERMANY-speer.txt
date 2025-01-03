@@ -2,8 +2,8 @@ political_decisions = {
 	sge_wage_reform = {
 		picture = das_zivilgesetzbuch
 		potential = {
-			NOT = {exists = GER}
 			tag = SGE
+			NOT = {exists = GER}
 			NOT = {wage_reform = acceptable_minimum_wage}
 			OR = {
 				check_variable = {
@@ -43,8 +43,8 @@ political_decisions = {
 	sge_work_hours = {
 		picture = das_zivilgesetzbuch
 		potential = {
-			NOT = {exists = GER}
 			tag = SGE
+			NOT = {exists = GER}
 			NOT = {work_hours = ten_hours}
 			OR = {
 				check_variable = {
@@ -84,8 +84,8 @@ political_decisions = {
 	sge_safety_regulations = {
 		picture = das_zivilgesetzbuch
 		potential = {
-			NOT = {exists = GER}
 			tag = SGE
+			NOT = {exists = GER}
 			NOT = {safety_regulations = acceptable_safety}
 			OR = {
 				check_variable = {
@@ -125,8 +125,8 @@ political_decisions = {
 	sge_unemployment_subsidies = {
 		picture = das_zivilgesetzbuch
 		potential = {
-			NOT = {exists = GER}
 			tag = SGE
+			NOT = {exists = GER}
 			NOT = {unemployment_subsidies = acceptable_subsidies}
 			OR = {
 				check_variable = {
@@ -166,8 +166,8 @@ political_decisions = {
 	sge_pensions = {
 		picture = das_zivilgesetzbuch
 		potential = {
-			NOT = {exists = GER}
 			tag = SGE
+			NOT = {exists = GER}
 			NOT = {pensions = acceptable_pensions}
 			OR = {
 				check_variable = {
@@ -207,8 +207,8 @@ political_decisions = {
 	sge_health_care = {
 		picture = das_zivilgesetzbuch
 		potential = {
-			NOT = {exists = GER}
 			tag = SGE
+			NOT = {exists = GER}
 			NOT = {health_care = acceptable_health_care}
 			OR = {
 				check_variable = {
@@ -248,8 +248,8 @@ political_decisions = {
 	sge_school_reforms = {
 		picture = das_zivilgesetzbuch
 		potential = {
-			NOT = {exists = GER}
 			tag = SGE
+			NOT = {exists = GER}
 			NOT = {school_reforms = good_schools}
 			OR = {
 				check_variable = {

@@ -2,6 +2,10 @@ CUB = {
 	level = 5
 }
 
+SCO = {
+	level = 4
+}
+
 PER = {
 	level = 5
 }

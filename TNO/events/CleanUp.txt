@@ -13,7 +13,7 @@ country_event = {
 			government = fascist_dictatorship
 			government = absolute_monarchy
 		}
-		civilized = yes
+		 
 		political_parties = underground_parties
 		vote_franschise = none_voting
 		upper_house_composition = party_appointed
@@ -45,7 +45,7 @@ country_event = {
 			government = fascist_dictatorship
 			government = absolute_monarchy
 		}
-		civilized = yes
+		 
 		political_parties = underground_parties
 		vote_franschise = none_voting
 		upper_house_composition = party_appointed
@@ -77,7 +77,7 @@ country_event = {
 			government = fascist_dictatorship
 			government = absolute_monarchy
 		}
-		civilized = yes
+		 
 		political_parties = underground_parties
 		vote_franschise = none_voting
 		upper_house_composition = party_appointed
@@ -109,7 +109,7 @@ country_event = {
 			government = fascist_dictatorship
 			government = absolute_monarchy
 		}
-		civilized = yes
+		 
 		political_parties = underground_parties
 		vote_franschise = none_voting
 		upper_house_composition = party_appointed
@@ -141,7 +141,7 @@ country_event = {
 			government = bourgeois_dictatorship
 			government = fascist_dictatorship
 		}
-		civilized = yes
+		 
 		NOT = {
 			political_parties = underground_parties
 			vote_franschise = none_voting
@@ -171,7 +171,7 @@ country_event = {
 			government = hms_government
 			government = prussian_constitutionalism
 		}
-		civilized = yes
+		 
 		NOT = { ruling_party_ideology = fascist }
 		NOT = { ruling_party_ideology = anarcho_liberal }
 		NOT = { ruling_party_ideology = communist }
@@ -200,7 +200,7 @@ country_event = {
 		NOT = {
 				vote_franschise = none_voting
 		}	
-		civilized = yes	
+		 	
 	}
 	
 	mean_time_to_happen = {
@@ -226,7 +226,7 @@ country_event = {
 			political_parties = secret_ballots
 			political_parties = non_secret_ballots
 		}
-		civilized = yes
+		 
 	}
 	
 	mean_time_to_happen = {
@@ -256,7 +256,7 @@ country_event = {
 			ruling_party_ideology = conservative
 			ruling_party_ideology = reactionary
 		}
-		civilized = yes
+		 
 	}
 	
 	mean_time_to_happen = {
@@ -286,7 +286,7 @@ country_event = {
 			ruling_party_ideology = liberal
 			ruling_party_ideology = anarcho_liberal
 		}
-		civilized = yes
+		 
 	}
 	
 	mean_time_to_happen = {
@@ -316,7 +316,7 @@ country_event = {
 			ruling_party_ideology = socialist
 			ruling_party_ideology = communist
 		}
-		civilized = yes
+		 
 	}
 	
 	mean_time_to_happen = {
@@ -343,7 +343,7 @@ country_event = {
 		}
 		vote_franschise = none_voting
 		ruling_party_ideology = fascist
-		civilized = yes
+		 
 	}
 	
 	mean_time_to_happen = {

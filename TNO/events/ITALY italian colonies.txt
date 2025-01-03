@@ -4,11 +4,12 @@ country_event = {
 	desc = "There is general unrest among our Arab population."
 
 	trigger = {
-		OR = {
-			tag = IIS
-			tag = IET
-			tag = IGY
-		}
+		has_country_flag = italian_colonies_optimization_flag
+		#OR = {
+		#	tag = IIS
+		#	tag = IET
+		#	tag = IGY
+		#}
 		OR = {
 			AND = {
 				year = 1970 #was 1972 before but it took too long

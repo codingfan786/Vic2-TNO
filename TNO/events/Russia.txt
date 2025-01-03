@@ -189,33 +189,11 @@ country_event = {
 	desc = "ai event"
 
 	trigger = {
-		OR = {
-			tag = R01
-			tag = R02
-			tag = R03
-			tag = R04
-			tag = R05
-			tag = R06
-			tag = R07
-			tag = R08
-			tag = R09
-			tag = R10
-			tag = R11
-			tag = R12
-			tag = R13
-		}
+		has_country_flag = russian_puppet_optimization_flag
 		is_vassal = yes
 		overlord = {
-			OR = {
-				tag = RAR
-				tag = NUC
-				tag = RUS
-				tag = WA1
-				tag = NKV
-				tag = FED
-			}
+			has_country_flag = russian_overlord_optimization_flag
 		}	
-		#war = no
 	}
 	mean_time_to_happen = {
 		months = 60
@@ -374,10 +352,10 @@ country_event = {
 	desc = "ai"
 
 	trigger = {
+		tag = WA2
 		ai = yes
 		exists = NAV
 		NOT = {truce_with = NAV}
-		tag = WA2
 		war = no
 	}
 	mean_time_to_happen = {
@@ -412,8 +390,8 @@ country_event = {
 	desc = "ai"
 
 	trigger = {
-		ai = yes
 		tag = WA2
+		ai = yes
 		war = no
 		NOT = {exists = NAV}
 		OR = {
@@ -562,13 +540,13 @@ country_event = {
 	desc = "ai RUS and RAR dont declare on finland for karelia often so this is necessary"
 
 	trigger = {
-		ai = yes
-		has_global_flag = WR_unify
-		war = no
 		OR = {
 			tag = RAR
 			tag = RUS
 		}
+		ai = yes
+		has_global_flag = WR_unify
+		war = no
 		OR = {
 			994 = {
 				owner = {
@@ -815,6 +793,12 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		primary_culture = russian
+		NOT = {tag = MSC}
+		NOT = {tag = ALK}
+		NOT = {tag = SOV}
+		NOT = {tag = WRU}
+		NOT = {exists = GER}
 		war_countries = {
 			OR = {
 				tag = BGE
@@ -827,6 +811,9 @@ country_event = {
 				war_countries = {
 					NOT = {
 						primary_culture = russian
+					}
+					NOT = {
+						tag = THIS
 					}
 					OR = {
 						ai = no
@@ -857,11 +844,6 @@ country_event = {
 				}
 			}
 		}
-		primary_culture = russian
-		NOT = {tag = MSC}
-		NOT = {tag = ALK}
-		NOT = {tag = SOV}
-		NOT = {tag = WRU}
 	}
 
 	mean_time_to_happen = {

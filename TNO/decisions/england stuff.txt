@@ -9,7 +9,7 @@ political_decisions = {
 			
 			tag = ENG
 			NOT = {has_country_flag = eng_corn}
-			#exists = COR
+			exists = COR
 		}
 		allow = {
 			NOT = {is_vassal = yes}
@@ -199,7 +199,7 @@ political_decisions = {
 				}
 			}
 			tag = ENG
-			exists = CBR
+			#exists = CBR
 			NOT = {has_country_flag = cbr_contacted}
 		}
 		allow = {

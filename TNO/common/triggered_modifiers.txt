@@ -59,49 +59,29 @@ puppet_boost = {
 	icon = 9
 }
 
-ai_boost = {
-	trigger = { 
-		ai = yes
-		civilized = yes
-		NOT = { literacy = 0.7 }
-		NOT = {
-		 	is_culture_group = east_asian
-			OR = { 
-				has_pop_culture = beifaren
-				has_pop_culture = nanfaren
-				has_pop_culture = yue 
-			}
-		}
-	}
-	tax_efficiency = 0.05 #5% increase
-	education_efficiency_modifier = 1.0 #100% boost
- 	loan_interest = -0.03 #3% less interest on debts
+puppet_boost_late_game = {
+	trigger = {
+		year = 1996
+		is_vassal = yes
+		NOT = {primary_culture  = russian}
+	}	
+	mobilisation_size = 0.02
 	icon = 9
 }
 
 russia_ai_boost = {
 	trigger = { 
 		primary_culture  = russian
-		ai = yes
-		civilized = yes
 		NOT = {has_global_flag = rus_unified}
+		ai = yes
 	}
 	tax_efficiency = 0.20 #5% increase
  	loan_interest = -0.03 #3% less interest on debts
 	icon = 9
 }
 
-tariff_efficiency_boost = {
-	trigger = {
-		exists = yes
-	}
-	tariff_efficiency_modifier = 0.1
-	icon = 9
-}
-
 social_reformed_nation = {
 		trigger = {
-			exists = yes
 			wage_reform = good_minimum_wage
 			work_hours = eight_hours
 			safety_regulations = good_safety
@@ -117,7 +97,6 @@ social_reformed_nation = {
 
 political_reformed_nation = {
 		trigger = {
-			exists = yes
 			slavery = no_slavery
 			vote_franschise = universal_voting
 			public_meetings = yes_meeting

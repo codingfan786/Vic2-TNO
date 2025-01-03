@@ -4,8 +4,8 @@ country_event = {
 	desc = "law_of_return_desc"
 
 	trigger = {
-		has_country_flag = lawreturned
 		tag = ISR
+		has_country_flag = lawreturned
 		917 = {owner = {tag = ISR}}
 	}
 

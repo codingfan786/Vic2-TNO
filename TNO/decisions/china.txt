@@ -25,8 +25,8 @@ political_decisions = {
 	npa_merge_first = {
 		picture = raise_the_bonnie_blue_flag
 		potential = {
-			exists = CH5
 			tag = YNN
+			exists = CH5
 		}
 		allow = {
 			NOT = {has_country_modifier = npa_cooldown}
@@ -57,8 +57,8 @@ political_decisions = {
 	npa_merge_second = {
 		picture = raise_the_bonnie_blue_flag
 		potential = {
-			exists = CH6
 			tag = YNN
+			exists = CH6
 		}
 		allow = {
 			NOT = {has_country_modifier = npa_cooldown}
@@ -109,6 +109,7 @@ political_decisions = {
 	start_gaw = {
 		picture = the_meiji_restoration
 		potential = {
+			NOT = {has_global_flag = gaw_decision_selected}
 			OR = {
 				tag = CHI
 				tag = YNN
@@ -127,6 +128,7 @@ political_decisions = {
 			NOT = {exists = XBI}
 		}
 		effect = {
+			set_global_flag = gaw_decision_selected
 			CHI = {set_country_flag = china_freed}
 			release_vassal = CHI
 			CHI = {clr_country_flag = npa_border_wars}
@@ -336,16 +338,8 @@ political_decisions = {
 
 	chi_neutrality = {
 		potential ={
+			has_country_flag = china_neutrality
 			exists = yes
-			OR = {
-				tag = CH1
-				tag = CH2
-				tag = CH3
-				tag = CH4
-				tag = CH5
-				tag = CH6
-				tag = XBI
-			}
 			ai = yes
 		}
 		allow = {

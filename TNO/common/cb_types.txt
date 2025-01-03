@@ -46,7 +46,6 @@ NPO_survive
 NPO_revoke
 make_facist
 make_democratic
-coa_plan
 pup_gcw
 brg_gcw
 add_to_sphere 
@@ -744,7 +743,7 @@ liberate_country = {
 						OR = {
 							tag = GER
 							tag = SCA
-							tag = WCH
+							#tag = WCH
 							tag = SPA
 							tag = CHI
 							tag = HND

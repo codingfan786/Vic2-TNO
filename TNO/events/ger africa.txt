@@ -4,12 +4,13 @@ country_event = {
 	desc = "With the natives swarming around our command center garrisons across our territory are cut off from one another and without command nor communication. We are being overrun!"
 
 	trigger = {
-		OR = {
-			tag = EGA
-			tag = WGA
-			tag = SGA
-			tag = AGA
-		}
+		#OR = {
+		#	tag = EGA
+		#	tag = WGA
+		#	tag = SGA
+		#	tag = AGA
+		#}
+		has_country_flag = german_africa_optimization_flag
 		has_country_flag = super_africans_won
 	}
 
@@ -82,15 +83,20 @@ country_event = {
 	desc = "With enemy swarming around our command center garrisons across our territory are cut off from one another and without command nor communication. We are being overrun!"
 
 	trigger = {
-		exists = yes
+		has_country_flag = german_africa_optimization_flag
+		NOT = {tag = AGA}
+
+		
 		has_global_flag = saf_war_started
 
 		NOT = {has_country_flag = no_more_african_rebels}
-		OR = {
-			tag = EGA
-			tag = WGA
-			tag = SGA
-		}
+
+		#OR = {
+		#	tag = EGA
+		#	tag = WGA
+		##	tag = SGA
+		#}
+
 		NOT = {has_country_flag = ger_afr_overrun}
 
 		capital_scope = {
@@ -101,6 +107,7 @@ country_event = {
 				country_units_in_province = THIS
 			}
 		}
+		exists = yes
 	}
 
 	mean_time_to_happen = {
@@ -164,20 +171,19 @@ country_event = {
 	desc = "event500220desc"
 
 	trigger = {
-		exists = yes
+		has_country_flag = german_africa_optimization_flag
+		NOT = {tag = AGA}
+
+		#exists = yes
 		has_global_flag = saf_war_started
 		has_country_flag = support_ora
 		NOT = {has_country_flag = no_more_african_rebels}
-		OR = {
-			tag = EGA
-			tag = WGA
-			tag = SGA
-		}
+
 		NOT = {any_owned_province = {has_province_modifier = af_dev_1}}
 		NOT = {JAN = {has_country_modifier = saf_timer_1}}
 		JAN = {has_country_modifier = saf_timer_4}
 		war_with = SAF
-
+		exists = yes
 	}
 
 	mean_time_to_happen = {
@@ -204,21 +210,20 @@ country_event = {
 	title = "The Toll on Africa."
 	desc = "event500221desc"
 
-	trigger = {
-		exists = yes
+	trigger = {		
+		has_country_flag = german_africa_optimization_flag
+		NOT = {tag = AGA}
+
+		
 		has_global_flag = saf_war_started
 		has_country_flag = support_ora
 		NOT = {has_country_flag = no_more_african_rebels}
-		OR = {
-			tag = EGA
-			tag = WGA
-			tag = SGA
-		}
+
 		NOT = {any_owned_province = {has_province_modifier = af_dev_2}}
 		NOT = {JAN = {has_country_modifier = saf_timer_2}}
 		JAN = {has_country_modifier = saf_timer_4}
 		war_with = SAF
-
+		exists = yes
 	}
 
 	mean_time_to_happen = {
@@ -246,20 +251,18 @@ country_event = {
 	desc = "event500222desc"
 
 	trigger = {
-		exists = yes
+		has_country_flag = german_africa_optimization_flag
+		NOT = {tag = AGA}
+
 		has_global_flag = saf_war_started
 		has_country_flag = support_ora
 		NOT = {has_country_flag = no_more_african_rebels}
-		OR = {
-			tag = EGA
-			tag = WGA
-			tag = SGA
-		}
+
 		NOT = {any_owned_province = {has_province_modifier = af_dev_3}}
 		NOT = {JAN = {has_country_modifier = saf_timer_3}}
 		JAN = {has_country_modifier = saf_timer_4}
 		war_with = SAF
-
+		exists = yes
 	}
 
 	mean_time_to_happen = {

@@ -2,11 +2,13 @@ political_decisions = {
 	nes_start = {
 		picture = ostend_manifesto
 		potential = {
-			OR = {
-				tag = HGE
-				tag = SGE
-				tag = BGE
-			}
+			#OR = {
+			#	tag = HGE
+			#	tag = SGE
+			#	tag = BGE
+			#}
+			has_country_flag = not_goering_optimization_flag
+			
 			NOT = {exists = GER}
 			NOT = {has_country_flag = nes_started}
 		}
@@ -31,11 +33,13 @@ political_decisions = {
 	nes_pol_light = {
 		picture = ostend_manifesto
 		potential = {
-			OR = {
-				tag = HGE
-				tag = SGE
-				tag = BGE
-			}
+			#OR = {
+			#	tag = HGE
+			#	tag = SGE
+			#	tag = BGE
+			#}
+			has_country_flag = not_goering_optimization_flag
+			
 			has_country_flag = nes_started
 			NOT = {has_country_flag = nes_finished}
 
@@ -75,11 +79,13 @@ political_decisions = {
 	nes_pol_heavy = {
 		picture = ostend_manifesto
 		potential = {
-			OR = {
-				tag = HGE
-				tag = SGE
-				tag = BGE
-			}
+			#OR = {
+			#	tag = HGE
+			#	tag = SGE
+			#	tag = BGE
+			#}
+			has_country_flag = not_goering_optimization_flag
+			
 			has_country_flag = nes_started
 			NOT = {has_country_flag = nes_finished}
 
@@ -119,11 +125,13 @@ political_decisions = {
 	nes_czh_light = {
 		picture = ostend_manifesto
 		potential = {
-			OR = {
-				tag = HGE
-				tag = SGE
-				tag = BGE
-			}
+			#OR = {
+			#	tag = HGE
+			#	tag = SGE
+			#	tag = BGE
+			#}
+			has_country_flag = not_goering_optimization_flag
+			
 			has_country_flag = nes_started
 			NOT = {has_country_flag = nes_finished}
 
@@ -215,11 +223,13 @@ political_decisions = {
 	nes_czh_heavy = {
 		picture = ostend_manifesto
 		potential = {
-			OR = {
-				tag = HGE
-				tag = SGE
-				tag = BGE
-			}
+			#OR = {
+			#	tag = HGE
+			#	tag = SGE
+			#	tag = BGE
+			#}
+			has_country_flag = not_goering_optimization_flag
+			
 			has_country_flag = nes_started
 			NOT = {has_country_flag = nes_finished}
 
@@ -311,11 +321,13 @@ political_decisions = {
 	fes_start = {
 		picture = rhodesia_charter
 		potential = {
-			OR = {
-				tag = HGE
-				tag = SGE
-				tag = BGE
-			}
+			#OR = {
+			#	tag = HGE
+			#	tag = SGE
+			#	tag = BGE
+			#}
+			has_country_flag = not_goering_optimization_flag
+			
 			NOT = {exists = GER}
 			NOT = {has_country_flag = fes_started}
 		}
@@ -339,11 +351,13 @@ political_decisions = {
 	fes_ukr = {
 		picture = ostend_manifesto
 		potential = {
-			OR = {
-				tag = HGE
-				tag = SGE
-				tag = BGE
-			}
+			#OR = {
+			#	tag = HGE
+			#	tag = SGE
+			#	tag = BGE
+			#}
+			has_country_flag = not_goering_optimization_flag
+			
 			has_country_flag = fes_started
 			NOT = {has_country_flag = fes_finished}
 
@@ -383,11 +397,13 @@ political_decisions = {
 	fes_blt = {
 		picture = ostend_manifesto
 		potential = {
-			OR = {
-				tag = HGE
-				tag = SGE
-				tag = BGE
-			}
+			#OR = {
+			#	tag = HGE
+			#	tag = SGE
+			#	tag = BGE
+			#}
+			has_country_flag = not_goering_optimization_flag
+			
 			has_country_flag = fes_started
 			NOT = {has_country_flag = fes_finished}
 
@@ -427,11 +443,13 @@ political_decisions = {
 	fes_msc = {
 		picture = ostend_manifesto
 		potential = {
-			OR = {
-				tag = HGE
-				tag = SGE
-				tag = BGE
-			}
+			#OR = {
+			#	tag = HGE
+			#	tag = SGE
+			#	tag = BGE
+			#}
+			has_country_flag = not_goering_optimization_flag
+			
 			has_country_flag = fes_started
 			NOT = {has_country_flag = fes_finished}
 

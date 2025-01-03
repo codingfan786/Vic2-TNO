@@ -225,12 +225,12 @@ political_decisions = {
 		picture = das_zivilgesetzbuch
 		potential = {
 			tag = BGE
+			exists = GGE
 			OR = {
 				HGE = {has_country_flag = brg_assist}
 				SGE = {has_country_flag = pup_assist}
 			}
 			NOT = {has_country_flag = bge_peace}
-			exists = GGE
 		}
 		allow = {
 			OR = {

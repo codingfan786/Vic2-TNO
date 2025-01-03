@@ -23,13 +23,13 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 32400
+		size = 15400
 	}
 
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 221000
+		size = 101000
 	}
 }
 #Inverness (328000/82000 POPS)
@@ -55,13 +55,13 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 16000
+		size = 8000
 	}
 
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 135550
+		size = 65550
 	}
 }
 #Dundee (364000/91000 POPS)
@@ -86,7 +86,7 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 62000
+		size = 32000
 	}
 
 	soldiers = {
@@ -98,7 +98,7 @@
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 620200
+		size = 120200
 	}
 
 }
@@ -155,13 +155,13 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 40000
+		size = 20000
 	}
 
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 24000
+		size = 12000
 	}
 
 	soldiers = {
@@ -173,7 +173,7 @@
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 207175
+		size = 107175
 	}
 
 	clergymen = {
@@ -191,19 +191,19 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 20000
+		size = 10000
 	}
 
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 86400
+		size = 46400
 	}
 
 	farmers = {
 		culture = british
 		religion = protestant
-		size = 24400
+		size = 14400
 	}
 
 	artisans = {
@@ -229,7 +229,7 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 24500
+		size = 12500
 	}
 
 	soldiers = {
@@ -241,13 +241,13 @@
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 320100
+		size = 140100
 	}
 
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 16000
+		size = 8000
 	}
 }
 #Glasgow (620000/155000 POPS)
@@ -285,7 +285,13 @@
 	artisans = {
 		culture = british
 		religion = protestant
-		size = 10000
+		size = 5000
+	}
+
+	artisans = {
+		culture = scottish
+		religion = protestant
+		size = 5000
 	}
 
 	artisans = {
@@ -297,13 +303,7 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 20000
-	}
-
-	artisans = {
-		culture = scottish
-		religion = protestant
-		size = 4000
+		size = 2000
 	}
 
 	soldiers = {
@@ -315,13 +315,13 @@
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 160000
+		size = 80000
 	}
 
 	farmers = {
 		culture = british
 		religion = protestant
-		size = 14650
+		size = 7650
 	}
 
 	clergymen = {
@@ -333,7 +333,7 @@
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 10000
+		size = 5000
 	}
 
 	craftsmen = {
@@ -345,13 +345,13 @@
 	artisans = {
 		culture = irish
 		religion = protestant
-		size = 20000
+		size = 10000
 	}
 	
 	artisans = {
 		culture = irish
 		religion = protestant
-		size = 8000
+		size = 4000
 	}
 }
 #Dumfries (168000/42000 POPS) 
@@ -371,19 +371,19 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 16000
+		size = 8000
 	}
 
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 123800
+		size = 63800
 	}
 
 	farmers = {
 		culture = british
 		religion = protestant
-		size = 20000
+		size = 10000
 	}
 
 }

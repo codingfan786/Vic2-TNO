@@ -5,8 +5,8 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		month = 4
 		tag = USA
+		month = 4
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -29,8 +29,8 @@ country_event = {
 	major = yes
 
 	trigger = {
-		month = 8
 		tag = USA
+		month = 8
 	}
 	mean_time_to_happen = {
 		days = 1

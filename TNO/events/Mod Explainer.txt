@@ -51,6 +51,11 @@ country_event = {
 	}
 
 	option = {
+		name = "Cold War Blocs"
+		country_event = 500302
+	}
+
+	option = {
 		name = "Close menu"
 	}
 }
@@ -195,6 +200,23 @@ country_event = {
 	id = 500294
 	title = "Iberian and Italian intervention in France"
 	desc = "event500294desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Main menu"
+		country_event = 500285
+	}
+
+	option = {
+		name = "Close menu"
+	}
+}
+
+country_event = {
+	id = 500302
+	title = "Cold War Blocs"
+	desc = "event500302desc"
 
 	is_triggered_only = yes
 

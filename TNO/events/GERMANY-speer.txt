@@ -6,8 +6,8 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = {
-		year = 1982
 		tag = SGE
+		year = 1982
 
 		check_variable = {
 			which = speer_reforms_made
@@ -44,8 +44,8 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = {
-		year = 1982
 		tag = SGE
+		year = 1982
 
 		#got some reform points but didnt do enough reforms
 		OR = {
@@ -91,8 +91,8 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = {
-		year = 1982
 		tag = SGE
+		year = 1982
 
 		#never got any reform points
 		NOT = {

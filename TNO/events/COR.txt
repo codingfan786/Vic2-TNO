@@ -3,9 +3,9 @@ country_event = {
 	title = "AI Cornwall shouldn't be broke!"
 	desc = "Money Time!"
 
-	trigger = {
-		NOT = {has_country_flag = cornmoney}
+	trigger = {		
 		tag = COR
+		NOT = {has_country_flag = cornmoney}
 		ai = yes
 	}
 
@@ -27,6 +27,8 @@ country_event = {
 	id = 500008
 	title = "German garrison captured!"
 	desc = "The garrison in Cornwall has been captured. Good riddance!"
+
+	fire_only_once = yes
 
 	trigger = {
 		NOT = {has_global_flag = cornpow}

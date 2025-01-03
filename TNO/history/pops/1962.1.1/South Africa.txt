@@ -5,17 +5,17 @@
 #Cape Town (173000/43250 POPS)
 2087 = {
 	capitalists = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 2000
 	}
 	craftsmen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 10000
 	}
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 66000
 	}
@@ -68,67 +68,67 @@
 	}
 
 	aristocrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 350
 	}
 
 	bureaucrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 300
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 12500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 500
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 21250
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 375
 	}
 
 	bureaucrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 150
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 5500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 12500
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 55725
 	}
@@ -136,12 +136,12 @@
 #Worcester (117700/29425 POPS)
 2089 = {
 	craftsmen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 10000
 	}
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 66000
 	}
@@ -194,25 +194,25 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 400
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 3500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 7100
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 17125
 	}
@@ -248,25 +248,25 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 3300
 	}
@@ -274,12 +274,12 @@
 #Swettenham (69700/17425 POPS)
 2090 = {
 	craftsmen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 10000
 	}
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 66000
 	}
@@ -308,25 +308,25 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 250
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 7250
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 20125
 	}
@@ -356,25 +356,25 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 13125
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 3300
 	}
@@ -382,54 +382,54 @@
 #Mossel Bay (34700/8675 POPS)
 2091 = {
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 66000
 	}
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 7125
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 7875
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 250
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 9000
 	}
@@ -492,31 +492,31 @@
 		size = 10000
 	}
 	aristocrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 250
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 13750
 	}
@@ -585,25 +585,25 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 250
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 24000
 	}
@@ -640,55 +640,55 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 14500
 	}
 
 	aristocrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 9375
 	}
@@ -701,31 +701,31 @@
 		size = 66000
 	}
 	aristocrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 250
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 250
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 28500
 	}
@@ -758,7 +758,7 @@
 #Kimberley (156000/39000 POPS)
 2094 = {
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 66000
 	}
@@ -865,79 +865,79 @@
 	}
 
 	aristocrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 200
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 175
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 7125
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 19500
 	}
 
 	aristocrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 75
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 75
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 50
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 4800
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 14500
 	}
@@ -974,85 +974,85 @@
 	}
 
 	aristocrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 250
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 19000
 	}
 
 	aristocrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 4250
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 19250
 	}
@@ -1066,31 +1066,31 @@
 		size = 66000
 	}
 	aristocrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 500
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 500
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 2500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 7500
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 46000
 	}
@@ -1103,31 +1103,31 @@
 		size = 66000
 	}
 	aristocrats = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 500
 	}
 
 	clergymen = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 500
 	}
 
 	artisans = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 2500
 	}
 
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 7500
 	}
 
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 46000
 	}
@@ -1135,7 +1135,7 @@
 #Umtata (72000/18000 POPS)
 2100 = {
 	farmers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 66000
 	}
@@ -1169,7 +1169,7 @@
 		size = 82500
 	}
 	soldiers = {
-		culture = british
+		culture = south_african
 		religion = protestant
 		size = 7500
 	}

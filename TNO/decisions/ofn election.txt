@@ -2,6 +2,7 @@ political_decisions = {
 	ofn_try_election = {
 		picture = OFN
 		potential = {
+			is_greater_power = yes
 			NOT = {has_global_flag = ofn_dissolved}
 			NOT = {has_global_flag = ofn_election}
 			NOT = {has_country_flag = ofn_leader}
@@ -9,7 +10,6 @@ political_decisions = {
 			any_greater_power = {
 				has_country_flag = ofn_leader
 			}
-			is_greater_power = yes
 		}
 		allow = {
 			NOT = {war = yes}

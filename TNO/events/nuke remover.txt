@@ -6,8 +6,8 @@ country_event = {
 	desc = "just what it says on the tin"
 
 	trigger = {#I dont think this or block works..
-		NOT = {has_country_modifier = nuke_remove_timer}
 		tag = JAN
+		NOT = {has_country_modifier = nuke_remove_timer}
 	}
 
 	mean_time_to_happen = {
