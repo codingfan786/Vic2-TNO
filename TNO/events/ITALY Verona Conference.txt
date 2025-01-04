@@ -3,6 +3,11 @@ country_event = {
 	title = "Verona Conference Opens"
 	desc = "event500233desc"
 
+
+	#The overwhelming perception of the Malta Conference among Italian Politics is that of utter failure. The lack of proper resolution and the acquiescence of demands to the former Triumvirate members has lead many in the government to doubt the leadership of Il Duce Galeazzo Ciano and to call for a conference in Verona to debate the future of the Italian Empire.\nThe tension in Verona is intense as Il Duce Ciano has to contend with not only his §Rhardliner opponents in the National Fascist Party who have organized themselves into a political faction dubbing themselves the "Quadrumvirate"§!, but also the §Bdemocratic reformist ideals of the Italian monarch King Umberto II §!who has found himself much support in the armed forces and the more pragmatic members of the party. Meanwhile, in the shadows of the conference the Red Brigade organization awaits with baited breath an opportune moment to strike and coup the whole government for their goal of Italian socialist freedom.\n\n\n\n§BTo be more specific: §GIl Duce Ciano must carefully balance the demands of the King and the Quadrumvirate if you want to maintain the current government and party. §RHowever, making too many concessions to one side may bring an end to Italian Fascism!§!\nThere will be three rounds of negotiations during the conference.
+	#holy smokes the autism
+
+
 	fire_only_once = yes
 
 	trigger = {
@@ -185,6 +190,7 @@ country_event = {
 		#do fascist
 		ruling_party_ideology = fascist
 		clr_country_flag = verona_conference
+		set_country_flag = italy_finished_verona
 	}
 
 	option = {
@@ -228,6 +234,7 @@ country_event = {
 			duration = 7300
 		}
 		clr_country_flag = verona_conference
+		set_country_flag = italy_finished_verona
 	}
 
 	option = {
@@ -262,6 +269,7 @@ country_event = {
 		government = prussian_constitutionalism
 		prestige = 10
 		clr_country_flag = verona_conference
+		set_country_flag = italy_finished_verona
 	}
 
 	option = {
@@ -270,8 +278,9 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500240
-	title = "Verona Conference Conclusion"
+	title = "Coup D'etat in Verona"
 	desc = "event500240desc"
 
 	fire_only_once = yes
@@ -309,6 +318,7 @@ country_event = {
 			}
 		}
 		clr_country_flag = verona_conference
+		set_country_flag = italy_finished_verona
 	}
 
 	option = {
@@ -317,6 +327,7 @@ country_event = {
 }
 
 country_event = {
+	major = yes
 	id = 500273
 	title = "Croatian Spring"
 	desc = "In the advent of the Verona conference Croatia is now undergoing a period of political turmoil due to the results."

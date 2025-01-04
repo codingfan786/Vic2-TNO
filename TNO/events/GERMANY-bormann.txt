@@ -110,7 +110,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 40
+		months = 54 #42
 	}
 
 	immediate = {

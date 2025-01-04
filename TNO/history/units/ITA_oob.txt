@@ -23,12 +23,12 @@ GRE = {
 
 HUN = {
 	value = -20
-	level = 5
+	level = 3
 }
 
 BUL = {
 	value = -20
-	level = 5
+	level = 3
 }
 
 CRO = {

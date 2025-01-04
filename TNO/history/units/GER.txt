@@ -81,3 +81,12 @@ SGA = {
 	influence_value = 0
 }
 
+HUN = {
+	value = -20
+	level = 4
+}
+
+BUL = {
+	value = -20
+	level = 4
+}

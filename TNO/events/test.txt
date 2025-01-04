@@ -65,3 +65,28 @@ country_event = {
 		name = "a"
 	}
 }
+
+country_event = {
+	id = 987654321
+	title = "a"
+	desc = "a"
+	is_triggered_only = yes
+	option = {
+		name = "a"
+		activate_technology = state_n_government
+
+		any_country = {
+			limit = {
+				OR = {
+					tag = SGE
+					tag = HGE
+					tag = GGE
+					tag = BGE
+				}
+			}
+			any_owned = {
+				change_controller = THIS
+			}
+		}
+	}
+}

@@ -389,6 +389,8 @@ R13 = "countries/R13.txt"
 SFR = "countries/Iberian France.txt"
 IFR = "countries/Italian France.txt"
 
+NIT = "countries/ItalyNatSoc.txt"
+
 TIN		= 	"countries/Tiny State.txt"
 SMA		= 	"countries/Small State.txt"
 MED		=	"countries/Medium State.txt"

@@ -612,7 +612,7 @@ free_peoples = {
 
 	badboy_factor = 0.5
 	prestige_factor = 1
-	peace_cost_factor = 0.008 #1
+	peace_cost_factor = 0.0075 #1
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -845,7 +845,7 @@ release_puppet = {
 	is_triggered_only = yes
 	months = 12
 
-	badboy_factor = 1
+	badboy_factor = 2
 	prestige_factor = 1
 	peace_cost_factor = 15
 	penalty_factor = 1
@@ -865,7 +865,6 @@ release_puppet = {
 		NOT = {tag = OFN}
 		NOT = {THIS = {tag = OFN}}
 		NOT = {FROM = {tag = OFN}}
-
 	}
 	
 	# THIS - us
@@ -875,6 +874,58 @@ release_puppet = {
 		is_our_vassal = FROM
 		FROM = { is_substate = no }
 		FROM = {NOT = {tag = OFN}}
+		NOT = {FROM = {number_of_states = 4}}
+	}
+	
+	po_release_puppet = yes
+	po_add_to_sphere = yes
+
+	war_name = WAR_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+release_puppet_large = {
+	sprite_index = 10
+	is_triggered_only = yes
+	months = 12
+
+	badboy_factor = 4
+	prestige_factor = 1
+	peace_cost_factor = 30
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		num_of_vassals_no_substates = 1
+		NOT = {tag = OFN}
+		NOT = {THIS = {tag = OFN}}
+		NOT = {FROM = {tag = OFN}}
+	}
+	
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+		is_our_vassal = FROM
+		FROM = { is_substate = no }
+		FROM = {NOT = {tag = OFN}}
+		FROM = {number_of_states = 4}
 	}
 	
 	po_release_puppet = yes
@@ -1789,23 +1840,20 @@ make_facist = {
 	sprite_index = 1
 	is_triggered_only = yes
 	months = 13
-	constructing_cb = no
-	crisis = no
+	#constructing_cb = no
+	crisis = yes
 	
+	construction_speed = 1
+
 	can_use = {
-		#NOT = { is_our_vassal = THIS }
-		#OR = {
-		#	tag = ITA
-		#	tag = HUN
-		#	tag = BUL
-		#}
-		#tag = YUG
+		THIS = {government = fascist_dictatorship}
 		NOT = {government = fascist_dictatorship}
+		is_greater_power = no
 	}
 
-	badboy_factor = 0
+	badboy_factor = 400 #2
 	prestige_factor = 1
-	peace_cost_factor = 0.004 #15
+	peace_cost_factor = 0.006 #25
 	penalty_factor = 1
 	is_civil_war = no #this is a civil war
 
@@ -2043,17 +2091,18 @@ make_democratic = {
 	construction_speed = 0.5
 	
 	can_use = {
-		OR = {
-					government = proletarian_dictatorship
-					government = presidential_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = absolute_monarchy
-				}
-
 		THIS = {
 			government = democracy
 		}
+		OR = {
+			government = proletarian_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship
+			government = absolute_monarchy
+		}
+
+		is_greater_power = no
 	}
 
 	badboy_factor = 400 #2
@@ -2659,7 +2708,8 @@ nuke_disarm = {
 	sprite_index = 14
 	is_triggered_only = yes
 	months = 12
-
+	crisis = yes
+	
 	badboy_factor = 300 #1.5
 	prestige_factor = 1
 	peace_cost_factor = 0.007 #30
@@ -2709,6 +2759,7 @@ missile_crisis = {
 	sprite_index = 14
 	is_triggered_only = yes
 	months = 12
+	crisis = yes
 
 	badboy_factor = 300 #1.5
 	prestige_factor = 1

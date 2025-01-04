@@ -529,11 +529,9 @@ country_event = {
 	desc = "We're fully occupied but no individual can reach 100 warscore. This event will split our country among the siegers."
 	trigger = {
 		exists = GER
-		OR = {
-			has_country_flag = not_goering_optimization_flag
-			tag = GGE
-		}
 		
+		has_country_flag = is_germany_optimization_flag
+
 		OR = {
 			AND = {
 				tag = HGE

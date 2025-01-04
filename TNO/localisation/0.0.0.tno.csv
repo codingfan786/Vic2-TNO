@@ -297,8 +297,6 @@ irgun_coup_desc;The Irgun (lit. "The National Military Organization in the Land 
 rus_colonize;Law and order restoration;;;;;;;;;;;;x
 rus_colonizing_title;Reclaim the bombing regions.;;;;;;;;;;;;x
 rus_colonizing_desc;In the decades since World War 2 Germany has used eastern Europe as a training ground for their air force, blasting any Russian settlements that they see on their borders. This practice has lead to the the population in these regions being scattered and solitary, stopping any possibility of governmental organization. With the onset of the German civil war this bombing practice has ended and it is now possible for us to gain control of these lands again. §R Winning a war with the Russian unification CB will reset the timer for this decision early.;;;;;;;;;;;;x
-greece_inherit_title;Integrate the Greek Occupational Government.;;;;;;;;;;;;x
-greece_inherit_desc;The Greek occupational government has served its purpose. It is time that we take direct control of the territory.;;;;;;;;;;;;x
 spying;Spy program in progress.;;;;;;;;;;;;x
 spy_unrest;Foreign Propaganda;;;;;;;;;;;;x
 form_spy_agency_title;Form a national intelligence agency.;;;;;;;;;;;;x
@@ -889,7 +887,7 @@ gsc_accepted_desc;As we have conquered the Scandinavian nations we are in positi
 gba_accepted_desc;As we have conquered the Balkan nations we are in position to place ourselves as the true national state of the consituent nations. §RThis is a one time decision. You can either take it early or wait to try and get all of the cultures accepted.;x
 gfr_accepted_desc;As we have conquered the Gaullic nations we are in position to place ourselves as the true national state of the consituent nations. §RThis is a one time decision. You can either take it early or wait to try and get all of the cultures accepted.;x
 glo_accepted_desc;As we have conquered the Benelux nations we are in position to place ourselves as the true national state of the consituent nations. §RThis is a one time decision. You can either take it early or wait to try and get all of the cultures accepted.;x
-event500233desc;The overwhelming perception of the Malta Conference among Italian Politics is that of utter failure. The lack of proper resolution and the acquiescence of demands to the former Triumvirate members has lead many in the government to doubt the leadership of Il Duce Galeazzo Ciano and to call for a conference in Verona to debate the future of the Italian Empire.\nThe tension in Verona is intense as Il Duce Ciano has to contend with not only his §Rhardliner opponents in the National Fascist Party who have organized themselves into a political faction dubbing themselves the "Quadrumvirate"§!, but also the §Bdemocratic reformist ideals of the Italian monarch King Umberto II §!who has found himself much support in the armed forces and the more pragmatic members of the party. Meanwhile, in the shadows of the conference the Red Brigade organization awaits with baited breath an opportune moment to strike and coup the whole government for their goal of Italian socialist freedom.\n\n\n\n§BTo be more specific: §GIl Duce Ciano must carefully balance the demands of the King and the Quadrumvirate if you want to maintain the current government and party. §RHowever, making too many concessions to one side may bring an end to Italian Fascism!§!\nThere will be three rounds of negotiations during the conference.;x
+event500233desc;The overwhelming perception of the Malta Conference among Italian Politics is that of utter failure. The lack of proper resolution and the acquiescence of demands to the former Triumvirate members has lead many in the government to doubt the leadership of Il Duce Galeazzo Ciano and to call for a conference in Verona to debate the future of the Italian Empire.\nThe tension in Verona is intense as Il Duce Ciano has to contend with not only his §Ghardliner opponents in the National Fascist Party who have organized themselves into a political faction dubbing themselves the "Quadrumvirate"§!, but also the §Bdemocratic reformist ideals of the Italian monarch King Umberto II §!who has found himself much support in the armed forces and the more pragmatic members of the party. §RMeanwhile, in the shadows of the conference the Red Brigade organization awaits with baited breath an opportune moment to strike and coup the whole government for their goal of Italian socialist freedom.§!\n\n\n\n§!To be more specific: §GPassing one reform will lead to a fascist party. §!Passing two reforms will lead to us keeping our current party. §BPassing 3 reforms will lead to us becoming a constitutional monarchy. §RPassing no reforms will lead to a Socialist Coup!§!\nThere will be three rounds of negotiations during the conference.;x
 event500234desc;The Verona Conference continues as debate rages over voting rights.\nKing Umberto II wants an expansion of voting rights to more of the public, and the support he has gathered makes overruling such an action impossible without the support of the Quadrumvirate, who have personal political demands themselves.;x
 event500235desc;The Verona Conference continues as debate rages over congressional appointments.\nKing Umberto II wants party deputies and ministers to be directly elected by the public, and the support he has gathered makes overruling such an action impossible without the support of the Quadrumvirate, who have personal political demands themselves.;x
 event500236desc;The Verona Conference continues as debate rages over party rights.\nKing Umberto II wants an easement on the political suppression of groups outside of the National Fascist Party, and the support he has gathered makes overruling such an action impossible without the support of the Quadrumvirate, who have personal political demands themselves.;x
@@ -929,7 +927,7 @@ npa_merge_second_desc;After the fall of Nanjing many army groups formerly allied
 chi_go_west_desc;The Western Frontier is constantly being encroached upon by the rebelious Yunnan province. It is time we stop acting on the backfoot and take the initiateive against them, orders from Tokyo be damned! §RYou will be able to initiate border wars on the western frontier.;x
 start_gaw_desc;All available preparations have been made. Armies have been raised and uprisings readied to strike. Now is the time to unify China! §RIf Japan's truce with the N.P.A. has expired then they will receive a call to arms from the Reorganized Chinese Government!;x
 annex_onega_title;Integrate the Onega garrison;x
-annex_onega_desc;The Onega garrison has served its purpose in defending Finland from the Russian hordes. Now it is time for it to be part of Finland proper. §RKeep in mind that the Onega garrison has events to keep forts in Onega 1 level above Finland's fort tech.;x
+annex_onega_desc;The Onega garrison has served its purpose in defending Finland from the Russian hordes. Now it is time for it to be part of Finland proper. §RKeep in mind that the Onega garrison has events to keep forts in Onega 1 level above Finland's fort tech. §BAdditionally, if we lose Karelia and Leningrad for any reason we will receive a large militancy and research penalty for 5 years!;x
 strat_mob;Strategic Mobility;x
 strat_mob_desc; ;x
 finish_gaw_title;Peace in Asia!;x
@@ -1044,7 +1042,7 @@ osteuropa_desc;Eastern Europe is firmly in our grasp and we now have the opportu
 ss_osteuropa_desc;The Germanisation programs are simply not sustainable. In order to secure the Reichskommissariat we should start recruiting our security forces from the local population.;x
 event500272desc;The ever encroaching influence of Italy has taken its toll on our country. Now they demand complete control over our foreign affairs! What should we do?;x
 balkan_control_title;Dominance in the Balkans!;x
-balkan_control_desc;The falling out between Mussolini and Hitler has lead to a competition of influence regarding the future of the Balkan states. With the advent of the German civil war Italy has clearly come out victorious. With Hungary and Bulgaria fully in our political grasp we can now cement our control.;x
+balkan_control_desc;The falling out between Mussolini and Hitler has lead to a competition of influence regarding the future of the Balkan states. With the advent of the German civil war Italy has clearly come out victorious. With Hungary and Bulgaria fully in our political grasp we can now cement our control. §RThis will puppet Hungary and Bulgaria if they are in our sphere!;x
 ija_boosted_1;Reformed I.J.A. Draft Standards;x
 brg_won;Burgundy Siezed the Demilitarized Zone;x
 recently_lost_to_brg_title;Recover from the Franco-Burgundian War;x
@@ -1230,3 +1228,28 @@ scottish;Scottish;x
 australian;Australi-Zealander;x
 south_african;Anglo South African;x
 welsh;Welsh;x
+finland_collapse;Chaos in Helsinki;x
+expand_into_nenestia_title;Provisional Government of North Russia;x
+expand_into_nenestia_desc;After having beaten back the Russian hordes clamoring at the gates of Onega, we have found ourselves in a unique opportunity to bring stability to Russia by our own hand.;x
+release_puppet;Release Small Puppet;Libérer un État fantoche;Marionettenstaat entlassen;;Desvincular títere;;;;;;;;;x;;
+release_puppet_short;$THIRD$ is released;$THIRD$ est libéré;$THIRD$ wurde entlassen;;$THIRD$ ha quedado desvinculada;;;;;;;;;x;;
+release_puppet_setup;Release $THIRD$ from $RECIPIENT$;Libérer $THIRD$ de $RECIPIENT$.;Entlassen Sie $THIRD$ aus $RECIPIENT$;;Desvincular $THIRD$ de $RECIPIENT$;;;;;;;;;x;;
+release_puppet_desc;Release a §Ycountry§W with 3 or less states from its sovereign nation;Libérer un §Ypays§W de sa nation souveraine;Entlassen Sie ein §YLand§W von seinem Herrenland.;;Desvincula a un §Ypaís§W de su nación soberana;;;;;;;;;x;;
+release_puppet_large;Release Large Puppet;Libérer un État fantoche;Marionettenstaat entlassen;;Desvincular títere;;;;;;;;;x;;
+release_puppet_large_short;$THIRD$ is released;$THIRD$ est libéré;$THIRD$ wurde entlassen;;$THIRD$ ha quedado desvinculada;;;;;;;;;x;;
+release_puppet_large_setup;Release $THIRD$ from $RECIPIENT$;Libérer $THIRD$ de $RECIPIENT$.;Entlassen Sie $THIRD$ aus $RECIPIENT$;;Desvincular $THIRD$ de $RECIPIENT$;;;;;;;;;x;;
+release_puppet_large_desc;Release a §Ycountry§W with 4 or more states from its sovereign nation;Libérer un §Ypays§W de sa nation souveraine;Entlassen Sie ein §YLand§W von seinem Herrenland.;;Desvincula a un §Ypaís§W de su nación soberana;;;;;;;;;x;;
+start_fake_war_title;Control Puppets in Peacetime;x
+end_fake_war_title;Stop Controlling Puppets;x
+start_fake_war_desc;This will start a fake war to control your puppet units in peacetime.;x
+end_fake_war_desc;This will end the fake war used for controlling your puppets in peacetime.;x
+italy_finished_verona;The Verona Conference has finished. (This starts in 1963 or after the Malta Conference has been bombed.);x
+greece_inherit_title;Union of Mediterranean People;;;;;;;;;;;;x
+greece_inherit_desc;The Greek and Italian people have a shared cultural heritage as the creators of modern civilization. With the establishment of our workers state we should directly unify with our cousins in the east! §RGermany will get the option to try and set up an Italian puppet state in Northern Italy should we become a Communist government!;;;;;;;;;;;;x
+inherit_croatia_title;Establish Patrimony over Croatia;x
+inherit_croatia_desc;The liberalization of Italy by the King has lead to enourmous popularity in our client states. Ripe among them are the Croatians. They would surely be content as part of our empire proper!;x
+italian_social_republic_title;Establish the Italian Social Republic;x
+italian_social_republic_desc;The establishment of Communism in Italy has placed an existential threat on our southern border. We did not beat back the Bolshevik menace in the east just to see it crop up in our backyard! §RThis will allow us to liberate the Italian Social Republic, a unique substate of ours which we can expand even further once we liberate it's initial cores.;x
+italian_social_republic_expand_title;National Socialism in Italy;x
+italian_social_republic_expand_desc;We should push further south in Italy!;x
+puppet_boost_late_game;Vassal State (Late Game);x

@@ -810,15 +810,17 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
-			OR = {
-				has_country_flag = show_util
-				NOT = {
-					any_greater_power  = {
-						NOT = {tag = THIS}
-						ai = no
-					}
-				}
-			}
+			has_country_flag = show_util
+
+			#OR = {
+			#	has_country_flag = show_util
+			#	NOT = {
+			#		any_greater_power  = {
+			#			NOT = {tag = THIS}
+			##			ai = no
+			#		}
+			#	}
+			#}
 				
 			civilized = yes
 			num_of_vassals_no_substates = 1
@@ -835,6 +837,47 @@ political_decisions = {
 				}
 				country_event = {id = 500213 days = 0}
 			}
+		}
+	}
+
+	start_fake_war = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { war_with = HUG }=
+			num_of_vassals = 1
+			has_country_flag = show_util
+		}
+		allow = {
+		
+		}
+		effect = {
+			HUG = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = status_quo }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	end_fake_war = {
+		alert = no
+		potential = {
+			ai = no
+			war_with = HUG
+			has_country_flag = show_util
+		}
+		allow = {
+		
+		}
+		effect = {
+			end_war = HUG
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }

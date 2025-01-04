@@ -58,11 +58,11 @@ political_decisions = {
 			SAL = {war = no}
 		}
 		allow = {
-			money = 200000
+			money = 300000
 		}
 		effect = {
 			set_country_flag = alg_funded
-			treasury = -200000
+			treasury = -300000
 			SAL = {
 				any_owned = {
 					any_pop = {
@@ -107,11 +107,11 @@ political_decisions = {
 			IAL = {war = no}
 		}
 		allow = {
-			money = 300000
+			money = 400000
 		}
 		effect = {
 			set_country_flag = alg_funded
-			treasury = -300000
+			treasury = -400000
 			IAL = {
 				any_owned = {
 					any_pop = {

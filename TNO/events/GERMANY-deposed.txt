@@ -4,10 +4,7 @@ country_event = {
 	desc = "The day of the Judeo-Bolshevik has finally come as Germania is stormed by communists and untermensch alike."
 	fire_only_once = yes
 	trigger = {
-		OR = {
-			has_country_flag = not_goering_optimization_flag
-			tag = GGE
-		}
+		has_country_flag = is_germany_optimization_flag
 
 		exists = yes
 		NOT = {exists = GER}

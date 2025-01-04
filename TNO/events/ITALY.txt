@@ -41,3 +41,70 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 500304
+	title = "Italian Social Republic"
+	desc = "As a new regime we could use some help!"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = NIT
+		exists = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "I see..."
+
+		random_owned = {
+			limit = {
+				NOT = {THIS = {soldiers = 0.031}}
+				THIS = {soldiers = 0.021}
+			}
+			THIS = {
+				any_pop = {
+					limit = {
+						type = soldiers
+					}
+					reduce_pop = 1.4
+				}
+			}
+		}
+
+		random_owned = {
+			limit = {
+				NOT = {THIS = {soldiers = 0.021}}
+				THIS = {soldiers = 0.011}
+			}
+			THIS = {
+				any_pop = {
+					limit = {
+						type = soldiers
+					}
+					reduce_pop = 2
+				}
+			}
+		}
+
+		random_owned = {
+			limit = {
+				NOT = {THIS = {soldiers = 0.011}}
+				NOT = {has_country_flag = temp}
+			}
+			THIS = {
+				any_pop = {
+					limit = {
+						type = soldiers
+					}
+					reduce_pop = 4
+				}
+			}
+		}
+	}
+
+}

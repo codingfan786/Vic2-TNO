@@ -341,6 +341,17 @@ political_decisions = {
 				}
 				set_country_flag = not_goering_optimization_flag
 			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SGE
+						tag = HGE
+						tag = BGE
+						tag = GGE
+					}
+				}
+				set_country_flag = is_germany_optimization_flag
+			}
 
 			any_country = {
 				limit = {
@@ -1168,40 +1179,40 @@ political_decisions = {
 			GGE = {
 				any_owned = {
 					any_pop = {
-						ideology = {
-							factor = 3
-							value = fascist
-						}
+					#	ideology = {
+					#		factor = 3
+					#		value = fascist
+					#	}
 					}
 				}
 			}
 			HGE = {
 				any_owned = {
 					any_pop = {
-						ideology = {
-							factor = 3
-							value = fascist
-						}
+					#	ideology = {
+					#		factor = 3
+					#		value = fascist
+					#	}
 					}
 				}
 			}
 			BGE = {
 				any_owned = {
 					any_pop = {
-						ideology = {
-							factor = 3
-							value = fascist
-						}
+					#	ideology = {
+					#		factor = 3
+					#		value = fascist
+					#	}
 					}
 				}
 			}
 			SGE = {
 				any_owned = {
 					any_pop = {
-						ideology = {
-							factor = 3
-							value = fascist
-						}
+					#	ideology = {
+					#		factor = 3
+					#		value = fascist
+					#	}
 					}
 				}
 			}

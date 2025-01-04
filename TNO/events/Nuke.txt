@@ -3081,16 +3081,29 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		any_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_flag = primary_nukes
+				}
+			}
+			FROM = {
+				clr_country_flag = secondary_nukes
+				clr_country_flag = developing_nukes
+				remove_country_modifier = nuc_dev
+				set_country_flag = primary_nukes
+			}
+		}
+
 		clr_country_flag = primary_nukes
+		clr_country_flag = developing_nukes
+		remove_country_modifier = nuc_dev
+
 		clr_country_flag = trying_to_nuke
 		remove_country_modifier = nuclear_threat
 		remove_country_modifier = nuclear_countdown
-		FROM = {
-			set_country_flag = primary_nukes
-			clr_country_flag = secondary_nukes
-			clr_country_flag = developing_nukes
-			remove_country_modifier = nuc_dev
-		}
+
 	}
 
 	option = {
@@ -3107,8 +3120,8 @@ country_event = {
 
 	immediate = {
 		clr_country_flag = secondary_nukes
-		clr_country_flag = developing_nukes
-		remove_country_modifier = nuc_dev
+		#clr_country_flag = developing_nukes
+		#remove_country_modifier = nuc_dev
 		add_country_modifier = {
 			name = nuc_timeout
 			duration = 7300

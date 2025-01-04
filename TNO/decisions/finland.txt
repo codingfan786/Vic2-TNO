@@ -21,5 +21,26 @@ political_decisions = {
 		}
 	}
 
+	expand_into_nenestia = { #later replace everything in this file with a thing to expand onega and then inherit it later
+		picture = concede_finland
+		potential = {
+			tag = FIN
+			NOT = {is_core = 2589}
+		}
+		allow = {
+			owns = 2588
+			owns = 981
+			RUS_2589 = {owner = {tag = THIS}}
+			state_n_government = 1
+		}
+		effect = {
+			RUS_2589 = {
+				add_core = THIS
+			}
+			RUS_981 = {
+				add_core = THIS
+			}
+		}
 
+	}
 }

@@ -89,3 +89,29 @@ country_event = {
 		993 = {fort = 1}
 	}
 }
+
+country_event = {
+	id = 500303
+	title = "Chaos in Helsinki!"
+	desc = "The loss of our WW2 gains has lead to complete political upheaval!"
+
+	fire_only_once = yes
+	trigger = {
+		tag = FIN
+		NOT = {owns = 994}
+		NOT = {owns = 988}
+		NOT = {owns = 2588}
+	}
+	immediate = {
+		any_pop = {
+			militancy = 3
+		}
+		add_country_modifier = {
+			name = finland_collapse
+			duration = 1825
+		}
+	}
+	option = {
+		name = "How terrible!"
+	}
+}

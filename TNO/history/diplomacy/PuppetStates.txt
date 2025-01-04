@@ -1,3 +1,24 @@
+substate = {
+	first = GGE
+	second = NIT
+	start_date = 1836.1.1
+}
+substate = {
+	first = BGE
+	second = NIT
+	start_date = 1836.1.1
+}
+substate = {
+	first = HGE
+	second = NIT
+	start_date = 1836.1.1
+}
+substate = {
+	first = SGE
+	second = NIT
+	start_date = 1836.1.1
+}
+
 vassal = {
 	first = SIA #JAP
 	second = BUR

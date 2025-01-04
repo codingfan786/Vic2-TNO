@@ -1083,6 +1083,18 @@ ideologies = {
 		factor = 1
 
 		modifier = {
+			factor = 5
+			AND = {
+				country = {has_country_flag = fascist_gov_type}
+				ruling_party_ideology = fascist
+				OR = {
+					is_accepted_culture = yes
+					is_primary_culture = yes
+				}
+			}
+		}
+
+		modifier = {
 			factor = 4
 			country = {has_country_flag = go_fascist}
 		}
@@ -1246,6 +1258,14 @@ ideologies = {
 
 	conservative = {
 		factor = 1
+
+		modifier = {
+			factor = 2
+			AND = {
+				has_country_flag = fascist_gov_type
+				ruling_party_ideology = conservative
+			}
+		}
 
 		modifier = {
 			factor = 0.4

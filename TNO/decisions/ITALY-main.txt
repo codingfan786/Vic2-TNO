@@ -1,0 +1,114 @@
+political_decisions = {
+
+	greece_inherit = {
+		#picture = enact_the_homestead_act
+		picture = raise_the_bonnie_blue_flag
+		potential = {
+			tag = ITA
+
+			OR = {
+				NOT = {has_country_flag = italy_finished_verona}
+				government = proletarian_dictatorship
+			}
+			NOT = {
+				has_country_flag = gre_inherited
+			}
+
+			exists = GRE
+		}
+		allow = {
+			has_country_flag = italy_finished_verona
+			government = proletarian_dictatorship
+			nationalism_n_imperialism = 1
+			is_our_vassal = GRE
+		}
+		effect = {
+			inherit = GRE
+			set_country_flag = gre_inherited
+			add_accepted_culture = greek
+			GRE = {all_core = {add_core = THIS}}
+		}
+	}
+
+	balkan_control = {
+		picture = attack_the_laagers
+
+		potential = {
+			tag = ITA
+			OR = {
+				NOT = {has_country_flag = italy_finished_verona}
+				government = fascist_dictatorship
+			}
+			NOT = {
+				has_country_flag = controlled_balkans
+			}
+			OR = {
+				exists = HUN
+				exists = BUL
+			}
+		}
+
+
+		allow = {
+			has_country_flag = italy_finished_verona
+			government = fascist_dictatorship
+			nationalism_n_imperialism = 1
+			OR = {
+				AND = {
+					exists = HUN
+					HUN = {is_vassal = no}
+					is_sphere_leader_of = HUN
+				}
+				AND = {
+					exists = BUL
+					BUL = {is_vassal = no}
+					is_sphere_leader_of = BUL
+				}
+			}
+		}
+		effect = {
+			set_country_flag = controlled_balkans
+			any_country = {
+				limit = {
+					OR = {
+						tag = BUL
+						tag = HUN
+					}
+					is_vassal = no
+					in_sphere = THIS
+					exists = yes
+				}
+				country_event = 500272
+			}
+		}
+	}
+
+	inherit_croatia = {
+		picture = award_order_of_st_francis
+		potential = {
+			tag = ITA
+			OR = {
+				NOT = {has_country_flag = italy_finished_verona}
+				government = democracy
+				government = prussian_constitutionalism
+			}
+			NOT = {
+				has_country_flag = inherited_croatia
+			}
+			exists = CRO
+		}
+		allow = {
+			has_country_flag = italy_finished_verona
+			OR = {
+				government = democracy
+				government = prussian_constitutionalism
+			}
+			state_n_government = 1
+			is_our_vassal = CRO
+		}
+		effect = {
+			inherit = CRO
+			set_country_flag = inherited_croatia
+		}
+	}
+}

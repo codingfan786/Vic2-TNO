@@ -1,3 +1,13 @@
+HUN = {
+	value = -20
+	level = 3
+}
+
+BUL = {
+	value = -20
+	level = 3
+}
+
 army = {
 	name = "1a Armata" #done
 	location = 664
