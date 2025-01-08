@@ -1361,10 +1361,28 @@ political_decisions = {
 						limit = {
 							type = soldiers
 						}
-						reduce_pop = 2
-					}
+						reduce_pop = 1.5 #was 2
+					} 
+				}
+				any_owned= {
+					any_pop={
+						limit = {
+							type = craftsmen
+						}
+						reduce_pop = 0.5 
+					} 
 				}
 			}
+			#SCO = {
+			#	any_owned= {
+			#		any_pop={
+			#			limit = {
+			#				type = craftsmen
+			#			}
+			#			reduce_pop = 0.6 
+			#		} 
+			#	}
+			#}
 			FRA = {
 				any_owned= {
 					any_pop={

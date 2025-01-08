@@ -42,12 +42,15 @@ country_event = {
 
 	option = {
 		name = "Of course!"
-		all_core = {add_core = ENG}
+		#all_core = {add_core = ENG}
+		#FROM = {
+		#	inherit = THIS
+		#}
 		FROM = {
-			inherit = THIS
+			create_vassal = THIS
 		}
 		ai_chance = {
-			factor = 0.80
+			factor = 0.10 #was 80/20
 			modifier = {
 				factor = 0.05
 				has_global_flag = cbr_enhanced
@@ -62,7 +65,7 @@ country_event = {
 			months = 72
 		}
 		ai_chance = {
-			factor = 0.2
+			factor = 0.9
 		}
 	}
 
