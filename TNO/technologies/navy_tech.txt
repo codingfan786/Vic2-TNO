@@ -5,8 +5,6 @@ post_nelsonian_thought = {
 	cost = 3600
 	unciv_military = yes
 	activate_building = naval_base
-	activate_building = clipper_shipyard 
-	activate_building = steamer_shipyard 
 
 	colonial_points = 100
 

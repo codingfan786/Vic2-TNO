@@ -1,3 +1,18 @@
+naval_unlock_one = {
+	limit = { post_nelsonian_thought = 1 }
+	chance = { base = 100 }
+	effect = {
+		activate_building = clipper_shipyard
+	}
+}
+
+naval_unlock_two = {
+	limit = { post_nelsonian_thought = 1 }
+	chance = { base = 100 }
+	effect = {
+		activate_building = steamer_shipyard 
+	}
+}
 
 #naval_plans
 night_training = {

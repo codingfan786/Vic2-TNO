@@ -127,7 +127,7 @@ proxy_war_real = {
 	
 	badboy_factor = 0
 	prestige_factor = 0
-	peace_cost_factor = 0.009 #37.5
+	peace_cost_factor = 0.010 #75
 	penalty_factor = 0
 	
 	on_add = {
@@ -3386,6 +3386,11 @@ proxy_war = {
 			THIS = {ai = no}
 			is_greater_power = no #ai shouldn't start proxy wars that will turn nuclear
 		}
+		OR = { #makes sure this cannot be used during the GAW
+			NOT = { tag = YNN }
+			NOT = { THIS = { tag = JAP } }
+			NOT = { exists = CHI }
+		}
 	}
 
 	is_civil_war = yes
@@ -3397,7 +3402,7 @@ proxy_war = {
 	
 	badboy_factor = 0
 	prestige_factor = 0
-	peace_cost_factor = 0.019 #75
+	peace_cost_factor = 0.010 #75
 	penalty_factor = 0
 	
 	on_add = {
