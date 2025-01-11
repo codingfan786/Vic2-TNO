@@ -844,7 +844,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
-			NOT = { war_with = HUG }=
+			NOT = { war_with = HUG }
 			num_of_vassals = 1
 			has_country_flag = show_util
 		}

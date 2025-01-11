@@ -69,8 +69,10 @@ cut_down_to_size
 free_peoples
 liberate_country
 release_puppet
+release_puppet_large
 become_independent
 gaw_war
+gaw_annex
 make_puppet
 make_puppet_unlimited
 dismantle_forts
@@ -106,6 +108,9 @@ acquire_substate_region_small
 acquire_substate_region_medium
 acquire_substate_region_large
 acquire_substate_region_huge
+ofn_mandate
+china_status_quo
+acquire_core_state
 }
 
 proxy_war_real = {

@@ -270,7 +270,7 @@ country_event = {
 
 country_event = {
 	id = 500110
-	name = "ai decision randomizer"
+	title = "ai decision randomizer"
 	desc = "a"
 	trigger = {
 		tag = KAZ

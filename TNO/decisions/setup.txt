@@ -539,7 +539,16 @@ political_decisions = {
 				}
 				country_event = 500285
 			}
-
+			random_owned = {
+				limit = {
+					owner = {
+						ai = no
+					}
+				}
+				owner = {
+					country_event = 500285
+				}
+			}
 	
 
 			MSC = {

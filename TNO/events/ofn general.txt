@@ -149,7 +149,7 @@ country_event = {
 country_event = {
 	major = yes
 	id = 500136
-	name = "Collapse of the O.F.N.!"
+	title = "Collapse of the O.F.N.!"
 	desc = "event500136desc"
 
 	trigger = {

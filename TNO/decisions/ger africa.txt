@@ -38,7 +38,7 @@ political_decisions = {
 				}
 			}
 			modifier = {
-				factore = 0
+				factor = 0
 				OR = {
 					is_vassal = yes
 					is_substate = yes

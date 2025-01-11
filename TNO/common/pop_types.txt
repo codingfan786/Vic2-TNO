@@ -470,22 +470,24 @@ emigration_chance =
 
 	modifier = {
 		factor = 0.6
+
+		location = {owner = {has_country_flag = italy_main}}
+		NOT = {location = {owner = {has_country_flag = greece_main}}}
 		OR = {
 			has_pop_culture = north_italian
 			has_pop_culture = south_italian
 		}
-		location = {owner = {has_country_flag = italy_main}}
-		NOT = {location = {owner = {has_country_flag = greece_main}}}
 	}
 
 	modifier = {
 		factor = 0.6
+
+		location = {owner = {has_country_flag = german_main}}
+		NOT = {location = {owner = {has_country_flag = german_africa}}}
 		OR = {
 			has_pop_culture = north_german
 			has_pop_culture = south_german
 		}
-		location = {owner = {has_country_flag = german_main}}
-		NOT = {location = {owner = {has_country_flag = german_africa}}}
 	}
 
 	group = {
@@ -611,14 +613,6 @@ emigration_chance =
 		}
 	}
 
-
-	#modifier = {
-	#	factor = -0.3
-	#	state_scope = {
-	#		has_factories = yes
-	#		}
-	#}
-
 	group = {
 		modifier = {
 			#factor = 0.2
@@ -657,11 +651,12 @@ emigration_chance =
 	modifier = {
 		factor = -2.0
 		#factor = -1.0
+		
+		government = democracy
 		OR = { 
 			continent = north_america
 			continent = south_america
 		}
-		government = democracy
 	}
 	modifier = {
 		factor = -2.0
@@ -743,7 +738,7 @@ assimilation_chance =
 		}
 	}
 
-#LITERACY MODIFIERS - averages 0.00000396 additional rate per 10% literacy up to 0.0000396 additional rate at 99% literacy. (averages 3.96 people assimilating per month at 99% literacy in a 100k province)
+	#LITERACY MODIFIERS - averages 0.00000396 additional rate per 10% literacy up to 0.0000396 additional rate at 99% literacy. (averages 3.96 people assimilating per month at 99% literacy in a 100k province)
 	group = {
 		modifier = {
 			factor = 0.25
@@ -854,7 +849,7 @@ assimilation_chance =
 			has_culture_core = no
 		}
 	}
-#LUXURY GOODS MODIFIERS - averages 0.0000396 additional rate per 10% luxury goods up to 0.000396 additional rate at 99% luxury goods. (averages 39.6 people assimilating per month at 99% luxury goods in a 100k province)(doubles base rate)
+	#LUXURY GOODS MODIFIERS - averages 0.0000396 additional rate per 10% luxury goods up to 0.000396 additional rate at 99% luxury goods. (averages 39.6 people assimilating per month at 99% luxury goods in a 100k province)(doubles base rate)
 	group = {
 		modifier = {
 			factor = 0.5
@@ -965,7 +960,7 @@ assimilation_chance =
 			has_culture_core = no
 		}
 	}
-#EVERY DAY GOODS MODIFIER - averages 0.00000396 additional rate per 10% everyday goods up to 0.0000396 additional rate at 99% everyday goods. (averages 3.96 people assimilating per month at 99% everyday goods in a 100k province)
+	#EVERY DAY GOODS MODIFIER - averages 0.00000396 additional rate per 10% everyday goods up to 0.0000396 additional rate at 99% everyday goods. (averages 3.96 people assimilating per month at 99% everyday goods in a 100k province)
 	group = {
 		modifier = {
 			factor = 0.25
@@ -1076,7 +1071,7 @@ assimilation_chance =
 			has_culture_core = no
 		}
 	}
-#LIFE NEEDS MODIFIER - Starting at 99% life needs, and decreasing by 0.0000396 per 10% missing life needs down to -0.000396 assimilation chance. (counters base)
+	#LIFE NEEDS MODIFIER - Starting at 99% life needs, and decreasing by 0.0000396 per 10% missing life needs down to -0.000396 assimilation chance. (counters base)
 	group = {
 		modifier = {
 			factor = -1
@@ -1188,7 +1183,7 @@ assimilation_chance =
 		}
 	}
 
-#UNEMPLOYMENT MODIFIER - Reduces assimilation rate, starting at 10% unemployment, by 0.0000396 per 10% unemployment up to 99% unemployment. (At 99% unemployment, completely counters base assimilation.)
+	#UNEMPLOYMENT MODIFIER - Reduces assimilation rate, starting at 10% unemployment, by 0.0000396 per 10% unemployment up to 99% unemployment. (At 99% unemployment, completely counters base assimilation.)
 	group = {
 		modifier = {
 			factor = -1

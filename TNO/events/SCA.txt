@@ -27,7 +27,7 @@ country_event = {
 		SCA = {inherit = THIS}
 
 		ai_chance = {
-			factor = .01
+			factor = 0.01
 			modifier = {factor = 100 is_greater_power = no}
 			modifier = {factor = 25 is_greater_power = yes}
 			modifier = {factor = 2 is_greater_power = yes relation = { who = SCA value = 150 }}
@@ -38,10 +38,10 @@ country_event = {
 	option = {
 		name = "dont join"
 		ai_chance = {
-			factor = .01
+			factor = 0.01
 			modifier = {factor = 0 is_greater_power = no}
 			modifier = {factor = 75 is_greater_power = yes}
-			modifier = {factor = .66 is_greater_power = yes relation = { who = SCA value = 150 }}
+			modifier = {factor = 0.66 is_greater_power = yes relation = { who = SCA value = 150 }}
 			modifier = {factor = 0 is_greater_power = yes relation = { who = SCA value = 200 }}
 		}
 	}
