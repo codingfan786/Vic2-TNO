@@ -17,7 +17,7 @@ For MP the following rosterable nation list is suggested:
 
 - Finland
 - RK Moscow
-- Russia #1 (Red army Remnants)
+- Russia #1 (Red army Remnants or Committee for the Liberation of Russia)
 - Russia #2 (Magadan)
 
 - N.P.A. (That brown country in Yunnan)
