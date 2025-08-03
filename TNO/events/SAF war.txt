@@ -234,10 +234,11 @@ country_event = {
 		SAF = {
 			war = {
 				target = ORA
-				attacker_goal = { casus_belli = unification_annex_casus_belli }
+				attacker_goal = { casus_belli = tiny_conquest }
 				#defender_goal = { casus_belli = civil_war }
 				call_ally = yes
 			}	
+			badboy = -5
 		}
 
 	}

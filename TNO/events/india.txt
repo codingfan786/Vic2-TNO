@@ -156,15 +156,15 @@ country_event = {
 					}
 				}
 			}
-			BEN = {
-				any_core = {
-					NOT = {
-						owner = {
-							tag = THIS
-						}
-					}
-				}
-			}
+			#BEN = {
+			#	any_core = {
+			#		NOT = {
+			#			owner = {
+			#				tag = THIS
+			#			}
+			#		}
+			#	}
+			#}
 		}
 			
 	}

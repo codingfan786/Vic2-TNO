@@ -7,6 +7,7 @@ country_event = {
 	desc = "event500246desc"
 
 	is_triggered_only = yes
+	allow_multiple_instances = yes
 
 	immediate = {
 		add_country_modifier = {
@@ -3022,6 +3023,7 @@ country_event = {
 	desc = "event500249desc"
 
 	is_triggered_only = yes
+	allow_multiple_instances = yes
 
 	immediate = {
 		any_country = {
@@ -3057,6 +3059,7 @@ country_event = {
 	major = yes
 
 	is_triggered_only = yes
+	allow_multiple_instances = yes
 
 	option = {
 		name = "May god help us..."

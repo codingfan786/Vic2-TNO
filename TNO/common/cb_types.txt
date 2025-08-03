@@ -2826,15 +2826,15 @@ baathism = {
 
 
 	can_use = {
+		THIS = {tag = ARA}
+		
 		OR = {
 			NOT = {THIS = {ai = yes}}
 			NOT = {
 				THIS = {badboy = 0.80}
 			}
 		}
-		
-		THIS = {tag = ARA}
-		
+	
 		NOT = { truce_with = THIS } 
 		NOT = {vassal_of = THIS}
 

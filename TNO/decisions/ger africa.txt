@@ -143,6 +143,7 @@ political_decisions = {
 			NOT = {has_country_flag = no_more_african_rebels}
 		}
 		allow = {
+			war = no
 			OR = {
 				slavery = no_slavery
 				

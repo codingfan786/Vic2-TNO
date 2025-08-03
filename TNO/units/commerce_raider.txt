@@ -21,7 +21,7 @@ commerce_raider = {
 
 
 	#Building Costs
-	build_time = 730
+	build_time = 530 #was 730
 	build_cost = {
 		clipper_convoy = 10
 		artillery = 3

@@ -1,7 +1,7 @@
 owner = JAP
 controller = JAP
 add_core = CHI
-naval_base = 1
+
 
 trade_goods = tea
 life_rating = 32

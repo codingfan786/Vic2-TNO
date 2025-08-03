@@ -7,14 +7,14 @@ unemployment = yes
 
 rebel =
 {
-	cavalry = 0.0
-	artillery = 0.0
+	cavalry = 0.1
+	artillery = 0.2
 	cuirassier = 0.0
 	dragoon = 0.0
 	guard = 0.0
 	hussar = 0.0
-	infantry = 0.0
-	irregular = 1
+	infantry = 0.7
+	irregular = 0.0
 }
 
 

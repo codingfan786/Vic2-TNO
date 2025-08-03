@@ -387,3 +387,100 @@ country_event = {
 		name = "ok"
 	}
 }
+
+country_event = {
+	id = 500305
+	title = "State Sizing Early Game"
+
+	trigger = {
+		tag = JAN
+		NOT = {year = 1963}
+	}
+
+	fire_only_once = yes
+
+	immediate = {
+		add_country_modifier = {
+			name = sizing_cooldown
+			duration = 365
+		}
+	}
+
+	option = {
+		name = "ok"
+		any_country = { 
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						NOT = { total_pops = 100000 }
+					}
+				}
+				add_core = TIN
+				remove_core = SMA
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 100000
+						NOT = { total_pops = 400000 }
+					}
+				}
+				add_core = SMA 
+				remove_core = TIN
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 400000 
+						NOT = { total_pops = 700000 }
+					} 
+				} 
+				add_core = MED
+				remove_core = TIN
+				remove_core = SMA 
+				remove_core = LRG 
+				remove_core = HUG 
+			} 
+		}		
+		any_country = { 
+			any_owned = {
+				limit = {
+					state_scope = { 
+						total_pops = 700000 
+						NOT = { total_pops = 1000000 }
+					} 
+				} 
+			add_core = LRG
+			remove_core = TIN
+			remove_core = SMA 
+			remove_core = MED 
+			remove_core = HUG 
+			} 
+		}
+		any_country = {
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 1000000
+					}
+				}
+				add_core = HUG 
+				remove_core = TIN
+				remove_core = SMA 
+				remove_core = MED 
+				remove_core = LRG 
+			} 
+		}
+	}
+}
+

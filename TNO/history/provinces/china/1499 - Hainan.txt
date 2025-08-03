@@ -2,7 +2,7 @@ owner = JAP
 controller = JAP
 add_core = GXI
 colonial = 2
-
+naval_base = 1
 
 trade_goods = timber
 life_rating = 32

@@ -145,7 +145,7 @@ war = {
 peace = {
 	max_war_exhaustion = 50			#base max at peace.
 	supply_consumption = -0.5
-	war_exhaustion = -1
+	war_exhaustion = -2 #either do this or lower max exhaustion
 	badboy = -0.15
 }
 
@@ -157,6 +157,8 @@ war_exhaustion = {
 	factory_throughput = -0.01
 	RGO_throughput = -0.01
 	cb_generation_speed_modifier = -0.02
+	mobilisation_size = -0.001 #-10% at 100% through tech and the base mob cap is 10%
+	reinforce_speed = -0.005 #maybe half this?
 }
 
 
@@ -221,7 +223,7 @@ total_occupation = {
 }
 
 total_blockaded = {
-	war_exhaustion = 10.0				#increased by war exhaustion.  
+	war_exhaustion = 5.0				#increased by war exhaustion.  
 }
 
 in_bankrupcy = {

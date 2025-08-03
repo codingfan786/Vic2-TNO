@@ -348,30 +348,6 @@ political_decisions = {
 		}
 	}
 
-	#cfr_proclaim_real_france = {
-	#	picture = support_french_foreign_legion
-	#	potential = {
-	#		tag = CFR
-	#		NOT = {has_country_flag = proclaimed_france}
-	#	}
-	#	allow = {
-	#		nationalism_n_imperialism = 1
-	#		FRA = {
-	#			any_core = {
-	#				owner = {tag = CFR}
-	#			}
-	#		}
-	#	}
-	#	effect = {
-	#		set_country_flag = proclaimed_france
-	#		FRA = {
-	#			all_core = {
-	#				add_core = CFR
-	#			}
-	#		}
-	#	}
-	#}
-
 	cfr_form_france = {
 		picture = support_french_foreign_legion
 		potential = {
@@ -408,65 +384,6 @@ political_decisions = {
 		}
 	}
 
-	#cfr_on_north_africa = {
-	#	picture = support_french_foreign_legion
-	#	potential = {
-	#		tag = CFR
-	#		NOT = {has_country_flag = cona}
-	#	}
-	#	allow = {
-	#		OR = {
-	#			2746 = {
-	#				any_neighbor_province = {
-	#					owner = {tag = THIS}
-	#				}
-	#			}
-	#			2747 = {
-	#				any_neighbor_province = {
-	#					owner = {tag = THIS}
-	#				}
-	#			}
-	#			2754 = {
-	#				any_neighbor_province = {
-	#					owner = {tag = THIS}
-	#				}
-	#			}
-	#			2755 = {
-	#				any_neighbor_province = {
-	#					owner = {tag = THIS}
-	#				}
-	#			}
-	#			2758 = {
-	#				any_neighbor_province = {
-	#					owner = {tag = THIS}
-	#				}
-	#			}
-	#		}
-	#	}
-	#	effect = {
-	#		set_country_flag = cona
-	#		prestige = 15
-	#		2749 = {
-	#			any_neighbor_province = {
-	#				limit = {is_core = FRA}
-	#				add_core = THIS
-	#			}
-	#		}
-	#		2750 = {
-	#			any_neighbor_province = {
-	#				limit = {is_core = FRA}
-	#				add_core = THIS
-	#			}
-	#		}
-	#		2751 = {
-	#			any_neighbor_province = {
-	#				limit = {is_core = FRA}
-	#				add_core = THIS
-	#			}
-	#		}
-	#	}
-	#}
-
 	CFR_AF1_inherit = {
 		picture = die_groot_trek
 		potential = {
@@ -482,4 +399,105 @@ political_decisions = {
 		}
 	}
 
+	cfr_ships = {
+		picture = die_groot_trek
+		potential = {
+			tag = CFR
+			NOT = {
+				has_country_flag = spawned_ships
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_country_flag = spawned_ships
+			random_owned = {
+				limit = {
+					port = yes
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+				sub_unit = { 
+					type = clipper_transport
+					value = current 
+				}
+			}
+		}
+
+	}
 }

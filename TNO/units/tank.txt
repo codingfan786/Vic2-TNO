@@ -30,7 +30,7 @@ tank = {
 		barrels = 0.15
 		artillery = 0.1
 		canned_food = 0.1 #0.04
-		fuel = 0.2
+		fuel = 0.15
 	}
 	
 
@@ -43,6 +43,6 @@ tank = {
 	discipline = 1.1
 	support = 0.0
 	maneuver = 1
-	siege = 0.1
+	siege = 0.5
 	
 }

@@ -47,7 +47,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-#post_nelsonian_thought = 1
+post_nelsonian_thought = 1
 clipper_design = 1
 #naval_design_bureaus = 1
 #alphabetic_flag_signaling = 1

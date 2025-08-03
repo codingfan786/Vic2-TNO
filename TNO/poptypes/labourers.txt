@@ -8,10 +8,10 @@ equivalent = farmers
 
 everyday_needs = {#halved
 	tea = 2
-	coal = .5
+	coal = 0.5
 	liquor = 1.5
-	regular_clothes = .6
-	furniture = .55
+	regular_clothes = 0.6
+	furniture = 0.55
 	explosives = 0.125
 }
 
@@ -708,7 +708,7 @@ promote_to =
 		}
 
 		modifier = {
-			factor = -10 #was 16
+			factor = -6 #was -16 (was then -10)
 			location = {owner = {has_country_flag = CHI_mobnerf}}
 		}
 		group = {

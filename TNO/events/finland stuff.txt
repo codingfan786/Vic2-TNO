@@ -100,7 +100,12 @@ country_event = {
 		tag = FIN
 		NOT = {owns = 994}
 		NOT = {owns = 988}
-		NOT = {owns = 2588}
+		NOT = {
+			OR = {
+				FIN = { owns = 2588 }
+				ONE = { owns = 2588 }
+			}
+		}
 	}
 	immediate = {
 		any_pop = {

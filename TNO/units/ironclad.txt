@@ -31,7 +31,7 @@ ironclad = {
 		aeroplanes = 10
 	}
 	min_port_level = 1
-	limit_per_port = 2
+	limit_per_port = 1 #was 2
 	supply_consumption_score = 10
 	
 	supply_consumption = 1.0

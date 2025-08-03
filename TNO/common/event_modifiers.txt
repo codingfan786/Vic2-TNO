@@ -156,49 +156,49 @@ nuke_proxy_no = {
 	icon = 18
 }
 
-#change these values
+#change these values. values cannot be smaller than .001 which is a huge pain in the ass. had it as .0005/.001/.0015 before but will have to double it...
 nuke_light_1 = {
-	population_growth = -0.0005
+	population_growth = -0.001
 	icon = 20
 }
 
 nuke_light_2 = {
-	population_growth = -0.0005
+	population_growth = -0.001
 	icon = 20
 }
 
 nuke_light_3 = {
-	population_growth = -0.0005
+	population_growth = -0.001
 	icon = 20
 }
 
 nuke_medium_1 = {
-	population_growth = -0.001
+	population_growth = -0.002
 	icon = 20
 }
 
 nuke_medium_2 = {
-	population_growth = -0.001
+	population_growth = -0.002
 	icon = 20
 }
 
 nuke_medium_3 = {
-	population_growth = -0.001
+	population_growth = -0.002
 	icon = 20
 }
 
 nuke_heavy_1 = {
-	population_growth = -0.0015
+	population_growth = -0.003
 	icon = 20
 }
 
 nuke_heavy_2 = {
-	population_growth = -0.0015
+	population_growth = -0.003
 	icon = 20
 }
 
 nuke_heavy_3 = {
-	population_growth = -0.0015
+	population_growth = -0.003
 	icon = 20
 }
 
@@ -517,7 +517,7 @@ civil_unrest = {
 }
 
 uncontrolled_lynchings = {
-	population_growth = -0.06
+	population_growth = -0.01
 	icon = 20
 }
 
