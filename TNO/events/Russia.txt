@@ -339,6 +339,60 @@ country_event = {
 				}
 			}
 		}
+		any_country = {
+			limit = {
+				tag = WRU
+				is_our_vassal = THIS
+			}
+			THIS = {
+				all_core = {
+					add_core = WRU
+				}
+			}
+			#inherit = THIS
+			THIS = {
+				release_vassal = THIS
+				any_owned = {
+					secede_province = WRU
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				tag = ALK
+				is_our_vassal = THIS
+			}
+			THIS = {
+				all_core = {
+					add_core = ALK
+				}
+			}
+			#inherit = THIS
+			THIS = {
+				release_vassal = THIS
+				any_owned = {
+					secede_province = ALK
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				tag = SOV
+				is_our_vassal = THIS
+			}
+			THIS = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			#inherit = THIS
+			THIS = {
+				release_vassal = THIS
+				any_owned = {
+					secede_province = SOV
+				}
+			}
+		}
 	}
 	option = {
 		name = "ok"

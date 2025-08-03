@@ -1484,10 +1484,21 @@ rus_uni = {
 			}
 		}
 
-		NOT = {num_of_substates = 1}
+		#NOT = {num_of_substates = 1}
+		NOT = {
+			any_substate = {
+				number_of_states = 1
+				any_owned_province = {
+					OR = {
+						culture = russian
+						culture = siberian
+					}
+				}
+			}
+		}
 
 		OR = { #railroads the AI into actually unifying their subregion first and foremost before being autistic map painters
-			NOT = {ai = yes}
+			THIS = {NOT = {ai = yes}}
 			THIS = {war = yes}
 			AND = {
 				THIS = {tag = RAR}
