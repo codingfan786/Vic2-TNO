@@ -37,7 +37,7 @@ country_event = {
 			}
 			THIS = {
 				war = {
-				target = YNN
+					target = YNN
 					attacker_goal = { casus_belli = humiliate }
 					call_ally = no
 				}

@@ -158,7 +158,7 @@ war_exhaustion = {
 	RGO_throughput = -0.01
 	cb_generation_speed_modifier = -0.02
 	mobilisation_size = -0.001 #-10% at 100% through tech and the base mob cap is 10%
-	reinforce_speed = -0.005 #maybe half this?
+	reinforce_speed = -0.005 #maybe half this? was -0.01
 }
 
 

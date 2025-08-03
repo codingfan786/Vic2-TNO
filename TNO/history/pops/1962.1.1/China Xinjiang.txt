@@ -5,73 +5,49 @@
 	aristocrats = {
 		culture = yakut
 		religion = protestant
-		size = 7700
+		size = 3080
 	}
 
 	bureaucrats = {
 		culture = yakut
 		religion = protestant
-		size = 1750
+		size = 700
 	}
 
 	officers = {
 		culture = yakut
 		religion = protestant
-		size = 2275
+		size = 910
 	}
 
 	clergymen = {
 		culture = yakut
 		religion = protestant
-		size = 3675
+		size = 1470
 	}
 
 	artisans = {
 		culture = yakut
 		religion = protestant
-		size = 18200
+		size = 7280
 	}
 
 	soldiers = {
 		culture = yakut
 		religion = protestant
-		size = 3675
+		size = 1470
 	}
 
 	farmers = {
 		culture = yakut
 		religion = protestant
-		size = 327425
+		size = 130970
 	}
 
 	aristocrats = {
 		culture = turkmen
 		religion = protestant
-		size = 1575
-	}
-
-	clergymen = {
-		culture = turkmen
-		religion = protestant
-		size = 875
-	}
-
-	artisans = {
-		culture = turkmen
-		religion = protestant
-		size = 4025
-	}
-
-	soldiers = {
-		culture = turkmen
-		religion = protestant
-		size = 700
-	}
-
-	farmers = {
-		culture = turkmen
-		religion = protestant
-		size = 76825
+		size = 630
 	}
 
 	clergymen = {
@@ -83,553 +59,25 @@
 	artisans = {
 		culture = turkmen
 		religion = protestant
-		size = 3500
-	}
-
-	farmers = {
-		culture = turkmen
-		religion = protestant
-		size = 10150
-	}
-
-	clergymen = {
-		culture = turkmen
-		religion = protestant
-		size = 175
-	}
-
-	artisans = {
-		culture = turkmen
-		religion = protestant
-		size = 6825
-	}
-}
-#Ili (168000/42000 POPS)
-1595 = {
-	aristocrats = {
-		culture = yakut
-		religion = protestant
-		size = 4025
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 2100
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 10500
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 2100
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 61275
-	}
-
-	aristocrats = {
-		culture = turkmen
-		religion = protestant
-		size = 700
-	}
-
-	clergymen = {
-		culture = turkmen
-		religion = protestant
-		size = 350
-	}
-
-	artisans = {
-		culture = turkmen
-		religion = protestant
-		size = 2100
+		size = 1610
 	}
 
 	soldiers = {
 		culture = turkmen
 		religion = protestant
-		size = 525
+		size = 280
 	}
 
 	farmers = {
 		culture = turkmen
 		religion = protestant
-		size = 18325
+		size = 30730
 	}
 
-	aristocrats = {
-		culture = yakut
+	clergymen = {
+		culture = turkmen
 		religion = protestant
 		size = 140
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 140
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 350
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 70
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 6300
-	}
-
-	aristocrats = {
-		culture = mongol
-		religion = protestant
-		size = 700
-	}
-
-	clergymen = {
-		culture = mongol
-		religion = protestant
-		size = 350
-	}
-
-	artisans = {
-		culture = mongol
-		religion = protestant
-		size = 1750
-	}
-
-	soldiers = {
-		culture = mongol
-		religion = protestant
-		size = 350
-	}
-
-	farmers = {
-		culture = mongol
-		religion = protestant
-		size = 11850
-	}
-}
-#Tulta (88000/22000 POPS)
-1596 = {
-	aristocrats = {
-		culture = yakut
-		religion = protestant
-		size = 875
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 525
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 2450
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 525
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 44625
-	}
-
-	aristocrats = {
-		culture = turkmen
-		religion = protestant
-		size = 875
-	}
-
-	clergymen = {
-		culture = turkmen
-		religion = protestant
-		size = 525
-	}
-
-	artisans = {
-		culture = turkmen
-		religion = protestant
-		size = 2450
-	}
-
-	soldiers = {
-		culture = turkmen
-		religion = protestant
-		size = 525
-	}
-
-	farmers = {
-		culture = turkmen
-		religion = protestant
-		size = 44625
-	}
-
-	aristocrats = {
-		culture = yakut
-		religion = protestant
-		size = 140
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 140
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 350
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 70
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 6300
-	}
-
-	aristocrats = {
-		culture = mongol
-		religion = protestant
-		size = 875
-	}
-
-	clergymen = {
-		culture = mongol
-		religion = protestant
-		size = 525
-	}
-
-	artisans = {
-		culture = mongol
-		religion = protestant
-		size = 2450
-	}
-
-	soldiers = {
-		culture = mongol
-		religion = protestant
-		size = 525
-	}
-
-	farmers = {
-		culture = mongol
-		religion = protestant
-		size = 44625
-	}
-}
-#Aksu (192000/48000 POPS)
-1597 = {
-	aristocrats = {
-		culture = yakut
-		religion = protestant
-		size = 6650
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 3500
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 16800
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 3500
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 105550
-	}
-}
-#Khotan (88000/22000 POPS)
-1598 = {
-	aristocrats = {
-		culture = yakut
-		religion = protestant
-		size = 2975
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 1575
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 7700
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 1575
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 140175
-	}
-}
-#Kumul (188000/47000 POPS)
-1599 = {
-	aristocrats = {
-		culture = yakut
-		religion = protestant
-		size = 5950
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 2975
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 15050
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 2975
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 274400
-	}
-
-	aristocrats = {
-		culture = yakut
-		religion = protestant
-		size = 350
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 525
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 1050
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 175
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 18900
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 175
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 350
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 175
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 6300
-	}
-}
-#Urumqi (332000/83000 POPS)
-1600 = {
-	aristocrats = {
-		culture = yakut
-		religion = protestant
-		size = 8400
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 4200
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 23100
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 4725
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 421575
-	}
-
-	aristocrats = {
-		culture = yakut
-		religion = protestant
-		size = 875
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 525
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 2800
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 525
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 51275
-	}
-
-	bureaucrats = {
-		culture = yakut
-		religion = protestant
-		size = 350
-	}
-
-	clergymen = {
-		culture = yakut
-		religion = protestant
-		size = 350
-	}
-
-	artisans = {
-		culture = yakut
-		religion = protestant
-		size = 1050
-	}
-
-	soldiers = {
-		culture = yakut
-		religion = protestant
-		size = 350
-	}
-
-	farmers = {
-		culture = yakut
-		religion = protestant
-		size = 19250
-	}
-
-	aristocrats = {
-		culture = mongol
-		religion = protestant
-		size = 175
-	}
-
-	clergymen = {
-		culture = mongol
-		religion = protestant
-		size = 350
-	}
-
-	artisans = {
-		culture = mongol
-		religion = protestant
-		size = 700
-	}
-
-	soldiers = {
-		culture = mongol
-		religion = protestant
-		size = 175
-	}
-
-	farmers = {
-		culture = mongol
-		religion = protestant
-		size = 12600
-	}
-
-	aristocrats = {
-		culture = turkmen
-		religion = protestant
-		size = 525
-	}
-
-	clergymen = {
-		culture = turkmen
-		religion = protestant
-		size = 525
 	}
 
 	artisans = {
@@ -638,16 +86,568 @@
 		size = 1400
 	}
 
+	farmers = {
+		culture = turkmen
+		religion = protestant
+		size = 4060
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = protestant
+		size = 70
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = protestant
+		size = 2730
+	}
+}
+#Ili (168000/42000 POPS)
+1595 = {
+	aristocrats = {
+		culture = yakut
+		religion = protestant
+		size = 1610
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 840
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 4200
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 840
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 24510
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = protestant
+		size = 280
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = protestant
+		size = 140
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = protestant
+		size = 840
+	}
+
 	soldiers = {
 		culture = turkmen
 		religion = protestant
-		size = 350
+		size = 210
 	}
 
 	farmers = {
 		culture = turkmen
 		religion = protestant
-		size = 25200
+		size = 7330
+	}
+
+	aristocrats = {
+		culture = yakut
+		religion = protestant
+		size = 56
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 56
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 140
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 28
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 2520
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = protestant
+		size = 280
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = protestant
+		size = 140
+	}
+
+	artisans = {
+		culture = mongol
+		religion = protestant
+		size = 700
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = protestant
+		size = 140
+	}
+
+	farmers = {
+		culture = mongol
+		religion = protestant
+		size = 4740
+	}
+}
+#Tulta (88000/22000 POPS)
+1596 = {
+	aristocrats = {
+		culture = yakut
+		religion = protestant
+		size = 350
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 210
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 980
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 210
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 17850
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = protestant
+		size = 350
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = protestant
+		size = 210
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = protestant
+		size = 980
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = protestant
+		size = 210
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = protestant
+		size = 17850
+	}
+
+	aristocrats = {
+		culture = yakut
+		religion = protestant
+		size = 56
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 56
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 140
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 28
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 2520
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = protestant
+		size = 350
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = protestant
+		size = 210
+	}
+
+	artisans = {
+		culture = mongol
+		religion = protestant
+		size = 980
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = protestant
+		size = 210
+	}
+
+	farmers = {
+		culture = mongol
+		religion = protestant
+		size = 17850
+	}
+}
+#Aksu (192000/48000 POPS)
+1597 = {
+	aristocrats = {
+		culture = yakut
+		religion = protestant
+		size = 2660
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 1400
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 6720
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 1400
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 42220
+	}
+}
+#Khotan (88000/22000 POPS)
+1598 = {
+	aristocrats = {
+		culture = yakut
+		religion = protestant
+		size = 1190
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 630
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 3080
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 630
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 56070
+	}
+}
+#Kumul (188000/47000 POPS)
+1599 = {
+	aristocrats = {
+		culture = yakut
+		religion = protestant
+		size = 2380
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 1190
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 6020
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 1190
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 109760
+	}
+
+	aristocrats = {
+		culture = yakut
+		religion = protestant
+		size = 140
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 210
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 420
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 70
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 7560
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 70
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 140
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 70
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 2520
+	}
+}
+#Urumqi (332000/83000 POPS)
+1600 = {
+	aristocrats = {
+		culture = yakut
+		religion = protestant
+		size = 3360
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 1680
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 9240
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 1890
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 168630
+	}
+
+	aristocrats = {
+		culture = yakut
+		religion = protestant
+		size = 350
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 210
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 1120
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 210
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 20510
+	}
+
+	bureaucrats = {
+		culture = yakut
+		religion = protestant
+		size = 140
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = protestant
+		size = 140
+	}
+
+	artisans = {
+		culture = yakut
+		religion = protestant
+		size = 420
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = protestant
+		size = 140
+	}
+
+	farmers = {
+		culture = yakut
+		religion = protestant
+		size = 7700
+	}
+
+	aristocrats = {
+		culture = mongol
+		religion = protestant
+		size = 70
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = protestant
+		size = 140
+	}
+
+	artisans = {
+		culture = mongol
+		religion = protestant
+		size = 280
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = protestant
+		size = 70
+	}
+
+	farmers = {
+		culture = mongol
+		religion = protestant
+		size = 5040
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = protestant
+		size = 210
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = protestant
+		size = 210
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = protestant
+		size = 560
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = protestant
+		size = 140
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = protestant
+		size = 10080
 	}
 }
 #Lopnur (32000/8000 POPS)
@@ -655,61 +655,61 @@
 	aristocrats = {
 		culture = yakut
 		religion = protestant
-		size = 525
+		size = 210
 	}
 
 	clergymen = {
 		culture = yakut
 		religion = protestant
-		size = 350
+		size = 140
 	}
 
 	artisans = {
 		culture = yakut
 		religion = protestant
-		size = 1750
+		size = 700
 	}
 
 	soldiers = {
 		culture = yakut
 		religion = protestant
-		size = 350
+		size = 140
 	}
 
 	farmers = {
 		culture = yakut
 		religion = protestant
-		size = 32025
+		size = 12810
 	}
 
 	aristocrats = {
 		culture = mongol
 		religion = protestant
-		size = 350
+		size = 140
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = protestant
-		size = 525
+		size = 210
 	}
 
 	artisans = {
 		culture = mongol
 		religion = protestant
-		size = 1050
+		size = 420
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = protestant
-		size = 175
+		size = 70
 	}
 
 	farmers = {
 		culture = mongol
 		religion = protestant
-		size = 18900
+		size = 7560
 	}
 
 }
