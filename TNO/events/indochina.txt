@@ -55,6 +55,7 @@ country_event = {
 	}
 	option = {
 		name = "It would be better if our pan-Asian policies were implemented gradually..."
+		set_country_flag = bangkok_declined
 		ai_chance = {
 			factor = 9
 		}

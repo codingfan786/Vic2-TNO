@@ -2,3 +2,4 @@ trade_goods = fish
 life_rating = 10
 owner = IBE
 controller = IBE
+colonial = 1

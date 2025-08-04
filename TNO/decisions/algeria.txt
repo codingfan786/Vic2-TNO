@@ -16,7 +16,10 @@ political_decisions = {
 			}
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			OR = {
+				nationalism_n_imperialism = 1
+				accepted_culture = maghrebi
+			}
 
 			OR = {
 				AND = {

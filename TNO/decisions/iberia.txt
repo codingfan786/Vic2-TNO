@@ -8,7 +8,10 @@ political_decisions = {
 		allow = {
 			POR = {
 				all_core = {
-					has_building = railroad
+					OR = {
+						has_building = railroad
+						terrain = hills
+					}
 				}
 			}
 			state_n_government = 1
@@ -55,7 +58,15 @@ political_decisions = {
 			NOT = {accepted_culture = portuguese}
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			#nationalism_n_imperialism = 1
+			POR = {
+				all_core = {
+					state_scope = {
+						bureaucrats = 0.005
+					}
+				}
+			}
+			
 		}
 		effect = {
 			add_accepted_culture = portuguese
@@ -71,7 +82,14 @@ political_decisions = {
 			NOT = {accepted_culture = catalan}
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			#nationalism_n_imperialism = 1
+			CAT = {
+				all_core = {
+					state_scope = {
+						bureaucrats = 0.005
+					}
+				}
+			}
 		}
 		effect = {
 			add_accepted_culture = catalan
@@ -79,6 +97,43 @@ political_decisions = {
 		}
 	}
 
+	north_africa_expansion = {
+		picture = establish_la_guardia_civil
+		potential = {
+			tag = IBE
+			NOT = {accepted_culture = maghrebi}
+		}
+		allow = {
+			#nationalism_n_imperialism = 1
+			state_n_government = 1
+			#OR = {
+			#	any_owned_province = {
+			#		culture = maghrebi
+			#		is_colonial = no
+			#		NOT = {is_coastal = yes}
+			#	}
+			#	nationalism_n_imperialism = 1
+			#}
+			OR = {
+				MOR = {
+					all_core = {
+						owned_by = THIS
+						is_colonial = no
+					}
+				}
+				nationalism_n_imperialism = 1
+			}
+				
 
+			#ALD = {
+			#	all_core = {
+			#		owned_by = THIS
+			#	}
+			#}
+		}
+		effect = {
+			add_accepted_culture = maghrebi
+		}
+	}
 
 }
