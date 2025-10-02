@@ -1,0 +1,80 @@
+political_decisions = {
+	pan_latinx_empire_start = {
+		potential = {
+			tag = MEX
+			NOT = {has_country_flag = latinx_started }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			set_country_flag = latinx_started
+			any_country = {
+				limit = {
+					primary_culture = central_american
+				}
+				all_core = {
+					add_core = THIS
+				}
+			}
+			CUB = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			HAI = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			DOM = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+		}
+	}
+
+	pan_latinx_empire_middle = {
+		potential = {
+			tag = MEX
+			has_country_flag = latinx_started
+			NOT = {has_country_flag = latinx_middle }
+		}
+		allow = {
+			all_core = {
+				owner = {
+					tag = THIS
+				}
+			}
+		}
+		effect = {
+			set_country_flag = latinx_middle
+			add_accepted_culture = central_american
+			add_accepted_culture = caribeno
+			add_accepted_culture = afro_caribbean
+			add_accepted_culture = afro_caribeno
+			add_accepted_culture = afro_antillean
+		}
+	}
+
+	empress_mexico = {
+
+		potential = {
+			tag = MEX
+			NOT = {has_country_flag = mexico_huge}
+		}
+		allow = {
+			medicine = 1
+			state_n_government = 1
+		}
+		effect = {
+			set_country_flag = mexico_huge
+			all_core = {
+				life_rating = 3
+			}
+		}
+
+	}
+
+}

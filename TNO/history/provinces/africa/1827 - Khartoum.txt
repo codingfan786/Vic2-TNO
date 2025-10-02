@@ -4,5 +4,5 @@ add_core = SUD
 colonial = 2
 
 
-trade_goods = rubber
+trade_goods = grain #rubber
 life_rating = 30

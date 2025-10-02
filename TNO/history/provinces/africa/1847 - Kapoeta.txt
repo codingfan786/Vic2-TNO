@@ -2,5 +2,6 @@ trade_goods = wool
 life_rating = 15
 owner = IET
 controller = IET
-add_core = SUD
+#add_core = SUD
+add_core = ETH
 colonial = 2

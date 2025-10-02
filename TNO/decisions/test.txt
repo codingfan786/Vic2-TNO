@@ -9,14 +9,60 @@ political_decisions = {
 			#constructing_cb = RAR
 		}
 		effect = {
-			capital_scope = {
-				secede_province = GER
-				sub_unit = {type = infantry value = current}
+			#300 = {
+			#	secede_province = THIS
+			#}
+			3259 = {
 				secede_province = THIS
 			}
+			3259 = {
+				secede_province = SMA
+			}
+
+
+			overlord = {
+				set_country_flag = func_target
+			}
+
+			# Use an offmap utility province below, or Jan Mayen. Whatever province you don't mind being permanently empty. Going to use province ID 2776 as an example
+			#2776 = { secede_province = UTI province_event = { id = [func_alliancewith] } } #UTI = utility tag that does not exist on-map
+			
+			3259 = {
+				province_event = { id = 1111337 }
+			}
+			# Our function has now returned the recursive second-level scopes with country flag "func_output"
+			any_country = {
+			  limit = {
+			    has_country_flag = func_outputs
+			    NOT = { alliance_with = THIS }
+			  }
+			  create_alliance = THIS
+			}
+			# Cleanup
+
 		}
 	}
 
+
+	test2= {
+		potential = {
+			ai = no
+			always = no
+		}
+		allow = {
+			NOT = {JAN = {brigades_compare = 1}}
+		}
+		effect = {
+			JAN = {
+				capital_scope = {
+					sub_unit = { 
+						type = infantry
+						value = current 
+					}
+				}
+			}
+		}
+	}
 }
 
 

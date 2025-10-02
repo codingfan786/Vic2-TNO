@@ -3,6 +3,6 @@ controller = IET
 add_core = ETH
 
 
-trade_goods = rubber
+trade_goods = cattle #rubber
 life_rating = 30
 #colonial = 2

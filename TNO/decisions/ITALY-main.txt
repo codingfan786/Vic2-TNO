@@ -7,8 +7,8 @@ political_decisions = {
 			tag = ITA
 
 			OR = {
-				NOT = {has_country_flag = italy_finished_verona}
 				government = proletarian_dictatorship
+				NOT = {has_country_flag = italy_finished_verona}
 			}
 			NOT = {
 				has_country_flag = gre_inherited
@@ -36,8 +36,8 @@ political_decisions = {
 		potential = {
 			tag = ITA
 			OR = {
-				NOT = {has_country_flag = italy_finished_verona}
 				government = fascist_dictatorship
+				NOT = {has_country_flag = italy_finished_verona}
 			}
 			NOT = {
 				has_country_flag = controlled_balkans
@@ -88,9 +88,9 @@ political_decisions = {
 		potential = {
 			tag = ITA
 			OR = {
-				NOT = {has_country_flag = italy_finished_verona}
 				government = democracy
 				government = prussian_constitutionalism
+				NOT = {has_country_flag = italy_finished_verona}
 			}
 			NOT = {
 				has_country_flag = inherited_croatia

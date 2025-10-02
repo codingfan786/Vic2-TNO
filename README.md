@@ -67,9 +67,9 @@ Nuclear launches have limited range and can be halted altogether if you are fast
 
 These modifiers will each stack up to 3 times each on a province. The ingame localisation truncates the pop growth penalty number.
 
-- Heavy Nuke modifier gives -0.15% pop growth
-- Medium Nuke modifier gives -0.10% pop growth
-- Light Nuke modifier gives -0.05% pop growth
+- Heavy Nuke modifier gives -0.3% pop growth
+- Medium Nuke modifier gives -0.2% pop growth
+- Light Nuke modifier gives -0.1% pop growth
 
 If a country has half its provinces sieged down by the end of the 6 month launch countdown, they will not contribute to the nuclear launch.
 
