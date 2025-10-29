@@ -1,39 +1,38 @@
 # Vic2-TNO
 Victoria 2 port/adaptation of The New Order: Last days of europe mod for hoi4
 
-## MP Roster
-For MP the following rosterable nation list is suggested:
+## MP Minimum Roster
+For MP the following nation list is the minimum roster you need to play:
 
 - Germany (as many as you want to roster)
-- USA
-- Japan
-- Italy
+- RK Moscow
 
-- Iberia
-- Turkey
-- Romania
-- England
+- USA
+- N.P.A. (That brown country in Yunnan)
+- Russia #1 (Red army Remnants or Committee for the Liberation of Russia)
 - Free France (In West Africa. Yes it is viable.)
 
+- Japan
+
+- Italy
+- Iberia
+- Turkey
+
+After this you may additionally roster:
+
+- South Africa AND Sudwest Afrika
+- India AND Thailand
+- Romania
+- England
 - Finland
-- RK Moscow
-- Russia #1 (Red army Remnants or Committee for the Liberation of Russia)
 - Russia #2 (Magadan)
-
-- N.P.A. (That brown country in Yunnan)
-- India
-- Thailand
-
-- South Africa
-- Sudwest Afrika
 - Nigeria
 
-Not as important:
+After this it is also possible to play:
 - Kazakhstan
 - Afghanistan
 - Anyone in the Middle East/Arabia can form the United Arab Republic. Italian Egypt and Levant can rebel form it.
-
-If you need to cut countries from the main list I would recommend cutting Nigeria, Free France, Russia #2, and possibly N.P.A. (In that order)
+- Brazil I guess
 
 ## Proxy War CB
 Proxy War CB's are a unique instant CB you can use to intervene in your sphereling's war without risk of losing any land yourself.
@@ -71,7 +70,8 @@ These modifiers will each stack up to 3 times each on a province. The ingame loc
 - Medium Nuke modifier gives -0.2% pop growth
 - Light Nuke modifier gives -0.1% pop growth
 
-If a country has half its provinces sieged down by the end of the 6 month launch countdown, they will not contribute to the nuclear launch.
+If a country has half its provinces sieged down in a continent by the end of the 6 month launch timer post ultimatum, then they will not count as having nuclear range from that continent.
+(I may have changed the launch timer length since writing this)
 
 ### Nuclear Ultimatum in MP
 ~~The white peace event can arbitrarily end entire wars instead of just peacing out individual participants. I'm not sure how to fix this so the following rule in MP is strongly suggested.~~
@@ -79,3 +79,44 @@ If a country has half its provinces sieged down by the end of the 6 month launch
 - ~~Everyone who has received a nuclear ultimatum event must choose the "stay in war" option. Anyone who wanted to peace out is then given the opportunity to white peace the war using normal peace deals. All spherlings of this person must also be white peaced. (The intented behavior of the nuke mechanic.)~~
 
 I believe the bug this refers to has been fixed and so this rule is no longer necessary.
+
+
+
+
+
+
+
+
+## MP Roster (Old, you should ignore this)
+For MP the following rosterable nation list is suggested:
+
+- Germany (as many as you want to roster)
+- USA
+- Japan
+- Italy
+
+- Iberia
+- Turkey
+- Romania
+- England
+- Free France (In West Africa. Yes it is viable.)
+
+- Finland
+- RK Moscow
+- Russia #1 (Red army Remnants or Committee for the Liberation of Russia)
+- Russia #2 (Magadan)
+
+- N.P.A. (That brown country in Yunnan)
+- India
+- Thailand
+
+- South Africa
+- Sudwest Afrika
+- Nigeria
+
+Not as important:
+- Kazakhstan
+- Afghanistan
+- Anyone in the Middle East/Arabia can form the United Arab Republic. Italian Egypt and Levant can rebel form it.
+
+If you need to cut countries from the main list I would recommend cutting Nigeria, Free France, Russia #2, and possibly N.P.A. (In that order)
