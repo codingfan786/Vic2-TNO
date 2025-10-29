@@ -4,7 +4,7 @@ Victoria 2 port/adaptation of The New Order: Last days of europe mod for hoi4
 ## MP Minimum Roster
 For MP the following nation list is the minimum roster you need to play:
 
-- Germany (as many as you want to roster)
+- Germany
 - RK Moscow
 
 - USA
@@ -29,6 +29,7 @@ After this you may additionally roster:
 - Nigeria
 
 After this it is also possible to play:
+- 4 WAY GERMAN CIVIL WAR! (NOT FUN)
 - Kazakhstan
 - Afghanistan
 - Anyone in the Middle East/Arabia can form the United Arab Republic. Italian Egypt and Levant can rebel form it.
