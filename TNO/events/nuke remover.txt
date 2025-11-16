@@ -2,51 +2,74 @@
 
 country_event = {
 	id = 500073
-	title = "removing nuke clouds"
-	desc = "just what it says on the tin"
+	title = "Nuclear Fallout"
+	desc = "The nuclear fallout in our country has dispersed somewhat."
+	allow_multiple_instances = yes
 
-	trigger = {#I dont think this or block works..
-		tag = JAN
-		NOT = {has_country_modifier = nuke_remove_timer}
+	trigger = {
+		any_owned_province = {
+			OR = {
+				has_crime = nuke_1
+				has_crime = nuke_2
+				has_crime = nuke_3
+				has_crime = nuke_4
+				has_crime = nuke_5
+				has_crime = nuke_6
+			}
+		}
+		
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		months = 12
+
+		#modifier = {
+		#	factor = 0.1
+		#	NOT = {total_pops = 100000}
+		#}
+	}
+
+	immediate = {
+		any_owned = {
+			limit = {
+				has_crime = nuke_1
+			}
+			clr_province_flag = disease
+			add_crime = no_nuke
+		}
+		any_owned = {
+			limit = {
+				has_crime = nuke_2
+			}
+			add_crime = nuke_1
+		}
+		any_owned = {
+			limit = {
+				has_crime = nuke_3
+			}
+			add_crime = nuke_2
+		}
+		any_owned = {
+			limit = {
+				has_crime = nuke_4
+			}
+			add_crime = nuke_3
+		}
+		any_owned = {
+			limit = {
+				has_crime = nuke_5
+			}
+			add_crime = nuke_4
+		}
+		any_owned = {
+			limit = {
+				has_crime = nuke_6
+			}
+			add_crime = nuke_5
+		}
 	}
 
 	option = {
-		name = "bye!"
-		add_country_modifier = { name = nuke_remove_timer duration = 30 }
-		any_country = {
-			limit = {
-				any_owned_province = {
-					has_province_flag = disease 
-					NOT = {has_province_modifier = nuke_light_1}
-					NOT = {has_province_modifier = nuke_light_2}
-					NOT = {has_province_modifier = nuke_light_3}
-					NOT = {has_province_modifier = nuke_medium_1}
-					NOT = {has_province_modifier = nuke_medium_2}
-					NOT = {has_province_modifier = nuke_medium_3}
-					NOT = {has_province_modifier = nuke_heavy_1}
-					NOT = {has_province_modifier = nuke_heavy_2}
-					NOT = {has_province_modifier = nuke_heavy_3}
-				}
-			}
-			any_owned = {
-				limit = {
-					has_province_flag = disease 
-					NOT = {has_province_modifier = nuke_light_1}
-					NOT = {has_province_modifier = nuke_light_2}
-					NOT = {has_province_modifier = nuke_light_3}
-					NOT = {has_province_modifier = nuke_medium_1}
-					NOT = {has_province_modifier = nuke_medium_2}
-					NOT = {has_province_modifier = nuke_medium_3}
-					NOT = {has_province_modifier = nuke_heavy_1}
-					NOT = {has_province_modifier = nuke_heavy_2}
-					NOT = {has_province_modifier = nuke_heavy_3}
-				}
-				clr_province_flag = disease
-			}
-		}
+		name = "The land will be scarred for generations."
 	}
 }

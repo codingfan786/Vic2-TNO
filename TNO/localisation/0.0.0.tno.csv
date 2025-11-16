@@ -1262,3 +1262,17 @@ cfr_ships_desc;In order to reclaim our homeland we will need to commandeer some 
 bangkok_declined;Did not annex puppets during the Bangkok Conference (1966 event).;x
 north_africa_expansion_title;Integrate Morocco;x
 north_africa_expansion_desc;The Tangier International Zone provided a model example of governance in Morroco until its occupation during World War 2. It introduced foreign influence into the region in a manner welcomed by the local populace. If we reestablish such systems of governance on a wider scale in Morroco they may welcome direct membership in the Iberian Union.;x
+no_nuke;No Nuclear Devasation;x
+desc_no_nuke;Nuclear devastation will go down a level roughly once a year.;x
+nuke_1;Nuclear Devasation 1;x
+desc_nuke_1;Nuclear devastation will go down a level roughly once a year.;x
+nuke_2;Nuclear Devasation 2;x
+desc_nuke_2;Nuclear devastation will go down a level roughly once a year.;x
+nuke_3;Nuclear Devasation 3;x
+desc_nuke_3;Nuclear devastation will go down a level roughly once a year.;x
+nuke_4;Nuclear Devasation 4;x
+desc_nuke_4;Nuclear devastation will go down a level roughly once a year.;x
+nuke_5;Nuclear Devasation 5;x
+desc_nuke_5;Nuclear devastation will go down a level roughly once a year.;x
+nuke_6;Nuclear Devasation 6;x
+desc_nuke_6;Nuclear devastation will go down a level roughly once a year.;x

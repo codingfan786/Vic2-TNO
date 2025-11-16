@@ -190,6 +190,15 @@ political_decisions = {
 
 		}
 		effect = {
+			any_owned = {
+				add_crime = no_nuke
+			}
+			any_country = {
+				any_owned = {
+					add_crime = no_nuke
+				}
+			}
+
 			YEM = {any_pop = {reduce_pop = 2}}
 
 			NKV = {set_country_flag = siberia_tech}
