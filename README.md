@@ -70,12 +70,6 @@ Proxy sites and regular nuke possession damage will stack together. That means i
 ### Nuclear Ultimatum in MP
 Since the white peace from the ultimatum does not give a truce, in MP you should include a rule that all participants white peaced in an ultimatum must wait the normal truce time to declare war again.
 
-~~The white peace event can arbitrarily end entire wars instead of just peacing out individual participants. I'm not sure how to fix this so the following rule in MP is strongly suggested.~~
-
-- ~~Everyone who has received a nuclear ultimatum event must choose the "stay in war" option. Anyone who wanted to peace out is then given the opportunity to white peace the war using normal peace deals. All spherlings of this person must also be white peaced. (The intented behavior of the nuke mechanic.)~~
-
-I believe the bug this refers to has been fixed and so this rule is no longer necessary.
-
 
 
 
