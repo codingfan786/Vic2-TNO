@@ -1,5 +1,6 @@
 #have decision give a popup major event to the taker and the ultimatum to the others
 
+#ultimatum refused (event not necessary anymore?...)
 country_event = {
 	#ultimatum refusal
 	id = 500246
@@ -12,11 +13,11 @@ country_event = {
 	immediate = {
 		add_country_modifier = {
 			name = nuclear_countdown
-			duration = 180
+			duration = 365 #180
 		}
 		add_country_modifier = {
 			name = nuclear_threat
-			duration = 270
+			duration = 3650 #2920
 		}
 		set_country_flag = trying_to_nuke
 	}
@@ -26,6 +27,7 @@ country_event = {
 	}
 }
 
+#nuclear launch (event for ultimatum issuer)
 country_event = {
 	#launch event
 	id = 500244
@@ -60,381 +62,1349 @@ country_event = {
 			}
 			set_global_flag = hit_global_nukes
 		}
-		any_owned = {
+
+		#THIS primary europe
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = europe
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = europe
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_europe
 					}
 				}
 			}
-			set_global_flag = primary_europe
 		}
-		any_owned = {
+		#THIS primary asia
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = asia
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = asia
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_asia
 					}
 				}
 			}
-			set_global_flag = primary_asia
 		}
-		any_owned = {
+		#THIS primary middle_east
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = middle_east
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = middle_east
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_middle_east
 					}
 				}
 			}
-			set_global_flag = primary_middle_east
 		}
-		any_owned = {
+		#THIS primary central_asia
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = central_asia
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = central_asia
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_central_asia
 					}
 				}
 			}
-			set_global_flag = primary_central_asia
 		}
-		any_owned = {
+		#THIS primary africa
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = africa
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = africa
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_africa
 					}
 				}
 			}
-			set_global_flag = primary_africa
 		}
-		any_owned = {
+		#THIS primary north_america
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = north_america
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = north_america
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_north_america
 					}
 				}
 			}
-			set_global_flag = primary_north_america
 		}
-		any_owned = {
+		#THIS primary south_america
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = south_america
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = south_america
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_south_america
 					}
 				}
 			}
-			set_global_flag = primary_south_america
 		}
-		any_owned = {
+		#THIS primary oceania
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = oceania
-						is_colonial = no
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = oceania
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_oceania
 					}
 				}
 			}
-			set_global_flag = primary_oceania
 		}
-		any_owned = {
+		#THIS primary russia_anarchy
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = russia_anarchy
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = russia_anarchy
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_russia_anarchy
 					}
 				}
 			}
-			set_global_flag = primary_russia_anarchy
 		}
 
-		#primary_nuke finder
+		#sphere primary europe
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = europe
+					controlled_by = owner
 				}
-				has_country_flag = primary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = primary_europe
+			any_owned = {
+				limit = {
+					continent = europe
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_europe
+				}
+			}
 		}
+		#sphere primary asia
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = asia
+					controlled_by = owner
 				}
-				has_country_flag = primary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = primary_asia
+			any_owned = {
+				limit = {
+					continent = asia
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_asia
+				}
+			}
 		}
+		#sphere primary middle_east
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = middle_east
+					controlled_by = owner
 				}
-				has_country_flag = primary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = primary_middle_east
+			any_owned = {
+				limit = {
+					continent = middle_east
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_middle_east
+				}
+			}
 		}
+		#sphere primary central_asia
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = central_asia
+					controlled_by = owner
 				}
-				has_country_flag = primary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = primary_central_asia
+			any_owned = {
+				limit = {
+					continent = central_asia
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_central_asia
+				}
+			}
 		}
+		#sphere primary africa
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = africa
+					controlled_by = owner
 				}
-				has_country_flag = primary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = primary_africa
+			any_owned = {
+				limit = {
+					continent = africa
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_africa
+				}
+			}
 		}
+		#sphere primary north_america
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = north_america
+					controlled_by = owner
 				}
-				has_country_flag = primary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = primary_north_america
+			any_owned = {
+				limit = {
+					continent = north_america
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_north_america
+				}
+			}
 		}
+		#sphere primary south_america
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = south_america
+					controlled_by = owner
 				}
-				has_country_flag = primary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = primary_south_america
+			any_owned = {
+				limit = {
+					continent = south_america
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_south_america
+				}
+			}
 		}
+		#sphere primary oceania
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = oceania
-					is_colonial = no
+					controlled_by = owner
 				}
-				has_country_flag = primary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = primary_oceania
+			any_owned = {
+				limit = {
+					continent = oceania
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_oceania
+				}
+			}
 		}
+		#sphere primary russia_anarchy
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = russia_anarchy
-				}
+				in_sphere = THIS
 				has_country_flag = primary_nukes
 			}
-			set_global_flag = primary_russia_anarchy
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = russia_anarchy
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = russia_anarchy
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_russia_anarchy
+				}
+			}
 		}
 
-		#secondary_nukes finder
+		#sphere secondary europe
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = europe
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_europe
+			any_owned = {
+				limit = {
+					continent = europe
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_europe
+				}
+			}
 		}
+		#sphere secondary asia
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = asia
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_asia
+			any_owned = {
+				limit = {
+					continent = asia
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_asia
+				}
+			}
 		}
+		#sphere secondary middle_east
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = middle_east
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_middle_east
+			any_owned = {
+				limit = {
+					continent = middle_east
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_middle_east
+				}
+			}
 		}
+		#sphere secondary central_asia
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = central_asia
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_central_asia
+			any_owned = {
+				limit = {
+					continent = central_asia
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_central_asia
+				}
+			}
 		}
+		#sphere secondary africa
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = africa
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_africa
+			any_owned = {
+				limit = {
+					continent = africa
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_africa
+				}
+			}
 		}
+		#sphere secondary north_america
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = north_america
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_north_america
+			any_owned = {
+				limit = {
+					continent = north_america
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_north_america
+				}
+			}
 		}
+		#sphere secondary south_america
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = south_america
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_south_america
+			any_owned = {
+				limit = {
+					continent = south_america
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_south_america
+				}
+			}
 		}
+		#sphere secondary oceania
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = oceania
-					is_colonial = no
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_oceania
+			any_owned = {
+				limit = {
+					continent = oceania
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_oceania
+				}
+			}
 		}
+		#sphere secondary russia_anarchy
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = russia_anarchy
-				}
+				in_sphere = THIS
 				has_country_flag = secondary_nukes
 			}
-			set_global_flag = secondary_russia_anarchy
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = russia_anarchy
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = russia_anarchy
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_russia_anarchy
+				}
+			}
 		}
 
 		#enemy sphere finder
@@ -1495,6 +2465,7 @@ country_event = {
 	}
 }
 
+#nuclear launch (response event)
 country_event = {
 	#response event
 	id = 500245
@@ -1518,383 +2489,1351 @@ country_event = {
 			}
 			set_global_flag = hit_global_nukes
 		}
-		any_owned = {
+
+		#THIS primary europe
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = europe
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = europe
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_europe
 					}
 				}
 			}
-			set_global_flag = primary_europe
 		}
-		any_owned = {
+		#THIS primary asia
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = asia
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = asia
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_asia
 					}
 				}
 			}
-			set_global_flag = primary_asia
 		}
-		any_owned = {
+		#THIS primary middle_east
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = middle_east
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = middle_east
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_middle_east
 					}
 				}
 			}
-			set_global_flag = primary_middle_east
 		}
-		any_owned = {
+		#THIS primary central_asia
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = central_asia
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = central_asia
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_central_asia
 					}
 				}
 			}
-			set_global_flag = primary_central_asia
 		}
-		any_owned = {
+		#THIS primary africa
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = africa
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = africa
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_africa
 					}
 				}
 			}
-			set_global_flag = primary_africa
 		}
-		any_owned = {
+		#THIS primary north_america
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = north_america
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = north_america
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_north_america
 					}
 				}
 			}
-			set_global_flag = primary_north_america
 		}
-		any_owned = {
+		#THIS primary south_america
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = south_america
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = south_america
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_south_america
 					}
 				}
 			}
-			set_global_flag = primary_south_america
 		}
-		any_owned = {
+		#THIS primary oceania
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = oceania
-						is_colonial = no
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = oceania
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_oceania
 					}
 				}
 			}
-			set_global_flag = primary_oceania
 		}
-		any_owned = {
+		#THIS primary russia_anarchy
+		random_owned = {
 			limit = {
-				is_capital = yes
 				owner = {
 					has_country_flag = primary_nukes
-					NOT = {national_provinces_occupied = 0.5}
-					any_owned_province = {
+				}
+			}
+			owner = {
+				set_variable = {
+					which = nuke_occupation
+					value = 1
+				}
+				any_owned = {
+					limit = {
 						continent = russia_anarchy
+						controlled_by = owner
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = 1
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						continent = russia_anarchy
+						NOT = {controlled_by = owner}
+					}
+					owner = {
+						change_variable = {
+							which = nuke_occupation
+							value = -1
+						}
+					}
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = nuke_occupation
+								value = 2
+							}
+						}
+					}
+					owner = {
+						set_global_flag = primary_russia_anarchy
 					}
 				}
 			}
-			set_global_flag = primary_russia_anarchy
 		}
 
-		#primary_nuke finder
+		#sphere primary europe
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = europe
+					controlled_by = owner
 				}
-				has_country_flag = primary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = primary_europe
-		}
-		any_country = {
-			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = asia
-				}
-				has_country_flag = primary_nukes
-			}
-			set_global_flag = primary_asia
-		}
-		any_country = {
-			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = middle_east
-				}
-				has_country_flag = primary_nukes
-			}
-			set_global_flag = primary_middle_east
-		}
-		any_country = {
-			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = central_asia
-				}
-				has_country_flag = primary_nukes
-			}
-			set_global_flag = primary_central_asia
-		}
-		any_country = {
-			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = africa
-				}
-				has_country_flag = primary_nukes
-			}
-			set_global_flag = primary_africa
-		}
-		any_country = {
-			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = north_america
-				}
-				has_country_flag = primary_nukes
-			}
-			set_global_flag = primary_north_america
-		}
-		any_country = {
-			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = south_america
-				}
-				has_country_flag = primary_nukes
-			}
-			set_global_flag = primary_south_america
-		}
-		any_country = {
-			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = oceania
-					is_colonial = no
-				}
-				has_country_flag = primary_nukes
-			}
-			set_global_flag = primary_oceania
-		}
-		any_country = {
-			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = russia_anarchy
-				}
-				has_country_flag = primary_nukes
-			}
-			set_global_flag = primary_russia_anarchy
-		}
-
-		#secondary_nukes finder
-		any_country = {
-			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+			any_owned = {
+				limit = {
 					continent = europe
+					NOT = {controlled_by = owner}
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
 			}
-			set_global_flag = secondary_europe
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_europe
+				}
+			}
 		}
+		#sphere primary asia
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = asia
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_asia
+			any_owned = {
+				limit = {
+					continent = asia
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_asia
+				}
+			}
 		}
+		#sphere primary middle_east
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = middle_east
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_middle_east
+			any_owned = {
+				limit = {
+					continent = middle_east
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_middle_east
+				}
+			}
 		}
+		#sphere primary central_asia
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = central_asia
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_central_asia
+			any_owned = {
+				limit = {
+					continent = central_asia
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_central_asia
+				}
+			}
 		}
+		#sphere primary africa
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = africa
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_africa
+			any_owned = {
+				limit = {
+					continent = africa
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_africa
+				}
+			}
 		}
+		#sphere primary north_america
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = north_america
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_north_america
+			any_owned = {
+				limit = {
+					continent = north_america
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_north_america
+				}
+			}
 		}
+		#sphere primary south_america
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = south_america
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_south_america
+			any_owned = {
+				limit = {
+					continent = south_america
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_south_america
+				}
+			}
 		}
+		#sphere primary oceania
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
+				in_sphere = THIS
+				has_country_flag = primary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
 					continent = oceania
-					is_colonial = no
+					controlled_by = owner
 				}
-				has_country_flag = secondary_nukes
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
 			}
-			set_global_flag = secondary_oceania
+			any_owned = {
+				limit = {
+					continent = oceania
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_oceania
+				}
+			}
 		}
+		#sphere primary russia_anarchy
 		any_country = {
 			limit = {
-				NOT = {national_provinces_occupied = 0.5}
-				OR = {
-					in_sphere = THIS
-					tag = THIS
-				}
-				any_owned_province = {
-					continent = russia_anarchy
-				}
-				has_country_flag = secondary_nukes
+				in_sphere = THIS
+				has_country_flag = primary_nukes
 			}
-			set_global_flag = secondary_russia_anarchy
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = russia_anarchy
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = russia_anarchy
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = primary_russia_anarchy
+				}
+			}
 		}
 
+		#sphere secondary europe
+		any_country = {
+			limit = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = europe
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = europe
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_europe
+				}
+			}
+		}
+		#sphere secondary asia
+		any_country = {
+			limit = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = asia
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = asia
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_asia
+				}
+			}
+		}
+		#sphere secondary middle_east
+		any_country = {
+			limit = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = middle_east
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = middle_east
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_middle_east
+				}
+			}
+		}
+		#sphere secondary central_asia
+		any_country = {
+			limit = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = central_asia
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = central_asia
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_central_asia
+				}
+			}
+		}
+		#sphere secondary africa
+		any_country = {
+			limit = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = africa
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = africa
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_africa
+				}
+			}
+		}
+		#sphere secondary north_america
+		any_country = {
+			limit = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = north_america
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = north_america
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_north_america
+				}
+			}
+		}
+		#sphere secondary south_america
+		any_country = {
+			limit = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = south_america
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = south_america
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_south_america
+				}
+			}
+		}
+		#sphere secondary oceania
+		any_country = {
+			limit = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = oceania
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = oceania
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_oceania
+				}
+			}
+		}
+		#sphere secondary russia_anarchy
+		any_country = {
+			limit = {
+				in_sphere = THIS
+				has_country_flag = secondary_nukes
+			}
+
+			set_variable = {
+				which = nuke_occupation
+				value = 1
+			}
+			any_owned = {
+				limit = {
+					continent = russia_anarchy
+					controlled_by = owner
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = 1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					continent = russia_anarchy
+					NOT = {controlled_by = owner}
+				}
+				owner = {
+					change_variable = {
+						which = nuke_occupation
+						value = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						check_variable = {
+							which = nuke_occupation
+							value = 2
+						}
+					}
+				}
+				owner = {
+					set_global_flag = secondary_russia_anarchy
+				}
+			}
+		}
+		
 		#enemy sphere finder
 		FROM = {
 			set_country_flag = enemy_leader
@@ -2910,6 +4849,7 @@ country_event = {
 	}
 }
 
+#ultimatum canceled
 country_event = {
 	#ultimatum canceled
 	id = 500247
@@ -2923,14 +4863,14 @@ country_event = {
 		war = no 
 		OR = {
 			has_country_flag = trying_to_nuke
-			has_country_modifier = nuclear_threat
+			#has_country_modifier = nuclear_threat
 			has_country_modifier = nuclear_countdown
 		}
 	}
 	immediate = {
 		clr_country_flag = trying_to_nuke
 		clr_country_flag = german_nuke
-		remove_country_modifier = nuclear_threat
+		#remove_country_modifier = nuclear_threat
 		remove_country_modifier = nuclear_countdown
 	}
 	option = {
@@ -2938,6 +4878,7 @@ country_event = {
 	}
 }
 
+#ultimatum (event for recipient)
 country_event = {
 	#ultimatum
 	id = 500248
@@ -3016,6 +4957,7 @@ country_event = {
 	}
 }
 
+#ultimatum acceptance (event for ultimatum recipient spherelings)
 country_event = {
 	#ultimatum
 	id = 500249
@@ -3050,6 +4992,7 @@ country_event = {
 	}
 }
 
+#nuclear countdown creater (event for ultimatum issuer. to prevent holding/stalling ultimatums)
 country_event = {
 	#major alert of threat
 	id = 500250
@@ -3066,16 +5009,17 @@ country_event = {
 
 		add_country_modifier = {
 			name = nuclear_countdown
-			duration = 180
+			duration = 365
 		}
 		add_country_modifier = {
 			name = nuclear_threat
-			duration = 270
+			duration = 3650 #2920
 		}
 		set_country_flag = trying_to_nuke
 	}
 }
 
+#nuclear disarmament
 country_event = {
 	id = 500251
 	title = "Nuclear stockpile siezed!"
@@ -3114,6 +5058,7 @@ country_event = {
 	}
 }
 
+#nuclear proxy disarmament
 country_event = {
 	id = 500252
 	title = "Nuclear proxy sites disarmed!"
@@ -3136,6 +5081,7 @@ country_event = {
 	}
 }
 
+#nuclear development finished event
 country_event = {
 	id = 500253
 	title = "Nuclear development finished!"
@@ -3163,6 +5109,7 @@ country_event = {
 	}
 }
 
+#nuclear proxy cleanup/removal
 country_event = {
 	id = 500254
 	title = "Nuclear proxy site cleanup!"
@@ -3206,6 +5153,7 @@ country_event = {
 	}
 }
 
+#nuclear proxy request
 country_event = {
 	id = 500255
 	title = "Nuclear Proxy Request"
@@ -3221,7 +5169,7 @@ country_event = {
 			duration = 1825
 		}
 		ai_chance = {
-			factor = 20
+			factor = 1
 			modifier = {
 				factor = 3
 				war_policy = jingoism
@@ -3259,7 +5207,7 @@ country_event = {
 			duration = 1825
 		}
 		ai_chance = {
-			factor = 80
+			factor = 1
 			modifier = {
 				factor = 2
 				war_policy = pacifism

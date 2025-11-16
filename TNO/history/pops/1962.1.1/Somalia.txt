@@ -289,7 +289,7 @@
 	}
 
 	slaves = {
-		culture = oromo
+		culture = afro_asiatic
 		religion = protestant
 		size = 7000
 	}

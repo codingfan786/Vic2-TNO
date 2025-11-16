@@ -7,6 +7,8 @@ political_decisions = {
 		}
 		allow = {
 			#constructing_cb = RAR
+			#680 = {controlled_by = owner}
+			#946 = {province_control_days = 1}
 		}
 		effect = {
 			#300 = {
@@ -50,17 +52,19 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-			NOT = {JAN = {brigades_compare = 1}}
+			#NOT = {JAN = {brigades_compare = 1}}
 		}
 		effect = {
-			JAN = {
-				capital_scope = {
-					sub_unit = { 
-						type = infantry
-						value = current 
-					}
-				}
-			}
+			#JAN = {
+			#	capital_scope = {
+			#		sub_unit = { 
+			#			type = infantry
+			#			value = current 
+			#		}
+			#	}
+			#}
+
+			1686 = {add_core = owner}
 		}
 	}
 }

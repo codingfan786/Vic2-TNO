@@ -17,12 +17,13 @@ political_decisions = {
 		allow = { 
 			NOT = {has_country_modifier = nuclear_threat}
 			JAN = {NOT = {has_country_modifier = nuclear_threat_chain}}
+			NOT = {badboy = 1}
 		}
 
 		effect = {
 			add_country_modifier = {
 				name = nuclear_threat
-				duration = 270
+				duration = 3650 #2920
 			}
 
 			JAN = {
@@ -31,8 +32,6 @@ political_decisions = {
 					duration = 7
 				}
 			}
-
-			country_event = 500250
 
 			any_country = {
 				limit = {
@@ -68,6 +67,9 @@ political_decisions = {
 				}
 				clr_country_flag = got_ultimatum
 			}
+
+			country_event = 500250
+			
 		}
 		ai_will_do = {
 			factor = 1

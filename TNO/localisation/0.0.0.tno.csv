@@ -227,7 +227,7 @@ sge_1_desc;It is time we put down the rebellious reichskommissariats in our back
 sge_2_title;Tame the partisan states.;;;;;;;;;;;;x
 sge_2_desc;Partisans have siezed the lebensraum! We must scramble immediately to secure National Socialist control before they organize and become too establised to root out.;;;;;;;;;;;;x
 nuke_whitepeace_title;Issue a Nuclear Ultimatum!;;;;;;;;;;;;x
-nuke_whitepeace_desc;Our current war has become untenable! We must demand a cease fire immediately! \n§RThe nuclear strike will take 6 months to prepare. Any country sieged down more than 50% will be unable to participate in the nuclear strike. \nIf they accept then both our spheres will white peace our current wars with eachother.;;;;;;;;;;;;x
+nuke_whitepeace_desc;Our current war has become untenable! We must demand a cease fire immediately! \n§RThe nuclear strike will take 12 months to prepare. If any country has its territory in a continent sieged down 50% then they will not be counted as having range from that continent. \nIf they accept then both our spheres will white peace our current wars with eachother.;;;;;;;;;;;;x
 nuke_surrender_title;Use nuclear threat to demand surrender!;;;;;;;;;;;;x
 nuke_surrender_desc;The end to our current conflict is looking to be a distant hope. We must use our nuclear arsenal to end this conflict in our favor quickly!;;;;;;;;;;;;x
 EVENT500071desc;The emergence of a dominant unifier of Russia has finally occured. With the rise of major powers in Russia and the dissolution of local warlords comes a moment of peace and stability in the region. Anarchy no longer rules Russia, and the constant warfare has finally petered out.;;;;;;;;;;;;x
@@ -938,7 +938,7 @@ ynn_to_manchu_desc;Although we've defeated the traitors in Nanjing, Japan still 
 chi_to_wester_desc;Although we've defeated the rebels in Yunnan, some separatist holdouts remain in the far western reaches of the steppes and the mountains of Tibet.;x
 event500244desc;Our enemies have ignored our ultimatum and we will now carry out our threat!;x
 event500245desc;We have recieved a nuclear launch from $FROMCOUNTRY$!\nWe must return fire!\n§RAny members of our sphere who have been sieged more than 50% will not be able to contribute to the strike.;x
-event500246desc;Our enemies in $FROMCOUNTRY$ have refused to acknowledge our nuclear ultimatum! We will now ready our weapons and strike at them immediately!\n§RIt will take 6 months to prepare the strike! Any members of either sphere who have been sieged more than 50% will not be able to contribute at all to the launch, greatly weakening the nuclear strike.;x
+event500246desc;Our enemies in $FROMCOUNTRY$ have refused to acknowledge our nuclear ultimatum! We will now ready our weapons and strike at them immediately!\n§RThe nuclear strike and its response will target all sphere members of the involved spheres. If any country has its territory in a continent sieged down 50% by the end of the 12 month launch timer then they will not be counted as having range from that continent, weakening the nuclear strikes range.;x
 nuclear_countdown;Nuclear Launch Countdown;x
 nuke_light_1;Light Nuclear Fallout 1;x
 nuke_light_2;Light Nuclear Fallout 2;x
@@ -950,7 +950,7 @@ nuke_heavy_1;Heavy Nuclear Fallout 1;x
 nuke_heavy_2;Heavy Nuclear Fallout 2;x
 nuke_heavy_3;Heavy Nuclear Fallout 3;x
 nuclear_threat;Issued nuclear threat;x
-event500248desc;Our enemies in $FROMCOUNTRY$ have sent us an ultimatum! They say that in §Rsix months§! they will commit a nuclear strike against us and our sphere if we do not cease all hostilities between our spheres!\n§RAny sphere members on either side which have been sieged more than 50% by the end of the 6 months will not be able to contribute at all to the launch, greatly weakening the nuclear strike.\nIf we accept then both our spheres will white peace our current wars with eachother.\n\nDO NOT HOLD THIS EVENT IN MULTIPLAYER OR YOU WILL CAUSE A REHOST AND BE BANNED.;x
+event500248desc;Our enemies in $FROMCOUNTRY$ have sent us an ultimatum! They say that in §Rtwelve months§! they will commit a nuclear strike against us and our sphere if we do not cease all hostilities between our spheres!\n§RIf any country has its territory in a continent sieged down 50% then they will not be counted as having range from that continent, greatly weakening the nuclear strike.\nIf we accept then both our spheres will white peace our current wars with eachother.\n\nDO NOT HOLD THIS EVENT IN MULTIPLAYER OR YOU WILL CAUSE A REHOST AND BE BANNED.;x
 nuclear_threat_chain;Someone else is currently resolving a nuclear threat;x
 enemy_sphere_marker;This is a self-expiring country flag. Please ignore.;x
 event500249desc;Our sphere leader $FROMCOUNTRY$ has accepted a nuclear ultimatum from the sphere leader of someone we may be fighting with. This ultimatum required us to cease all hostilities at once.;x 
@@ -970,8 +970,8 @@ nuke_proxy_no;Recently rejected hosting nuclear proxy sites;x
 remove_nuclear_proxy_title;Eject Nuclear Proxy Sites;x
 remove_nuclear_proxy_desc;We have had enough of foreign powers using our country as the battlegrounds of armageddon! All foreign nuclear weapons must leave immediately!;x
 has_nukes_secondary;Hosts Nuclear Proxy Sites.;x
-event500029desc;$FROMCOUNTRY$ has ignored our warnings and is committed to intervention! Shall we commit nuclear retaliation? \n§RThe nuclear strike and its response will target all sphere members of the involved spheres. Any sphere members on either side which have been sieged more than 50% by the end of the 6 months will not be able to contribute at all to the launch, weakening the nuclear strikes range if they were host to nuclear weapons or proxy sites.;x
-event500006desc;We have recieved an ultimatum regarding our intervention in the German civil war: \nCease your intervention immediately, or face the full nuclear wrath of the German nation! \n§RThe nuclear strike and its response will target all sphere members of the involved spheres. Any sphere members on either side which have been sieged more than 50% by the end of the 6 months will not be able to contribute at all to the launch, weakening the nuclear strikes range if they were host to nuclear weapons or proxy sites.;x
+event500029desc;$FROMCOUNTRY$ has ignored our warnings and is committed to intervention! Shall we commit nuclear retaliation? \n§RThe nuclear strike and its response will target all sphere members of the involved spheres. If any country has its territory in a continent sieged down 50% by the end of the 12 month launch timer then they will not be counted as having range from that continent, weakening the nuclear strikes range.;x
+event500006desc;We have recieved an ultimatum regarding our intervention in the German civil war: \nCease your intervention immediately, or face the full nuclear wrath of the German nation! \n§RThe nuclear strike and its response will target all sphere members of the involved spheres. If any country has its territory in a continent sieged down 50% by the end of the 12 month launch timer then they will not be counted as having range from that continent, weakening the nuclear strikes range.;x
 russia_anarchy;Russian Wasteland;x
 ROM_1;Odessa;x
 aryan;Aryan;x
