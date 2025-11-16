@@ -54,27 +54,22 @@ X cannot surrender the proxy war with A unless also surrendering the proxy war a
 
 ## Nuclear Ultimatums
 Nuclear launches have limited range and can be halted altogether if you are fast enough.
+Each level of nuclear devastation on a province gives -0.1% pop growth, up to a maximum of 6 devastation. Only provinces with 100k pops are targeted and the devastation goes down 1 level roughly once a year by random event.
 
-- If someone has nukes at all then all target provinces will receive a Light Nuke modifier.
+- By default if your entire country is not sieged down by 50% or more you will deal 1 level of devastation everywhere.
 
-- If someone with nukes owns land on the same continent as a target province, it will receive a Heavy Nuke modifier.
+If a country (with nukes or proxy sites) owns land in a continent, then their sphere's nuclear strike will count as having range in that continent. If 50% or more of a countries provinces in a continent are sieged down by the time of the strike, then they will not contribute any nuclear range in that continent.
 
-- If someone with nukes owns land on a neighbouring continent as a target province, it will receive a Medium Nuke modifier.
+- Having a proxy site country with range in a continent will deal 1 level of devastation to land in neighbouring continents and 2 levels of devastation in the same continent. (These don't stack.)
 
-- If a nuclear proxy owns land on the same continent as a target province, it will receive a Medium Nuke modifier.
+- Having a nuke possessing country with range in a continent will deal 2 level of devastation to land in neighbouring continents and 3 levels of devastation in the same continent. (These don't stack.)
 
-- If a nuclear proxy owns land on a neighbouring continent as a target province, it will receive a Light Nuke modifier.
+Proxy sites and regular nuke possession damage will stack together. That means it is possible to deal at most 6 devastation in a single strike (nuclear power has land in continent +3, proxy site has land in continent +2, global nuke hits +1).
 
-These modifiers will each stack up to 3 times each on a province. The ingame localisation truncates the pop growth penalty number.
-
-- Heavy Nuke modifier gives -0.3% pop growth
-- Medium Nuke modifier gives -0.2% pop growth
-- Light Nuke modifier gives -0.1% pop growth
-
-If a country has half its provinces sieged down in a continent by the end of the 6 month launch timer post ultimatum, then they will not count as having nuclear range from that continent.
-(I may have changed the launch timer length since writing this)
 
 ### Nuclear Ultimatum in MP
+Since the white peace from the ultimatum does not give a truce, in MP you should include a rule that all participants white peaced in an ultimatum must wait the normal truce time to declare war again.
+
 ~~The white peace event can arbitrarily end entire wars instead of just peacing out individual participants. I'm not sure how to fix this so the following rule in MP is strongly suggested.~~
 
 - ~~Everyone who has received a nuclear ultimatum event must choose the "stay in war" option. Anyone who wanted to peace out is then given the opportunity to white peace the war using normal peace deals. All spherlings of this person must also be white peaced. (The intented behavior of the nuke mechanic.)~~
