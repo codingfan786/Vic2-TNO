@@ -1,4 +1,4 @@
-civilized = yes
+civilized = no
 capital = 2199 #Leon
 primary_culture = central_american
 religion = protestant
@@ -42,7 +42,7 @@ upper_house = {
 2059.1.1 = {
 	oob = "/1861/NIC_oob.txt"
 	plurality = 50
-	civilized = yes
+	civilized = no
 capital = 2197 #Managua 1852
 }
 2059.1.1 = {

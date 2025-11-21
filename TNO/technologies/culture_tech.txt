@@ -469,7 +469,7 @@ enlightenment_thought = {
 	year = 1962
 	cost = 3600
 
-	max_national_focus = 1
+	max_national_focus = 2
 	
 	ai_chance = {
 		factor = 11
@@ -489,7 +489,7 @@ ideological_thought = {
 	year = 1962
 	cost = 7200
 
-	max_national_focus = 1 
+	max_national_focus = 2 
 		
 	ai_chance = {
 		factor = 1.1
@@ -531,7 +531,7 @@ state_n_government = {
 	year = 1966
 	cost = 10800
 
-	max_national_focus = 1 
+	max_national_focus = 2 
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -574,7 +574,7 @@ nationalism_n_imperialism = {
 	year = 1976
 	cost = 14400
 
-	max_national_focus = 1
+	max_national_focus = 2
 	#colonial_life_rating = -10 
 	cb_creation_speed = 0.1
 	
@@ -615,7 +615,7 @@ revolution_n_counterrevolution = {
 	year = 1996
 	cost = 18000
 
-	max_national_focus = 1
+	max_national_focus = 2
 	diplomatic_points = 0.25
 	ai_chance = {
 		factor = 1.1
@@ -639,7 +639,7 @@ mass_politics = {
 	year = 2026
 	cost = 21600
 
-	max_national_focus = 1 
+	max_national_focus = 2 
 	ai_chance = {
 		factor = 1.1
 		modifier = {

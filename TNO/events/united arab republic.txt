@@ -390,11 +390,11 @@ country_event = {
 
 	option = {
 		name = "Unity, Liberty, Socialism!"
-		ITA = {
-			diplomatic_influence = {
-				who = ARA
-				value = -100
-			}
-		}
+		#ITA = {
+		#	diplomatic_influence = {
+		#		who = ARA
+		#		value = -100
+		#	}
+		#}
 	}
 }

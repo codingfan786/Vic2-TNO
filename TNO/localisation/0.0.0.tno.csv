@@ -1276,3 +1276,9 @@ nuke_5;Nuclear Devasation 5;x
 desc_nuke_5;Nuclear devastation will go down a level roughly once a year.;x
 nuke_6;Nuclear Devasation 6;x
 desc_nuke_6;Nuclear devastation will go down a level roughly once a year.;x
+EVTNAME545454;Capital Supply;x
+EVTDESC545454; ;x
+EVTNAME565454;Removal of Capital Supply;x
+EVTDESC565454;No exploiting for you!;x
+capital_supply;Capital Supply;x
+capital_supply_desc; ;x

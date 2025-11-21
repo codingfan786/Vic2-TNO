@@ -178,7 +178,7 @@ political_decisions = {
 				set_country_flag = npa_border_wars 
 				set_country_flag = yunnan_yarrr
 			}
-			civilized = yes #necessary because if china is civilized in history files it is automatically a gp at select screen but not in game. breaks puppet status
+			#civilized = yes #necessary because if china is civilized in history files it is automatically a gp at select screen but not in game. breaks puppet status
 		}
 	}
 
@@ -336,6 +336,8 @@ political_decisions = {
 
 		}
 		effect = {
+
+
 			JAN = {
 				country_event = 70070024
 			}
@@ -1486,47 +1488,7 @@ political_decisions = {
 		}		
 	}
 
-	puppet_gp_fix = {
-		potential = {
-			civilized = no
-			NOT = {year = 1963}
-			OR = {
-				tag = IGY
-				tag = IET
-				tag = IIS
-				tag = GLO
-				tag = IAL
-				tag = SAL
-				tag = OFN
-				tag = CBR
-				tag = ARG
-				tag = CH1
-				tag = CH2
-				tag = CH3
-				tag = CH4
-				tag = CH5
-				tag = CH6
-				tag = MSC
-				tag = COC
-				tag = R01
-				tag = R02
-				tag = R03
-				tag = R04
-				tag = R05
-				tag = R06
-				tag = R07
-				tag = R08
-				tag = R09
-				tag = R10
-				tag = R11
-				tag = R12
-				tag = R13
-				tag = AHG
-			}
-		}
-		allow = {}
-		effect = {civilized = yes}
-	}
+
 
 	vorkuta_fix = {#this is all so buggy
 		potential = {

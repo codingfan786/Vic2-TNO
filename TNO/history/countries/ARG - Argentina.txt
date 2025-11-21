@@ -67,7 +67,7 @@ oob = "ARG_oob.txt"
 	oob = "/1861/ARG_oob.txt"
 }
 2059.1.1 = {
-civilized = yes
+civilized = no
 capital = 2348
 primary_culture = platinean
 religion = protestant

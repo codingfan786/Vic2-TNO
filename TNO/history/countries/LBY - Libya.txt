@@ -2,7 +2,7 @@
 
 #========================= H E A D E R =========================
 
-civilized = yes
+civilized = no
 capital = 1735
 primary_culture = maghrebi
 religion = protestant
@@ -351,7 +351,7 @@ multitude_of_financial_instruments = no
 insurance_companies = no
 regulated_buying_and_selling_of_stocks = no
 liquidation_of_assets = no
-civilized = yes
+civilized = no
 capital_for_investors = no
 distribution_channels = no
 industrial_rnd_investments = no

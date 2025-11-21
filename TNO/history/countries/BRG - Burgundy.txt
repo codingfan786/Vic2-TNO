@@ -2,7 +2,7 @@
 
 #========================= H E A D E R =========================
 
-civilized = yes
+civilized = no
 capital = 425
 primary_culture = north_german
 culture = south_german

@@ -18,6 +18,20 @@ country_event = {
 	}
 
 	immediate = {
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					tag = GGE
+					badboy = 1.6
+				}
+			}
+			owner = {
+				badboy = -1000
+				badboy = 40
+			}
+		}
+
 		549 = {
 			change_province_name = "Berlin"
 		}

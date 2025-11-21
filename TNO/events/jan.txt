@@ -223,12 +223,63 @@ country_event = {
 		add_country_modifier = { name = campaign_timer duration = 30 }
 
 
+
+		#ghost units..
+		any_country = {
+			limit = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					#war = yes
+				}
+			}
+			3249 = {
+				secede_province = THIS
+				secede_province = LRG
+			}
+			inherit = LRG
+		}
+		any_country = {
+			limit = {
+				owns = 3249
+			}
+			country_event = { id = 500306 days = 3 }
+		}
+
+
+
+
+
+
+
+
+		any_country = {
+			limit = {
+				civilized = no
+			}
+			civilized = yes
+		}
 	}
 
 	option = {
 		name = "there's seriously no better way to do this..."
 	}
 
+}
+
+country_event = {
+	id = 500306
+	title = "Ghost Country Appears"
+
+	is_triggered_only = yes
+
+	option = {
+		3249 = {
+			secede_province = XXX
+		}
+	}
 }
 
 province_event = {

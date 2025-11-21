@@ -2,7 +2,7 @@
 
 #========================= H E A D E R =========================
 
-civilized = yes
+civilized = no
 capital = 1872
 primary_culture = afro_asiatic
 religion = protestant
@@ -351,7 +351,7 @@ multitude_of_financial_instruments = yes
 insurance_companies = yes
 regulated_buying_and_selling_of_stocks = yes
 liquidation_of_assets = no
-civilized = yes
+civilized = no
 capital_for_investors = no
 distribution_channels = no
 industrial_rnd_investments = no

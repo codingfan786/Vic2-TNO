@@ -497,7 +497,7 @@ country_event = {
 				}
 			}
 			owner = {
-				badboy = -100
+				badboy = -1000
 				badboy = 40
 			}
 		}
