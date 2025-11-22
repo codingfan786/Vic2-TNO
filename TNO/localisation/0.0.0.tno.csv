@@ -1282,3 +1282,6 @@ EVTNAME565454;Removal of Capital Supply;x
 EVTDESC565454;No exploiting for you!;x
 capital_supply;Capital Supply;x
 capital_supply_desc; ;x
+staging_ground_timer;Recently Built Staging Ground;x
+create_staging_grounds_title;Build Staging Ground;x
+create_staging_grounds_desc;This decision will add a "Staging Ground" modifier to a random coastal province with a state selector building. This will increase the supply available at the cost of decreasing RGO throughput there. This costs 50k, the modifier lasts 2 years, and the decision can be taken yearly.;x

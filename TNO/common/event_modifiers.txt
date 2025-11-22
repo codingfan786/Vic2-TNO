@@ -73,7 +73,12 @@ arab_unrest_uar = {
 }
 
 staging_ground = {
-	supply_limit = 7
+	supply_limit = 8
+	local_RGO_throughput = -0.2
+	icon = 17
+}
+
+staging_ground_timer = {
 	icon = 17
 }
 

@@ -1,0 +1,48 @@
+political_decisions = {
+
+	create_staging_grounds = {
+		picture = enact_anaconda_plan
+
+		potential = {
+			ai = no
+		}
+		allow = {
+			NOT = {has_country_modifier = staging_ground_timer}
+			money = 50000
+			any_owned_province = {
+				has_building = state_selector
+				port = yes
+			}
+		}
+		effect = {
+
+			random_owned = {
+				limit = {
+					has_building = state_selector
+					port = yes
+				}
+				add_province_modifier = {
+					name = staging_ground
+					duration = 730
+				}
+				THIS = {
+					add_country_modifier = {
+						name = staging_ground_timer
+						duration = 365 
+					}
+					treasury = -50000
+					any_owned = {
+						limit = {
+							has_building = state_selector
+						}
+						state_selector =-3
+						state_deselector =-3
+					}
+
+				}
+			}
+		}
+	}
+
+}
+
