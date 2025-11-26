@@ -368,6 +368,25 @@ political_decisions = {
 
 		}
 		effect = {
+			GUY = {
+				any_owned = {
+					limit = {
+						is_core = OFN
+						is_core = GUY
+						NOT = {has_province_modifier = ofn_comeupance}
+					}
+					add_province_modifier = {
+						name = ofn_contension
+						duration = -1
+					}
+					add_province_modifier = {
+						name = ofn_contimer
+						duration = 366
+					}
+				}
+			}
+
+
 			set_country_flag = is_usa
 
 			JAN = {

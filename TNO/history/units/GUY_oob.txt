@@ -1,0 +1,58 @@
+army = {
+	name = "National Defense Force"
+	location = 2240
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 2240
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 2239
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 1979
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = infantry
+		home = 2243
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = hussar
+		home = 2243
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 2242
+	}
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 2245
+	}
+	
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 2245
+	}
+
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 2245
+	}
+	
+	regiment = {
+		name = "Garrison Brigade"
+		type = artillery
+		home = 2245
+	}
+}
+

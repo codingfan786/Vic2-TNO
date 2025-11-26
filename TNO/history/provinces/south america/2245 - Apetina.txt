@@ -1,5 +1,6 @@
-owner = OFN
-controller = OFN
+owner = GUY
+add_core = GUY
+controller = GUY
 add_core = OFN
 #add_core = NET
 trade_goods = timber
