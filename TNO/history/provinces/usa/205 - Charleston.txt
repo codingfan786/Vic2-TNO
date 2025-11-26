@@ -1,45 +1,28 @@
 owner = USA
 controller = USA
-add_core = USA
+
+add_core = USA
 trade_goods = coal
 life_rating = 35
+
 state_building = {
 	level = 1
-	building = liquor_distillery
+	building = artillery_factory
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = glass_factory
+	building = ammunition_factory
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = fabric_factory
+	building = explosives_factory
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = regular_clothes_factory
+	building = steel_factory
 	upgrade = yes
 }
-state_building = {
-	level = 1
-	building = dye_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = furniture_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = luxury_furniture_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = luxury_clothes_factory
-	upgrade = yes
-}
+

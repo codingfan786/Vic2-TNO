@@ -1,7 +1,9 @@
 naval_base = 1
 owner = USA
-controller = USA
-add_core = USA
+
+controller = USA
+
+add_core = USA
 add_core = NEN
 trade_goods = grain
 life_rating = 40
@@ -9,11 +11,12 @@ railroad = 1
 
 state_building = {
 	level = 1
-	building = canned_food_factory
+	building = cement_factory
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = glass_factory
+	building = lumber_mill
 	upgrade = yes
 }
+

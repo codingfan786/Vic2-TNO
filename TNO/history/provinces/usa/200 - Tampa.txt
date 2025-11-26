@@ -1,7 +1,17 @@
-owner = USA
-controller = USA
-add_core = USA
-trade_goods = fruit
-life_rating = 25
-is_slave = yes
+owner = USA
 
+controller = USA
+
+add_core = USA
+
+trade_goods = fruit
+
+life_rating = 25
+
+is_slave = yes
+
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}

@@ -31,6 +31,260 @@
 	}
 }
 
+232 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 24000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 16000
+	}
+}
+233 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 24000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 16000
+	}
+}
+
+84 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 27000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 3000
+	}
+}
+89 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 27000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 3000
+	}
+}
+
+223 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 22750
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 12250
+	}
+}
+227 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 35000
+	}
+}
+
+163 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 30000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 20000
+	}
+}
+
+178 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 31500
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 3500
+	}
+}
+182 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 31500
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 3500
+	}
+}
+
+134 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 2700
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 3000
+	}
+}
+133 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 9000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 1000
+	}
+}
+132 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 9000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 1000
+	}
+}
+
+243 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 18000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 2000
+	}
+}
+
+173 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 35000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 15000
+	}
+}
+
+201 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 12000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 8000
+	}
+}
+204 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 6000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 4000
+	}
+}
+205 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 6000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 4000
+	}
+}
+
+231 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 9000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 1000
+	}
+}
+229 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 9000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 1000
+	}
+}
+
+200 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 8000
+	}
+	craftsmen = {
+		culture = afro_american
+		religion = protestant
+		size = 2000
+	}
+}
+
+169 = {
+	craftsmen = {
+		culture = yankee #afro_american
+		religion = protestant
+		size = 10000
+	}
+}
+
 
 196	=	{	capitalists = { culture = 	yankee	religion = protestant size = 	75.3308050243394	}	aristocrats = { culture = 	yankee	religion = protestant size = 	447.68085738612	}	officers = { culture = 	yankee	religion = protestant size = 	101.681860392971	}	bureaucrats = { culture = 	yankee	religion = protestant size = 	232.396145037318	}	clergymen = { culture = 	yankee	religion = protestant size = 	1290.86478170557	}	soldiers = { culture = 	yankee	religion = protestant size = 	1055.79216906055	}	farmers = { culture = 	yankee	religion = protestant size = 	83792.7994	}	artisans = { culture = 	yankee	religion = protestant size = 	6839.74047229377	}	craftsmen = { culture = 	yankee	religion = protestant size = 	0	}}
 195	=	{	capitalists = { culture = 	yankee	religion = protestant size = 	70.7013535277973	}	aristocrats = { culture = 	yankee	religion = protestant size = 	403.438473493487	}	officers = { culture = 	yankee	religion = protestant size = 	102.026842689466	}	bureaucrats = { culture = 	yankee	religion = protestant size = 	207.782492395923	}	clergymen = { culture = 	yankee	religion = protestant size = 	1224.49234971315	}	soldiers = { culture = 	yankee	religion = protestant size = 	998.212160929478	}	farmers = { culture = 	yankee	religion = protestant size = 	83792.7994	}	artisans = { culture = 	yankee	religion = protestant size = 	6674.7337641439	}	craftsmen = { culture = 	yankee	religion = protestant size = 	0	}}

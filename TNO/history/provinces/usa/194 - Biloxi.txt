@@ -3,14 +3,4 @@ controller = USA
 add_core = USA
 trade_goods = sulphur
 life_rating = 35
-2161.1.1 = {
-	controller = CSA
-	owner = CSA
-	add_core = CSA
-	state_building = {
-		level = 1
-		building = fabric_factory
-		upgrade = yes
-	}
-}
-2161.1.1 = { railroad = 3 }
+

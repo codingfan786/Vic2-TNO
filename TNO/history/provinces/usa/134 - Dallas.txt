@@ -5,12 +5,29 @@ add_core = USA
 add_core = TEX
 trade_goods = oil
 life_rating = 35
-2161.1.1 = {
-owner = USA
-controller = USA
-add_core = USA
-}2161.1.1 = {
-	controller = CSA
-	owner = CSA
-	add_core = CSA
+
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = electric_gear_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = radio_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = telephone_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fuel_refinery
+	upgrade = yes
 }
