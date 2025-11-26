@@ -2782,25 +2782,25 @@
 	}
 
 	clergymen = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 4000
 	}
 
 	soldiers = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 50
 	}
 
 	farmers = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 900
 	}

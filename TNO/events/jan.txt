@@ -13,6 +13,18 @@ country_event = {
 	}
 
 	immediate = {
+		random_owned = {
+			limit = {
+				NOT = {ITA = {has_country_flag = puppet_migration_ended}}
+				NOT = {exists = IGY}
+				NOT = {exists = IIS}
+				NOT = {exists = IET}
+			}
+			ITA = {
+				set_country_flag = puppet_migration_ended
+			}
+		}
+
 		any_country = {
 			limit = {
 				tag = USA

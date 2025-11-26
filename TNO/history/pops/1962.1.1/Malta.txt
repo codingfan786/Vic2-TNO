@@ -21,37 +21,37 @@
 	}
 
 	aristocrats = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 200
 	}
 
 	bureaucrats = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 275
 	}
 
 	artisans = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 8000
 	}
 
 	soldiers = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 340
 	}
 
 	farmers = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 20475
 	}

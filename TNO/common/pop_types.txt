@@ -473,6 +473,7 @@ emigration_chance =
 
 		location = {owner = {has_country_flag = italy_main}}
 		NOT = {location = {owner = {has_country_flag = greece_main}}}
+		NOT = {location = {owner = {has_country_flag = puppet_migration_ended}}}
 		OR = {
 			has_pop_culture = north_italian
 			has_pop_culture = south_italian
@@ -484,6 +485,7 @@ emigration_chance =
 
 		location = {owner = {has_country_flag = german_main}}
 		NOT = {location = {owner = {has_country_flag = german_africa}}}
+		NOT = {location = {owner = {has_country_flag = puppet_migration_ended}}}
 		OR = {
 			has_pop_culture = north_german
 			has_pop_culture = south_german

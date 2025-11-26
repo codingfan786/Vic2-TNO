@@ -75,13 +75,13 @@
 	}
 
 	artisans = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 500
 	}
 
 	artisans = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 500
 	}

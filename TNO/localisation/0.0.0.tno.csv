@@ -1303,3 +1303,10 @@ is_ofn_trust;Is the O.F.N. Trust Territories;x
 event500286desc;In order to accept Minority American cultures, the USA has to spread the two Civil Rights modifiers to all provinces in the Deep South states (viewable in the mouseover tooltip in state mapmode). \nIf there are more Desegregation modifiers than Militant modifiers when this is achieved, USA will get Minority American accepted. If there are more Militant modifiers, USA will get a civil war and the player will switch to the Republic of New Afrika. New Afrika loses White American as an accepted pop but they will gain African Diaspora as accepted and will get a massive assimilation boost to North and South America. \nMilitant modifiers will spread when a Militant modifier borders a province. They spread more quickly when Minority American lower class pops have militancy greater than 7 in the province or the province the modifier is spreading from, and slower when militancy is less than 2. \n\n\n\n\n\nDesegregation modifiers will spread only when a Desegregation modifier borders a province. They spread more quickly when Minority American lower class pops have militancy greater than 5 but less than 8 in the province or the province the modifier is spreading from.\nUSA has two national focuses that influence militancy in order to facilitate this.;x
 GUY;Guyana;x
 GUY_ADJ;Guyanese;x
+north_italian;Italian;x
+south_italian;South Italian (Removed);x
+italy_main;Is Italy or Greece;x
+greece_main;Is Greece;x
+puppet_migration_ended;Colonial puppets have been annexed;x
+german_main;Is Germany;x
+german_africa;Is German Africa;x

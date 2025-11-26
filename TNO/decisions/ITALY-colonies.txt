@@ -11,7 +11,7 @@ political_decisions = {
 			IET = {
 				NOT = {
 					any_owned_province = {
-						NOT = {is_accepted_culture = yes}
+						#NOT = {is_accepted_culture = yes}
 						NOT = {is_primary_culture= yes}
 						
 						is_colonial = no
@@ -43,7 +43,7 @@ political_decisions = {
 			IIS = {
 				NOT = {
 					any_owned_province = {
-						NOT = {is_accepted_culture = yes}
+						#NOT = {is_accepted_culture = yes}
 						NOT = {is_primary_culture= yes}
 						
 						is_colonial = no
@@ -75,7 +75,7 @@ political_decisions = {
 			IGY = {
 				NOT = {
 					any_owned_province = {
-						NOT = {is_accepted_culture = yes}
+						#NOT = {is_accepted_culture = yes}
 						NOT = {is_primary_culture= yes}
 						
 						is_colonial = no

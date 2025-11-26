@@ -74,12 +74,12 @@
 		size = 215375
 	}
 	farmers = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 60000
 	}
 	craftsmen = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 60000
 	}
@@ -232,7 +232,7 @@
 	}
 
 	slaves = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 25000
 	}
@@ -276,7 +276,7 @@
 	}
 
 	farmers = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 36500
 	}
@@ -359,7 +359,7 @@
 
 	
 	farmers = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 70375
 	}

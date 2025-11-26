@@ -257,6 +257,11 @@ political_decisions = {
 					add_core = THIS
 					remove_core = CHI
 				}
+				#GXI = {
+				#	all_core = {
+				#		add_core = THIS
+				#	}
+				#}
 			}
 			any_owned = {
 				limit = {
@@ -280,8 +285,18 @@ political_decisions = {
 					}
 					set_country_flag = CHI_mobnerf
 				}
-					
 			}
+			all_core = {
+				remove_core = CH1
+				remove_core = CH2
+				remove_core = CH3
+				remove_core = CH4
+				remove_core = CH5
+				remove_core = CH6
+				#remove_core = GXI
+				remove_core = XBI
+			}
+
 		}
 	}
 

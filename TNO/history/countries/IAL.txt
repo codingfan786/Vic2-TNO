@@ -4,7 +4,7 @@
 
 capital = 1709
 primary_culture = north_italian
-culture = south_italian
+#culture = south_italian
 religion = protestant
 government = fascist_dictatorship
 plurality = 10

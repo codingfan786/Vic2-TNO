@@ -317,7 +317,7 @@ size = 10071.0
 	}
 
 	farmers = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 size = 2700.0
 	}

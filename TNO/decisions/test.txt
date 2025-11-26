@@ -33,12 +33,9 @@ political_decisions = {
 
 		}
 		effect = {
-			any_owned = {
-				add_province_modifier = {
-					name = racial_discontent
-					duration = -1
-				}
-			}
+			inherit = IGY
+			inherit = IIS
+			inherit = IET
 		}
 	}
 }

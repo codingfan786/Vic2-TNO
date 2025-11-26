@@ -633,7 +633,7 @@
 	}
 
 	soldiers = {
-		culture = south_italian
+		culture = north_italian
 		religion = protestant
 		size = 20000
 	}
