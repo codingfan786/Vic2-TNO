@@ -12,7 +12,7 @@ province_event = {
 
 		any_neighbor_province = {
 			OR = {
-				has_province_modifier = racial_integration
+				#has_province_modifier = racial_integration
 				has_province_modifier = racial_discontent
 				has_province_modifier = civil_rights_movement
 			}
@@ -24,49 +24,41 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 120 #600
+		months = 60 #120 #600
+		
 		modifier = {
-			factor = 0.5
-			OR = {
-				province_id = 189
-				province_id = 188
-				province_id = 191
-				province_id = 190
-				province_id = 194
-				province_id = 192
-				province_id = 193
-				province_id = 196
-				province_id = 195
-				province_id = 197
-				province_id = 200
-				province_id = 199
-				province_id = 198
-				province_id = 201
-				province_id = 202
-				province_id = 204
-				province_id = 205
-				province_id = 206
-				province_id = 2555
-				province_id = 2556
-				province_id = 209
-				province_id = 207
-				province_id = 208
-				province_id = 210
-				province_id = 211
-				province_id = 212
-				province_id = 213
-				province_id = 214
-				province_id = 215
-				province_id = 216
-				province_id = 144
-				province_id = 143
-				province_id = 145
-				province_id = 139
-				province_id = 140
-				province_id = 141
-				province_id = 142
+			factor = 2.0
+			AND = {
+				NOT = {
+					any_pop = {
+						has_pop_culture = afro_american
+						OR = {
+							type = farmers
+							type = labourers
+						}
+						militancy = 2
+					}
+				}
+				NOT = {
+					any_neighbor_province = {
+						OR = {
+							has_province_modifier = racial_discontent
+							has_province_modifier = racial_integration
+							has_province_modifier = civil_rights_movement
+						}
+						any_pop = {
+							has_pop_culture = afro_american
+							OR = {
+								type = farmers
+								type = labourers
+							}
+							militancy = 2
+						}
+					}
+				}
 			}
 		}
+
 		modifier = {
 			factor = 0.5
 			OR = {
@@ -166,49 +158,8 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 120 #600
-		modifier = {
-			factor = 0.5
-			OR = {
-				province_id = 189
-				province_id = 188
-				province_id = 191
-				province_id = 190
-				province_id = 194
-				province_id = 192
-				province_id = 193
-				province_id = 196
-				province_id = 195
-				province_id = 197
-				province_id = 200
-				province_id = 199
-				province_id = 198
-				province_id = 201
-				province_id = 202
-				province_id = 204
-				province_id = 205
-				province_id = 206
-				province_id = 2555
-				province_id = 2556
-				province_id = 209
-				province_id = 207
-				province_id = 208
-				province_id = 210
-				province_id = 211
-				province_id = 212
-				province_id = 213
-				province_id = 214
-				province_id = 215
-				province_id = 216
-				province_id = 144
-				province_id = 143
-				province_id = 145
-				province_id = 139
-				province_id = 140
-				province_id = 141
-				province_id = 142
-			}
-		}
+		months = 60 #96 #120 #600
+
 		modifier = {
 			factor = 0.5
 			OR = {
@@ -315,6 +266,10 @@ country_event = {
 			which = civil_rights_support
 			value = 2
 		}
+		set_variable = {
+			which = civil_rights_opposition #just for debuging...
+			value = 0
+		}
 		any_owned = {
 			limit = {
 				has_province_modifier = racial_integration
@@ -334,6 +289,10 @@ country_event = {
 				change_variable = {
 					which = civil_rights_support
 					value = -1
+				}
+				change_variable = {
+					which = civil_rights_opposition
+					value = 1
 				}
 			}
 		}

@@ -76,7 +76,7 @@ diplomatic_focus =
 	{
 		icon = 4
 
-		pop_militancy_modifier = -0.05
+		pop_militancy_modifier = -0.1
 		pop_consciousness_modifier = 0.1
 
 		limit = {
