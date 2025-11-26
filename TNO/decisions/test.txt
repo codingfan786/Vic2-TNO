@@ -9,9 +9,17 @@ political_decisions = {
 			#constructing_cb = RAR
 			#680 = {controlled_by = owner}
 			#946 = {province_control_days = 1}
+			
+			
+			
 		}
 		effect = {
-			capital_scope = {add_crime = nuke_1}
+			any_owned = {
+				add_province_modifier = {
+					name = racial_integration
+					duration = -1
+				}
+			}
 		}
 	}
 
@@ -22,19 +30,15 @@ political_decisions = {
 			always = no
 		}
 		allow = {
-			#NOT = {JAN = {brigades_compare = 1}}
+
 		}
 		effect = {
-			#JAN = {
-			#	capital_scope = {
-			#		sub_unit = { 
-			#			type = infantry
-			#			value = current 
-			#		}
-			#	}
-			#}
-
-			1686 = {add_core = owner}
+			any_owned = {
+				add_province_modifier = {
+					name = racial_discontent
+					duration = -1
+				}
+			}
 		}
 	}
 }

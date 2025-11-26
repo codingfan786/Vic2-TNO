@@ -4,7 +4,7 @@ primary_culture = north_german
 culture = south_german
 religion = protestant
 government = absolute_monarchy
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.8
  
@@ -75,7 +75,7 @@ nonstate_consciousness = 1
 oob = "NAS_oob.txt"
 2059.1.1 = {
 	oob = "/1861/NAS_oob.txt"
-	plurality = 60
+	plurality = 10
 	literacy = 0.90
 	non_state_culture_literacy = 0.45
 }

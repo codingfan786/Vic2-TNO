@@ -1,6 +1,9 @@
 owner = USA
-controller = USA
+controller = USA
 add_core = USA
-trade_goods = fish
+add_core = MAN
+
+trade_goods = fish
 life_rating = 35
-2161.1.1 = { railroad = 3 }
+2161.1.1 = { railroad = 3 }
+

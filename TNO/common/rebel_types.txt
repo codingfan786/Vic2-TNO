@@ -309,8 +309,14 @@ fascist_rebels = {
 		}
 		modifier = {
 			factor = 0
+			government = fascist_dictatorship
+		}
+
+		modifier = {
+			factor = 0
 			country = { civilized = no }
 		}
+
 		modifier = {
 			factor = 0.01
 			NOT = {

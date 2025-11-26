@@ -179,8 +179,9 @@ EVENT500065;To our north are our three German neighbors, waiting for the opportu
 EVENT500066;The failure in World War 2 and the economic hardships our loss brought has lead to an increasing poverty gap between the southern and northern regions of our country. The tensions this has caused between the Afro-American and Dixie citizenry will inevitably lead to outright violence in these states. We do however have a chance to soften the impact of this. \n\n Jackson and Washington each start with their own modifiers representing racial tensions and federal desegregation efforts respectively. These will slowly spread throughout the south until every province is covered with one of them, at which point the provinces with racial tensions will fall into anarchy as racial violence erupts until military intervention arrives. \n Having a liberal party slows the spread of racial tension, while having at least 0.5% bureaucrats in a state will slow tension spread and speed up desegregation spread. \n Good luck!;;;;;;;;;;;;x
 civil_unrest;Civil Unrest;;;;;;;;;;;;x
 uncontrolled_lynchings;Klan Lynchings;;;;;;;;;;;;x
-racial_integration;Federal Desegregation;;;;;;;;;;;;x
-racial_discontent;Klu Klux Klan Demonstrations;;;;;;;;;;;;x
+racial_integration;Racial Desegregation;;;;;;;;;;;;x
+racial_discontent;Militant Black Nationalism;;;;;;;;;;;;x
+civil_rights_movement;Home of the Civil Rights Movement;x
 cultural_genocide;Cultural Genocide;;;;;;;;;;;;x
 ss_division;SS Enlistment;;;;;;;;;;;;x
 ss_recruitment;Native SS division;;;;;;;;;;;;x
@@ -280,7 +281,8 @@ campaign_urban_liberal_desc;a;;;;;;;;;;;;x
 campaign_urban_conservative_title;Republican Campaigns in Urban Areas;;;;;;;;;;;;x
 campaign_urban_conservative_desc;a;;;;;;;;;;;;x
 AA_reform_title;Civil Rights Act of $YEAR$;;;;;;;;;;;;x
-AA_reform_desc;The Civil Rights Act of $YEAR$ is a landmark civil rights and labor law in the United States that outlaws discrimination based on race, color, religion, sex, and national origin. It prohibits unequal application of voter registration requirements, racial segregation in schools and public accommodations, and employment discrimination. The act remains one of the most significant legislative achievements in American history.;;;;;;;;;;;;x
+AA_reform_desc;The Civil Rights Act of $YEAR$ is a landmark civil rights and labor law in the United States that outlaws discrimination based on race, color, religion, sex, and national origin. It prohibits unequal application of voter registration requirements, racial segregation in schools and public accommodations, and employment discrimination.\n§GThe Racial Desegregation and Militant Black Nationalism modifiers will spread from Memphis gradually over time. Once every province in the deep south has one of them, you may pass the Civil Rights Act. §RIf there are more Militant modifiers than Desegregation modifiers then you will fall into civil war! Militant modifiers spread faster when Minority American lower class pops have militancy greater than 7 in a province or neighbour. Desegregation spreads faster when when Minority American lower class pops have militancy greater than 5 but less than 8 in a province or neighbour. §YThis decision will automatically be taken once the prerequisites are filled.;;;;;;;;;;;;x
+AA_reform_desc_alt;The Civil Rights Act of $YEAR$ is a landmark civil rights and labor law in the United States that outlaws discrimination based on race, color, religion, sex, and national origin. It prohibits unequal application of voter registration requirements, racial segregation in schools and public accommodations, and employment discrimination. The act remains one of the most significant legislative achievements in American history.;;;;;;;;;;;;x
 brg_boers_title;Covert Funding For Boer Separatists.;;;;;;;;;;;;x
 brg_boers_desc;It would be prudent to destabilize the South African Regime. If they dismantle German Africa we could lose the entire continent to democracy!;;;;;;;;;;;;x
 brg_core_title;Develop Occupation Into Settlement.;;;;;;;;;;;;x
@@ -1285,3 +1287,17 @@ capital_supply_desc; ;x
 staging_ground_timer;Recently Built Staging Ground;x
 create_staging_grounds_title;Build Staging Ground;x
 create_staging_grounds_desc;This decision will add a "Staging Ground" modifier to a random coastal province with a state selector building. This will increase the supply available at the cost of decreasing RGO throughput there. This costs 50k, the modifier lasts 2 years, and the decision can be taken yearly.;x
+yankee;White American;x
+afro_american;Minority American;x
+usa_south;Deep South;x
+civil_rights;Civil Rights Bill Passed;x
+increase_ethnic_tension;Inflame Ethnic Tension;x
+decrease_ethnic_tension;Improve Race Relations;x
+is_usa;Is USA;x
+acw_declaration;The push for equality and civil rights has gone too far, and now armed rebellion by militant black groups has swept through the south! To make matters worse, many minority groups elsewhere and socialist militants have taken up arms in similar manner elsewhere. The ethnic suicide of White America by bleeding heart liberals is complete, and the deconstruction of Whiteness is total.\n§RYOU NEED TO REHOST/RELOAD THE SAVE IMMEDIATELY. DO NOT UNPAUSE. USA HAS A BUGGED 100 WARSCORE ON YOU AND WILL INSTANT ANNEX YOU.\n§GNew Afrika may have less accepted pops, but they have a massive assimilation boost in North and South America!;x
+CHE;American Native Alliance;x
+CHE_ADJ;Native American;x
+is_new_africa;Is New Afrika;x
+is_ofn_trust;Is the O.F.N. Trust Territories;x
+500059_desc;Tensions over the integration of the African American population have risen in $PROVINCENAME$.\n§GThis event will fire when either Desegregation or Militancy modifiers border a province.\n§RIt is more likely to happen when Minority American lower class pops have militancy greater than 7 in a province or the province the modifier is spreading from.;x
+500060_desc;Federal programs have finally desegregated $PROVINCENAME$.\n§GThis event will fire when a Desegregation modifier border a province.\n§RIt is more likely to happen when when Minority American lower class pops have militancy greater than 5 but less than 8 in a province or the province the modifier is spreading from.;x

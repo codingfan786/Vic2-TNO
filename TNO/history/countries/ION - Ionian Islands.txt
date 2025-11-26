@@ -3,7 +3,7 @@ capital = 826
 primary_culture = greek
 religion = protestant
 government = presidential_dictatorship
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.22
  
@@ -65,7 +65,7 @@ nonstate_consciousness = 0
 oob = "ION_oob.txt"
 2059.1.1 = {
 	oob = "/1861/ION_oob.txt"
-	plurality = 60
+	plurality = 10
 	literacy = 0.27
 }
 2059.1.1 = {

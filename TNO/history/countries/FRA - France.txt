@@ -4,7 +4,7 @@ primary_culture = french
 culture = french_canadian
 religion = protestant
 government = democracy
-plurality = 25
+plurality = 10
 nationalvalue = nv_equality
 literacy = 0.60
 non_state_culture_literacy = 0.15
@@ -102,7 +102,7 @@ oob = "FRA_oob.txt"
 2059.1.1 = {
 	oob = "/1861/FRA_oob.txt"
 	prestige = 140
-	plurality = 65
+	plurality = 10
 	literacy = 0.65
 	non_state_culture_literacy = 0.15
 	

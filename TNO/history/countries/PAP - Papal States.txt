@@ -4,7 +4,7 @@ primary_culture = south_italian
 culture = north_italian
 religion = protestant
 government = absolute_monarchy
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.35
  
@@ -82,7 +82,7 @@ oob = "PAP_oob.txt"
 	oob = "/1861/PAP_oob.txt"
 }
 2059.1.1 = {
-	plurality = 60
+	plurality = 10
 	
 #Technologies 
 	post_napoleonic_thought = 1

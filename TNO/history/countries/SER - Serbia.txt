@@ -3,7 +3,7 @@ capital = 794
 primary_culture = serb
 religion = protestant
 government = fascist_dictatorship
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.1
  
@@ -68,7 +68,7 @@ oob = "SER_oob.txt"
 }
 2059.1.1 = {
 ruling_party = SER_conservative_2
-plurality = 50
+plurality = 10
 literacy = 0.17
 
 # Technologies

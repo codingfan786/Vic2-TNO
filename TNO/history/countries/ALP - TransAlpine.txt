@@ -4,7 +4,7 @@ primary_culture = north_italian
 culture = south_italian
 religion = protestant
 government = fascist_dictatorship
-plurality = 0.12
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.28
  
@@ -45,7 +45,7 @@ upper_house = {
 
 
 	prestige = 75
-	plurality = 60
+	plurality = 10
 	literacy = 0.32
 	non_state_culture_literacy = 0.32
 	

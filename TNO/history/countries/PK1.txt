@@ -4,7 +4,7 @@ primary_culture = turkmen
 #culture = tajik
 religion = protestant
 government = absolute_monarchy
-plurality = 0.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.2
 

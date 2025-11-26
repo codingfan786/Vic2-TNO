@@ -1,11 +1,11 @@
 civilized = no
 capital = 14
-primary_culture = anglo_canadian
-culture = british
+primary_culture = yankee
+culture = anglo_canadian
 culture = french_canadian
 religion = protestant
 government = democracy
-plurality = 0.5
+plurality = 10
 nationalvalue = nv_liberty
 literacy = 0.6
  

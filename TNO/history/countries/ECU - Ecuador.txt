@@ -3,7 +3,7 @@ capital = 2279
 primary_culture = north_andean
 religion = protestant
 government = bourgeois_dictatorship
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_liberty
 literacy = 0.10
 non_state_culture_literacy = 0.05
@@ -66,7 +66,7 @@ nonstate_consciousness = 0
 oob = "ECU_oob.txt"
 2059.1.1 = {
 	oob = "/1861/ECU_oob.txt"
-	plurality = 60
+	plurality = 10
 	literacy = 0.11
 	non_state_culture_literacy = 0.05
 }

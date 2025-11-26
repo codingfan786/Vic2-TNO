@@ -190,6 +190,13 @@ political_decisions = {
 
 		}
 		effect = {
+			TIN = { set_country_flag = state_size_tag }
+			SMA = { set_country_flag = state_size_tag }
+			MED = { set_country_flag = state_size_tag }
+			LRG = { set_country_flag = state_size_tag }
+			HUG = { set_country_flag = state_size_tag }
+
+
 			any_owned = {
 				add_crime = no_nuke
 			}
@@ -275,9 +282,34 @@ political_decisions = {
 			3449 = {
 				add_province_modifier = {
 					name = staging_ground
-					duration = -1
+					duration = 730 #-1
 				}
 			}
+			1456 = {
+				add_province_modifier = {
+					name = staging_ground
+					duration = 730
+				}
+			}
+			1455 = {
+				add_province_modifier = {
+					name = staging_ground
+					duration = 730
+				}
+			}
+			1462 = {
+				add_province_modifier = {
+					name = staging_ground
+					duration = 730
+				}
+			}
+			1463 = {
+				add_province_modifier = {
+					name = staging_ground
+					duration = 730
+				}
+			}
+
 			COR = {
 				add_country_modifier = {
 					name = cornwall_funding
@@ -336,7 +368,7 @@ political_decisions = {
 
 		}
 		effect = {
-
+			set_country_flag = is_usa
 
 			JAN = {
 				country_event = 70070024
@@ -1033,7 +1065,7 @@ political_decisions = {
 						NOT = {type = soldiers}
 						NOT = {type = craftsmen}
 					}
-					reduce_pop = 2
+					#reduce_pop = 2
 				}
 			}
 
@@ -1051,15 +1083,21 @@ political_decisions = {
 				name = the_statue_of_liberty
 				duration = -1
 			}
-			220 = {
+			#220 = {
+			#	add_province_modifier = {
+			#		name = racial_integration
+			#		duration = -1
+			#	}
+			#}
+			#192 = {
+			#	add_province_modifier = {
+			#		name = racial_discontent
+			#		duration = -1
+			#	}
+			#}
+			189 = {
 				add_province_modifier = {
-					name = racial_integration
-					duration = -1
-				}
-			}
-			192 = {
-				add_province_modifier = {
-					name = racial_discontent
+					name = civil_rights_movement
 					duration = -1
 				}
 			}
@@ -1144,6 +1182,13 @@ political_decisions = {
 			
 		}
 		effect = {
+			any_country = {
+				limit = {
+					civilized = no
+				}
+				civilized = yes
+			}
+		
 			BGE = {
 				set_variable = {
 					which = bormann_protests

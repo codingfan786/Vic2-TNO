@@ -690,7 +690,33 @@ assimilation_chance =
 		culture = afro_american
 	}
 
-	
+	group = {
+		modifier = {
+			factor = 100
+			country = {
+				has_country_flag = is_new_africa
+			}
+			location = {
+				OR = { 
+					continent = north_america
+					continent = south_america
+				}
+			}
+		}
+		modifier = {
+			factor = -99
+			country = {
+				has_country_flag = is_new_africa
+			}
+			location = {
+				OR = { 
+					continent = north_america
+					continent = south_america
+				}
+			}
+			has_culture_core = no
+		}
+	}
 
 	group = {
 		#modifier = {

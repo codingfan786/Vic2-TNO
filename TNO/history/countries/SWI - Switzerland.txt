@@ -3,7 +3,7 @@ capital = 605
 primary_culture = swiss
 religion = protestant
 government = democracy
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.7
  
@@ -87,7 +87,7 @@ oob = "SWI_oob.txt"
 
 2059.1.1 = {
 	oob = "/1861/SWI_oob.txt"
-	plurality = 60
+	plurality = 10
 	literacy = 0.90
 }
 2059.1.1 = {

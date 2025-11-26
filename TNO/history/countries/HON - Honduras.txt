@@ -3,7 +3,7 @@ capital = 2193
 primary_culture = central_american
 religion = protestant
 government = democracy
-plurality = 25.1
+plurality = 10
 nationalvalue = nv_liberty
 literacy = 0.17
  
@@ -61,7 +61,7 @@ consciousness = 2
 nonstate_consciousness = 0
 2059.1.1 = {
 	oob = "/1861/HON_oob.txt"
-	plurality = 50
+	plurality = 10
 }
 2059.1.1 = {
 # Technologies

@@ -6,7 +6,7 @@ culture = misri
 #culture = maghrebi
 religion = protestant
 government = democracy
-plurality = 0.2
+plurality = 10
 nationalvalue = nv_equality
 literacy = 0.6
  

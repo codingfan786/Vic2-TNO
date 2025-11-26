@@ -4,7 +4,7 @@ primary_culture = central_american
 culture = mayan
 religion = protestant
 government = democracy
-plurality = 0.1
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.17
  
@@ -41,7 +41,7 @@ upper_house = {
 
 2059.1.1 = {
 	oob = "/1861/GUA_oob.txt"
-	plurality = 50
+	plurality = 10
 }
 2059.1.1 = {
 # Technologies

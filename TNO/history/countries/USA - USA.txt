@@ -1,11 +1,11 @@
 civilized = yes
 capital = 220
 primary_culture = yankee
-culture = dixie
-culture = texan
+#culture = dixie
+#culture = texan
 religion = protestant
 government = democracy2
-plurality = 25.0
+plurality = 25
 nationalvalue = nv_liberty
 literacy = 0.60
 non_state_culture_literacy = 0.2

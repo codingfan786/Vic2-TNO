@@ -6,7 +6,7 @@ culture = basque
 culture = galician
 religion = protestant
 government = democracy
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_equality
 literacy = 0.13
  
@@ -95,7 +95,7 @@ oob = "SPA_oob.txt"
 2059.1.1 = {
 	oob = "/1861/SPA_oob.txt"
 	
-plurality = 60
+plurality = 10
 literacy = 0.30
 non_state_culture_literacy = 0.15
 

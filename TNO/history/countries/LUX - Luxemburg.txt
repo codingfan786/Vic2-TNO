@@ -4,7 +4,7 @@ primary_culture = north_german
 culture = french
 religion = protestant
 government = absolute_monarchy
-plurality = 25.2
+plurality = 10
 nationalvalue = nv_liberty
 literacy = 0.45
  
@@ -76,7 +76,7 @@ nonstate_consciousness = 1
 oob = "LUX_oob.txt"
 2059.1.1 = {
 	oob = "/1861/LUX_oob.txt"
-	plurality = 60
+	plurality = 10
 	literacy = 0.80
 }
 2059.1.1 = {

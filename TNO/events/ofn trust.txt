@@ -722,6 +722,7 @@ country_event = {
 		exists = OFN
 		has_global_flag = ofn_dissolved
 		NOT = {tag = OFN}
+		NOT = { has_country_flag = state_size_tag }
 		war = no
 		any_core = {
 			owner = {
@@ -774,12 +775,14 @@ country_event = {
 				NOT = {tag = OFN}
 				exists = no
 				have_core_in = OFN
+				NOT = { has_country_flag = state_size_tag }
 			}
 			all_core = {
 				limit = {
 					owner = {tag = OFN}
 				}
 				#give them back the core somehow
+				#may not be necessary
 			}
 		}
 		overlord = {inherit = THIS}

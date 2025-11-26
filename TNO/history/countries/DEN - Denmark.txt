@@ -4,7 +4,7 @@ primary_culture = danish
 culture = icelandic
 religion = protestant
 government = democracy
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.8
 non_state_culture_literacy = 0.6 #Germans
@@ -80,7 +80,7 @@ decision = danmarks_riges_grundlov
 
 2059.1.1 = {
 	oob = "/1861/DEN_oob.txt"
-	plurality = 60
+	plurality = 10
 	literacy = 0.90
 	non_state_culture_literacy = 0.7 #Germans
 

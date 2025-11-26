@@ -1,80 +1,271 @@
 province_event = {
 	id = 500059
-	title = "Southern Tensions in $PROVINCENAME$"
-	desc = "Tensions over the integration of the Afro American population in the south have risen in $PROVINCENAME$."
+	title = "Racial Tensions in $PROVINCENAME$"
+	desc = "500059_desc"
 	allow_multiple_instances = yes
 
 	trigger = {
 		owner = {
 			tag = USA
+			NOT = {has_country_flag = civil_rights}
 		}
-		any_neighbor_province = {has_province_modifier = racial_discontent}
+
+		any_neighbor_province = {
+			OR = {
+				has_province_modifier = racial_integration
+				has_province_modifier = racial_discontent
+				has_province_modifier = civil_rights_movement
+			}
+		}
+
 		NOT = {has_province_modifier = racial_discontent}
 		NOT = {has_province_modifier = racial_integration}
-		OR = {
-			culture = dixie
-			culture = afro_american
-		}
-		NOT = {
-			has_global_flag = acw_start
-		}
+		NOT = {has_province_modifier = civil_rights_movement}
 	}
 	
 	mean_time_to_happen = {
-		months = 42 #600
+		months = 120 #600
 		modifier = {
-			factor = 2
-			owner = {ruling_party_ideology = liberal}
+			factor = 0.5
+			OR = {
+				province_id = 189
+				province_id = 188
+				province_id = 191
+				province_id = 190
+				province_id = 194
+				province_id = 192
+				province_id = 193
+				province_id = 196
+				province_id = 195
+				province_id = 197
+				province_id = 200
+				province_id = 199
+				province_id = 198
+				province_id = 201
+				province_id = 202
+				province_id = 204
+				province_id = 205
+				province_id = 206
+				province_id = 2555
+				province_id = 2556
+				province_id = 209
+				province_id = 207
+				province_id = 208
+				province_id = 210
+				province_id = 211
+				province_id = 212
+				province_id = 213
+				province_id = 214
+				province_id = 215
+				province_id = 216
+				province_id = 144
+				province_id = 143
+				province_id = 145
+				province_id = 139
+				province_id = 140
+				province_id = 141
+				province_id = 142
+			}
 		}
 		modifier = {
-			factor = 1.25
-			state_scope = {
-				bureaucrats = 0.005
+			factor = 0.5
+			OR = {
+				any_pop = {
+					has_pop_culture = afro_american
+					OR = {
+						type = farmers
+						type = labourers
+					}
+					militancy = 7
+				}
+				any_neighbor_province = {
+					OR = {
+						has_province_modifier = racial_discontent
+						has_province_modifier = racial_integration
+						has_province_modifier = civil_rights_movement
+					}
+					any_pop = {
+						has_pop_culture = afro_american
+						OR = {
+							type = farmers
+							type = labourers
+						}
+						militancy = 7
+					}
+				}
 			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				any_pop = {
+					has_pop_culture = afro_american
+					OR = {
+						type = farmers
+						type = labourers
+					}
+					militancy = 8
+				}
+				any_neighbor_province = {
+					OR = {
+						has_province_modifier = racial_discontent
+						has_province_modifier = racial_integration
+						has_province_modifier = civil_rights_movement
+					}
+					any_pop = {
+						has_pop_culture = afro_american
+						OR = {
+							type = farmers
+							type = labourers
+						}
+						militancy = 8
+					}
+				}
+			}	
+		}
+		modifier = {
+			factor = 0.5
+			controlled_by_rebels = yes
 		}
 	}
 	
 	immediate = {
-		add_province_modifier = {
-			name = racial_discontent
-			duration = -1
-		}
+			add_province_modifier = {
+				name = racial_discontent
+				duration = -1
+			}
 	}
 	option = {
 		name = "Tensions rise..."
 	}
 }
 
-
 province_event = {
 	id = 500060
 	title = "Desegregation in $PROVINCENAME$"
-	desc = "Federal programs have finally desegregated $PROVINCENAME$."
+	desc = "500060_desc"
 	allow_multiple_instances = yes
 
 	trigger = {
 		owner = {
 			tag = USA
+			NOT = {has_country_flag = civil_rights}
 		}
-		any_neighbor_province = {has_province_modifier = racial_integration}
+
+		any_neighbor_province = {
+			OR = {
+				has_province_modifier = racial_integration
+				#has_province_modifier = racial_discontent
+				has_province_modifier = civil_rights_movement
+			}
+		}
+
 		NOT = {has_province_modifier = racial_discontent}
 		NOT = {has_province_modifier = racial_integration}
-		OR = {
-			culture = dixie
-			culture = afro_american
-		}
-		NOT = {
-			has_global_flag = acw_start
-		}
+		NOT = {has_province_modifier = civil_rights_movement}
 	}
 	
 	mean_time_to_happen = {
-		months = 128 #600
+		months = 120 #600
 		modifier = {
-			factor = 0.2
-			state_scope = {
-				bureaucrats = 0.005
+			factor = 0.5
+			OR = {
+				province_id = 189
+				province_id = 188
+				province_id = 191
+				province_id = 190
+				province_id = 194
+				province_id = 192
+				province_id = 193
+				province_id = 196
+				province_id = 195
+				province_id = 197
+				province_id = 200
+				province_id = 199
+				province_id = 198
+				province_id = 201
+				province_id = 202
+				province_id = 204
+				province_id = 205
+				province_id = 206
+				province_id = 2555
+				province_id = 2556
+				province_id = 209
+				province_id = 207
+				province_id = 208
+				province_id = 210
+				province_id = 211
+				province_id = 212
+				province_id = 213
+				province_id = 214
+				province_id = 215
+				province_id = 216
+				province_id = 144
+				province_id = 143
+				province_id = 145
+				province_id = 139
+				province_id = 140
+				province_id = 141
+				province_id = 142
 			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				any_pop = {
+					has_pop_culture = afro_american
+					OR = {
+						type = farmers
+						type = labourers
+					}
+					militancy = 5
+					NOT = {militancy = 8}
+				}
+				any_neighbor_province = {
+					OR = {
+						has_province_modifier = racial_integration
+						has_province_modifier = civil_rights_movement
+					}
+					any_pop = {
+						has_pop_culture = afro_american
+						OR = {
+							type = farmers
+							type = labourers
+						}
+						militancy = 5
+						NOT = {militancy = 8}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				any_pop = {
+					has_pop_culture = afro_american
+					OR = {
+						type = farmers
+						type = labourers
+					}
+					militancy = 6
+					NOT = {militancy = 8}
+				}
+				any_neighbor_province = {
+					OR = {
+						has_province_modifier = racial_integration
+						has_province_modifier = civil_rights_movement
+					}
+					any_pop = {
+						has_pop_culture = afro_american
+						OR = {
+							type = farmers
+							type = labourers
+						}
+						militancy = 6
+						NOT = {militancy = 8}
+					}
+				}
+			}	
 		}
 	}
 	
@@ -86,109 +277,443 @@ province_event = {
 	}
 	option = {
 		name = "On equal footing..."
+		owner = {
+			prestige = 2
+		}
 	}
 }
 
 country_event = {
-	major = yes
+	#major = yes
 
 	id = 500061
-	title = "Anarchy in the south!"
-	desc = "Tensions have risen to the breaking point and anarchy has descended on the southern states! Mass lynchings are occuring and immediate military invervention is needed desparately!"
+	title = "AA_reform_title"
+	desc = "AA_reform_desc_alt"
 
 	fire_only_once = yes
 	
 	trigger = {
 		tag = USA
-		OR = {
-			all_core = {
-				OR = {
-					NOT = {
-						OR = {
-							culture = dixie
-							culture = afro_american
-						}
-					}
-					OR = {
-						has_province_modifier = racial_discontent
-						has_province_modifier = racial_integration
-					}
-					OR = {
-						province_id = 4
-						province_id = 1
-						province_id = 2
-						province_id = 2630
-						province_id = 2599
-						province_id = 3
-						province_id = 5
-						province_id = 2631	
-						province_id = 149
-						province_id = 147
-						province_id = 148
-						province_id = 145
-						province_id = 173
-						province_id = 163
-					}
-				}
+		NOT = {has_country_flag = civil_rights}
+		NOT = {
+			usa_south = {
+				NOT = {has_province_modifier = racial_integration}
+				NOT = {has_province_modifier = racial_discontent}
+				NOT = {has_province_modifier = civil_rights_movement}
 			}
-			year = 1980
 		}
-		
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		months = 3
 	}
 
 	immediate = {
-		any_owned = {
-			limit = {
-				has_province_modifier = racial_discontent
-			}
-			add_province_modifier = {
-				name = uncontrolled_lynchings
-				duration = 1825
-			}
+		set_country_flag = civil_rights
+
+		set_variable = {
+			which = civil_rights_support
+			value = 2
 		}
 		any_owned = {
 			limit = {
 				has_province_modifier = racial_integration
 			}
-			remove_province_modifier = racial_integration
+			THIS = {
+				change_variable = {
+					which = civil_rights_support
+					value = 1
+				}
+			}
+		}
+		any_owned = {
+			limit = {
+				has_province_modifier = racial_discontent
+			}
+			THIS = {
+				change_variable = {
+					which = civil_rights_support
+					value = -1
+				}
+			}
 		}
 
-		set_global_flag = acw_start
-
-		any_country = {
-			limit = {has_country_flag = reform_blocked}
-			clr_country_flag = reform_blocked
+		random_owned = {
+			limit = {
+				THIS = {
+					check_variable = {
+						which = civil_rights_support
+						value = 1
+					}
+				}
+			}
+			THIS = {add_accepted_culture = afro_american}
+			THIS = {
+				any_owned = {
+					remove_province_modifier = racial_integration
+					remove_province_modifier = racial_discontent
+					remove_province_modifier = civil_rights_movement
+				}
+			}
 		}
-
+		random_owned = {
+			limit = {
+				THIS = {
+					NOT = {
+						check_variable = {
+							which = civil_rights_support
+							value = 1
+						}
+					}
+				}
+			}
+			THIS = {
+				#change_tag = CSA
+				country_event = 500062
+			}
+		}
 	}
 	option = {
-		name = "How terrible!"
+		name = "Fantastic!"
 	}
 }
 
-province_event = {
+
+country_event = {
+	major = yes
+
+	is_triggered_only = yes
+
 	id = 500062
-	title = "$PROVINCENAME$ Pacified"
-	desc = "Mass lynchings in $PROVINCENAME$ have come to a halt recently due to the approach of Federal troops."
-
-	trigger = {
-		has_province_modifier = uncontrolled_lynchings
-		country_units_in_province = THIS
-	}
-
-	mean_time_to_happen = {
-		days = 7
-	}
+	title = "Second American Civil War!"
+	desc = "acw_declaration"
 
 	immediate = {
-		remove_province_modifier = uncontrolled_lynchings
+		change_tag = CSA
+		CSA = {
+			usa_south = {
+				remove_province_modifier = racial_integration
+				remove_province_modifier = civil_rights_movement
+				add_province_modifier = {
+					name = racial_discontent
+					duration = 1
+				}
+			}
+			any_owned = {
+				limit = {
+					NOT = {has_province_modifier = racial_discontent}
+				}
+				secede_province = USA
+			}
+			220 = {secede_province = USA}
+			106 = {secede_province = USA}
+			primary_culture = afro_american
+		}
+
+
+		USA = {
+			any_owned = {
+				remove_province_modifier = racial_integration
+				remove_province_modifier = racial_discontent
+				remove_province_modifier = civil_rights_movement
+			}
+		}
+		CSA = {
+			any_owned = {
+				remove_province_modifier = racial_integration
+				remove_province_modifier = racial_discontent
+				remove_province_modifier = civil_rights_movement
+			}
+		}
+
+		USA = {
+			set_country_flag = civil_rights
+			random_owned = {
+				limit = {
+					220 = {owner = {tag = USA}}
+				}
+				USA = {capital = 220}
+			}
+			#random_owned = {
+			#	limit = {
+			#		NOT = {220 = {owner = {tag = USA}}}
+			#		232 = {owner = {tag = USA}}
+			#	}
+			#	USA = {capital = 232}
+			#}
+			random_owned = {
+				limit = {
+					NOT = {220 = {owner = {tag = USA}}}
+					#NOT = {232 = {owner = {tag = USA}}}
+					106 = {owner = {tag = USA}}
+				}
+				USA = {capital = 106}
+			}
+			country_event = 500307
+			#country_event = {
+			#	id = 500307
+			#	days = 3
+			#}
+		}
+
 	}
+
+	option = {
+		name = "We must liberate ourselves by force!"
+		
+	}
+}
+
+
+country_event = {
+	is_triggered_only = yes
+
+	id = 500307
+	title = "Second American Civil War!"
+	desc = "Oh no!"
+
+	immediate = {
+		set_country_flag = is_usa
+		random_owned = {
+			limit = {
+				CSA = {
+					has_country_flag = ofn_leader
+				}
+			}
+			CSA = {clr_country_flag = ofn_leader}
+			USA = {set_country_flag = ofn_leader}
+		}
+		random_owned = {
+			limit = {
+				CSA = {
+					has_country_flag = in_ofn
+				}
+			}
+			CSA = {clr_country_flag = in_ofn}
+			USA = {set_country_flag = in_ofn}
+		}
+		country_event = 500122
+
+		clr_country_flag = primary_nukes
+		set_country_flag = nukestart
+
+		CSA = {
+			primary_culture = afro_american
+			add_accepted_culture = afro_caribbean
+			add_accepted_culture = afro_caribeno
+			add_accepted_culture = afro_brazilian
+			add_accepted_culture = afro_antillean
+			set_country_flag = is_new_africa
+		}
+		CSA = {
+			any_owned = {
+				change_controller = CSA
+			}
+		}
+		#USA = {any_owned = {remove_core = CSA}}
+		#CSA = {any_owned = {remove_core = USA}}
+		
+
+
+
+		release = CAL
+		release = COL
+		release = DES
+		release = HAW
+		release = CHE
+		release = NEN
+		release = TEX
+		release = MAN
+
+		random_owned = {
+			limit = {
+				exists = CAL
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						any_neighbor_province = {
+							owner = {tag = CAL}
+						}
+					}
+					change_controller = CAL
+				}
+				war = {
+					target = CAL
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				exists = COL
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						any_neighbor_province = {
+							owner = {tag = COL}
+						}
+					}
+					change_controller = COL
+				}
+				war = {
+					target = COL
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				exists = DES
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						any_neighbor_province = {
+							owner = {tag = DES}
+						}
+					}
+					change_controller = DES
+				}
+				war = {
+					target = DES
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				exists = HAW
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						any_neighbor_province = {
+							owner = {tag = HAW}
+						}
+					}
+					change_controller = HAW
+				}
+				war = {
+					target = HAW
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				exists = NEN
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						any_neighbor_province = {
+							owner = {tag = NEN}
+						}
+					}
+					change_controller = NEN
+				}
+				war = {
+					target = NEN
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				exists = TEX
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						any_neighbor_province = {
+							owner = {tag = TEX}
+						}
+					}
+					change_controller = TEX
+				}
+				war = {
+					target = TEX
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				exists = CHE
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						any_neighbor_province = {
+							owner = {tag = CHE}
+						}
+					}
+					change_controller = CHE
+				}
+				war = {
+					target = CHE
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				exists = MAN
+			}
+			THIS = {
+				any_owned = {
+					limit = {
+						any_neighbor_province = {
+							owner = {tag = MAN}
+						}
+					}
+					change_controller = MAN
+				}
+				war = {
+					target = MAN
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_owned = {
+			limit = {
+				any_neighbor_province = {
+					owner = {tag = CSA}
+				}
+			}
+			change_controller = CSA
+			any_neighbor_province = {
+				change_controller = CSA
+			}
+		}
+
+		war = {
+			target = CSA
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = civil_war }
+			call_ally = no
+		}
+	}
+
 	option = {
 		name = "Stability must be brought by force!"
 	}
 }
-

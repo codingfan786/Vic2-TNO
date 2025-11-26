@@ -4,7 +4,7 @@ primary_culture = central_american
 culture = north_andean
 religion = protestant
 government = democracy
-plurality = 0.1
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.25
  

@@ -4,7 +4,7 @@ primary_culture = brazilian
 culture = afro_brazilian
 religion = protestant
 government = democracy
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_liberty
 literacy = 0.08
 non_state_culture_literacy = 0.02
@@ -71,7 +71,7 @@ oob = "BRZ_oob.txt"
 }
 2059.1.1 = {
 
-plurality = 60
+plurality = 10
 
 # Technologies
 	post_napoleonic_thought = 1

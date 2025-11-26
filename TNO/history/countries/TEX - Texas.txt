@@ -1,10 +1,10 @@
 civilized = no
 capital = 133
-primary_culture = texan
-culture = mexican
+primary_culture = yankee
+#culture = mexican
 religion = protestant
 government = democracy
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_liberty
 literacy = 0.50
  

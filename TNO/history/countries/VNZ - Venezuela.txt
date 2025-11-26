@@ -3,7 +3,7 @@ capital = 2264
 primary_culture = north_andean
 religion = protestant
 government = presidential_dictatorship
-plurality = 0.25
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.11
 non_state_culture_literacy = 0.05
@@ -64,7 +64,7 @@ oob = "VNZ_oob.txt"
 
 2059.1.1 = {
 	oob = "/1861/VNZ_oob.txt"
-	plurality = 50
+	plurality = 10
 	literacy = 0.12
 	non_state_culture_literacy = 0.05
 }

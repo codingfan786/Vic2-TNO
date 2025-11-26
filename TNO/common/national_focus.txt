@@ -56,6 +56,37 @@ diplomatic_focus =
 			
 		}
 	}
+
+	increase_ethnic_tension =
+	{
+		icon = 4
+
+		pop_militancy_modifier = 0.2
+		pop_consciousness_modifier  = -0.05
+
+		limit = {
+			is_core = THIS
+			has_country_flag = is_usa
+			NOT = {
+				has_country_flag = civil_rights
+			}
+		}
+	}
+	decrease_ethnic_tension =
+	{
+		icon = 4
+
+		pop_militancy_modifier = -0.05
+		pop_consciousness_modifier = 0.1
+
+		limit = {
+			is_core = THIS
+			has_country_flag = is_usa
+			NOT = {
+				has_country_flag = civil_rights
+			}
+		}
+	}
 }
 
 promotion_focus =

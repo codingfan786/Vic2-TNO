@@ -3,7 +3,7 @@ capital = 2199 #Leon
 primary_culture = central_american
 religion = protestant
 government = presidential_dictatorship
-plurality = 0.1
+plurality = 10
 nationalvalue = nv_equality
 literacy = 0.17
  
@@ -41,7 +41,7 @@ upper_house = {
 }
 2059.1.1 = {
 	oob = "/1861/NIC_oob.txt"
-	plurality = 50
+	plurality = 10
 	civilized = no
 capital = 2197 #Managua 1852
 }

@@ -227,6 +227,7 @@ country_event = {
 		#ghost units..
 		any_country = {
 			limit = {
+				NOT = {tag = REB}
 				is_greater_power = no
 				exists = no
 				OR = {
@@ -255,12 +256,7 @@ country_event = {
 
 
 
-		any_country = {
-			limit = {
-				civilized = no
-			}
-			civilized = yes
-		}
+		
 	}
 
 	option = {

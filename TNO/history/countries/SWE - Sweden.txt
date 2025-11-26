@@ -4,7 +4,7 @@ primary_culture = swedish
 culture = sami
 religion = protestant
 government = democracy
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.8
  
@@ -81,7 +81,7 @@ decision = pass_folkskolereformen
 
 2059.1.1 = {
 	oob = "/1861/SWE_oob.txt"
-	plurality = 60
+	plurality = 10
 	literacy = 0.95
 
 # Political reforms

@@ -4,7 +4,7 @@ primary_culture = latvian
 culture = estonian
 religion = protestant
 government = absolute_monarchy
-plurality = 0.2
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.6
  

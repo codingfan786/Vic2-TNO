@@ -1387,7 +1387,8 @@ american_cultures = {
 	leader = european
 	is_overseas = no
 	yankee = {
-		color = {65 65 129}
+		#color = {65 65 129}
+		color = {92 126 188}
 		first_names = { Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
 				Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
 				Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
@@ -1596,7 +1597,8 @@ african_diaspora_cultures = {
 	is_overseas = no
 	unit = AfricanGC
 	afro_american = {
-		color = {42 42 42}
+		#color = {42 42 42}
+		color = {87 90 73}
 		first_names = { Aaron Alexander Andre Benton Caesar Cathay Charles Colin Ebenezer Edgar
 		Edward Frederick George Henry James Joseph Lewis Lloyd Matin Michael 
 		Milton Osborne Pinckney Powhatan Robert Samuel Stewart Thomas William Wilson }

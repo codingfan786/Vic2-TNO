@@ -532,13 +532,17 @@ uncontrolled_lynchings = {
 }
 
 racial_integration = {
-	pop_consciousness_modifier = 0.05
+	pop_militancy_modifier = -0.05
 	icon = 19
 }
 
 racial_discontent = {
 	pop_militancy_modifier = 0.05
 	icon = 20
+}
+
+civil_rights_movement = {
+	icon = 19
 }
 
 athenscouncilclaim = {

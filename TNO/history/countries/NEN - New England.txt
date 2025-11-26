@@ -1,10 +1,10 @@
 civilized = no
 capital = 243
 primary_culture = yankee
-culture = dixie
+#culture = dixie
 religion = protestant
 government = democracy
-plurality = 0.5
+plurality = 10
 nationalvalue = nv_liberty
 literacy = 0.50
  
