@@ -31,6 +31,7 @@ political_decisions = {
 		picture = spy
 		
 		potential = {
+			always = no
 			has_country_flag = spy_agency_formed
 
 			OR = {

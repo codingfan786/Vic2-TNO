@@ -33,7 +33,7 @@ country_event = {
 	id = 500244
 	title = "Nuclear Launch!"
 	desc = "event500244desc"
-
+	allow_multiple_instances = yes
 	major = yes
 
 	mean_time_to_happen = {

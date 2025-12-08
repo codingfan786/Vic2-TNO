@@ -24,11 +24,21 @@ political_decisions = {
 			OR = {
 				AND = {
 					tag = ITA
-					IAL = {in_sphere = THIS}
+					IAL = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
 				}
 				AND = {
 					tag = IBE
-					SAL = {in_sphere = THIS}
+					SAL = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
 				}
 			}
 		}

@@ -240,4 +240,67 @@ political_decisions = {
 			country_event = 500061
 		}
 	}
+
+	new_africa_core_cleanup = {
+		picture = enact_anaconda_plan
+		potential = {
+			tag = CSA
+			NOT = {has_country_flag = usa_gone_lol}
+		}
+		allow = {
+			NOT = {exists = USA}
+			USA = {
+				all_core = {
+					OR = {
+						NOT = {culture = yankee}
+						NOT = {continent = north_america}
+						province_id = 3449
+					}
+				}
+			}
+		}
+		effect = {
+			setz_country_flag = usa_gone_lol
+			USA = {
+				all_core = {
+					remove_core = USA
+				}
+			}
+			CAL = {
+				all_core = {
+					remove_core = CAL
+				}
+			}
+			COL = {
+				all_core = {
+					remove_core = COL
+				}
+			}
+			DES = {
+				all_core = {
+					remove_core = DES
+				}
+			}
+			CHE = {
+				all_core = {
+					remove_core = CHE
+				}
+			}
+			NEN = {
+				all_core = {
+					remove_core = NEN
+				}
+			}
+			TEX = {
+				all_core = {
+					remove_core = TEX
+				}
+			}
+			MAN = {
+				all_core = {
+					remove_core = MAN
+				}
+			}
+		}
+	}
 }
