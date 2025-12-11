@@ -3885,3 +3885,144 @@ country_event = {
 		name = "Crisis adverted!"
 	}
 }
+
+country_event = {
+	id = 500308
+	title = "We've lost the German Civil War!"
+	desc = "The situation looks grim! Maybe we should defect, but to whom?"
+	is_triggered_only = yes
+
+	option = {
+		name = "Goering!"
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {tag = GGE}
+					GGE = {ai = yes}
+				}
+			}
+			GGE = {
+				badboy = 10
+			}
+			THIS = {
+				#set_country_flag = gcw_loser_die
+				any_owned = {
+					limit = {
+						OR = {
+							controlled_by = THIS
+							controlled_by_rebels = yes
+						}
+					}
+					change_controller = GGE
+				}
+				change_tag_no_core_switch = GGE
+			}
+		}
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "Bormann!"
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {tag = BGE}
+					BGE = {ai = yes}
+				}
+			}
+			BGE = {
+				badboy = 10
+			}
+			THIS = {
+				#set_country_flag = gcw_loser_die
+				any_owned = {
+					limit = {
+						OR = {
+							controlled_by = THIS
+							controlled_by_rebels = yes
+						}
+					}
+					change_controller = BGE
+				}
+				change_tag_no_core_switch = BGE
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "Speer!"
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {tag = SGE}
+					SGE = {ai = yes}
+				}
+			}
+			SGE = {
+				badboy = 10
+			}
+			THIS = {
+				#set_country_flag = gcw_loser_die
+				any_owned = {
+					limit = {
+						OR = {
+							controlled_by = THIS
+							controlled_by_rebels = yes
+						}
+					}
+					change_controller = SGE
+				}
+				change_tag_no_core_switch = SGE
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "Heydrich!"
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {tag = HGE}
+					HGE = {ai = yes}
+				}
+			}
+			HGE = {
+				badboy = 10
+			}
+			THIS = {
+				#set_country_flag = gcw_loser_die
+				any_owned = {
+					limit = {
+						OR = {
+							controlled_by = THIS
+							controlled_by_rebels = yes
+						}
+					}
+					change_controller = HGE
+				}
+				change_tag_no_core_switch = HGE
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "We will fight to the bitter end!"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+

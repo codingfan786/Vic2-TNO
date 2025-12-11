@@ -110,6 +110,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		always = no
+
 		NOT = {has_global_flag = rus_unified}
 		primary_culture = russian
 		NOT = {tag = MSC}
@@ -128,8 +130,10 @@ country_event = {
 		NOT = {exists = R12}
 		NOT = {exists = R13}
 
+
 		OR = {
 			has_global_flag = ER_unify
+			has_global_flag = ER_unify_hasty
 			AND = {
 				NOT = {exists = WA2}
 				NOT = {exists = NKV}
@@ -148,6 +152,7 @@ country_event = {
 
 		OR = {
 			has_global_flag = WR_unify
+			has_global_flag = WR_unify_hasty
 			AND = {
 				NOT = {exists = RAR}
 				NOT = {exists = RUS}
@@ -893,7 +898,7 @@ country_event = {
 						NOT = {tag = ALK}
 						NOT = {tag = SOV}
 						NOT = {tag = WRU}
-						ai = no
+						ai = no  #either THIS is a player or there are no player russias involved in the war to unify to
 					}
 				}
 			}
@@ -1128,6 +1133,9 @@ country_event = {
 			clr_country_flag = east_unifier
 			country_event = 500297
 		}
+
+		set_global_flag = ER_unify_hasty
+		set_global_flag = WR_unify_hasty
 	}
 
 	option = {

@@ -44,7 +44,10 @@ political_decisions = {
 						tag = CAM
 						tag = DAI
 					}
-					vassal_of = THIS
+					OR = {
+						vassal_of = THIS
+						vassal_of = JAP
+					}
 					exists = yes
 				}
 				any_owned = {
@@ -76,4 +79,55 @@ political_decisions = {
 		}
 	}
 
+	player_thailand = {
+		potential = {
+			tag = SIA
+			ai = no
+			NOT = {has_country_flag = player_thailand_started}
+			NOT = {has_country_flag = consolidated_indochina}
+		}
+		allow = {
+			is_vassal = no
+		}
+		effect = {
+			set_country_flag = player_thailand_started
+
+			any_country = {
+				limit = {
+					tag = BUR
+					
+					vassal_of = JAP
+					exists = yes
+				}
+				THIS = {create_vassal = BUR}
+			}
+			any_country = {
+				limit = {
+					tag = LUA
+					
+					vassal_of = JAP
+					exists = yes
+				}
+				THIS = {create_vassal = LUA}
+			}
+			any_country = {
+				limit = {
+					tag = CAM
+
+					vassal_of = JAP
+					exists = yes
+				}
+				THIS = {create_vassal = CAM}
+			}
+			any_country = {
+				limit = {
+					tag = DAI
+					
+					vassal_of = JAP
+					exists = yes
+				}
+				THIS = {create_vassal = DAI}
+			}
+		}
+	}
 }

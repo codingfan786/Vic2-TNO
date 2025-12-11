@@ -20,25 +20,25 @@ substate = {
 }
 
 vassal = {
-	first = SIA #JAP
+	first = JAP
 	second = BUR
 	start_date = 1836.1.1
 }
 
 vassal = {
-	first = SIA #JAP
+	first = JAP
 	second = DAI
 	start_date = 1836.1.1
 }
 
 vassal = {
-	first = SIA #JAP
+	first = JAP
 	second = CAM
 	start_date = 1836.1.1
 }
 
 vassal = {
-	first = SIA #JAP
+	first = JAP
 	second = LUA
 	start_date = 1836.1.1
 }

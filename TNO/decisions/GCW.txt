@@ -3,12 +3,7 @@ political_decisions = {
 		picture = form_north_german_confederation
 		potential = {
 			exists = GER
-			OR = {
-				tag = GGE
-				tag = BGE
-				tag = SGE
-				tag = HGE
-			}
+			has_country_flag = is_germany_optimization_flag
 		}
 		allow = {
 			OR = {
@@ -197,6 +192,31 @@ political_decisions = {
 				sub_unit = {type = clipper_transport value = current}
 			}
 			badboy = -100
+		}
+	}
+
+	loss_in_the_gcw = {
+		picture = form_north_german_confederation
+		potential = {
+			ai = no
+			exists = GER
+			has_country_flag = is_germany_optimization_flag
+		}
+		allow = {
+			OR = {
+				war_with = GGE
+				war_with = BGE
+				war_with = SGE
+				war_with = HGE
+			}
+			OR = {
+				war_exhaustion = 50
+				national_provinces_occupied = 0.8
+				num_of_revolts = 15
+			}
+		}
+		effect = {
+			country_event = 500308
 		}
 	}
 

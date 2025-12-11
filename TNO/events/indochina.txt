@@ -21,7 +21,10 @@ country_event = {
 					tag = CAM
 					tag = DAI
 				}
-				vassal_of = THIS
+				OR = {
+					vassal_of = THIS
+					vassal_of = JAP
+				}
 				exists = yes
 			}
 			any_owned = {

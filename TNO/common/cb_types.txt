@@ -1466,6 +1466,11 @@ rus_uni = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			primary_culture = russian
+			primary_culture = siberian
+		}
+
 		NOT = {truce_with = THIS}
 		NOT = {has_global_flag = rus_unified}
 		NOT = { is_our_vassal = THIS }
@@ -1640,6 +1645,11 @@ rus_uni_substate = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			primary_culture = russian
+			primary_culture = siberian
+		}
+
 		NOT = {truce_with = THIS}
 		NOT = {has_global_flag = rus_unified}
 		NOT = { is_our_vassal = THIS }
