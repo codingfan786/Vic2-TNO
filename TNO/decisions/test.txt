@@ -14,12 +14,7 @@ political_decisions = {
 			
 		}
 		effect = {
-			any_owned = {
-				add_province_modifier = {
-					name = racial_integration
-					duration = -1
-				}
-			}
+			change_tag_no_core_switch = USA
 		}
 	}
 

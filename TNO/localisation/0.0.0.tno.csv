@@ -1316,3 +1316,5 @@ player_thailand_title;Transfer Administration;x
 player_thailand_desc;In the event that there is a player on Thailand, the surrounding Indochina puppets should be their puppets.;x
 loss_in_the_gcw_title;Death in the German Civil War!;x
 loss_in_the_gcw_desc;You've lost to AI/rebels? Loser skill issue moment? Well here you can switch to another German participant and hand over all remaining occupation to them. This will cost your new country 10 infamy.;x
+surrender_to_player_title;Full Surrender;x
+surrender_to_player_desc;THIS WILL GIVE FULL OCCUPATION TO A RANDOM PLAYER YOU ARE AT WAR WITH. NO TAKE BACKS. NO REHOSTS. ONLY CLICK THIS IF SOMEONE DOESN'T HAVE WARSCORE AND NEEDS TO ADD AFTER SURRENDER.;x

@@ -425,9 +425,12 @@ country_event = {
 		months = 120
 	}
 
+	immediate = {
+		treasury = -1000000
+	}
 	option = {
 		name = "Schiebe... This will not go down well for the budget."
-		treasury = -1000000
+		#treasury = -1000000
 	}
 }
 
@@ -439,7 +442,7 @@ country_event = {
 	trigger = {
 		tag = GGE
 		year = 1982
-		ai = no
+		#ai = no
 	}
 
 	mean_time_to_happen = {

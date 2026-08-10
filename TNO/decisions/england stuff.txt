@@ -83,6 +83,7 @@ political_decisions = {
 					OR = {
 						owner = {in_sphere = THIS}
 						owner = {tag = THIS}
+						owner = {vassal_of = THIS}
 					}
 				}
 			}
@@ -116,6 +117,7 @@ political_decisions = {
 					OR = {
 						owner = {in_sphere = THIS}
 						owner = {tag = THIS}
+						owner = {vassal_of = THIS}
 					}
 				}
 			}

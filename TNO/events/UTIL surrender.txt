@@ -1,0 +1,19 @@
+country_event = {
+	id = 500309
+	title = "We win!"
+	desc = "Another player has given you full occupation!"
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			any_owned = {
+				limit = {controlled_by = FROM}
+				change_controller = THIS
+			}
+		}
+	}
+
+	option = {
+		name = "ok."
+	}
+}

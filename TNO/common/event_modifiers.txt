@@ -1,6 +1,8 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+
+
 capital_supply = {
     supply_limit = 1000
     icon = 17
@@ -105,6 +107,7 @@ cornwall_funding = {
 	tax_efficiency = 1
 	import_cost = -1
 	max_loan_modifier = 10
+	supply_consumption = -1
 }
 
 russian_integration_talks = {

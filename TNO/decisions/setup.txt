@@ -1216,6 +1216,10 @@ political_decisions = {
 				set_country_flag = I_am_borman
 			}
 			SGE = {set_country_flag = I_am_speer}
+			HGE = {set_country_flag = I_am_heydrich}
+			GGE = {set_country_flag = I_am_goering}
+
+
 			set_country_flag = german_main
 			EGA = {set_country_flag = german_main}
 			WGA = {set_country_flag = german_main}

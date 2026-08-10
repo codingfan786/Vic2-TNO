@@ -5,12 +5,13 @@ political_decisions = {
 		potential = {
 			has_country_flag = is_germany_optimization_flag
 			NOT = {exists = GER}
-			ITA = {government = proletarian_dictatorship}
 			NOT = {has_country_flag = set_up_nit}
 		}
 		allow = {
 			state_n_government = 1
 			NOT = {truce_with = ITA}
+			NOT = {government = proletarian_dictatorship}
+			ITA = {government = proletarian_dictatorship}
 		}
 		effect = {
 			set_country_flag = set_up_nit

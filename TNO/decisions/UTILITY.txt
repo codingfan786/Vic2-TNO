@@ -880,4 +880,27 @@ political_decisions = {
 			factor = 0
 		}
 	}
+
+	surrender_to_player = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = show_util
+			war = yes
+		}
+		allow = {
+			war_countries = {
+				ai = no
+			}
+		}
+		effect = {
+			random_country = {
+				limit = {
+					ai = no
+					war_with = THIS
+				}
+				country_event = 500309
+			}
+		}
+	}
 }
