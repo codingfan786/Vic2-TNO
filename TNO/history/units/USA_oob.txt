@@ -23,7 +23,7 @@ NAV = {
 	value = 125
 	level = 3
 }
-PHI = {
+PHL = {
 	level = 5
 	influence_value = 50
 }

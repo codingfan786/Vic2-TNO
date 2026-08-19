@@ -24,7 +24,7 @@ country_event = {
 						war = yes
 						OR = {
 							tag = PHR
-							tag = PHI
+							tag = PHL
 						}
 						NOT = { 
 							year = 1963 
@@ -54,7 +54,7 @@ country_event = {
 						war = yes
 						OR = {
 							tag = PHR
-							tag = PHI
+							tag = PHL
 						}
 						NOT = { 
 							year = 1963 
@@ -85,7 +85,7 @@ country_event = {
 						war = yes
 						OR = {
 							tag = PHR
-							tag = PHI
+							tag = PHL
 						}
 						NOT = { 
 							year = 1963 
@@ -116,7 +116,7 @@ country_event = {
 						war = yes
 						OR = {
 							tag = PHR
-							tag = PHI
+							tag = PHL
 						}
 						NOT = { 
 							year = 1963 
@@ -147,7 +147,7 @@ country_event = {
 						war = yes
 						OR = {
 							tag = PHR
-							tag = PHI
+							tag = PHL
 						}
 						NOT = { 
 							year = 1963 

@@ -1,3 +1,9 @@
+JAP = {
+	value = -200
+	level = 0
+	truce_until = "1965.6.1"
+}
+
 army = {
 	name = "1a Armata" #done
 	location = 1602

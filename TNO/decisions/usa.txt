@@ -303,4 +303,42 @@ political_decisions = {
 			}
 		}
 	}
+
+	victory_phillipines = {
+		picture = apply_for_USA_statehood
+		potential = {
+			tag = USA
+			NOT = {has_country_flag = fifty_first_state}
+		}
+		allow = {
+			PHL = {
+				in_sphere = USA
+				war = no
+				OR = {
+					is_vassal = no
+					vassal_of = USA
+				}
+				all_core = {
+					OR = {
+						owned_by = PHL
+						owned_by = USA
+						owned_by = OFN
+					}
+				}
+			}
+			state_n_government = 1
+		}
+		effect = {
+			PHL = {
+				country_event = 500016
+				all_core = {
+					add_core = USA
+				}
+			}
+
+			inherit = PHL
+			add_accepted_culture = filipino
+			set_country_flag = fifty_first_state
+		}
+	}
 }

@@ -1,6 +1,7 @@
 political_decisions = {
 	pan_latinx_empire_start = {
 		potential = {
+			always = no
 			tag = MEX
 			NOT = {has_country_flag = latinx_started }
 		}
@@ -37,6 +38,7 @@ political_decisions = {
 
 	pan_latinx_empire_middle = {
 		potential = {
+			always = no
 			tag = MEX
 			has_country_flag = latinx_started
 			NOT = {has_country_flag = latinx_middle }
@@ -61,6 +63,7 @@ political_decisions = {
 	empress_mexico = {
 
 		potential = {
+			always = no
 			tag = MEX
 			NOT = {has_country_flag = mexico_huge}
 		}

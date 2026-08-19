@@ -54,62 +54,6 @@ country_event = {
 }
 
 country_event = {
-	id = 500075
-	title = "Develop Occupation Into Settlement."
-	desc = "EVENTDESC500075"
-	trigger = {
-		tag = BRG
-		has_country_flag = brg_coring
-		any_owned_province = {
-			NOT = {is_core = THIS}
-			OR = {
-				is_core = FRA
-				is_core = BEL
-				is_core = NET
-			}
-			NOT = {is_core = ITA}
-			OR = {
-				#culture = north_german
-				#culture = south_german
-				is_primary_culture = yes
-				is_accepted_culture = yes
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		any_owned = {
-				limit = {
-					NOT = {is_core = THIS}
-					OR = {
-						is_core = FRA
-						is_core = BEL
-						is_core = NET
-					}
-					NOT = {is_core = ITA}
-					OR = {
-						is_primary_culture = yes
-						is_accepted_culture = yes
-					}
-				}
-				state_scope = {
-					any_owned = {
-						add_core = THIS
-					}
-				}
-			}
-	}
-
-	option = {
-		name = "Another victory for the fatherland!"
-	}
-}
-
-country_event = {
 	id = 500169
 	title = "Burgundian French occupation."
 	desc = "France has suffered a second humiliation in only 20 years as Ordensstaat Burgund has siezed large portions of northern France."
@@ -236,6 +180,6 @@ country_event = {
 	}
 
 	option = {
-		name = "ok"
+		name = "Damn!"
 	}
 }

@@ -3412,11 +3412,13 @@ proxy_war = {
 			THIS = {ai = no}
 			is_greater_power = no #ai shouldn't start proxy wars that will turn nuclear
 		}
-		OR = { #makes sure this cannot be used during the GAW
-			NOT = { tag = YNN }
-			NOT = { THIS = { tag = JAP } }
-			NOT = { exists = CHI }
-		}
+
+		NOT = {truce_with = THIS}
+		#OR = { #makes sure this cannot be used during the GAW
+		#	NOT = { tag = YNN }
+		#	NOT = { THIS = { tag = JAP } }
+		#	NOT = { exists = CHI }
+		#}
 	}
 
 	is_civil_war = yes

@@ -18,7 +18,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			add_accepted_culture = russian
+			add_accepted_culture = siberian #was russian
 		}
 	}
 
